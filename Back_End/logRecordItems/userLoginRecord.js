@@ -3,7 +3,7 @@ const { format } = require('date-fns');
 const {v4: uuid} = require('uuid');
 
 
-import React from 'react'
+
 
 const UserLoginRecord = (message, logType, logName) => {
     // TODO:: Create Options log Record Object to pass in
@@ -18,5 +18,5 @@ const UserLoginRecord = (message, logType, logName) => {
   )
 }
 
-export default UserLoginRecord
+module.exports = UserLoginRecord;
 

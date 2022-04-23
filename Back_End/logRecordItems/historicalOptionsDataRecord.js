@@ -3,7 +3,6 @@ const { format } = require('date-fns');
 const {v4: uuid} = require('uuid');
 
 
-import React from 'react'
 
 const HistoricalOptionsDataRecord = (message, logType, logName) => {
     // TODO:: Create Historicl Options logItem Object to pass in

@@ -8,9 +8,9 @@ const EventEmitter = require('events');
 class Emitter extends EventEmitter{ };
 const myEmitter = new Emitter();
 //******************************
-// listeners for the EventLogger
-myEmitter.on('serverActivityLogs', (msg) => logServerEvents(msg, 'serverActivityLogs' , 'serverActivityLogs.txt'));
-myEmitter.on('serverErrorLogs', (msg) => logServerEvents(msg, 'serverErrorLogs' , 'serverErrorLogs.txt'));
+// listeners for the serverEvents
+myEmitter.on('serverActivityLogs', (msg) => logServerEvents(msg, 'APPserverActivityLogs' , 'APPserverActivityLogs.txt'));
+myEmitter.on('serverErrorLogs', (msg) => logServerEvents(msg, 'APPserverErrorLogs' , 'APPserverErrorLogs.txt'));
 //******************************
 // Replace [process.env.PORT] with where we
 // would be Hosting the site at

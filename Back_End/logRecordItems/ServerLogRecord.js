@@ -3,7 +3,7 @@ const { format } = require('date-fns');
 const {v4: uuid} = require('uuid');
 
 
-import React from 'react'
+
 
 const ServerLogRecord = (message, logType, logName) => {
     const dateTime = `${format(new Date(), 'yyyyMMdd\tHH:mm:ss')}`;  
@@ -18,7 +18,7 @@ const ServerLogRecord = (message, logType, logName) => {
   )
 }
 
-export default ServerLogRecord
+module.exports = ServerLogRecord;
 
 
 

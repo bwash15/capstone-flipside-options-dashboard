@@ -3,7 +3,7 @@ const { format } = require('date-fns');
 const {v4: uuid} = require('uuid');
 
 
-import React from 'react'
+
 
 const OptionsLogRecord = (message, logType, logName) => {
     // TODO:: Create Options logItem Object to pass in

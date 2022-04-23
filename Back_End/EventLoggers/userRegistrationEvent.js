@@ -36,29 +36,30 @@
 const fs = require('fs');
 const fsPromises = require('fs').promises;
 const path = require('path');
-const UserRegistrationRecord = require('../logRecordItems/UserRegistrationRecord');
+
 
 const { format } = require('date-fns');
 const {v4: uuid} = require('uuid');
 
-const userRegistrationEvents = async (message, logType, logName, UserRegistrationRecord) => {
-    UserRegistrationRecord(message, logType, logName);
-    // const dateTime = `${format(new Date(), 'yyyyMMdd\tHH:mm:ss')}`;
-    // // Add username to the logItem
-    // const logItem = `[${dateTime}]\t[${uuid()}]\n\t[${message}]\n\t[${logType}]`;
-    // console.log(logItem);
+const userRegistrationEvent = async (message, logType, logName) => {
+    
+    const dateTime = `${format(new Date(), 'yyyyMMdd\tHH:mm:ss')}`;  
+    const logDir = path.join(__dirname,'..', logType); 
+    const logPath = path.join(logDir, logName);         
+    // Add username to the logItem
+    const logItem = `\n\tDateTime:[${dateTime}]\n\tUUID:[${uuid()}]\n\tPATH:[${path.basename(logDir)}][${path.basename(logPath)}]\n\tMessage:[${message}]\n`;
+    console.log(logItem);
     try{  
         // check to see if the directory exists
-        if(!fs.existsSync(path.join(__dirname, logType))) {
+        if(!fs.existsSync(path.join(logDir))) {
             // if not will create one before trying to create the log file
-            await fsPromises.mkdir(path.join(__dirname, logType));
-        } 
-        
-        await fsPromises.appendFile(path.join(__dirname, logType, logName), logItem);
+            await fsPromises.mkdir(logDir);
+        }         
+        await fsPromises.appendFile(path.join(logDir, logName), logItem);
     }catch (err){
         console.log(err);
     }
 }
 
-module.exports = userRegistrationEvents;
+module.exports = userRegistrationEvent;
             
