@@ -1,0 +1,3 @@
+
+DateTime:[20220424	16:01:37]	UUID:[93647f11-ff9b-4c09-8ac6-13dfb3d38a56]	PATH:[ServerActivityLogs][expServLog.txt]
+	Message:[Server Port: 3600]

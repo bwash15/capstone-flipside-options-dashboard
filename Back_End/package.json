@@ -5,7 +5,7 @@
     "main": "exp_server.js",
     "scripts": {
         "start": "node exp_server",
-        "dev": "nodemon exp_server ",
+        "dev": "nodemon exp_server",
         "devu": "nodemon index.js"
     },
     "repository": {
@@ -30,6 +30,7 @@
         "jsonwebtoken": "^8.5.1",
         "mongodb": "^4.5.0",
         "mongoose": "^6.3.1",
+        "nodemon": "^2.0.15",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
