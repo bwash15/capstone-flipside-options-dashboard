@@ -11,20 +11,17 @@ const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 
 const Signup = () => {
 
+	
 	const userRef = useRef();
-    const errRef = useRef();
 
     const [firstName, setFirstName] = useState('');
     const [validFirstName, setValidFirstName] = useState(false);
-    const [firstNameFocus, setFirstNameFocus] = useState(false);
 
     const [lastName, setLastName] = useState('');
     const [validLastName, setValidLastName] = useState(false);
-    const [lastNameFocus, setLastNameFocus] = useState(false);
 
     const [email, setEmail] = useState('');
     const [validEmail, setValidEmail] = useState(false);
-    const [emailFocus, setEmailFocus] = useState(false);
 
     const [pwd, setPwd] = useState('');
     const [validPwd, setValidPwd] = useState(false);
@@ -32,11 +29,10 @@ const Signup = () => {
 
     const [matchPwd, setMatchPwd] = useState('');
     const [validMatch, setValidMatch] = useState(false);
-    const [matchFocus, setMatchFocus] = useState(false);
 
-	useEffect(() => {
-        userRef.current.focus();
-    }, [])
+	 useEffect(() => {
+         userRef.current.focus();
+     }, [])
 
     useEffect(() => {
         setValidFirstName(NAME_REGEX.test(firstName));
@@ -58,7 +54,6 @@ const Signup = () => {
     useEffect(() => {
         setErrMsg('');
     }, [email, pwd, matchPwd])
-	
 
 	const setClassName=(e, h) => {
 		if(e && h)
@@ -69,7 +64,6 @@ const Signup = () => {
 			return styles.input;
 	}
 
-	
 
     const [errMsg, setErrMsg] = useState('');
 
@@ -130,14 +124,13 @@ const Signup = () => {
 							value={data.firstName}
 							required
 							className={setClassName(firstName, validFirstName)}
+							autofocus={true}
 						/>
-						
 						<input
 							type="text"
 							placeholder="Last Name"
 							id="lastname"
 							name="lastName"
-							ref={userRef}
 							onChange={handleChange}
 							onInput={(e) => setLastName(e.target.value)}
 							value={data.lastName}
@@ -149,7 +142,6 @@ const Signup = () => {
 							placeholder="Email"
 							name="email"
 							id="email"
-							ref={userRef}
 							onChange={handleChange}
 							value={data.email}
 							required
@@ -161,7 +153,6 @@ const Signup = () => {
 							placeholder="Password"
 							name="password"
 							id="password"
-							ref={userRef}
 							onChange={handleChange}
 							value={data.pwd}
 							required
@@ -173,7 +164,6 @@ const Signup = () => {
 							placeholder="Confirm Password"
 							name="confirmpassword"
 							id="confirmpassword"
-							ref={userRef}
 							onChange={(e) => setMatchPwd(e.target.value)}
 							value={matchPwd}
 							required
