@@ -1,0 +1,3 @@
+
+DateTime:[20220424	09:01:49]	UUID:[cef39289-2d93-40dd-a571-9ee6c138a46b]	PATH:[ServerActivityLogs][indexPageAccessLog.txt]
+	Message:[Index Page Access]

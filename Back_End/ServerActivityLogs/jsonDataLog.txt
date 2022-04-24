@@ -1,0 +1,6 @@
+
+DateTime:[20220424	09:01:44]	UUID:[a901f796-f71e-439c-81e1-489076e2ff06]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220424	12:11:34]	UUID:[52919708-4cb7-4ea3-810c-99af9c03cefd]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
