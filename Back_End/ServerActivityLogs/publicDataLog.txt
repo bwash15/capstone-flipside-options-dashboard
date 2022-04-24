@@ -1,0 +1,3 @@
+
+DateTime:[20220424	16:01:37]	UUID:[cb032373-3951-44b8-b835-2bc3a1f48c67]	PATH:[ServerActivityLogs][publicDataLog.txt]
+	Message:[Server found request in Public directory]
