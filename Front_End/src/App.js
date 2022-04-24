@@ -1,5 +1,5 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-import Main from "./Views/LandingPage";
+import Home from "./Views/LandingPage/";
 import Signup from "./Views/Signup";
 import Login from "./Views/Login";
 
@@ -8,7 +8,7 @@ function App() {
 
 	return (
 		<Routes>
-			{user && <Route path="/" exact element={<Main />} />}
+			{user && <Route path="/" exact element={<Home />} />}
 			<Route path="/signup" exact element={<Signup />} />
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />
