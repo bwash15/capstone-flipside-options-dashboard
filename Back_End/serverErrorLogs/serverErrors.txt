@@ -1,0 +1,66 @@
+
+DateTime:[20220424	17:46:57]	UUID:[72df4171-d215-4fdd-8f5a-83c4422cfbcb]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:21:26]	UUID:[bb9198c4-2747-4319-9e79-e227f65e8166]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:43:17]	UUID:[cb60a148-d400-40cb-a686-9bf1477b3d24]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:43:25]	UUID:[7ae7010f-6af5-4aac-b814-2508e733ffef]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:48:25]	UUID:[25656fd0-ad9c-476f-a091-0f0f42937e74]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:49:04]	UUID:[f5cb55e1-559c-45b8-b809-58089d59ec22]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:49:29]	UUID:[1b4ea545-15a2-4167-9699-a095f322b1d5]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:49:56]	UUID:[012df6d5-e0d2-466f-81df-09bfa7b9f690]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:50:51]	UUID:[0116ab71-eb58-4c55-b116-f44e7fed6263]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:50:51]	UUID:[9aa7bd0d-e186-40dd-bac8-d4c73411cbc8]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:54:19]	UUID:[3c989cab-27b0-4e8f-92cd-97b540ab4ef4]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:57:37]	UUID:[f1b6d5cd-400a-4cc6-a064-f2cb80f7301b]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	18:57:37]	UUID:[c92a23e3-813b-41f6-9dde-d63c563ab428]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:03:40]	UUID:[844284b8-33fe-4398-9e8f-195676e7a557]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:03:40]	UUID:[53e514f2-fb6d-4997-8cad-25ccd5c64480]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:04:05]	UUID:[5dba0e06-13d5-485a-b02e-3d6ec2a0b51b]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:04:30]	UUID:[a72890e0-cd54-4e9b-a328-1c88003d93ca]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:04:32]	UUID:[f89fb1ac-b30a-4346-8efa-76458e44e32a]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:04:33]	UUID:[90798128-38c7-4488-beb7-ac53fd862785]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:04:50]	UUID:[0cd7fde7-ad90-4197-83ae-3d893e303a98]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220424	19:07:39]	UUID:[4da83e16-dbc6-45ba-b467-3e9eb9676e7d]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: Cannot read properties of undefined (reading 'methods')]
+
+DateTime:[20220424	19:14:47]	UUID:[cd18e7bf-c6d1-4713-89a6-fbd202d5ba3d]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
