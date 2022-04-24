@@ -2,6 +2,12 @@ const router = require("express").Router();
 const { User } = require("../schema/user");
 const bcrypt = require("bcrypt");
 const Joi = require("joi");
+const EventEmitter = require('events');
+class Emitter extends EventEmitter{};
+// initialize object
+const myEmitter = new Emitter();
+const logServerEvents = require('./../logServerEvents')
+myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 router.post("/", async (req, res) => {
 	try {
@@ -23,6 +29,7 @@ router.post("/", async (req, res) => {
 		const token = user.generateAuthToken();
 		res.status(200).send({ data: token, message: "logged in successfully" });
 	} catch (error) {
+		myEmitter.emit('errorLog', 'message: ' + error.message, 'serverErrorLogs', 'serverErrors.txt' );
 		res.status(500).send({ message: "Internal Server Error" });
 	}
 });

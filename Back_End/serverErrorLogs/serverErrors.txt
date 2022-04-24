@@ -1,0 +1,3 @@
+
+DateTime:[20220424	17:46:57]	UUID:[72df4171-d215-4fdd-8f5a-83c4422cfbcb]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: secretOrPrivateKey must have a value]
