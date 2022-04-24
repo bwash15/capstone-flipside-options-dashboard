@@ -6,7 +6,8 @@
     "scripts": {
         "start": "node exp_server",
         "dev": "nodemon exp_server",
-        "devu": "nodemon index.js"
+        "devu": "nodemon index.js",
+        "dev2": "nodemon index.js"
     },
     "repository": {
         "type": "git",
