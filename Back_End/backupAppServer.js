@@ -9,8 +9,8 @@ class Emitter extends EventEmitter{ };
 const myEmitter = new Emitter();
 //******************************
 // listeners for the serverEvents
-myEmitter.on('serverActivityLogs', (msg) => logServerEvents(msg, 'APPserverActivityLogs' , 'APPserverActivityLogs.txt'));
-myEmitter.on('serverErrorLogs', (msg) => logServerEvents(msg, 'APPserverErrorLogs' , 'APPserverErrorLogs.txt'));
+myEmitter.on('serverActivityLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
+myEmitter.on('backupserverErrorLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
 //******************************
 // Replace [process.env.PORT] with where we
 // would be Hosting the site at
@@ -38,7 +38,7 @@ const serveFile = async (filePath, contentType, response) => {
     } catch (err) {
         console.log(err);
         // Error Event Handler goes here 
-        myEmitter.emit('serverErrorLogs', `${err.name}: ${err.message}`, 'errorLog.txt');
+        myEmitter.emit('backupserverErrorLogs', `${err.name}: ${err.message}`,'backupSeverErrorLogs', 'errorLog.txt');
         response.statusCode = 500;
         response.end();
     }
@@ -48,7 +48,10 @@ const serveFile = async (filePath, contentType, response) => {
 const server = http.createServer((req, res) => {
         console.log(req.url, req.method);
         // ServerEvent Handler goes here
-        myEmitter.emit('serverActivityLogs', `${req.url}\t${req.method}`, 'reqlog.txt');
+        // [** Refactor Point **]
+        myEmitter.emit('backupServerActivityLogs', `${req.url}\t${req.method}`,'backupServerActivityLogs',  'reqlog.txt');
+        myEmitter.emit('backupServerActivityLogs', `${req.url}\t${req.method}`,'backupServerActivityLogs',  'activitylog.txt');
+       
 
         // sets the extension
         const extension = path.extname(req.url);
@@ -130,7 +133,7 @@ const server = http.createServer((req, res) => {
     }
 })
 server.listen(PORT, () => console.log(`Server Running on ${PORT}`));
-
+myEmitter.emit(`backupServerActivityLogs`, `Server started on ${PORT}!`,'backupServerActivityLogs','activityLog.txt');
 
 // myEmitter.on('ServerLog', (msg) => logServerEvents(msg, 'serverLogs' , 'logs.txt'));
 

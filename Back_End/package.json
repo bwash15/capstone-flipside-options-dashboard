@@ -2,10 +2,10 @@
     "name":"flipside_1.1",
     "version":"1.0.0",
     "description":"Options Dashboard",
-    "main":"backupAppServer.js",
+    "main":"exp_server.js",
     "scripts":{
-        "start":"node backupAppServer",
-        "dev":"nodemon backupAppServer"
+        "start":"node exp_server",
+        "dev":"nodemon exp_server"
     },
         "repository":{
             "type":"git",

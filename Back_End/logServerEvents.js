@@ -2,6 +2,8 @@
 /**
  * 
  * @param {is the error message for the event} message 
+ * @param {type of the log; Also, path to the log file} logType 
+ * @param {log file name} logName 
  *  > async / await
  *  > logs the date time of the event in a TAB delimited log file 
  *  > logs the event message after the dateTime also TAB delimited
@@ -45,7 +47,7 @@ const logServerEvents = async (message, logType, logName) => {
     const logDir = path.join(__dirname, logType); 
     const logPath = path.join(logDir, logName);         
     // Add username to the logItem
-    const logItem = `\n\tDateTime:[${dateTime}]\n\tUUID:[${uuid()}]\n\tPATH:[${path.basename(logDir)}][${path.basename(logPath)}]\n\tMessage:[${message}]\n`;
+    const logItem = `\nDateTime:[${dateTime}]\tUUID:[${uuid()}]\tPATH:[${path.basename(logDir)}][${path.basename(logPath)}]\n\tMessage:[${message}]\n`;
     console.log(logItem);
     try{  
         // check to see if the directory exists
