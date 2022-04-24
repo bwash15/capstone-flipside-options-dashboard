@@ -22,7 +22,7 @@ const Login = () => {
 			if (
 				error.response &&
 				error.response.status >= 400 &&
-				error.response.status < 600
+				error.response.status <= 500
 			) {
 				setError(error.response.data.message);
 			}
