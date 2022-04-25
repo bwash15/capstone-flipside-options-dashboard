@@ -2,6 +2,9 @@
 DateTime:[20220424	17:46:57]	UUID:[72df4171-d215-4fdd-8f5a-83c4422cfbcb]	PATH:[serverErrorLogs][serverErrors.txt]
 	Message:[message: secretOrPrivateKey must have a value]
 
+<<<<<<< HEAD
+DateTime:[20220424	19:05:13]	UUID:[f9f31882-68c9-41c5-901e-6c59e773d42f]	PATH:[serverErrorLogs][serverErrors.txt]
+=======
 DateTime:[20220424	18:21:26]	UUID:[bb9198c4-2747-4319-9e79-e227f65e8166]	PATH:[serverErrorLogs][serverErrors.txt]
 	Message:[message: secretOrPrivateKey must have a value]
 
@@ -63,4 +66,5 @@ DateTime:[20220424	19:07:39]	UUID:[4da83e16-dbc6-45ba-b467-3e9eb9676e7d]	PATH:[s
 	Message:[message: Cannot read properties of undefined (reading 'methods')]
 
 DateTime:[20220424	19:14:47]	UUID:[cd18e7bf-c6d1-4713-89a6-fbd202d5ba3d]	PATH:[serverErrorLogs][serverErrors.txt]
+>>>>>>> bf9f207bde6890211f7aa57ebcb5bdc152e6e4eb
 	Message:[message: secretOrPrivateKey must have a value]
