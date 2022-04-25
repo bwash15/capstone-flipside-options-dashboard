@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const connection = require("./db");
-const credentials = require('./middleware/credentials');
+const credentials = require('./Middleware/credentials');
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
 
