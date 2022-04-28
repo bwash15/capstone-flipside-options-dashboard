@@ -106,3 +106,12 @@ DateTime:[20220428	19:10:26]	UUID:[cb169924-79fb-46ca-8f30-15f975714c85]	PATH:[S
 
 DateTime:[20220428	19:11:10]	UUID:[47b2f236-419d-4663-aaa2-61c740f57ea4]	PATH:[ServerActivityLogs][publicDataLog.txt]
 	Message:[Server found request in Public directory]
+
+DateTime:[20220428	19:13:24]	UUID:[0b1d784d-5627-4bd2-a229-d1f573b13c7c]	PATH:[ServerActivityLogs][publicDataLog.txt]
+	Message:[Server found request in Public directory]
+
+DateTime:[20220428	19:13:36]	UUID:[811d01b7-201a-48ea-8933-a256f1471dd8]	PATH:[ServerActivityLogs][publicDataLog.txt]
+	Message:[Server found request in Public directory]
+
+DateTime:[20220428	19:13:59]	UUID:[a05a4a77-b52d-46ad-beff-d2a8898f5cda]	PATH:[ServerActivityLogs][publicDataLog.txt]
+	Message:[Server found request in Public directory]

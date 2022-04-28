@@ -106,3 +106,12 @@ DateTime:[20220428	19:10:26]	UUID:[d6c14f51-fe1d-4cc8-bf86-eb89b8a10918]	PATH:[S
 
 DateTime:[20220428	19:11:10]	UUID:[d9f0622b-6368-48e3-a4ce-a8dced008e26]	PATH:[ServerActivityLogs][expServLog.txt]
 	Message:[Server Port: 3600]
+
+DateTime:[20220428	19:13:24]	UUID:[3be1bdee-2065-4c08-90cf-d2d522e4ebd4]	PATH:[ServerActivityLogs][expServLog.txt]
+	Message:[Server Port: 3600]
+
+DateTime:[20220428	19:13:36]	UUID:[5e2c8e51-9a7b-4dc4-bf26-3b926d4b31a5]	PATH:[ServerActivityLogs][expServLog.txt]
+	Message:[Server Port: 3600]
+
+DateTime:[20220428	19:13:59]	UUID:[54d962c6-3da2-432f-a26c-5ac3f77d92ce]	PATH:[ServerActivityLogs][expServLog.txt]
+	Message:[Server Port: 3600]

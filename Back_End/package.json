@@ -8,8 +8,7 @@
         "frontend": "cd ../Front_End && npm start",
         "devf": "concurrently  \"npm run frontend\" \"npm run devu\" \"npm run exp\"",
         "devu": "nodemon index.js",
-        "exp": "nodemon exp_server.js",
-        "log": "nodemon logServerEvents.js"
+        "exp": "nodemon exp_server.js"
     },
     "repository": {
         "type": "git",
