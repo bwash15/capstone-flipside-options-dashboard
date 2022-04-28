@@ -1,21 +1,34 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
-const Login = () => {
+
+export default function Login() {
 	const [data, setData] = useState({ email: "", password: "" });
 	const [error, setError] = useState("");
 
+	
 	const handleChange = ({ currentTarget: input }) => {
 		setData({ ...data, [input.name]: input.value });
 	};
 
+	
+
+	
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
 			const url = "http://localhost:8080/api/auth";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
+			localStorage.setItem("token", res.data);
+			console.log(res.user);
+			localStorage.setItem("user", JSON.stringify({
+				firstName: res.user.firstName,
+				lastName: res.user.lastName,
+				email: res.user.email,
+				_id:  res.user._id
+			}) )
 			window.location = "/";
 		} catch (error) {
 			if (
@@ -70,6 +83,4 @@ const Login = () => {
 			</div>
 		</div>
 	);
-};
-
-export default Login;
+}
