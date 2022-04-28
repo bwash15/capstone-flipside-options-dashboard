@@ -1,0 +1,128 @@
+@media  only screen and (min-width: 375px) and (max-width: 969px)  {
+
+    .signup_container {
+        background-color: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .signup_form_container {
+        margin: 10px 10px 0 10px;
+        display: flex;
+        border-radius: 10px;
+        box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+            0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    }
+    
+    .left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0075c5;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .left h1 {
+        margin: 10px 10px 10px 10px;
+        color: white;
+        font-size: 18px;
+        align-self: center;
+    }
+    
+    .right {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .form_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form_container h1 {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    
+    .input {
+        outline: none;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #edf5f3;
+        margin: 5px 0;
+        font-size: 12px;
+    }
+    
+    .goodInput{
+        outline: none;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #edf5f3;
+        margin: 5px 0;
+        font-size: 12px;
+        outline: none !important;
+        border-color: limegreen;
+        box-shadow: 0 0 10px limegreen;
+    }
+    
+    .badInput{
+        outline: none;
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #edf5f3;
+        margin: 5px 0;
+        font-size: 12px;
+        outline: none !important;
+        border-color: red;
+        box-shadow: 0 0 10px red;
+    }
+    
+    
+    .error_msg {
+        width: 370px;
+        padding: 15px;
+        margin: 5px 0;
+        font-size: 14px;
+        background-color: #f34646;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .white_btn,
+    .green_btn {
+        border: none;
+        outline: none;
+        padding: 5px 0;
+        background-color: white;
+        border-radius: 20px;
+        width: 75px;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .green_btn {
+        background-color: #0075c5;
+        color: white;
+        margin: 10px;
+        cursor: pointer;
+    }
+    
+    
+}

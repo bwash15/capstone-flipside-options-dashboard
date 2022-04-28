@@ -1,8 +1,9 @@
 import { useRef, useState, useEffect } from "react";
+import { BrowserView, MobileView, isMobile } from "react-device-detect";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import styles from  "./styles.module.css";
-
+import mobilestyles from "./mobilestyle.module.css"
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
@@ -56,12 +57,22 @@ const Signup = () => {
     }, [email, pwd, matchPwd])
 
 	const setClassName=(e, h) => {
-		if(e && h)
-			return styles.goodInput;
-		if(e && !h)
-			return styles.badInput;
-		else
-			return styles.input;
+		if(isMobile){
+			if(e && h)
+				return mobilestyles.goodInput;
+			if(e && !h)
+				return mobilestyles.badInput;
+			else
+				return mobilestyles.input;
+		}
+		else{
+			if(e && h)
+				return styles.goodInput;
+			if(e && !h)
+				return styles.badInput;
+			else
+				return styles.input;
+		}
 	}
 
 
@@ -99,85 +110,172 @@ const Signup = () => {
 		}
 	};
 
-	return (
-		<div className={styles.signup_container}>
-			<div className={styles.signup_form_container}>
-				<div className={styles.left}>
-					<h1>Welcome Back</h1>
-					<Link to="/login">
-						<button type="button" className={styles.white_btn}>
-							Sign in
-						</button>
-					</Link>
+	if(isMobile){
+		return (
+			
+				<div className={mobilestyles.signup_container}>
+					<div className={mobilestyles.signup_form_container}>
+						<div className={mobilestyles.left}>
+							<h1>Welcome Back</h1>
+							<Link to="/login">
+								<button type="button" className={mobilestyles.white_btn}>
+									Sign in
+								</button>
+							</Link>
+						</div>
+						<div className={mobilestyles.right}>
+							<form className={mobilestyles.form_container} onSubmit={handleSubmit}>
+								<h1>Create Account</h1>
+								<input
+									type="text"
+									placeholder="First Name"
+									id="firstname"
+									name="firstName"
+									ref={userRef}
+									onChange={handleChange}
+									onInput={(e) => setFirstName(e.target.value)}
+									value={data.firstName}
+									required
+									className={setClassName(firstName, validFirstName)}
+									autofocus={true}
+								/>
+								<input
+									type="text"
+									placeholder="Last Name"
+									id="lastname"
+									name="lastName"
+									onChange={handleChange}
+									onInput={(e) => setLastName(e.target.value)}
+									value={data.lastName}
+									required
+									className={setClassName(lastName, validLastName)}
+								/>
+								<input
+									type="email"
+									placeholder="Email"
+									name="email"
+									id="email"
+									onChange={handleChange}
+									value={data.email}
+									required
+									onInput={(e) => setEmail(e.target.value)}
+									className={setClassName(email, validEmail)}
+								/>
+								<input
+									type="password"
+									placeholder="Password"
+									name="password"
+									id="password"
+									onChange={handleChange}
+									value={data.pwd}
+									required
+									onInput={(e) => setPwd(e.target.value)}
+									className={setClassName(pwd, validPwd)}
+								/>
+								<input
+									type="password"
+									placeholder="Confirm Password"
+									name="confirmpassword"
+									id="confirmpassword"
+									onChange={(e) => setMatchPwd(e.target.value)}
+									value={matchPwd}
+									required
+									className={setClassName(matchPwd, validMatch)}
+								/>
+								{error && <div className={mobilestyles.error_msg}>{error}</div>}
+								<button type="submit" className={mobilestyles.green_btn}>
+									Sign Up
+								</button>
+							</form>
+						</div>
+					</div>
 				</div>
-				<div className={styles.right}>
-					<form className={styles.form_container} onSubmit={handleSubmit}>
-						<h1>Create Account</h1>
-						<input
-							type="text"
-							placeholder="First Name"
-							id="firstname"
-							name="firstName"
-							ref={userRef}
-							onChange={handleChange}
-							onInput={(e) => setFirstName(e.target.value)}
-							value={data.firstName}
-							required
-							className={setClassName(firstName, validFirstName)}
-							autofocus={true}
-						/>
-						<input
-							type="text"
-							placeholder="Last Name"
-							id="lastname"
-							name="lastName"
-							onChange={handleChange}
-							onInput={(e) => setLastName(e.target.value)}
-							value={data.lastName}
-							required
-							className={setClassName(lastName, validLastName)}
-						/>
-						<input
-							type="email"
-							placeholder="Email"
-							name="email"
-							id="email"
-							onChange={handleChange}
-							value={data.email}
-							required
-							onInput={(e) => setEmail(e.target.value)}
-							className={setClassName(email, validEmail)}
-						/>
-						<input
-							type="password"
-							placeholder="Password"
-							name="password"
-							id="password"
-							onChange={handleChange}
-							value={data.pwd}
-							required
-							onInput={(e) => setPwd(e.target.value)}
-							className={setClassName(pwd, validPwd)}
-						/>
-						<input
-							type="password"
-							placeholder="Confirm Password"
-							name="confirmpassword"
-							id="confirmpassword"
-							onChange={(e) => setMatchPwd(e.target.value)}
-							value={matchPwd}
-							required
-							className={setClassName(matchPwd, validMatch)}
-						/>
-						{error && <div className={styles.error_msg}>{error}</div>}
-						<button type="submit" className={styles.green_btn}>
-							Sign Up
-						</button>
-					</form>
+			
+		);
+	}
+	else{
+		return (
+			<BrowserView>
+				<div className={styles.signup_container}>
+					<div className={styles.signup_form_container}>
+						<div className={styles.left}>
+							<h1>Welcome Back</h1>
+							<Link to="/login">
+								<button type="button" className={styles.white_btn}>
+									Sign in
+								</button>
+							</Link>
+						</div>
+						<div className={styles.right}>
+							<form className={styles.form_container} onSubmit={handleSubmit}>
+								<h1>Create Account</h1>
+								<input
+									type="text"
+									placeholder="First Name"
+									id="firstname"
+									name="firstName"
+									ref={userRef}
+									onChange={handleChange}
+									onInput={(e) => setFirstName(e.target.value)}
+									value={data.firstName}
+									required
+									className={setClassName(firstName, validFirstName)}
+									autofocus={true}
+								/>
+								<input
+									type="text"
+									placeholder="Last Name"
+									id="lastname"
+									name="lastName"
+									onChange={handleChange}
+									onInput={(e) => setLastName(e.target.value)}
+									value={data.lastName}
+									required
+									className={setClassName(lastName, validLastName)}
+								/>
+								<input
+									type="email"
+									placeholder="Email"
+									name="email"
+									id="email"
+									onChange={handleChange}
+									value={data.email}
+									required
+									onInput={(e) => setEmail(e.target.value)}
+									className={setClassName(email, validEmail)}
+								/>
+								<input
+									type="password"
+									placeholder="Password"
+									name="password"
+									id="password"
+									onChange={handleChange}
+									value={data.pwd}
+									required
+									onInput={(e) => setPwd(e.target.value)}
+									className={setClassName(pwd, validPwd)}
+								/>
+								<input
+									type="password"
+									placeholder="Confirm Password"
+									name="confirmpassword"
+									id="confirmpassword"
+									onChange={(e) => setMatchPwd(e.target.value)}
+									value={matchPwd}
+									required
+									className={setClassName(matchPwd, validMatch)}
+								/>
+								{error && <div className={styles.error_msg}>{error}</div>}
+								<button type="submit" className={styles.green_btn}>
+									Sign Up
+								</button>
+							</form>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
-	);
+			</BrowserView>
+		);
+	}
 };
 
 export default Signup;
