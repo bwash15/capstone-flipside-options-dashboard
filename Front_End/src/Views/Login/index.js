@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { BrowserView, MobileView, isMobile } from "react-device-detect";
+import { useState } from "react";
+import { isMobile } from "react-device-detect";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
