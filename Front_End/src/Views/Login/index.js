@@ -44,14 +44,6 @@ export default function Login() {
 
 	
 	if(isMobile){
-
-		function getDimesions(){
-			const {innerWidth: width, innerHeight: height} = window;
-			return{
-				width,
-				height,
-			}
-		}
 		return (
 			
 			
