@@ -1,8 +1,9 @@
 import { date, number } from 'joi';
 const mongoose = require('mongoose');
-const Schema  = mongoose.Schema;
+const { Schema } = mongoose;
 
-const daySchema = new Schema({  
+const day = new Schema({  
+  _id: Schema.Types.ObjectId,
   change:         {
     type: Number,
     default: 0
@@ -49,7 +50,7 @@ const daySchema = new Schema({
 // Defaults to subdocuments
 const subDaySchema = new mongoose.Schema({
   child: {
-    type: daySchema,
+    type: day,
     default: () => ({})
   }
 });
@@ -57,7 +58,8 @@ const SubDaydoc = mongoose.model('SubDaydoc', subDaySchema);
 
 
 
-const detailsSchema = new Schema({
+const details = new Schema({
+  _id: Schema.Types.ObjectId,
   contractType:        {
     type: String,
     default: ''
@@ -88,13 +90,14 @@ const detailsSchema = new Schema({
 // Defaults to subdocuments
 const subDetailsSchema = new mongoose.Schema({
   child: {
-    type: detailsSchema,
+    type: details,
     default: () => ({})
   }
 });
 const SubDetailsDoc = mongoose.model('SubDetailsDoc', subDetailsSchema);
 
-const greeks = new Schema({  
+const greeks = new Schema({ 
+  _id: Schema.Types.ObjectId, 
   delta: {
     type: Number,
     default: 0
@@ -113,7 +116,18 @@ const greeks = new Schema({
   }
 })
 
+// Ensures that each instance of the Document is initialized with 
+// Defaults to subdocuments
+const subGreeksSchema = new mongoose.Schema({
+  child: {
+    type: details,
+    default: () => ({})
+  }
+});
+const SubGreeksDoc = mongoose.model('SubGreeksDoc', subGreeksSchema);
+
 const last_quote = new Schema({
+  _id: Schema.Types.ObjectId,
   ask:          {
     type: Number,
     default: 0
@@ -145,6 +159,7 @@ const last_quote = new Schema({
 })
 
 const underlying_asset = new Schema({  
+    _id: Schema.Types.ObjectId,
     change_to_break_even:   {
       type: Number,
       default: 0
@@ -168,6 +183,7 @@ const underlying_asset = new Schema({
 })
 
 const snapShotSchema = new Schema({
+    _id: Schema.Types.ObjectId,
     request_id: {
       type: String,
       default: 0,
@@ -190,11 +206,11 @@ const snapShotSchema = new Schema({
         type: Number,
         default: 0
       },
-      children: underlying_asset      
+      children: underlying_assetSchema      
       },
-status: {
-  type: String,
-  default: ''
+  status: {
+    type: String,
+    default: ''
 }
 }
 );
