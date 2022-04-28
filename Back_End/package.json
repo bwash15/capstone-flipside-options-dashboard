@@ -6,6 +6,8 @@
     "scripts": {
         "start": "node exp_server",
         "dev": "nodemon exp_server",
+        "frontend": "cd ../Front_End && npm start",
+        "devf": "concurrently \"npm run devu\" \"npm run frontend\"",
         "devu": "nodemon index.js",
         "dev2": "nodemon index.js"
     },
@@ -22,6 +24,7 @@
     "dependencies": {
         "axios": "^0.26.1",
         "bcrypt": "^5.0.1",
+        "concurrently": "^7.1.0",
         "cors": "^2.8.5",
         "date-fns": "^2.28.0",
         "dotenv": "^16.0.0",
