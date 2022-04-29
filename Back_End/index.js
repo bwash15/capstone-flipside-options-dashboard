@@ -25,5 +25,5 @@ if (process.env.NODE_ENV === "production") {
     });
   }
 //process.env.PORT 
-const port = 8080;
+const port = process.env.PROXY || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
