@@ -2,7 +2,6 @@
   "name": "flipside",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://flip-side-app.herokuapp.com",
   "dependencies": {
     "axios": "^0.26.1",
     "cors": "^2.8.5",
@@ -18,6 +17,7 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "proxy":"https://flip-side-app.herokuapp.com/",
   
   "scripts": {
     "start": "react-scripts start",

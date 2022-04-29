@@ -6,12 +6,14 @@ const connection = require("./db");
 const credentials = require('./Middleware/credentials');
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
+const corsOptions = require("./config/corsOptions");
 
 // database connection
 connection();
 
 // middlewares
 app.use(express.json());
+app.use(credentials);
 app.use(cors());
 
 // routes
@@ -24,6 +26,6 @@ if (process.env.NODE_ENV === "production") {
       res.sendFile(path.resolve(path.basename(path.dirname(filename)),  "build", "index.html"));
     });
   }
- 
-const port = process.env.proxy || 8080;
+//process.env.PORT 
+const port = process.env.PROXY || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
