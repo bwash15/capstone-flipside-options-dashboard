@@ -13,7 +13,7 @@ connection();
 // middlewares
 app.use(express.json());
 app.use(credentials);
-app.use(cors(cors.options));
+app.use(cors());
 
 // routes
 app.use("/api/users", userRoutes);
