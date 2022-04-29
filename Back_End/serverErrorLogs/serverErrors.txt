@@ -68,3 +68,18 @@ DateTime:[20220424	19:07:39]	UUID:[4da83e16-dbc6-45ba-b467-3e9eb9676e7d]	PATH:[s
 DateTime:[20220424	19:14:47]	UUID:[cd18e7bf-c6d1-4713-89a6-fbd202d5ba3d]	PATH:[serverErrorLogs][serverErrors.txt]
 >>>>>>> bf9f207bde6890211f7aa57ebcb5bdc152e6e4eb
 	Message:[message: secretOrPrivateKey must have a value]
+
+DateTime:[20220426	20:47:34]	UUID:[31f9e24a-7a4f-4696-837e-ce59045d3057]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: data and hash arguments required]
+
+DateTime:[20220426	20:47:54]	UUID:[72658a36-0db9-41c2-b3ae-5a72b636f47c]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: data and hash arguments required]
+
+DateTime:[20220426	20:48:04]	UUID:[fd176bd3-366a-4b5e-80a1-909b092a7d0e]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: data and hash arguments required]
+
+DateTime:[20220426	20:48:12]	UUID:[1fe01c8b-136e-40d2-a2ad-5b569c9708b9]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: data and hash arguments required]
+
+DateTime:[20220426	20:48:23]	UUID:[e866ca53-6667-4f3f-9778-e2ecbfa54868]	PATH:[serverErrorLogs][serverErrors.txt]
+	Message:[message: data and hash arguments required]

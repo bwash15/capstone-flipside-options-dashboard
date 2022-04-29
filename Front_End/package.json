@@ -7,14 +7,17 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "isomorphic-fetch": "^3.0.0",
     "mongoose": "^6.3.1",
     "nodemon": "^2.0.15",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "proxy": "http://localhost:3000",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -25,7 +28,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ] 
   },
   "browserslist": {
     "production": [

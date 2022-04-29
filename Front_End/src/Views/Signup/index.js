@@ -85,8 +85,9 @@ const Signup = () => {
 		e.preventDefault();
 		try {
 			const url = "http://localhost:8080/api/users";
+			
 			const { data: res } = await axios.post(url, data);
-			navigate("/login");
+			navigate("/");
 			console.log(res.message);
 		} catch (error) {
 			if (
