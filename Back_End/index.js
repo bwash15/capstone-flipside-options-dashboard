@@ -12,8 +12,7 @@ connection();
 
 // middlewares
 app.use(express.json());
-app.use(credentials);
-app.use(cors(cors.options));
+app.use(cors());
 
 // routes
 app.use("/api/users", userRoutes);
@@ -25,6 +24,6 @@ if (process.env.NODE_ENV === "production") {
       res.sendFile(path.resolve(path.basename(path.dirname(filename)),  "build", "index.html"));
     });
   }
-
+//process.env.PORT 
 const port = process.env.PROXY || 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
