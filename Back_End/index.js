@@ -25,6 +25,6 @@ if (process.env.NODE_ENV === "production") {
       res.sendFile(path.resolve(path.basename(path.dirname(filename)),  "build", "index.html"));
     });
   }
-
-const port = process.env.PORT || 8080;
+//process.env.PORT 
+const port = 8080;
 app.listen(port, console.log(`Listening on port ${port}...`));
