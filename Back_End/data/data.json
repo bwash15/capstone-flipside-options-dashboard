@@ -1,10 +1,23 @@
 [
     {
-        "firstname": "Dave",
-        "lastname": "Gray"
+        "firstname": "Brandon",
+        "lastname": "Washington",       
+        "password": "redsox2004!",
+        "email": "bwashington.mbjt@gmail.com",
+        "role": 2001
     },
     {
         "firstname": "John",
-        "lastname": "Smith"
+        "lastname": "Major",       
+        "password": "anime1234!",
+        "email": "johnpmajor96@gmail.com",
+        "role": 2001
+    },
+    {
+        "firstname": "Dustin",
+        "lastname": "Huntzinger",       
+        "password": "pulbix1234!",
+        "email": "dustinhuntzinger1@gmail.com",
+        "role": 2001
     }
 ]

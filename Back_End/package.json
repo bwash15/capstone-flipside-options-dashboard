@@ -5,6 +5,7 @@
     "main": "exp_server.js",
     "scripts": {
         "start": "node exp_server",
+        "dev": "nodemon exp_server",
         "frontend": "cd ../Front_End && npm start",
         "devf": "concurrently  \"npm run frontend\" \"npm run devu\" \"npm run exp\"",
         "devu": "nodemon index.js",

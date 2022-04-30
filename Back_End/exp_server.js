@@ -24,6 +24,7 @@ myEmitter.on('404pageFoundLogs', (msg, path, filename) => logServerEvents(msg, p
 // Built-in Middleware
 
 // Handles Form data when it is submitted
+// URL encoded data = Form data
 app.use(express.urlencoded({extended: false}));
 myEmitter.emit(`ServerFormDataLogs`, `Server found form data`,'ServerActivityLogs','formDataLog.txt');
 
@@ -34,6 +35,7 @@ myEmitter.emit(`ServerJSONDataLogs`, `Server found JSON data`,'ServerActivityLog
 // serve static files - searches the public directory for 
 // the request before the other routes
 // Applies the CSS to the application pages
+// > pulls in the Public file
 app.use(express.static(path.join(__dirname, '/public')));
 myEmitter.emit(`ServerPublicDataLogs`, `Server found request in Public directory`,'ServerActivityLogs','publicDataLog.txt');
 
