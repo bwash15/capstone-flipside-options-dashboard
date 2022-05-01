@@ -65,7 +65,15 @@ app.use('/subdir', express.static(path.join(__dirname, '/public')));
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
 app.use('/', require('./_routes/root'));
 app.use('/subdir', require('./_routes/subdir'));
-//app.use('/')
+// Does not needs a Static file because we will just be serving data from the database
+app.use('/data', require('./_routes/api/data'));
+app.use('/dayModels', require('./_routes/api/users'));
+app.use('/detailsModels', require('./_routes/api/users'));
+app.use('/greeks', require('./_routes/api/users'));
+app.use('/historicalDataModels', require('./_routes/api/users'));
+app.use('/lastQuoteModels', require('./_routes/api/users'));
+app.use('/underlyingAssetModels', require('./_routes/api/users'));
+app.use('/users', require('./_routes/api/users'));
 
 //*************************************************** */
 /**    DATA MODEL PULLS FROM THE DATABASE

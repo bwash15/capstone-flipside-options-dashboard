@@ -1,42 +1,42 @@
 [
     {
+        "id": 1,
         "firstname": "Brandon",
-        "lastname": "Washington",
-        "username": "BWash",
-        "password": "redsox2004!",
+        "lastname": "Washington",       
         "email": "123@abc.com",
-        "role": 2001
+        "password": "redsox2004!",
+        "role": 1001
     },
     {
+        "id": 2,
         "firstname": "Melissa",
-        "lastname": "Washington",
-        "username": "MPaddie",
-        "password": "jervey2012!",
+        "lastname": "Washington",       
         "email": "321@abc.com",
+        "password": "jervey2012!",
         "role": 2001        
     },
     {
+        "id": 3,
         "firstname": "Morgan",
-        "lastname": "Washington",
-        "username": "MKWash",
-        "password": "carnival2021!",
+        "lastname": "Washington",      
         "email": "0216@abc.com",
+        "password": "carnival2021!",
         "role": 3001       
     },
     {
+        "id": 4,
         "firstname": "Ciera",
-        "lastname": "Washington",
-        "username": "CNWash",
-        "password": "cows2022!",
+        "lastname": "Washington",        
         "email": "0412@abc.com",
+        "password": "cows2022!",
         "role": 3001       
     },
     {
+        "id": 5,
         "firstname": "Maddie",
-        "lastname": "Hawkins",
-        "username": "MNHawkins",
-        "password": "jackets2022!",
+        "lastname": "Hawkins",        
         "email": "0501@abc.com",
+        "password": "jackets2022!",
         "role": 3001      
     }
 ]
