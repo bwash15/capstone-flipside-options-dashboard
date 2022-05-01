@@ -1,13 +1,13 @@
 [
     {  
-        "id":             1,
+        "day_id":         1,
         "change":         0.0,
         "change_percent": 0.0,
         "close":          0.0,
         "high":           0.0,
         "lastUpdated":    "String", 
         "low":            0.0,
-        "open":           " ",
+        "open":           0.0,
         "previous_close": 0.0, 
         "volume":         0.0, 
         "vwap":           0.0  

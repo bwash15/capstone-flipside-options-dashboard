@@ -3,8 +3,8 @@ const router = express.Router();
 const path = require('path');
 
 //************************************************ */
-const {logServerEvents, logger} = require('../middleware/logServerEvents');
-const errorHandler = require('../middleware/errorHandler');
+const {logServerEvents, logger} = require('../_middleware/logServerEvents');
+const errorHandler = require('../_middleware/errorHandler');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter{};
 const myEmitter = new Emitter();

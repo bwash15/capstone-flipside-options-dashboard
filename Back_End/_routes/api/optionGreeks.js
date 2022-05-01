@@ -13,12 +13,12 @@ const router = express.Router();
 // and the POST transactions
 
 const data = {};
-data.users = require('../../_data/users.json')
+data.greeks = require('../../_data/optionGreeks.json')
 
 // Retrieving the specified user account
 router.route('/')
     .get((req,res) => {
-        res.json(data.users);
+        res.json(data.greeks);
     })
 // for the POST tranactions you have the PARAMS  
 // that come in with the request and you can access them 
@@ -26,38 +26,37 @@ router.route('/')
 
 //  ADDING A NEW USER
     .post((req,res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname,
-            "email": req.body.email,
-            "password": req.body.password,
-            "role": req.body.role
+        res.json({             
+            "delta": req.body.delta,
+            "gamma": req.body.gamma,
+            "theta": req.body.theta,
+            "vega":  req.body.vega  
         })
     })
 //  UPDATING AN EXISTING USER ACCOUNT
     .put((req,res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname,
-            "email": req.body.email,
-            "password": req.body.password,
-            "role": req.body.role
+        res.json({            
+            "delta": req.body.delta,
+            "gamma": req.body.gamma,
+            "theta": req.body.theta,
+            "vega":  req.body.vega  
         })
     })
 
     .delete((req,res) => {
-        res.json({"userid": req.body.userid});
+        res.json({"greeks_id": req.body.greeks_id});
     });
     
 /************************************************ */
 //  ROUTING WITH USERID DIRECTLY FROM THE URL
 
-router.route('/:userid')
+router.route('/:greeks_id')
     .get((req, res) => {
     // using params here because it is 
     // going to pull it directly from the URL
-        res.json({"userid": req.params.userid});
+        res.json({"greeks_id": req.params.greeks_id});
     });
+ 
 
-    
+
 module.exports = router;

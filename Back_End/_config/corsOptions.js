@@ -1,5 +1,5 @@
 const allowedOrigins = require('./allowedOrigins');
-const {logServerEvents, logger} = require('../middleware/logServerEvents');
+const {logServerEvents, logger} = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter{};
 const myEmitter = new Emitter();

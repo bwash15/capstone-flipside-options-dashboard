@@ -13,12 +13,12 @@ const router = express.Router();
 // and the POST transactions
 
 const data = {};
-data.users = require('../../_data/users.json')
+data.lastQuote = require('../../_data/optionLastQuote.json');
 
 // Retrieving the specified user account
 router.route('/')
     .get((req,res) => {
-        res.json(data.users);
+        res.json(data.lastQuote);
     })
 // for the POST tranactions you have the PARAMS  
 // that come in with the request and you can access them 
@@ -26,38 +26,43 @@ router.route('/')
 
 //  ADDING A NEW USER
     .post((req,res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname,
-            "email": req.body.email,
-            "password": req.body.password,
-            "role": req.body.role
+        res.json({    
+            "ask":          req.body.ask,
+            "ask_size":     req.body.ask_size,
+            "bid":          req.body.bid,
+            "bid_size":     req.body.bid_size,
+            "last_updated": req.body.last_updated,
+            "midPoint":     req.body.midPoint, 
+            "timeframe":    req.body.timeframe
         })
     })
 //  UPDATING AN EXISTING USER ACCOUNT
     .put((req,res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname,
-            "email": req.body.email,
-            "password": req.body.password,
-            "role": req.body.role
+        res.json({            
+            "ask":          req.body.ask,
+            "ask_size":     req.body.ask_size,
+            "bid":          req.body.bid,
+            "bid_size":     req.body.bid_size,
+            "last_updated": req.body.last_updated,
+            "midPoint":     req.body.midPoint, 
+            "timeframe":    req.body.timeframe
         })
     })
 
     .delete((req,res) => {
-        res.json({"userid": req.body.userid});
+        res.json({"lastQuote_id": req.body.lastQuote_id});
     });
     
 /************************************************ */
 //  ROUTING WITH USERID DIRECTLY FROM THE URL
 
-router.route('/:userid')
+router.route('/:lastQuote_id')
     .get((req, res) => {
     // using params here because it is 
     // going to pull it directly from the URL
-        res.json({"userid": req.params.userid});
+        res.json({"lastQuote_id": req.params.lastQuote_id});
     });
+ 
 
-    
+
 module.exports = router;

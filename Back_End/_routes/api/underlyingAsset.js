@@ -13,12 +13,12 @@ const router = express.Router();
 // and the POST transactions
 
 const data = {};
-data.users = require('../../_data/users.json')
+data.underlyingAsset = require('../../_data/underlyingAsset.json')
 
 // Retrieving the specified user account
 router.route('/')
     .get((req,res) => {
-        res.json(data.users);
+        res.json(data.underlyingAsset);
     })
 // for the POST tranactions you have the PARAMS  
 // that come in with the request and you can access them 
@@ -26,38 +26,39 @@ router.route('/')
 
 //  ADDING A NEW USER
     .post((req,res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname,
-            "email": req.body.email,
-            "password": req.body.password,
-            "role": req.body.role
+        res.json({             
+            "change_to_break_even":   req.body.change_to_break_even,
+            "last_updated":           req.body.last_updated,
+            "price":                  req.body.price,
+            "ticker":                 req.body.ticker,
+            "timeframe":              req.body.timeframe  
         })
     })
 //  UPDATING AN EXISTING USER ACCOUNT
     .put((req,res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname,
-            "email": req.body.email,
-            "password": req.body.password,
-            "role": req.body.role
+        res.json({            
+            "change_to_break_even":   req.body.change_to_break_even,
+            "last_updated":           req.body.last_updated,
+            "price":                  req.body.price,
+            "ticker":                 req.body.ticker,
+            "timeframe":              req.body.timeframe  
         })
     })
 
     .delete((req,res) => {
-        res.json({"userid": req.body.userid});
+        res.json({"underlyingAssetid": req.body.underlyingAssetid});
     });
     
 /************************************************ */
 //  ROUTING WITH USERID DIRECTLY FROM THE URL
 
-router.route('/:userid')
+router.route('/:underlyingAssetid')
     .get((req, res) => {
     // using params here because it is 
     // going to pull it directly from the URL
-        res.json({"userid": req.params.userid});
+        res.json({"underlyingAssetid": req.params.underlyingAssetid});
     });
+ 
 
-    
+
 module.exports = router;

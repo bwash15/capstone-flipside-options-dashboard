@@ -66,14 +66,14 @@ app.use('/subdir', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./_routes/root'));
 app.use('/subdir', require('./_routes/subdir'));
 // Does not needs a Static file because we will just be serving data from the database
-app.use('/data', require('./_routes/api/data'));
-app.use('/dayModels', require('./_routes/api/users'));
-app.use('/detailsModels', require('./_routes/api/users'));
-app.use('/greeks', require('./_routes/api/users'));
-app.use('/historicalDataModels', require('./_routes/api/users'));
-app.use('/lastQuoteModels', require('./_routes/api/users'));
-app.use('/underlyingAssetModels', require('./_routes/api/users'));
+app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
+app.use('/optionDays', require('./_routes/api/optionDays'));
+app.use('/optionDetails', require('./_routes/api/optionDetails'));
+app.use('/optionGreeks', require('./_routes/api/optionGreeks'));
+app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
+app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
 app.use('/users', require('./_routes/api/users'));
+//app.use('/historicalDataModels', require('./_routes/api/users'));
 
 //*************************************************** */
 /**    DATA MODEL PULLS FROM THE DATABASE
@@ -120,7 +120,7 @@ app.use('/users', require('./_routes/api/users'));
 //     }
 //   )});
 
-/***************************************************** */
+/****************************************************** */
 /**
  *    SENDING A 404 PAGE NOT FOUND
  * 
