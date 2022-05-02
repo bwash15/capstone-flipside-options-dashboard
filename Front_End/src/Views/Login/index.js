@@ -19,6 +19,7 @@ export default function Login() {
 		e.preventDefault();
 		try {
 			const url = process.env.API_AUTH;
+			console.log(url);
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			localStorage.setItem("token", res.data);
