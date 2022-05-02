@@ -24,9 +24,9 @@ const fetchData  = async () => {
 
     //change the output to call or put depending on the api response
     function optionType(type){
-        if(type == 'C'){
+        if(type === 'C'){
             return 'Call';
-        } else if(type == 'P'){
+        } else if(type === 'P'){
             return 'Put';
         }
     }
@@ -78,14 +78,15 @@ function Home(){
     }
 
     const {value, loading} = usePromise(fetchData());
-    if(loading){
-        return null;
-    }
+    // if(loading){
+    //     return null;
+    // }
     return(<div>
         <h1>Hello World!!!!!!!!!!!</h1>
         <h1>{first()} {last()}</h1>
         <h1>{localStorage.getItem("lastName")}</h1>
         <h1>{localStorage.getItem("email")}</h1>
+        <h1>Above Value</h1>
         <h1>{value}</h1>
         <h2>Below Value</h2>
         <button onClick={logout}>Logout</button>
