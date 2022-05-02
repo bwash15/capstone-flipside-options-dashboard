@@ -85,7 +85,6 @@ const Signup = () => {
 		e.preventDefault();
 		try {
 			const url = process.env.API_USERS;
-			
 			const { data: res } = await axios.post(url, data);
 			navigate("/");
 			console.log(res.message);
