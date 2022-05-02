@@ -1,21 +1,26 @@
 import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
+import usePromise from "react-promise";
+import dotenv from 'mdotenv';
 
 
-const fetchData = () => {
+const fetchData  = async () => {
 
     let option_type = 'P'                             //C for call P for put
-    let option_expire_date = '220414'                 // YearMonthDay
-    let option_ticker = 'XELA';                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
-    let option_strike_price = '00001000';             //8 digit number, divide by 1000 -> this will be 1$
+    let option_expire_date = '220506'                 // YearMonthDay
+    let option_ticker = 'TQQQ';                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
+    let option_strike_price = '00038000';             //8 digit number, divide by 1000 -> this will be 1$
     let options_ticker_link = `O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`;
     let multiplier = '1';                             // minutes per minute, hours per hour, days per day, weeks per week -> this will be one hour
     let timespan = 'hour';                            // minute, hour, day, week, month
-    let from = '2022-04-11';                          //start of the timeframe to look at 
-    let to = '2022-04-14';                            //end of the timeframe to look at
+    let from = '2022-05-02';                          //start of the timeframe to look at 
+    let to = '2022-05-06';                            //end of the timeframe to look at
 
-    let api_link =`https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + api_key;
+    let api_link =  fetch(process.env.API_KEY).then(response => {
+        return `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + response;
+    })
+    console.log(`api link after fetching is ${api_link}`)
 
     //change the output to call or put depending on the api response
     function optionType(type){
@@ -33,12 +38,13 @@ const fetchData = () => {
         return `${price}%`;
     }
 
-    return fetch('MNExhabeDDgHYLqKlxDoT79JUdvT_OaI')
+    let data = fetch(api_link)
           .then((response) => response.json())
           .then((data) => console.log(data));
-        
-        
-        }
+    
+    return data['results'][0]['o'];
+    
+}
 
 
 function Home(){
@@ -70,11 +76,11 @@ function Home(){
             return e;
         }    
     }
-    
-    // const test = getOptions().then(result => {
-    //     console.log(result);
-    // })
 
+    const {value, loading} = usePromise(fetchData());
+    if(loading){
+        return null;
+    }
     return(<div>
         <h1>Hello World!!!!!!!!!!!</h1>
         <h1>{first()} {last()}</h1>
@@ -83,6 +89,8 @@ function Home(){
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
         <button onClick={first}>Token</button>
+        <div>{value}</div>
+
     </div>);
 }
 
