@@ -84,7 +84,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://flipside-test-back-9n4ed.ondigitalocean.app/api/users";
+			const url = process.env.API_USERS;
 			
 			const { data: res } = await axios.post(url, data);
 			navigate("/");

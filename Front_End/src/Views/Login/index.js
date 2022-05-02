@@ -18,7 +18,7 @@ export default function Login() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://flipside-test-back-9n4ed.ondigitalocean.app/api/auth";
+			const url = process.env.API_AUTH;
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			localStorage.setItem("token", res.data);
