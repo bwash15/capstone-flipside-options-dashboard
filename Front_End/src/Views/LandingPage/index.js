@@ -1,10 +1,9 @@
 import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
-import usePromise from "react-promise";
+
 
 const fetchData  = () => {
-
     let option_type = 'P'                             //C for call P for put
     let option_expire_date = '220506'                 // YearMonthDay
     let option_ticker = 'TQQQ';                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
@@ -45,6 +44,8 @@ const fetchData  = () => {
 
 
 function Home(){
+    const [value, setValue] = useState();
+
     const logout =()=> {
         localStorage.clear();
         window.location.href = '/';
@@ -73,11 +74,13 @@ function Home(){
             return e;
         }    
     }
+    
 
-    const {value, loading} = usePromise(fetchData());
-    // if(loading){
-    //     return null;
-    // }
+    useEffect(() => {
+        setValue(fetchData());
+    }, []);
+
+    
     return(<div>
         <h1>Hello World!!!!!!!!!!!</h1>
         <h1>{first()} {last()}</h1>
