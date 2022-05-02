@@ -89,8 +89,8 @@ function Home(){
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
         <button onClick={first}>Token</button>
-        <div>{value}</div>
-        <div>Below Value</div>
+        <div><h1>{value}</h1></div>
+        <div><h2>Below Value</h2></div>
 
     </div>);
 }
