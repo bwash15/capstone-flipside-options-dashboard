@@ -2,7 +2,7 @@ import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
 import usePromise from "react-promise";
-const getenv = require('getenv')
+
 const fetchData  = () => {
 
     let option_type = 'P'                             //C for call P for put
@@ -15,7 +15,7 @@ const fetchData  = () => {
     let from = '2022-05-02';                          //start of the timeframe to look at 
     let to = '2022-05-06';                            //end of the timeframe to look at
 
-    let api_link = `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + getenv('API_KEY');
+    let api_link = `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + process.env.REACT_APP_API_KEY;
     
     console.log(`api link after fetching is ${api_link}`)
 
