@@ -2,10 +2,8 @@ import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
 import usePromise from "react-promise";
-import dotenv from 'dotenv';
 
-
-const fetchData  = async () => {
+const fetchData  = () => {
 
     let option_type = 'P'                             //C for call P for put
     let option_expire_date = '220506'                 // YearMonthDay
@@ -17,9 +15,8 @@ const fetchData  = async () => {
     let from = '2022-05-02';                          //start of the timeframe to look at 
     let to = '2022-05-06';                            //end of the timeframe to look at
 
-    let api_link =  fetch(process.env.API_KEY).then(response => {
-        return `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + response;
-    })
+    let api_link = `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + process.env.API_KEY;
+    
     console.log(`api link after fetching is ${api_link}`)
 
     //change the output to call or put depending on the api response
