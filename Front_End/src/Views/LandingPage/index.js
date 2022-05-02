@@ -90,6 +90,7 @@ function Home(){
         <button>Submit</button>
         <button onClick={first}>Token</button>
         <div>{value}</div>
+        <div>Below Value</div>
 
     </div>);
 }
