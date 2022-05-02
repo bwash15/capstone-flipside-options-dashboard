@@ -8,9 +8,9 @@ function App() {
 
 	return (
 		<Routes>
-			{user && <Route path="/" exact element={<Home />} />}
-			<Route path="/signup" exact element={<Signup />} />
-			<Route path="/login" exact element={<Login />} />
+			{user && <Route path="/" element={<Home />} />}
+			<Route path="/signup" element={<Signup />} />
+			<Route path="/login" element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />
 		</Routes>
 	);
