@@ -86,12 +86,11 @@ function Home(){
         <h1>{first()} {last()}</h1>
         <h1>{localStorage.getItem("lastName")}</h1>
         <h1>{localStorage.getItem("email")}</h1>
+        <h1>{value}</h1>
+        <h2>Below Value</h2>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
         <button onClick={first}>Token</button>
-        <div><h1>{value}</h1></div>
-        <div><h2>Below Value</h2></div>
-
     </div>);
 }
 
