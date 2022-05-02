@@ -2,7 +2,7 @@ import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
 import usePromise from "react-promise";
-import dotenv from 'mdotenv';
+import dotenv from 'dotenv';
 
 
 const fetchData  = async () => {
