@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import styles from  "./styles.module.css";
-
+const getenv = require('getenv')
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
@@ -84,7 +84,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = process.env.API_USERS;
+			const url = getenv.string('API_USERS');
 			const { data: res } = await axios.post(url, data);
 			navigate("/");
 			console.log(res.message);
