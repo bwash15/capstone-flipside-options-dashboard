@@ -1,9 +1,0 @@
-
-DateTime:[20220424	16:01:37]	UUID:[93647f11-ff9b-4c09-8ac6-13dfb3d38a56]	PATH:[ServerActivityLogs][expServLog.txt]
-	Message:[Server Port: 3600]
-
-DateTime:[20220427	09:05:27]	UUID:[a7db4ed0-f3e9-4d90-9792-fe41f96d4174]	PATH:[ServerActivityLogs][expServLog.txt]
-	Message:[Server Port: 3600]
-
-DateTime:[20220427	15:17:43]	UUID:[6357edd6-10e5-4177-b199-54e14369444a]	PATH:[ServerActivityLogs][expServLog.txt]
-	Message:[Server Port: 3600]
