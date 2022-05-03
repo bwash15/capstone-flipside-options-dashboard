@@ -3,6 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
+
 export default function Login() {
 	const [data, setData] = useState({ email: "", password: "" });
 	const [error, setError] = useState("");
@@ -18,9 +19,8 @@ export default function Login() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:8080/api/auth";
+			const url = process.env.REACT_APP_API_AUTH;
 			const { data: res } = await axios.post(url, data);
-			localStorage.setItem("token", res.data);
 			localStorage.setItem("token", res.data);
 			console.log(res.user);
 			localStorage.setItem("user", JSON.stringify({
