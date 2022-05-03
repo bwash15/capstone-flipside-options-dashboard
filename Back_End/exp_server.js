@@ -58,13 +58,11 @@ app.use(express.json());
 // Applies the CSS to the application pages
 // > pulls in the Public file for each route specified
 app.use('/', express.static(path.join(__dirname, '/public')));
-app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
 app.use('/', require('./_routes/root'));
-app.use('/subdir', require('./_routes/subdir'));
 // Does not needs a Static file because we will just be serving data from the database
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));

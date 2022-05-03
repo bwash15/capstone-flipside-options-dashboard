@@ -9,8 +9,7 @@ const corsOptions = {
     origin: (origin, callback) => {                  // remove after dev
         if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
             callback(null, true);
-        } else {
-  
+        } else {  
             callback(new Error('Not allowed by CORS'));
         }
     },

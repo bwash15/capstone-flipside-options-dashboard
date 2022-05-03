@@ -31,30 +31,4 @@ myEmitter.on('AccessRootPageLogs', (msg, path, filename) => logServerEvents(msg,
     }
 })
 
-router.get('/new-page(.html)?', (req, res) => {
-    try {        
-        res.sendFile(path.join(__dirname, '..', 'views', 'new-page.html'));
-        myEmitter.emit(`AccessNewPageLogs`, `New Page Access`,'serverRequestLogs','newPageAccessLog.txt');
-    }catch(err){
-        console.log(err);
-        errorHandler();
-        // myEmitter.emit('errorLog', 'message: ' + err.message, 'serverErrorLogs', 'newPageAccessLog.txt' );
-    }
-})
-
-/**
- *   REDIRECT OLD PAGE 
- * 
- * > 302 by default, we want a 301 so the browser will 
- * > see the page has been permanently removed
- */
- router.get('/old-page(.html)?', (req, res) => {
-    try {        
-        res.redirect(301, '/new-page.html'); 
-    }catch(err){
-        console.log(err);
-        myEmitter.emit('errorLog', 'message: ' + err.message, 'serverErrorLogs', 'serverErrors.txt' );
-    }
-})
-
 module.exports = router;
