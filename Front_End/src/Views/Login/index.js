@@ -115,7 +115,7 @@ export default function Login() {
 									className={setMobile("input")}
 								/>
 								{error && <div className={setMobile("error_msg")}>{error}</div>}
-								<button className={setMobile("green_btn")} onTouchStart={handleSubmit}>
+								<button className={setMobile("green_btn")} onClick={handleSubmit}>
 									Sign In
 								</button>
 							</form>
