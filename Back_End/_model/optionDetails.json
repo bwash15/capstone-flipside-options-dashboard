@@ -1,0 +1,12 @@
+[
+    {
+        "details_id":             1,
+        "contractType":           "String",
+        "exercise_style":         "String", 
+        "expiration_date":        "Date", 
+        "shares_per_contract":     0.0,
+        "strike_price":            0.0, 
+        "ticker":                 "String" 
+    }
+
+]

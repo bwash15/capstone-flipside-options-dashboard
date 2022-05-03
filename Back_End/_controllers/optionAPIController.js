@@ -1,0 +1,144 @@
+const express = require('express');
+const router = express.Router();
+
+const data = {};
+data.optionAPIpull = require('../_model/optionsAPIpull.json');
+
+
+const getAllOptionAPIpulls = (req,res) => {
+    res.json(data.optionsAPIpull);
+}
+
+
+const createNewOptionAPIpull = (req,res) => {
+    res.json({
+        "request_id": req.body.request_id,  
+        "results":  { 
+          "break_even_price": req.body.break_even_price,
+          "daySchema": [{  
+            "change":         req.body.change,
+            "change_percent": req.body.change_percent,
+            "close":          req.body.close,
+            "high":           req.body.high,
+            "last_Updated":   req.body.last_Updated, 
+            "low":            req.body.low,
+            "open":           req.body.open,
+            "previous_close": req.body.previous_close, 
+            "volume":         req.body.volume, 
+            "vwap":           req.body.vwap  
+          }],
+          "detailsSchema": [{
+            "contract_type":        req.body.contractType,
+            "exercise_style":       req.body.exercise_style, 
+            "expiration_date":      req.body.expiration_date, 
+            "shares_per_contract":  req.body.shares_per_contract, 
+            "strike_price":         req.body.strike_price, 
+            "ticker":               req.body.ticker 
+          }],
+          "greeksSchema": [{  
+            "delta": req.body.delta,
+            "gamma": req.body.gamma,
+            "theta": req.body.theta,
+            "vega":  req.body.vega               
+          }],
+          "implied_volatility": req.body.implied_volatility, 
+          "last_quote": [{
+            "ask":          req.body.ask,
+            "ask_size":     req.body.ask_size,
+            "bid":          req.body.bid,
+            "bid_size":     req.body.bid_size,
+            "last_updated": req.body.last_updated,
+            "midPoint":     req.body.midPoint, 
+            "timeframe":    req.body.timeframe
+          }],
+          "open_interest": req.body.open_interest, 
+          "underlying_assetschema": [{  
+            "change_to_break_even":   req.body.change_to_break_even,
+            "last_updated":           req.body.last_Updated,
+            "price":                  req.body.price,
+            "ticker":                 req.body.ticker,
+            "timeframe":              req.body.timeframe
+          }]
+          },
+        "status": req.body.status
+    })
+}
+
+
+const updateOptionAPIpull = (req,res) => {
+    res.json({
+        "request_id": req.body.request_id,  
+        "results":  { 
+          "break_even_price": req.body.break_even_price,
+          "daySchema": [{  
+            "change":         req.body.change,
+            "change_percent": req.body.change_percent,
+            "close":          req.body.close,
+            "high":           req.body.high,
+            "last_Updated":   req.body.last_Updated, 
+            "low":            req.body.low,
+            "open":           req.body.open,
+            "previous_close": req.body.previous_close, 
+            "volume":         req.body.volume, 
+            "vwap":           req.body.vwap  
+          }],
+          "detailsSchema": [{
+            "contract_type":        req.body.contractType,
+            "exercise_style":       req.body.exercise_style, 
+            "expiration_date":      req.body.expiration_date, 
+            "shares_per_contract":  req.body.shares_per_contract, 
+            "strike_price":         req.body.strike_price, 
+            "ticker":               req.body.ticker 
+          }],
+          "greeksSchema": [{  
+            "delta": req.body.delta,
+            "gamma": req.body.gamma,
+            "theta": req.body.theta,
+            "vega":  req.body.vega               
+          }],
+          "implied_volatility": req.body.implied_volatility, 
+          "last_quote": [{
+            "ask":          req.body.ask,
+            "ask_size":     req.body.ask_size,
+            "bid":          req.body.bid,
+            "bid_size":     req.body.bid_size,
+            "last_updated": req.body.last_updated,
+            "midPoint":     req.body.midPoint, 
+            "timeframe":    req.body.timeframe
+          }],
+          "open_interest": req.body.open_interest, 
+          "underlying_assetschema": [{  
+            "change_to_break_even":   req.body.change_to_break_even,
+            "last_updated":           req.body.last_Updated,
+            "price":                  req.body.price,
+            "ticker":                 req.body.ticker,
+            "timeframe":              req.body.timeframe
+          }]
+          },
+        "status": req.body.status
+    })
+}
+
+
+const deleteOptionsAPIpull = (req,res) => {
+    res.json({"apiPull_id": req.body.apiPull_id});
+}
+
+
+const getOptionsAPIpull = (req, res) => {
+    // using params here because it is 
+    // going to pull it directly from the URL
+        res.json({"apiPull_id": req.params.apiPull_id});
+    }
+
+
+module.exports = {
+    getAllOptionAPIpulls,
+    createNewOptionAPIpull,
+    updateOptionAPIpull,
+    deleteOptionsAPIpull,
+    getOptionsAPIpull
+}
+
+
+

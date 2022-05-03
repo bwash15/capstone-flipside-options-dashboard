@@ -1,0 +1,27 @@
+
+DateTime:[20220501	12:50:37]	UUID:[543d0877-afe9-4e79-9370-55a1edf69de5]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs][errLog.txt]
+	Message:[res.join is not a function : TypeError: res.join is not a function
+    at C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\_routes\api\users.js:59:13
+    at Layer.handle [as handle_request] (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\index.js:371:14)
+    at Function.process_params (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\index.js:416:3)
+    at next (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\express\lib\router\index.js:275:10)]
+
+DateTime:[20220501	13:03:47]	UUID:[c9367cab-3a00-4344-9973-b572782c08dc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs][errLog.txt]
+	Message:[Unexpected string in JSON at position 88 : SyntaxError: Unexpected string in JSON at position 88
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:532:35)
+    at endReadableNT (node:internal/streams/readable:1346:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)]

@@ -1,0 +1,117 @@
+
+DateTime:[20220424	16:01:37]	UUID:[3adb5917-6699-43f3-a755-6d5119d2209d]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	18:59:46]	UUID:[6f15a08a-26e7-4f26-9aad-0056ed7df97c]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:00:11]	UUID:[d72d7946-200c-485a-a1d3-56d3ab05d0b8]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:01:34]	UUID:[46e9f0e3-a5aa-400a-a749-aabe56a9d38a]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:01:56]	UUID:[110b995a-c899-489b-8ae0-64d706c1cf7b]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:01:59]	UUID:[18c48cad-22cf-4c6b-9ea8-d674e3b1245d]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:04]	UUID:[e0613094-b91f-44d4-ab84-f81158e92b51]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:06]	UUID:[5e24067c-235e-460f-8390-76479682a816]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:11]	UUID:[1aec7671-7ecb-4117-9d03-ee2b0d58a178]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:16]	UUID:[bce31ff7-1ce6-4df5-8a38-6b41b69d5a58]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:23]	UUID:[f3851219-03cc-46b0-a897-e4b1e23e30c8]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:27]	UUID:[a73795d2-529f-413f-85ce-94113808583a]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:31]	UUID:[bd9f7bbb-674a-49c2-ab05-84c6efd25f1e]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:37]	UUID:[3e754a70-de0b-445e-97ff-43c70689f11e]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:48]	UUID:[82451928-9809-41a5-b7da-bb6f587fdc45]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:02:51]	UUID:[817dbc79-5cb1-45e5-98e1-6ff38c02376d]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:03:06]	UUID:[4798abbc-3fb3-49dc-804f-bf377cf61140]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:04:09]	UUID:[fba3100a-33b2-40f4-8a3a-8bf48610526b]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:04:16]	UUID:[b43a7ce0-d1ad-4bde-a130-4f96f5501023]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:08:01]	UUID:[23c2d466-44d1-40fe-bc3f-ac53411c8af1]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:08:02]	UUID:[e45b088b-8524-4893-921e-4173e6d8c9e3]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:08:59]	UUID:[51398c7e-1602-4f08-8be9-65aaca3a2355]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:02]	UUID:[ab0096cd-52dd-4aeb-816b-e5d7aec63b70]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:03]	UUID:[ac394e5d-89bf-48e5-97aa-5f9c9efeacdb]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:11]	UUID:[39617c08-18b6-42d6-b50f-e83fc8de5085]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:13]	UUID:[43496f73-24aa-401c-9fa5-4901397a269e]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:17]	UUID:[cda583d9-0683-4316-ac72-6e34905b4dbe]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:19]	UUID:[d4344d19-a647-481c-95e4-3b5ae87091c4]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:22]	UUID:[971dc3b5-f1b8-4fcc-b74b-9130b549084b]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:28]	UUID:[47dd6dbc-5038-4237-8543-b097980dbe51]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:31]	UUID:[8f98edb8-4173-4753-9347-fe23999c20c7]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:37]	UUID:[049c0b01-188e-48dc-8ab9-bb471e9227c7]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:40]	UUID:[dc2da949-0bdd-4043-92c8-31b2a62f6ad7]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:09:47]	UUID:[65cca231-dd23-4a07-a77f-8afe2620fb63]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:10:26]	UUID:[c42cc9dc-8452-4e16-b107-ce11626542a0]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:11:10]	UUID:[288c2c93-9b7a-49b8-ae5a-419b3344e367]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:13:24]	UUID:[a0fb58c6-873c-479c-b4a6-b6e9a40c7f7f]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:13:36]	UUID:[4a709670-7d34-46be-813c-6188b7d8d2a8]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
+
+DateTime:[20220428	19:13:59]	UUID:[15e88c53-a621-4ed5-803e-d22a81234e09]	PATH:[ServerActivityLogs][jsonDataLog.txt]
+	Message:[Server found JSON data]
