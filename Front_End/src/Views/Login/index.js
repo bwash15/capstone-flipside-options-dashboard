@@ -14,7 +14,52 @@ export default function Login() {
 		setData({ ...data, [input.name]: input.value });
 	};
 
-	
+	const setMobile = (e) => {
+		if(isMobile){
+			if(e === "login_container")
+				return mobilestyles.login_container;
+			if(e === "login_form_container")
+				return mobilestyles.login_form_container;
+			if(e === "left")
+				return mobilestyles.left;
+			if(e === "form_container")
+				return mobilestyles.form_container;
+			if(e === "image")
+				return mobilestyles.image;
+			if(e === "input")
+				return mobilestyles.input;
+			if(e === "error_msg")
+				return mobilestyles.error_msg;
+			if(e === "green_btn")
+				return mobilestyles.green_btn;
+			if(e === "right")
+				return mobilestyles.right;
+			if(e === "white_btn")
+				return mobilestyles.white_btn;
+		}
+		if(!isMobile){
+			if(e === "login_container")
+				return styles.login_container;
+			if(e === "login_form_container")
+				return styles.login_form_container;
+			if(e === "left")
+				return styles.left;
+			if(e === "form_container")
+				return styles.form_container;
+			if(e === "image")
+				return styles.image;
+			if(e === "input")
+				return styles.input;
+			if(e === "error_msg")
+				return styles.error_msg;
+			if(e === "green_btn")
+				return styles.green_btn;
+			if(e === "right")
+				return styles.right;
+			if(e === "white_btn")
+				return styles.white_btn;
+		}
+	};
 
 	
 	const handleSubmit = async (e) => {
@@ -43,15 +88,13 @@ export default function Login() {
 	};
 
 	
-	if(isMobile){
+	
 		return (
-			
-			
-				<div className={mobilestyles.login_container}>
-					<div className={mobilestyles.login_form_container}>
-						<div className={mobilestyles.left}>
-							<form className={mobilestyles.form_container}>
-								<img className= {mobilestyles.image} src="/Images/FlipSideLogo.png" alt="Avatar"/>
+				<div className={setMobile("login_container")}>
+					<div className={setMobile("login_form_container")}>
+						<div className={setMobile("left")}>
+							<form className={setMobile("form_container")}>
+								<img className= {setMobile("image")} src="/Images/FlipSideLogo.png" alt="Avatar"/>
 								<h1>Login to Your Account</h1>
 								<input
 									type="email"
@@ -60,7 +103,7 @@ export default function Login() {
 									onChange={handleChange}
 									value={data.email}
 									required
-									className={mobilestyles.input}
+									className={setMobile("input")}
 								/>
 								<input
 									type="password"
@@ -69,18 +112,18 @@ export default function Login() {
 									onChange={handleChange}
 									value={data.password}
 									required
-									className={mobilestyles.input}
+									className={setMobile("input")}
 								/>
-								{error && <div className={mobilestyles.error_msg}>{error}</div>}
-								<button className={mobilestyles.green_btn} onTouchStart={handleSubmit}>
+								{error && <div className={setMobile("error_msg")}>{error}</div>}
+								<button className={setMobile("green_btn")} onTouchStart={handleSubmit}>
 									Sign In
 								</button>
 							</form>
 						</div>
-						<div className={mobilestyles.right}>
+						<div className={setMobile("right")}>
 							<h1>New Here ?</h1>
 							<Link to="/signup">
-								<button type="button" className={mobilestyles.white_btn}>
+								<button type="button" className={setMobile("white_btn")}>
 									Sign Up
 								</button>
 							</Link>
@@ -90,52 +133,5 @@ export default function Login() {
 			
 			
 		);
-	}
-	else{
-
-		return (
-			
-				<div className={styles.login_container}>
-					<div className={styles.login_form_container}>
-						<div className={styles.left}>
-							<form className={styles.form_container} onSubmit={handleSubmit}>
-								<img className= {styles.image} src="/Images/FlipSideLogo.png" alt="Avatar"/>
-								<h1>Login to Your Account</h1>
-								<input
-									type="email"
-									placeholder="Email"
-									name="email"
-									onChange={handleChange}
-									value={data.email}
-									required
-									className={styles.input}
-								/>
-								<input
-									type="password"
-									placeholder="Password"
-									name="password"
-									onChange={handleChange}
-									value={data.password}
-									required
-									className={styles.input}
-								/>
-								{error && <div className={styles.error_msg}>{error}</div>}
-								<button type="submit" className={styles.green_btn}>
-									Sign In
-								</button>
-							</form>
-						</div>
-						<div className={styles.right}>
-							<h1>New Here ?</h1>
-							<Link to="/signup">
-								<button type="button" className={styles.white_btn}>
-									Sign Up
-								</button>
-							</Link>
-						</div>
-					</div>
-				</div>
-			
-		);
-	}
+	
 }
