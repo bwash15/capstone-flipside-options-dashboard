@@ -2,6 +2,10 @@ import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
 
+
+
+
+
 function Home(){
     const [value, setValue] = useState();
     const fetchData  = () => {
@@ -77,7 +81,9 @@ function Home(){
         <h1>{first()} {last()}</h1>
         <h1>{localStorage.getItem("lastName")}</h1>
         <h1>{localStorage.getItem("email")}</h1>
-        <h1>The current price from the api option is: ${value}</h1>
+        <h1>Above Value</h1>
+        <h1>{value}</h1>
+        <h2>Below Value</h2>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
         <button onClick={first}>Token</button>
