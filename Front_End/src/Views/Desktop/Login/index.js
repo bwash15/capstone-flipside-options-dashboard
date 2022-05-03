@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
@@ -22,7 +22,6 @@ export default function Login() {
 			const url = process.env.REACT_APP_API_AUTH;
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
-			console.log(res.user);
 			localStorage.setItem("user", JSON.stringify({
 				firstName: res.user.firstName,
 				lastName: res.user.lastName,
@@ -41,6 +40,8 @@ export default function Login() {
 		}
 	};
 
+	
+	
 	return (
 		<div className={styles.login_container}>
 			<div className={styles.login_form_container}>
@@ -83,4 +84,5 @@ export default function Login() {
 			</div>
 		</div>
 	);
+	
 }

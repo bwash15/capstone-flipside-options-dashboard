@@ -3,7 +3,6 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import styles from  "./styles.module.css";
 
-
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
@@ -25,7 +24,6 @@ const Signup = () => {
 
     const [pwd, setPwd] = useState('');
     const [validPwd, setValidPwd] = useState(false);
-    const [pwdFocus, setPwdFocus] = useState(false);
 
     const [matchPwd, setMatchPwd] = useState('');
     const [validMatch, setValidMatch] = useState(false);
@@ -51,9 +49,6 @@ const Signup = () => {
         setValidMatch(pwd === matchPwd);
     }, [pwd, matchPwd])
 
-    useEffect(() => {
-        setErrMsg('');
-    }, [email, pwd, matchPwd])
 
 	const setClassName=(e, h) => {
 		if(e && h)
@@ -64,8 +59,6 @@ const Signup = () => {
 			return styles.input;
 	}
 
-
-    const [errMsg, setErrMsg] = useState('');
 
 
 	const [data, setData] = useState({
@@ -84,9 +77,9 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = process.env.REACT_APP_API_USERS;
+			const url = "http://localhost:8080/api/users";
 			const { data: res } = await axios.post(url, data);
-			navigate("/");
+			navigate("/login");
 			console.log(res.message);
 		} catch (error) {
 			if (
@@ -100,16 +93,10 @@ const Signup = () => {
 	};
 
 	return (
+		
 		<div className={styles.signup_container}>
 			<div className={styles.signup_form_container}>
-				<div className={styles.left}>
-					<h1>Welcome Back</h1>
-					<Link to="/login">
-						<button type="button" className={styles.white_btn}>
-							Sign in
-						</button>
-					</Link>
-				</div>
+				
 				<div className={styles.right}>
 					<form className={styles.form_container} onSubmit={handleSubmit}>
 						<h1>Create Account</h1>
@@ -124,7 +111,6 @@ const Signup = () => {
 							value={data.firstName}
 							required
 							className={setClassName(firstName, validFirstName)}
-							autofocus={true}
 						/>
 						<input
 							type="text"
@@ -174,6 +160,14 @@ const Signup = () => {
 							Sign Up
 						</button>
 					</form>
+				</div>
+				<div className={styles.left}>
+					<h1>Welcome Back!</h1>
+					<Link to="/login">
+						<button type="button" className={styles.white_btn}>
+							Sign in
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>
