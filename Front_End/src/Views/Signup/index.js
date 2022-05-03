@@ -73,18 +73,16 @@ const Signup = () => {
 
 	const setMobile = (e) => {
 		if(isMobile){
-			if(e === "login_container")
-				return mobilestyles.login_container;
-			if(e === "login_form_container")
-				return mobilestyles.login_form_container;
+			if(e === "signup_container")
+				return mobilestyles.signup_container;
+			if(e === "signup_form_container")
+				return mobilestyles.signup_form_container;
 			if(e === "left")
 				return mobilestyles.left;
 			if(e === "form_container")
 				return mobilestyles.form_container;
 			if(e === "image")
 				return mobilestyles.image;
-			if(e === "input")
-				return mobilestyles.input;
 			if(e === "error_msg")
 				return mobilestyles.error_msg;
 			if(e === "green_btn")
@@ -95,18 +93,16 @@ const Signup = () => {
 				return mobilestyles.white_btn;
 		}
 		if(!isMobile){
-			if(e === "login_container")
-				return styles.login_container;
-			if(e === "login_form_container")
-				return styles.login_form_container;
+			if(e === "signup_container")
+				return styles.signup_container;
+			if(e === "signup_form_container")
+				return styles.signup_form_container;
 			if(e === "left")
 				return styles.left;
 			if(e === "form_container")
 				return styles.form_container;
 			if(e === "image")
 				return styles.image;
-			if(e === "input")
-				return styles.input;
 			if(e === "error_msg")
 				return styles.error_msg;
 			if(e === "green_btn")
@@ -155,17 +151,9 @@ const Signup = () => {
 	return (
 		
 			<div className={setMobile("signup_container")}>
-				<div className={mobilestyles.signup_form_container}>
-					<div className={mobilestyles.left}>
-						<h1>Welcome Back</h1>
-						<Link to="/login">
-							<button type="button" className={mobilestyles.white_btn}>
-								Sign in
-							</button>
-						</Link>
-					</div>
-					<div className={mobilestyles.right}>
-						<form className={mobilestyles.form_container} onSubmit={handleSubmit}>
+				<div className={setMobile("signup_form_container")}>
+					<div className={setMobile("left")}>
+						<form className={setMobile("form_container")} onSubmit={handleSubmit}>
 							<h1>Create Account</h1>
 							<input
 								type="text"
@@ -223,11 +211,19 @@ const Signup = () => {
 								required
 								className={setClassName(matchPwd, validMatch)}
 							/>
-							{error && <div className={mobilestyles.error_msg}>{error}</div>}
-							<button type="submit" className={mobilestyles.green_btn}>
+							{error && <div className={setMobile("error_msg")}>{error}</div>}
+							<button type="submit" className={setMobile("green_btn")}>
 								Sign Up
 							</button>
 						</form>
+					</div>
+					<div className={setMobile("right")}>
+						<h1>Welcome Back</h1>
+						<Link to="/login">
+							<button type="button" className={setMobile("white_btn")}>
+								Sign in
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
