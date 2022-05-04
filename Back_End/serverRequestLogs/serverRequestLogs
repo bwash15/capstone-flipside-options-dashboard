@@ -354,3 +354,7 @@ DateTime:[20220503	23:37:40]	UUID:[c9caf27d-6147-4317-8cd9-280683c3ce6f]
 DateTime:[20220503	23:38:55]	UUID:[c7b6e77a-3bd6-4464-8c0f-f9ab32779a16]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[POST	undefined	/auth]
+
+DateTime:[20220504	00:33:58]	UUID:[7f40c4a8-f41f-4527-a438-929db36e8fca]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/auth]
