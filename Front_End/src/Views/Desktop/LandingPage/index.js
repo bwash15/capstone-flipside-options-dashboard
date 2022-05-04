@@ -84,7 +84,7 @@ function Home(){
         <h1>{first()} {last()}</h1>
         <h1>{localStorage.getItem("lastName")}</h1>
         <h1>{localStorage.getItem("email")}</h1>
-        <h1>The current price from the api option is: ${value}</h1>
+        <h1>The current price from the ticker TQQQ that expires 5/06/2022 is: ${value}</h1>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
         <button onClick={navProfile}>Profile</button>
