@@ -77,7 +77,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:8080/api/users";
+			const url = process.env.REACT_APP_API_USERS;
 			const { data: res } = await axios.post(url, data);
 			navigate("/login");
 			console.log(res.message);
@@ -156,7 +156,7 @@ const Signup = () => {
 							className={setClassName(matchPwd, validMatch)}
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
-						<button type="submit" className={styles.green_btn} onClick={handleSubmit} onTouchStart={handleSubmit}>
+						<button type="submit" className={styles.green_btn}>
 							Sign Up
 						</button>
 					</form>

@@ -16,7 +16,7 @@ export default function Login() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:8080/api/auth";
+			const url = process.env.REACT_APP_API_AUTH;
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			localStorage.setItem("user", JSON.stringify({
@@ -65,7 +65,7 @@ export default function Login() {
 							className={styles.input}
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
-						<button type="submit" className={styles.green_btn} onClick={handleSubmit} onTouchStart={handleSubmit}>
+						<button type="submit" className={styles.green_btn}>
 							Sign In
 						</button>
 					</form>
