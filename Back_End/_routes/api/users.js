@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../../_controllers/usersController');
-const verifyJWT = require('../../_middleware/verifyJWT');
+
 
 // GET ALL USERS
-router.route('/').get(verifyJWT, userController.getAllUsers)
+router.route('/').get(userController.getAllUsers)
 // for the POST tranactions you have the PARAMS  
 // that come in with the request and you can access them 
 // with the   

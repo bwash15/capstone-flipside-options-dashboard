@@ -5,6 +5,8 @@ const cors = require('cors');
 const corsOptions = require('./_config/corsOptions')
 const {logServerEvents, logger} = require('./_middleware/logServerEvents');
 const errorHandler = require('./_middleware/errorHandler');
+const verifyJWT = require('./_middleware/verifyJWT');
+const cookieParser = require('cookie-parser');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter{};
 const myEmitter = new Emitter();
@@ -51,6 +53,8 @@ app.use(express.urlencoded({extended: false}));
 //     HANDLES JSON SUBMITTED DATA when it is submitted
 app.use(express.json());
 
+//     MIDDLEWARE FOR COOKIES
+//app.use(cookieParser());
 //***********************************************  */
 //      SERVE STATIC FILES - CSS APPLIED HERE
 // Searches the public directory for the request before the other routes
@@ -59,25 +63,30 @@ app.use(express.json());
 // > pulls in the Public file for each route specified
 app.use('/', express.static(path.join(__dirname, '/public')));
 
+//*************************************************
+//      WEB PAGE ROUTING
+app.use('/', require('./_routes/root'));
+app.use('/register', require('./_routes/_register'));
+app.use('/auth', require('./_routes/_auth'));
+//*************************************************** */
+//      JWT
+// Everything below this line will use the JWT
+// Users will have to reauthenticate the refresh token after
+// specified period of time in order to continue to have 
+// access after expiration
+app.use(verifyJWT);
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
-app.use('/', require('./_routes/root'));
 // Does not needs a Static file because we will just be serving data from the database
+app.use('/users', require('./_routes/api/users'));
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));
 app.use('/optionDetails', require('./_routes/api/optionDetails'));
 app.use('/optionGreeks', require('./_routes/api/optionGreeks'));
 app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
-app.use('/users', require('./_routes/api/users'));
 //app.use('/historicalDataModels', require('./_routes/api/users'));
-//*************************************************
-//      WEB PAGE ROUTING
-app.use('/register', require('./_routes/_register'));
-app.use('/auth', require('./_routes/_auth'));
-//*************************************************** */
-
 
 /****************************************************** */
 /**

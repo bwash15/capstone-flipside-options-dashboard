@@ -7,6 +7,8 @@ const bcrypt = require('bcrypt');
 
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
+const fsPromises = require('fs').promises;
+const path = require('path');
 
 const handleLogin = async (req, res) => {
     const { email, password} = req.body;
@@ -36,7 +38,7 @@ const handleLogin = async (req, res) => {
         const currentUser = { ...foundUser, refreshToken };
         usersDB.setUsers([...otherUsers, currentUser]);
         await fsPromises.writeFile(
-            path.join(__dirname, '..', 'model', 'users.json'),
+            path.join(__dirname, '..', '_model', 'users.json'),
             JSON.stringify(usersDB.users)
         );
         //***  comment out the code above to enter the code below */  
@@ -47,8 +49,11 @@ const handleLogin = async (req, res) => {
             // KEEP IN MEMORY OR APP STORAGE
             // ** httpOnly cookie not available in javascript **
             //                                   left out parm: [secure: true]
-        res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000});
-        res.json({ roles, accessToken });
+        res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000});
+//************************************************************************ */
+        // Send the JWT to the front end for the front end 
+        res.json({ accessToken });
+//************************************************************************ */
     } else {
         res.sendStatus(401);
     }
