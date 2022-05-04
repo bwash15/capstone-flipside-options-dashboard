@@ -41,16 +41,41 @@ export default function ControlledAccordions() {
                         sx={{
                             '& > :not(style)': { m: 1, width: '25ch'},
                             display: "flex",
-                            justifyContent: "center",
-                            flexDirection: "row",
+                            flexDirection: "column",
+                            justifyItems: "center",
+                            alignSelf: "center"
                             
                         }}
                         noValidate
                         autoComplete="off"
                         >
-                        <TextField id="firstName" label="FirstName" variant="outlined" />
-                        <TextField id="lastName" label="LastName" variant="outlined" />
-                        <TextField id="email" label="Email" variant="outlined" />
+                        <form style={{minWidth: "fit-content"}}>
+                            <div style={{display: "flex", alignItems: "center"}}>
+                                <div style={{padding: "30px", minWidth: "100%"}}>
+                                <Typography>FirstName:</Typography>
+                                </div>
+                                <div style={{padding: "30px", minWidth: "100%"}}>
+                                <TextField id="firstName" label="FirstName" variant="outlined" />
+                                </div>
+                            </div>
+                            <div style={{display: "flex", alignItems: "center"}}>
+                                <div style={{padding: "30px", minWidth: "100%"}}>
+                                <Typography>LastName:</Typography>
+                                </div>
+                                <div style={{padding: "30px", minWidth: "100%"}}>
+                                <TextField id="lastName" label="LastName" variant="outlined" />
+                                </div>
+
+                            </div>
+                            <div style={{display: "flex", alignItems: "center"}}>
+                                <div style={{padding: "30px", minWidth: "100%"}}>
+                                <Typography>Email:</Typography>
+                                </div>
+                                <div style={{padding: "30px", minWidth: "100%"}}>
+                                <TextField id="email" label="Email" variant="outlined" />
+                                </div>
+                            </div>
+                        </form>
                     </Box>
                     </AccordionDetails>
                 </Accordion>
