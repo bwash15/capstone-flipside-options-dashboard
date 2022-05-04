@@ -31,7 +31,7 @@ const NavBar = () => {
                     Profile
                 </NavLink>
             </NavMenu>
-            <NavButton onClick={logout}>
+            <NavButton onClick={logout} style={{cursor:"pointer"}}>
                 Logout
             </NavButton>
         </Nav>

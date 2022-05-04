@@ -5,6 +5,9 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { borderLeft } from '@mui/system';
+import { makeStyles } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 import styles from "./styles.module.css";
 
 
@@ -29,10 +32,26 @@ export default function ControlledAccordions() {
                         Profile Info
                     </Typography>
                     </AccordionSummary>
-                    <AccordionDetails>
+                    <AccordionDetails sx={{justifyContent: "center", alignItems: "center"}} >
                     <Typography >
                         The users Name, Email, and Phon# will be displayed here. They will be able to edit the info as well using a button next to each text field.
                     </Typography>
+                    <Box
+                        component="form"
+                        sx={{
+                            '& > :not(style)': { m: 1, width: '25ch'},
+                            display: "flex",
+                            justifyContent: "center",
+                            flexDirection: "row",
+                            
+                        }}
+                        noValidate
+                        autoComplete="off"
+                        >
+                        <TextField id="firstName" label="FirstName" variant="outlined" />
+                        <TextField id="lastName" label="LastName" variant="outlined" />
+                        <TextField id="email" label="Email" variant="outlined" />
+                    </Box>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
