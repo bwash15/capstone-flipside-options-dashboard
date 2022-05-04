@@ -19,7 +19,7 @@ function App() {
 				<Route path="/signup" exact element={<MobileSignup />} />
 				<Route path="/login" exact element={<MobileLogin />} />
 				<Route path="/profile" exact element = {<MobileProfile/>}/>
-				<Route path="/" element={<Navigate replace to="/profile" />} />
+				<Route path="/" element={<Navigate replace to="/login" />} />
 			</Routes>
 		);
 	}
@@ -30,7 +30,7 @@ function App() {
 				<Route path="/signup" exact element={<Signup />} />
 				<Route path="/login" exact element={<Login />} />
 				<Route path="/profile" exact element = {<Profile/>}/>
-				<Route path="/" element={<Navigate replace to="/profile" />} />
+				<Route path="/" element={<Navigate replace to="/login" />} />
 			</Routes>
 		);
 	}

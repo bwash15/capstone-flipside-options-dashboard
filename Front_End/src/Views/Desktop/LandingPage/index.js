@@ -80,7 +80,7 @@ function Home(){
         <h1>The current price from the api option is: ${value}</h1>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
-        <button onClick={first}>Token</button>
+        <button onClick={window.location("/profile")}>Profile</button>
     </div>);
 }
 
