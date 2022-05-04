@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-router-dom' 
-import {Nav, NavLink, Bars, NavMenu, NavLink, NavButton, NavButtonLink} from './NavBarElements'   
-export const NavBar = () => {
+import {Nav, NavLink, Bars, NavMenu, NavButton, NavButtonLink} from './NavBarElements'   
+const NavBar = () => {
   
     const logout =()=> {
         localStorage.clear();
@@ -33,3 +33,4 @@ export const NavBar = () => {
     </>
   )
 }
+export default NavBar;
