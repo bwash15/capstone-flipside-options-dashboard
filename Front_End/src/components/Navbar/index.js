@@ -13,18 +13,18 @@ const NavBar = () => {
     <>
         <Nav>
             <NavLink to="/">
-            <h1>Logo</h1>
+            <img src="Images/FlipSideLogo.png" alt="Logo"/>
             </NavLink>
 
             <Bars />
             <NavMenu>
-                <NavLink to='/Tiles' activeStyle>
+                <NavLink to='/tiles' activeStyle>
                     Tiles
                 </NavLink>
-                <NavLink to='/Trading' activeStyle>
+                <NavLink to='/trading' activeStyle>
                     Trading
                 </NavLink>
-                <NavLink to='/Profile' activeStyle>
+                <NavLink to='/profile' activeStyle>
                     Profile
                 </NavLink>
             </NavMenu>
