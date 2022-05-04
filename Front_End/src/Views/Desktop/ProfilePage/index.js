@@ -15,6 +15,8 @@ export default function ControlledAccordions() {
   };
 
   return (
+    <html>
+    <img className= {styles.img} src="/Images/FlipSideLogo.png" alt="Avatar"/>
     <div className={styles.login_container}>
     <div className={styles.login_form_container}>
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
@@ -79,5 +81,6 @@ export default function ControlledAccordions() {
                 </Accordion>
             </div>
         </div>
+        </html>
     );
 }
