@@ -156,7 +156,7 @@ const Signup = () => {
 							className={setClassName(matchPwd, validMatch)}
 						/>
 						{error && <div className={styles.error_msg}>{error}</div>}
-						<button type="submit" className={styles.green_btn} onClick={handleSubmit}>
+						<button type="submit" className={styles.green_btn} onClick={handleSubmit} onTouchStart={handleSubmit}>
 							Sign Up
 						</button>
 					</form>
