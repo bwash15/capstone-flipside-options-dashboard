@@ -1,9 +1,12 @@
 import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home(){
     const [value, setValue] = useState();
+    const navigate = useNavigate();
+
     const fetchData  = () => {
         let option_type = 'P'                             //C for call P for put
         let option_expire_date = '220506'                 // YearMonthDay
@@ -69,6 +72,10 @@ function Home(){
             return e;
         }    
     }
+
+    const navProfile = () =>{
+        navigate("/profile")
+    }
     // useEffect(() => {
     //     setValue(fetchData());
     // }, []);
@@ -80,7 +87,7 @@ function Home(){
         <h1>The current price from the api option is: ${value}</h1>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
-        <button onClick={window.location("/profile")}>Profile</button>
+        <button onClick={navProfile}>Profile</button>
     </div>);
 }
 
