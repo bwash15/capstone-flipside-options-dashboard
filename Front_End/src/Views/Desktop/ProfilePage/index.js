@@ -55,7 +55,7 @@ export default function ControlledAccordions() {
                                 <Typography>FirstName:</Typography>
                                 </div>
                                 <div style={{padding: "30px", minWidth: "100%"}}>
-                                <TextField id="firstName" label="FirstName" variant="outlined" />
+                                <TextField id="firstName" variant="outlined" disabled value={"FirstName"}/>
                                 </div>
                             </div>
                             <div style={{display: "flex", alignItems: "center"}}>
@@ -63,16 +63,15 @@ export default function ControlledAccordions() {
                                 <Typography>LastName:</Typography>
                                 </div>
                                 <div style={{padding: "30px", minWidth: "100%"}}>
-                                <TextField id="lastName" label="LastName" variant="outlined" />
+                                <TextField id="lastName" variant="outlined" disabled value={"LastName"}/>
                                 </div>
-
                             </div>
                             <div style={{display: "flex", alignItems: "center"}}>
                                 <div style={{padding: "30px", minWidth: "100%"}}>
                                 <Typography>Email:</Typography>
                                 </div>
                                 <div style={{padding: "30px", minWidth: "100%"}}>
-                                <TextField id="email" label="Email" variant="outlined" />
+                                <TextField id="email" variant="outlined" disabled value={"Email"}/>
                                 </div>
                             </div>
                         </form>
