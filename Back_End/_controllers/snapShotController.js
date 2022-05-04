@@ -6,7 +6,7 @@ const last_quote = require('../schema/last_quote');
 const underlying_asset = require('../schema/underlying_asset');
 const bcrypt = require('bcrypt');
 const { request } = require('express');
-const logServerEvents = require('./../logServerEvents')
+const logServerEvents = require('../logServerEvents')
 
 
 const handleSnapShotHeartbeat = async (req, res) => {
@@ -29,14 +29,10 @@ const handleSnapShotHeartbeat = async (req, res) => {
     if(!results) return res.status(400).json({'message': 'No results found'});
     if(!break_even_price) return res.status(400).json({'message': 'No Break Even Price found'});
     if(!day) return res.status(400).json({'message': 'No Day info found'});
-
     if(!details) return res.status(400).json({'message': 'No Details found'});
-
     if(!greeks) return res.status(400).json({'message': 'No Greeks found'});
-
     if(!implied_volatility) return res.status(400).json({'message': 'No Implied Volatility found'});
     if(!last_quote) return res.status(400).json({'message': 'No Last Quote found'});
-
     if(!open_interest) return res.status(400).json({'message': 'No Open Interest found'});
     if(!underlying_asset) return res.status(400).json({'message': 'No Underlying Interest found'});
 
@@ -49,7 +45,7 @@ const handleSnapShotHeartbeat = async (req, res) => {
         // Create and Store the new snapShot
         const result = await SnapSHotSchema.create( {
             "request_id" : request_id,            
-            "password": hashedPwd
+            
         });
         console.log(result);
         res.status(201).json({'success' : `SnapShot ${request_id} loaded into database`});    

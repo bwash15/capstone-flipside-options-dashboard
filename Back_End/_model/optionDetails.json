@@ -1,7 +1,7 @@
 [
     {
         "details_id":             1,
-        "contractType":           "String",
+        "contract_type":           "String",
         "exercise_style":         "String", 
         "expiration_date":        "Date", 
         "shares_per_contract":     0.0,

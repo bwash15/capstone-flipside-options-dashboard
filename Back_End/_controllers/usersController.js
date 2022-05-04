@@ -18,7 +18,6 @@ const getAllUsers = (req, res) => {
 }
 
 const createNewUser = (req,res) => {
-
     const newUser = {
         userid: data.users[data.users.length -1].id + 1 || 1,
         firstname: req.body.firstname,
@@ -72,9 +71,13 @@ const deleteUser = (req,res) => {
 }
 
 const getUser = (req, res) => {
-    // using params here because it is 
-    // going to pull it directly from the URL
-        res.json({"userid": req.params.userid});
+    // Checks the userID
+    // using params here because it is going to pull it directly from the URL
+    const user = data.users.find(usr => usr.userid === parseInt(req.params.userid));
+    if(!user) {
+        return res.status(400).json({ "message": `User ID ${req.params.userid} Not Found`});
+    }
+    res.json(user);
 }
 
 

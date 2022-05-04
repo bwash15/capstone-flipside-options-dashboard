@@ -266,3 +266,23 @@ DateTime:[20220501	13:13:37]	UUID:[153fbbf1-84bd-4263-b090-b01f87e725e8]
 DateTime:[20220501	13:14:11]	UUID:[31ae576e-a54d-42a6-be43-c0278de4b29b]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[DELETE	undefined	/optionsAPIpull]
+
+DateTime:[20220503	21:23:53]	UUID:[4b684ecb-3acb-4280-a60e-98b28b728eac]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/users]
+
+DateTime:[20220503	21:24:51]	UUID:[c14fe53c-8c0c-45ce-8f6c-17cb4ed1186a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/users]
+
+DateTime:[20220503	21:25:46]	UUID:[4b36760f-369b-4f92-b350-a86d4ae5aecf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[PUT	undefined	/users]
+
+DateTime:[20220503	21:26:07]	UUID:[eb6e0599-3fff-4c40-a46d-ebf365167b5c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[PUT	undefined	/users]
+
+DateTime:[20220503	21:28:03]	UUID:[ca88f235-d442-4c6c-8465-d34f45638df2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[DELETE	undefined	/users]

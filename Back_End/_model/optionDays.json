@@ -5,7 +5,7 @@
         "change_percent": 0.0,
         "close":          0.0,
         "high":           0.0,
-        "lastUpdated":    "String", 
+        "last_Updated":    "String", 
         "low":            0.0,
         "open":           0.0,
         "previous_close": 0.0, 
