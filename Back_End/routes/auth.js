@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { User } = require("../schema/user");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const Joi = require("joi");
 const EventEmitter = require('events');
 class Emitter extends EventEmitter{};

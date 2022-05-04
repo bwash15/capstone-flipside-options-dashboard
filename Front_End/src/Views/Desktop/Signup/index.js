@@ -3,7 +3,6 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import styles from  "./styles.module.css";
 
-
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
@@ -25,7 +24,6 @@ const Signup = () => {
 
     const [pwd, setPwd] = useState('');
     const [validPwd, setValidPwd] = useState(false);
-    const [pwdFocus, setPwdFocus] = useState(false);
 
     const [matchPwd, setMatchPwd] = useState('');
     const [validMatch, setValidMatch] = useState(false);
@@ -51,9 +49,6 @@ const Signup = () => {
         setValidMatch(pwd === matchPwd);
     }, [pwd, matchPwd])
 
-    useEffect(() => {
-        setErrMsg('');
-    }, [email, pwd, matchPwd])
 
 	const setClassName=(e, h) => {
 		if(e && h)
@@ -64,10 +59,7 @@ const Signup = () => {
 			return styles.input;
 	}
 
-
-    const [errMsg, setErrMsg] = useState('');
-
-
+	
 	const [data, setData] = useState({
 		firstName: "",
 		lastName: "",
@@ -100,6 +92,7 @@ const Signup = () => {
 	};
 
 	return (
+		
 		<div className={styles.signup_container}>
 			<div className={styles.signup_form_container}>
 				<div className={styles.left}>
@@ -177,6 +170,7 @@ const Signup = () => {
 				</div>
 			</div>
 		</div>
+		
 	);
 };
 
