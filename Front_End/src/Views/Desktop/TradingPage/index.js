@@ -1,8 +1,8 @@
 import * as React from 'react';
 
 
-export default function Trading() {
+ function Trading() {
   return (
     <div><h1>Trading Page</h1></div>
   );
-}
+}export default Trading;
