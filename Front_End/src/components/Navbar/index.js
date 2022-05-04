@@ -13,7 +13,7 @@ const NavBar = () => {
     <>
         <Nav>
             <NavLink to="/">
-            <img style = {{height: '70px'}} src="Images/FlipSideLogo.png" alt="Logo"/>
+            <img style = {{height: '60px', width: '120px'}} src="Images/FlipSideLogo.png" alt="Logo"/>
             </NavLink>
 
             <Bars />
@@ -31,7 +31,9 @@ const NavBar = () => {
                     Profile
                 </NavLink>
             </NavMenu>
-            <NavButton onClick={logout}>Logout</NavButton>
+            <NavButton onClick={logout}>
+                Logout
+            </NavButton>
         </Nav>
     </>
   )
