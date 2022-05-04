@@ -72,51 +72,12 @@ app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
 app.use('/users', require('./_routes/api/users'));
 //app.use('/historicalDataModels', require('./_routes/api/users'));
-
-//*************************************************** */
-/**    DATA MODEL PULLS FROM THE DATABASE
- * 
- * (.html)? - allows someone to find webpage without .html extension on the
- * end of the URL 
- * 
- */
-// app.get('/user/:id', (req, res, next) => {
-//     // if the user ID is 0, skip to the next route
-//     if (req.params.id === '0') next('route')
-//     // otherwise pass the control to the next middleware function in this stack
-//     else next()
-//   }, (req, res, next) => {
-//     // send a regular response
-//     res.send('regular')
-//   })
-  
-//   // handler for the /user/:id path, which sends a special response
-//   app.get('/user/:id', (req, res, next) => {
-//     res.send('special')
-//   })
+//*************************************************
+//      WEB PAGE ROUTING
+app.use('/register', require('./_routes/_register'));
+app.use('/auth', require('./_routes/_auth'));
 //*************************************************** */
 
-
-
-//*************************************************** */
-/**
- *  API PULL FOR OPTIONS *  
- */
-// Get all the objects in a collection
-// app.get('/snapShot', function(req,res) {
-//     console.log('getting all options');
-//     Greek.find({}).exec(function(err, results){
-//       if(err){
-//         // log the error
-//         myEmitter.emit('errorLog', 'message: ' + error.message, 'serverErrorLogs', 'server_GetAll_Errors.txt' );
-//         // tell the user of the error
-//         res.send('error has occurred');
-//       }else{
-//         console.log(results);
-//         res.json(results);   
-//       } 
-//     }
-//   )});
 
 /****************************************************** */
 /**
