@@ -19,7 +19,7 @@ export default function Login() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = process.env.REACT_APP_API_AUTH;
+			const url = process.env.REACT_APP_API_AUTH || "http://localhost:8080/api/auth";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			localStorage.setItem("user", JSON.stringify({
