@@ -9,6 +9,7 @@ import MobileMain from "./Views/Mobile/LandingPage";
 import MobileSignup from "./Views/Mobile/Signup";
 import MobileLogin from "./Views/Mobile/Login";
 import MobileProfile from "./Views/Desktop/ProfilePage";
+import Trading from "./Views/Desktop/TradingPage";
 import { BrowserRouter as Router} from "react-router-dom";
 import NavBar from './components/Navbar';
 import MobileTiles from "./Views/Mobile/TilesPage";
@@ -24,7 +25,8 @@ function App() {
 				<Route path="/login" exact element={<MobileLogin />} />
 				<Route path="/profile" exact element = {<MobileProfile/>}/>
 				<Route path="/tiles" exact element = {<MobileTiles/>}/>
-				<Route path="/" element={<Navigate replace to="/login" />} />
+				<Route path="/trading" exact element = {<Trading/>}/>
+				<Route path="/" element={<Navigate replace to="/login" />}/>
 			</Routes>
 		);
 	}
@@ -36,6 +38,7 @@ function App() {
 					<Route path="/login" exact element={<Login />} />
 					<Route path="/profile" exact element = {<Profile/>}/>
 					<Route path="/tiles" exact element = {<Tiles/>}/>
+					<Route path="/trading" exact element = {<Trading/>}/>
 					<Route path="/" element={<Navigate replace to="/login" />} />
 				</Routes>	
 		);

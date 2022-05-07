@@ -7,6 +7,7 @@ const credentials = require('./Middleware/credentials');
 const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
 const corsOptions = require("./config/corsOptions");
+const _authRoutes = require("./_routes/_auth");
 
 // database connection
 connection();
