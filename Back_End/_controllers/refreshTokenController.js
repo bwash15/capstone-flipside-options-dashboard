@@ -13,8 +13,7 @@ const handleRefreshToken = (req, res) => {
     const cookies = req.cookies;
     // checks IF there are cookies > if there are then checks to see if there are JWTs present
     // IF NOT returns a 401 status - Unauthorized
-    if (!cookies?.jwt) return res.sendStatus(401);    // checking for JWT token hidden in a cookie
-    console.log(cookies.jwt);  // showing in the console what is stored for the JWT
+    if (!cookies?.jwt) return res.sendStatus(401);    // checking for JWT token hidden in a cookie 
 
     // Defining the Refresh Token 
     const refreshToken = cookies.jwt;

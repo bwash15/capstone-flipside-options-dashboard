@@ -7,6 +7,7 @@ const {logServerEvents, logger} = require('./_middleware/logServerEvents');
 const errorHandler = require('./_middleware/errorHandler');
 const verifyJWT = require('./_middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
+const credentials = require('./_middleware/credentials');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter{};
 const myEmitter = new Emitter();
@@ -34,6 +35,11 @@ app.use(logger);
 myEmitter.on('serverError', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('404pageFoundLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
+
+//*********************************************** */
+// Handle options-credentials-check - before CORS!
+// and fetch cookies credentials requirement
+app.use(credentials);
 
 //*********************************************** */
 //     BUILT-IN MIDDLEWARE
@@ -64,6 +70,7 @@ app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
 app.use('/refresh', require('./_routes/_refresh'));
+app.use('/logout', require('./_routes/_logout'));
 
 //************************************************/
 //      JWT

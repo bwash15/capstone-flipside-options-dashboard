@@ -518,3 +518,35 @@ DateTime:[20220507	00:17:59]	UUID:[8f67c3fa-2679-4502-9fb2-1568a58be6b4]
 DateTime:[20220507	00:18:00]	UUID:[92ed7641-a3ed-4f40-b969-f3cf172cc0ce]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:41:27]	UUID:[5a1380f3-9cde-4de0-ae79-7a2c90601c98]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/auth]
+
+DateTime:[20220507	00:41:29]	UUID:[4a8511a6-08d9-45a9-a616-e2a670a3bbd0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:41:33]	UUID:[e4309075-99e8-4fd6-9a63-182e9ea16d86]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/logout]
+
+DateTime:[20220507	00:42:59]	UUID:[07a7ff98-548e-4cc1-839c-a825507f7da1]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	01:08:14]	UUID:[5e8b56c5-3749-4399-9bbd-f217e9186e9b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/auth]
+
+DateTime:[20220507	01:08:20]	UUID:[1c9a759c-909a-42bd-846a-cc5c0ebf58c1]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	01:10:15]	UUID:[e8cee5da-50a7-4b5c-982e-0e7e561d2e1a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/auth]
+
+DateTime:[20220507	01:10:26]	UUID:[65771375-21eb-4905-b8fb-c61f36ffc4e7]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
