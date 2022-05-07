@@ -14,6 +14,6 @@ router.route('/')
 /************************************************ */
 //  ROUTING DIRECTLY FROM THE URL
 router.route('/:day_id')
-    .get(optionDayController.getOptionDays);
+    .get(optionDayController.getOptionDay);
 
 module.exports = router;

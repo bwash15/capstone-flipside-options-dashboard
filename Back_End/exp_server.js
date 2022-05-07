@@ -54,7 +54,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 //     MIDDLEWARE FOR COOKIES
-//app.use(cookieParser());
+app.use(cookieParser());
 //***********************************************  */
 //      SERVE STATIC FILES - CSS APPLIED HERE
 // Searches the public directory for the request before the other routes
@@ -74,7 +74,7 @@ app.use('/auth', require('./_routes/_auth'));
 // Users will have to reauthenticate the refresh token after
 // specified period of time in order to continue to have 
 // access after expiration
-app.use(verifyJWT);
+//app.use(verifyJWT);
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file

@@ -22,6 +22,6 @@ const subapiPullSchema = new mongoose.Schema({
       default: () => ({})
     }
   });
-  module.exports= mongoose.model('SubapiPulldoc', subapiPullSchema);
+module.exports= mongoose.model('SubapiPulldoc', subapiPullSchema);
 
-  module.exports = mongoose.model('ApiPull', apiPullSchema);
+module.exports = mongoose.model('ApiPull', apiPullSchema);

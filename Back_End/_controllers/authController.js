@@ -3,22 +3,29 @@ const usersDB = {
     setUsers: function (data) {this.users = data}
 }
 
-const bcrypt = require('bcrypt');
-
-const jwt = require('jsonwebtoken');
 require('dotenv').config();
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const {logServerEvents} = require('../_middleware/logServerEvents');
+const errorHandler = require('../_middleware/errorHandler');
+const EventEmitter = require('events');
+class Emitter extends EventEmitter{};
+const myEmitter = new Emitter();
+myEmitter.on('userLoginActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 const fsPromises = require('fs').promises;
 const path = require('path');
 
+
 const handleLogin = async (req, res) => {
     const { email, password} = req.body;
+    myEmitter.emit(`userLoginActivity`, `${email} Attempting to sign-in`, 'serverActivityLogs','loginAttemptLog.txt');
     if (!email || !password ) return res.status(400).json({'message': 'Email and Password are required.'});    // checking for duplicate usernames in the DB
     const foundUser = usersDB.users.find(person => person.email === email);
     if (!foundUser) return res.sendStatus(401); //Unauthoized
     // evaluate password
     const match = await bcrypt.compare(password, foundUser.password);
     if (match) {
-
+        myEmitter.emit(`userLoginActivity`, `${email} logged in successfully`, 'serverActivityLogs','loginAttemptLog.txt');
         // Create the JWTs - Access and Refresh 
         const accessToken = jwt.sign(
             {"email" : foundUser.email },
@@ -30,7 +37,7 @@ const handleLogin = async (req, res) => {
             {"email" : foundUser.email },
             process.env.REFRESH_TOKEN_SECRET,
             // Set this so there is not an INDEFINITE refresh token capability
-            { expiresIn: '1d'}
+            { expiresIn: '3m'}
         );
 
         // Save the Refresh token to the database with the current user
@@ -55,6 +62,8 @@ const handleLogin = async (req, res) => {
         res.json({ accessToken });
 //************************************************************************ */
     } else {
+        myEmitter.emit(`userLoginActivity`, `${email} logged in failed`, 'serverActivityLogs','loginAttemptLog.txt');
+        errorHandler();
         res.sendStatus(401);
     }
 }

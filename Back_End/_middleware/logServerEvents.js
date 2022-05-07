@@ -1,6 +1,7 @@
 const { format } = require('date-fns');
 const { v4: uuid } = require('uuid');
 
+
 const fs = require('fs');
 const fsPromises = require('fs').promises;
 const path = require('path');
@@ -25,7 +26,7 @@ const logServerEvents = async (message, logDir, logName) => {
 }
 
  const logger = (req,res,next) => {    
-    logServerEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, 'serverRequestLogs','serverReqLog.txt');
+    logServerEvents(`${req.method}\t${req.headers.origin}\t${req.originalUrl}\t{${req.baseUrl}}`, 'serverRequestLogs','serverReqLog.txt');
     console.log(`${req.method} ${req.path}`);
     next();
 }

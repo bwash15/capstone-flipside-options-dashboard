@@ -490,3 +490,63 @@ DateTime:[20220504	15:39:23]	UUID:[af221beb-876d-4e77-9313-46e3788f6b7f]
 DateTime:[20220504	15:39:25]	UUID:[04f20e0b-8b9d-4c6d-99b2-29ad33247e18]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[GET	undefined	/users]
+
+DateTime:[20220506	14:01:45]	UUID:[055a3d5e-94a3-4b3e-8105-e7eee0234b96]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	14:03:47]	UUID:[b87f3f5d-3f74-4d75-815a-a48a6dbfbe73]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	14:05:12]	UUID:[8814543c-7be7-437e-a5fc-c25fd0f4e18f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	17:38:18]	UUID:[70e57cc6-ada4-4375-8d56-042c2141b83c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	17:44:51]	UUID:[2cf242e4-5766-4608-98f6-0410fd905dd0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	17:46:45]	UUID:[0466d785-713f-4c45-841b-d0fa84991017]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:38:13]	UUID:[ee1d657d-d784-49b1-9540-44d8ea93eccf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:42:40]	UUID:[18efb7dd-3cbd-42f3-b35c-2559530ed920]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:46:45]	UUID:[8b6c74dc-c0e5-46fb-b38a-c0e0e32dcccd]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:49:08]	UUID:[549b8a28-d104-4977-a45f-ad22cb3e897f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:50:29]	UUID:[f70718c0-b92e-43a7-be37-913e93fbc85e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:51:45]	UUID:[4cce9617-6f29-47da-b1f2-2203593edfec]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:54:59]	UUID:[7f53611e-7638-4150-adc1-119749406d8f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	22:58:08]	UUID:[e5a94122-2dbb-4da9-b964-b0556bc14898]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/optionsAPIpull	{}]
+
+DateTime:[20220506	23:08:22]	UUID:[4f7b47cb-110d-407d-bda2-6612068f80a6]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/optionsAPIpull	{}]
