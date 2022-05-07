@@ -31,11 +31,6 @@ app.use(logger);
 //*********************************************** */
 // myEmitter.emit(`AccessNewPageLogs`, `New Page Access`,'serverActivityLogs','newPageAccessLog.txt');
 
-// myEmitter.on('ServerActivityLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
-// myEmitter.on('ServerFormDataLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
-// myEmitter.on('ServerJSONDataLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
-// myEmitter.on('ServerPublicDataLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
-// myEmitter.on('AccessIndexPageLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('serverError', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('404pageFoundLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
@@ -43,7 +38,7 @@ myEmitter.on('404pageFoundLogs', (msg, path, filename) => logServerEvents(msg, p
 //*********************************************** */
 //     BUILT-IN MIDDLEWARE
 // CORS - Cross Origin Resource Sharing
-// Create directory of Allowed Origins  of domains that will access the application
+// Create directory of Allowed Origins of domains that will access the application
 app.use(cors(corsOptions));
 
 //     HANDLES FORM SUBMITTED DATA when it is submitted
@@ -54,7 +49,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 //     MIDDLEWARE FOR COOKIES
-//app.use(cookieParser());
+app.use(cookieParser());
 //***********************************************  */
 //      SERVE STATIC FILES - CSS APPLIED HERE
 // Searches the public directory for the request before the other routes
@@ -63,12 +58,12 @@ app.use(express.json());
 // > pulls in the Public file for each route specified
 app.use('/', express.static(path.join(__dirname, '/public')));
 
-//*************************************************
+//***********************************************
 //      WEB PAGE ROUTING
 app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
-//*************************************************** */
+//************************************************/
 //      JWT
 // Everything below this line will use the JWT
 // Users will have to reauthenticate the refresh token after
@@ -88,7 +83,7 @@ app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
 //app.use('/historicalDataModels', require('./_routes/api/users'));
 
-/****************************************************** */
+/****************************************************/
 /**
  *    SENDING A 404 PAGE NOT FOUND
  * 
