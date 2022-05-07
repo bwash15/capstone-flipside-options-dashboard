@@ -9,6 +9,7 @@ import { makeStyles } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import styles from "./styles.module.css";
+import EditButton from '../../../components/EditButton';
 
 
 export default function ControlledAccordions() {
@@ -36,46 +37,7 @@ export default function ControlledAccordions() {
                     <Typography >
                         The users Name, Email, and Phon# will be displayed here. They will be able to edit the info as well using a button next to each text field.
                     </Typography>
-                    <Box
-                        component="form"
-                        sx={{
-                            '& > :not(style)': { m: 1, width: '25ch'},
-                            display: "flex",
-                            flexDirection: "column",
-                            justifyItems: "center",
-                            alignSelf: "center"
-                            
-                        }}
-                        noValidate
-                        autoComplete="off"
-                        >
-                        <form style={{minWidth: "fit-content"}}>
-                            <div style={{display: "flex", alignItems: "center"}}>
-                                <div style={{padding: "30px", minWidth: "100%"}}>
-                                <Typography>FirstName:</Typography>
-                                </div>
-                                <div style={{padding: "30px", minWidth: "100%"}}>
-                                <TextField id="firstName" variant="outlined" disabled value={"FirstName"}/>
-                                </div>
-                            </div>
-                            <div style={{display: "flex", alignItems: "center"}}>
-                                <div style={{padding: "30px", minWidth: "100%"}}>
-                                <Typography>LastName:</Typography>
-                                </div>
-                                <div style={{padding: "30px", minWidth: "100%"}}>
-                                <TextField id="lastName" variant="outlined" disabled value={"LastName"}/>
-                                </div>
-                            </div>
-                            <div style={{display: "flex", alignItems: "center"}}>
-                                <div style={{padding: "30px", minWidth: "100%"}}>
-                                <Typography>Email:</Typography>
-                                </div>
-                                <div style={{padding: "30px", minWidth: "100%"}}>
-                                <TextField id="email" variant="outlined" disabled value={"Email"}/>
-                                </div>
-                            </div>
-                        </form>
-                    </Box>
+                    <EditButton/>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
