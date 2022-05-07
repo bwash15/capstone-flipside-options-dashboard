@@ -63,6 +63,8 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
+app.use('/refresh', require('./_routes/_refresh'));
+
 //************************************************/
 //      JWT
 // Everything below this line will use the JWT

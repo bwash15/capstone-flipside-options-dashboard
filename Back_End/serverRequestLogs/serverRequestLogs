@@ -490,3 +490,31 @@ DateTime:[20220504	15:39:23]	UUID:[af221beb-876d-4e77-9313-46e3788f6b7f]
 DateTime:[20220504	15:39:25]	UUID:[04f20e0b-8b9d-4c6d-99b2-29ad33247e18]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[GET	undefined	/users]
+
+DateTime:[20220507	00:17:13]	UUID:[eda6e872-581c-4b6f-8ef3-bc97429ee2f2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	undefined	/auth]
+
+DateTime:[20220507	00:17:36]	UUID:[7d358f0c-8a30-4dfa-8f1e-a10dbbe9501a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:17:56]	UUID:[87579474-ffe2-407e-b876-0713a783937d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:17:57]	UUID:[6e1dfd0a-c6a9-4e02-be76-fa3fc7e7d35c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:17:58]	UUID:[0a895983-8191-4f47-be71-22c992bbc156]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:17:59]	UUID:[8f67c3fa-2679-4502-9fb2-1568a58be6b4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
+
+DateTime:[20220507	00:18:00]	UUID:[92ed7641-a3ed-4f40-b969-f3cf172cc0ce]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	undefined	/refresh]
