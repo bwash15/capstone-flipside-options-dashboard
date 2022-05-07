@@ -49,7 +49,7 @@ const EditButton = () => {
             if(!NAME_REGEX.test(user.lastName))
                 setLastError("Invalid LastName!");
             if(!EMAIL_REGEX.test(user.email))
-                setEmailError("Invalid Eamil!");
+                setEmailError("Invalid Email!");
             return;
         }
         else
@@ -78,7 +78,7 @@ const EditButton = () => {
     
     return (
         <div>
-            <Stack justifyContent={"right"} spacing={2} direction="row">
+            <Stack justifyContent={"right"} spacing={2} direction="row" margin={"10px"}>
                 {showEditButton && <Button id="edit" variant="contained" onClick={handleEdit}>Edit</Button>}
                 {showAcceptButton && <Button id="accept" variant="contained" color="success" onClick={handleAccept}>Accept</Button>}
                 {showCancelButton && <Button id="cancel" variant="contained" color="error" onClick={handleCancel}>Cancel</Button>}
@@ -88,21 +88,21 @@ const EditButton = () => {
                     <Typography sx={{width: "100px"}}>FirstName:</Typography>
                 </div>
                 <div className={styles.one_input}>
-                    <TextField id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required/>
+                    <TextField style={{width: "250px"}} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required/>
                 </div>
                 {firstError && <div className={styles.one_error}>{firstError}</div>}
                 <div className={styles.two_label}>
                     <Typography sx={{width: "100px"}}>LastName:</Typography>
                 </div>
                 <div className={styles.two_input}>
-                    <TextField id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required/>
+                    <TextField style={{width: "250px"}} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required/>
                 </div>
                 {lastError && <div className={styles.two_error}>{lastError}</div>}
                 <div className={styles.three_label}>
                     <Typography sx={{width: "100px"}}>Email:</Typography>
                 </div>
                 <div className={styles.three_input}>
-                    <TextField id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required/>
+                    <TextField style={{width: "250px"}} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required/>
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
             </div>
