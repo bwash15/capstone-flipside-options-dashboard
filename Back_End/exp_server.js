@@ -69,8 +69,6 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
-app.use('/refresh', require('./_routes/_refresh'));
-app.use('/logout', require('./_routes/_logout'));
 
 //************************************************/
 //      JWT
@@ -78,6 +76,8 @@ app.use('/logout', require('./_routes/_logout'));
 // Users will have to reauthenticate the refresh token after
 // specified period of time in order to continue to have 
 // access after expiration
+app.use('/refresh', require('./_routes/_refresh'));
+app.use('/logout', require('./_routes/_logout'));
 app.use(verifyJWT);
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
