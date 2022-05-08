@@ -1,6 +1,6 @@
 const usersDB = {
     users: require('../_model/users.json'),
-    setUsers: function (data) {this.users = data}
+    setUsers: function (data) { this.users = data }
 }
 
 const bcrypt = require('bcrypt');
@@ -11,26 +11,34 @@ const fsPromises = require('fs').promises;
 const path = require('path');
 
 const handleLogin = async (req, res) => {
-    const { email, password} = req.body;
-    if (!email || !password ) return res.status(400).json({'message': 'Email and Password are required.'});    // checking for duplicate usernames in the DB
+    const { email, password } = req.body;
+    if (!email || !password) return res.status(400).json({ 'message': 'Email and Password are required.' });    // checking for duplicate usernames in the DB
     const foundUser = usersDB.users.find(person => person.email === email);
     if (!foundUser) return res.sendStatus(401); //Unauthoized
     // evaluate password
     const match = await bcrypt.compare(password, foundUser.password);
     if (match) {
+        // Checking User's Authorization with User Roles
+        const roles = Object.values(foundUser.role);
 
         // Create the JWTs - Access and Refresh 
         const accessToken = jwt.sign(
-            {"email" : foundUser.email },
+            {
+                // Object to check for User Authentication and Authorization 
+                "UserInfo": {
+                    "email": foundUser.email,
+                    "role": roles
+                }
+            },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: '30s'}
+            { expiresIn: '30s' }
         );
 
         const refreshToken = jwt.sign(
-            {"email" : foundUser.email },
+            { "email": foundUser.email },
             process.env.REFRESH_TOKEN_SECRET,
             // Set this so there is not an INDEFINITE refresh token capability
-            { expiresIn: '1d'}
+            { expiresIn: '1d' }
         );
 
         // Save the Refresh token to the database with the current user
@@ -45,15 +53,15 @@ const handleLogin = async (req, res) => {
         // foundUser.refreshToken = refreshToken;
         // const result = await foundUser.save();
         // console.log(result);
-            // DONT NOT STORE THIS IN LOCAL STORAGE
-            // KEEP IN MEMORY OR APP STORAGE
-            // ** httpOnly cookie not available in javascript **
-            //                                   left out parm: [secure: true]
-        res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000});
-//************************************************************************ */
+        // DONT NOT STORE THIS IN LOCAL STORAGE
+        // KEEP IN MEMORY OR APP STORAGE
+        // ** httpOnly cookie not available in javascript **
+        //                                   left out parm: [secure: true]
+        res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000 });
+        //************************************************************************ */
         // Send the JWT to the front end for the front end 
         res.json({ accessToken });
-//************************************************************************ */
+        //************************************************************************ */
     } else {
         res.sendStatus(401);
     }

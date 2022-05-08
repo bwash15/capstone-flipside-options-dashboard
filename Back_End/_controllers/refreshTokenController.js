@@ -1,6 +1,8 @@
 const usersDB = {
     users: require('../_model/users.json'),
-    setUsers: function (data) {this.users = data}
+    setUsers: function (data) {
+        this.users = data
+    }
 }
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
@@ -13,7 +15,7 @@ const handleRefreshToken = (req, res) => {
     const cookies = req.cookies;
     // checks IF there are cookies > if there are then checks to see if there are JWTs present
     // IF NOT returns a 401 status - Unauthorized
-    if (!cookies?.jwt) return res.sendStatus(401);    // checking for JWT token hidden in a cookie 
+    if (!cookies?.jwt) return res.sendStatus(401); // checking for JWT token hidden in a cookie 
 
     // Defining the Refresh Token 
     const refreshToken = cookies.jwt;
@@ -23,20 +25,33 @@ const handleRefreshToken = (req, res) => {
     if (!foundUser) return res.sendStatus(403); // Forbidden
 
     // Evaluate JWT    
-   jwt.verify(
-       refreshToken,
-       process.env.REFRESH_TOKEN_SECRET,
-       (err, decoded) => {
+    jwt.verify(
+        refreshToken,
+        process.env.REFRESH_TOKEN_SECRET,
+        (err, decoded) => {
             if (err || foundUser.email !== decoded.email) return res.sendStatus(403);
-            const accessToken = jwt.sign(
-                {"email": decoded.email},
-                process.env.ACCESS_TOKEN_SECRET,
-                {expiresIn: '30s'}
-            );
-            res.json({ accessToken })
-       }
-   )
+            // Checking User's Authorization with User Roles
+            const roles = Object.values(foundUser.role);
 
-       
+            // Create the JWTs - Access and Refresh 
+            const accessToken = jwt.sign({
+                // Object to check for User Authentication and Authorization 
+                "UserInfo": {
+                    "email": foundUser.email,
+                    "role": roles
+                }
+            },
+                process.env.ACCESS_TOKEN_SECRET,
+                { expiresIn: '30s' }
+            );
+            res.json({
+                accessToken
+            })
+        }
+    )
+
+
 }
-module.exports = { handleRefreshToken };
+module.exports = {
+    handleRefreshToken
+};
