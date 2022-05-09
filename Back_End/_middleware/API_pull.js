@@ -1,12 +1,27 @@
 require("dotenv").config();
 import "isomorphic-fetch"
-const SubapiPulldoc = require('../schemas/apiPullSchema');
+
+
+app.param('user', function (req, res, next, id) {
+  // try to get the user details from the User model and attach it to the request object
+  User.find(id, function (err, user) {
+    if (err) {
+      next(err)
+    } else if (user) {
+      req.user = user
+      next()
+    } else {
+      next(new Error('failed to load user'))
+    }
+  })
+})
+
 
 
 //  Use setInterval() to set the heartbeat for the API pull 
 
 
-const PullOptions = async (SubapiPulldoc) => {
+const PullHistoricalOptions = async (SubapiPulldoc) => {
     SubapiPulldoc.option_type = 'C'                             //C for call P for put
     SubapiPulldoc.option_expire_date = '220427'                 // YearMonthDay
     SubapiPulldoc.option_ticker = 'SPY';                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
@@ -68,4 +83,4 @@ const PullOptions = async (SubapiPulldoc) => {
       // console.log(query)
       // console.log("should have printed")
   }
-module.exports = { PullOptions, GetOptions, SelectoptionType, ChangeStrike};
+module.exports = { PullHistoricalOptions, GetOptions, SelectoptionType, ChangeStrike, SellingCallStratWeeklyReturn};

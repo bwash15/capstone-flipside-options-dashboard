@@ -5,7 +5,7 @@ const usersDB = {
     }
 }
 const jwt = require('jsonwebtoken');
-require('dotenv').config();
+
 
 /**
  * Every time handleRefreshToken is called user gets a new accessToken for server access
@@ -31,14 +31,13 @@ const handleRefreshToken = (req, res) => {
         (err, decoded) => {
             if (err || foundUser.email !== decoded.email) return res.sendStatus(403);
             // Checking User's Authorization with User Roles
-            const roles = Object.values(foundUser.role);
-
+            const roles = Object.values(foundUser.roles);
             // Create the JWTs - Access and Refresh 
             const accessToken = jwt.sign({
                 // Object to check for User Authentication and Authorization 
                 "UserInfo": {
-                    "email": foundUser.email,
-                    "role": roles
+                    "email": decoded.email,
+                    "roles": roles
                 }
             },
                 process.env.ACCESS_TOKEN_SECRET,
