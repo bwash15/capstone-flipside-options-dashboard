@@ -1,17 +1,10 @@
-const usersDB = {
-    users: require('../_model/users.json'),
-    setUsers: function (data) {
-        this.users = data
-    }
-}
+const User = require('../_model/User');
 const jwt = require('jsonwebtoken');
-
-
 /**
  * Every time handleRefreshToken is called user gets a new accessToken for server access
  */
 
-const handleRefreshToken = (req, res) => {
+const handleRefreshToken = async (req, res) => {
     const cookies = req.cookies;
     // checks IF there are cookies > if there are then checks to see if there are JWTs present
     // IF NOT returns a 401 status - Unauthorized
@@ -19,8 +12,10 @@ const handleRefreshToken = (req, res) => {
 
     // Defining the Refresh Token 
     const refreshToken = cookies.jwt;
+    // Because we use the same name for the variable above this line > we only need the refreshToken
+    // call not the (refreshToken: refreshToken)
     // if a user has defined a JWT refreshToken it will be defined in account
-    const foundUser = usersDB.users.find(person => person.refreshToken === refreshToken);
+    const foundUser = await User.findOne({ refreshToken }).exec();
     // if no refreshtoken if found, user gets forbidden message
     if (!foundUser) return res.sendStatus(403); // Forbidden
 

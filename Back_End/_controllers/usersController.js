@@ -6,52 +6,52 @@
  *      place it here in the controllers place
  * 
  */
-
+const User = require('../_model/User');
 const { logServerEvents } = require('../_middleware/logServerEvents');
-const errorHandler = require('../_middleware/errorHandler');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 myEmitter.on('userdataActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('serverActivityLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
 
-const data = {
-    users: require('../_model/users.json'),
-    setUsers: function (data) { this.users = data }
+const getAllUsers = async (req, res) => {
+    const users = await User.find();
+    if (!users) return res.status(204).json({ 'message': 'No users found ' });
+    res.json(users);
 }
 
-
-const getAllUsers = (req, res) => {
-    myEmitter.emit(`serverActivityLogs`, `${req.body.email}: successfully searched for all users`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
-    res.json(data.users);
-}
-
-const createNewUser = (req, res) => {
-    const newUser = {
-        userid: data.users?.length ? data.users[data.users.length - 1].userid + 1 : 1,
-        firstname: req.body.firstname,
-        lastname: req.body.lastname,
-        email: req.body.email,
-        password: req.body.password,
-        role: req.body.role
-    }
-
-    if (!newUser.firstname || !newUser.lastname || !newUser.email || !newUser.password) {
-        myEmitter.emit(`serverActivityLogs`, `${newUser.email}: All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
+const createNewUser = async (req, res) => {
+    if (!req?.body?.firstname || !req?.body?.lastname || !req?.body?.email || !req?.body?.password) {
+        myEmitter.emit(`serverActivityLogs`, `All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
         return res.status(400).json({ 'message': ' All Fields Are Required' });
     }
+    try {
+        const result = await User.create({
+            firstname: req.body.firstname,
+            lastname: req.body.lastname,
+            email: req.body.email,
+            password: req.body.password
+        });
+        res.status(201).json(result);
+    } catch (err) {
+        console.error(err);
+    }
 
-    data.setUsers([...data.users, newUser]);
-    myEmitter.emit(`serverActivityLogs`, `${newUser.email} profile created successfully`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
-    res.status(201).json(data.users);
 }
 
-const updateUser = (req, res) => {
+const updateUser = async (req, res) => {
     // Checks the userID
-    const user = data.users.find(usr => usr.email === parseInt(req.body.email));
+    if (!req?.body?.email) {
+        return res.status(400).json({ 'message': 'ID parameter required, No ID found' });
+    }
+    // We have confirmed we have found the User if we have made it here
+
+    // Defining what User to update
+    const user = await User.findOne({ email: req.body.email }).exec();
+
     if (!user) {
-        myEmitter.emit(`serverActivityLogs`, `${user.email} not found`, 'serverActivityLogs', 'userSearchLogs.txt');
-        return res.status(400).json({ "message": `User account ${user.email} not found` });
+        myEmitter.emit(`serverActivityLogs`, `No User account found: ${user.email} `, 'serverActivityLogs', 'userSearchLogs.txt');
+        return res.status(204).json({ "message": `User account ${req.body.email} not found` });
     }
     myEmitter.emit(`serverActivityLogs`, `${user.email} profile found`, 'serverActivityLogs', 'userSearchLogs.txt');
     // If there are any entries from the user update the properties of the user to the entry

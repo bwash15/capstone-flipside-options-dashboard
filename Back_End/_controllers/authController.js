@@ -1,19 +1,12 @@
-const usersDB = {
-    users: require('../_model/users.json'),
-    setUsers: function (data) { this.users = data }
-}
-
-
+const User = require('../_model/User');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { logServerEvents } = require('../_middleware/logServerEvents');
-
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 myEmitter.on('userLoginActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
-const fsPromises = require('fs').promises;
-const path = require('path');
+
 
 
 const handleLogin = async (req, res) => {
@@ -22,7 +15,7 @@ const handleLogin = async (req, res) => {
     if (!email || !password) return res.status(400).json({ 'message': 'Email and Password are required.' });    // checking for duplicate usernames in the DB
 
     myEmitter.emit(`userLoginActivity`, `Attempting to locate ${email} `, 'serverActivityLogs', 'loginAttemptLog.txt');
-    const foundUser = usersDB.users.find(person => person.email === email);
+    const foundUser = await User.findOne({ email: email }).exec();
     if (!foundUser) {
         myEmitter.emit(`userLoginActivity`, `${email} is Unauthorized `, 'serverActivityLogs', 'loginAttemptLog.txt');
         return res.sendStatus(401) //Unauthoized
@@ -57,18 +50,11 @@ const handleLogin = async (req, res) => {
             { expiresIn: '3m' }
         );
 
-        // Save the Refresh token to the database with the current user
-        const otherUsers = usersDB.users.filter(person => person.email !== foundUser.email);
-        const currentUser = { ...foundUser, refreshToken };
-        usersDB.setUsers([...otherUsers, currentUser]);
-        await fsPromises.writeFile(
-            path.join(__dirname, '..', '_model', 'users.json'),
-            JSON.stringify(usersDB.users)
-        );
-        //***  comment out the code above to enter the code below */  
-        // foundUser.refreshToken = refreshToken;
-        // const result = await foundUser.save();
-        // console.log(result);
+
+        // ***  comment out the code above to enter the code below */  
+        foundUser.refreshToken = refreshToken;
+        const result = await foundUser.save();
+        console.log(result);
         // DONT NOT STORE THIS IN LOCAL STORAGE
         // KEEP IN MEMORY OR APP STORAGE
         // ** httpOnly cookie not available in javascript **
