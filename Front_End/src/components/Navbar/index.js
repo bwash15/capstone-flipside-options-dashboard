@@ -18,16 +18,16 @@ const NavBar = () => {
 
             <Bars />
             <NavMenu>
-                <NavLink to='/' activeStyle>
+                <NavLink to='/' activestyle = "true">
                     Home
                 </NavLink>
-                <NavLink to='/tiles' activeStyle>
+                <NavLink to='/tiles' activestyle = "true">
                     Tiles
                 </NavLink>
-                <NavLink to='/trading' activeStyle>
+                <NavLink to='/trading' activestyle = "true">
                     Trading
                 </NavLink>
-                <NavLink to='/profile' activeStyle>
+                <NavLink to='/profile' activestyle = "true">
                     Profile
                 </NavLink>
             </NavMenu>
