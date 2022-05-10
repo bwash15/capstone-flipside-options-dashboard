@@ -1,15 +1,18 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
 const corsOptions = require('./_config/corsOptions')
-const {logServerEvents, logger} = require('./_middleware/logServerEvents');
+const { logServerEvents, logger } = require('./_middleware/logServerEvents');
 const errorHandler = require('./_middleware/errorHandler');
 const verifyJWT = require('./_middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
 const credentials = require('./_middleware/credentials');
+const mongoose = require('mongoose');
+const connectDB = require('./_config/db_conn');
 const EventEmitter = require('events');
-class Emitter extends EventEmitter{};
+class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 
 //*********************************************** */
@@ -21,6 +24,9 @@ const myEmitter = new Emitter();
 //*********************************************** */
 //     PORT
 const PORT = process.env.PORT || 3600;
+//*********************************************** */
+//     CONNECT TO MONGO_DB
+connectDB();
 //*********************************************** */
 //     Logging Middleware
 //   Parameters for logging method
@@ -49,7 +55,7 @@ app.use(cors(corsOptions));
 
 //     HANDLES FORM SUBMITTED DATA when it is submitted
 // URL encoded data = Form data > Need this to grab from data when it is submitted
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 
 //     HANDLES JSON SUBMITTED DATA when it is submitted
 app.use(express.json());
@@ -101,14 +107,14 @@ app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
  * > send the status 404 * 
  */
 
-app.all('*', (req, res)=> {
+app.all('*', (req, res) => {
     res.status(404);
-    if(req.accepts('html')){
-        myEmitter.emit(`404pageFoundLogs`, `404 html Page NOT Found`,'serverActivityLogs','html404PageFoundLog.txt');
+    if (req.accepts('html')) {
+        myEmitter.emit(`404pageFoundLogs`, `404 html Page NOT Found`, 'serverActivityLogs', 'html404PageFoundLog.txt');
         res.sendFile(path.join(__dirname, 'views', '404.html'));
-    }else if (req.accepts('json')){
-        myEmitter.emit(`404pageFoundLogs`, `404 json Page NOT Found`,'serverActivityLogs','json404PageFoundLog.txt');
-        res.json({ error: '404 Not Found'});
+    } else if (req.accepts('json')) {
+        myEmitter.emit(`404pageFoundLogs`, `404 json Page NOT Found`, 'serverActivityLogs', 'json404PageFoundLog.txt');
+        res.json({ error: '404 Not Found' });
     } else {
         res.type('txt').send('404 txt Page NOT found');
     }
@@ -119,6 +125,8 @@ app.all('*', (req, res)=> {
 app.use(errorHandler);
 
 //****************************************************** */
-
-app.listen(PORT, () => console.log(`Server Running on ${PORT}`));
-myEmitter.emit(`ServerActivityLogs`, `Server Port: ${PORT}`,'ServerActivityLogs','expServLog.txt');
+mongoose.connection.once('open', () => {
+    console.log('Connected to MongoDB')
+    app.listen(PORT, () => console.log(`Server Running on ${PORT}`));
+    myEmitter.emit(`ServerActivityLogs`, `Server Port: ${PORT}`, 'ServerActivityLogs', 'expServLog.txt');
+})

@@ -1,564 +1,68 @@
 
-DateTime:[20220501	09:15:26]	UUID:[6adc0757-ff42-4fd1-9090-9f881ddafb4d]
+DateTime:[20220508	17:21:17]	UUID:[e560c740-8062-4b65-aec1-9462ef5eee8e]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
+	Message:[POST	undefined	/auth	{}]
 
-DateTime:[20220501	09:18:31]	UUID:[b0ef799e-0f0b-42c0-9066-5c511898ed38]
+DateTime:[20220508	17:22:39]	UUID:[4fbc99e3-c0be-493f-8ab8-e19d14b91692]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
+	Message:[POST	undefined	/auth	{}]
 
-DateTime:[20220501	09:20:08]	UUID:[98fabe3f-d6cb-499b-b6bf-c32ddbe77cd4]
+DateTime:[20220508	17:25:27]	UUID:[2b009b64-2157-4271-839f-c089a4ca6220]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionDays]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	09:20:09]	UUID:[fc0544c6-564d-4a3a-b3d9-ee339ca05669]
+DateTime:[20220508	17:32:22]	UUID:[9a142386-1c8d-4aa8-b82a-139866defcb2]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
+	Message:[POST	undefined	/auth	{}]
 
-DateTime:[20220501	11:12:18]	UUID:[f7c6bd28-d838-41ac-84f8-272068e8de02]
+DateTime:[20220508	17:34:46]	UUID:[ec869ddd-006e-4c9b-9677-5bf33036fb57]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:12:30]	UUID:[683a5fac-b452-4ea7-b238-fd8cd41c499b]
+DateTime:[20220508	17:35:08]	UUID:[882fa529-b593-437c-b84a-f7983e6ce943]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionDays]
+	Message:[GET	undefined	/refresh	{}]
 
-DateTime:[20220501	11:14:01]	UUID:[eefc19b6-eaaa-4cc6-ac2c-f437cb3686fb]
+DateTime:[20220508	17:36:17]	UUID:[64ecb529-5faf-4c10-af94-40cdc69160d3]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionDays]
+	Message:[POST	undefined	/auth	{}]
 
-DateTime:[20220501	11:15:56]	UUID:[9a743f0d-d6c6-40dd-b335-9582b74b139d]
+DateTime:[20220508	17:36:26]	UUID:[8d1c36db-fd42-47cd-aa24-93c382f07f44]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionLastQuote]
+	Message:[POST	undefined	/auth	{}]
 
-DateTime:[20220501	11:17:09]	UUID:[4396a57f-f9dc-47d1-8339-d2ac1d2e3b8c]
+DateTime:[20220508	17:36:31]	UUID:[b350994e-a67a-4a71-af5b-ccbaff735d60]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionGreeks]
+	Message:[GET	undefined	/refresh	{}]
 
-DateTime:[20220501	11:17:09]	UUID:[4abe0240-bf1e-4efd-b4d7-06b0621d273f]
+DateTime:[20220509	11:22:40]	UUID:[b8a9a72f-834c-4481-982c-b376a47c83fc]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:17:11]	UUID:[926d3b1e-9db9-44a8-b0f5-6e93bc5f11e0]
+DateTime:[20220509	11:56:17]	UUID:[d1fcf4fd-b23b-4565-a75a-cd896071b3a8]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionGreek]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:17:11]	UUID:[8c77a08e-3078-494a-a6bf-1cc8958f34fe]
+DateTime:[20220509	11:57:10]	UUID:[ab06f73b-2f11-4d92-8bf8-b521639d0125]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:21:03]	UUID:[003c8d00-6402-4c37-9f13-98a304d5986a]
+DateTime:[20220509	12:22:12]	UUID:[394926fc-204f-4706-9427-c018af31432c]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionGreeks%20]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:21:03]	UUID:[b34bdefc-9863-45bb-ad99-df7b04a89264]
+DateTime:[20220509	12:22:44]	UUID:[2f3883d6-b64c-4399-8349-295f91588dbd]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:22:00]	UUID:[c50b24ab-e08f-46d9-a880-62a705a82228]
+DateTime:[20220509	12:25:04]	UUID:[cd3a6b61-d8f2-4efe-b8fd-0f748ec26a8b]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionGreeks%20]
+	Message:[POST	undefined	/register	{}]
 
-DateTime:[20220501	11:22:00]	UUID:[b6dc5c58-20a3-4542-90ed-f35cb6cd2c97]
+DateTime:[20220509	18:58:01]	UUID:[95fef889-e0ac-493c-8a18-6f917b788504]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
+	Message:[POST	undefined	/auth	{}]
 
-DateTime:[20220501	11:22:02]	UUID:[a163dcee-f785-439a-9571-1ce1d1436b60]
+DateTime:[20220509	18:59:11]	UUID:[0ee0d74d-040f-42fb-9fee-541e49fd1f5e]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionGreeks%20]
-
-DateTime:[20220501	11:22:02]	UUID:[5a12b3fa-e210-44ed-bd7e-6317e442380e]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	11:24:06]	UUID:[76bcbc2b-7c14-4662-aae8-ed7d1b1709dd]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	11:24:09]	UUID:[5736d826-3290-49ac-8444-5f325f62fe6d]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionGreeks]
-
-DateTime:[20220501	11:26:54]	UUID:[14deb9de-9089-41e8-a89f-e536a55aa703]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionsAPIpull%20]
-
-DateTime:[20220501	11:26:54]	UUID:[34c45cbd-74fc-4af1-b49c-e48a7be4ffb7]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	11:46:23]	UUID:[f0ce4c67-3807-4017-912e-fa577fa9cf44]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionsAPIpull%20]
-
-DateTime:[20220501	11:46:23]	UUID:[9bc29d73-acf4-4c01-8367-10d8065de9bf]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:20:04]	UUID:[dae157a6-6279-4d05-928d-cf2082c5dbc8]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/users]
-
-DateTime:[20220501	12:24:36]	UUID:[49c3456c-8e77-41d3-8077-89515c91e6a0]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionsDay%20]
-
-DateTime:[20220501	12:24:36]	UUID:[8ea63de5-880a-466e-8ee9-842726c3d249]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:30:00]	UUID:[e2cc6c73-f5b7-4f8c-b4cc-2b2ec0baaca1]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:30:47]	UUID:[6af483d5-2f76-46bf-8714-c75153a71f47]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionDay%20]
-
-DateTime:[20220501	12:30:47]	UUID:[38f298bf-2f4c-4a02-8699-dd93d4367826]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:31:11]	UUID:[29e7d970-92f9-4d99-817e-8d04b8a921ce]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionDay%20]
-
-DateTime:[20220501	12:31:11]	UUID:[0227c5eb-ec60-4612-89af-785566b75729]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:31:37]	UUID:[2d50ccfd-13ea-44f2-b3e5-28046756277e]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionDays]
-
-DateTime:[20220501	12:35:04]	UUID:[8a940909-f2f7-41d4-9e55-8bca86cb5c27]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionDays]
-
-DateTime:[20220501	12:36:20]	UUID:[f8ea53c4-80de-49aa-9742-b667d4cb71f6]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionLastQuote]
-
-DateTime:[20220501	12:36:50]	UUID:[c5782dbf-f54b-4628-ad73-24a935fb132b]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionLastQuote]
-
-DateTime:[20220501	12:38:56]	UUID:[bf1c3a0f-5078-44dc-a8c8-3848a50219e8]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionGreeks]
-
-DateTime:[20220501	12:39:43]	UUID:[3019c29e-81d2-433e-96f9-00a4d3315e84]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:43:21]	UUID:[2cb42c9c-cd77-441f-9255-6d9681f11d4d]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/underlyingAsset]
-
-DateTime:[20220501	12:43:50]	UUID:[c85cbb6e-34e7-4d3f-8fe8-58cb6101f972]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/underlyingAsset]
-
-DateTime:[20220501	12:43:58]	UUID:[ff9fbc72-6300-456c-ad78-9a0f8a2b7a44]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	12:44:34]	UUID:[48a2422d-225f-4870-8be5-7af6eaa5ef35]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionsAPIpull]
-
-DateTime:[20220501	12:50:37]	UUID:[318fd9df-f4a1-4856-8443-8593d37db85e]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users/1]
-
-DateTime:[20220501	12:53:02]	UUID:[495a6bd1-288a-472b-874c-2c8437e29db9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users/1]
-
-DateTime:[20220501	12:53:13]	UUID:[9ab970e4-47dc-489f-8acb-a82c1773c33b]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users/2]
-
-DateTime:[20220501	12:57:33]	UUID:[716a566b-2fcc-4f65-9637-6cfb83f9df5a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionsAPIpull]
-
-DateTime:[20220501	12:58:46]	UUID:[0f6eac7f-5c2f-45fb-b42f-f2cbe552dfb8]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/users]
-
-DateTime:[20220501	12:59:07]	UUID:[ce378e9c-0d2a-4962-a24c-6ff2f4f6c1a3]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/optionDays]
-
-DateTime:[20220501	13:00:53]	UUID:[c7bee7a0-c873-44cb-afce-bfb5f497bb6f]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/optionDetails]
-
-DateTime:[20220501	13:01:40]	UUID:[03795d92-d029-45d4-bfe8-f513d2995540]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/optionDetails]
-
-DateTime:[20220501	13:02:17]	UUID:[8e11ea48-cbc3-4e46-9cbc-1c2e06af60fa]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/optionDetails]
-
-DateTime:[20220501	13:02:34]	UUID:[e93ee526-fbfb-4a60-b0a6-aa9400ef58fc]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/optionLastQuote]
-
-DateTime:[20220501	13:03:22]	UUID:[785b0ad8-2856-4697-b736-b8b070f72edb]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/optionGreeks]
-
-DateTime:[20220501	13:03:47]	UUID:[d3b68204-542e-494b-817b-e90591927661]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/underlyingAsset]
-
-DateTime:[20220501	13:05:02]	UUID:[40cd44c1-afc2-439b-aa55-0323f9d3bdd9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/underlyingAsset]
-
-DateTime:[20220501	13:05:36]	UUID:[244b5b3f-ab06-44e4-a957-f52f1abaefaa]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/optionsAPIpull]
-
-DateTime:[20220501	13:07:12]	UUID:[e5b1e9b6-50eb-4eac-92b0-b53d941ff8e0]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/users/1]
-
-DateTime:[20220501	13:07:12]	UUID:[2305eddf-56bc-4f65-bf9d-75d68c6b9c80]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	13:07:23]	UUID:[77c7d3db-c7e9-4111-9fcf-a095494f8c99]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/users/2]
-
-DateTime:[20220501	13:07:23]	UUID:[f32fd32b-6d8d-4d75-b7b4-412c3ac7e0c1]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220501	13:10:05]	UUID:[7e7f2723-dbea-4b4d-a4e6-c5ec6ec2d634]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/users]
-
-DateTime:[20220501	13:12:23]	UUID:[868e57f8-9d49-4cae-b788-de5278ddb43f]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/optionDetails]
-
-DateTime:[20220501	13:12:34]	UUID:[0f228b12-99a5-43f8-9a32-4298653701bf]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/optionDays]
-
-DateTime:[20220501	13:12:57]	UUID:[a1f8f5d4-9031-4bb9-8627-7484af23aa96]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/optionLastQuote]
-
-DateTime:[20220501	13:13:15]	UUID:[1becd18d-941d-4fbc-b755-f9ca830721fd]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/optionGreeks]
-
-DateTime:[20220501	13:13:37]	UUID:[153fbbf1-84bd-4263-b090-b01f87e725e8]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/underlyingAsset]
-
-DateTime:[20220501	13:14:11]	UUID:[31ae576e-a54d-42a6-be43-c0278de4b29b]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/optionsAPIpull]
-
-DateTime:[20220503	21:23:53]	UUID:[4b684ecb-3acb-4280-a60e-98b28b728eac]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220503	21:24:51]	UUID:[c14fe53c-8c0c-45ce-8f6c-17cb4ed1186a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/users]
-
-DateTime:[20220503	21:25:46]	UUID:[4b36760f-369b-4f92-b350-a86d4ae5aecf]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/users]
-
-DateTime:[20220503	21:26:07]	UUID:[eb6e0599-3fff-4c40-a46d-ebf365167b5c]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[PUT	undefined	/users]
-
-DateTime:[20220503	21:28:03]	UUID:[ca88f235-d442-4c6c-8465-d34f45638df2]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[DELETE	undefined	/users]
-
-DateTime:[20220503	22:45:14]	UUID:[5e2e14ee-02b5-46d7-bc8b-f1b493f5341a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	22:48:45]	UUID:[4abad7cd-a1a8-43cd-a13c-26dbc3e793e2]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	22:49:19]	UUID:[5ccf9c49-c69f-4e80-aed6-7ab1d432e0b6]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	22:52:56]	UUID:[f8989ae1-72eb-4510-abd5-60e6e66cfe71]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	22:55:34]	UUID:[d5f356ef-43a8-41aa-8ec0-767ca80dff2f]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	22:56:40]	UUID:[ae00d2a8-b008-48c0-81dd-ce3077216aea]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	23:02:12]	UUID:[16ec0fbf-9093-428a-a9b7-6b403230ac65]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	23:02:31]	UUID:[6bdc7569-bdd5-4a1f-bda2-c66982dc930a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	23:08:14]	UUID:[b2e29e97-380e-4921-917a-058c50783627]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	23:28:15]	UUID:[74fd7d77-b4fe-410f-82af-e6a37474db4e]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	23:28:15]	UUID:[0ed38dbd-1e41-4ce3-97d1-0c9aec36d174]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220503	23:29:28]	UUID:[421e2d52-ae94-450d-bd14-f8357d79b4c9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/register]
-
-DateTime:[20220503	23:36:54]	UUID:[a240a8fe-03c5-4d90-ae4f-99f5e9839420]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/_auth]
-
-DateTime:[20220503	23:36:54]	UUID:[900698d3-d9d2-4e37-83b2-3156032849cc]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220503	23:37:40]	UUID:[d6bfa051-a196-42cf-b674-890cd9e0be01]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/_auth]
-
-DateTime:[20220503	23:37:40]	UUID:[c9caf27d-6147-4317-8cd9-280683c3ce6f]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/css/style.css]
-
-DateTime:[20220503	23:38:55]	UUID:[c7b6e77a-3bd6-4464-8c0f-f9ab32779a16]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	00:33:58]	UUID:[7f40c4a8-f41f-4527-a438-929db36e8fca]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	00:47:33]	UUID:[27d6e4e4-a211-4dc3-9077-aea968c6bd00]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	00:56:33]	UUID:[b90fa3ab-c513-463a-bcb8-4b7d2a1ef1d7]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	00:58:43]	UUID:[e76052c6-f42d-4d6a-82c7-75a479278dcd]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	01:00:31]	UUID:[870603b7-908e-4f6a-8e90-8a6bfc14d007]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	01:02:50]	UUID:[64cf4a92-339b-4264-9bf4-a11dbe494569]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	01:03:24]	UUID:[c648ab4b-2f33-4092-9289-92542ecb20ac]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:03:38]	UUID:[bf0738e2-e8b0-4aa1-b289-5eee15879f71]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	01:03:53]	UUID:[a232bc8e-af0e-4d4f-adce-dd75259f06bf]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:15:42]	UUID:[362c7acd-f643-4fb7-b104-3293e384c44e]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	01:15:54]	UUID:[86d65522-9ba3-4e14-8414-2a2ee899af7b]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:16:08]	UUID:[25293dc4-00c9-4ccc-a4e3-761acceea9a3]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:16:09]	UUID:[eef26a60-eb9b-4cb7-9411-0f979d53ece6]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:16:10]	UUID:[e3b600cf-51ba-404c-8920-9fc3307a6256]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:16:11]	UUID:[776a8f69-8000-450b-a6f0-a10ce44834e7]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	01:16:12]	UUID:[9403abc4-6684-4b7b-a5ec-8b5a652db6fd]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	14:36:35]	UUID:[dfbcdb3a-3dc0-4024-a0d5-51e915b6346e]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	14:37:18]	UUID:[e3c712fa-4e11-4320-a8c5-a0131ecdfb87]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:38:18]	UUID:[2e01bdc7-b4f7-4db2-ac85-86cfe64b5a7a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:38:39]	UUID:[b277202a-9fee-401f-96a4-e711f92b29eb]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:38:54]	UUID:[261188c7-0138-407b-b924-f3e4077f6d71]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220504	15:39:11]	UUID:[e34f8c62-bb5a-427e-9667-ce4997df11d4]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:15]	UUID:[632dceb7-dbb9-45e7-b3cf-35c9fa2a10aa]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:16]	UUID:[9b8d64f5-4e92-438c-95d6-49b8da535f69]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:16]	UUID:[3553dc3d-0e56-4c9a-91fe-04cf485abc66]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:17]	UUID:[9d9eef61-9947-4915-8869-a07608a135c5]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:18]	UUID:[463bfc05-a996-4ef6-b266-8f96c282ea89]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:19]	UUID:[a1ea40b4-2d38-4915-8f23-508c4d18b83f]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:20]	UUID:[ad9dd695-0ea0-4a98-a4b6-9f0212a47ac6]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:21]	UUID:[2f542792-2e38-4fdf-bd73-f5ef45ea5205]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:22]	UUID:[988d7e15-6cde-4c02-b4aa-5315c85074ad]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:23]	UUID:[f3aa7e50-8647-4120-994f-b8b812761f95]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:23]	UUID:[af221beb-876d-4e77-9313-46e3788f6b7f]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220504	15:39:25]	UUID:[04f20e0b-8b9d-4c6d-99b2-29ad33247e18]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/users]
-
-DateTime:[20220507	00:17:13]	UUID:[eda6e872-581c-4b6f-8ef3-bc97429ee2f2]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220507	00:17:36]	UUID:[7d358f0c-8a30-4dfa-8f1e-a10dbbe9501a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:17:56]	UUID:[87579474-ffe2-407e-b876-0713a783937d]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:17:57]	UUID:[6e1dfd0a-c6a9-4e02-be76-fa3fc7e7d35c]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:17:58]	UUID:[0a895983-8191-4f47-be71-22c992bbc156]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:17:59]	UUID:[8f67c3fa-2679-4502-9fb2-1568a58be6b4]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:18:00]	UUID:[92ed7641-a3ed-4f40-b969-f3cf172cc0ce]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:41:27]	UUID:[5a1380f3-9cde-4de0-ae79-7a2c90601c98]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220507	00:41:29]	UUID:[4a8511a6-08d9-45a9-a616-e2a670a3bbd0]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	00:41:33]	UUID:[e4309075-99e8-4fd6-9a63-182e9ea16d86]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/logout]
-
-DateTime:[20220507	00:42:59]	UUID:[07a7ff98-548e-4cc1-839c-a825507f7da1]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	01:08:14]	UUID:[5e8b56c5-3749-4399-9bbd-f217e9186e9b]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220507	01:08:20]	UUID:[1c9a759c-909a-42bd-846a-cc5c0ebf58c1]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	01:10:15]	UUID:[e8cee5da-50a7-4b5c-982e-0e7e561d2e1a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220507	01:10:26]	UUID:[65771375-21eb-4905-b8fb-c61f36ffc4e7]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	01:23:29]	UUID:[538d480a-c68c-4096-803d-dcc453954694]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[POST	undefined	/auth]
-
-DateTime:[20220507	01:23:34]	UUID:[cd8ab73c-1144-44cb-98c3-874fffe8fbf9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/refresh]
-
-DateTime:[20220507	01:23:37]	UUID:[afddd9b7-2929-4fa0-8682-a4e53e6c5a8d]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
-	Message:[GET	undefined	/logout]
+	Message:[POST	undefined	/auth	{}]

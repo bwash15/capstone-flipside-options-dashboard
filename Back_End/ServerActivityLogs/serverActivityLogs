@@ -1,64 +1,172 @@
 
-DateTime:[20220501	09:20:08]	UUID:[0b1c6e41-d8f2-41b4-8966-3bb290ffcf29]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:21:17]	UUID:[7a1f5ab5-c322-4efa-8de4-186dba8c4101]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[tt@tt.com Attempting to sign-in]
 
-DateTime:[20220501	11:17:09]	UUID:[290ada90-24b9-49f6-a728-c6dfa5c81932]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:21:17]	UUID:[3cb94b13-8c35-4990-97b3-e5fa9565a856]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate tt@tt.com ]
 
-DateTime:[20220501	11:17:11]	UUID:[6a3c5f84-8023-4ec1-bfd2-9b25439f9d9d]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:22:39]	UUID:[3c59a0ac-5ac8-47f7-bf00-43c9de00fb4d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[tt@tt.com Attempting to sign-in]
 
-DateTime:[20220501	11:21:03]	UUID:[d6297f50-9a8e-47b1-8c15-236205eb61dc]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:22:39]	UUID:[46f14402-289c-4d20-8420-5f8dd74aeb47]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate tt@tt.com ]
 
-DateTime:[20220501	11:22:00]	UUID:[d7460620-9419-4a91-9ef2-ccb5527ffab6]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:22:39]	UUID:[74ad3da4-a855-4a4d-a7d3-30c03764fb8c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[tt@tt.com logged in failed]
 
-DateTime:[20220501	11:22:02]	UUID:[77bf1c44-0dba-46c7-b5eb-e61ab1f8ca5a]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:25:27]	UUID:[ccab47e3-3e5f-44e5-995a-681754992e0e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userSearchLogs.txt]
+	Message:[undefined : user registered successfully]
 
-DateTime:[20220501	11:26:54]	UUID:[6e10ff7d-508e-4960-8d11-ad2a7761fec9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:32:22]	UUID:[45314b37-e94d-4de5-9c35-aa9beb5c4eba]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[tt@tt.com Attempting to sign-in]
 
-DateTime:[20220501	11:46:23]	UUID:[39955919-21ca-40f5-a988-a6f7f3249644]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:32:22]	UUID:[8c40317f-e007-44e7-b2e4-bc1b025b32bf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate tt@tt.com ]
 
-DateTime:[20220501	12:24:36]	UUID:[48234b57-56da-45ee-97e6-2d3a796e7e41]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:32:22]	UUID:[1a03dd7d-3aad-4739-bfb3-d06516d6d0a0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[tt@tt.com logged in failed]
 
-DateTime:[20220501	12:30:47]	UUID:[98008f57-a5d4-4985-ac2e-41349b3ce0b6]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:34:46]	UUID:[757ea4ae-04b4-4f93-9208-da5790b4f745]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegisterLogs.txt]
+	Message:[BWash@abc.com : user registered successfully]
 
-DateTime:[20220501	12:31:11]	UUID:[3e1e9289-85a7-44a5-86ee-f3a36f926251]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:36:17]	UUID:[64c183d5-204f-4e97-8ef1-eb9597d4c6f9]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[BWash@abc.com Attempting to sign-in]
 
-DateTime:[20220501	13:07:12]	UUID:[3b81c9ea-0824-43bb-8e03-8b6a0d86aef8]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:36:17]	UUID:[6f37eda1-317f-492d-a2ae-26f53b4790bd]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate BWash@abc.com ]
 
-DateTime:[20220501	13:07:23]	UUID:[7b371a67-2642-4356-a39b-cd77d42ab9c9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:36:17]	UUID:[2fd6b248-f911-4a0c-942b-6ea8c190631c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[BWash@abc.com logged in failed]
 
-DateTime:[20220503	23:28:15]	UUID:[d3223239-b0ee-43e3-93d4-a6687e5707c3]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:36:26]	UUID:[fe23ce9d-941c-4142-abcb-862295819c65]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[BWash@abc.com Attempting to sign-in]
 
-DateTime:[20220503	23:36:54]	UUID:[dea0d9d9-5c66-41a1-915d-c4d6f91732e9]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:36:26]	UUID:[5ad29947-4075-4270-b1b0-b270354d755d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate BWash@abc.com ]
 
-DateTime:[20220503	23:37:40]	UUID:[37682fa3-fdae-49f9-b0bb-a43ad5ad169b]
-	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][html404PageFoundLog.txt]
-	Message:[404 html Page NOT Found]
+DateTime:[20220508	17:36:26]	UUID:[116c88e4-682e-488a-9e79-d8d0b23672dc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[BWash@abc.com logged in successfully]
+
+DateTime:[20220509	11:22:40]	UUID:[f8ccab7d-184b-4d10-b027-5258bae31eef]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[ Firstname : Brandon ]
+
+DateTime:[20220509	11:22:40]	UUID:[87916763-8f84-49dc-b517-a6c5ed11bc1c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[Lastname : Washington ]
+
+DateTime:[20220509	11:22:40]	UUID:[a4de2b2a-9017-4695-a220-649f351a2331]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[BWash@abc.com : Attempting to Register]
+
+DateTime:[20220509	11:22:40]	UUID:[058bec4a-9cdc-4ee1-ba9c-ca8baeff953f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[ Password : BW@12345 ]
+
+DateTime:[20220509	11:22:40]	UUID:[5217787d-a94a-4ae3-82b0-22365096d01d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[ Email : BWash@abc.com ]
+
+DateTime:[20220509	11:22:40]	UUID:[6897d49c-9674-444c-ab3f-c97f34af5f06]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[BWash@abc.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220509	11:22:40]	UUID:[35cb2fa3-8669-4051-ad2b-a7eae9553515]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[BWash@abc.com : user registered Failed]
+
+DateTime:[20220509	11:56:18]	UUID:[8196afd3-dca6-4a50-8f83-0af47f310af3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[BWash@abc.com : Attempting to Register]
+
+DateTime:[20220509	11:56:18]	UUID:[378f2720-48c2-498d-a9ed-3ac1ddf44193]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[BWash@abc.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220509	11:56:18]	UUID:[d740a1c4-3d3d-49ae-8146-da88d34c5f59]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[BWash@abc.com : user registration Failed]
+
+DateTime:[20220509	11:57:10]	UUID:[67588cae-4e64-42d9-8cdc-64a31ebac413]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JBoy@abc.com : Attempting to Register]
+
+DateTime:[20220509	11:57:10]	UUID:[fe69fadf-a1f4-4e5d-b658-98ae441223d9]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JBoy@abc.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220509	11:57:10]	UUID:[448b138e-f9d4-419f-9c6e-fce4ae0b55a0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JBoy@abc.com : user registration Failed]
+
+DateTime:[20220509	12:22:12]	UUID:[eb763873-c91a-420c-b74a-b73ff5d7fdcc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[JBoy@abc.com : information incomplete]
+
+DateTime:[20220509	12:22:44]	UUID:[ab5c7071-4d86-4800-94e3-2ea5a1544e58]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JBoy@abc.com : Attempting to Register]
+
+DateTime:[20220509	12:22:44]	UUID:[114d7f5a-feda-4d2d-978d-bb91c50907aa]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JBoy@abc.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220509	12:22:44]	UUID:[2a8743a9-357d-4d70-bc3e-ba4fb261c815]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JBoy@abc.com : user registered successfully]
+
+DateTime:[20220509	12:25:04]	UUID:[b518b1ee-6680-4f44-919e-65c9144d5011]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JB@abc.com : Attempting to Register]
+
+DateTime:[20220509	12:25:04]	UUID:[7d4795ab-3652-4069-a2e0-8c25ff199c70]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JB@abc.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220509	12:25:04]	UUID:[dde7b275-7369-4e1d-a74d-fb66a36a3df1]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[JB@abc.com : user registered successfully]
+
+DateTime:[20220509	18:58:01]	UUID:[12d9ed93-83e2-42b2-a6cc-a0e487c61463]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[BWash@abc.com Attempting to sign-in]
+
+DateTime:[20220509	18:58:01]	UUID:[21ab9f86-5a42-4ca9-8056-ba6e94388c74]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate BWash@abc.com ]
+
+DateTime:[20220509	18:58:01]	UUID:[df9e81aa-1ec6-467c-af8a-7ec13a06960e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[BWash@abc.com is Unauthorized ]
+
+DateTime:[20220509	18:59:11]	UUID:[9e537f57-4ad8-4081-8f44-ac0c3a179080]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[JB@abc.com Attempting to sign-in]
+
+DateTime:[20220509	18:59:11]	UUID:[0eed7349-fa68-47e3-997a-44d5a303b80b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate JB@abc.com ]
+
+DateTime:[20220509	18:59:12]	UUID:[b432d37c-ba2d-40a9-94df-b05dee7fec9b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[JB@abc.com logged in successfully]
+
+DateTime:[20220509	18:59:12]	UUID:[b6b68f29-c78c-498f-ad9c-7457d3310411]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]

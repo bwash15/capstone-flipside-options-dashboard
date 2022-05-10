@@ -1,9 +1,5 @@
-const usersDB = {
-    users: require('../_model/users.json'),
-    setUsers: function (data) {this.users = data}
-}
-const fsPromises = require('fs').promises;
-const path = require('path');
+const User = require('../_model/User');
+
 
 /**
  * Every time handleLogout is called user gets a new accessToken for server access
@@ -15,27 +11,23 @@ const handleLogout = async (req, res) => {
     // The back-end will clear out the refresh token
     const cookies = req.cookies;
     // checks IF there are cookies > if there are then checks to see if there are JWTs present
-    // IF NOT returns a 401 status - Unauthorized
-    if (!cookies?.jwt) return res.sendStatus(401);    // checking for JWT token hidden in a cookie
-    console.log(cookies.jwt);  // showing in the console what is stored for the JWT
+    // IF NOT returns a 204 status - No content
+    if (!cookies?.jwt) return res.sendStatus(204);    // checking for JWT token hidden in a cookie
+    // showing in the console what is stored for the JWT
     const refreshToken = cookies.jwt;
     // if a user has defined a JWT refreshToken it will be defined in account
-    const foundUser = usersDB.users.find(person => person.refreshToken === refreshToken);
+    const foundUser = await User.findOne({ refreshToken }).exec();
     // if no refreshtoken if found, user gets forbidden message
     if (!foundUser) {
-        res.clearCookie('jwt', {httpOnly: true, sameSite: 'None'})
+        res.clearCookie('jwt', { httpOnly: true, sameSite: 'None' })
         return res.sendStatus(204); // 204 - Successful but no content
-    }; 
+    };
 
-    const otherUsers = usersDB.users.filter(person => person.refreshToken !== foundUser.refreshToken);
-    const currentUser = {...foundUser, refreshToken: ' '}; 
-    usersDB.setUsers([...otherUsers, currentUser]);
-    await fsPromises.writeFile(
-        path.join(__dirname, '..', '_model', 'users.json'),
-        JSON.stringify(usersDB.users)
-    );
-    res.clearCookie('jwt', {httpOnly: true, sameSite: 'None'});
+    foundUser.refreshToken = '';
+    const result = await foundUser.save();
+    console.log(result);
+    res.clearCookie('jwt', { httpOnly: true, sameSite: 'None' });   // Needs the [secure: true] parameter to work in Chrome
     res.sendStatus(204);
-       
+
 }
 module.exports = { handleLogout };
