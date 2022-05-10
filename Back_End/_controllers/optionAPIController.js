@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+
+const OptionsAPIpull = require('../_model/OptionsAPIpull');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 //const errorHandler = require('../_middleware/errorHandler');
 const EventEmitter = require('events');
@@ -8,10 +10,7 @@ const myEmitter = new Emitter();
 myEmitter.on('apiActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 //myEmitter.on('apiA', (msg, path, filename) => logServerEvents(msg, path, filename));
 
-const data = {
-  optionAPIpull: require('../_model/optionsAPIpull.json'),
-  setOptionAPIpull: function (data) { this.optionAPIpull = data }
-}
+
 
 const getAllOptionAPIpulls = (req, res) => {
   res.json(data.optionAPIpull);
@@ -304,6 +303,7 @@ const createNewOptionAPIpull = (req, res) => {
   if (newOptionAPIpull.status) {
     return res.status(400).json({ 'message': ' Did not pull in all API Option Pull fields' });
   }
+  myEmitter.emit(`apiActivity`, ` API_Pull : [${newOptionAPIpull}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
 
   data.setOptionAPIpull([...data.optionAPIpull, newOptionAPIpull]);
   res.status(201).json(data.optionAPIpull);

@@ -36,7 +36,6 @@ const createNewUser = async (req, res) => {
     } catch (err) {
         console.error(err);
     }
-
 }
 
 const updateUser = async (req, res) => {
@@ -45,7 +44,6 @@ const updateUser = async (req, res) => {
         return res.status(400).json({ 'message': 'ID parameter required, No ID found' });
     }
     // We have confirmed we have found the User if we have made it here
-
     // Defining what User to update
     const user = await User.findOne({ email: req.body.email }).exec();
 
@@ -55,48 +53,42 @@ const updateUser = async (req, res) => {
     }
     myEmitter.emit(`serverActivityLogs`, `${user.email} profile found`, 'serverActivityLogs', 'userSearchLogs.txt');
     // If there are any entries from the user update the properties of the user to the entry
-    if (req.body.firstname) user.firstname = req.body.firstname;
-    if (req.body.lastname) user.lastname = req.body.lastname;
-    if (req.body.email) user.email = req.body.email;
-    if (req.body.password) {
+    if (req.body?.firstname) user.firstname = req.body.firstname;
+    if (req.body?.lastname) user.lastname = req.body.lastname;
+    if (req.body?.email) user.email = req.body.email;
+    if (req.body?.password) {
         myEmitter.emit(`userdataActivity`, `${user.email} attempted to update password: Failed. Must be set at password reset site`, 'serverActivityLogs', 'failedPwdchangeAttempt.txt');
         return res.status(400).json({ "message": `User password must be updated through password reset` });
     }
-    // filters the array and removes the existing user record from the array
-    const filteredArray = data.users.filter(usr => usr.userid !== parseInt(req.body.userid));
-    const unsortedArray = [...filteredArray, user];
-    // we need the array in chronologically ordered
-    // if the userID of a is greater than b, but we need a zero if they are EVEN as well so we add
-    // the chained ternary statement
-    data.setUsers(unsortedArray.sort((a, b) => a.userid > b.userid ? 1 : a.userid < b.userid ? -1 : 0));
     myEmitter.emit(`userdataActivity`, `${user.email} profile information UPDATED successfully`, 'serverActivityLogs', 'userProfileChangeAttempt.txt');
-    res.json(data.users);
+    const result = await user.save()
+    res.json(result);
 }
 
-const deleteUser = (req, res) => {
+const deleteUser = async (req, res) => {
+    if (!req?.body?.email) return res.status(400).json({ 'message': `User Email Required ` })
     // Checks the userID
-    const user = data.users.find(usr => usr.email === parseInt(req.body.email));
+    const user = await User.findOne({ email: req.body.email }).exec();
     if (!user) {
         myEmitter.emit(`serverActivityLogs`, `${user.email} not found`, 'serverActivityLogs', 'userSearchLogs.txt');
         return res.status(400).json({ "message": `User ID ${user.email} Not Found` });
     }
     myEmitter.emit(`userdataActivity`, `${user.email} profile found for DELETE`, 'serverActivityLogs', 'userSearchLogs.txt');
-    // filters the array and removes the existing user record from the array
-    const filteredArray = data.users.filter(usr => usr.email !== parseInt(req.body.email));
-    data.setUsers([...filteredArray]);
+    const result = await user.deleteOne({ email: req.body.email })
     myEmitter.emit(`userdataActivity`, `${user.email} profile DELETED successfully`, 'serverActivityLogs', 'userProfileChangeAttempt.txt');
-    res.json(data.users);
+    res.json(result);
 }
 
-const getUser = (req, res) => {
+const getUser = async (req, res) => {
+    if (!req?.params?.email) return res.status(400).json({ 'message': `User Email Required ` })
     // Checks the userID
     // using params here because it is going to pull it directly from the URL
-    const user = data.users.find(usr => usr.email === parseInt(req.params.email));
+    const user = await User.findOne({ email: req.params.email }).exec();
     if (!user) {
-        myEmitter.emit(`serverActivityLogs`, `${user.email} not found`, 'serverActivityLogs', 'userSearchLogs.txt');
-        return res.status(400).json({ "message": `User ID ${user.email} Not Found` });
+        myEmitter.emit(`serverActivityLogs`, `${req.params.email} not found`, 'serverActivityLogs', 'userSearchLogs.txt');
+        return res.status(400).json({ "message": `User ID ${req.params.email} Not Found` });
     }
-    myEmitter.emit(`userdataActivity`, `${user.email} profile found`, 'serverActivityLogs', 'userSearchLogs.txt');
+    myEmitter.emit(`userdataActivity`, `${req.params.email} profile found`, 'serverActivityLogs', 'userSearchLogs.txt');
     res.json(user);
 }
 

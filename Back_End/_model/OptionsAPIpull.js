@@ -55,4 +55,11 @@ const oSS_schema = new Schema({
     status: String
 });
 
-module.exports = mongoose.model('OptionSnapShot', oSS_schema);
+var subAPIpullSchema = new mongoose.Schema({
+    child: {
+        type: oSS_schema,
+        default: () => ({})
+    }
+});
+module.exports = mongoose.model('subOptionsAPIpulldoc', subAPIpullSchema);
+module.exports = mongoose.model('OptionsAPIpull', oSS_schema);
