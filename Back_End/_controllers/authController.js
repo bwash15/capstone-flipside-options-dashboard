@@ -50,7 +50,6 @@ const handleLogin = async (req, res) => {
             { expiresIn: '3m' }
         );
 
-
         // ***  comment out the code above to enter the code below */  
         foundUser.refreshToken = refreshToken;
         const result = await foundUser.save();
@@ -59,7 +58,7 @@ const handleLogin = async (req, res) => {
         // KEEP IN MEMORY OR APP STORAGE
         // ** httpOnly cookie not available in javascript **
         //                                   left out parm: [secure: true]
-        res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000 });
+        res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
         //************************************************************************ */
         // Send the JWT to the front end for the front end 
         res.json({ accessToken });

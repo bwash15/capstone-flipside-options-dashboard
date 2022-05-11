@@ -19,14 +19,14 @@ const handleLogout = async (req, res) => {
     const foundUser = await User.findOne({ refreshToken }).exec();
     // if no refreshtoken if found, user gets forbidden message
     if (!foundUser) {
-        res.clearCookie('jwt', { httpOnly: true, sameSite: 'None' })
+        res.clearCookie('jwt', { httpOnly: true, secure: true, sameSite: 'None' })
         return res.sendStatus(204); // 204 - Successful but no content
     };
 
     foundUser.refreshToken = '';
     const result = await foundUser.save();
     console.log(result);
-    res.clearCookie('jwt', { httpOnly: true, sameSite: 'None' });   // Needs the [secure: true] parameter to work in Chrome
+    res.clearCookie('jwt', { httpOnly: true, secure: true, sameSite: 'None' });   // Needs the [secure: true] parameter to work in Chrome
     res.sendStatus(204);
 
 }
