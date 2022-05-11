@@ -4,7 +4,7 @@ import Main from "./Views/Desktop/LandingPage";
 import Signup from "./Views/Desktop/Signup";
 import Login from "./Views/Desktop/Login";
 import Profile from "./Views/Desktop/ProfilePage";
-import Tiles from "./Views/Desktop/TilesPage";
+import BasicCard from "./Views/Desktop/TilesPage";
 import MobileMain from "./Views/Mobile/LandingPage";
 import MobileSignup from "./Views/Mobile/Signup";
 import MobileLogin from "./Views/Mobile/Login";
@@ -37,7 +37,7 @@ function App() {
 					<Route path="/signup" exact element={<Signup />} />
 					<Route path="/login" exact element={<Login />} />
 					<Route path="/profile" exact element = {<Profile/>}/>
-					<Route path="/tiles" exact element = {<Tiles/>}/>
+					<Route path="/tiles" exact element = {<BasicCard/>}/>
 					<Route path="/trading" exact element = {<Trading/>}/>
 					<Route path="/" element={<Navigate replace to="/login" />} />
 				</Routes>	
