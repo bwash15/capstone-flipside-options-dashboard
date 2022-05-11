@@ -28,13 +28,13 @@ export const AddTile = () => {
     }
   return (
       <div style={{maxWidth: "30rem", margin: "4rem auto"}}>
-    <Form>
+    <Form onSubmit={onSubmit}>
         <FormGroup>
             <Label>Name</Label>
             <Input type = "text" value = {name} onChange = {onChange} placeholder ="Tile Name">
             </Input>
         </FormGroup>
-        <Button type = "button" onClick={onSubmit}>Submit</Button>
+        <Button type = "button">Submit</Button>
         <Link to = "/tiles" className='btn btn-danger ml-2'>Cancel</Link>
     </Form>
       </div>
