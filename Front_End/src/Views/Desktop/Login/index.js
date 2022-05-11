@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
+require("dotenv").config();
 
 
 export default function Login() {
