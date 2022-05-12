@@ -30,12 +30,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm run devf",
+    "start": "npm start",
     "build": "cd Front_End && npm run build",
     "install-Front_End": "cd Front_End && npm install",
-    "heroku-postbuild": "cd Front_End && npm run install-Front_End && npm run build",
     "frontend": "cd Front_End && npm start",
-    "devf": "cd Back_End && concurrently \"npm run devu\" \"npm run frontend\"",
+    "devf": "cd Back_End && concurrently \"npm run exp\" \"npm run frontend\"",
     "devu": "cd Back_End && nodemon index.js",
     "exp": "cd Back_End && nodemon exp_server.js"
   },
