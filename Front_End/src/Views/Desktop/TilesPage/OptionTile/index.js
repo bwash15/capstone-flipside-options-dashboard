@@ -1,30 +1,43 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
+import "@material/list/dist/mdc.list.min.css"
+import "@material/card/dist/mdc.card.min.css"
+import { AddOption } from './AddOption';
 export default function OptionTile() {
-  const [tableData, setTableData] = useState([
-    {Ticker: "TSLA", strike: "850", premium: "5.20", exp: "5/14/2022"}
-  ]);
+
 
 
   return (
-<div>
-      <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-        <ListItem>
-          <ListItemText primary="TSLA" secondary="$850 $12.0 5/14/2022" />
-        </ListItem>
-        <Divider variant="inset" component="li" />
-        <ListItem align-items = "flex-start" >
-          <ListItemText primary="AAPL" secondary="$150 $5.52 5/14/2022" />
-        </ListItem>
-        <Divider variant="inset" component="li" />
-        <ListItem>
-          <ListItemText primary="TQQQ" secondary="$30.14 $1.94 5/14/2022" />
-        </ListItem>
-      </List>
-</div>
+    <AddOption/>
   );
 }
 
+
+{/* <div>
+  <ul className="mdc-list mdc-list--two-line">
+    <li className="mdc-list-item" tabindex="0">
+      <span className="mdc-list-item__ripple"></span>
+      <span className="mdc-list-item__text">
+        <span className="mdc-list-item__primary-text">Two-line item</span>
+        <span className="mdc-list-item__secondary-text">Secondary text</span>
+      </span>
+    </li>
+    <li className="mdc-list-item">
+      <span className="mdc-list-item__ripple"></span>
+      <span className="mdc-list-item__text">
+        <span className="mdc-list-item__primary-text">Two-line item</span>
+        <span className="mdc-list-item__secondary-text">Secondary text</span>
+      </span>
+    </li>
+    <li className="mdc-list-item">
+      <span className="mdc-list-item__ripple"></span>
+      <span className="mdc-list-item__text">
+        <span className="mdc-list-item__primary-text">Two-line item</span>
+        <span className="mdc-list-item__secondary-text">Secondary text</span>
+      </span>
+    </li>
+  </ul>
+</div> */}
