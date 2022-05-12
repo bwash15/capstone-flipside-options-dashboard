@@ -25,7 +25,7 @@ const handleLogin = async (req, res) => {
     if (match) {
         myEmitter.emit(`userLoginActivity`, `${email} logged in successfully`, 'serverActivityLogs', 'loginAttemptLog.txt');
         // Checking User's Authorization with User Roles
-        const roles = Object.values(foundUser.roles);
+        const roles = Object.values(foundUser.roles).filter(Boolean);
 
         // Create the JWTs - Access and Refresh 
         myEmitter.emit(`userLoginActivity`, `Creating JWT...`, 'serverActivityLogs', 'loginAttemptLog.txt');
@@ -61,7 +61,7 @@ const handleLogin = async (req, res) => {
         res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
         //************************************************************************ */
         // Send the JWT to the front end for the front end 
-        res.json({ accessToken });
+        res.json({ roles, accessToken });
         //************************************************************************ */
     } else {
         myEmitter.emit(`userLoginActivity`, `${foundUser.email} logged in failed`, 'serverActivityLogs', 'loginAttemptLog.txt');
