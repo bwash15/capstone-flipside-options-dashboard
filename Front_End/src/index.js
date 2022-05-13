@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import NavBar from './components/Navbar';
@@ -14,8 +14,9 @@ root.render(
 	<StrictMode>
 		<BrowserRouter>
 			<AuthProvider>
-				<NavBar />
-				<Route path="/*" element={<App />} />
+				<Routes>
+					<Route path="/*" element={<App />} />
+				</Routes>
 			</AuthProvider>
 		</BrowserRouter>
 	</StrictMode>
