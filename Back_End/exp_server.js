@@ -8,8 +8,8 @@ const { logServerEvents, logger } = require('./_middleware/logServerEvents');
 const errorHandler = require('./_middleware/errorHandler');
 const verifyJWT = require('./_middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
-const credentials = require('./_middleware/credentials');
 const mongoose = require('mongoose');
+const credentials = require('./_middleware/credentials');
 const connectDB = require('./_config/db_conn');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
@@ -98,7 +98,7 @@ app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
 //app.use('/historicalDataModels', require('./_routes/api/users'));
 
-/****************************************************/
+/**************************************************/
 /**
  *    SENDING A 404 PAGE NOT FOUND
  * 

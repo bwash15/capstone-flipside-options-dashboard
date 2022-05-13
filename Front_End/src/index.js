@@ -1,28 +1,25 @@
-import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
-import { BrowserRouter } from "react-router-dom";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import NavBar from './components/Navbar';
+import { AuthProvider } from './context/AuthProvider'
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
-const user = localStorage.getItem("token");
-if(user){
-	root.render(	
-		<StrictMode>
-			<BrowserRouter>
+
+
+root.render(
+	<StrictMode>
+		<BrowserRouter>
+			<AuthProvider>
 				<NavBar />
-				<App />
-			</BrowserRouter>
-		</StrictMode>
-	);
-} else {
-	root.render(	
-		<StrictMode>
-			<BrowserRouter>
-				<App />
-			</BrowserRouter>
-		</StrictMode>
-	);
-}
+				<Route path="/*" element={<App />} />
+			</AuthProvider>
+		</BrowserRouter>
+	</StrictMode>
+);
+
+
+
