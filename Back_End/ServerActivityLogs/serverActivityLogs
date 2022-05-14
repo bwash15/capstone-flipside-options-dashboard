@@ -710,3 +710,75 @@ DateTime:[20220513	21:44:12]	UUID:[fba8a2ae-ce05-4630-8835-15979cf9c24b]
 DateTime:[20220513	21:44:12]	UUID:[510ac653-67c5-42d9-910a-1d2ee907cc78]
 	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
 	Message:[User Logged in and Token created...]
+
+DateTime:[20220513	22:02:50]	UUID:[6f933302-4a4c-457c-a50a-2677b83b4450]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[ts@ts.com Attempting to sign-in]
+
+DateTime:[20220513	22:02:50]	UUID:[e33b97b2-7a62-49ce-918a-4186758ab83a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate ts@ts.com ]
+
+DateTime:[20220513	22:02:51]	UUID:[840849e8-ee64-4f94-b700-227ec5fe1a5f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[ts@ts.com logged in successfully]
+
+DateTime:[20220513	22:02:51]	UUID:[c78f696e-4756-411a-8140-c689efb7572f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]
+
+DateTime:[20220513	22:02:51]	UUID:[b5d9378d-f06e-4a0f-9b57-3d5a0f9213f6]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Before re.Json User Logged in and Token created...]
+
+DateTime:[20220513	22:02:51]	UUID:[f16bcb79-952e-4050-80b5-353ed30c83f0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[User Logged in and Token created...]
+
+DateTime:[20220513	22:04:53]	UUID:[335edeb4-c402-41ac-aeff-69070c3c53e9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[ts@ts.com Attempting to sign-in]
+
+DateTime:[20220513	22:04:53]	UUID:[07d763c7-9ce1-41e9-8292-5a96e9f1a957]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate ts@ts.com ]
+
+DateTime:[20220513	22:04:53]	UUID:[0fdd2fb2-5085-4abe-a112-18d405633a28]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[ts@ts.com logged in successfully]
+
+DateTime:[20220513	22:04:53]	UUID:[7f674a22-0421-4afd-8c8c-b9be581bc969]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]
+
+DateTime:[20220513	22:04:53]	UUID:[cf53e614-d757-46c6-89dc-406cc234916e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Before re.Json User Logged in and Token created...]
+
+DateTime:[20220513	22:04:53]	UUID:[d22afcf8-902c-4fcc-9f47-6903ecced612]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[User Logged in and Token created...]
+
+DateTime:[20220513	22:16:37]	UUID:[48735128-0404-4e1a-a117-4e26351f2e8b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[ts@ts.com Attempting to sign-in]
+
+DateTime:[20220513	22:16:37]	UUID:[591db6ed-7862-410c-a6a5-b37aac49cbec]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate ts@ts.com ]
+
+DateTime:[20220513	22:16:38]	UUID:[2f6d6a7c-1718-45ac-8654-36db82e37a2c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[ts@ts.com logged in successfully]
+
+DateTime:[20220513	22:16:38]	UUID:[2406e06b-7c88-4c6a-a35b-f25d6169173d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]
+
+DateTime:[20220513	22:16:38]	UUID:[5fc3a58d-9121-4283-8acc-cf7d69589739]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Before re.Json User Logged in and Token created...]
+
+DateTime:[20220513	22:16:38]	UUID:[b15b47aa-93ff-4bd6-87f7-17d78896140f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[User Logged in and Token created...]

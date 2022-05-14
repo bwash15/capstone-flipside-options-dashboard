@@ -1,11 +1,12 @@
 import React from 'react'
+import { FaCookie } from 'react-icons/fa';
 import ReactDOM from 'react-router-dom' 
 import axios from '../../api/axios';
 import {Nav, NavLink, Bars, NavMenu, NavButton, NavButtonLink} from './NavBarElements'   
 const NavBar = () => {
   
     const logout = async ()=> {
-        await axios.post("http://localhost:3600/logout");
+        this.clearCookie('jwt', { httpOnly: true, secure: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000 })
         window.location.href = '/';
     };
   

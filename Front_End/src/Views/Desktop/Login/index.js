@@ -34,7 +34,6 @@ export default function Login() {
 			setEmail('');
 			setPwd('');
 			setSuccess(true);
-			window.location = "/home";
 
 		} catch (error) {
 			if (
@@ -58,7 +57,7 @@ export default function Login() {
 				<section>
 					<h1>Login Succesful!</h1>
 					<br />
-					<Navigate to="/main" replace={true}></Navigate>
+					<Navigate to="/home" replace={true}></Navigate>
 				</section>
 			) : (
 				<div className={styles.login_container}>

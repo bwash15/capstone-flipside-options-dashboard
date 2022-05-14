@@ -574,3 +574,71 @@ DateTime:[20220513	21:59:43]	UUID:[05021b6b-2078-4b7d-9840-438f6b2ec9ad]
 DateTime:[20220513	21:59:46]	UUID:[4bc8dae9-abea-4170-8c18-bd5541924f85]
 	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:02:50]	UUID:[c687676e-4e09-4324-a307-2936e66195e6]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220513	22:02:50]	UUID:[85512c88-c033-4273-8595-27b01825e1ed]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220513	22:02:56]	UUID:[e1e843e5-30b2-42af-99bd-492e4554ce23]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:03:04]	UUID:[a84a4256-92b8-4ff9-9020-4133b476f037]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:03:05]	UUID:[8b488e42-f602-4956-8a5b-b53217b15449]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:03:05]	UUID:[f10d61ca-ec8f-4176-9055-ace350cbf1ae]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:04:53]	UUID:[6afb4d80-96f3-4f04-b613-b8224896ddb0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220513	22:04:53]	UUID:[3c543ef9-f2fc-40fb-9eb5-0d7e4d769c61]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220513	22:07:38]	UUID:[5d1c9123-936e-4517-b58d-ea323ad24820]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:07:42]	UUID:[a7d0e84b-d66f-48ee-9a47-60e68db00157]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:09:50]	UUID:[8aa59ebe-6f46-42d2-b6f4-b4acde4baeac]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:11:03]	UUID:[15b4206a-eaef-465c-8a33-0b809875a4ee]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:16:02]	UUID:[3b12054d-0e85-4687-bffd-3401b83f2ee4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:16:19]	UUID:[b16e07ab-bdef-4c73-928a-d09620d008e5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	http://localhost:3000	/logout	{}]
+
+DateTime:[20220513	22:16:37]	UUID:[58f949df-5315-4557-ba22-b16b9468a679]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220513	22:16:37]	UUID:[a1109962-0563-4e1b-80e2-5aa3205e137b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220513	22:16:55]	UUID:[02fc1ed5-0ef6-4e90-9a52-afcc9e08016b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Backend Merge\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[GET	http://localhost:3000	/logout	{}]
