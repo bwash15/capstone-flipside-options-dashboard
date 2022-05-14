@@ -26,6 +26,7 @@ const handleLogout = async (req, res) => {
     foundUser.refreshToken = '';
     const result = await foundUser.save();
     console.log(result);
+    console.log("logout func")
     res.clearCookie('jwt', { httpOnly: true, secure: true, sameSite: 'None' });   // Needs the [secure: true] parameter to work in Chrome
     res.sendStatus(204);
 

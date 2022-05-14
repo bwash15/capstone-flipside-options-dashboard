@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-router-dom' 
+import axios from '../../api/axios';
 import {Nav, NavLink, Bars, NavMenu, NavButton, NavButtonLink} from './NavBarElements'   
 const NavBar = () => {
   
-    const logout =()=> {
-        localStorage.clear();
+    const logout = async ()=> {
+        await axios.post("http://localhost:3600/logout");
         window.location.href = '/';
     };
   
@@ -18,7 +19,7 @@ const NavBar = () => {
 
             <Bars />
             <NavMenu>
-                <NavLink to='/' activestyle = "true">
+                <NavLink to='/home' activestyle = "true">
                     Home
                 </NavLink>
                 <NavLink to='/tiles' activestyle = "true">

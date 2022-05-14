@@ -47,22 +47,24 @@ const handleLogin = async (req, res) => {
             { "email": foundUser.email },
             process.env.REFRESH_TOKEN_SECRET,
             // Set this so there is not an INDEFINITE refresh token capability
-            { expiresIn: '3m' }
+            { expiresIn: '3s' }
         );
 
         // ***  comment out the code above to enter the code below */  
-        foundUser.refreshToken = refreshToken;
-        const result = await foundUser.save();
-        console.log(result);
+        // foundUser.refreshToken = refreshToken;
+        // const result = await foundUser.save();
+        // console.log(result);
         // DONT NOT STORE THIS IN LOCAL STORAGE
         // KEEP IN MEMORY OR APP STORAGE
         // ** httpOnly cookie not available in javascript **
         //                                   left out parm: [secure: true]
         res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
+        myEmitter.emit(`userLoginActivity`, `Before re.Json User Logged in and Token created...`, 'serverActivityLogs', 'loginAttemptLog.txt');
         //************************************************************************ */
         // Send the JWT to the front end for the front end 
         res.json({ roles, accessToken });
         //************************************************************************ */
+        myEmitter.emit(`userLoginActivity`, `User Logged in and Token created...`, 'serverActivityLogs', 'loginAttemptLog.txt');
     } else {
         myEmitter.emit(`userLoginActivity`, `${foundUser.email} logged in failed`, 'serverActivityLogs', 'loginAttemptLog.txt');
 

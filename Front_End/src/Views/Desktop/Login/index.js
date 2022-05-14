@@ -3,7 +3,7 @@ import AuthContext from '../../../context/AuthProvider';
 import axios from "../../../api/axios";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
-const LOGIN_URL = '/auth';
+const LOGIN_URL = 'http://localhost:3600/auth';
 
 export default function Login() {
 	const { setAuth } = useContext(AuthContext);
@@ -34,6 +34,7 @@ export default function Login() {
 			setEmail('');
 			setPwd('');
 			setSuccess(true);
+			window.location = "/home";
 
 		} catch (error) {
 			if (
