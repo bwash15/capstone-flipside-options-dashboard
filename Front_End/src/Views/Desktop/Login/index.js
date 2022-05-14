@@ -3,7 +3,7 @@ import AuthContext from '../../../context/AuthProvider';
 import axios from "../../../api/axios";
 import { Link, Navigate, useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
-const LOGIN_URL = '/auth';
+const LOGIN_URL = 'http://localhost:3600/auth';
 
 export default function Login() {
 	const { setAuth } = useContext(AuthContext);
@@ -57,7 +57,7 @@ export default function Login() {
 				<section>
 					<h1>Login Succesful!</h1>
 					<br />
-					<Navigate to="/main" replace={true}></Navigate>
+					<Navigate to="/home" replace={true}></Navigate>
 				</section>
 			) : (
 				<div className={styles.login_container}>

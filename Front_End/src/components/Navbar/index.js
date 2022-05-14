@@ -1,10 +1,12 @@
 import React from 'react'
+import { FaCookie } from 'react-icons/fa';
 import ReactDOM from 'react-router-dom' 
+import axios from '../../api/axios';
 import {Nav, NavLink, Bars, NavMenu, NavButton, NavButtonLink} from './NavBarElements'   
 const NavBar = () => {
   
-    const logout =()=> {
-        localStorage.clear();
+    const logout = async ()=> {
+        this.clearCookie('jwt', { httpOnly: true, secure: true, sameSite: 'None', maxAge: 24 * 60 * 60 * 1000 })
         window.location.href = '/';
     };
   
@@ -18,7 +20,7 @@ const NavBar = () => {
 
             <Bars />
             <NavMenu>
-                <NavLink to='/' activestyle = "true">
+                <NavLink to='/home' activestyle = "true">
                     Home
                 </NavLink>
                 <NavLink to='/tiles' activestyle = "true">

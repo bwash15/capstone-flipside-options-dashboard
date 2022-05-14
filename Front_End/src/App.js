@@ -42,8 +42,9 @@ function App() {
 		return (
 			<GlobalProvider>
 				<Routes>
-					<Route path="/" exact element={<Main />} />
+					<Route path="/" exact element={<Login />} />
 					<Route path="/signup" exact element={<Signup />} />
+					<Route path="/home" exact element={<Main />} />
 					<Route path="/login" exact element={<Login />} />
 					<Route path="/profile" exact element={<Profile />} />
 					<Route path="/tiles" exact element={<BasicCard />} />
@@ -52,7 +53,6 @@ function App() {
 					<Route path="/addOption" exact element={<AddOption />} />
 					<Route path="/editOption/:id" element={<EditOption />} />
 					<Route path="/trading" exact element={<Trading />} />
-					<Route path="/" element={<Navigate replace to="/login" />} />
 				</Routes>
 			</GlobalProvider>
 
