@@ -1,0 +1,114 @@
+
+DateTime:[20220514	23:56:07]	UUID:[65735f7d-7033-4d11-afdc-25f690d6842c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs][authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220514	23:56:07]	UUID:[417a7f7e-4a64-4656-b96d-e2ddf764f6ed]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs][authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220514	23:56:07]	UUID:[cc7e124b-e684-4e38-85fa-89682d66be4a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs][authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220514	23:56:07]	UUID:[43beb732-ed56-4d6d-a507-a459ff86e6b2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs][authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220514	23:56:07]	UUID:[a0eb2d8c-983a-4962-91ab-5ff4c1297fef]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs][authController/handleLogin]
+	Message:[User Logged in and Token created...]
+
+DateTime:[20220514	23:56:07]	UUID:[477ca66e-6e4d-4b06-b3ed-63dd4225c180]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs][authController/handleLogin]
+	Message:[Before res.Json User Logged in and Token created...]
+
+DateTime:[20220515	00:01:09]	UUID:[5a33e363-e70f-4d70-863d-7520d6c21981]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220515	00:01:09]	UUID:[e2494fdf-0b87-4626-9428-d90f5cd13b67]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220515	00:01:09]	UUID:[a09f6805-5ab9-44ff-b624-d4e70b7af015]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220515	00:01:09]	UUID:[a0987a18-cb8c-43b7-ba42-7d9abfd7534f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220515	00:01:09]	UUID:[445f2b55-2732-4764-a0c9-7da65c9962ea]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Before res.Json User Logged in and Token created...]
+
+DateTime:[20220515	00:01:09]	UUID:[0f110164-d9de-4464-a157-1672c0f9294b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[User Logged in and Token created...]
+
+DateTime:[20220515	00:49:44]	UUID:[133081a9-635d-4185-8d09-b7fc46dc844d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220515	00:49:44]	UUID:[4255efec-1b42-40e4-9923-de23ff645975]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220515	00:49:44]	UUID:[1cfc881b-f7ae-486c-a3c1-d6e2e7c02937]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220515	00:49:44]	UUID:[6576ae8d-edde-402e-9a7b-6d4350ee02bf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220515	00:49:44]	UUID:[041d5ae7-c945-4150-b275-467d7bce3ea3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Before res.Json User Logged in and Token created...]
+
+DateTime:[20220515	00:49:44]	UUID:[e9542fb1-cd7f-4302-8bd6-4621b420e359]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[User Logged in and Token created...]
+
+DateTime:[20220515	01:02:03]	UUID:[79a0e11a-4baf-494c-8a90-11d765402696]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220515	01:02:03]	UUID:[317e0481-71b5-454a-9009-9fa5ee5dce1e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220515	01:02:03]	UUID:[76b0f00b-d95d-48ea-ba1b-b0c25642506f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220515	01:02:03]	UUID:[a64c1dab-2df9-4009-9b3c-e2fb305f8c3a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220515	01:02:03]	UUID:[16b2c7d6-69bf-4c31-bcc5-36bde6904e16]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Before res.Json User Logged in and Token created...]
+
+DateTime:[20220515	01:02:03]	UUID:[20b3cd32-ed01-4d6f-a90a-dab0383c5b04]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[User Logged in and Token created...]

@@ -3,7 +3,6 @@ const router = express.Router();
 
 const OptionsAPIpull = require('../_model/OptionsAPIpull');
 const { logServerEvents } = require('../_middleware/logServerEvents');
-//const errorHandler = require('../_middleware/errorHandler');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
