@@ -1,4 +1,4 @@
-import { StrictMode } from 'react';
+import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./index.css";
@@ -11,16 +11,16 @@ const root = createRoot(rootElement);
 
 
 root.render(
-	<StrictMode>
+	<React.StrictMode>
 		<BrowserRouter>
 			<AuthProvider>
-				<NavBar/>
-					<Routes>
-						<Route path="/*" element={<App />} />
-					</Routes>
+				<NavBar />
+				<Routes>
+					<Route path="/*" element={<App />} />
+				</Routes>
 			</AuthProvider>
 		</BrowserRouter>
-	</StrictMode>
+	</React.StrictMode>
 );
 
 

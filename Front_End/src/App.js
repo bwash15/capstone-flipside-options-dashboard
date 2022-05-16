@@ -12,12 +12,19 @@ import MobileSignup from "./Views/Mobile/Signup";
 import MobileLogin from "./Views/Mobile/Login";
 import MobileProfile from "./Views/Desktop/ProfilePage";
 import Trading from "./Views/Desktop/TradingPage";
-import { BrowserRouter as Router } from "react-router-dom";
 import NavBar from './components/Navbar';
 import MobileTiles from "./Views/Mobile/TilesPage";
 import { GlobalProvider } from './context/GlobalState'
 import { AddTile } from "./Views/Desktop/TilesPage/addTile";
 import { EditTile } from "./Views/Desktop/TilesPage/editTile";
+import RequireAuth from "./components/RequireAuth";
+import PageNotFound from "./Views/MissingPage";
+import UnAuthorizedAccess from "./Views/UnAuthorized";
+import AppLayout from "./components/AppLayout";
+
+
+
+
 function App() {
 
 
@@ -42,17 +49,42 @@ function App() {
 		return (
 			<GlobalProvider>
 				<Routes>
-					<Route path="/" exact element={<Login />} />
-					<Route path="/signup" exact element={<Signup />} />
-					<Route path="/home" exact element={<Main />} />
-					<Route path="/login" exact element={<Login />} />
-					<Route path="/profile" exact element={<Profile />} />
-					<Route path="/tiles" exact element={<BasicCard />} />
-					<Route path="/addTile" exact element={<AddTile />} />
-					<Route path="/editTile/:id" element={<EditTile />} />
-					<Route path="/addOption" exact element={<AddOption />} />
-					<Route path="/editOption/:id" element={<EditOption />} />
-					<Route path="/trading" exact element={<Trading />} />
+					<Route path="/" element={<AppLayout />} >
+						{/** Pulic Routes **/}
+						<Route path="login" element={<Login />} />
+						<Route path="signup" element={<Signup />} />
+						<Route path="unauthorized" element={<UnAuthorizedAccess />} />
+
+
+						{/** Protected Routes **/}
+
+						{/** User Only Access **/}
+						<Route element={<RequireAuth allowedRoles={[2001]} />}>
+							<Route path="profile" element={<ProfilePage />} />
+
+						</Route>
+						{/** Admin, Editor, and User Routes **/}
+						<Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
+							<Route path="home" element={<Main />} />
+							<Route path="profile" element={<Profile />} />
+							<Route path="tiles" element={<BasicCard />} />
+						</Route>
+						{/** Admin and Editor Only **/}
+						<Route element={<RequireAuth allowedRoles={[5150, 1984]} />}>
+							<Route path="addTile" element={<AddTile />} />
+							<Route path="editTile/:id" element={<EditTile />} />
+							<Route path="addOption" element={<AddOption />} />
+							<Route path="editOption/:id" element={<EditOption />} />
+							<Route path="trading" element={<Trading />} />
+						</Route>
+						{/** Admin Only **/}
+						<Route element={<RequireAuth allowedRoles={[5150]} />}>
+						</Route>
+
+
+						{/** Catch All Requests that dont match a route above **/}
+						<Route path="*" element={<PageNotFound />} />
+					</Route>
 				</Routes>
 			</GlobalProvider>
 
