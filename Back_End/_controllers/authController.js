@@ -52,20 +52,19 @@ const handleLogin = async (req, res) => {
         );
 
         // ***  comment out the code above to enter the code below */  
-        // foundUser.refreshToken = refreshToken;
-        // const result = await foundUser.save();
-        // console.log(result);
+        foundUser.refreshToken = refreshToken;
+        const result = await foundUser.save();
+        console.log(result);
         // DONT NOT STORE THIS IN LOCAL STORAGE
         // KEEP IN MEMORY OR APP STORAGE
         // ** httpOnly cookie not available in javascript **
         //                                   left out parm: [secure: true]
         res.cookie('jwt', refreshToken, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 60 * 1000 });
-        myEmitter.emit(`userLoginActivity`, `Before res.Json User Logged in and Token created...`, 'LoginAttemptLogs', 'authController/handleLogin');
+
         //************************************************************************ */
         // Send the JWT to the front end for the front end 
         res.json({ roles, accessToken });
-        //************************************************************************ */
-        myEmitter.emit(`userLoginActivity`, `User Logged in and Token created...`, 'LoginAttemptLogs', 'authController/handleLogin');
+        //************************************************************************ */       
     } else {
         myEmitter.emit(`userLoginActivity`, `${foundUser.email} logged in failed`, 'LoginAttemptLogs', 'authController/handleLogin');
 

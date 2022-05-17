@@ -18,8 +18,8 @@ import { GlobalProvider } from './context/GlobalState'
 import { AddTile } from "./Views/Desktop/TilesPage/addTile";
 import { EditTile } from "./Views/Desktop/TilesPage/editTile";
 import RequireAuth from "./components/RequireAuth";
-import PageNotFound from "./Views/MissingPage";
-import UnAuthorizedAccess from "./Views/UnAuthorized";
+import PageNotFound from "./Views/Desktop/MissingPage";
+import UnAuthorizedAccess from "./Views/Desktop/UnAuthorized";
 import AppLayout from "./components/AppLayout";
 
 
@@ -60,7 +60,7 @@ function App() {
 
 						{/** User Only Access **/}
 						<Route element={<RequireAuth allowedRoles={[2001]} />}>
-							<Route path="profile" element={<ProfilePage />} />
+							<Route path="profile" element={<Profile />} />
 
 						</Route>
 						{/** Admin, Editor, and User Routes **/}

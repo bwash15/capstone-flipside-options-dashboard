@@ -1,0 +1,5 @@
+
+DateTime:[20220515	18:47:24]	UUID:[80123e09-5217-4b84-8d21-1d289020a317]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : date is not defined]
