@@ -12,7 +12,7 @@ myEmitter.on('userLogoutActivity', (msg, path, filename) => logServerEvents(msg,
  */
 
 const handleLogout = async (req, res) => {
-    myEmitter.emit(`userLogoutActivity`, `${email} Attempting to logout user`, 'LogoutAttemptLogs', 'logoutController/handleLogout');
+    myEmitter.emit(`userLogoutActivity`, ` Attempting to logout user`, 'LogoutAttemptLogs', 'logoutController/handleLogout');
     // On Client, also delete the accessToken in the memory of the client application - zero it out
     // MUST BE HANDLED IN FRONT END - zero out the accessToken when the user clicks the logout button 
     // The back-end will clear out the refresh token

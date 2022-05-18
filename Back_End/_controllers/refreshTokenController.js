@@ -50,7 +50,7 @@ const handleRefreshToken = async (req, res) => {
                 }
             },
                 process.env.ACCESS_TOKEN_SECRET,
-                { expiresIn: '30s' }
+                { expiresIn: '15s' }
             );
             myEmitter.emit(`refreshTokenActivity`, `Refreshed Access Token Successfully`, 'JWTTokenLogs', 'refreshController/handleRefreshToken');
             res.json({

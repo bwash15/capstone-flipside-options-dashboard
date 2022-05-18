@@ -40,7 +40,7 @@ const handleLogin = async (req, res) => {
                 }
             },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: '30s' }
+            { expiresIn: '15s' }
         );
         // No need to set roles in the refresh token, 
         // Refresh Token is only there to verify you can get a NEW ACCESS TOKEN
@@ -48,7 +48,7 @@ const handleLogin = async (req, res) => {
             { "email": foundUser.email },
             process.env.REFRESH_TOKEN_SECRET,
             // Set this so there is not an INDEFINITE refresh token capability
-            { expiresIn: '1d' }
+            { expiresIn: '15s' }
         );
 
         // ***  comment out the code above to enter the code below */  
