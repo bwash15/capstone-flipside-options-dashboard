@@ -8,14 +8,20 @@ import BasicCard from "./Pages/TilesPage";
 import {AddOption} from "./Pages/TilesPage/OptionTile/AddOption"
 import {EditOption} from "./Pages/TilesPage/OptionTile/EditOption"
 import Trading from "./Pages/TradingPage";
-import { BrowserRouter as Router} from "react-router-dom";
 import NavBar from './components/Navbar';
-import {GlobalProvider} from './context/GlobalState'
+import { GlobalProvider } from './context/GlobalState'
 import { AddTile } from "./Pages/TilesPage/addTile";
 import { EditTile } from "./Pages/TilesPage/editTile";
+import RequireAuth from "./components/RequireAuth";
+import PageNotFound from "./Views/Desktop/MissingPage";
+import UnAuthorizedAccess from "./Views/Desktop/UnAuthorized";
+import AppLayout from "./components/AppLayout";
+
+
+
+
 function App() {
 
-	const user = localStorage.getItem("token");
 	return (
 		<GlobalProvider>
 			<Routes>
