@@ -11,10 +11,10 @@ const getProfile = async (req, res) => {
     // using params here because it is going to pull it directly from the URL
     const user = await ProfileInfo.findOne({ email: req.params.email }).exec();
     if (!user) {
-        myEmitter.emit(`profileControllerActivity`, `${req.params.email} not found`, 'profileContollerLogs', 'getUser/ProfilePageController');
+        myEmitter.emit(`profileControllerActivity`, `${req.params.email} not found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
         return res.status(400).json({ "message": `User Email ${req.params.email} Not Found` });
     }
-    myEmitter.emit(`profileControllerActivity`, `${req.params.email} profile found`, 'profileContollerLogs', 'getUser/ProfilePageController');
+    myEmitter.emit(`profileControllerActivity`, `${req.params.email} profile found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
     res.json(user);
 }
 
