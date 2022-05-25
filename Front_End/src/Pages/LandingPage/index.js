@@ -1,25 +1,32 @@
 import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
-import { Link, useNavigate,Navigate } from "react-router-dom";
-import { useCustomer, useClient } from "../../context/customer";
-
-function Home(){
-    const client = useClient();
-  const history = useNavigate();
-  const { customer, setCustomer } = useCustomer();
-
-   
+import { Link, useNavigate } from "react-router-dom";
+const API_URL = ''
 
 
-    const [value, setValue] = useState();
+function Home() {
+
+    const [optionsData, setOptionsData] = useState([]);
+    const [value, setValue] = useState('');
+    const [error, setError] = useState('');
+    const [success, setSuccess] = useState('');
     const navigate = useNavigate();
 
-    if (!customer) {
-        return <Navigate to="/login" />;
-    }
+    useEffect(() => {
+        const fetchOptionData = async () => {
+            try {
+                const fetchResponse = await fetch()
+            } catch (err) {
 
-    const fetchData  = () => {
+            }
+        }
+    })
+
+
+
+
+    const fetchData = () => {
         let option_type = 'P'                             //C for call P for put
         let option_expire_date = '220513'                 // YearMonthDay
         let option_ticker = 'TQQQ';                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
@@ -31,71 +38,46 @@ function Home(){
         let to = '2022-05-13';                            //end of the timeframe to look at
     
         let api_link = `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + process.env.REACT_APP_API_KEY;
-        
+
         console.log(`api link after fetching is ${api_link}`)
-    
+
         //change the output to call or put depending on the api response
-        function optionType(type){
-            if(type === 'C'){
+        function optionType(type) {
+            if (type === 'C') {
                 return 'Call';
-            } else if(type === 'P'){
+            } else if (type === 'P') {
                 return 'Put';
             }
         }
-        function changeStrike(strike){
-            return strike/1000;
+        function changeStrike(strike) {
+            return strike / 1000;
         }
-        function SellingCallStratWeeklyReturn(current_premium, current_strike){
-            let price = current_premium/current_strike * 100;
+        function SellingCallStratWeeklyReturn(current_premium, current_strike) {
+            let price = current_premium / current_strike * 100;
             return `${price}%`;
         }
-    
+
         fetch(api_link)
-              .then((response) => response.json())
-              .then((data) => {
-                  console.log(data)
-                  setValue(data['results'][0]['o']);
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data)
+                setValue(data['results'][0]['o']);
             });
     }
     fetchData();
-    const logout =()=> {
+    const logout = () => {
         localStorage.clear();
         window.location.href = '/';
     };
-    const first = () =>{
-        try{
-            const u =localStorage.getItem("user");
-            const j = JSON.parse(u);
-            const i = j.firstName;
-            return i;
-        }
-        catch(e){
-            return e;
-        }    
-    }
-    const last = () =>{
-        try{
-            const u =localStorage.getItem("user");
-            const j = JSON.parse(u);
-            const i = j.lastName;
-            return i;
-        }
-        catch(e){
-            return e;
-        }    
-    }
 
-    const navProfile = () =>{
+    const navProfile = () => {
         navigate("/profile")
     }
     // useEffect(() => {
     //     setValue(fetchData());
     // }, []);
-    return(<div>
+    return (<div>
         <h1>Hello World!!!!!!!!!!!</h1>
-        <h1>{first()} {last()}</h1>
-        <h1>{localStorage.getItem("lastName")}</h1>
-        <h1>{localStorage.getItem("email")}</h1>
         <h1>The current price from the ticker TQQQ that expires 5/06/2022 is: ${value}</h1>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>

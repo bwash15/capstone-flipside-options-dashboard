@@ -11,8 +11,7 @@ const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
-myEmitter.on('userdataActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
-myEmitter.on('serverActivityLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
+myEmitter.on('userControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const getAllUsers = async (req, res) => {
     const users = await User.find();
@@ -22,7 +21,7 @@ const getAllUsers = async (req, res) => {
 
 const createNewUser = async (req, res) => {
     if (!req?.body?.firstname || !req?.body?.lastname || !req?.body?.email || !req?.body?.password) {
-        myEmitter.emit(`serverActivityLogs`, `All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
+        myEmitter.emit(`userControllerActivity`, `All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
         return res.status(400).json({ 'message': ' All Fields Are Required' });
     }
     try {
@@ -48,19 +47,19 @@ const updateUser = async (req, res) => {
     const user = await User.findOne({ email: req.body.email }).exec();
 
     if (!user) {
-        myEmitter.emit(`serverActivityLogs`, `No User account found: ${user.email} `, 'serverActivityLogs', 'userSearchLogs.txt');
+        myEmitter.emit(`userControllerActivity`, `No User account found: ${user.email} `, 'userContollerLogs', 'getUser/userController');
         return res.status(204).json({ "message": `User account ${req.body.email} not found` });
     }
-    myEmitter.emit(`serverActivityLogs`, `${user.email} profile found`, 'serverActivityLogs', 'userSearchLogs.txt');
+    myEmitter.emit(`userControllerActivity`, `${user.email} profile found`, 'userContollerLogs', 'getUser/userController');
     // If there are any entries from the user update the properties of the user to the entry
     if (req.body?.firstname) user.firstname = req.body.firstname;
     if (req.body?.lastname) user.lastname = req.body.lastname;
     if (req.body?.email) user.email = req.body.email;
     if (req.body?.password) {
-        myEmitter.emit(`userdataActivity`, `${user.email} attempted to update password: Failed. Must be set at password reset site`, 'serverActivityLogs', 'failedPwdchangeAttempt.txt');
+        myEmitter.emit(`userControllerActivity`, `${user.email} attempted to update password: Failed. Must be set at password reset site`, 'userContollerLogs', 'getUser/userController');
         return res.status(400).json({ "message": `User password must be updated through password reset` });
     }
-    myEmitter.emit(`userdataActivity`, `${user.email} profile information UPDATED successfully`, 'serverActivityLogs', 'userProfileChangeAttempt.txt');
+    myEmitter.emit(`userControllerActivity`, `${user.email} profile information UPDATED successfully`, 'userContollerLogs', 'getUser/userController');
     const result = await user.save()
     res.json(result);
 }
@@ -70,12 +69,12 @@ const deleteUser = async (req, res) => {
     // Checks the userID
     const user = await User.findOne({ email: req.body.email }).exec();
     if (!user) {
-        myEmitter.emit(`serverActivityLogs`, `${user.email} not found`, 'serverActivityLogs', 'userSearchLogs.txt');
+        myEmitter.emit(`userControllerActivity`, `${user.email} not found`, 'userContollerLogs', 'getUser/userController');
         return res.status(400).json({ "message": `User ID ${user.email} Not Found` });
     }
-    myEmitter.emit(`userdataActivity`, `${user.email} profile found for DELETE`, 'serverActivityLogs', 'userSearchLogs.txt');
+    myEmitter.emit(`userControllerActivity`, `${user.email} profile found for DELETE`, 'userContollerLogs', 'getUser/userController');
     const result = await user.deleteOne({ email: req.body.email })
-    myEmitter.emit(`userdataActivity`, `${user.email} profile DELETED successfully`, 'serverActivityLogs', 'userProfileChangeAttempt.txt');
+    myEmitter.emit(`userControllerActivity`, `${user.email} profile DELETED successfully`, 'userContollerLogs', 'getUser/userController');
     res.json(result);
 }
 
@@ -85,10 +84,10 @@ const getUser = async (req, res) => {
     // using params here because it is going to pull it directly from the URL
     const user = await User.findOne({ email: req.params.email }).exec();
     if (!user) {
-        myEmitter.emit(`serverActivityLogs`, `${req.params.email} not found`, 'serverActivityLogs', 'userSearchLogs.txt');
-        return res.status(400).json({ "message": `User ID ${req.params.email} Not Found` });
+        myEmitter.emit(`userControllerActivity`, `${req.params.email} not found`, 'userContollerLogs', 'getUser/userController');
+        return res.status(400).json({ "message": `User Email ${req.params.email} Not Found` });
     }
-    myEmitter.emit(`userdataActivity`, `${req.params.email} profile found`, 'serverActivityLogs', 'userSearchLogs.txt');
+    myEmitter.emit(`userControllerActivity`, `${req.params.email} profile found`, 'userContollerLogs', 'getUser/userController');
     res.json(user);
 }
 
