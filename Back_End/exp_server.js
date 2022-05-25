@@ -8,8 +8,8 @@ const { logServerEvents, logger } = require('./_middleware/logServerEvents');
 const errorHandler = require('./_middleware/errorHandler');
 const verifyJWT = require('./_middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
-const credentials = require('./_middleware/credentials');
 const mongoose = require('mongoose');
+const credentials = require('./_middleware/credentials');
 const connectDB = require('./_config/db_conn');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
@@ -85,10 +85,15 @@ app.use('/auth', require('./_routes/_auth'));
 app.use('/refresh', require('./_routes/_refresh'));
 app.use('/logout', require('./_routes/_logout'));
 app.use(verifyJWT);
+//************************************************ */
+/** Web-level Middleware **/
+app.use('/ProfilePage', require('./_routes/_profilePage'));
+
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
 // Does not needs a Static file because we will just be serving data from the database
+
 app.use('/users', require('./_routes/api/users'));
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));
@@ -98,7 +103,7 @@ app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
 //app.use('/historicalDataModels', require('./_routes/api/users'));
 
-/****************************************************/
+/**************************************************/
 /**
  *    SENDING A 404 PAGE NOT FOUND
  * 
