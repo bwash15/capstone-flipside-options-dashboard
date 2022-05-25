@@ -11,6 +11,11 @@ import {
 
 export const TileList = () => {
   const { tiles, removeTile } = useContext(GlobalContext)
+  //const {addTile} = useContext(GlobalContext);
+  // const [tileName, setName] = useState('');
+  // const [tileType, setType] = useState('');
+  // const [uuid, setUuid] = useState('');
+
   return (
     <ListGroup className="mt-4">
     {tiles.map(tile => (
