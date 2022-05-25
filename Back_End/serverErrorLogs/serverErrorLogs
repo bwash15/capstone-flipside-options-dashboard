@@ -48,3 +48,8 @@ DateTime:[20220517	23:00:40]	UUID:[f3573e4c-81e1-4a9f-abb7-68753d42ba11]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
 	LOC:[errLog.txt]
 	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220524	21:45:04]	UUID:[4b509550-c748-4bcf-9dc4-6cd8b1ab9526]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[Error : Not allowed by CORS]

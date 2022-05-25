@@ -31,7 +31,6 @@ import Header from './Header';
 // import Quote from './QuoteBoard/Quote';  // Oasis see full page details
 // import About from './Lounge/About';
 import Missing from './MissingPage';  // 404 Error > missing page
-import { Route, Routes } from 'react-router-dom';
 
 // User Defined Hooks and components
 import RequireAuth from './RequireAuth';
@@ -40,7 +39,7 @@ import PersistLogin from './PersistLogin';
 import Layout from './Layout';
 import LinkPage from "./LinkToPage"
 // Component Pages
-import RegisterUser from "./Pages/SignUp";
+import RegisterUser from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Admin from "./Admin";
 import Lounge from "./Lounge/Lounge";
@@ -48,6 +47,7 @@ import UnAuthorizedAccess from "./UnAuthorized";
 import LandingPage from "./Pages/LandingPage"
 import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
+
 
 
 import { Route, Routes, Navigate } from "react-router-dom";
