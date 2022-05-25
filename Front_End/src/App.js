@@ -33,8 +33,6 @@ import BasicCard from "./Pages/TilesPage";
 import { AddOption } from "./Pages/TilesPage/OptionTile/AddOption"
 import { EditOption } from "./Pages/TilesPage/OptionTile/EditOption"
 import Trading from "./Pages/TradingPage";
-import { BrowserRouter as Router } from "react-router-dom";
-import { GlobalProvider } from './context/GlobalState'
 import { AddTile } from "./Pages/TilesPage/addTile";
 import { EditTile } from "./Pages/TilesPage/editTile";
 function App() {

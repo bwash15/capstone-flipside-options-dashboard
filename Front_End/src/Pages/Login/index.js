@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import useAuth from '../../hooks/useAuth';
+import useUser from '../../hooks/useUser';
 import axios from '../../api/axios';
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import styles from "./styles.module.css";
@@ -9,6 +10,7 @@ const LOGIN_URL = '/auth';
 
 const Login = () => {
     const { setAuth, persist, setPersist } = useAuth();
+    const {setUser} =useUser();
     // Used in navigating authorized and unauthorized users
     const navigate = useNavigate();
     const location = useLocation();
@@ -32,6 +34,7 @@ const Login = () => {
             const accessToken = loginResponse?.data?.accessToken;
             const roles = loginResponse?.data?.roles;
             setAuth({ email, password, roles, accessToken });
+            setUser({email});
             setEmail('');
             setPwd('');
             navigate(from, { replace: true });

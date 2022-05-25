@@ -2,17 +2,18 @@ import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom";
-import { useCustomer, useClient } from "../../context/customer";
+import useUser from '../../hooks/useUser';
 const API_URL = ''
 
 
 function Home() {
-
+    //const [user,setUser] = useUser();
     const [optionsData, setOptionsData] = useState([]);
     const [value, setValue] = useState('');
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
     const navigate = useNavigate();
+ 
 
     useEffect(() => {
         const fetchOptionData = async () => {
@@ -79,6 +80,7 @@ function Home() {
     // }, []);
     return (<div>
         <h1>Hello World!!!!!!!!!!!</h1>
+        <h1>{}</h1>
         <h1>The current price from the ticker TQQQ that expires 5/06/2022 is: ${value}</h1>
         <button onClick={logout}>Logout</button>
         <button>Submit</button>
