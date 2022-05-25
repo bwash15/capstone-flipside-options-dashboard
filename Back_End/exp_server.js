@@ -85,10 +85,15 @@ app.use('/auth', require('./_routes/_auth'));
 app.use('/refresh', require('./_routes/_refresh'));
 app.use('/logout', require('./_routes/_logout'));
 app.use(verifyJWT);
+//************************************************ */
+/** Web-level Middleware **/
+app.use('/ProfilePage', require('./_routes/_profilePage'));
+
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
 // Does not needs a Static file because we will just be serving data from the database
+
 app.use('/users', require('./_routes/api/users'));
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));

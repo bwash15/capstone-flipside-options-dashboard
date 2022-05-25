@@ -19,16 +19,25 @@ import PersistLogin from './PersistLogin';
 import Layout from './Layout';
 import LinkPage from "./LinkToPage"
 // Component Pages
-import RegisterUser from "./SignUp";
-import Login from "./Login";
+import RegisterUser from "./Pages/SignUp";
+import Login from "./Pages/Login";
 import Admin from "./Admin";
 import Lounge from "./Lounge/Lounge";
 import UnAuthorizedAccess from "./UnAuthorized";
-import LandingPage from "./LandingPage"
-import ProfilePage from "./ProfilePage"
+import LandingPage from "./Pages/LandingPage"
+import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
 
 
+import { Route, Routes, Navigate } from "react-router-dom";
+import BasicCard from "./Pages/TilesPage";
+import {AddOption} from "./Pages/TilesPage/OptionTile/AddOption"
+import {EditOption} from "./Pages/TilesPage/OptionTile/EditOption"
+import Trading from "./Pages/TradingPage";
+import { BrowserRouter as Router} from "react-router-dom";
+import {GlobalProvider} from './context/GlobalState'
+import { AddTile } from "./Pages/TilesPage/addTile";
+import { EditTile } from "./Pages/TilesPage/editTile";
 function App() {
   const { width } = useWindowSize();
 
@@ -74,6 +83,12 @@ function App() {
               <Route path="admin" element={<Admin />} />
             </Route>
           </Route>
+          <Route path="/tiles" exact element = {<BasicCard/>}/>
+				  <Route path="/addTile" exact element = {<AddTile/>}/>
+				  <Route path="/editTile/:id" element = {<EditTile/>}/>
+				  <Route path="/addOption" exact element = {<AddOption/>}/>
+				  <Route path="/editOption/:id" element = {<EditOption/>}/>
+				  <Route path="/trading" exact element = {<Trading/>}/>
 
           {/** Catch All Requests that dont match a route above **/}
           <Route path="*" element={<Missing />} />
@@ -81,6 +96,7 @@ function App() {
       </Routes>
     </div>
   );
+	
 }
 
 export default App;
