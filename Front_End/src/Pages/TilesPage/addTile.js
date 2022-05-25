@@ -7,7 +7,7 @@ import {
     Button
 } from 'reactstrap'
 import {Link, useNavigate} from 'react-router-dom'
-import { GlobalContext } from '../../../context/GlobalState'
+import { GlobalContext } from '../../context/GlobalState'
 import {v4 as uuid} from 'uuid'
 import 'bootstrap/dist/css/bootstrap.min.css';
 export const AddTile = () => {

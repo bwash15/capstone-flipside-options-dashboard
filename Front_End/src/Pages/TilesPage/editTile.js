@@ -9,7 +9,7 @@ import {
 import {Link, useNavigate, useParams} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { GlobalContext } from '../../../context/GlobalState'
+import { GlobalContext } from '../../context/GlobalState'
 export const EditTile = (props) => {
     const {tiles, editTile} = useContext(GlobalContext);
     const [selectedTile, setSelectedTile] = useState({

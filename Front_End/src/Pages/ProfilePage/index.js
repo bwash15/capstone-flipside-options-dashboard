@@ -9,7 +9,7 @@ import { makeStyles } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import styles from "./styles.module.css";
-import EditButton from '../../../components/EditButton';
+import EditButton from '../../components/EditButton';
 
 
 export default function ControlledAccordions() {
