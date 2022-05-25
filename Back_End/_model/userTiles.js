@@ -5,7 +5,7 @@ const UserTileSchema = new Schema({
         type: String,
         required: true
     },
-    tilename: {
+    tileName: {
         type: String,
         required: true
     },

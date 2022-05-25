@@ -1,5 +1,5 @@
 import React, {useState, useContext} from 'react'
-import axios from 'axios'
+import axios from '../../api/axios'
 import {
     Form,
     FormGroup,
@@ -9,26 +9,28 @@ import {
 } from 'reactstrap'
 import {Link, useNavigate} from 'react-router-dom'
 import { GlobalContext } from '../../context/GlobalState'
-import {v4 as uuid} from 'uuid'
+import { v4 as uuidv4 } from "uuid";
 import 'bootstrap/dist/css/bootstrap.min.css';
 export const AddTile = () => {
     const {addTile} = useContext(GlobalContext);
-    const [name, setName] = useState('');
-    const [type, setType] = useState('');
+    const [tileName, setName] = useState('');
+    const [tileType, setType] = useState('');
     const [uuid, setUuid] = useState('');
     const navigate = useNavigate();
     const onSubmit = async (e) => {
         e.preventDefault();
          //push to database
         const url = "/userTiles";
+
+        setUuid(uuidv4());
         const result = await axios.post(url, JSON.stringify({
-            name,
-            type,
-            uuid
+            uuid,
+            tileName,
+            tileType,
         }),
         {
             headers: { 'Content-Type': 'application/json' },
-            withCredentials: false
+            withCredentials: true
         });
 
         // const newTile = {
@@ -39,11 +41,11 @@ export const AddTile = () => {
 
        
         
-        navigate('/tiles', {replace: true})
+        navigate('/tiles', {replace: true});
     }
     const onNameChange = (e) => {
         setName(e.target.value)
-        setUuid('SOME UUID')
+        
     }
     const onTypeChange = (e) => {
         setType(e.target.value)
@@ -53,9 +55,9 @@ export const AddTile = () => {
     <Form onSubmit={onSubmit}>
         <FormGroup>
             <Label>Name</Label>
-            <Input type = "text" value = {name} onChange = {onNameChange} placeholder ="Tile Name"></Input>
+            <Input type = "text" value = {tileName} onChange = {onNameChange} placeholder ="Tile Name"></Input>
             <Label>Type</Label>
-            <Input type = "text" value = {type} onChange = {onTypeChange} placeholder ="Option Type"></Input>
+            <Input type = "text" value = {tileType} onChange = {onTypeChange} placeholder ="Option Type"></Input>
         </FormGroup>
         <Button type = "submit">Submit</Button>
         <Link to = "/tiles" className='btn btn-danger ml-2'>Cancel</Link>

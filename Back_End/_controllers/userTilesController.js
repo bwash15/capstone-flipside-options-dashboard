@@ -1,37 +1,33 @@
 const UserTile = require('../_model/userTiles');
 
 const handleUserTilesPost = async (req, res) => {
-    const {name, type, uuid} = req.body;
-    try {
-        // Create and Store the new user
-        const result = await UserTile.create({
-            "name": firstname,
-            "type": lastname,
-            "uuid": email,
-        });
+    const name = req.body.tileName;
+    const uuid = req.body.uuid;
+    const type = req.body.tileType;
+    
+    console.log("Trying to push to database")
+    // Create and Store the new tile
+    const result = await UserTile.create({
+        "uuid": uuid,
+        "tileName": name,
+        "tileType": type,
+    });
 
-        console.log(result);
-    } catch (err) {
-        myEmitter.emit(`userTiles`, `${name} : user tiles saving Failed`, 'usertileslogs', 'usertileslogs2');
-        res.status(500).json({ 'message': err.message });
-    }
+    res.json(result);
+    console.log(result);
+
 }
 
 const handleUserTilesGet = async (req, res) => {
-    const {name, type, uuid} = req.body;
-    try {
-        // Create and Store the new user
-        const result = await UserTile.create({
-            "name": firstname,
-            "type": lastname,
-            "uuid": email,
-        });
+    const name = req.body.name;
+    const uuid = req.body.uuid;
+    const type = req.body.type;
 
-        console.log(result);
-    } catch (err) {
-        myEmitter.emit(`userTiles`, `${name} : user tiles saving Failed`, 'usertileslogs', 'usertileslogs2');
-        res.status(500).json({ 'message': err.message });
-    }
+    // Create and Store the new Tile
+    
+    const result = await UserTile.find();
+    res.json(result);
+    console.log(result);
 }
 
 module.exports = { handleUserTilesPost, handleUserTilesGet };
