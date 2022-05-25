@@ -1,8 +1,9 @@
 import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
-import { Link, useNavigate,Navigate } from "react-router-dom";
+import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useCustomer, useClient } from "../../context/customer";
+import { Link, useNavigate } from "react-router-dom";
 const API_URL = ''
 
 
