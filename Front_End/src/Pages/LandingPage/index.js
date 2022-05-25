@@ -3,7 +3,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom";
 import { useCustomer, useClient } from "../../context/customer";
-
 const API_URL = ''
 
 

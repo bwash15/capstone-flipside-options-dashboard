@@ -12,7 +12,9 @@ const allowedOrigins = [
     'http://localhost:3000',
     'http://localhost:8080',
     'https://flipside-test-729io.ondigitalocean.app/',
-    'https://flipside-test-back-9n4ed.ondigitalocean.app/'
+    'https://flipside-test-back-9n4ed.ondigitalocean.app/',
+    'https://flipside-test-back-9n4ed.ondigitalocean.app',
+    'https://flipside-test-729io.ondigitalocean.app'
 ];
 
 module.exports = allowedOrigins;

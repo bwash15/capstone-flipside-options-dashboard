@@ -748,3 +748,13 @@ DateTime:[20220524	21:49:10]	UUID:[21db481f-6f37-4b16-9fed-b677790dfb33]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[refreshController/handleRefreshToken]
 	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220524	22:10:52]	UUID:[89b4d240-18e7-4f76-bfdf-4978baaaa0ce]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220524	22:10:52]	UUID:[051db3d9-9c11-48af-8840-52a654882238]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]

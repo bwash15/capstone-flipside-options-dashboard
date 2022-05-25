@@ -1192,3 +1192,23 @@ DateTime:[20220524	22:00:49]	UUID:[22454ce5-7fae-4dfa-ae8f-897803fa9206]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220524	22:10:58]	UUID:[439971c2-bbeb-4551-8503-65af689ac416]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220524	22:10:58]	UUID:[f948386b-1490-4b1d-a0dd-d9a1f4196858]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220524	22:10:59]	UUID:[ffb8bde8-9f2f-4c46-b7d2-2152bba48e16]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220524	22:10:59]	UUID:[03d2c073-a37d-4ddd-b73f-6f266f86b365]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
