@@ -20,6 +20,7 @@ const handleRefreshToken = async (req, res) => {
 
     // Defining the Refresh Token 
     const refreshToken = cookies.jwt;
+    res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
     // Because we use the same name for the variable above this line > we only need the refreshToken
     // call not the (refreshToken: refreshToken)
     // if a user has defined a JWT refreshToken it will be defined in account
@@ -40,7 +41,7 @@ const handleRefreshToken = async (req, res) => {
             };
             // Checking User's Authorization with User Roles
             const roles = Object.values(foundUser.roles);
-            myEmitter.emit(`refreshTokenActivity`, `User's role was Found and Verified, Access Granted `, 'JWTTokenLogs', 'refreshController/handleRefreshToken');
+            myEmitter.emit(`refreshTokenActivity`, `User role was Found and Verified, Access Granted `, 'JWTTokenLogs', 'refreshController/handleRefreshToken');
             // Create the JWTs - Access and Refresh 
             const accessToken = jwt.sign({
                 // Object to check for User Authentication and Authorization 
@@ -50,12 +51,12 @@ const handleRefreshToken = async (req, res) => {
                 }
             },
                 process.env.ACCESS_TOKEN_SECRET,
-                { expiresIn: '30s' }
+                { expiresIn: '15s' }
             );
+
+
+            res.json({ roles, accessToken })
             myEmitter.emit(`refreshTokenActivity`, `Refreshed Access Token Successfully`, 'JWTTokenLogs', 'refreshController/handleRefreshToken');
-            res.json({
-                accessToken
-            })
         }
     )
 

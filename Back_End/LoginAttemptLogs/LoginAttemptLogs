@@ -352,3 +352,543 @@ DateTime:[20220516	19:55:18]	UUID:[2d44df80-07b1-4a04-86fb-ea8b91603618]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220517	22:02:58]	UUID:[8ea921a9-61c6-4082-9567-d2093d09a924]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	22:02:58]	UUID:[229f7d28-141a-4710-9e7f-05a990d51eac]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	22:02:58]	UUID:[b5d900cc-b59e-437e-bc38-66afc3520b4e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	22:02:58]	UUID:[42f6b10c-aea6-448e-ab72-07519f6202db]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	22:05:34]	UUID:[2a6ec897-cea6-4676-8ee7-56526e919cac]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	22:05:34]	UUID:[afe68b19-c75d-4524-9b8b-2f14312b4284]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	22:05:36]	UUID:[e5472b1e-c080-49f2-9f0f-666aff35c474]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	22:05:36]	UUID:[82c27fe4-d511-48b0-af31-189133b0d999]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	22:16:30]	UUID:[07436d44-69c0-4bbb-9965-d2d7e074fd33]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	22:16:30]	UUID:[69eb4ddb-9941-4f2e-b19a-00320653f587]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	22:16:31]	UUID:[45b65c59-c2d3-4d05-a4c0-f090f816a07a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	22:16:31]	UUID:[35547892-3ed0-4f3b-99ec-a01632fe05c3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	22:46:02]	UUID:[240b59d5-3df9-4a06-9dee-0bb485b7672b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	22:46:02]	UUID:[782d10c4-7e96-4bc0-b176-3d770bad2da4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	22:46:02]	UUID:[494e173c-7570-49c3-b4f8-3619b4720f92]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	22:46:02]	UUID:[561e644c-1bd6-4e72-a3bb-0c58b43570c4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	22:53:28]	UUID:[356849b8-04a6-44a0-8ac0-2d9cad8cc4d3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	22:53:28]	UUID:[d73e6137-540f-4b69-8816-dfe64841531b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	22:53:28]	UUID:[c6862ac7-1426-42cf-b9a6-4c4f3c2c8ab5]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	22:53:28]	UUID:[55dd1f28-c93d-44b5-9313-cd798494982d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	23:45:33]	UUID:[e47bc115-55f2-40e7-92fd-7d2678bed1f2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	23:45:33]	UUID:[5c6b0e58-eded-417a-b263-aeda2f754abb]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	23:45:33]	UUID:[f3ef3e07-403c-4fde-8c92-9c4f9682a7fc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	23:45:33]	UUID:[195e590d-aa4a-41a8-a56d-0bf87bf26ff3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	23:51:18]	UUID:[aa0f34b7-5d30-47c3-a71d-92606adf0fc8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	23:51:18]	UUID:[8c9e2b4c-c4d1-49bc-8c16-d61a8d43efda]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	23:51:18]	UUID:[320ec591-e622-49ab-90ed-4db8b8f3cc20]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220517	23:51:18]	UUID:[8a499feb-4198-466d-a321-784397a463cd]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	23:53:15]	UUID:[eee75734-c712-4967-9259-17e147e16126]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220517	23:53:15]	UUID:[6f04965b-5ada-4f71-846d-6ac86130fafc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220517	23:53:15]	UUID:[e7b6c9b5-71e1-4046-9eb6-9ee451bdf6b1]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220517	23:53:15]	UUID:[1d6bc5da-8bc7-40fd-90cd-fbd93cd48980]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:41:37]	UUID:[98d07401-74da-4d4d-9a2a-4148c2a13060]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	08:41:37]	UUID:[3a4492f1-9dcf-4a28-813e-1c289d8e2e59]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	08:41:38]	UUID:[8c1b1776-a162-4fd9-ab1d-67e7987d3828]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:41:38]	UUID:[4f284b6e-5d7b-42af-a8f1-28d54553767e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	08:42:53]	UUID:[d691f050-697d-486d-abb7-7546b3f8d552]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	08:42:53]	UUID:[d77ba341-365f-4b88-b1bf-ea80bb9deb7a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	08:42:54]	UUID:[9b32476b-6dfe-4ce1-9953-2471a7d638c8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:42:54]	UUID:[841e0a72-445e-421a-8cdf-a6f7f1bdcf81]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	08:46:49]	UUID:[747b9eee-812f-4295-8e69-25185c5d075d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	08:46:49]	UUID:[dfa1649f-6edd-4aad-ae9e-e7e3b41584e4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	08:46:49]	UUID:[f51fe306-b1b1-41b2-95a1-bf3c0b677321]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:46:49]	UUID:[4a411486-0d8c-4d1e-bf8e-0ae14892ff88]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	08:49:02]	UUID:[439722db-10a3-4df0-94c9-ac183086e0a8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	08:49:02]	UUID:[94e8e625-227e-40e9-ae80-edf2014db974]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	08:49:02]	UUID:[a28986c2-53c1-4b1e-98fc-bb41a5796592]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:49:02]	UUID:[089242b9-8fd7-425d-872a-ad35becbb886]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	08:49:53]	UUID:[cf58a927-cd8b-418a-8711-af27942c12a7]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	08:49:53]	UUID:[427494d0-f421-4bad-a0d4-bb73ac54b4c4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	08:49:53]	UUID:[fbfd066e-39cd-4190-bb3a-177fc4fc329c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:49:53]	UUID:[7c35f145-e326-4954-936c-833b345002ee]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	08:50:34]	UUID:[484783c3-de9e-49ba-8ae5-8c8b5d5092f8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	08:50:34]	UUID:[627ec234-211c-4a7f-890e-32654761c873]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	08:50:34]	UUID:[75f2d327-769d-41bc-a8cc-c80a66e75ed7]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	08:50:34]	UUID:[d9d32753-db24-47ed-a6e2-bb9956b6579d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	13:49:50]	UUID:[b3b04c9d-94c0-4a64-995e-96cba7d517cf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	13:49:50]	UUID:[0d5ffbba-0ebc-476d-9a94-04a4fc930f9b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	13:49:51]	UUID:[5bf127b3-0d84-470b-90c4-9e1c5b304a63]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	13:49:51]	UUID:[7384db9b-4137-443c-ac6d-cd453f7943f4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	13:50:53]	UUID:[d94851e9-645f-4e59-84b9-24e34bbbcc1b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	13:50:53]	UUID:[96be27fa-7cc8-4281-8839-c3d9dcdf2e93]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	13:50:54]	UUID:[b086708f-dd00-4c4a-8312-c333dbf61a92]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	13:50:54]	UUID:[08469756-ffda-4d47-9c0b-d67429eb6709]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	13:54:11]	UUID:[5916d387-2b63-4cce-a3d0-dc7ffb703912]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	13:54:11]	UUID:[d9cbcc5a-257d-4914-bde8-56d555d23d43]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	13:54:12]	UUID:[93640eff-81cc-4fed-b69d-d4f6b1650ff5]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	13:54:12]	UUID:[8742dc2a-e317-47c1-b8bf-aa3764ab6668]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	13:54:26]	UUID:[1d074bb3-153e-4cf3-8c1f-50b24f0cbdb8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	13:54:26]	UUID:[89d4d72e-caa4-45e3-ac57-8951447f510e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	13:54:26]	UUID:[bd11036c-b51d-4e73-9c61-84dac4bb62d4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	13:54:26]	UUID:[6c4421ca-41e9-4006-a481-15d2a1f9367f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	14:13:49]	UUID:[6a4c04d6-350a-430b-9654-6bb2147f6680]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	14:13:49]	UUID:[22c0e23c-116b-49a8-9872-aaab993c213a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	14:13:49]	UUID:[82410623-ee33-4be7-bc6a-b5b1a278eff2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	14:13:49]	UUID:[cf94d1bb-93e7-43b2-81f9-3b27f6cf0964]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	14:43:04]	UUID:[e3d0730c-7912-492d-bd97-7ebe3dfc0134]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	14:43:04]	UUID:[84f7695b-9203-4f19-b3c3-a9f3fa2315bc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	14:43:04]	UUID:[8b6ecba1-bca9-4bb2-9805-8a4eb4eebbd4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	14:43:04]	UUID:[d59e8a39-7f91-4383-a01f-ebd4739118c9]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	14:56:03]	UUID:[e20e47d1-2cce-4f6c-b6c8-73c4a4313230]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	14:56:03]	UUID:[15bfacdd-ec2b-4ada-aa31-410c73e63b92]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	14:56:03]	UUID:[1e4b3912-ab7f-4777-8b2d-b14491ba8693]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	14:56:03]	UUID:[ff5408c9-7e03-405a-99b7-43df7f51399d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	14:56:48]	UUID:[f0e61280-00e6-4244-a87b-248e99512aab]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	14:56:48]	UUID:[645244ca-c902-4d08-9a3c-545980a810c3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	14:56:48]	UUID:[d708e114-215f-4b22-9c62-c3e5a0ae6d99]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	14:56:48]	UUID:[4a4ba70c-627a-4d4f-b01e-d97a96d89191]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	15:26:59]	UUID:[184f02be-abb8-495c-97ad-5b7c15aa6ad8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	15:26:59]	UUID:[df7eea4b-235a-4448-9c24-5467a96d5e97]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	15:27:00]	UUID:[c0973f8d-de7d-4f34-b511-df5ce12e7a3e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	15:27:00]	UUID:[1e8ab767-2c70-4561-8f9a-866012cefea8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	15:31:28]	UUID:[d6947a87-e89d-4780-ad6a-3dde21a015eb]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	15:31:28]	UUID:[b3ace81d-9bca-4034-a572-6af52089a522]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	15:31:29]	UUID:[21b0324d-9f71-45ea-b6c5-6c111039f808]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	15:31:29]	UUID:[fb170003-6828-428e-863a-1af9d859fecb]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	15:32:41]	UUID:[78663253-de08-46c9-a7d3-e6ea01084813]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	15:32:41]	UUID:[91272613-18c9-4023-981f-f8f3cb8d5c2f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	15:32:41]	UUID:[e28d8c85-d1af-4b90-b777-b2d9abf04b18]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	15:32:41]	UUID:[118fd3a0-7913-43b9-9d60-de2daf941431]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	16:09:58]	UUID:[1f2ebd7e-7c2a-4329-b43b-7cbda1328ac8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	16:09:58]	UUID:[9ff4c488-2107-451d-a5ca-831e37a42d3b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	16:09:58]	UUID:[245fe24b-979e-45d7-8aa5-ecbea6206493]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	16:09:58]	UUID:[06ffb614-f832-46f4-b384-9c9a0e3de025]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220518	16:10:47]	UUID:[36749228-7aaf-4430-9886-43d4467cc940]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com Attempting to sign-in]
+
+DateTime:[20220518	16:10:47]	UUID:[0245d050-fe89-42f4-b002-35cbe2873ba0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate bwash@yahoo.com ]
+
+DateTime:[20220518	16:10:47]	UUID:[9844f7bc-ebcc-43c2-add5-e20f75d391e0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[bwash@yahoo.com logged in successfully]
+
+DateTime:[20220518	16:10:47]	UUID:[82589d2f-f000-4c4a-9509-f319208ae831]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
