@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css'
+import useUser from '../../hooks/useUser';
+import axios from '../../api/axios';
+
+const URL = '/profile';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 
-const EditButton = () => {
+const EditButton = (props) => {
 
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
@@ -18,10 +22,26 @@ const EditButton = () => {
     const [firstError, setFirstError] = React.useState("");
     const [lastError, setLastError] = React.useState("");
     const [emailError, setEmailError] = React.useState("");
+
+    useEffect(() =>{
+        getInfo();
+    },[]);
+
+    function getInfo() {
+        const res = axios.get(URL,props.value,
+        {
+            headers: { 'Content-Type': 'application/json' },
+            withCredentials: true
+        }
+        );
+    }
+
+
+    console.log(props.value);
     const [user, setUser] = React.useState({
         firstName: "Dustin",
         lastName: "Huntzinger",
-        email: "ts@ts.com"
+        email: props.value
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
