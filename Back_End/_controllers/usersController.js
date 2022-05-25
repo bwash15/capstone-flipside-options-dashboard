@@ -15,13 +15,17 @@ myEmitter.on('userControllerActivity', (msg, path, filename) => logServerEvents(
 
 const getAllUsers = async (req, res) => {
     const users = await User.find();
-    if (!users) return res.status(204).json({ 'message': 'No users found ' });
+    if (!users) {
+        myEmitter.emit(`userControllerActivity`, `User search returned no results: ${users}`, 'serverActivityLogs', 'getUser/userController');
+        return res.status(204).json({ 'message': 'No users found ' })
+    };
+    myEmitter.emit(`userControllerActivity`, `User search successful: ${JSON.stringify(users)}`, 'serverActivityLogs', 'getUser/userController');
     res.json(users);
 }
 
 const createNewUser = async (req, res) => {
     if (!req?.body?.firstname || !req?.body?.lastname || !req?.body?.email || !req?.body?.password) {
-        myEmitter.emit(`userControllerActivity`, `All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'userProfileCreationLogs.txt');
+        myEmitter.emit(`userControllerActivity`, `All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'createUser/userController');
         return res.status(400).json({ 'message': ' All Fields Are Required' });
     }
     try {
@@ -47,19 +51,19 @@ const updateUser = async (req, res) => {
     const user = await User.findOne({ email: req.body.email }).exec();
 
     if (!user) {
-        myEmitter.emit(`userControllerActivity`, `No User account found: ${user.email} `, 'userContollerLogs', 'getUser/userController');
+        myEmitter.emit(`userControllerActivity`, `No User account found: ${user.email} `, 'userContollerLogs', 'updateUser/userController');
         return res.status(204).json({ "message": `User account ${req.body.email} not found` });
     }
-    myEmitter.emit(`userControllerActivity`, `${user.email} profile found`, 'userContollerLogs', 'getUser/userController');
+    myEmitter.emit(`userControllerActivity`, `${user.email} profile found`, 'userContollerLogs', 'updateUser/userController');
     // If there are any entries from the user update the properties of the user to the entry
     if (req.body?.firstname) user.firstname = req.body.firstname;
     if (req.body?.lastname) user.lastname = req.body.lastname;
     if (req.body?.email) user.email = req.body.email;
     if (req.body?.password) {
-        myEmitter.emit(`userControllerActivity`, `${user.email} attempted to update password: Failed. Must be set at password reset site`, 'userContollerLogs', 'getUser/userController');
+        myEmitter.emit(`userControllerActivity`, `${user.email} attempted to update password: Failed. Must be set at password reset site`, 'userContollerLogs', 'updateUser/userController');
         return res.status(400).json({ "message": `User password must be updated through password reset` });
     }
-    myEmitter.emit(`userControllerActivity`, `${user.email} profile information UPDATED successfully`, 'userContollerLogs', 'getUser/userController');
+    myEmitter.emit(`userControllerActivity`, `${user.email} profile information UPDATED successfully`, 'userContollerLogs', 'update/userController');
     const result = await user.save()
     res.json(result);
 }

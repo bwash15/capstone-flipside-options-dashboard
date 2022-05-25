@@ -4,8 +4,6 @@ const userController = require('../../_controllers/usersController');
 const ROLES_LIST = require('../../_config/roles_list');
 const verifyRoles = require('../../_middleware/verifyRoles');
 
-
-// GET ALL USERS
 router.route('/')
     .get(userController.getAllUsers)
     .post(verifyRoles(ROLES_LIST.Admin, ROLES_LIST.Editor), userController.createNewUser)
