@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Header title="Catch you on the FlipSide" width={width} />
+      {/* <Header title="Catch you on the FlipSide" width={width} /> */}
       <Routes>
         {/** Layout and PersistLogin both make use of the Outlet component **/}
         <Route path="/" element={<Layout />}>
