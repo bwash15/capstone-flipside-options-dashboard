@@ -574,3 +574,91 @@ DateTime:[20220511	15:33:07]	UUID:[cebffe0c-c8d0-4d85-814e-7f32c28bd7b6]
 DateTime:[20220511	15:33:08]	UUID:[8aeeaac2-3513-4c39-8fbc-12540de58caf]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
 	Message:[bwash@yahoo.com : Duplicate found, Register Conflict]
+
+DateTime:[20220524	20:34:54]	UUID:[8fd9c62f-3b83-40f7-bc7e-c198f9c9e8f9]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220524	20:34:54]	UUID:[def79cb6-2178-48af-bffc-f15066f94646]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220524	20:34:55]	UUID:[66b0091d-8772-4690-80c1-704724a4ee3a]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220524	20:34:55]	UUID:[519a4f59-ff2a-482a-b2e9-e295ccd23127]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]
+
+DateTime:[20220524	20:38:08]	UUID:[aee69f82-ee27-4a16-a746-034ce96b0c00]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220524	20:38:08]	UUID:[8136d98a-a332-40a9-8fbb-90c4e432b9a5]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220524	20:38:08]	UUID:[e1f43a29-3cd3-4454-878b-00518768c952]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220524	20:38:08]	UUID:[7d6e9e1c-7be3-4db4-8fd8-2e878fb396b3]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]
+
+DateTime:[20220524	20:38:47]	UUID:[a835f36f-551f-43c5-b941-11f5aacf6f3c]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220524	20:38:47]	UUID:[1acc0166-7737-4568-8c20-e456bf793d90]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220524	20:38:47]	UUID:[2f869b3a-b056-4e73-a4a5-c9a16582c559]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220524	20:38:47]	UUID:[77ec9543-a006-4c66-a842-fb9c5419b5ab]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][loginAttemptLog.txt]
+	Message:[Creating JWT...]
+
+DateTime:[20220524	20:47:42]	UUID:[0ea5505c-7b14-4c27-ba8a-b2e86e8bb46b]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[ Firstname not found ]
+
+DateTime:[20220524	20:47:42]	UUID:[97dc5dc8-d241-40e6-8a37-b27508d97d9d]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[Lastname not found ]
+
+DateTime:[20220524	20:47:42]	UUID:[85dc3f9c-2db8-40c1-a3e5-6225f9e69ca6]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[23@23.com : information incomplete]
+
+DateTime:[20220524	20:54:15]	UUID:[21806fe0-5625-4155-af16-d1b42b6aa9c3]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[ Firstname not found ]
+
+DateTime:[20220524	20:54:15]	UUID:[3fee223f-3832-4635-94c4-4ba245e07570]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[Lastname not found ]
+
+DateTime:[20220524	20:54:15]	UUID:[6dc27906-c116-4190-ba4d-22c67566c608]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[ Password not found ]
+
+DateTime:[20220524	20:54:15]	UUID:[feceaf7d-cc0f-429e-a8c1-4922d4a4a0f9]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegentrylog.txt]
+	Message:[23@23.com : information incomplete]
+
+DateTime:[20220524	20:57:27]	UUID:[5f3a5d9e-f661-41d0-bb4b-65e6651a7961]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[23@23.com : Attempting to Register]
+
+DateTime:[20220524	20:57:27]	UUID:[74fbd204-7f77-49ea-bae9-f59d85d951f5]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[23@23.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220524	20:57:27]	UUID:[9648cc72-3df8-49fb-8e8c-5b23adadb8d2]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverActivityLogs][userRegistration.txt]
+	Message:[23@23.com : user registered successfully]

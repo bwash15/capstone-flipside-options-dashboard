@@ -378,3 +378,51 @@ DateTime:[20220511	15:33:07]	UUID:[fa439839-1f03-46a4-a9a6-193c16500cc1]
 DateTime:[20220511	15:33:07]	UUID:[8a10f7bd-b56d-4729-ba5b-ef6d2b7cfd9f]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
 	Message:[POST	http://localhost:3000	/register	{}]
+
+DateTime:[20220524	20:34:54]	UUID:[1156a7f3-e100-4f82-b889-e80b345b6790]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220524	20:34:54]	UUID:[bb0c3041-603f-4799-8dac-6bab8d2c7cba]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220524	20:38:08]	UUID:[2a5207e7-de4c-47b9-85a3-a391068423ca]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220524	20:38:08]	UUID:[2fcefe82-fe85-44f1-a733-70d68085df4e]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220524	20:38:47]	UUID:[2bab5b69-310b-47a2-a244-417d2c1e4ebe]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220524	20:38:47]	UUID:[48c2cff0-bc07-4ab6-aeff-c0ac24a9b472]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220524	20:47:42]	UUID:[1b873ee5-eb6e-40fa-93a8-943358e91a2a]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/register	{}]
+
+DateTime:[20220524	20:47:42]	UUID:[58457b31-0b6f-4107-a94f-c15f69077454]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/register	{}]
+
+DateTime:[20220524	20:54:15]	UUID:[5e20140d-5e52-49fb-a551-6bd9477db066]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/register	{}]
+
+DateTime:[20220524	20:54:15]	UUID:[c83451f6-427a-460a-bd92-2d12ed449fa3]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/register	{}]
+
+DateTime:[20220524	20:57:27]	UUID:[77c4b23e-33fa-458d-97cb-9f834ffa2f30]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[OPTIONS	http://localhost:3000	/register	{}]
+
+DateTime:[20220524	20:57:27]	UUID:[3d275746-3529-4ee7-b5ed-2c6b20009c4e]
+	PATH:[D:\School\Project and Portfolio 5\FlipSide CleanUp\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs][serverReqLog.txt]
+	Message:[POST	http://localhost:3000	/register	{}]

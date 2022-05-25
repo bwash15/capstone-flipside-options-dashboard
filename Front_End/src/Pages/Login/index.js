@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import axios from "../../api/axios";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 //require("dotenv").config();
@@ -20,7 +20,7 @@ export default function Login() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = process.env.REACT_APP_API_AUTH || "http://localhost:8080/api/auth";
+			const url = "/auth";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
 			localStorage.setItem("user", JSON.stringify({
