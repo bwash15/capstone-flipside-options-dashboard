@@ -901,3 +901,13 @@ DateTime:[20220525	13:17:34]	UUID:[3f9ddbfd-723a-4ac7-9a28-ad0dfd7e1042]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
 	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220525	13:22:23]	UUID:[87010f6e-af7c-470c-9312-9e793e56e1bd]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220525	13:22:23]	UUID:[e9c36a22-52f2-40ab-8c70-d61242e29298]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/auth	{}]
