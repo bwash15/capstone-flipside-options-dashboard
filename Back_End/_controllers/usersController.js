@@ -85,7 +85,7 @@ const getUser = async (req, res) => {
     const user = await User.findOne({ email: req.params.email }).exec();
     if (!user) {
         myEmitter.emit(`userControllerActivity`, `${req.params.email} not found`, 'userContollerLogs', 'getUser/userController');
-        return res.status(400).json({ "message": `User ID ${req.params.email} Not Found` });
+        return res.status(400).json({ "message": `User Email ${req.params.email} Not Found` });
     }
     myEmitter.emit(`userControllerActivity`, `${req.params.email} profile found`, 'userContollerLogs', 'getUser/userController');
     res.json(user);

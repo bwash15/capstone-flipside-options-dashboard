@@ -35,7 +35,7 @@ const handleLogout = async (req, res) => {
     };
     myEmitter.emit(`userLogoutActivity`, `User defined refreshToken found, clearing RefreshToken`, 'LogoutAttemptLogs', 'logoutController/handleLogout');
 
-    foundUser.refreshToken = '';
+    foundUser.refreshToken = foundUser.refreshToken.filter(rt => rt !== refreshToken);
     const result = await foundUser.save();
     console.log(result);
     console.log("logout func")

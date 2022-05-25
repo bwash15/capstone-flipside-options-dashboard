@@ -1,3 +1,6 @@
+/** Decodes the JWT token to check to see if the user is still authorized **/
+
+
 const jwt = require('jsonwebtoken');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
@@ -7,7 +10,7 @@ myEmitter.on('jwtVerification', (msg, path, filename) => logServerEvents(msg, pa
 
 const verifyJWT = (req, res, next) => {
     myEmitter.emit(`jwtVerification`, ` Verifying JWT for access to the page`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
-    const date = new Date();
+
     const tokenStamp = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
     const authHeader = req.headers.authorization || req.headers.Authorization;
     if (!authHeader?.startsWith('Bearer ')) {
@@ -23,8 +26,7 @@ const verifyJWT = (req, res, next) => {
             if (err) {
 
                 // invalid token
-                console.log(`${date.getHours()}:${date.getMinutes()}
-                                               :${date.getSeconds()}`);
+                console.log(tokenStamp);
                 console.log(`Token Not Verified ${tokenStamp}, Error:\n ${err}`);
                 myEmitter.emit(`jwtVerification`, ` Error verifying token ${tokenStamp}, ${err}`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
                 return res.sendStatus(403)

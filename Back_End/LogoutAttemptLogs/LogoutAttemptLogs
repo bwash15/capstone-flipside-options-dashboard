@@ -118,3 +118,13 @@ DateTime:[20220518	14:57:02]	UUID:[7df2ac86-f752-4d88-a06e-1c8ece3a1a91]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LogoutAttemptLogs]
 	LOC:[logoutController/handleLogout]
 	Message:[RefreshToken Successfully Cleared, User Successfully Logged out]
+
+DateTime:[20220518	15:28:24]	UUID:[62135bbb-6d87-4c36-a994-451df539e18a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LogoutAttemptLogs]
+	LOC:[logoutController/handleLogout]
+	Message:[ Attempting to logout user]
+
+DateTime:[20220518	15:28:24]	UUID:[d2d27a0a-1cf4-4a30-854c-1a75b2bff693]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LogoutAttemptLogs]
+	LOC:[logoutController/handleLogout]
+	Message:[Checking for cookies...]
