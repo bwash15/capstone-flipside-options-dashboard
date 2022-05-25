@@ -1,22 +1,34 @@
 import React from "react";
 // import axios from "axios";
 import { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate,Navigate } from "react-router-dom";
+import { useCustomer, useClient } from "../../context/customer";
 
 function Home(){
+    const client = useClient();
+  const history = useNavigate();
+  const { customer, setCustomer } = useCustomer();
+
+   
+
+
     const [value, setValue] = useState();
     const navigate = useNavigate();
 
+    if (!customer) {
+        return <Navigate to="/login" />;
+    }
+
     const fetchData  = () => {
         let option_type = 'P'                             //C for call P for put
-        let option_expire_date = '220506'                 // YearMonthDay
+        let option_expire_date = '220513'                 // YearMonthDay
         let option_ticker = 'TQQQ';                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
         let option_strike_price = '00038000';             //8 digit number, divide by 1000 -> this will be 1$
         let options_ticker_link = `O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`;
         let multiplier = '1';                             // minutes per minute, hours per hour, days per day, weeks per week -> this will be one hour
         let timespan = 'hour';                            // minute, hour, day, week, month
-        let from = '2022-05-02';                          //start of the timeframe to look at 
-        let to = '2022-05-06';                            //end of the timeframe to look at
+        let from = '2022-05-09';                          //start of the timeframe to look at 
+        let to = '2022-05-13';                            //end of the timeframe to look at
     
         let api_link = `https://api.polygon.io/v2/aggs/ticker/${options_ticker_link}/range/${multiplier}/${timespan}/${from}/${to}?apiKey=` + process.env.REACT_APP_API_KEY;
         
