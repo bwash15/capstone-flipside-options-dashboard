@@ -1546,6 +1546,778 @@ DateTime:[20220525	13:17:34]	UUID:[23c876bb-5ecd-466a-93bc-7b836c2eec16]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[refreshController/handleRefreshToken]
 	Message:[Refreshed Access Token Successfully]
+<<<<<<< HEAD
+
+DateTime:[20220525	16:01:16]	UUID:[9ebf44ed-171d-410b-8c8c-272e87b6e224]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:01:16]	UUID:[6ff05c61-b17c-4bd9-aee2-7c4fb4e1b671]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:01:16]	UUID:[54c1cc2f-1831-4b2a-ae86-5b1cd9946f1c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:01:16]	UUID:[3baf0776-0a5e-498d-be7c-144ea75266b8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:01:16]	UUID:[ffc99441-b7fe-43fb-b4b7-ef37e77e174f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:01:16]	UUID:[fc8914c1-38cb-45f9-8d45-ef4772bc35f4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:01:16]	UUID:[44e25282-3b08-4d4e-aa69-ad7511cc6f43]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:01:16]	UUID:[6c9ff2ff-1900-499e-a8f7-db0797bc9e9b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:01:16]	UUID:[047f4e7b-2fee-48bf-a8a0-072e41f90064]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:01:16]	UUID:[fffcd3d2-e3d4-4291-bda6-a3e6e690f508]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:03:55]	UUID:[90ca5106-d9de-4bf4-a75f-7964fecb1acc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:03:55]	UUID:[237f5693-120f-4e69-a825-a0afc4fbbbfa]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:03:55]	UUID:[3bdadefe-8006-4899-88a1-4115f1501238]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:03:55]	UUID:[63f5ca67-0531-441c-af53-1880e0fbd86e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:03:55]	UUID:[7b6b6022-4395-4cf2-bd21-ba0a2c712b60]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:03:55]	UUID:[e8728463-6c29-4a54-ab70-9eccef907c44]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:03:55]	UUID:[8062de5a-5918-497b-82a0-a074eb0334f0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:03:55]	UUID:[768d3c2e-be2d-455b-8cec-c0f871a42f6e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:03:55]	UUID:[a8b31425-2736-453a-8fa2-a3d53c04cbb9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:03:55]	UUID:[89445639-05e0-4abf-814b-2bac93b1ccb5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:06:21]	UUID:[bd58a7b9-b344-43e9-81a3-72c6af6b99d8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:06:21]	UUID:[0fff4d71-44b6-46ca-a690-dccb316134c9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:06:55]	UUID:[ec5bc0e9-6f10-4478-83e0-f06a5e97c2e5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:06:55]	UUID:[c75de8fd-98ee-40e0-bd7a-773132faa3ea]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:06:55]	UUID:[dc1011d7-53d6-490a-b37e-12aa940dc80f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:06:55]	UUID:[afae494c-c408-453a-89f9-65776cb0564e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:06:55]	UUID:[b649c460-12dd-4a2b-9135-37fe339f42fe]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:06:55]	UUID:[43a7d91d-7355-4882-91f0-eba7e8b12f95]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:06:55]	UUID:[1e0be238-f758-4965-8f4d-1b2ef49b361c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:06:55]	UUID:[cbb9366b-c1e2-45c7-a774-ca3edb552d6c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:06:55]	UUID:[a1b67f2c-dad5-4f06-9e62-ac3a70414fd3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:06:55]	UUID:[90e380c2-8d24-454f-a0dc-1137979de052]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:07:41]	UUID:[c4d647b5-4213-4db1-b1fb-c3f4312b0133]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:07:41]	UUID:[95430723-6cc1-44d1-a070-b2fdd0530e74]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:07:41]	UUID:[03ba4ab0-e028-49d9-acb6-0d2bcda7b63d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:07:41]	UUID:[1ab04b75-fdf8-4166-a0d2-918f06a370b9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:07:41]	UUID:[ceee00de-f8f5-46c3-a00d-d7229103b276]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:07:41]	UUID:[de5885f4-8892-4f0f-85bb-29dfe648b12b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:07:41]	UUID:[0e70506c-d3ed-4b5e-9b78-241a7c578c04]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:07:41]	UUID:[7eacf116-661e-4bbf-9fe9-90ce548ae0f8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:07:41]	UUID:[6b0a3a9d-88e1-4d00-b06b-3c6767c982b9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:07:41]	UUID:[9cc7edf7-c300-4965-9bbc-5847ea968d8a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:09:11]	UUID:[4852812a-1d87-4cbc-b422-30786cb38f60]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:09:11]	UUID:[cf91a407-b8f9-4405-ba3d-0a4210b91310]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:10:33]	UUID:[0a4d3ae8-14e4-4b01-a496-beed872318ac]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:10:33]	UUID:[3939eaa6-6619-4cfd-b7ce-c5e2d20229a3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:11:39]	UUID:[036c6463-f55c-407b-a167-b471bfc38ab9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:11:39]	UUID:[f8d79158-08e8-4507-8a69-fdf8047a006c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:13]	UUID:[adc18239-364a-4a0d-b876-a40967e3b941]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:13]	UUID:[1936ed88-9fe4-4fef-a0c3-6c2a66f86979]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:12:13]	UUID:[688d6c06-110a-4ecb-b211-24cfa5e72b18]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:12:13]	UUID:[91822715-f51e-4061-9712-db3b6e43ddd4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:12:13]	UUID:[0baacdfe-9201-48b8-b117-6b7662c69a0b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:12:13]	UUID:[b12d14e7-950a-478d-be55-d5344d499fc4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:13]	UUID:[4eea850a-58fa-4124-b989-282348d77f60]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:12:13]	UUID:[995ff8e8-3ade-4be3-b4e1-d6869ead28e8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:12:13]	UUID:[1a5a81a4-d362-49c1-ae81-a6f3ba70755a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:12:13]	UUID:[c827c946-7262-4cc6-be85-3205ee4499b3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:12:38]	UUID:[29bd38d1-26cf-47db-b0d8-54f999e6fca3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:38]	UUID:[d3a6a141-9166-4e25-9b7a-c9b4f8131ccc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:12:38]	UUID:[1c09e602-e0af-450a-896b-e66ddd7b8fa9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:12:38]	UUID:[fd8d2c2c-1dbf-4029-9425-368127cc9115]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:12:38]	UUID:[94886ce0-f951-43cf-b25c-f903ed62dec2]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:12:38]	UUID:[565148b4-cf56-46f4-85c5-a71e3c3698fc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:38]	UUID:[1ab4beb0-2e0a-44d4-b74d-d742f19134be]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:12:38]	UUID:[a78d2991-8778-4296-ba1f-38471d130d69]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:12:38]	UUID:[799fcef4-d846-49e1-aaf1-a2c7dc4b1310]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:12:38]	UUID:[e45d8686-73c5-471a-aa3d-69f04a949c2c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:12:57]	UUID:[490c0ee5-d317-4f5d-9858-478a9d7c0d19]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:57]	UUID:[37f668b3-d558-44ea-a2f0-c2e58ad84f70]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:12:57]	UUID:[d81e1a4b-d76c-46ad-a383-7428316a40ba]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:12:57]	UUID:[65e55f3e-c0e9-444f-8b91-79857e9f8221]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:12:57]	UUID:[9e71d032-9cd7-4660-a531-f7b0bc491616]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220525	16:12:57]	UUID:[c853fa3d-b5bf-43aa-a494-ba5049df43b2]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220525	16:12:57]	UUID:[277d1eb7-2be2-4bf4-b021-c2d6b9fe96e7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:12:57]	UUID:[30940949-3546-4f99-b548-09ee6acc975b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:12:57]	UUID:[40108dd8-79b4-4a8f-9d73-6d420c4ffb5a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:12:57]	UUID:[90149924-5d06-4a99-b7bf-487fd3658594]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:12:57]	UUID:[4c0c4ff5-d94c-4c23-a622-10bf256c28b4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220525	16:12:57]	UUID:[ae565bbf-265d-45b1-bd23-536f145dbf15]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220525	16:13:30]	UUID:[b72e4e02-364d-461f-8a6e-f08779be4d6e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:13:30]	UUID:[0cfa746e-5f7b-4b71-91ef-fd7b77ef5ca5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:13:30]	UUID:[174a2530-bc11-4651-af26-580820761f02]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:13:30]	UUID:[c91e0ad1-c048-46f2-8855-cd81c88b6db1]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:13:30]	UUID:[7927ed73-b9dc-4660-bd29-601b511a1a5e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:13:30]	UUID:[5250e0a2-a705-4085-a41d-939cb8b4d3f9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:13:30]	UUID:[ba31152b-99fc-47a3-96a9-87eb4f9c9871]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:13:30]	UUID:[13430aa2-1bea-47d5-8bd8-67344737cc12]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:13:30]	UUID:[1cedc559-6aa5-467f-9b40-3e14512544a7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:13:30]	UUID:[86b86d0c-03aa-40eb-a8a6-432c1fafd16c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:17:15]	UUID:[51cc1517-b8fa-43a4-ba50-aa0f5996e807]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:17:15]	UUID:[9d9d4aee-b4c0-47fc-a80b-87f315f8d52a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:17:50]	UUID:[e32ec2aa-d1ba-4a04-9668-9ad551b9dbca]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:17:50]	UUID:[8c12e19c-b5e3-43c3-98f2-d38098e08bd7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:17:50]	UUID:[cb11df13-8bf0-4672-afe3-570404e5ac5d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:17:50]	UUID:[ca084b48-6a03-4605-b805-aaf7db67e49e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:17:50]	UUID:[910c0b73-6b91-4a82-8127-2b56a577f909]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:17:50]	UUID:[97d0cf9c-e19f-4cc2-b336-ad0eb451eea5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:17:50]	UUID:[a2965b54-c8ae-473c-8c21-d77e988dd6f3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:17:50]	UUID:[f7c482a4-22a1-4a63-8f92-ac83f2149f8f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:17:50]	UUID:[661363cf-f05b-402b-9fd7-524929446bd2]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:17:50]	UUID:[48c23039-6326-4581-a182-95aa1f61f1bf]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:23:17]	UUID:[75506af3-d21b-4975-892d-a80f49683d4c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:23:17]	UUID:[9c219fc0-d85b-4b22-9fef-1cb574d7a86d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:23:41]	UUID:[24d0d6de-6380-4a8e-bbea-c2a4d0762a13]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:23:41]	UUID:[772d6609-b14c-4e7e-947f-5129e1cf4df1]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:23:41]	UUID:[0b90f03c-8d9e-4373-93dd-4cc15ee37d37]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:23:41]	UUID:[6fa1d499-25da-4dc2-9b47-b15f32452848]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:23:41]	UUID:[5a786064-ea8f-45ae-9107-c96eac5cd87e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:23:41]	UUID:[77eee4fa-8d5d-44a7-ace1-3f4cf91ff5c0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:23:41]	UUID:[058840ca-c444-470b-8d05-010be3875be2]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:23:41]	UUID:[78aa29df-3399-4691-98f5-9867caa0a5a7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:23:42]	UUID:[cf6f96c1-662e-4a10-91fb-cf199301cebc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:23:42]	UUID:[2070b5bf-8c15-4311-8950-acce10d9c4d7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:23:44]	UUID:[5c1f31b3-6d04-4899-bd35-538e96214136]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:23:44]	UUID:[d56e2c29-050d-4fc2-96c5-c79438391e17]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:27:44]	UUID:[c575b252-1e3e-4ce6-8ab3-43dcba55b14c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:27:44]	UUID:[6c2b906f-6e45-4758-b7dd-774d5d3f1255]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:29:47]	UUID:[23f3081c-196a-4b20-8621-65690db30790]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:29:47]	UUID:[8c1a3d92-e272-4922-822b-8851c8e20aed]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:30:10]	UUID:[811df6f0-f9fc-4702-b2d8-2d19e9cdb97d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:30:10]	UUID:[419b0bfe-ef0d-49eb-95de-78d5f3e3277a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:30:10]	UUID:[839503d4-4e87-4917-be52-67dc28a2b01f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:30:10]	UUID:[8495dbe5-93db-45d2-be2c-c8126d8a9040]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:30:10]	UUID:[f6742814-9a1b-40a2-bcc6-b46e49eaa488]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:30:10]	UUID:[d3ecf9cb-82a4-4b67-be70-364b57e091c2]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:30:10]	UUID:[40e73731-6ef2-44db-8b0a-aa526e74bc6d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:30:10]	UUID:[bd38437a-2f98-488d-b439-89f5c4e09089]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:30:10]	UUID:[ff395ee0-9d9e-42bd-b4fa-d215484122f8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:30:10]	UUID:[73ecbcea-76cd-4f96-bfed-3322e0e11239]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:30:44]	UUID:[a33e5824-9779-4b8d-8588-a71e588e2bfc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:30:44]	UUID:[9e070482-3297-42bc-8bcb-d02f25f16926]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:30:44]	UUID:[2e43e842-ed82-4cd3-9b4e-f34ed4b2af0d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:30:44]	UUID:[7cfbad8a-310d-4ce8-ae9a-fb3980952c51]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:30:44]	UUID:[23b6c7fa-4d50-41eb-80f6-86ef44991628]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:30:44]	UUID:[85b76f8d-6619-470d-95d1-c9afb0177e19]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:30:44]	UUID:[c5cb48e2-543b-4b19-86dd-c0d68120900c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:30:44]	UUID:[5df0dd96-51bb-4e11-9d22-d58df6f99aca]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:30:44]	UUID:[da5e3903-af9a-4df3-99b8-146da7cc33eb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:30:44]	UUID:[97e59d92-5aa7-4f35-957e-2ec86a44f46b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:31:52]	UUID:[a9be85fb-5e04-4092-a517-cec061064a64]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:31:52]	UUID:[56df39ff-55ed-48ec-98e5-02b20a94c6c7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:31:52]	UUID:[33845f9b-32b7-4a19-8d97-ddaebbeb76ce]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:31:52]	UUID:[5e8a6043-8e22-4f7a-96bf-4facf3516b03]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:31:52]	UUID:[3d270982-c164-433a-9cc4-fe21c6de9e16]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:31:52]	UUID:[a7e2b2a9-305d-4c94-ad1c-3903af3d5fb9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:31:52]	UUID:[48e164b3-fe1b-46c7-8076-f8bc82ffac70]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	16:31:52]	UUID:[2772754e-a242-4f86-a39f-2e252b66e66e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	16:31:52]	UUID:[66cb1cb9-d8ce-4c33-a6c6-9d71db7ebe2a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	16:31:52]	UUID:[04ef6c38-24d9-4c39-979b-acaad3838eb4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Error verifying Token or User email not found]
+
+DateTime:[20220525	16:34:02]	UUID:[0f402957-c1b4-4003-a5b4-9aadac708390]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:34:02]	UUID:[9b4ea242-78e9-42b2-b7ab-18dfac53cc35]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:38:26]	UUID:[ead10cdb-8480-401d-8357-b1ee49e69381]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	16:38:26]	UUID:[75a74849-0967-4f4c-8fe9-54e57664ed23]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+=======
 >>>>>>> e1c862328bcc19f1dfe7ea77b2847192b1498e14
 
 DateTime:[20220525	22:04:30]	UUID:[ec9fc827-51e3-4f3e-b3d4-7d0b006237cc]
@@ -1682,3 +2454,4 @@ DateTime:[20220525	22:49:07]	UUID:[20c736d4-54a5-4d5c-acf1-3220d2b7f33e]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[refreshController/handleRefreshToken]
 	Message:[Attempting to Refresh Access Token]
+>>>>>>> a17cf681c9dcacbf4693a1eb2dcaa9b9b110875d

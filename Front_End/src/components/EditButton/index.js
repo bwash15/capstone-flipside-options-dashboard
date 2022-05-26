@@ -5,11 +5,15 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
+import useUser from '../../hooks/useUser';
+import axios from '../../api/axios';
+
+const URL = '/profile';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 
-const EditButton = () => {
+const EditButton = (props) => {
 
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
@@ -54,7 +58,7 @@ const EditButton = () => {
     const [user, setUser] = React.useState({
         firstName: "Dustin",
         lastName: "Huntzinger",
-        email: "ts@ts.com"
+        email: props.value
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
