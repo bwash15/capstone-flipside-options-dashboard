@@ -6,6 +6,11 @@ const verifyRoles = require('../../_middleware/verifyRoles');
 
 router.route('/')
     .get(profileController.getProfile)
-    .put(verifyRoles(ROLES_LIST.Editor), profileController.updateProfileInfo);
+    .put(profileController.updateProfileInfo);
+
+
+router.route('/:email')
+    .get(profileController.getProfile)
+    .put(profileController.updateProfileInfo);
 
 module.exports = router;

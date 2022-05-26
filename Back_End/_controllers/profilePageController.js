@@ -6,6 +6,7 @@ const myEmitter = new Emitter();
 myEmitter.on('profileControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const getProfile = async (req, res) => {
+    console.log(req);
     if (!req?.params?.email) return res.status(400).json({ 'message': `User Email Required ` })
     // Checks the userID
     // using params here because it is going to pull it directly from the URL

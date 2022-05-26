@@ -10,7 +10,7 @@ myEmitter.on('jwtVerification', (msg, path, filename) => logServerEvents(msg, pa
 
 const verifyJWT = (req, res, next) => {
     myEmitter.emit(`jwtVerification`, ` Verifying JWT for access to the page`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
-
+    const date = new Date();
     const tokenStamp = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
     const authHeader = req.headers.authorization || req.headers.Authorization;
     if (!authHeader?.startsWith('Bearer ')) {

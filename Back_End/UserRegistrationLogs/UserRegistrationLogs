@@ -1,0 +1,15 @@
+
+DateTime:[20220525	22:21:49]	UUID:[21300196-428a-4053-942e-1dc8b304415a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[12@12.com : Attempting to Register]
+
+DateTime:[20220525	22:21:49]	UUID:[507d27c6-0538-4191-9e1a-e30e1f08cb58]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[12@12.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220525	22:21:50]	UUID:[f9b3528a-3677-4b36-8a94-2728b2687c06]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[12@12.com : user registered successfully]

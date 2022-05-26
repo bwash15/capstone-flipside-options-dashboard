@@ -89,7 +89,7 @@ app.use('/logout', require('./_routes/_logout'));
 app.use(verifyJWT);
 //************************************************ */
 /** Web-level Middleware **/
-app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
+app.use('/ProfilePage', require('./_routes/webapi/_ProfilePage.js'));
 
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE

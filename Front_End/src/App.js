@@ -47,7 +47,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           {/** Pulic Routes **/}
           <Route path="login" element={<Login />} />
-          <Route path="register" element={<RegisterUser />} />
+          <Route path="signup" element={<RegisterUser />} />
           <Route path="linkpage" element={<LinkPage />} />
           <Route path="unauthorized" element={<UnAuthorizedAccess />} />
 

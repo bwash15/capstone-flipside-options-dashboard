@@ -1547,3 +1547,138 @@ DateTime:[20220525	13:17:34]	UUID:[23c876bb-5ecd-466a-93bc-7b836c2eec16]
 	LOC:[refreshController/handleRefreshToken]
 	Message:[Refreshed Access Token Successfully]
 >>>>>>> e1c862328bcc19f1dfe7ea77b2847192b1498e14
+
+DateTime:[20220525	22:04:30]	UUID:[ec9fc827-51e3-4f3e-b3d4-7d0b006237cc]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:21:50]	UUID:[bef4b25e-8aac-4ea2-bede-8e8afd535589]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:21:50]	UUID:[1541b67c-fd94-4281-813e-40da8cc89ebe]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:24:41]	UUID:[e3ad6112-9a64-425d-8369-cbe108b09429]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:24:41]	UUID:[e162e73e-92e5-406a-a4de-defc5ff3fa0b]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:33:31]	UUID:[341be9a4-d2d1-4ce4-8677-61b0372d7626]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:33:31]	UUID:[e9a48b45-ec80-4d33-97e0-3c33649d7320]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:38:38]	UUID:[6be5fb91-f163-4580-b24e-5fac1b36b8b8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:38:38]	UUID:[edd8c6f8-cf72-49e1-80e3-6a5103791348]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:42:25]	UUID:[ce4cffd2-c011-4317-a0d5-ab20d9a07c2e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:42:25]	UUID:[04c64223-7bff-4dcb-9c37-6bc84a585380]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:43:34]	UUID:[5d3751c9-028d-4b2b-b113-026648fe2bae]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:43:34]	UUID:[7f8e39b1-5d1a-46ee-905c-76e3e33c5a16]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	22:43:34]	UUID:[7a9472a5-8f1f-4f91-810d-439b3f136e82]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	22:43:34]	UUID:[51611ab5-636e-4d3f-a416-b7a62620e48d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:43:34]	UUID:[8eb205ff-e1d0-4421-8799-5a4b0654d762]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220525	22:43:34]	UUID:[b1f29df4-1654-465f-81a2-9d7af87d3160]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220525	22:43:34]	UUID:[02bab499-b22f-4b9a-8749-80a63f0a0eee]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	22:43:34]	UUID:[aabf9f5d-c300-4fc9-939a-5fd4a317daab]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220525	22:43:34]	UUID:[4cef8512-3f00-4628-bae2-25c758b88f58]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220525	22:43:34]	UUID:[15bfbe6a-ddb6-478f-b312-fc48bb23ab67]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220525	22:43:34]	UUID:[301fb6df-ffc7-4286-93bd-26f1b3846b55]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220525	22:43:34]	UUID:[f45b9a33-4482-4cd8-81e3-1c8c0882aec9]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220525	22:43:46]	UUID:[cb4956c7-9e34-4348-ab93-32d45232d49e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:43:46]	UUID:[b5fbd87e-21a1-4096-8eec-bbc6824328ad]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:49:07]	UUID:[c2312a09-63ec-4494-9beb-306477e67b09]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220525	22:49:07]	UUID:[20c736d4-54a5-4d5c-acf1-3220d2b7f33e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
