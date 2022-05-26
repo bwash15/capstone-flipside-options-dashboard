@@ -23,12 +23,22 @@ const getProfile = async (req, res) => {
 
 const updateProfileInfo = async (req, res) => {
     // Checks the userID
-    if (!req?.body?.email) {
+    if (!req?.body?.oldEmail) {
         return res.status(400).json({ 'message': 'ID parameter required, No ID found' });
     }
     // We have confirmed we have found the User if we have made it here
     // Defining what User to update
-    const user = await ProfileInfo.findOne({ email: req.body.email }).exec();
+    console.log(req.body.email)
+    const newUser = await ProfileInfo.findOne({ email: req.body.email }).exec();
+
+    const user = await ProfileInfo.findOne({ email: req.body.oldEmail }).exec();
+    
+    if (newUser) {
+        myEmitter.emit(`profileControllerActivity`, `Profile With ${newUser.email} Already Exists!   `, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
+        return res
+				.status(409)
+				.send({ message: "User with given email already Exist!" });
+    }
 
     if (!user) {
         myEmitter.emit(`profileControllerActivity`, `No ProfileInfo found: ${user.email} `, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
@@ -40,7 +50,7 @@ const updateProfileInfo = async (req, res) => {
     if (req.body?.lastname) user.lastname = req.body.lastname;
     if (req.body?.email) user.email = req.body.email;
 
-    myEmitter.emit(`profileControllerActivity`, `${user.email} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
+    myEmitter.emit(`profileControllerActivity`, `${user.email} ${user.firstName} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     const result = await user.save()
     res.json(result);
 }

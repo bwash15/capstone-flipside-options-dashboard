@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
-import useUser from '../../hooks/useUser';
 
 const URL = '/ProfilePage';
 
@@ -58,6 +57,48 @@ const EditButton = (props) => {
         }
     }
 
+    const updateUserInfo = async() =>{
+        if(newUser && user)
+        {
+            try {
+                console.log("START");
+                const res = await axios.put(URL, JSON.stringify({
+                    "oldEmail": props.value,
+                    "email": user.email,
+                    "firstname": user.firstName,
+                    "lastname": user.lastName
+                }
+                ),
+                    {
+                        headers: { 'Content-Type': 'application/json' },
+                        withCredentials: true
+                    }
+                );
+                console.log("After");
+                console.log(res.data.firstname);
+                console.log(JSON.stringify(res?.data));
+                console.log(res.data.firstname);
+                setUser({
+                    firstName: res.data.firstname,
+                    lastName: res.data.lastname,
+                    email: res.data.email
+                });
+                setNewUser(user);
+
+
+            } catch (error) {
+                if (
+                    error.response &&
+                    error.response.status >= 400 &&
+                    error.response.status <= 500
+                ) {
+                    setEmailError(error.response.data.message);
+                    setUser(newUser);  
+                }
+            }
+        }
+    };
+
     const [user, setUser] = React.useState({
         firstName: "Dustin",
         lastName: "Huntzinger",
@@ -96,10 +137,7 @@ const EditButton = (props) => {
             setAcceptButton(prev => !prev);
             setCancelButton(prev => !prev);
             setEnabled(prev => !prev);
-            setNewUser(user);
-            setFirstError("");
-            setLastError("");
-            setEmailError("");
+            updateUserInfo();
         }
     }
 
@@ -126,21 +164,21 @@ const EditButton = (props) => {
                     <Typography sx={{ width: "100px" }}>FirstName:</Typography>
                 </div>
                 <div className={styles.one_input}>
-                    <TextField style={{ width: "250px" }} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required />
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px", heigth: "70px" }} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required />
                 </div>
                 {firstError && <div className={styles.one_error}>{firstError}</div>}
                 <div className={styles.two_label}>
                     <Typography sx={{ width: "100px" }}>LastName:</Typography>
                 </div>
                 <div className={styles.two_input}>
-                    <TextField style={{ width: "250px" }} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required />
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required />
                 </div>
                 {lastError && <div className={styles.two_error}>{lastError}</div>}
                 <div className={styles.three_label}>
                     <Typography sx={{ width: "100px" }}>Email:</Typography>
                 </div>
                 <div className={styles.three_input}>
-                    <TextField style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
             </div>
