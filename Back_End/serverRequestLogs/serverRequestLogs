@@ -12217,3 +12217,88 @@ DateTime:[20220526	11:41:03]	UUID:[c005f1fe-5dbf-494c-8eed-f9ac27bee982]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
 	Message:[PUT	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:10:02]	UUID:[c93fc06f-ed35-42a4-aed5-0c7f2b601ca8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:10:02]	UUID:[82f4bc09-5949-46ab-8c34-8365d1a01886]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[PUT	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:12:59]	UUID:[90edc59c-8470-4652-85d7-74574c6aee64]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:12:59]	UUID:[280613e8-2819-4bcc-9926-2e1e33261677]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[PUT	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:19:18]	UUID:[911cd8fa-59af-40e6-bd3e-764716c7bd10]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220526	15:19:18]	UUID:[9dff1b5b-9a71-4bc5-ae3b-1a714100dfec]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220526	15:19:23]	UUID:[1cd37c87-89c1-4ae2-99ac-92821bfd372e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220526	15:19:23]	UUID:[de4e1411-6414-4b46-b33c-0f4cf22eaa15]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220526	15:19:24]	UUID:[dc936b92-e5a3-4eaa-95c5-c98ba09b17ca]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:19:24]	UUID:[b0d27130-0f29-437c-83a3-14113ae57d67]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:19:24]	UUID:[9d9428bb-1f9a-4402-980b-d7f5a0f688a8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:19:24]	UUID:[2694b71d-2e20-46e9-8c75-64db9d23fe07]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:19:28]	UUID:[7b7051d1-8877-43a1-9c9b-1242a9c33e24]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[PUT	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:20:04]	UUID:[82b609db-dd7c-4fc1-9195-2bbdc6985586]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:20:04]	UUID:[e1951244-4ccb-4881-ab71-9b808d532492]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[PUT	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:20:46]	UUID:[ed377982-10d1-4129-a054-04721ef77c1f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220526	15:20:46]	UUID:[3fa8a7bf-a8d5-4ce3-9c32-22bf15f9b3a4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[PUT	http://localhost:3000	/ProfilePage	{}]

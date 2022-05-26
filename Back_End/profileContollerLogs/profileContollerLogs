@@ -7138,3 +7138,48 @@ DateTime:[20220526	11:41:03]	UUID:[01debd6d-93fd-4d46-be95-80ab58ca1154]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[updateProfileInfo/ProfilePageController]
 	Message:[Profile With 12@12.com Already Exists!   ]
+
+DateTime:[20220526	15:10:02]	UUID:[6950e9ba-9b1f-4292-b573-263935fbe1c7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[Profile With 33@33.com Already Exists!   ]
+
+DateTime:[20220526	15:12:59]	UUID:[a3e0ec1a-72d8-4942-9446-301dd0b4a68d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[Profile With 33@33.com Already Exists!   ]
+
+DateTime:[20220526	15:19:24]	UUID:[525cce94-142a-4cf2-a5cb-567277b3a313]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[33@33.com profile found]
+
+DateTime:[20220526	15:19:24]	UUID:[352239e4-4918-40cb-8994-a0188215eb8b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[33@33.com profile found]
+
+DateTime:[20220526	15:19:28]	UUID:[15c9187f-c497-49ed-856b-cb9740706deb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[33@33.com profile found]
+
+DateTime:[20220526	15:19:28]	UUID:[b79a9a3f-32b7-4149-94ca-e09a3cdfef09]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[33@33.com undefined profile information UPDATED successfully]
+
+DateTime:[20220526	15:20:04]	UUID:[f95aeb97-3a1c-409e-ac30-26d83fe7c049]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[33@33.com profile found]
+
+DateTime:[20220526	15:20:04]	UUID:[e87ded67-744a-4be5-8370-9a8b93c6171d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[33@33.com undefined profile information UPDATED successfully]
+
+DateTime:[20220526	15:20:46]	UUID:[a6ccb126-157a-4746-bc33-484b57328a14]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[Profile With 12@12.com Already Exists!   ]

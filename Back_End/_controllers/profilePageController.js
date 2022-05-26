@@ -32,12 +32,16 @@ const updateProfileInfo = async (req, res) => {
     const newUser = await ProfileInfo.findOne({ email: req.body.email }).exec();
 
     const user = await ProfileInfo.findOne({ email: req.body.oldEmail }).exec();
-    
-    if (newUser) {
-        myEmitter.emit(`profileControllerActivity`, `Profile With ${newUser.email} Already Exists!   `, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
-        return res
-				.status(409)
-				.send({ message: "User with given email already Exist!" });
+
+    if(req.body.email != req.body.oldEmail)
+    {
+        if (newUser) {
+            myEmitter.emit(`profileControllerActivity`, `Profile With ${newUser.email} Already Exists!   `, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
+            return res
+                    .status(409)
+            
+                    .send({ message: "User with given email already Exist!" });
+        }
     }
 
     if (!user) {
@@ -46,9 +50,9 @@ const updateProfileInfo = async (req, res) => {
     }
     myEmitter.emit(`profileControllerActivity`, `${user.email} profile found`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     // If there are any entries from the user update the properties of the user to the entry
-    if (req.body?.firstname) user.firstname = req.body.firstname;
-    if (req.body?.lastname) user.lastname = req.body.lastname;
-    if (req.body?.email) user.email = req.body.email;
+    if (req.body?.firstname && req.body?.firstname != user.firstname) user.firstname = req.body.firstname;
+    if (req.body?.lastname && req.body?.lastname != user.lastname) user.lastname = req.body.lastname;
+    if (req.body?.email && req.body?.email != user.email) user.email = req.body.email;
 
     myEmitter.emit(`profileControllerActivity`, `${user.email} ${user.firstName} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     const result = await user.save()

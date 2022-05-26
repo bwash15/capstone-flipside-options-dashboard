@@ -4072,3 +4072,23 @@ DateTime:[20220526	11:40:51]	UUID:[b32615b5-d4b9-494e-b782-f897c25e5ab5]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220526	15:19:23]	UUID:[90652da7-7c0e-4bde-befd-88774b92ec4b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	15:19:23]	UUID:[6c8132f8-e9ff-499a-8951-72477f7f3b11]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	15:19:23]	UUID:[5e3449cc-3eb2-41d1-ae10-9d32937966b3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	15:19:23]	UUID:[38a4b0b6-9910-48c7-b6d9-8adc2a3d07e5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
