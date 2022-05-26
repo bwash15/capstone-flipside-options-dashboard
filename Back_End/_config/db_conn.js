@@ -15,7 +15,7 @@ const options = {
 
 const connectDB = async () => {
     try {
-        await mongoose.connect(process.env.MONGODB_URI, options);
+        await mongoose.connect(process.env.REACT_APP_MONGODB_URI, options);
 
     } catch (err) {
         console.error(err);
