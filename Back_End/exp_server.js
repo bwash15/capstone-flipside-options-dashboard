@@ -76,7 +76,7 @@ app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
 app.use('/userTiles', require('./_routes/_userTiles'))
-app.use('/ProfilePage', require('./_routes/webapi/_ProfilePage.js'));
+app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 
 
 //************************************************/

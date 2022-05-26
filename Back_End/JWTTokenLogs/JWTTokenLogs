@@ -5715,3 +5715,13 @@ DateTime:[20220526	11:23:37]	UUID:[996cfdf9-93dd-44d3-a0cf-e54e075d8b0a]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[refreshController/handleRefreshToken]
 	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220526	11:36:00]	UUID:[ad3519f5-0af7-4257-a28b-cc0fc649cc36]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220526	11:36:00]	UUID:[fed34fde-323d-463a-a31c-7ce76751cb55]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
