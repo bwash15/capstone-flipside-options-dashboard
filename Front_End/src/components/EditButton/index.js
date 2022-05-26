@@ -6,9 +6,8 @@ import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
 import useUser from '../../hooks/useUser';
-import axios from '../../api/axios';
 
-const URL = '/profile';
+const URL = '/ProfilePage';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
@@ -30,7 +29,10 @@ const EditButton = (props) => {
     const getInfo = async () => {
         try {
             console.log("START");
-            const res = await axios.get(URL, JSON.stringify("12@12.com"),
+            const res = await axios.post(URL, JSON.stringify({
+                "email": props.value
+            }
+            ),
                 {
                     headers: { 'Content-Type': 'application/json' },
                     withCredentials: true
@@ -38,10 +40,11 @@ const EditButton = (props) => {
             );
             console.log("After");
             console.log(JSON.stringify(res?.data));
+            console.log(res.data.firstname);
             setUser({
-                firstName: res.body.firstName,
-                lastName: res.body.lastName,
-                email: res.body.email
+                firstName: res.data.firstname,
+                lastName: res.data.lastname,
+                email: res.data.email
             });
 
         } catch (error) {

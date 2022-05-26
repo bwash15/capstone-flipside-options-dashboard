@@ -5,12 +5,12 @@ const ROLES_LIST = require('../../_config/roles_list');
 const verifyRoles = require('../../_middleware/verifyRoles');
 
 router.route('/')
-    .get(profileController.getProfile)
+    .post(profileController.getProfile)
     .put(profileController.updateProfileInfo);
 
 
 router.route('/:email')
-    .get(profileController.getProfile)
+    .post(profileController.getProfile)
     .put(profileController.updateProfileInfo);
 
 module.exports = router;

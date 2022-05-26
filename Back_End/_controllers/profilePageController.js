@@ -6,16 +6,16 @@ const myEmitter = new Emitter();
 myEmitter.on('profileControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const getProfile = async (req, res) => {
-    console.log(req);
-    if (!req?.params?.email) return res.status(400).json({ 'message': `User Email Required ` })
+    console.log(req.body.email);    
+    if (!req?.body?.email) return res.status(400).json({ 'message': `User Email Required ` })
     // Checks the userID
-    // using params here because it is going to pull it directly from the URL
-    const user = await ProfileInfo.findOne({ email: req.params.email }).exec();
+    // using body here because it is going to pull it directly from the URL
+    const user = await ProfileInfo.findOne({ email: req.body.email }).exec();
     if (!user) {
-        myEmitter.emit(`profileControllerActivity`, `${req.params.email} not found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
-        return res.status(400).json({ "message": `User Email ${req.params.email} Not Found` });
+        myEmitter.emit(`profileControllerActivity`, `${req.body.email} not found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
+        return res.status(400).json({ "message": `User Email ${req.body.email} Not Found` });
     }
-    myEmitter.emit(`profileControllerActivity`, `${req.params.email} profile found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
+    myEmitter.emit(`profileControllerActivity`, `${req.body.email} profile found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
     res.json(user);
 }
 

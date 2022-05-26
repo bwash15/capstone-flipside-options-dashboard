@@ -68,3 +68,53 @@ DateTime:[20220525	13:44:46]	UUID:[80bf7a51-36b5-410d-bc7c-01ef976a6055]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
 	LOC:[errLog.txt]
 	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220525	23:39:13]	UUID:[a8437ad2-6241-43cc-8a70-809508c41d98]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'split')]
+
+DateTime:[20220525	23:39:13]	UUID:[fa544a85-5318-453c-b31c-9cce62104d90]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'split')]
+
+DateTime:[20220525	23:39:47]	UUID:[9e9713fd-5af5-4de1-af2b-bbeb7e95b6b2]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : token is not defined]
+
+DateTime:[20220525	23:39:47]	UUID:[92401401-1b97-4570-ac81-8ed19880b00f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : token is not defined]
+
+DateTime:[20220525	23:42:03]	UUID:[96d5d40e-ac27-40c3-a67e-f74cc7ed84b8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220525	23:42:03]	UUID:[b5c23ae1-f3e2-448b-893e-e7fc6495fc12]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220525	23:42:41]	UUID:[05eff3c3-ecad-41ff-adbb-ecabe6d64f59]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220525	23:42:41]	UUID:[2b216827-5267-44e9-bf44-b22fa6521023]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220525	23:43:23]	UUID:[29a06796-04f4-456d-b7d2-b72ffca42907]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220525	23:43:23]	UUID:[339174c2-cd50-407c-b7a2-05eae6edbe4e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
