@@ -7,6 +7,7 @@ import {
   Button
 } from 'reactstrap'
 import axios from '../../api/axios'
+import { model } from 'mongoose'
 
 
 // export default class TileList extends React.Component{
@@ -48,20 +49,32 @@ export const TileList = () => {
   // const [tileName, setName] = useState('');
   // const [tileType, setType] = useState('');
   // const [uuid, setUuid] = useState('');
-  const getTiles = async(e) => {
-      //e.preventDefault();
-      const url = './userTiles';
-      const result = await axios.get(url);
-      console.log(result.data);
-      console.log('number of items in tiles is ' + tiles.length)
-      return result.data;
-      //setTiles(result);
-  }
+  // const getTiles = async(e) => {
+  //     //e.preventDefault();
+  //     const url = './userTiles/get';
+  //     const result = await axios.post(url);
+  //     console.log(result.data);
+  //     console.log('number of items in tiles is ' + tiles.length)
+  //     return result.data;
+  //     //setTiles(result);
+  // }
 
   useEffect(() => {
-    setTiles(tiles => [...tiles, getTiles()]);
+    const url = './userTiles/get';
+    axios.post(url)
+      .then((response) => {
+        setTiles(response.data);
+      })
+    //setTiles(getTiles());
     console.log('number of items in tiles is now ' + tiles.length)
   }, []);
+
+  const deleteTile = (props) =>{
+    //get uuid
+    //model.delete(uuid)
+    const url = 'userTiles/delete';
+    axios.post(url,props.value);
+  }
 
   return (
     <ListGroup className="mt-4">
@@ -72,7 +85,7 @@ export const TileList = () => {
           <strong>{tile.tileType}</strong>
           <div className='ms-auto'>
             <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
-            <Button color="danger">Delete</Button>
+            <Button color="danger" value = {tile.uuid} onClick={deleteTile}>Delete</Button>
           </div>
         </ListGroupItem> 
       </div>
