@@ -48,7 +48,7 @@ const handleLogin = async (req, res) => {
             { "email": foundUser.email },
             process.env.REFRESH_TOKEN_SECRET,
             // Set this so there is not an INDEFINITE refresh token capability
-            { expiresIn: '15s' }
+            { expiresIn: '2m' }
         );
 
         // ***  comment out the code above to enter the code below */  

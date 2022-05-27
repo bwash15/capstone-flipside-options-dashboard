@@ -10,10 +10,12 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import styles from "./styles.module.css";
 import EditButton from '../../components/EditButton';
+import useUser from '../../hooks/useUser';
 
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
+  const {user} = useUser();
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
@@ -37,7 +39,7 @@ export default function ControlledAccordions() {
                     <Typography >
                         The users Name, Email, and Phon# will be displayed here. They will be able to edit the info as well using a button next to each text field.
                     </Typography>
-                    <EditButton/>
+                    <EditButton value={user}/>
                     </AccordionDetails>
                 </Accordion>
                 <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>

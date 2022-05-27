@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import styles from './style.module.css'
+import styles from './style.module.css';
+import axios from '../../api/axios';
+
+const URL = '/ProfilePage';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 
-const EditButton = () => {
+const EditButton = (props) => {
 
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
@@ -18,10 +20,89 @@ const EditButton = () => {
     const [firstError, setFirstError] = React.useState("");
     const [lastError, setLastError] = React.useState("");
     const [emailError, setEmailError] = React.useState("");
+
+    useEffect(() => {
+        getInfo();
+    }, []);
+
+    const getInfo = async () => {
+        try {
+            console.log("START");
+            const res = await axios.post(URL, JSON.stringify({
+                "email": props.value
+            }
+            ),
+                {
+                    headers: { 'Content-Type': 'application/json' },
+                    withCredentials: true
+                }
+            );
+            console.log("After");
+            console.log(JSON.stringify(res?.data));
+            console.log(res.data.firstname);
+            setUser({
+                firstName: res.data.firstname,
+                lastName: res.data.lastname,
+                email: res.data.email
+            });
+
+        } catch (error) {
+            if (
+                error.loginResponse &&
+                error.loginResponse.status >= 400 &&
+                error.loginResponse.status >= 500
+            ) {
+                console.log(error.loginResponse.data.message);
+            }
+        }
+    }
+
+    const updateUserInfo = async() =>{
+        if(newUser && user)
+        {
+            try {
+                console.log("START");
+                const res = await axios.put(URL, JSON.stringify({
+                    "oldEmail": props.value,
+                    "email": user.email,
+                    "firstname": user.firstName,
+                    "lastname": user.lastName
+                }
+                ),
+                    {
+                        headers: { 'Content-Type': 'application/json' },
+                        withCredentials: true
+                    }
+                );
+                console.log("After");
+                console.log(res.data.firstname);
+                console.log(JSON.stringify(res?.data));
+                console.log(res.data.firstname);
+                setUser({
+                    firstName: res.data.firstname,
+                    lastName: res.data.lastname,
+                    email: res.data.email
+                });
+                setNewUser(user);
+
+
+            } catch (error) {
+                if (
+                    error.response &&
+                    error.response.status >= 400 &&
+                    error.response.status <= 500
+                ) {
+                    setEmailError(error.response.data.message);
+                    setUser(newUser);  
+                }
+            }
+        }
+    };
+
     const [user, setUser] = React.useState({
         firstName: "Dustin",
         lastName: "Huntzinger",
-        email: "ts@ts.com"
+        email: props.value
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
@@ -30,10 +111,10 @@ const EditButton = () => {
     })
 
     const handleChange = ({ currentTarget: input }) => {
-		setUser({ ...user, [input.id]: input.value });
-	};
+        setUser({ ...user, [input.id]: input.value });
+    };
 
-    function handleEdit (){
+    function handleEdit() {
         setEditButton(prev => !prev);
         setAcceptButton(prev => !prev);
         setCancelButton(prev => !prev);
@@ -41,31 +122,26 @@ const EditButton = () => {
         setNewUser(user);
     }
 
-    function handleAccept (){
-        if(!NAME_REGEX.test(user.firstName) || !NAME_REGEX.test(user.lastName) || !EMAIL_REGEX.test(user.email))
-        {
-            if(!NAME_REGEX.test(user.firstName))
+    function handleAccept() {
+        if (!NAME_REGEX.test(user.firstName) || !NAME_REGEX.test(user.lastName) || !EMAIL_REGEX.test(user.email)) {
+            if (!NAME_REGEX.test(user.firstName))
                 setFirstError("Invalid FirstName!");
-            if(!NAME_REGEX.test(user.lastName))
+            if (!NAME_REGEX.test(user.lastName))
                 setLastError("Invalid LastName!");
-            if(!EMAIL_REGEX.test(user.email))
+            if (!EMAIL_REGEX.test(user.email))
                 setEmailError("Invalid Email!");
             return;
         }
-        else
-        {
+        else {
             setEditButton(prev => !prev);
             setAcceptButton(prev => !prev);
             setCancelButton(prev => !prev);
             setEnabled(prev => !prev);
-            setNewUser(user);
-            setFirstError("");
-            setLastError("");
-            setEmailError("");
+            updateUserInfo();
         }
     }
 
-    function handleCancel (){
+    function handleCancel() {
         setEditButton(prev => !prev);
         setAcceptButton(prev => !prev);
         setCancelButton(prev => !prev);
@@ -75,7 +151,7 @@ const EditButton = () => {
         setEmailError("");
         setUser(newUser);
     }
-    
+
     return (
         <div>
             <Stack justifyContent={"right"} spacing={2} direction="row" margin={"10px"}>
@@ -85,24 +161,24 @@ const EditButton = () => {
             </Stack>
             <div class={styles.wrapper}>
                 <div className={styles.one_label}>
-                    <Typography sx={{width: "100px"}}>FirstName:</Typography>
+                    <Typography sx={{ width: "100px" }}>FirstName:</Typography>
                 </div>
                 <div className={styles.one_input}>
-                    <TextField style={{width: "250px"}} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required/>
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px", heigth: "70px" }} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required />
                 </div>
                 {firstError && <div className={styles.one_error}>{firstError}</div>}
                 <div className={styles.two_label}>
-                    <Typography sx={{width: "100px"}}>LastName:</Typography>
+                    <Typography sx={{ width: "100px" }}>LastName:</Typography>
                 </div>
                 <div className={styles.two_input}>
-                    <TextField style={{width: "250px"}} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required/>
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required />
                 </div>
                 {lastError && <div className={styles.two_error}>{lastError}</div>}
                 <div className={styles.three_label}>
-                    <Typography sx={{width: "100px"}}>Email:</Typography>
+                    <Typography sx={{ width: "100px" }}>Email:</Typography>
                 </div>
                 <div className={styles.three_input}>
-                    <TextField style={{width: "250px"}} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required/>
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
             </div>

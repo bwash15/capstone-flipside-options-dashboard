@@ -69,11 +69,9 @@ const createNewOptionAPIpull = (req, res) => {
     status: req.body.status
   }
 
-  if (newOptionAPIpull.request_id) {
-    myEmitter.emit(`apiActivity`, ` Request ID : ${newOptionAPIpull.request_id} `, 'serverAPILogs', 'APIpulldata.txt');
-  } else {
+  if (!newOptionAPIpull.request_id) {
     myEmitter.emit(`apiActivity`, ` Request ID not found: ${req.body.request_id} `, 'serverAPILogs', 'APIpulldata.txt');
-  };
+  }
   //------------------------------------------------------------------
   if (newOptionAPIpull.results.break_even_price) {
     myEmitter.emit(`apiActivity`, ` break_even_price : [${newOptionAPIpull.results.break_even_price}]  `, 'serverAPILogs', 'APIpulldata.txt');
