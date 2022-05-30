@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
+import { StepButton } from '@mui/material';
 
 const URL = '/ProfilePage';
 
@@ -100,9 +101,9 @@ const EditButton = (props) => {
     };
 
     const [user, setUser] = React.useState({
-        firstName: "Dustin",
-        lastName: "Huntzinger",
-        email: props.value
+        firstName: "",
+        lastName: "",
+        email: ""
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
@@ -181,6 +182,9 @@ const EditButton = (props) => {
                     <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
+                <div className={styles.password_label}>
+                    <Button>Update Password</Button>
+                </div>
             </div>
         </div>
     );
