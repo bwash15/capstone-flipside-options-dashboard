@@ -7183,3 +7183,13 @@ DateTime:[20220526	15:20:46]	UUID:[a6ccb126-157a-4746-bc33-484b57328a14]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[updateProfileInfo/ProfilePageController]
 	Message:[Profile With 12@12.com Already Exists!   ]
+
+DateTime:[20220526	19:45:02]	UUID:[fde907c6-869e-4546-b8cc-5237bc217d44]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe2@gg.com profile found]
+
+DateTime:[20220526	19:45:02]	UUID:[d33eb4a0-4b4a-4726-938b-f51f5e7436a9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe2@gg.com profile found]

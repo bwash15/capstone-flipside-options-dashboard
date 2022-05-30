@@ -4,7 +4,8 @@ const path = require('path');
 const userTilesController = require('../_controllers/userTilesController');
 
 router.post('/', userTilesController.handleUserTilesPost);
-router.get('/', userTilesController.handleUserTilesGet)
+router.post('/get', userTilesController.handleUserTilesGet)
+router.post('/delete', userTilesController.handleUserTilesDelete);
 module.exports = router;
 
 
