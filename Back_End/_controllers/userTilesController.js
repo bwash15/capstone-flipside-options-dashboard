@@ -32,14 +32,12 @@ const handleUserTilesGet = async (req, res) => {
 
 const handleUserTilesDelete = async (req, res) => {
     const uuid = req.body.uuid;
-    
     console.log("Trying to delete tile")
     // Create and Store the new tile
-    const result = await UserTile.create();
-
+    const result = await UserTile.deleteOne({"uuid": uuid});
+    console.log(`trying to delete ${uuid}`)
     res.json(result);
     console.log(result);
-
 }
 
 module.exports = { handleUserTilesPost, handleUserTilesGet };
