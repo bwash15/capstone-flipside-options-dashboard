@@ -26,6 +26,10 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
+    phonenumber: {
+        type: String,
+        required: true
+    },
     refreshToken: String
 });
 module.exports = mongoose.model('User', userSchema);

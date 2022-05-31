@@ -1,20 +1,14 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
-import { StepButton } from '@mui/material';
 import useAuth from '../../hooks/useAuth';
 import * as React from 'react';
-import PropTypes from 'prop-types';
-import { IMaskInput } from 'react-imask';
-import NumberFormat from 'react-number-format';
-import Box from '@mui/material/Box';
-import Input from '@mui/material/Input';
-import InputLabel from '@mui/material/InputLabel';
-import FormControl from '@mui/material/FormControl';
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input';
 
 const URL = '/ProfilePage';
 
@@ -22,53 +16,6 @@ const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 const PHONE_REGEX = /^[0-9]{9}$/;
 
-const TextMaskCustom = React.forwardRef(function TextMaskCustom(props, ref) {
-    const { onChange, ...other } = props;
-    return (
-      <IMaskInput
-        {...other}
-        mask="(#00) 000-0000"
-        definitions={{
-          '#': /[1-9]/,
-        }}
-        inputRef={ref}
-        onAccept={(value) => onChange({ target: { name: props.name, value } })}
-        overwrite
-      />
-    );
-  });
-  
-  TextMaskCustom.propTypes = {
-    name: PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired,
-  };
-  
-  const NumberFormatCustom = React.forwardRef(function NumberFormatCustom(props, ref) {
-    const { onChange, ...other } = props;
-  
-    return (
-      <NumberFormat
-        {...other}
-        getInputRef={ref}
-        onValueChange={(values) => {
-          onChange({
-            target: {
-              name: props.name,
-              value: values.value,
-            },
-          });
-        }}
-        thousandSeparator
-        isNumericString
-        prefix="$"
-      />
-    );
-  });
-  
-  NumberFormatCustom.propTypes = {
-    name: PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired,
-  };
 
 const EditButton = (props) => {
 
@@ -76,11 +23,16 @@ const EditButton = (props) => {
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
     const [showCancelButton, setCancelButton] = React.useState(false);
+    const [showPhoneText, setPhoneText] = React.useState(true);
+    const [showPhoneEdit, setPhoneEdit] = React.useState(false);
     const [enabled, setEnabled] = React.useState(true);
     const [firstError, setFirstError] = React.useState("");
     const [lastError, setLastError] = React.useState("");
     const [emailError, setEmailError] = React.useState("");
     const [phoneError, setPhoneError] = React.useState("");
+    const [phoneNum, setPhoneNum] = useState();
+    const [newPhoneNum, setNewPhoneNum] = useState();
+
     
 
     useEffect(() => {
@@ -99,6 +51,7 @@ const EditButton = (props) => {
             console.log("After");
             console.log(JSON.stringify(res?.data));
             console.log(res.data.firstname);
+            setPhoneNum(res.data.phonenumber);
             setUser({
                 firstName: res.data.firstname,
                 lastName: res.data.lastname,
@@ -125,7 +78,8 @@ const EditButton = (props) => {
                     "oldEmail": props.value,
                     "email": user.email,
                     "firstname": user.firstName,
-                    "lastname": user.lastName
+                    "lastname": user.lastName,
+                    "phonenumber": phoneNum
                 }
                 ),
                     
@@ -136,12 +90,15 @@ const EditButton = (props) => {
                 console.log(res.data.firstname);
                 console.log(JSON.stringify(res?.data));
                 console.log(res.data.firstname);
+                setPhoneNum(res.data.phonenumber);
                 setUser({
                     firstName: res.data.firstname,
                     lastName: res.data.lastname,
                     email: res.data.email
                 });
+                setNewPhoneNum(phoneNum);
                 setNewUser(user);
+                console.log(phoneNum);
 
 
             } catch (error) {
@@ -151,7 +108,8 @@ const EditButton = (props) => {
                     error.response.status <= 500
                 ) {
                     setEmailError(error.response.data.message);
-                    setUser(newUser);  
+                    setUser(newUser); 
+                    setPhoneNum(newPhoneNum); 
                 }
             }
         }
@@ -161,7 +119,7 @@ const EditButton = (props) => {
         firstName: "",
         lastName: "",
         email: "",
-        phone: "N/A"
+        phone: ""
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
@@ -179,7 +137,13 @@ const EditButton = (props) => {
         setAcceptButton(prev => !prev);
         setCancelButton(prev => !prev);
         setEnabled(prev => !prev);
+        setPhoneText(prev => !prev);
+        setPhoneEdit(prev => !prev);
+        console.log(phoneNum);
         setNewUser(user);
+        if(phoneNum === "N/A")
+            setPhoneNum("");
+        setNewPhoneNum(phoneNum);
     }
 
     function handleAccept() {
@@ -195,11 +159,15 @@ const EditButton = (props) => {
             return;
         }
         else {
+            if(phoneNum === "")
+                setPhoneNum("N/A");
+            updateUserInfo();
             setEditButton(prev => !prev);
             setAcceptButton(prev => !prev);
             setCancelButton(prev => !prev);
             setEnabled(prev => !prev);
-            updateUserInfo();
+            setPhoneText(prev => !prev);
+            setPhoneEdit(prev => !prev);
         }
     }
 
@@ -208,11 +176,14 @@ const EditButton = (props) => {
         setAcceptButton(prev => !prev);
         setCancelButton(prev => !prev);
         setEnabled(prev => !prev);
+        setPhoneText(prev => !prev);
+        setPhoneEdit(prev => !prev);
         setFirstError("");
         setLastError("");
         setEmailError("");
         setPhoneError("");
         setUser(newUser);
+        setPhoneNum(newPhoneNum);
     }
 
     function HasPhone(){
@@ -255,7 +226,14 @@ const EditButton = (props) => {
                     <Typography sx={{ width: "100px" }}>Phone #:</Typography>
                 </div>
                 <div className={styles.four_input}>
-                    <TextField inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="phone" variant="outlined" disabled={enabled} onChange={handleChange} value={user.phone} required />
+                {showPhoneText && <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} variant="outlined" disabled={enabled} onChange={handleChange} value={phoneNum} required />}
+                {showPhoneEdit && <PhoneInput 
+                     className={styles.four_phone}
+                    defaultCountry="US"
+                    id="phone"
+                    value={phoneNum}
+                    disabled={enabled}
+                    onChange={setPhoneNum} />}
                 </div>
                 {phoneError && <div className={styles.four_error}>{phoneError}</div>}
                 <div className={styles.password_label}>

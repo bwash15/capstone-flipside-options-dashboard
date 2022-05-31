@@ -48,15 +48,27 @@ const updateProfileInfo = async (req, res) => {
         myEmitter.emit(`profileControllerActivity`, `No ProfileInfo found: ${user.email} `, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
         return res.status(204).json({ "message": `ProfileInfo for ${req.body.email} not found` });
     }
+    console.log(`=====${req.body.phonenumber}======`);
     myEmitter.emit(`profileControllerActivity`, `${user.email} profile found`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     // If there are any entries from the user update the properties of the user to the entry
     if (req.body?.firstname && req.body?.firstname != user.firstname) user.firstname = req.body.firstname;
     if (req.body?.lastname && req.body?.lastname != user.lastname) user.lastname = req.body.lastname;
     if (req.body?.email && req.body?.email != user.email) user.email = req.body.email;
+    if (req.body?.phonenumber && req.body?.phonenumber != user.phonenumber) user.phonenumber = req.body.phonenumber;
 
-    myEmitter.emit(`profileControllerActivity`, `${user.email} ${user.firstName} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
+    myEmitter.emit(`profileControllerActivity`, `${user.email} ${user.firstname} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     const result = await user.save()
     res.json(result);
 }
 
-module.exports = { updateProfileInfo, getProfile };
+const sendEmail = (req,res) => {
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+module.exports = { updateProfileInfo, getProfile, sendEmail };

@@ -52,7 +52,8 @@ const handleNewUser = async (req, res) => {
             "firstname": firstname,
             "lastname": lastname,
             "email": email,
-            "password": hashedPwd
+            "password": hashedPwd,
+            "phonenumber": "N/A"
         });
 
         console.log(result);

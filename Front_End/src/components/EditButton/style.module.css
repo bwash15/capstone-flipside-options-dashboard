@@ -104,6 +104,11 @@
 	align-items: center;
     justify-content: center;
 }
+.four_phone {
+	margin: 5px;
+	font-size: 20px;
+	width: 250px;
+}
 
 .four_error {
 	grid-column: 2;
