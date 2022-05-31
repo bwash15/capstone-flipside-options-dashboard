@@ -9,8 +9,6 @@ import axios from '../../api/axios'
 import useAuth from '../../hooks/useAuth';
 
 export const TileList = () => {
-  //const { tiles, removeTile } = useContext(GlobalContext)
-
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
 
@@ -18,10 +16,8 @@ export const TileList = () => {
     const url = '/userTiles';
     axios.get(url, {headers: {Authorization :`Bearer ${auth.accessToken}`}})
         .then((response) => {
-          console.log("should have done post request");
           setTiles(response.data);
       })
-    console.log('number of items in tiles is now ' + tiles.length)
   }
 
   useEffect(() => {
@@ -29,7 +25,6 @@ export const TileList = () => {
   }, []);
 
   const deleteTile = async (val) =>{
-    console.log(val)
     const url = '/userTiles';
     await axios.delete(url,
   {headers: {"Authorization" :`Bearer ${auth.accessToken}`},

@@ -18347,3 +18347,518 @@ DateTime:[20220530	22:13:49]	UUID:[6624c7f9-afde-41a3-8c8b-35f689f18475]
 	LOC:[JWT_TokenVerificationLog.txt]
 	Message:[ Error verifying token 22:13:49, TokenExpiredError: jwt expired]
 >>>>>>> 5681de5bfebc3fb1b5146559cf55263c226d6580
+
+DateTime:[20220530	22:35:16]	UUID:[28d57e99-297f-42ae-85ad-0d6ac88cb4b8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220530	22:35:16]	UUID:[35711b03-4edd-460f-b990-18a8da79a341]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220530	22:35:21]	UUID:[4eac393c-629e-4831-8b7c-c3c20fe8c6fb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:21]	UUID:[5483414f-52b2-4e44-9302-f717d654cd7f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:21]	UUID:[5e94e2c6-037b-4b8d-925c-df30abc82c7a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:21 ]
+
+DateTime:[20220530	22:35:21]	UUID:[6b405f10-1a9a-48d8-8758-3ce021023f61]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:21]	UUID:[1bfe3bce-b44a-4550-8f01-b3394888ddf8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:21]	UUID:[a6b9e5aa-5b41-4d92-afda-4b8ad1828961]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:21 ]
+
+DateTime:[20220530	22:35:24]	UUID:[e7fe6da3-19c5-476e-b309-6885d0236c6e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:24]	UUID:[87b3020a-e4f0-4f7a-afa5-ab8c87725971]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:24 ]
+
+DateTime:[20220530	22:35:24]	UUID:[f2c30a8c-4d89-48a4-83b0-31875ae71d84]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:24]	UUID:[f36e6cbf-4d42-4607-aff9-0cd1f7b4ddb3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:24]	UUID:[7c79a5b8-acd6-4c40-ba85-483df3bdbd76]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:24]	UUID:[7b7abd68-8a39-4db0-b314-0150210208bb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:24 ]
+
+DateTime:[20220530	22:35:24]	UUID:[9c7b49ff-08a5-4160-814c-9e19e4035731]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:24]	UUID:[ec6d3e0e-6417-487f-98a0-fef4692b9047]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:24]	UUID:[a951d703-07ab-42ff-a44d-c903b73b762e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:24 ]
+
+DateTime:[20220530	22:35:25]	UUID:[99408898-c935-4200-bc4b-c928b736a325]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:25]	UUID:[e7f5c1be-fe9b-4868-a692-bb409e3dc4ce]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:25]	UUID:[f3a325fa-e29a-4e8d-bf6d-1eff2b438028]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:25 ]
+
+DateTime:[20220530	22:35:25]	UUID:[7f2b1dc7-c012-4233-a970-76b9679f7250]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:25]	UUID:[4bb62b8b-a1ca-4a73-84ab-5d51764b616d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:25]	UUID:[f3e7a000-7c73-4db4-9f74-c748fe86ae2a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:25 ]
+
+DateTime:[20220530	22:35:25]	UUID:[2617b9c0-278a-4283-8a88-03caab02a606]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:25]	UUID:[cc54e615-8809-4175-a966-a34092b5e320]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:25]	UUID:[66225bfe-55ad-4f3f-bdb4-04f5bd8216fb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:25 ]
+
+DateTime:[20220530	22:35:25]	UUID:[8710debe-f0cf-4de1-b6ee-df4bae897cfe]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:35:25]	UUID:[0f303dd6-e7d0-4829-9e6d-137fe193d408]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:35:25]	UUID:[3ca9b5f9-04c9-4454-9173-95293b89a170]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:35:25 ]
+
+DateTime:[20220530	22:36:42]	UUID:[9b92fac5-b51a-4b4e-8298-108c9d737f36]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:36:42]	UUID:[d27d7200-a06e-4953-a4a4-a2b6c8722e85]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:36:42]	UUID:[9e7fc69c-a019-49dd-96a9-aeb5c39766c4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:36:42 ]
+
+DateTime:[20220530	22:37:16]	UUID:[79a9bdff-df86-4d94-aa4a-81f6cbd8a06f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:37:16]	UUID:[895127f6-b22d-44f6-8311-04c8256b69e0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:37:16]	UUID:[96c592c5-7b6e-4dc6-ab45-34537cedea41]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:37:16 ]
+
+DateTime:[20220530	22:37:16]	UUID:[4e8920de-837b-4342-9ab1-2d02ebd08691]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:37:16]	UUID:[e532cd18-8f2a-4450-9ac0-9e59e2b3c703]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:37:16]	UUID:[de3c9b6e-205a-42ad-8fe4-f188c622b9c9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:37:16 ]
+
+DateTime:[20220530	22:37:16]	UUID:[d7f7b176-4aae-40e2-b85b-88e8953962a1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:37:16]	UUID:[82a845f0-5337-471d-b2c1-f33b69f43635]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:37:16]	UUID:[3b9f8d9c-f655-49bf-bb25-7dbacd0a5fbd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:37:16 ]
+
+DateTime:[20220530	22:38:04]	UUID:[9afff19b-a7d0-45cb-b50c-83b0b5abd2e7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:04]	UUID:[441d474a-d183-41f7-b2a4-2db6fbb0b5fb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:04]	UUID:[5750d96a-5d5f-4cc5-b67d-52764bd6280d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:4 ]
+
+DateTime:[20220530	22:38:04]	UUID:[70f96b95-c028-4104-a1da-df39a1c0f7eb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:04]	UUID:[1362b9ab-adf7-47ef-aa90-a6fd4f1f6821]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:04]	UUID:[a7ba6987-c333-4c2e-84c4-654d036a5be6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:4 ]
+
+DateTime:[20220530	22:38:04]	UUID:[1ab977da-9713-40ec-a150-523a28563a84]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:04]	UUID:[ddf9495a-1e51-472f-9e07-ea4d862c6ea6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:4 ]
+
+DateTime:[20220530	22:38:04]	UUID:[c43c8c57-0ebb-436d-abcb-fc9c77674597]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:05]	UUID:[94ebdd26-7273-47c4-9fc6-a934909f6239]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:05]	UUID:[7f8f0e09-0724-4cc2-94ef-6b20430f20a3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:05]	UUID:[013fdfb9-0192-420c-8c94-2a81dc0ceb8b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:5 ]
+
+DateTime:[20220530	22:38:05]	UUID:[02030f9a-6d02-447b-ba6b-077e27815eec]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:05]	UUID:[7e9a468e-c18e-4175-9330-3aafc2dc25b9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:05]	UUID:[e2e51e83-043b-425e-b8ae-fba2bb07b09d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:5 ]
+
+DateTime:[20220530	22:38:06]	UUID:[6958133c-cb00-4e5d-b034-64df93f8b170]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:06]	UUID:[624c3e8a-b7ec-4aa1-ac57-9d4f26844ff4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:06]	UUID:[b0f13218-6698-4701-840a-130f184fa205]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:6 ]
+
+DateTime:[20220530	22:38:06]	UUID:[f3f73148-e4eb-44b2-b0a5-dc6540b5c436]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:06]	UUID:[b75a747a-1508-458a-bb73-119c5acd2f05]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:06]	UUID:[d7f7f96b-c96c-43f3-9c5a-5ec3743ccb16]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:6 ]
+
+DateTime:[20220530	22:38:15]	UUID:[f20b85d9-7348-4461-bbc2-dd708517451f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220530	22:38:15]	UUID:[4970212a-0c8f-42e9-a27d-84950ee33290]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220530	22:38:19]	UUID:[1616f365-32f9-4573-9ccd-e35930a1363b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:19]	UUID:[3b1dbaa2-bd6a-4157-af7e-80cacd9fac48]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:19]	UUID:[8c9d42a7-d131-4ce4-937d-850f603557ae]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:19 ]
+
+DateTime:[20220530	22:38:19]	UUID:[c2b77b8a-b359-43de-b917-a32695212988]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:19]	UUID:[0622cbda-34d7-429a-a93b-13dd2186141a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:19]	UUID:[e3922317-e89b-4ccc-ba93-b447b2cd9950]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:19 ]
+
+DateTime:[20220530	22:38:21]	UUID:[6fb7017b-ec30-4e8f-aab3-7b2280d7f10a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:21]	UUID:[9bf3e996-b89d-42ae-baa9-19d765e25539]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:21]	UUID:[9c18fdb1-a3ac-48b4-8120-56696dadacfa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:21 ]
+
+DateTime:[20220530	22:38:21]	UUID:[f7d717a0-6766-4ce1-9e14-ebc5bc5adbdf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:21]	UUID:[97ade3c0-597b-453e-9df1-2322d395dbdd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:21]	UUID:[933c0eaf-1d0b-4d7a-a612-0f5daf88a704]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:21 ]
+
+DateTime:[20220530	22:38:21]	UUID:[1c3867db-f37d-4fef-9bef-f54dbcf9040b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:21]	UUID:[311800da-85ef-4e86-b60f-3f6e02f31600]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:21]	UUID:[b44bfa93-8250-49f1-9cb0-115ce3ec3c3f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:21 ]
+
+DateTime:[20220530	22:38:24]	UUID:[0ffe5b7d-1ba2-4c3d-8ce9-bae64e8a6a95]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:24]	UUID:[c9e39651-c69d-4e0d-8e36-a3f35ff6ec9d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:24]	UUID:[3d21acee-d384-42e8-ae3e-224df4e183a7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:24 ]
+
+DateTime:[20220530	22:38:24]	UUID:[a95e230f-0903-4016-b9d0-22ad2b51767b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:24]	UUID:[1a627896-be3e-4d32-90bb-539d201edd30]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:24]	UUID:[1b7798b2-2332-4f79-8965-603dc863b9e1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:24 ]
+
+DateTime:[20220530	22:38:53]	UUID:[8b6e5760-68b8-4b71-b34f-2a324a322b80]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:53]	UUID:[790dc8b8-8dfb-4444-914d-04c992c69e07]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:53]	UUID:[a51cfcb1-4d23-406b-ac66-0eb366b4c07e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:53 ]
+
+DateTime:[20220530	22:38:58]	UUID:[b87d3716-b73f-4dcd-a96a-1f7f26e49947]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:58]	UUID:[63eca4e2-7248-4a17-abc1-a2d94e765a1a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:58]	UUID:[caec0a40-a123-4b4d-9abc-25732f182adc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:58 ]
+
+DateTime:[20220530	22:38:58]	UUID:[0c66942e-1c9e-4798-9ca4-3a9f18a67553]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:58]	UUID:[0beb507e-4210-4301-9cbf-49412f29f0b1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:58]	UUID:[dafedda4-61fd-4479-ba6e-36e9c2210b63]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:58 ]
+
+DateTime:[20220530	22:38:58]	UUID:[fcaf0dd7-4867-4f18-be9d-663d62338871]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:38:58]	UUID:[cd664118-e2f5-4f35-9d61-51493fb7eb91]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:38:58]	UUID:[106da497-6e2d-4561-ad8a-55b23de5a729]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:38:58 ]
+
+DateTime:[20220530	22:39:00]	UUID:[c9a6f68e-87d2-40f0-9dfa-ea3029d6d585]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220530	22:39:00]	UUID:[1a3ba6cb-325b-446e-90bd-55dcfb04b5b8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:39:00]	UUID:[5d1b9618-f39e-403b-84be-c9511b95da71]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:39:0 ]
+
+DateTime:[20220530	22:39:00]	UUID:[bb547c2d-b0ee-4b81-9e77-245d84ed894a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220530	22:39:00]	UUID:[230a84eb-e108-4c02-90a6-0dd9c97bd38f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 22:39:0 ]
+
+DateTime:[20220530	22:39:00]	UUID:[588b3edc-21b1-44bf-aaa5-3ed5eccd5af2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]

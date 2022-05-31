@@ -38,7 +38,6 @@ export const AddTile = () => {
     }
     const onNameChange = (e) => {
         setName(e.target.value)
-        
     }
     const onTypeChange = (e) => {
         setType(e.target.value)
