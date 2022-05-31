@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -6,14 +6,73 @@ import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
 import { StepButton } from '@mui/material';
+import useAuth from '../../hooks/useAuth';
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import { IMaskInput } from 'react-imask';
+import NumberFormat from 'react-number-format';
+import Box from '@mui/material/Box';
+import Input from '@mui/material/Input';
+import InputLabel from '@mui/material/InputLabel';
+import FormControl from '@mui/material/FormControl';
 
 const URL = '/ProfilePage';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
+const PHONE_REGEX = /^[0-9]{9}$/;
+
+const TextMaskCustom = React.forwardRef(function TextMaskCustom(props, ref) {
+    const { onChange, ...other } = props;
+    return (
+      <IMaskInput
+        {...other}
+        mask="(#00) 000-0000"
+        definitions={{
+          '#': /[1-9]/,
+        }}
+        inputRef={ref}
+        onAccept={(value) => onChange({ target: { name: props.name, value } })}
+        overwrite
+      />
+    );
+  });
+  
+  TextMaskCustom.propTypes = {
+    name: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired,
+  };
+  
+  const NumberFormatCustom = React.forwardRef(function NumberFormatCustom(props, ref) {
+    const { onChange, ...other } = props;
+  
+    return (
+      <NumberFormat
+        {...other}
+        getInputRef={ref}
+        onValueChange={(values) => {
+          onChange({
+            target: {
+              name: props.name,
+              value: values.value,
+            },
+          });
+        }}
+        thousandSeparator
+        isNumericString
+        prefix="$"
+      />
+    );
+  });
+  
+  NumberFormatCustom.propTypes = {
+    name: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired,
+  };
 
 const EditButton = (props) => {
 
+    const {auth} = useAuth();
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
     const [showCancelButton, setCancelButton] = React.useState(false);
@@ -21,6 +80,8 @@ const EditButton = (props) => {
     const [firstError, setFirstError] = React.useState("");
     const [lastError, setLastError] = React.useState("");
     const [emailError, setEmailError] = React.useState("");
+    const [phoneError, setPhoneError] = React.useState("");
+    
 
     useEffect(() => {
         getInfo();
@@ -33,10 +94,7 @@ const EditButton = (props) => {
                 "email": props.value
             }
             ),
-                {
-                    headers: { 'Content-Type': 'application/json' },
-                    withCredentials: true
-                }
+                {headers: {"Authorization" :`Bearer ${auth.accessToken}`}}
             );
             console.log("After");
             console.log(JSON.stringify(res?.data));
@@ -70,10 +128,9 @@ const EditButton = (props) => {
                     "lastname": user.lastName
                 }
                 ),
-                    {
-                        headers: { 'Content-Type': 'application/json' },
-                        withCredentials: true
-                    }
+                    
+                    {headers: {"Authorization" :`Bearer ${auth.accessToken}`}}
+                    
                 );
                 console.log("After");
                 console.log(res.data.firstname);
@@ -103,12 +160,14 @@ const EditButton = (props) => {
     const [user, setUser] = React.useState({
         firstName: "",
         lastName: "",
-        email: ""
+        email: "",
+        phone: "N/A"
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
         lastName: "",
-        email: ""
+        email: "",
+        phone: ""
     })
 
     const handleChange = ({ currentTarget: input }) => {
@@ -131,6 +190,8 @@ const EditButton = (props) => {
                 setLastError("Invalid LastName!");
             if (!EMAIL_REGEX.test(user.email))
                 setEmailError("Invalid Email!");
+            if (!PHONE_REGEX.test(user.phone) && user.phone != "N/A")
+                setPhoneError("Invalid Phone Number!");
             return;
         }
         else {
@@ -150,7 +211,15 @@ const EditButton = (props) => {
         setFirstError("");
         setLastError("");
         setEmailError("");
+        setPhoneError("");
         setUser(newUser);
+    }
+
+    function HasPhone(){
+        if(!user.phone)
+            return "N/A";
+        else
+            return "";
     }
 
     return (
@@ -182,6 +251,13 @@ const EditButton = (props) => {
                     <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
+                <div className={styles.four_label}>
+                    <Typography sx={{ width: "100px" }}>Phone #:</Typography>
+                </div>
+                <div className={styles.four_input}>
+                    <TextField inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="phone" variant="outlined" disabled={enabled} onChange={handleChange} value={user.phone} required />
+                </div>
+                {phoneError && <div className={styles.four_error}>{phoneError}</div>}
                 <div className={styles.password_label}>
                     <Button>Update Password</Button>
                 </div>
