@@ -8,7 +8,6 @@ import {
     Button
 } from 'reactstrap'
 import {Link, useNavigate} from 'react-router-dom'
-import { GlobalContext } from '../../context/GlobalState'
 import { v4 as uuidv4 } from "uuid";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import useAuth from '../../hooks/useAuth';
@@ -38,7 +37,6 @@ export const AddTile = () => {
     }
     const onNameChange = (e) => {
         setName(e.target.value)
-        
     }
     const onTypeChange = (e) => {
         setType(e.target.value)

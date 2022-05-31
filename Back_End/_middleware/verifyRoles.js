@@ -8,16 +8,12 @@ myEmitter.on('userRoleVerification', (msg, path, filename) => logServerEvents(ms
 const verifyRoles = (allowedRoles) => {
     return (req, res, next) => {
         myEmitter.emit(`userRoleVerification`, ` Verifying user trying to gain access to page has a USER_ROLE`, 'UserRolesVerifyLogs', '_middleware/verifyRoles');
-        
-        console.log("---Allowed Roles---");
-        console.log(`---${JSON.stringify(allowedRoles)}---`);
-        
         if (!req?.roles) {
             myEmitter.emit(`userRoleVerification`, ` User role not Verified, User Access Denied - Unauthorized`, 'UserRolesVerifyLogs', '_middleware/verifyRoles');
             return res.sendStatus(401)
         };
         myEmitter.emit(`userRoleVerification`, ` User has a role is verified`, 'UserRolesVerifyLogs', '_middleware/verifyRoles');
-       // const rolesArray = [allowedRoles];
+
         // Mapping over the roles in the JWT
         // searches the roles array IF it finds a match it will return the first match it finds
         // find stops after the first true > this works since we only need to find one role
