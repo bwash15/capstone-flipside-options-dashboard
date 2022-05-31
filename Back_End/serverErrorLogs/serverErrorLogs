@@ -394,3 +394,8 @@ DateTime:[20220530	21:23:41]	UUID:[a116a102-b45f-4d39-a4db-ba5d2f44ff07]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
 	LOC:[errLog.txt]
 	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]
+
+DateTime:[20220530	22:10:28]	UUID:[b25e8ce8-0f03-4612-888d-3c75cc45cc15]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]

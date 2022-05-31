@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -7,12 +7,68 @@ import styles from './style.module.css';
 import axios from '../../api/axios';
 import { StepButton } from '@mui/material';
 import useAuth from '../../hooks/useAuth';
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import { IMaskInput } from 'react-imask';
+import NumberFormat from 'react-number-format';
+import Box from '@mui/material/Box';
+import Input from '@mui/material/Input';
+import InputLabel from '@mui/material/InputLabel';
+import FormControl from '@mui/material/FormControl';
 
 const URL = '/ProfilePage';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 const PHONE_REGEX = /^[0-9]{9}$/;
+
+const TextMaskCustom = React.forwardRef(function TextMaskCustom(props, ref) {
+    const { onChange, ...other } = props;
+    return (
+      <IMaskInput
+        {...other}
+        mask="(#00) 000-0000"
+        definitions={{
+          '#': /[1-9]/,
+        }}
+        inputRef={ref}
+        onAccept={(value) => onChange({ target: { name: props.name, value } })}
+        overwrite
+      />
+    );
+  });
+  
+  TextMaskCustom.propTypes = {
+    name: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired,
+  };
+  
+  const NumberFormatCustom = React.forwardRef(function NumberFormatCustom(props, ref) {
+    const { onChange, ...other } = props;
+  
+    return (
+      <NumberFormat
+        {...other}
+        getInputRef={ref}
+        onValueChange={(values) => {
+          onChange({
+            target: {
+              name: props.name,
+              value: values.value,
+            },
+          });
+        }}
+        thousandSeparator
+        isNumericString
+        prefix="$"
+      />
+    );
+  });
+  
+  NumberFormatCustom.propTypes = {
+    name: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired,
+  };
 
 const EditButton = (props) => {
 
@@ -72,10 +128,9 @@ const EditButton = (props) => {
                     "lastname": user.lastName
                 }
                 ),
-                    {
-                        headers: { 'Content-Type': 'application/json' },
-                        withCredentials: true
-                    }
+                    
+                    {headers: {"Authorization" :`Bearer ${auth.accessToken}`}}
+                    
                 );
                 console.log("After");
                 console.log(res.data.firstname);
@@ -112,7 +167,7 @@ const EditButton = (props) => {
         firstName: "",
         lastName: "",
         email: "",
-        phone: "N/A"
+        phone: ""
     })
 
     const handleChange = ({ currentTarget: input }) => {
@@ -128,7 +183,7 @@ const EditButton = (props) => {
     }
 
     function handleAccept() {
-        if (!NAME_REGEX.test(user.firstName) || !NAME_REGEX.test(user.lastName) || !EMAIL_REGEX.test(user.email) || !PHONE_REGEX.test(user.phone) && user.phone != "N/A") {
+        if (!NAME_REGEX.test(user.firstName) || !NAME_REGEX.test(user.lastName) || !EMAIL_REGEX.test(user.email)) {
             if (!NAME_REGEX.test(user.firstName))
                 setFirstError("Invalid FirstName!");
             if (!NAME_REGEX.test(user.lastName))
@@ -158,6 +213,13 @@ const EditButton = (props) => {
         setEmailError("");
         setPhoneError("");
         setUser(newUser);
+    }
+
+    function HasPhone(){
+        if(!user.phone)
+            return "N/A";
+        else
+            return "";
     }
 
     return (
