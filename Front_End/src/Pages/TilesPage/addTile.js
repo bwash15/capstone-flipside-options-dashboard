@@ -11,8 +11,12 @@ import {Link, useNavigate} from 'react-router-dom'
 import { GlobalContext } from '../../context/GlobalState'
 import { v4 as uuidv4 } from "uuid";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import useAuth from '../../hooks/useAuth';
+
+
 export const AddTile = () => {
-    const {addTile} = useContext(GlobalContext);
+    const {auth} = useAuth();
+    //const {addTile} = useContext(GlobalContext);
     const [tileName, setName] = useState('');
     const [tileType, setType] = useState('');
     const [uuid, setUuid] = useState('');
@@ -20,28 +24,17 @@ export const AddTile = () => {
     const onSubmit = async (e) => {
         e.preventDefault();
          //push to database
-        const url = "/userTiles";
-
-        setUuid(uuidv4());
-        const result = await axios.post(url, JSON.stringify({
-            uuid,
-            tileName,
-            tileType,
+         const url = "/userTiles";
+        await axios.post(url, JSON.stringify({
+            "uuid": uuid,
+            "tileName" :tileName,
+            "tileType": tileType,
         }),
-        {
-            headers: { 'Content-Type': 'application/json' },
-            withCredentials: true
-        });
-
-        // const newTile = {
-        //     id: uuid(),
-        //     name
-        // }
-        /*addTile(newTile);*/
-
-       
-        
+        {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
         navigate('/tiles', {replace: true});
+    }
+    const changeUUID = () => {
+        setUuid(uuidv4());
     }
     const onNameChange = (e) => {
         setName(e.target.value)
@@ -59,7 +52,7 @@ export const AddTile = () => {
             <Label>Type</Label>
             <Input type = "text" value = {tileType} onChange = {onTypeChange} placeholder ="Option Type"></Input>
         </FormGroup>
-        <Button type = "submit">Submit</Button>
+        <Button type = "submit" onClick={changeUUID}>Submit</Button>
         <Link to = "/tiles" className='btn btn-danger ml-2'>Cancel</Link>
     </Form>
       </div>

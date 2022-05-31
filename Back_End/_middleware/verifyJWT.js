@@ -10,10 +10,19 @@ myEmitter.on('jwtVerification', (msg, path, filename) => logServerEvents(msg, pa
 
 const verifyJWT = (req, res, next) => {
     myEmitter.emit(`jwtVerification`, ` Verifying JWT for access to the page`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
-    const authHeader = req.headers.authorization || req.headers.Authorization;
+    const authHeader = JSON.stringify(req.headers.authorization).replaceAll("\"","");
+    
+    // const subs = authHeader.substring(0, 10);
+    console.log("-----AUTH HEADERs-----")
+    console.log(`reqs-----${authHeader}-----`);
+    console.log(`stringfy-----${JSON.stringify(authHeader)}-----`);
+    
     if (!authHeader?.startsWith('Bearer ')) {
+
+        console.log({authHeader});
+        console.log(authHeader)
         myEmitter.emit(`jwtVerification`, ` No Bearer Header, No JWT Token Found`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
-        return res.sendStatus(401)
+        return res.sendStatus(705)
     };
     const token = authHeader.split(' ')[1];
     myEmitter.emit(`jwtVerification`, `Bearer Header Found, Token taken from header in browser for verification`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');

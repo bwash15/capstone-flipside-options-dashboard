@@ -2582,3 +2582,3188 @@ DateTime:[20220530	18:43:22]	UUID:[0fcb6bd6-cf34-4146-8e0b-7c4539013369]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220525	23:27:49]	UUID:[e4ae3981-80e1-438c-81d9-099feafb0385]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:27:49]	UUID:[631e754a-7907-48c3-926b-544baecf31ee]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:27:50]	UUID:[c7dba1d1-4074-4209-a724-f414c576208b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:27:50]	UUID:[19ca247b-6c89-454f-bb35-9c7795ed46e7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:28:40]	UUID:[a71444ea-876d-48d1-a3af-430a973d285a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:28:40]	UUID:[e648287a-235d-4484-a534-3eae7bdc7ef3]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:28:40]	UUID:[dfcf8cf4-693a-450b-be2a-51a90513da00]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:28:40]	UUID:[9e55070b-067b-4915-a2fb-3c4ce4ed6abc]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:29:54]	UUID:[8de2844e-cdc2-410c-a7ba-36764ead4904]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:29:54]	UUID:[192a0d8c-ed00-440d-8236-3165b56d9696]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:29:54]	UUID:[3806ddbb-57d7-4ea9-9689-2d965768fc81]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:29:54]	UUID:[9602bfa0-d187-4220-a66a-fad89ec31f78]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:32:07]	UUID:[27edfc84-47c4-40aa-9200-c7b9c8abd169]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:32:07]	UUID:[5760ab0f-3a62-4eb4-a2b5-d639489d2a37]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:32:08]	UUID:[53e1f1dc-f5a5-4805-8bbb-b3d163f78b43]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:32:08]	UUID:[898baf4c-c8dd-4777-8ef3-d66a9fa5f4ed]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:33:27]	UUID:[cefad5e8-5f6f-491c-8016-6687d14ec737]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:33:27]	UUID:[52cd1dd1-53da-4a7b-ad37-eab5565e57f9]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:33:27]	UUID:[2ad0aa85-d21d-43dc-a51b-703912d7e6f1]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:33:27]	UUID:[58a45376-8bb7-4620-b786-2501b942d4e1]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:35:32]	UUID:[c8bfbdf7-44dc-4db6-8cee-929cd7cdbb56]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:35:32]	UUID:[d9689ed4-c14e-40b5-b4c0-58b83867bd97]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:35:32]	UUID:[dfa43cbc-c885-4298-8b35-aba21bb78a42]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:35:32]	UUID:[4077e72c-e685-4de5-91df-73a42154d57e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:36:21]	UUID:[8d6c60dc-9038-4609-b457-f4c17428036c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:36:21]	UUID:[19a36853-546b-40bc-9817-99412f8e02d8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:36:21]	UUID:[8d5f5ad9-cabb-4aeb-9f17-a93a20efc5df]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:36:21]	UUID:[fa1985d2-4fb7-4d02-b7ef-373c770afcf9]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:36:34]	UUID:[731b4b4f-dc21-4496-a5cc-d1ab0399d9d5]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com Attempting to sign-in]
+
+DateTime:[20220525	23:36:34]	UUID:[abdc4ba8-8250-4aa9-828a-e8e918c6d0d1]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 11@11.com ]
+
+DateTime:[20220525	23:36:34]	UUID:[d160f6b2-c28a-42ac-aa7a-0d15714305ed]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com logged in successfully]
+
+DateTime:[20220525	23:36:34]	UUID:[d7de82d3-1791-4a62-aa82-f74d3ea25eed]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:37:59]	UUID:[0453d8a2-a078-446b-99f4-26625ed656cc]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com Attempting to sign-in]
+
+DateTime:[20220525	23:37:59]	UUID:[46d38c0b-b1c9-4e68-b2f7-fbd27bd5bf78]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 11@11.com ]
+
+DateTime:[20220525	23:38:00]	UUID:[00a29538-5a89-4dec-9bf4-82910ad10de5]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com logged in successfully]
+
+DateTime:[20220525	23:38:00]	UUID:[25efde91-d701-4f80-8274-0de63b2aacc0]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:39:12]	UUID:[6c38f8ea-9b7e-4898-a005-e5167b11fa52]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com Attempting to sign-in]
+
+DateTime:[20220525	23:39:12]	UUID:[0c288068-fcf0-42fe-8d93-e55eb65a088a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 11@11.com ]
+
+DateTime:[20220525	23:39:12]	UUID:[e12da986-ccd8-4b7e-8b7d-928a0d4b1b58]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com logged in successfully]
+
+DateTime:[20220525	23:39:12]	UUID:[0a62bef0-f32a-408f-a09a-61f409050743]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:39:46]	UUID:[c9c4d497-2bba-460a-9e91-c03a0ef9190d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com Attempting to sign-in]
+
+DateTime:[20220525	23:39:46]	UUID:[6c4ff35b-5f42-4a31-9b36-b363ea2b52a7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 11@11.com ]
+
+DateTime:[20220525	23:39:46]	UUID:[f2db0e62-23d5-4dd4-b25d-4e565bdb6998]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com logged in successfully]
+
+DateTime:[20220525	23:39:46]	UUID:[eba4bf12-3775-4434-8880-19b34860204e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:40:26]	UUID:[6d568105-b9f9-4965-b8f8-bb0a09077753]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com Attempting to sign-in]
+
+DateTime:[20220525	23:40:26]	UUID:[55aacf63-8f23-429f-bd4f-c3848f72a47f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 11@11.com ]
+
+DateTime:[20220525	23:40:26]	UUID:[4478ec3b-d18a-48ab-8a26-949ae666ecbb]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[11@11.com logged in successfully]
+
+DateTime:[20220525	23:40:26]	UUID:[3fa25c29-0b83-4737-8ef8-8295ef91b8b2]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:42:03]	UUID:[b00385eb-c44b-4512-bb23-9f7bbb1d7219]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:42:03]	UUID:[38e24abf-0600-4ff4-9783-f206847c05c5]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:42:03]	UUID:[6448c663-c982-4108-be7a-549a4e7b0d5d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:42:03]	UUID:[c33c98c4-4e70-422b-a60b-fab7873d4806]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:42:41]	UUID:[eface876-9ed9-43c1-b851-1cce54060273]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:42:41]	UUID:[214ec57c-bc72-44f2-b7d6-b1fda5fe7e79]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:42:41]	UUID:[524c9fd5-136c-41f3-ab9d-3c9d0cb6d870]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:42:41]	UUID:[ad1dc088-e5f5-4f7a-afff-cab63ccd759a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:43:22]	UUID:[0d389d2c-eaed-414e-9ead-938fe4e65d4d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:43:22]	UUID:[873cedf2-9773-47bd-a9ed-8c9c196da85d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:43:22]	UUID:[f962974d-19c7-4f88-b189-7d9711b3d199]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:43:22]	UUID:[022058ca-1874-4c2b-8fd2-f885cb33c5f6]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:43:42]	UUID:[d74a0da8-edcb-4ec2-b2e3-21cc6f06a42e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:43:42]	UUID:[4ac57261-cb9c-40d0-a55f-1818609534c7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:43:42]	UUID:[174c4fc3-a799-4cfc-8cfc-299dc202779a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:43:42]	UUID:[44994343-7893-453b-b99a-a6899b709a1d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:44:33]	UUID:[308fda65-7ad5-4adf-8e8e-5fdb0ed0806a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:44:33]	UUID:[5d09253a-4a6f-46b8-a911-fa6ded612636]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:44:33]	UUID:[3bec282b-2022-4144-8ec3-1ba58bb2f934]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:44:33]	UUID:[bf641bca-d5ce-494e-8cb3-7efae606de34]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:46:12]	UUID:[36115f9a-471f-4747-a24a-3ddf891c5fc5]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:46:12]	UUID:[d401695d-de57-4a33-b9e3-2783c70235a7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:46:12]	UUID:[afcb7f72-5aa7-4aeb-8734-c7d408167a37]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:46:12]	UUID:[366679c7-ed9f-4e2c-b11d-6feea3b7a48d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:47:29]	UUID:[224225ea-f54c-4792-8efb-192261aac13c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:47:29]	UUID:[68ce79bf-a89f-45b2-9625-8712b6038d51]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:47:30]	UUID:[e839ce8b-44b4-4e43-ac9a-43fed78ba3fb]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:47:30]	UUID:[3b9fb5a2-66b8-40bf-82d1-f58f42aeb147]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:48:30]	UUID:[823b6861-db49-4e77-b722-19f56833b0fb]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:48:30]	UUID:[348443bd-89fc-4b55-9742-337a3b162a43]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:48:30]	UUID:[944d91c7-6a2b-4b0d-b2d4-135d9cd93f16]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:48:30]	UUID:[bf7e6b5d-9ea0-4a07-affb-138e5c5daeb6]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:48:57]	UUID:[95629bfa-c416-4528-ba44-f860a62d0b17]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:48:57]	UUID:[91b837c1-b4dd-4e3a-ae80-164603088964]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:48:57]	UUID:[98233977-bb51-4e70-9aa7-44e9a32e2f6b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:48:57]	UUID:[244e8368-c9ca-4c8e-a2f1-3e4f462509e2]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:49:45]	UUID:[705f58d3-68e0-4276-bd96-f470ebcd6426]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:49:45]	UUID:[70c7fb5c-0e66-40fc-b530-349d541f1f44]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:49:45]	UUID:[4863051f-e6cd-40d0-9c19-83c727e56819]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:49:45]	UUID:[6992e346-1151-48d2-8d46-da8efe930d0c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:51:17]	UUID:[39d10b4c-504d-468f-8dcb-e5c47b75d436]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:51:17]	UUID:[63deb889-2d35-49e4-b42b-0820f7543691]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:51:18]	UUID:[0723e158-866c-4547-ac33-19a64810346e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:51:18]	UUID:[e789a97c-340a-4672-9b98-ab8914ed38f7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:51:36]	UUID:[f4a8789e-7988-4b37-8c16-e74c9f23c812]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:51:36]	UUID:[46f10d5e-477c-4f68-b1d7-00fac89ceca7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:51:36]	UUID:[abeb9be6-d23a-4f52-a646-37e068b726e5]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:51:36]	UUID:[5cbfa512-4007-4f09-987c-356b36936d4a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:52:38]	UUID:[e2a88b5c-ee0d-4319-a85a-eff9e0313e38]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:52:38]	UUID:[ab19c526-f0f8-48ba-8899-1c99b48ef4db]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:52:39]	UUID:[cf31b271-5c02-4788-9abb-4a7954f9470a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:52:39]	UUID:[62e9775e-0df7-4859-9ec8-493b8fa24be3]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:53:10]	UUID:[11541a08-fa18-4d0d-8d6d-044b228019e8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:53:10]	UUID:[0133b4a0-b90d-41c8-9209-da15de8228eb]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:53:10]	UUID:[eeba65e2-3f82-4617-9b32-2b5ebb1b9776]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:53:10]	UUID:[dc37166f-518b-4b1e-88b0-656ab819a5cd]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:53:30]	UUID:[f5a943d8-572b-4e26-854f-5d69d8831fc4]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:53:30]	UUID:[61963e43-7b5d-435f-b4ce-256e49316036]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:53:30]	UUID:[8fe39a47-3d3c-4bdc-8494-0becd7780ab2]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:53:30]	UUID:[623b6e30-4217-4933-a4be-ea182c0a2d09]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:53:53]	UUID:[ec547ced-8576-41fd-9acb-9fadacb3f42e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:53:53]	UUID:[856f7b93-45b9-4ed1-9f1b-1f40e8ee5b93]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:53:54]	UUID:[bb9a84fe-5d3e-407e-9e35-d603fbbf0cbb]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:53:54]	UUID:[f08dec11-206d-4eb3-8616-626aa37b5a8f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:56:25]	UUID:[28fde591-d05c-49b3-b09c-5debed651931]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:56:25]	UUID:[879a200e-9e26-4d12-9e27-df0cd1e90ffd]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:56:26]	UUID:[312b21d1-14d2-4847-87ed-37984e6044b4]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:56:26]	UUID:[1cccbe7b-ef6b-47a6-adb6-4c54d01b2e14]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:57:41]	UUID:[565a41a3-c92d-4ce8-835c-3d40f5f00179]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:57:41]	UUID:[2c50dd4d-d5d6-4707-b6e9-9f7f0e22034e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:57:41]	UUID:[2deddaa9-d873-4cb4-ba93-59efa444f88a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:57:41]	UUID:[ef9fc5f9-2ee1-4e77-816c-161e3a5cf573]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	23:57:58]	UUID:[1f957fab-a719-47c3-b8bd-3d887447eb9d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220525	23:57:58]	UUID:[ad8fc9b2-d0c1-4013-9851-0c51dcb65208]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220525	23:57:58]	UUID:[d6410ab4-253e-46c4-8d25-52290d2bc4b1]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220525	23:57:58]	UUID:[49b31592-660d-4cf6-b7eb-615f6c71ca28]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:01:08]	UUID:[b35571ff-9caf-4416-8496-8223014acd12]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:01:08]	UUID:[e597d4d0-64ce-4179-80c2-47bf9be644d7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:01:08]	UUID:[b1d71bab-ac75-4ab8-9e2a-927b47aad8b9]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:01:08]	UUID:[6cacbfc0-ed0d-4bbe-a8da-7dbdc140bd22]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:01:40]	UUID:[6dc46720-6b5c-40e3-86bd-2affeeaf7321]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:01:40]	UUID:[cc24b04d-6d9d-4b39-af48-cd63f97355d0]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:01:40]	UUID:[f29efd67-a00e-4dbd-9146-c6c641b7b5d6]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:01:40]	UUID:[276d55ba-4894-492e-99e7-ac5175942006]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:02:34]	UUID:[9c8b714d-f222-47d7-b54d-ab090fb4e851]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:02:34]	UUID:[ba406fbd-4bf8-46f1-8976-125535f8609b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:02:34]	UUID:[bc16b333-c6d3-499f-888d-651133ea372d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:02:34]	UUID:[c42343dc-b12e-4c50-8af2-2bde7367f8ca]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:03:23]	UUID:[41c09fab-465c-498d-86b3-8b0f54f560fc]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:03:23]	UUID:[ac924c08-4470-4e8a-b227-e94452f50025]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:03:23]	UUID:[1a58727e-ccad-4107-9430-03badd370c9b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:03:23]	UUID:[b2e09a43-f83c-432b-bb20-24baa08d62dd]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:04:15]	UUID:[91413d57-fc6c-4dbc-a86b-610bde39ee50]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:04:15]	UUID:[62276004-a00b-4042-818b-4c666413afc3]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:04:15]	UUID:[43e2fda2-117e-495a-87d3-9936c9c1fd4d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:04:15]	UUID:[5aa7e9e1-933e-490f-b30f-07e6aba1bb98]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:05:11]	UUID:[5321dd06-f027-4876-b994-4e73197e2b64]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:05:11]	UUID:[daa0cd60-75d4-4b41-ae92-a7ba6265ead8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:05:11]	UUID:[6bd6bd7f-80da-4b07-96b6-e399ce3fda4d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:05:11]	UUID:[c9f95448-0fb9-4c54-b93c-aca1014a39f7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:05:47]	UUID:[57437e53-4770-481e-8ac9-8597a3e5fd75]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:05:47]	UUID:[7ef7d208-2d16-413d-8317-9992f66b930a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:05:47]	UUID:[f113880b-6707-40ea-83e9-db5b7a3981ff]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:05:47]	UUID:[86a76bd9-96ab-4e1a-8bed-99d852b6bb2c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:08:02]	UUID:[24e4fb19-a3c0-44c3-a15a-0fb194b531f0]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:08:02]	UUID:[cf5fd2e4-ec62-4fdb-9fe0-3befbea4c5e0]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:08:02]	UUID:[c7702489-dbc2-40c5-bd3a-ba349f6d3bea]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:08:02]	UUID:[5c57c7a5-cc27-4d1a-ae28-aca58e6f8b64]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:09:12]	UUID:[dc84c191-21a0-4741-9290-b4a156703060]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:09:12]	UUID:[91bb8ba2-bcf2-4505-a26a-4520332de17c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:09:12]	UUID:[2af63316-083b-42a1-beab-83b7dfd68c1e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:09:12]	UUID:[983c265c-4b8d-4d98-b184-f31bcd3b9759]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:10:15]	UUID:[034092a2-57d0-4dba-ae06-3f5dd4e056fa]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:10:15]	UUID:[68133e86-c833-436f-a0fd-49fb18f13808]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:10:15]	UUID:[b6c73493-25d6-4950-808c-beb5094a483e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:10:15]	UUID:[f8992af1-1f7b-4f7b-90c0-64704dc30d8d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:10:59]	UUID:[ef4697c3-68d3-422e-a443-c5b138cc9bd9]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:10:59]	UUID:[f9ca700a-fcb9-4a2f-acc9-f214e98e6339]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:10:59]	UUID:[cb1f2662-050d-49db-9fc5-b2507f54d3a1]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:10:59]	UUID:[138a8886-ca7c-4264-895e-629fba55337c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:11:31]	UUID:[fc01fd62-86c4-4088-b32c-af0df721ebc1]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:11:31]	UUID:[f7b36b25-6669-4f7d-b396-d12f10f32c32]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:11:31]	UUID:[43527c70-ff7d-454e-91ba-bfcf8f04591f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:11:31]	UUID:[87180103-33ae-4d1f-b7af-178a8f71d324]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:11:52]	UUID:[d9560c0b-77d7-4a69-9b10-d6a5a804cb8d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:11:52]	UUID:[52605c45-e419-474b-8460-dd1cc53d67ba]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:11:52]	UUID:[b1101bae-4ded-486a-8a72-517c005adb82]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:11:52]	UUID:[94af66b9-4446-49a1-9c72-52eb0aa70470]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:12:14]	UUID:[d99b9fc5-0db1-4c83-807b-cb313ff6925f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:12:14]	UUID:[d0e4a310-7b64-4273-866d-2246ee4e5a1e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:12:14]	UUID:[20bd12e2-e087-488b-96b1-210886b90052]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:12:14]	UUID:[8a63d5fd-64ba-46bd-82f6-3d00cef8c9ed]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:13:17]	UUID:[17c13022-5d65-4576-9855-442f23d246a4]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:13:17]	UUID:[4cdcb798-3452-4e81-b958-97d4018c3000]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:13:17]	UUID:[35774d69-9688-4482-a3af-fd1c7edf1595]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:13:17]	UUID:[d4fc5e2c-8d20-4e55-8f4c-bad06018e88d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:13:51]	UUID:[d859a5bf-62e6-4849-88e6-6d1cf6b36d61]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:13:51]	UUID:[e6f31332-bd3b-4869-9401-144083e36aa0]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:13:51]	UUID:[bdcf5aee-7966-4862-9445-0b56d7d1a9c7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:13:52]	UUID:[03ebe2f2-5ecd-46fd-ad8b-ba703988e4f7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:14:39]	UUID:[80d502fa-2153-45e9-907e-2addf6a783fc]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:14:39]	UUID:[088f4426-0971-4e07-afd7-c2a51c56f5df]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:14:40]	UUID:[e480999e-a3c8-44d8-a8cb-644defc2f14f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:14:40]	UUID:[57c44032-217a-4972-b771-dc457e6a361a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:17:10]	UUID:[400cec73-5e59-45a8-ad12-5336683d413d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:17:10]	UUID:[008a73c6-2e3e-4727-bd63-834bacf8fbf7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:17:10]	UUID:[8b02d225-769e-4b33-a5a5-bd0d34466f6e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:17:10]	UUID:[48680a16-ada1-460a-9769-1559bd4a4b23]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:17:53]	UUID:[e85d5a5a-923b-4258-97ac-c40a2fbed59f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:17:53]	UUID:[4b20fd3c-d8c9-48e3-b55a-bca26acf91d4]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:17:53]	UUID:[00b825ac-6fda-4f6f-a9e3-9396cc993c8d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:17:53]	UUID:[9e997927-26d2-4162-8284-f65a2d130baf]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:19:17]	UUID:[514fc3fa-c362-46e5-bc62-05f0113b90b6]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:19:17]	UUID:[143cbff8-0440-494d-841f-ee903bbfbc63]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:19:17]	UUID:[87fd0d99-51a8-4cd3-ab53-4e9865922e39]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:19:17]	UUID:[31e1943c-8977-4a30-8ad4-417ac8a8c129]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:20:46]	UUID:[6f8f5629-c64b-4348-951f-a0bed32344ab]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:20:46]	UUID:[d43b2734-3046-4d93-8027-d486bd230e10]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:20:46]	UUID:[ddb9fe73-3585-4222-bf5b-d57877b5dc61]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:20:46]	UUID:[a0a136bf-56fc-4e7e-af24-8c13174f31ad]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:21:30]	UUID:[35dac404-f011-493e-8a1f-6abb8cf6ce05]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:21:30]	UUID:[6e472fe6-a563-4b57-8e57-039d195124e8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:21:30]	UUID:[f3afbf84-c370-449f-9802-bea44c8458db]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:21:30]	UUID:[89260db2-60ee-4666-8e0f-1e79b8ee7bb4]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:22:29]	UUID:[07e188fd-5a52-4c70-8ed0-26e52bb58925]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:22:29]	UUID:[1bce0d06-74a6-4a33-9187-4ce565013001]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:22:30]	UUID:[0c05ee1e-f391-47b4-afb9-d2a2386eb3df]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:22:30]	UUID:[e84b57e5-fad6-459b-b217-f65e69d38cef]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:22:56]	UUID:[cf0b5ab1-cec6-469f-a47a-a19b899200f4]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:22:56]	UUID:[33d6f27f-db40-406a-8965-ff06cdb26f24]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:22:56]	UUID:[477b8f86-7441-4f0d-84a9-74117e0afed2]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:22:56]	UUID:[d261b03b-bdf9-4012-a4f8-7a45a9cd3d1a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:24:10]	UUID:[86da82a2-0985-44d9-9bc2-be68bc5c6249]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:24:10]	UUID:[de8ce77f-7b0c-44a8-a378-1dce81c637b8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:24:10]	UUID:[b3f8508c-7943-47a9-823e-185fd42a3aff]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:24:10]	UUID:[945488c7-679f-424f-840c-28e6b5df11dc]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:25:26]	UUID:[b4aa8e44-71c3-40e4-bc57-fb08bed5a355]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:25:26]	UUID:[b4fbd490-bf40-4173-a049-663fe8df7f06]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:25:26]	UUID:[075411f7-4419-4bd2-a043-2aa950b0804b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:25:26]	UUID:[251085ab-80fe-4d19-a754-ea82b294b295]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:26:41]	UUID:[18c15613-ecf0-4fda-a1bf-ece0b6565670]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:26:41]	UUID:[9394e465-e50f-467a-9fde-977f91534e2b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:26:41]	UUID:[a53517d9-6151-4fc2-a81f-f70ad70df86b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:26:41]	UUID:[f9278275-96a0-45f1-b67a-31204b8a903c]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:26:55]	UUID:[88b81898-83f2-4823-916f-23dc3487a774]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:26:55]	UUID:[05802a89-0a0d-420d-8879-a381b0da0a51]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:26:55]	UUID:[6e7c8294-6624-4ef5-975a-c601f1640ebe]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:26:55]	UUID:[d7d4eb79-976d-44da-b60a-3373bda87c67]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:27:58]	UUID:[7b659dc3-3e0f-46e0-adb7-3276e063b2a0]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:27:58]	UUID:[87e7201c-7607-4049-93de-8e677c5fb8c7]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:27:59]	UUID:[6633eb70-2916-46cc-9e84-a04547c8f05d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:27:59]	UUID:[9ae647b8-dc23-46ab-8fc3-18e361c7a6d8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:28:25]	UUID:[ec713f80-baf6-4b28-8342-2df44b412017]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:28:25]	UUID:[ae8cb7fb-cc91-4535-9a5e-6e30fba36039]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:28:25]	UUID:[1ddef508-8a96-4559-b625-6410c5267dfe]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:28:25]	UUID:[c8285a45-df47-4b74-8acf-ae0db855567d]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	00:30:43]	UUID:[74881bbd-5db3-4364-9f9d-9279410d4e5b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	00:30:43]	UUID:[dc39ff96-4161-4625-aa58-d89bb99d4973]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	00:30:43]	UUID:[536c975a-6d36-42b0-af31-68a12dbe5869]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	00:30:43]	UUID:[127de246-c591-447d-8625-6de934dc9d6a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	08:47:17]	UUID:[6acf5253-f132-42dc-ad03-7890e2df63a8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	08:47:17]	UUID:[9fcc1d87-3c84-424c-bf8f-3ae3e6388ea8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	08:47:17]	UUID:[3e80c225-af21-4008-8124-5115aaf97f02]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	08:47:17]	UUID:[197059b3-c20b-49f0-8756-cf9c6b5ea1bb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	08:48:25]	UUID:[456eb54a-8aa0-43f3-9dfa-89ba9e94a450]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	08:48:25]	UUID:[82c5cbfe-6a51-478d-bd2c-ff1c82997020]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	08:48:25]	UUID:[b4a86fda-34fd-4f26-b7f0-f4882a95f878]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	08:48:25]	UUID:[ab0beb22-90b6-43d3-ba33-1e1001c37c56]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	08:53:53]	UUID:[ce060dec-9d31-422e-b738-fe27b9c07824]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	08:53:53]	UUID:[fcaaac68-50fd-4390-9a5b-720390f0b3e5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	08:53:54]	UUID:[c0dfbd52-90d7-4609-b2b5-a5af9466f36b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	08:53:54]	UUID:[e1d675ee-4636-4fbd-a8d8-c74d5a5435cd]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	08:59:29]	UUID:[499ec878-84aa-4d60-9f68-e7ae2e19597b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	08:59:29]	UUID:[97ecc287-e884-4031-8d53-db48fad0cfe8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	08:59:30]	UUID:[dcf1323c-e09e-4f43-a78e-b05871625583]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	08:59:30]	UUID:[1bf37796-5eaf-4859-aee8-dfc6231883a7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:03:50]	UUID:[c7e6d396-6207-4ace-a438-f8dbb979fbda]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:03:50]	UUID:[61ac0a5b-7009-4e98-9bab-433622787a3f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:03:50]	UUID:[5fbb1575-45a8-416c-895d-c6964b225055]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:03:50]	UUID:[79cde63a-701a-467e-8099-8fb0ef4f8ada]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:08:53]	UUID:[1434fc7b-a9fb-4bfc-b42b-54d06539cefe]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:08:53]	UUID:[79997345-b325-4b9d-99f0-a538e61cd259]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:08:53]	UUID:[5cec45bf-0a40-4da1-a239-eb8aa6e9e72e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:08:53]	UUID:[92a8c0e1-07ad-4dfb-adf8-16871f37ced0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:14:53]	UUID:[182797e2-e0cf-4101-aa71-d93faf8929cf]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:14:53]	UUID:[7739cc5c-8c16-49c2-b153-ce7f094bd0c0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:14:53]	UUID:[af1ba1ea-5289-42bc-915f-99c9b2489551]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in failed]
+
+DateTime:[20220526	09:14:55]	UUID:[a742f395-5769-4d18-a474-1fe647164fdb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:14:55]	UUID:[f06d9f50-2874-48bf-b9ba-863f9534bceb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:14:55]	UUID:[563296c0-6e89-4471-a129-f31d120abff0]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:14:55]	UUID:[06b5465a-3da3-4f95-be52-689300d6b5ea]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:16:49]	UUID:[fcee8f72-cf18-46fc-990d-644ba200671a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:16:49]	UUID:[75ce0dfc-26f0-4790-a24d-15cba2ff755f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:16:49]	UUID:[e31ecc67-2d0b-4b5d-b180-bea006096086]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:16:49]	UUID:[80a139cd-0e6b-447d-9447-ace417e04edd]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:20:36]	UUID:[ca035a1d-cd1a-4e81-a7a1-67f19aa75eb4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:20:36]	UUID:[b2bafe8a-fb6f-4083-9f2a-965d60eaaadc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:20:36]	UUID:[e4ff3233-fefa-4705-9351-b18b50e64489]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:20:36]	UUID:[f5508fef-2fbb-4530-b028-08a857bb2466]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:36:49]	UUID:[ee666918-4ef5-40ca-b262-db8c6bb08951]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:36:49]	UUID:[fcd76c8c-6a69-4631-a1bd-354935dcbd98]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:36:50]	UUID:[0d32d9b4-4af6-4562-a7be-3913eda9920a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:36:50]	UUID:[214a73cf-1418-42ed-993f-5d0c74498a18]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:46:52]	UUID:[2695def1-e1a7-4ca7-94da-8313cdeddbc3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:46:52]	UUID:[603adbaf-3af7-4f4f-9fb5-7ec11c4d11b1]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:46:53]	UUID:[28748a7c-6269-4cd3-85cd-c67ba48e51ee]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:46:53]	UUID:[3d56f9d1-d533-4c33-abb6-f5b95dd009f7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:50:40]	UUID:[60947e60-097f-49eb-94e8-b65c2d1f3225]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:50:40]	UUID:[e0e41306-11cb-4468-9083-a957424e8360]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:50:40]	UUID:[ad6134a0-a5ec-4bab-b8a5-ee84fb3989b9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:50:40]	UUID:[72b394aa-2dd6-48dc-be0f-8dcda2b48f4e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:54:51]	UUID:[f881cd28-71d6-4fad-a640-59a684aa2894]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:54:51]	UUID:[584ff303-9c84-4be1-b10a-0d5e9ccbff77]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:54:51]	UUID:[19c66d9f-e63a-4110-a484-1339c7dba529]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:54:51]	UUID:[cff92c4c-8fef-4944-aa3a-b608cd035fb3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	09:58:36]	UUID:[a40dcecf-3af7-46cc-8953-1cc04060c1ea]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	09:58:36]	UUID:[db5c92e7-6fd5-43d2-baa7-c5b2ff6ec6d3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	09:58:36]	UUID:[491f2956-e72a-4a65-9330-3a7c79910c05]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in successfully]
+
+DateTime:[20220526	09:58:36]	UUID:[655e3a59-398c-4d8e-b38a-d05bdf0709b2]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	10:39:45]	UUID:[e30e2633-5e9b-4515-bbae-55782362009d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com Attempting to sign-in]
+
+DateTime:[20220526	10:39:45]	UUID:[ae0615d7-19a5-4485-9586-1d5580e4ed6c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 12@12.com ]
+
+DateTime:[20220526	10:39:45]	UUID:[2b2ed485-3be4-466e-849a-e230fefe9931]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[12@12.com logged in failed]
+
+DateTime:[20220526	10:40:54]	UUID:[034df2d9-e6c8-4826-8224-f12e2d7a7add]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	10:40:54]	UUID:[b783b060-7bb5-4315-a2ed-e8f0196d6347]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	10:40:54]	UUID:[c746da9c-e0a7-4290-af58-51936b9b58ee]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	10:40:54]	UUID:[9bd14ce5-c05b-4f7d-a7f0-4fa8a88ea284]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	10:41:55]	UUID:[517c4a65-f15a-4b55-ac5d-c23c649e18fd]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	10:41:55]	UUID:[d074b5c9-39d7-45ac-8b49-d53e419b4550]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	10:41:55]	UUID:[8159fbcb-d722-4dbe-896a-c3938f097f6f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	10:41:55]	UUID:[29393b1f-e459-4a8c-9f65-7a1b65a0098f]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	10:43:52]	UUID:[4fe7e0a4-2213-492d-9b00-d497d6bc037c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	10:43:52]	UUID:[5a094103-1a92-49cc-a572-4474beefc501]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	10:43:52]	UUID:[b2515b98-fc0c-417b-a07b-c570f44e1e38]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	10:43:52]	UUID:[a072c3d6-d437-447c-ba04-69d92dbfc8c8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	10:55:17]	UUID:[977b8a66-ad2e-446b-a19a-754a2a260584]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	10:55:17]	UUID:[cb356edd-57b7-4525-ab73-9846a43ceb27]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	10:55:17]	UUID:[e4f4be0d-bb23-46e8-85fe-3690f97bc04a]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	10:55:17]	UUID:[10bd462e-90fe-49ff-82de-82e09a5d7822]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	10:59:21]	UUID:[7b664778-4c47-43a1-847c-7f42ada321aa]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	10:59:21]	UUID:[f71fed93-51c9-4e58-884c-4d567206ddf5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	10:59:22]	UUID:[8c1506af-63d6-47e1-a0d4-0538512535de]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	10:59:22]	UUID:[c0174d9b-a1c4-4009-817c-33e4e0f8a402]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:01:11]	UUID:[bca7d0fe-4b35-4746-9607-c2a24db5895d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:01:11]	UUID:[841ea91d-8699-43ab-9be9-ef6be6a8c2a1]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:01:11]	UUID:[332cebd0-8975-43dd-8d5e-56edf7dfa8e5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:01:11]	UUID:[6e0c2976-50cd-40d9-9676-97ea341fb4e3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:02:41]	UUID:[d3f8599f-04ff-496c-b432-c49146cb40a7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:02:41]	UUID:[c1775691-155e-483c-9768-c66da14cf2f4]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:02:41]	UUID:[96221859-a2cf-4579-92f2-63aa0ef35dc7]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:02:41]	UUID:[afd18883-2a24-408f-bb01-bfd3ec65ca0c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:06:19]	UUID:[d409ec0a-270a-4253-90a4-3f9d225c6ab9]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:06:19]	UUID:[e8b9d3d6-1889-4b64-a2a2-db439163775c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:06:19]	UUID:[9d5da3e9-7b5d-486a-8ef1-728fa11ab717]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:06:19]	UUID:[6d57d7a2-eb7b-478c-bb21-59de8cfe6115]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:11:23]	UUID:[e378a0b7-40b9-477d-9747-e3d8f6b5a7eb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:11:23]	UUID:[691f76a4-30c3-4a71-814b-bf685065824b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:11:23]	UUID:[31ea7c4c-f66f-45cb-bcb1-2735d43703fa]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:11:23]	UUID:[eb02f44a-a36b-4f83-ae2f-629245711bfb]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:16:48]	UUID:[c17edf9d-7381-4d35-8086-b886f83b2bfc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:16:48]	UUID:[7cf395f0-98ea-4f7a-8a25-68bab0a42c0c]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:16:48]	UUID:[00681e8c-b1a5-4a26-902a-9182ce813ed8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:16:48]	UUID:[4a7e4daa-5d58-40f7-bcde-498e12519de1]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:17:35]	UUID:[afeb6947-7ef5-473e-9529-0ee44b2b3e32]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:17:35]	UUID:[90a787a1-c49e-43b9-966a-d559f6c774d8]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:17:35]	UUID:[ad45b71e-6025-4e45-8db3-cf8d7df2ae66]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:17:35]	UUID:[63cfe3fe-af63-4641-b7af-83122d43bd48]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:19:19]	UUID:[82bdc3ee-dbb4-40d6-aa24-32a2e0702e1e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:19:19]	UUID:[cd4b6be2-b59f-4c84-9a62-4f937d2410ae]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:19:19]	UUID:[ed294aab-3172-40ae-8c6b-3438cd4b6552]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:19:19]	UUID:[ce1d2e88-fcbc-432c-a1b0-f308423567cc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:21:11]	UUID:[b7d17175-4f4f-4a11-82de-8246060e263b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:21:11]	UUID:[34679bc2-40b6-495d-87f9-a742a92be4f1]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:21:11]	UUID:[198d0da3-fc5c-4e5e-aba2-d77495874662]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:21:11]	UUID:[0f31746e-a1d6-42b2-beb1-1fc6bd43b373]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:23:43]	UUID:[c5f38acb-13e0-48fd-9b02-aa324f9f8358]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:23:43]	UUID:[27334829-c660-4ab3-817d-37388d512739]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:23:43]	UUID:[87506104-618f-4aff-943a-205f46dc546b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:23:43]	UUID:[c040196b-3d62-40bd-977c-2922e760b736]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	11:40:51]	UUID:[1c5b2b22-e60e-4b17-a42d-61a399bca0cf]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	11:40:51]	UUID:[ef3babd8-a980-4ad8-b82d-13004318cadc]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	11:40:51]	UUID:[3886af5c-ff13-4d15-a1ad-7d7b922b47f3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	11:40:51]	UUID:[b32615b5-d4b9-494e-b782-f897c25e5ab5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	15:19:23]	UUID:[90652da7-7c0e-4bde-befd-88774b92ec4b]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com Attempting to sign-in]
+
+DateTime:[20220526	15:19:23]	UUID:[6c8132f8-e9ff-499a-8951-72477f7f3b11]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 33@33.com ]
+
+DateTime:[20220526	15:19:23]	UUID:[5e3449cc-3eb2-41d1-ae10-9d32937966b3]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[33@33.com logged in successfully]
+
+DateTime:[20220526	15:19:23]	UUID:[38a4b0b6-9910-48c7-b6d9-8adc2a3d07e5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	14:21:49]	UUID:[8afd121f-6129-48ba-8475-d62d7e4c3cc1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220525	14:21:49]	UUID:[23f6db6e-5227-4624-bc8c-8bd74e9b52e8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220525	14:21:49]	UUID:[bdde5718-866d-4bdc-a2c3-6a8742851efc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220525	14:21:49]	UUID:[3b610cef-d926-4d0b-80c4-0ef8510cf4af]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	14:48:24]	UUID:[32fc02c9-30e5-4fe8-a964-5eb77ca17904]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220525	14:48:24]	UUID:[588f24c6-5c26-4dd2-b981-3f098f5aaac4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220525	14:48:25]	UUID:[413df0fc-02bb-4466-8bee-5787e8f692fe]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220525	14:48:25]	UUID:[f49f6ef1-abd6-4c81-9cf4-75d14ce43b27]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	15:06:33]	UUID:[d7937d22-4733-47cb-b212-4f8867e8458b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220525	15:06:33]	UUID:[7b42dfae-b645-41d3-ac55-459f686ec560]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220525	15:06:33]	UUID:[e90368e9-8ab1-4c7b-b381-5730b47f592c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220525	15:06:33]	UUID:[8fff54c5-6ea5-4129-ae15-07dfeb442722]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	15:08:58]	UUID:[cc6da2c4-24b1-40e4-87cd-d803502d5ceb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220525	15:08:58]	UUID:[4d62f66b-f8b4-4a95-8f46-512821acf60d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220525	15:08:58]	UUID:[f92a4644-9c0b-4fa8-b9ff-34054c481bd5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220525	15:08:58]	UUID:[cc978336-448c-4fe6-a64e-e8970e025fc2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220525	15:22:07]	UUID:[a966b826-6db6-47e5-8693-fdf1b3adf105]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220525	15:22:07]	UUID:[9978bb90-6c82-40b7-8aea-9bb083b88d3b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220525	15:22:07]	UUID:[0e3aaa1d-f42a-4e1c-aded-e1409bc2fe25]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220525	15:22:07]	UUID:[d482c5f5-6cd6-463d-a933-70fe8a9278f6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:33:10]	UUID:[ebdc9cab-11b0-4d5f-8cda-590bcb5e1c6e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:33:10]	UUID:[f3955a8b-5edc-454e-8f99-798e16beee93]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:33:10]	UUID:[aa77d2fa-bce9-4acf-913e-3d2c881d19ae]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:33:10]	UUID:[7441a387-e4dd-4f35-9cd9-7bd1deff6530]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:44:53]	UUID:[a5b61b6b-db6e-4f4e-80b3-d0ae0b25255c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:44:53]	UUID:[f97f69c7-2097-4832-8c26-dd41ae1ac9f3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:44:53]	UUID:[4694e76c-02be-4c98-829a-1bb106fa12f0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:44:53]	UUID:[6a0a97af-a3fa-4484-b76f-40d61b37d91d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:47:41]	UUID:[e78077ec-c843-49d0-a768-11153632c5da]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:47:41]	UUID:[889a7a59-4100-48e5-82bb-a2638ab74233]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:47:41]	UUID:[18ef0459-6f98-41af-8040-a92f257c5755]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:47:41]	UUID:[2a7ae82f-7a76-46e6-8a6f-ed0a97e0b610]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:48:33]	UUID:[7e23f4bc-3079-4768-8a41-33167a393176]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:48:33]	UUID:[d20beff7-0c81-4c23-b3e3-7fdff4c9b41b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:48:33]	UUID:[b66ed639-aa7a-4125-9d93-7f6466d61783]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:48:33]	UUID:[3fb022b1-0a40-4be4-bdd9-ee5347fd2b8b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:49:32]	UUID:[f5e3c305-41b6-4689-846d-15fc6e258c0b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:49:32]	UUID:[5a76f0ab-bb2d-49a1-8819-1ddad3755dd5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:49:32]	UUID:[5c5d6443-a8ec-4662-9157-96955498c09b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:49:32]	UUID:[a6c84583-56b2-492e-a069-f712cd3d9d35]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:52:37]	UUID:[53e9670a-2526-4206-aba8-558a638dcc4b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:52:37]	UUID:[b208590a-8df2-4a1f-93cb-a8dc9f23d968]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:52:38]	UUID:[ed746d03-0a1e-4523-b6da-5e6cacfdfa9e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:52:38]	UUID:[072caf58-4e50-4181-bc97-02cedc06e679]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:56:22]	UUID:[d83f7bd9-68b4-4901-ae03-3fe73d47aef6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:56:22]	UUID:[891b3c8e-2ebb-4017-93a8-e1af437ff8a6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:56:23]	UUID:[0453a4bb-f364-404c-bcad-60bcc3499bf4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:56:23]	UUID:[177e6ec9-2141-4a1d-bb33-612a96ee0396]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:57:07]	UUID:[1828aba3-94a1-4fc9-9cbb-0f6918615ad7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:57:07]	UUID:[2e4f4497-f2a1-4d53-afde-f9c0e030551c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:57:07]	UUID:[21b08020-4d41-4c01-ad67-8c7952270a8a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220526	19:57:11]	UUID:[491c978d-72e4-4b57-b822-ffa44877091c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:57:11]	UUID:[9ed34ff9-d1f5-4811-8734-c08441adf933]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:57:11]	UUID:[c6a96d3b-aef8-4aaa-a2ae-e8929c28969e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220526	19:57:16]	UUID:[95b5719e-dd20-48b8-ab34-082a27a377fb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:57:16]	UUID:[3d6ac368-7257-4637-a4d9-128f585a544b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:57:16]	UUID:[eed7c8b3-5046-48e8-990d-0ed678d12ee2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:57:16]	UUID:[34a98471-0153-4a87-9dff-8a65b21d1ef8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:58:23]	UUID:[216accb6-2456-4d71-a73f-6b9b37b9a6db]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:58:23]	UUID:[587b2971-1d50-46a2-b2b3-3413d5a1c974]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:58:23]	UUID:[79e8f377-2944-4114-ae13-f570abfdef04]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220526	19:58:26]	UUID:[e15d6e4d-bad5-4b43-baa5-9f027b65b468]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:58:26]	UUID:[5de3b7d6-83d4-4bd4-8a20-7678fe39845b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:58:26]	UUID:[a51faa16-3d01-48b2-843b-f1eff26f5814]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:58:26]	UUID:[1fae6418-f888-46af-a0c6-020a1823e073]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	19:59:22]	UUID:[3ccceae5-46ef-4e60-8a35-27548237d7b0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	19:59:22]	UUID:[2930d10a-8daa-49ff-8e4e-a2aaa5f9f1ea]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	19:59:23]	UUID:[d8f2feca-964c-4903-8341-48b379fc86ce]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	19:59:23]	UUID:[c65a2e50-41b3-41d5-97a5-bc0131c94376]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	20:01:10]	UUID:[ba3ce4ca-afe2-481f-817f-c060d5ad9c46]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	20:01:10]	UUID:[af833a89-a8bd-4e58-a264-e80822d20fb6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	20:01:10]	UUID:[4f85a6e2-810b-4bb3-8362-2c8d612b6c40]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	20:01:10]	UUID:[28523a7f-f088-4dca-b35d-73c9cf182958]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220526	20:03:37]	UUID:[0e098bec-03a5-4c6b-b6e6-47af52a051be]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220526	20:03:37]	UUID:[75b94d1d-cc36-492d-b006-dc0a90513888]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220526	20:03:37]	UUID:[d86f2598-4c86-477a-866d-9a07d9f4d6b6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220526	20:03:37]	UUID:[ba454f28-b158-4ac6-8eab-ee3b32875819]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	18:25:26]	UUID:[47a2d91f-6a90-4537-8f3f-2eb5ecd8ef2b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	18:25:26]	UUID:[3bdf2888-9583-42d6-9c54-a9279d687ec7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	18:25:26]	UUID:[1e9ee630-a11a-4424-849d-d38904280f1d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	18:25:26]	UUID:[3f4a837d-c6e7-4d70-9249-d4b88f5a0a76]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	18:28:34]	UUID:[c2fa8f45-3699-4eb2-92bf-10e6c5a57e67]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	18:28:34]	UUID:[4a9f820c-20dc-483b-954a-ac9814712094]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	18:28:34]	UUID:[054bb357-4b4d-476e-ace0-d1090a00c82e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	18:28:34]	UUID:[8d62686d-a9a0-48ec-8f4e-df6b90152f2a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	18:36:25]	UUID:[5e031a83-4951-42b1-b774-3dcc0c44805a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	18:36:25]	UUID:[a7901b72-c6aa-46d8-94fd-e9d041eb2258]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	18:36:25]	UUID:[c7f88460-9819-49e8-a881-13c7733bbe2b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	18:36:25]	UUID:[1271308a-1a12-4165-9d48-082a83a9a60e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	18:42:56]	UUID:[e1a589d5-11d0-49e8-acb8-0c27ea7d9983]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	18:42:56]	UUID:[18af2385-fa6c-4d81-a84a-d78bc8ac9187]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	18:42:56]	UUID:[0d4e87d0-0074-4ca1-a6cf-e84c05a20309]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	18:42:56]	UUID:[14e1d19d-4e9b-4077-b7e5-85a97fcb2887]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	18:57:17]	UUID:[8cf2d23e-06ea-491f-ae80-f88ff17f3ac6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	18:57:17]	UUID:[f1fb2271-bc53-4989-83f9-7bfcde10ba76]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	18:57:17]	UUID:[30d8c944-b64a-4c8d-ab70-c7ac507621d5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	18:57:17]	UUID:[a4368d60-e724-4156-9470-962a7a07740e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:03:10]	UUID:[f0ebfacb-335c-48c2-81a7-3d242352d549]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:03:10]	UUID:[373f7565-e34d-4d0d-983a-239672c2dfa6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:03:10]	UUID:[6eb41d57-8f3f-44b1-9452-947d68363af1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:03:10]	UUID:[c453bc51-29ef-4983-9d16-8229286fb7f1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:12:06]	UUID:[863a76a8-f982-4ca0-b90f-f5a0636fb192]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:12:06]	UUID:[6726e430-f906-4f16-8b64-60638758fdf5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:12:07]	UUID:[b680d9e8-bdb3-4670-aa21-c890e2066c36]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:12:07]	UUID:[de950a82-c36e-410f-a0a4-a7bde0621986]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:13:43]	UUID:[42c33538-8472-4a87-a4b4-c63d5d03a8b1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:13:43]	UUID:[f3631877-c82a-429a-bf05-e55fef7e0e06]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:13:43]	UUID:[8cb214bc-8c1e-4d77-9eae-a972587ad06c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:13:43]	UUID:[6ef2cfae-0e8d-417b-99bc-233b03b8f307]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:15:04]	UUID:[bbd98134-d136-4889-91e6-67a3211de64f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:15:04]	UUID:[b8ea34e5-b4f9-45c1-8109-bb3cfdbd1ec4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:15:05]	UUID:[297db8bb-d6a3-417e-91c2-bdf4f74c4fe1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:15:05]	UUID:[b7342afb-972d-4d4a-8576-961510ce0db7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:34:12]	UUID:[580e2835-c069-40ce-b40f-3173120b8111]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:34:12]	UUID:[ad98e776-13f7-445c-b38c-1074253d70f2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:34:12]	UUID:[a45ae854-e591-4474-be5d-bfc18fb7cedc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:34:12]	UUID:[d66e9950-e7ad-4081-b5a6-88e047e49736]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:36:00]	UUID:[4f5514e8-db85-42b1-8f97-099fa76876be]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:36:00]	UUID:[7b94576c-6804-4868-ae6a-1dbacdfb2646]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:36:00]	UUID:[8b5a62e4-5736-4669-a11c-2f26770b1dbe]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:36:00]	UUID:[7ba8fa89-0ce4-4333-b4c2-5408bb0f78f2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:36:35]	UUID:[ef881197-9231-4e09-8807-016249dbf709]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:36:35]	UUID:[7dfe3c24-3193-4814-abb8-56540bd105cb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:36:35]	UUID:[0a2a7f09-ed63-4c6b-8eba-bfba6e6d0fe8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220530	19:36:42]	UUID:[ab2ef60d-3efb-4bfd-8b4d-513fb7ce72ee]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:36:42]	UUID:[78919b1c-f0da-498f-91ba-7dc6892bd623]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:36:42]	UUID:[1fd6c47a-6cc6-4b63-afc7-cd7ef0f4a489]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220530	19:36:47]	UUID:[e3d2be81-ddc9-452e-94e8-786a3b94d602]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:36:47]	UUID:[33c6a386-e1d8-4f25-8ea4-4dbfa17f00cb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:36:47]	UUID:[45f2673d-25f2-4265-a613-774f940bf112]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:36:47]	UUID:[94e1bc83-c4e6-4a23-b7b0-a35dafc259c9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:37:54]	UUID:[f099a7eb-bb63-450d-b01c-68df80f33803]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:37:54]	UUID:[c5ca1de4-2bba-4ac0-b596-ddc1cf2f7153]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:37:55]	UUID:[18610156-a790-455f-a1e2-8cd83a8fe4b8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:37:55]	UUID:[53c151ea-b4fd-4d2f-a9fa-e5c93a5d9650]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:49:29]	UUID:[fe9d5b3f-de68-41a0-9717-5e0491f3fd3a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:49:29]	UUID:[8e64ec3d-9489-48de-b6b3-45c3ddc5f028]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:49:29]	UUID:[e2f464f9-e9b0-4afd-a889-df3857eae050]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:49:29]	UUID:[b19c2cf0-0517-41c3-a0ee-7136ea196d98]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:51:20]	UUID:[5018d2fd-8e91-48ad-818f-ac0b51847b1a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:51:20]	UUID:[0d23ca70-02b0-49a6-bc8d-163ba8321cb8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:51:20]	UUID:[72473f6c-cf2c-4c57-8852-4b01b61df640]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:51:20]	UUID:[f4bde30d-6670-4b0b-b683-1a8a3e5bb56a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:52:50]	UUID:[09a9766f-76e9-4fbe-8493-6916d9e7fe8d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:52:50]	UUID:[27cb1ba8-bfd2-4409-9988-49c07faa8b05]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:52:50]	UUID:[62f63c65-7402-47c5-a83c-9768814e7804]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220530	19:52:55]	UUID:[80f352de-55fb-473d-a4cf-890930e40558]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:52:55]	UUID:[c54ceabe-c1c7-47be-a158-9014f3317065]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:52:55]	UUID:[c88c94ab-1b99-4d4a-977f-9712ef2a36c8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:52:55]	UUID:[d4083c94-88e7-4eed-a4db-0fc1463919eb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:53:25]	UUID:[5668c631-0a3e-47af-a009-50dc858520f1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:53:25]	UUID:[c0e2302b-aa4c-41ec-b3ef-586b98a6e07b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:53:25]	UUID:[b833455d-a8c1-4ebd-9b2e-7e83ef5aa12e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:53:25]	UUID:[fc5c1e76-905a-4d8c-a9a2-ab90a70c0993]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:53:53]	UUID:[a5a09a80-a893-4ae2-8f5a-345f919fe3d3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:53:53]	UUID:[88a57e30-fc46-440d-a302-2d791cf10d4f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:53:53]	UUID:[231f69e4-133d-4852-9461-8dc4394ceff6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:53:53]	UUID:[d8623dd4-9d2e-4aaf-bde7-180dc63d6441]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:54:13]	UUID:[60e0ad3b-0f57-4eb1-9d07-cc84695e71fa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:54:13]	UUID:[799df6cf-0b25-4ffc-a397-ae4897071b48]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:54:13]	UUID:[7ed3bc8d-a8f8-4137-98bb-d57f15e5b909]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:54:13]	UUID:[1e171dea-1354-472a-ac71-31f218bad4eb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	19:54:31]	UUID:[0e53a4ab-02a8-4f01-9b6d-57653ea54f22]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	19:54:31]	UUID:[77cd02a8-a00d-4840-abb3-ce6c0ff1adaf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	19:54:31]	UUID:[e1bd41bc-ec4e-46d3-bd36-bbde87fa25b5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	19:54:31]	UUID:[5f301b8c-3874-4cd4-9c8d-ef412de1812e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:20:14]	UUID:[9dc30d37-e6d6-4526-8f63-3053901bcaab]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:20:14]	UUID:[16edd9db-5888-4c5c-8bf5-1f647553e499]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:20:14]	UUID:[ab0656aa-53ab-49ad-9d43-5dadd3e18542]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:20:14]	UUID:[8301388e-b57e-424f-86f4-e6ec1fcadf3e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:21:29]	UUID:[934cb584-d90a-4ede-95a7-77d8e736ebf8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:21:29]	UUID:[7cb4aea4-b2f6-4828-805f-4fb4755156d3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:21:29]	UUID:[8fee8062-8e92-4a05-a451-6c2fbcc70c32]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:21:29]	UUID:[d5e87079-1cec-42d7-a2a6-dbc53cc04f5a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:22:33]	UUID:[8397b790-068b-4eed-b6e7-481e42e45def]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:22:33]	UUID:[c90efe44-d6b4-47ae-aafb-1157cf32879e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:22:33]	UUID:[b57c7c35-eb3e-4552-a3d4-898db67e41b2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:22:33]	UUID:[2e087779-d18a-499a-806e-007f576d3ff3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:22:54]	UUID:[c1bce228-494a-4de4-a461-a37bcd24e030]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:22:54]	UUID:[53348dd8-2eb2-4181-b9bc-87aec091bb5b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:22:55]	UUID:[ed06f271-8029-4654-921c-2d7800c84b56]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:22:55]	UUID:[d0e03886-51e8-45d2-92b9-05c03681e9ea]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:23:53]	UUID:[d3a7f518-8dea-478e-9661-26cb8396b2b5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:23:53]	UUID:[300f0a27-0afb-44be-a60a-8e0d343ae025]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:23:53]	UUID:[fb501f1c-1b27-4e46-8509-094efeadad76]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:23:53]	UUID:[1d8c390a-1c5f-414a-a003-dc022bca794a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:24:18]	UUID:[b0796e38-da90-4a40-94e0-3f2f5e5a3662]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:24:18]	UUID:[8482d0e1-8370-42d3-a309-5360f0c57e24]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:24:18]	UUID:[f0daacc3-f0cd-4db2-84db-b9396bae5725]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:24:18]	UUID:[c2ee1ca9-bbc5-4e17-88f3-a7a0cae3e06c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:25:03]	UUID:[829e8366-bee0-4866-ba13-fdf937ee9e45]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:25:03]	UUID:[fb3a79ae-9203-4a25-ac44-77b78ec87c4a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:25:03]	UUID:[5c09e815-62a9-46b5-91b1-8f689630b922]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:25:03]	UUID:[2a8235d5-9083-459d-b2a4-2b566b06630c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:26:34]	UUID:[932cd204-c295-410e-82b7-cf3f06c5dc5c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:26:34]	UUID:[bebdd4ba-ad27-4323-b7af-0082d3b6171d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:26:34]	UUID:[0ec4d9bb-358a-42f7-84fa-b55be6fae220]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:26:34]	UUID:[260e9e98-e27c-4879-8fb0-bd768ca0305b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:27:05]	UUID:[b523a789-85a5-4bc9-a6ae-14fa9a8988eb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:27:05]	UUID:[3d9ec1a4-3365-4a92-8165-010764dbb2e9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:27:05]	UUID:[d2bb00f4-8565-468d-8244-ba36c30d270b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220530	20:27:09]	UUID:[492c435f-e33e-4e92-8363-6bae34b68b2f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:27:09]	UUID:[1d2213c6-d078-4dd9-8582-841e981c6dc6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:27:09]	UUID:[e132b34c-b84d-4015-80b9-5c8c8e5ddae6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:27:09]	UUID:[a23385c3-bba0-4753-b7e4-56ed2dfef76b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:28:05]	UUID:[4291253b-bf55-4aba-9a41-ea49e112f48e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:28:05]	UUID:[ffed013b-ebaf-41eb-9b6b-023f04c7189f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:28:05]	UUID:[299d2948-e22a-4198-8bd1-36d5b78796a3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:28:05]	UUID:[0c39ad2d-f2ac-4191-944a-338803f3106d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:29:04]	UUID:[6205ed8b-95b0-4861-8d39-5dc00beff4b9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:29:04]	UUID:[2c2ec6aa-fc5d-4c4f-8d74-ec25edaa266a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:29:04]	UUID:[a84cf815-ef56-43bb-9d98-982c310a89ea]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:29:04]	UUID:[a9024206-b8d9-4747-859f-4f823df6871c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:29:40]	UUID:[8d4b8ddd-0c21-424f-9811-271ee2ecbdff]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:29:40]	UUID:[652a796a-7d47-43f3-8eae-3035a2a022da]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:29:40]	UUID:[3e8543de-6314-4eeb-adaa-93372165172c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220530	20:29:44]	UUID:[34fc1a90-28d5-44c6-976d-737f4f9ede7e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:29:44]	UUID:[21c88e93-bf7e-4695-9103-e04a9eaf7916]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:29:44]	UUID:[9031c190-10ea-4418-9c1b-ce9972cb9080]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:29:44]	UUID:[572d16a5-3ad5-47f0-9b79-a39589dbffde]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:32:06]	UUID:[847f8f0d-3125-4fc5-82ae-b9e8e968bdf9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:32:06]	UUID:[e317de49-f57d-4163-b460-285e54e91a7b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:32:06]	UUID:[acd11364-1df8-4ed9-8d0e-fd8a4422a8fa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:32:06]	UUID:[4e59dd16-6b8c-408f-b1eb-61878472b6e6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:34:33]	UUID:[36286792-b54a-4746-a183-5fb933326df4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:34:33]	UUID:[fa09c2cc-b696-405e-9b11-b593344fd51f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:34:33]	UUID:[b1466ef5-7610-4318-9568-09aecdd991b8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:34:33]	UUID:[e0bd46e4-5314-4add-8fca-3da7d380a997]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:34:54]	UUID:[9433e47f-e5cb-4c4a-9c5d-a8c3983d53ac]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:34:54]	UUID:[cecd07b9-97e9-432a-928c-9536ea1abe7f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:34:55]	UUID:[bc90a605-4bc2-4de8-886c-592e1d90e740]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in failed]
+
+DateTime:[20220530	20:34:58]	UUID:[6a0f83d9-8f9f-48a0-b2d0-1927429600e5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:34:58]	UUID:[2dddb9ae-2a4e-46a1-b071-81ce1e25c571]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:34:58]	UUID:[0387d5cb-768f-4c4d-a237-665d890533b1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:34:58]	UUID:[f69541ae-013f-431d-be0b-a48d19bed0bb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:35:29]	UUID:[2899a61b-3bdd-4411-bf8a-e7a800adeb82]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:35:29]	UUID:[ffeda35c-63ce-4559-8cce-d8c1d9080472]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:35:29]	UUID:[a4e2b6ef-832d-4760-9251-25c15b96d5b8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:35:29]	UUID:[a4c7835e-4f0e-431e-ad4b-a4a7f3f27f59]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:36:44]	UUID:[bab470df-bdb1-4ac7-8a03-4e5121eff81d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:36:44]	UUID:[9d54fc74-203a-4286-b471-ddfcdbcda2a1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:36:44]	UUID:[47349b4f-6735-4fc7-bb4e-2d4d460eaf45]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:36:44]	UUID:[51bca209-7f0e-45de-8008-9eb72626978a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:37:07]	UUID:[d1ecf5aa-7768-450a-8aad-f9356a5a7d3b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:37:07]	UUID:[0339ed70-ef6b-4914-802b-05138a00f6ae]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:37:07]	UUID:[9d7cb3c7-5ae2-4641-994e-4389f2299397]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:37:07]	UUID:[4a52977c-c24e-4c25-bddc-05cdf5ceec59]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:37:45]	UUID:[e80b82f8-0c53-4436-ba13-0b913cd74268]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:37:45]	UUID:[1b85976d-0751-4f41-b8cf-3eb3c1756ff1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:37:45]	UUID:[69e3c9fe-9fd6-4a1e-b6bf-6f2a7ebbd37a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:37:45]	UUID:[7230476a-49b7-4860-8aee-599b32a988d6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:52:35]	UUID:[4214125c-3beb-4548-95ca-bfc82f23c553]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:52:35]	UUID:[68b92d41-ba8d-4753-b86d-2bde4ec57578]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:52:36]	UUID:[bd3fee8c-0863-447c-b2cc-30dfd38e85a1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:52:36]	UUID:[2856c329-8c2e-4ca1-bdcd-bac52969ddda]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:53:10]	UUID:[02cef472-78c3-453a-8835-60175121ff45]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:53:10]	UUID:[d0e881cf-7391-4097-a3bf-05b958a27e1a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:53:10]	UUID:[21e46b2b-3d21-45fe-bd2d-f28ee201b1e9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:53:10]	UUID:[c68d6fd1-99ce-42a2-823a-e874cfeff229]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220530	20:55:42]	UUID:[abd76081-ac37-4b9f-90bf-7276e888c337]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com Attempting to sign-in]
+
+DateTime:[20220530	20:55:42]	UUID:[d5d7b5f1-7021-4415-811f-513c71fa088a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe2@gg.com ]
+
+DateTime:[20220530	20:55:42]	UUID:[7de4a035-dfce-4c6a-8f41-5e48388f2c8c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe2@gg.com logged in successfully]
+
+DateTime:[20220530	20:55:42]	UUID:[22b8994a-2d29-4eb4-843c-ee9c396e1e38]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]

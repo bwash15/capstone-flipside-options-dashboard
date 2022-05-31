@@ -68,3 +68,294 @@ DateTime:[20220525	13:44:46]	UUID:[80bf7a51-36b5-410d-bc7c-01ef976a6055]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
 	LOC:[errLog.txt]
 	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220525	23:39:13]	UUID:[a8437ad2-6241-43cc-8a70-809508c41d98]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'split')]
+
+DateTime:[20220525	23:39:13]	UUID:[fa544a85-5318-453c-b31c-9cce62104d90]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'split')]
+
+DateTime:[20220525	23:39:47]	UUID:[9e9713fd-5af5-4de1-af2b-bbeb7e95b6b2]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : token is not defined]
+
+DateTime:[20220525	23:39:47]	UUID:[92401401-1b97-4570-ac81-8ed19880b00f]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : token is not defined]
+
+DateTime:[20220525	23:42:03]	UUID:[96d5d40e-ac27-40c3-a67e-f74cc7ed84b8]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220525	23:42:03]	UUID:[b5c23ae1-f3e2-448b-893e-e7fc6495fc12]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : date is not defined]
+
+DateTime:[20220525	23:42:41]	UUID:[05eff3c3-ecad-41ff-adbb-ecabe6d64f59]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220525	23:42:41]	UUID:[2b216827-5267-44e9-bf44-b22fa6521023]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220525	23:43:23]	UUID:[29a06796-04f4-456d-b7d2-b72ffca42907]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220525	23:43:23]	UUID:[339174c2-cd50-407c-b7a2-05eae6edbe4e]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : date.getHours is not a function]
+
+DateTime:[20220530	19:51:21]	UUID:[7cb16c70-2dde-4bd6-90a1-3f25ff2c3a89]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle]
+
+DateTime:[20220530	19:51:21]	UUID:[44aef974-dcb1-4731-b912-dd32080e4b06]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle]
+
+DateTime:[20220530	19:56:19]	UUID:[541b967d-c51a-485a-879e-26da263a4087]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[SyntaxError : Unexpected token n in JSON at position 0]
+
+DateTime:[20220530	20:08:04]	UUID:[b61dfcf6-8491-4651-97c6-d7f13d0b6d3c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader.substring is not a function]
+
+DateTime:[20220530	20:08:04]	UUID:[b0cf1435-b448-445c-a848-4b1f3b51aacc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader.substring is not a function]
+
+DateTime:[20220530	20:08:31]	UUID:[bc6d3324-9e58-46d7-a460-ba3b2e9dab85]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'substring')]
+
+DateTime:[20220530	20:08:31]	UUID:[72a3759d-93fc-4486-b57a-3682037574c7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'substring')]
+
+DateTime:[20220530	20:08:32]	UUID:[0dc43aec-e3a6-4eb7-9c42-4a51fa9638c3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader.substring is not a function]
+
+DateTime:[20220530	20:08:32]	UUID:[2bc76207-813a-46bf-8bec-33d456328d19]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader.substring is not a function]
+
+DateTime:[20220530	20:08:45]	UUID:[140ce085-7fd3-4aa7-8582-cfe502b300bb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader?.startsWith is not a function]
+
+DateTime:[20220530	20:08:45]	UUID:[80064bf7-269e-4920-bfbf-ab25d1350ce4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader?.startsWith is not a function]
+
+DateTime:[20220530	20:10:18]	UUID:[f24da6a3-6992-4c64-a025-6fa02b503d4e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader?.startsWith is not a function]
+
+DateTime:[20220530	20:12:40]	UUID:[72d9fcc5-bfa4-49f3-92a9-798e6d64c2c6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : subs is not defined]
+
+DateTime:[20220530	20:12:40]	UUID:[700d9972-1e38-4ff2-962c-97223a6e4c43]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : subs is not defined]
+
+DateTime:[20220530	20:13:08]	UUID:[58a3485c-cee7-4277-ab1a-63815910e5f1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : subs is not defined]
+
+DateTime:[20220530	20:13:08]	UUID:[9626343e-c158-4151-933f-4b293589d586]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : subs is not defined]
+
+DateTime:[20220530	20:16:17]	UUID:[0571b36c-ea66-415b-a4ff-b8d80e0aaf06]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : JSON.stringify(...).repalceAll is not a function]
+
+DateTime:[20220530	20:16:17]	UUID:[402e84f6-d912-4d8e-b532-b5191275d925]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : JSON.stringify(...).repalceAll is not a function]
+
+DateTime:[20220530	20:18:01]	UUID:[69339dde-f41e-4510-bfa4-0f8a14ae03c9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader.repalceAll is not a function]
+
+DateTime:[20220530	20:18:01]	UUID:[6778f1ff-43ee-4474-9af2-9618cf871a75]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : authHeader.repalceAll is not a function]
+
+DateTime:[20220530	20:26:35]	UUID:[ac6e636a-a53f-4bb9-92a8-2ec91fda8974]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : roleCheck.map is not a function]
+
+DateTime:[20220530	20:26:35]	UUID:[06c7f2d1-8391-49b0-aea2-b589b5c93bd1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : roleCheck.map is not a function]
+
+DateTime:[20220530	20:27:10]	UUID:[5924635d-5105-400a-98bf-3907d4e0ec13]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : result is not defined]
+
+DateTime:[20220530	20:27:10]	UUID:[86a1cdc5-36ea-4615-947c-a590134200f9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : result is not defined]
+
+DateTime:[20220530	20:28:07]	UUID:[291920f8-0541-4096-a356-992c32afd1d2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : result is not defined]
+
+DateTime:[20220530	20:28:07]	UUID:[35570cb0-3c01-498e-a2f1-2e75264c219f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : result is not defined]
+
+DateTime:[20220530	20:34:59]	UUID:[ee20aa88-0d6e-402c-b096-c89f34b0571a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:34:59]	UUID:[795c5e13-cb6e-4ea6-9baf-4a828efbecf0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:35:30]	UUID:[96e06160-d57b-43ac-a983-5b07757e3457]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'req')]
+
+DateTime:[20220530	20:35:31]	UUID:[57d4f1df-e315-4401-89d3-e9e64f077c0b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'req')]
+
+DateTime:[20220530	20:36:45]	UUID:[a2663216-5af0-4d25-848c-8c9186b7b8cc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:36:45]	UUID:[2257763c-ee98-4aac-ac1c-61f84d97253c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:37:08]	UUID:[969ef8ff-b947-4b08-8725-30efded1727a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:37:08]	UUID:[023fd34d-41ba-4aeb-8a39-903b1e2470a9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:37:46]	UUID:[dbd6daf0-1083-4e41-bc3d-1fdfa90f31bd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:37:46]	UUID:[bbb251e0-96ed-4eea-a81f-769c2468b5ea]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:47:11]	UUID:[076855da-9fce-4040-a869-f298b5303c60]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:47:11]	UUID:[e772bd73-ca2e-4ff3-85c4-40b3aed4c7ea]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:47:45]	UUID:[9e777705-94ba-42e6-8bf8-b2cddc2e69f2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:47:45]	UUID:[19070f94-a8a8-43fa-9f53-69aaacae6768]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:48:01]	UUID:[01aea359-34ba-4b18-8ea4-1a6754cf8d11]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:48:01]	UUID:[fdcb977a-77e0-4d61-b1f3-d2405aafe26a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:49:13]	UUID:[23ad93d0-9c44-4f94-99bd-e03b06cc0891]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:49:13]	UUID:[45a92a18-8e61-4191-b7bd-307edb0fb8d1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedRoles is not iterable]
+
+DateTime:[20220530	20:52:37]	UUID:[a333f27b-c192-4dc1-984b-76e095d7939e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : rolesArray is not defined]
+
+DateTime:[20220530	20:52:37]	UUID:[7d37a7cf-1503-4d70-ae5a-ea492b9c43f9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : rolesArray is not defined]
+
+DateTime:[20220530	20:53:28]	UUID:[5a6c1854-0920-4f41-957e-cc6bc98c4a05]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]

@@ -4,9 +4,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
-
-import useUser from '../../hooks/useUser';
 import axios from '../../api/axios';
+import { StepButton } from '@mui/material';
 
 const URL = '/ProfilePage';
 
@@ -15,7 +14,6 @@ const EMAIL_REGEX = /\S+@\S+\.\S+/;
 
 const EditButton = (props) => {
 
-    const [user, setUser] = React.useState('')
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
     const [showCancelButton, setCancelButton] = React.useState(false);
@@ -31,7 +29,10 @@ const EditButton = (props) => {
     const getInfo = async () => {
         try {
             console.log("START");
-            const res = await axios.post(URL, JSON.stringify(props.value),
+            const res = await axios.post(URL, JSON.stringify({
+                "email": props.value
+            }
+            ),
                 {
                     headers: { 'Content-Type': 'application/json' },
                     withCredentials: true
@@ -39,10 +40,11 @@ const EditButton = (props) => {
             );
             console.log("After");
             console.log(JSON.stringify(res?.data));
+            console.log(res.data.firstname);
             setUser({
-                firstName: res.body.firstName,
-                lastName: res.body.lastName,
-                email: res.body.email
+                firstName: res.data.firstname,
+                lastName: res.data.lastname,
+                email: res.data.email
             });
 
         } catch (error) {
@@ -56,7 +58,53 @@ const EditButton = (props) => {
         }
     }
 
+    const updateUserInfo = async() =>{
+        if(newUser && user)
+        {
+            try {
+                console.log("START");
+                const res = await axios.put(URL, JSON.stringify({
+                    "oldEmail": props.value,
+                    "email": user.email,
+                    "firstname": user.firstName,
+                    "lastname": user.lastName
+                }
+                ),
+                    {
+                        headers: { 'Content-Type': 'application/json' },
+                        withCredentials: true
+                    }
+                );
+                console.log("After");
+                console.log(res.data.firstname);
+                console.log(JSON.stringify(res?.data));
+                console.log(res.data.firstname);
+                setUser({
+                    firstName: res.data.firstname,
+                    lastName: res.data.lastname,
+                    email: res.data.email
+                });
+                setNewUser(user);
 
+
+            } catch (error) {
+                if (
+                    error.response &&
+                    error.response.status >= 400 &&
+                    error.response.status <= 500
+                ) {
+                    setEmailError(error.response.data.message);
+                    setUser(newUser);  
+                }
+            }
+        }
+    };
+
+    const [user, setUser] = React.useState({
+        firstName: "",
+        lastName: "",
+        email: ""
+    })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
         lastName: "",
@@ -90,10 +138,7 @@ const EditButton = (props) => {
             setAcceptButton(prev => !prev);
             setCancelButton(prev => !prev);
             setEnabled(prev => !prev);
-            setNewUser(user);
-            setFirstError("");
-            setLastError("");
-            setEmailError("");
+            updateUserInfo();
         }
     }
 
@@ -120,23 +165,26 @@ const EditButton = (props) => {
                     <Typography sx={{ width: "100px" }}>FirstName:</Typography>
                 </div>
                 <div className={styles.one_input}>
-                    <TextField style={{ width: "250px" }} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required />
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px", heigth: "70px" }} id="firstName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.firstName} required />
                 </div>
                 {firstError && <div className={styles.one_error}>{firstError}</div>}
                 <div className={styles.two_label}>
                     <Typography sx={{ width: "100px" }}>LastName:</Typography>
                 </div>
                 <div className={styles.two_input}>
-                    <TextField style={{ width: "250px" }} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required />
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="lastName" variant="outlined" disabled={enabled} onChange={handleChange} value={user.lastName} required />
                 </div>
                 {lastError && <div className={styles.two_error}>{lastError}</div>}
                 <div className={styles.three_label}>
                     <Typography sx={{ width: "100px" }}>Email:</Typography>
                 </div>
                 <div className={styles.three_input}>
-                    <TextField style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
+                    <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
+                <div className={styles.password_label}>
+                    <Button>Update Password</Button>
+                </div>
             </div>
         </div>
     );

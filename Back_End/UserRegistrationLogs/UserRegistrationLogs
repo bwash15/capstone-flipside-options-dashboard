@@ -13,3 +13,58 @@ DateTime:[20220525	22:21:50]	UUID:[f9b3528a-3677-4b36-8a94-2728b2687c06]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
 	LOC:[registerController/handleNewUser]
 	Message:[12@12.com : user registered successfully]
+
+DateTime:[20220525	23:35:54]	UUID:[951dd44b-4a3a-4e46-9502-8550d735922a]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[11@11.com : Attempting to Register]
+
+DateTime:[20220525	23:35:54]	UUID:[c50f7c60-21c6-4ab6-b37f-2fb224c634a3]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[11@11.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220525	23:35:54]	UUID:[c78a1e41-e4b5-4f07-a7cd-90af0c9be84b]
+	PATH:[D:\School\Project and Portfolio 5\TestBranch2.0\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[11@11.com : user registered successfully]
+
+DateTime:[20220526	10:00:58]	UUID:[4c1ceb3d-543c-4780-acb8-42ae66a56d15]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[33@33.com : Attempting to Register]
+
+DateTime:[20220526	10:00:59]	UUID:[9c956171-2725-4e7b-a8b2-4d6674684655]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[33@33.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220526	10:00:59]	UUID:[323f02b3-991a-49eb-9e42-25064ae2f0a5]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[33@33.com : user registered successfully]
+
+DateTime:[20220526	10:40:21]	UUID:[755bfd29-70d8-45a0-9f7c-0aa7ba44c68e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[12@12.com : Attempting to Register]
+
+DateTime:[20220526	10:40:22]	UUID:[fb037513-2b8b-48bd-848e-8ab590fd125d]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[12@12.com : Duplicate found, Register Conflict]
+
+DateTime:[20220526	10:40:44]	UUID:[cca32f35-b75e-429d-8f48-5283b119b783]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[33@33.com : Attempting to Register]
+
+DateTime:[20220526	10:40:44]	UUID:[22f95dac-80f2-4c2b-8100-3a7ecb50666e]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[33@33.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220526	10:40:44]	UUID:[0cac884b-d353-4a0b-afc9-f31b4edecb02]
+	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[33@33.com : user registered successfully]

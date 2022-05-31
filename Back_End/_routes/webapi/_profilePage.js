@@ -11,7 +11,7 @@ router.route('/')
 
 
 router.route('/:email')
-    .get(profileController.getProfile)
+    .post(profileController.getProfile)
     .put(profileController.updateProfileInfo);
 
 module.exports = router;

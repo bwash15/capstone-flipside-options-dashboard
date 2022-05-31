@@ -58,12 +58,19 @@ function App() {
           <Route element={<PersistLogin />}>
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="ProfilePage" element={<ProfilePage />} />
+              <Route path="/tiles" exact element={<BasicCard />} />
             </Route>
 
             {/** Admin, Editor, and User Routes **/}
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="/" element={<Home />} />
               <Route path="landingpage" element={<LandingPage />} />
+
+              <Route path="/addTile" exact element={<AddTile />} />
+              <Route path="/editTile/:id" element={<EditTile />} />
+              <Route path="/addOption" exact element={<AddOption />} />
+              <Route path="/editOption/:id" element={<EditOption />} />
+              <Route path="/trading" exact element={<Trading />} />
             </Route>
 
             {/** Editor and User Access **/}
@@ -80,12 +87,7 @@ function App() {
               <Route path="admin" element={<Admin />} />
             </Route>
           </Route>
-          <Route path="/tiles" exact element={<BasicCard />} />
-          <Route path="/addTile" exact element={<AddTile />} />
-          <Route path="/editTile/:id" element={<EditTile />} />
-          <Route path="/addOption" exact element={<AddOption />} />
-          <Route path="/editOption/:id" element={<EditOption />} />
-          <Route path="/trading" exact element={<Trading />} />
+
 
           {/** Catch All Requests that dont match a route above **/}
           <Route path="*" element={<Missing />} />
