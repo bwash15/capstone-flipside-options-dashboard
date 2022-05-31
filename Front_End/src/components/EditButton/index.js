@@ -6,14 +6,17 @@ import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
 import axios from '../../api/axios';
 import { StepButton } from '@mui/material';
+import useAuth from '../../hooks/useAuth';
 
 const URL = '/ProfilePage';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
+const PHONE_REGEX = /^[0-9]{9}$/;
 
 const EditButton = (props) => {
 
+    const {auth} = useAuth();
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
     const [showCancelButton, setCancelButton] = React.useState(false);
@@ -21,6 +24,8 @@ const EditButton = (props) => {
     const [firstError, setFirstError] = React.useState("");
     const [lastError, setLastError] = React.useState("");
     const [emailError, setEmailError] = React.useState("");
+    const [phoneError, setPhoneError] = React.useState("");
+    
 
     useEffect(() => {
         getInfo();
@@ -33,10 +38,7 @@ const EditButton = (props) => {
                 "email": props.value
             }
             ),
-                {
-                    headers: { 'Content-Type': 'application/json' },
-                    withCredentials: true
-                }
+                {headers: {"Authorization" :`Bearer ${auth.accessToken}`}}
             );
             console.log("After");
             console.log(JSON.stringify(res?.data));
@@ -103,12 +105,14 @@ const EditButton = (props) => {
     const [user, setUser] = React.useState({
         firstName: "",
         lastName: "",
-        email: ""
+        email: "",
+        phone: "N/A"
     })
     const [newUser, setNewUser] = React.useState({
         firstName: "",
         lastName: "",
-        email: ""
+        email: "",
+        phone: "N/A"
     })
 
     const handleChange = ({ currentTarget: input }) => {
@@ -124,13 +128,15 @@ const EditButton = (props) => {
     }
 
     function handleAccept() {
-        if (!NAME_REGEX.test(user.firstName) || !NAME_REGEX.test(user.lastName) || !EMAIL_REGEX.test(user.email)) {
+        if (!NAME_REGEX.test(user.firstName) || !NAME_REGEX.test(user.lastName) || !EMAIL_REGEX.test(user.email) || !PHONE_REGEX.test(user.phone) && user.phone != "N/A") {
             if (!NAME_REGEX.test(user.firstName))
                 setFirstError("Invalid FirstName!");
             if (!NAME_REGEX.test(user.lastName))
                 setLastError("Invalid LastName!");
             if (!EMAIL_REGEX.test(user.email))
                 setEmailError("Invalid Email!");
+            if (!PHONE_REGEX.test(user.phone) && user.phone != "N/A")
+                setPhoneError("Invalid Phone Number!");
             return;
         }
         else {
@@ -150,6 +156,7 @@ const EditButton = (props) => {
         setFirstError("");
         setLastError("");
         setEmailError("");
+        setPhoneError("");
         setUser(newUser);
     }
 
@@ -182,6 +189,13 @@ const EditButton = (props) => {
                     <TextField sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="email" variant="outlined" disabled={enabled} onChange={handleChange} value={user.email} required />
                 </div>
                 {emailError && <div className={styles.three_error}>{emailError}</div>}
+                <div className={styles.four_label}>
+                    <Typography sx={{ width: "100px" }}>Phone #:</Typography>
+                </div>
+                <div className={styles.four_input}>
+                    <TextField inputProps={{ inputMode: 'numeric', pattern: '[0-9]*' }} sx={{'& legend': { display: 'none' },'& fieldset': { top: 0 }}} style={{ width: "250px" }} id="phone" variant="outlined" disabled={enabled} onChange={handleChange} value={user.phone} required />
+                </div>
+                {phoneError && <div className={styles.four_error}>{phoneError}</div>}
                 <div className={styles.password_label}>
                     <Button>Update Password</Button>
                 </div>

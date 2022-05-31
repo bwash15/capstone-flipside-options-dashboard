@@ -12,7 +12,7 @@ const verifyJWT = (req, res, next) => {
     myEmitter.emit(`jwtVerification`, ` Verifying JWT for access to the page`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
     const date = new Date();
     const tokenStamp = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-    const authHeader = JSON.stringify(req.headers.authorization).replaceAll("\"","");
+    const authHeader = JSON.stringify(req.headers.authorization).replaceAll('"',"");
     
     // const subs = authHeader.substring(0, 10);
     console.log("-----AUTH HEADERs-----")
