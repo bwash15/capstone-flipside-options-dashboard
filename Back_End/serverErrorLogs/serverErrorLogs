@@ -359,3 +359,38 @@ DateTime:[20220530	20:53:28]	UUID:[5a6c1854-0920-4f41-957e-cc6bc98c4a05]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
 	LOC:[errLog.txt]
 	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]
+
+DateTime:[20220530	21:45:07]	UUID:[7bf3422e-beff-461a-9541-191d7cb97d4f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]
+
+DateTime:[20220530	21:45:44]	UUID:[308c636a-8b05-4d5e-89d4-d1891ae8841d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]
+
+DateTime:[20220530	21:46:33]	UUID:[b1a50784-bfab-4653-965d-1cf90a359741]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]
+
+DateTime:[20220530	21:48:59]	UUID:[0287a9ff-2d75-488a-a44b-f8ae8f826c50]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : authHeader is not defined]
+
+DateTime:[20220530	21:48:59]	UUID:[d0eb8fbc-6016-47c2-a285-8b94015507f3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : authHeader is not defined]
+
+DateTime:[20220530	21:49:01]	UUID:[207e5532-73bd-4674-b820-edcb95e1df96]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : authHeader is not defined]
+
+DateTime:[20220530	21:49:01]	UUID:[8e0c73de-afd7-481b-9026-96d198a59e7c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[ReferenceError : authHeader is not defined]

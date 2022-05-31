@@ -14,39 +14,31 @@ export const TileList = () => {
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
 
-  //const {addTile} = useContext(GlobalContext);
-  // const [tileName, setName] = useState('');
-  // const [tileType, setType] = useState('');
-  // const [uuid, setUuid] = useState('');
-  // const getTiles = async(e) => {
-  //     //e.preventDefault();
-  //     const url = './userTiles/get';
-  //     const result = await axios.post(url);
-  //     console.log(result.data);
-  //     console.log('number of items in tiles is ' + tiles.length)
-  //     return result.data;
-  //     //setTiles(result);
-  // }
-
-  useEffect(() => {
-    console.log("tile page");
-    console.log(auth.accessToken)
+  const getTiles = () => {
     const url = '/userTiles';
-    //{headers: {'Authorization' : `Bearer ${auth.accessToken}`}}
-    axios.get(url, {headers: {"Authorization" :`Bearer ${auth.accessToken}`}})
+    axios.get(url, {headers: {Authorization :`Bearer ${auth.accessToken}`}})
         .then((response) => {
           console.log("should have done post request");
           setTiles(response.data);
       })
-    //setTiles(getTiles());
     console.log('number of items in tiles is now ' + tiles.length)
+  }
+
+  useEffect(() => {
+    getTiles();
   }, []);
 
-  const deleteTile = (props) =>{
-    //get uuid
-    //model.delete(uuid)
-    const url = 'userTiles/delete';
-    //axios.post(url,props.value);
+  const deleteTile = async (val) =>{
+    console.log(val)
+    const url = '/userTiles';
+    await axios.delete(url,
+  {headers: {"Authorization" :`Bearer ${auth.accessToken}`},
+    data: JSON.stringify({
+      "uuid": val,
+    })
+  });
+  //refreshes the page with the new information
+  getTiles();
   }
 
   return (
@@ -58,7 +50,7 @@ export const TileList = () => {
           <strong>{tile.tileType}</strong>
           <div className='ms-auto'>
             <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
-            <Button color="danger" value = {tile.uuid} onClick={deleteTile}>Delete</Button>
+            <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>
           </div>
         </ListGroupItem> 
       </div>

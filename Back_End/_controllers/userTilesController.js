@@ -33,6 +33,7 @@ const handleUserTilesGet = async (req, res) => {
 }
 
 const handleUserTilesDelete = async (req, res) => {
+    console.log("---AT THE DELETE CONTROLLER FOR USER TILE---")
     const uuid = req.body.uuid;
     //console.log("Trying to delete tile")
     // Create and Store the new tile
