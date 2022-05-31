@@ -4,17 +4,18 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import styles from './style.module.css';
-import axios from '../../api/axios';
+
 import useUser from '../../hooks/useUser';
 import axios from '../../api/axios';
 
-const URL = '/profile';
+const URL = '/ProfilePage';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
 
 const EditButton = (props) => {
 
+    const [user, setUser] = React.useState('')
     const [showEditButton, setEditButton] = React.useState(true);
     const [showAcceptButton, setAcceptButton] = React.useState(false);
     const [showCancelButton, setCancelButton] = React.useState(false);
@@ -30,7 +31,7 @@ const EditButton = (props) => {
     const getInfo = async () => {
         try {
             console.log("START");
-            const res = await axios.get(URL, JSON.stringify("12@12.com"),
+            const res = await axios.post(URL, JSON.stringify(props.value),
                 {
                     headers: { 'Content-Type': 'application/json' },
                     withCredentials: true
@@ -55,11 +56,7 @@ const EditButton = (props) => {
         }
     }
 
-    const [user, setUser] = React.useState({
-        firstName: "Dustin",
-        lastName: "Huntzinger",
-        email: props.value
-    })
+
     const [newUser, setNewUser] = React.useState({
         firstName: "",
         lastName: "",

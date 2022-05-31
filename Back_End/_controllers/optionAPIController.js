@@ -17,7 +17,6 @@ const getAllOptionAPIpulls = (req, res) => {
 
 const createNewOptionAPIpull = (req, res) => {
   const newOptionAPIpull = {
-    apiPull_id: data.optionAPIpull[data.optionAPIpull.length - 1].apiPull_id + 1 || 1,
     request_id: req.body.request_id,
     results: [{
       break_even_price: req.body.results.break_even_price,

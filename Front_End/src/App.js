@@ -56,8 +56,8 @@ function App() {
           {/** User Only Access **/}
           {/** PersistLogin works with the RefreshToken to Persist the User Login **/}
           <Route element={<PersistLogin />}>
-            <Route element={<RequireAuth allowedRoles={[2001]} />}>
-              <Route path="profile" element={<ProfilePage />} />
+            <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
+              <Route path="ProfilePage" element={<ProfilePage />} />
             </Route>
 
             {/** Admin, Editor, and User Routes **/}

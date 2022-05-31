@@ -86,10 +86,9 @@ app.use('/userTiles', require('./_routes/_userTiles'))
 // access after expiration
 app.use('/refresh', require('./_routes/_refresh'));
 app.use('/logout', require('./_routes/_logout'));
-app.use(verifyJWT);
 //************************************************ */
 /** Web-level Middleware **/
-app.use('/ProfilePage', require('./_routes/webapi/_ProfilePage.js'));
+app.use('/profilePage', require('./_routes/webapi/_ProfilePage.js'));
 
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
@@ -103,6 +102,7 @@ app.use('/optionDetails', require('./_routes/api/optionDetails'));
 app.use('/optionGreeks', require('./_routes/api/optionGreeks'));
 app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
+app.use(verifyJWT);
 //app.use('/historicalDataModels', require('./_routes/api/users'));
 
 /**************************************************/
