@@ -11,10 +11,11 @@ import {Link, useNavigate} from 'react-router-dom'
 import { GlobalContext } from '../../context/GlobalState'
 import { v4 as uuidv4 } from "uuid";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import useAuth from '../../hooks/useAuth';
 
 
 export const AddTile = () => {
+    const {auth} = useAuth();
     //const {addTile} = useContext(GlobalContext);
     const [tileName, setName] = useState('');
     const [tileType, setType] = useState('');
@@ -29,10 +30,7 @@ export const AddTile = () => {
             "tileName" :tileName,
             "tileType": tileType,
         }),
-        {
-            headers: { 'Content-Type': 'application/json' },
-            withCredentials: true
-        });
+        {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
         navigate('/tiles', {replace: true});
     }
     const changeUUID = () => {

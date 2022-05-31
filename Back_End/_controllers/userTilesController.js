@@ -1,6 +1,7 @@
 const UserTile = require('../_model/userTiles');
 
 const handleUserTilesPost = async (req, res) => {
+    console.log("---AT THE POST CONTROLLER FOR USER TILE---")
     const name = req.body.tileName;
     const uuid = req.body.uuid;
     const type = req.body.tileType;
@@ -19,6 +20,7 @@ const handleUserTilesPost = async (req, res) => {
 }
 
 const handleUserTilesGet = async (req, res) => {
+   // console.log("---AT THE GET CONTROLLER FOR USER TILE---")
     const name = req.body.name;
     const uuid = req.body.uuid;
     const type = req.body.type;
@@ -32,7 +34,7 @@ const handleUserTilesGet = async (req, res) => {
 
 const handleUserTilesDelete = async (req, res) => {
     const uuid = req.body.uuid;
-    console.log("Trying to delete tile")
+    //console.log("Trying to delete tile")
     // Create and Store the new tile
     const result = await UserTile.deleteOne({"uuid": uuid});
     console.log(`trying to delete ${uuid}`)
@@ -40,4 +42,4 @@ const handleUserTilesDelete = async (req, res) => {
     console.log(result);
 }
 
-module.exports = { handleUserTilesPost, handleUserTilesGet };
+module.exports = { handleUserTilesPost, handleUserTilesGet, handleUserTilesDelete };

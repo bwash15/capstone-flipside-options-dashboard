@@ -57,6 +57,7 @@ function App() {
           {/** PersistLogin works with the RefreshToken to Persist the User Login **/}
           <Route element={<PersistLogin />}>
             <Route element={<RequireAuth allowedRoles={[2001]} />}>
+              <Route path="/tiles" exact element={<BasicCard />} />
               <Route path="profile" element={<ProfilePage />} />
             </Route>
 
@@ -64,6 +65,12 @@ function App() {
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="/" element={<Home />} />
               <Route path="landingpage" element={<LandingPage />} />
+
+              <Route path="/addTile" exact element={<AddTile />} />
+              <Route path="/editTile/:id" element={<EditTile />} />
+              <Route path="/addOption" exact element={<AddOption />} />
+              <Route path="/editOption/:id" element={<EditOption />} />
+              <Route path="/trading" exact element={<Trading />} />
             </Route>
 
             {/** Editor and User Access **/}
@@ -80,12 +87,7 @@ function App() {
               <Route path="admin" element={<Admin />} />
             </Route>
           </Route>
-          <Route path="/tiles" exact element={<BasicCard />} />
-          <Route path="/addTile" exact element={<AddTile />} />
-          <Route path="/editTile/:id" element={<EditTile />} />
-          <Route path="/addOption" exact element={<AddOption />} />
-          <Route path="/editOption/:id" element={<EditOption />} />
-          <Route path="/trading" exact element={<Trading />} />
+
 
           {/** Catch All Requests that dont match a route above **/}
           <Route path="*" element={<Missing />} />

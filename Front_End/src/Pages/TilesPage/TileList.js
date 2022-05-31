@@ -1,50 +1,19 @@
-import React, { useContext, useState, useEffect}  from 'react'
+import React, { useState, useEffect}  from 'react'
 import { Link } from 'react-router-dom'
-import { GlobalContext } from '../../context/GlobalState'
 import {
   ListGroup,
   ListGroupItem,
   Button
 } from 'reactstrap'
 import axios from '../../api/axios'
-import { model } from 'mongoose'
-
-
-// export default class TileList extends React.Component{
-
-//     state = {
-//       tiles: []
-//     }
-
-//     componentDidMount = () => {
-//       this.getTiles();
-//     }
-
-//     getTiles = () => {
-//       axios.get('/userTiles').then((response) => {
-//         const data= response.data;
-//         this.setState({tiles: data})
-//         console.log("Data has been recieved")
-//       }).catch(() => {
-//         console.log("no data recieved")
-//       })
-//     }
-
-//     displayTiles(tiles){
-
-//     }
-//     render(){
-//       return(
-//         <div>Tile List Page</div>
-//       );
-//     }
-// }
-
+import useAuth from '../../hooks/useAuth';
 
 export const TileList = () => {
   //const { tiles, removeTile } = useContext(GlobalContext)
 
   const[tiles, setTiles] = useState([]);
+  const {auth} = useAuth();
+
   //const {addTile} = useContext(GlobalContext);
   // const [tileName, setName] = useState('');
   // const [tileType, setType] = useState('');
@@ -60,10 +29,14 @@ export const TileList = () => {
   // }
 
   useEffect(() => {
-    const url = './userTiles/get';
-    axios.post(url)
-      .then((response) => {
-        setTiles(response.data);
+    console.log("tile page");
+    console.log(auth.accessToken)
+    const url = '/userTiles';
+    //{headers: {'Authorization' : `Bearer ${auth.accessToken}`}}
+    axios.get(url, {headers: {"Authorization" :`Bearer ${auth.accessToken}`}})
+        .then((response) => {
+          console.log("should have done post request");
+          setTiles(response.data);
       })
     //setTiles(getTiles());
     console.log('number of items in tiles is now ' + tiles.length)
@@ -73,7 +46,7 @@ export const TileList = () => {
     //get uuid
     //model.delete(uuid)
     const url = 'userTiles/delete';
-    axios.post(url,props.value);
+    //axios.post(url,props.value);
   }
 
   return (
