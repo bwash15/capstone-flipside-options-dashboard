@@ -9,9 +9,9 @@ import {
 import {Link, useNavigate, useParams} from 'react-router-dom'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { GlobalContext } from '../../context/GlobalState'
+//import { GlobalContext } from '../../context/GlobalState'
 export const EditTile = (props) => {
-    const {tiles, editTile} = useContext(GlobalContext);
+    //const {tiles, editTile} = useContext(GlobalContext);
     const [selectedTile, setSelectedTile] = useState({
         id: '',
         name: ''
@@ -19,14 +19,14 @@ export const EditTile = (props) => {
     const navigate = useNavigate();
 
     const currentTileId = useParams();
-    useEffect(() => {
-        const tileId = currentTileId.id;
-        const selectedTile = tiles.find(tile => tile.id === tileId);
-        setSelectedTile(selectedTile)
-    }, [currentTileId, tiles])
+    //useEffect(() => {
+        //const tileId = currentTileId.id;
+        //const selectedTile = tiles.find(tile => tile.id === tileId);
+        //setSelectedTile(selectedTile)
+   // }, [currentTileId, tiles])
     const onSubmit = (e) => {
         e.preventDefault();
-        editTile(selectedTile);
+        //editTile(selectedTile);
         navigate('/tiles', {replace: true})
     }
     const onChange = (e) => {
