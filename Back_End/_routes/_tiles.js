@@ -7,7 +7,7 @@ const verifyRoles = require('../_middleware/verifyRoles');
 
 router.route('/').post(verifyRoles(ROLES_LIST), TilesController.tileGet)
                  .delete(verifyRoles(ROLES_LIST), TilesController.tileDelete);
-router.route('/update').post(verifyRoles(ROLES_LIST), TilesController.updateTileInfo)
+router.route('/add').post(verifyRoles(ROLES_LIST), TilesController.updateTileInfo)
 
 
 module.exports = router;

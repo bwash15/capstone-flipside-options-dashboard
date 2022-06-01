@@ -45585,3 +45585,603 @@ DateTime:[20220601	14:15:22]	UUID:[244e3044-28f3-4c46-8977-4e488a753c52]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
 	LOC:[_middleware/verifyRoles]
 	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:15]	UUID:[06c752ea-20e3-4481-970a-91f138930e08]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:15]	UUID:[c0fd377e-f907-4f22-9c98-91f38df7d9dc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:15]	UUID:[1b21a889-33c4-47a9-893a-3a118828bc73]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:15]	UUID:[f053d61f-a94f-4a74-8acf-852a68062085]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:15]	UUID:[0e429b33-0205-4462-9166-c98055571100]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:15]	UUID:[74beabc4-6ec1-4f52-a9a0-4ceae62a4448]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:15]	UUID:[2cc39424-a7c7-4582-8b78-24d223f4b1ac]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:15]	UUID:[2fbff5fe-c527-4a6a-8e2d-997ec99b55b7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:21]	UUID:[2d168521-8e7d-4585-b6e0-09cbd42b0b46]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:21]	UUID:[89aafab7-01ea-43f6-a9a4-116a686c555f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:21]	UUID:[fddfc5cc-14b4-479e-9baa-2da1b852b3a9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:21]	UUID:[176015fe-5e93-4010-8c7c-739fa053df26]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:21]	UUID:[44cf68bf-d986-4810-aabc-cc0eab147228]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:21]	UUID:[ab0fd910-2e62-4b6a-92fb-8f857a2531ee]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:21]	UUID:[48d95a5d-fe62-446e-9649-44b4abbf63a6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:21]	UUID:[e123c911-19f5-406b-87ff-4fe9a7c34b56]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:42]	UUID:[58651060-2523-42d0-93b8-5871bce26e2a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:42]	UUID:[66e12f12-ce27-436b-9201-0dd9eda101c2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:42]	UUID:[fb49580a-c66c-45b4-b63c-c567c312968a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:42]	UUID:[a2844183-4bd7-4454-abf7-fbb74cd1bf6b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:42]	UUID:[a319ef3a-2c76-4691-a445-3e06b3819f8d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:42]	UUID:[4623fce3-1f67-4043-b5f2-c388223e170e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:42]	UUID:[ccf3526e-f6eb-4827-8979-88a1683f8eff]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:42]	UUID:[54bcd1a8-55d5-41a2-b40c-c7ec7bec8ce4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:55]	UUID:[383040b0-23e8-40ad-9aa8-e984f45b836d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:55]	UUID:[a3351462-5470-4e2c-a9f2-a1b05462736f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:55]	UUID:[667b393f-1c8e-44d5-8f1e-3a627d7ba7f5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:55]	UUID:[9d250ef4-f812-4520-9da8-ef7717d2d7a3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:55]	UUID:[7ff2c3fc-8412-49ac-ba29-e939517864f3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:55]	UUID:[c07d9a10-7dd4-40ec-9f82-5333938bcc35]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:55]	UUID:[cefba0d2-0e74-48dd-a2ac-9818414f381d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:55]	UUID:[f3aeea60-be01-4c52-af50-f1bc92ca680b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:59]	UUID:[2c7a873a-1bcd-4c95-ae79-d3e94928f29c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:59]	UUID:[409a0c75-4418-4524-8dca-5ae70da8fa27]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:59]	UUID:[7dc0ce8d-2678-423a-aba1-9ffbeb20b666]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:59]	UUID:[e0784f2c-07ba-4927-b113-99c34acc8dab]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:32:59]	UUID:[3097810c-ee7c-4edd-8d9e-a3a84b2d2ed2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:32:59]	UUID:[086eceeb-29eb-4b02-8771-ab3cf7c86456]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:32:59]	UUID:[73d9c281-94b9-4daf-9fbe-5cfd01dafb73]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:32:59]	UUID:[2b850023-427b-4f9f-a8d2-3dd6997de82e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:37:44]	UUID:[78d8c860-c955-4be0-b363-18b34e51d672]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:37:44]	UUID:[b93fd440-183e-462e-97d6-866318678814]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:37:44]	UUID:[55f32cfe-5e5e-4ca0-9acd-9951aa187edf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:37:44]	UUID:[adc619ff-5db2-41dd-a0c3-916bb7838398]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:37:45]	UUID:[f9025acb-e04e-49d2-b30e-cf0826eccde1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:37:45]	UUID:[0ff0ec2a-a449-4f93-86fd-f9893772e248]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:37:45]	UUID:[23fedc55-d836-4130-8013-fc22de79c03d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:37:45]	UUID:[4c394b40-2428-480e-87f9-bbfd591708b2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:43]	UUID:[51066407-9c9d-4c97-a979-3c81b97313bf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:43]	UUID:[c072a51b-0951-47d7-8665-d08b98d7b7ba]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:43]	UUID:[9002cfa7-335d-4663-8a49-b90a09290923]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:43]	UUID:[65028164-6625-468d-8f2f-5587ba646518]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:43]	UUID:[a9fc3229-7746-4ba2-af53-2b02029235da]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:43]	UUID:[a92689fc-aa3e-440f-a730-175d3a882e5f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:43]	UUID:[cfa602d3-8b2f-4dda-a3ae-68c0fa045820]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:43]	UUID:[e10c24fa-fdf4-4530-8b8d-3ccc2425c5cd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:46]	UUID:[2c005684-5648-4836-a3c4-7d7e6de59498]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:46]	UUID:[e7cfe8c7-5924-4df6-b6e3-d7ccb39695df]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:46]	UUID:[d7000c9a-0a53-4210-b69c-52b3a8174d59]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:46]	UUID:[066c0ace-3491-4a43-aca8-d19c99c2b3a2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:46]	UUID:[526c5fac-01ad-4b4e-9dd9-d81913935d92]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:46]	UUID:[8547fa6d-1a7a-481c-b65b-87f6fe4c8d96]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:46]	UUID:[9cfb5883-3f9d-46c8-84ed-34c2da6ad921]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:46]	UUID:[d3ab3aaa-d48b-4ea6-8765-1c4c33d432f7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:47]	UUID:[58c36b47-8ce5-4979-b886-261663372908]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:47]	UUID:[4fbd5586-37cf-432a-9d8c-87eaef3b0d96]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:47]	UUID:[283234c1-88e9-40f7-880a-6c3b1f630cf0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:47]	UUID:[ce8233da-d3fd-498a-8ef0-3f069717e163]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:47]	UUID:[4eddaa51-c96e-4137-b896-b280f8113701]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:47]	UUID:[d133ca77-5883-4117-88a9-6ec10a17fbaa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:47]	UUID:[5818905d-e0ba-4b38-a9c9-2b0f676ddae2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:47]	UUID:[fcfbe58b-fe53-49c4-891d-3e9fc7c61e0a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:53]	UUID:[5abfbabf-2233-44db-82dc-2ae3a0dc00c5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:53]	UUID:[c3604d0b-4cea-4be9-a170-1805769bbb00]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:53]	UUID:[24b03885-a3a9-4fdb-b950-4ee08cccd56e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:53]	UUID:[37823624-19e2-4256-8a35-36354dd1f144]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:53]	UUID:[0ca99e82-195e-4b5a-99b2-bebd7ff8480d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:53]	UUID:[b4183a54-310c-428b-b932-a6d1057c525b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:53]	UUID:[4c77e306-79e8-4eb5-9d23-431272944d5b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:53]	UUID:[b277937d-2267-4e64-814e-7b07c4e7aa01]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:53]	UUID:[66dfcc35-5b6b-451d-bc51-dc9ee089947c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:53]	UUID:[cc903158-b76f-4d20-ae32-ac637495e5c2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:53]	UUID:[500cdca0-8660-4e1f-b49e-760b85f207d6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:53]	UUID:[a589f293-b649-46ae-9702-40c666b9b0de]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:39:53]	UUID:[6ab8e5a6-e494-4e52-a970-f7df753e00d9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:39:53]	UUID:[1f340690-5169-49cc-b72f-6109341454e5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:39:53]	UUID:[19d93faf-4a70-4a08-b090-1376cab01e49]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:39:53]	UUID:[21408470-d4a8-4e4a-8ac0-4111a929e733]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:08]	UUID:[4c62f313-ec0c-432c-bf8a-4728884005fb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:40:08]	UUID:[9849301b-7771-4a18-9753-36ac1bc80a3f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:40:08]	UUID:[83ceadc3-8a30-4082-8d37-f9b7f5d6b07f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:40:08]	UUID:[1f90c7c9-d890-4139-adc6-4ee42e6dcbb9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:08]	UUID:[bd29b13d-c4a2-4b19-a4d7-15158b8c30e3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:40:08]	UUID:[0704441f-7d43-4cda-8dbf-74416e09d295]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:40:08]	UUID:[92eeab07-8e6d-494b-935f-155f4fff0a69]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:40:08]	UUID:[a201d4e9-39bb-4b06-b83a-6a1935ad9659]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:09]	UUID:[33cc7d4d-9782-47b9-8788-da2a05750213]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:40:09]	UUID:[a91162a3-a077-4746-bd2e-21851e3163c0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:40:09]	UUID:[3a152bf0-71bd-4f08-b6e7-fce31c3c0fe2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:40:09]	UUID:[6391230a-7ea8-4ac3-bdb9-521319cadb7d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:09]	UUID:[6e7c1fe5-9eed-4bd6-adc7-37e436022f30]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:40:09]	UUID:[9a0e5e88-2a56-4ede-9012-010bab6debd2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:40:09]	UUID:[aa7ccab1-a95d-4930-ba23-910e77163e98]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:40:09]	UUID:[79cd93a9-c9be-4eeb-bcb5-409efce6a543]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:31]	UUID:[8487af29-9b8e-478a-806d-706de7d91ead]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:40:31]	UUID:[6fb10157-a57b-46ad-9825-6f4c3ac0f518]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:40:31]	UUID:[a803202e-874d-462f-a0ca-cfe88fb92fb1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:40:31]	UUID:[3da13699-e56c-4bad-834b-2edb6e327d84]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:31]	UUID:[4bfd925a-5a0a-4c8f-9f84-3049b661d5aa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:40:31]	UUID:[5aa8cccc-9654-48a9-8fa2-911e808fbec3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:40:31]	UUID:[0cc3bbfb-33fd-49c4-bcac-fc762fd165c5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:40:31]	UUID:[2bf2906c-fba0-4832-a415-9ac5c5f90729]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:41:43]	UUID:[79dc1c13-b06c-4c07-97ce-7ca275131a2a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:41:43]	UUID:[e2711b13-8262-4daa-9e64-987a939edef8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:41:43]	UUID:[5780c2ac-99f9-41b3-a640-71f5ed54265f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:41:43]	UUID:[928bd651-f1a4-4713-871e-1803899260ab]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220601	14:41:43]	UUID:[d600ce20-ee56-4c79-aa80-c452d87f11cf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220601	14:41:43]	UUID:[c0bce28e-4f5e-42a8-b5e5-afdb51ac5a21]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220601	14:41:43]	UUID:[53453bb6-abdc-4116-8955-55e2eac87a78]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220601	14:41:43]	UUID:[0d72cbed-cb1f-4c99-b79e-b77961e45f36]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]

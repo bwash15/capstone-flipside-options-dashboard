@@ -30,10 +30,11 @@ import Home from "./home"
 
 
 import BasicCard from "./Pages/TilesPage";
-import { AddOption } from "./Pages/TilesPage/OptionTile/AddOption"
+import { AddOption } from "./Pages/TilesPage/addOption"
 import { EditOption } from "./Pages/TilesPage/OptionTile/EditOption"
 import Trading from "./Pages/TradingPage";
 import { AddTile } from "./Pages/TilesPage/addTile";
+import  { BasicOptionCard }  from "./Pages/TilesPage";
 import { InnerTileList } from "./Pages/TilesPage/innerTilesList";
 function App() {
   const { width } = useWindowSize();
@@ -58,6 +59,7 @@ function App() {
           <Route element={<PersistLogin />}>
             <Route element={<RequireAuth allowedRoles={[2001]} />}>
               <Route path="/tiles" exact element={<BasicCard />} />
+              <Route path="/tiles/:id" element={<BasicOptionCard />} />
               <Route path="profile" element={<ProfilePage />} />
             </Route>
 
@@ -66,8 +68,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="landingpage" element={<LandingPage />} />
               <Route path="/addTile" exact element={<AddTile />} />
-              <Route path="/tiles/:id" element={<InnerTileList />} />
-              <Route path="/addOption" exact element={<AddOption />} />
+
+              <Route path="/tiles/add" element={<AddOption />} />
               <Route path="/editOption/:id" element={<EditOption />} />
               <Route path="/trading" exact element={<Trading />} />
             </Route>
