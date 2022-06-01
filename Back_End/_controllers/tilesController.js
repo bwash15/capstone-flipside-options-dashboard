@@ -28,9 +28,7 @@ const updateTileInfo = async (req, res) => {
 const tileGet = async (req, res) => {
     //Finds all tiles in the collection -> going to be changed to finding all tiles based on user id
     const tileUUID = req.body.uuid;
-    console.log("tile uuid is " + tileUUID);
     const result = await UserTile.findOne({uuid: tileUUID});
-    console.log("result should send " + result)
     res.json(result);
 }
 

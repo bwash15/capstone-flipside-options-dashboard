@@ -33,11 +33,12 @@ export const InnerTileList = () => {
   }, []);
 
   const deleteTile = async (val) =>{
-    const url = '/userTiles';
+    const url = '/tiles';
     await axios.delete(url,
   {headers: {"Authorization" :`Bearer ${auth.accessToken}`},
     data: JSON.stringify({
-      "uuid": val,
+      "tileUUID": tileUUID,
+      "optionUUID": val,
     })
   });
   //refreshes the page with the new information
