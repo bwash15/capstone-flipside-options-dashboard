@@ -34,7 +34,7 @@ import { AddOption } from "./Pages/TilesPage/OptionTile/AddOption"
 import { EditOption } from "./Pages/TilesPage/OptionTile/EditOption"
 import Trading from "./Pages/TradingPage";
 import { AddTile } from "./Pages/TilesPage/addTile";
-import { EditTile } from "./Pages/TilesPage/editTile";
+import { InnerTileList } from "./Pages/TilesPage/innerTilesList";
 function App() {
   const { width } = useWindowSize();
 
@@ -65,9 +65,8 @@ function App() {
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="/" element={<Home />} />
               <Route path="landingpage" element={<LandingPage />} />
-
               <Route path="/addTile" exact element={<AddTile />} />
-              <Route path="/editTile/:id" element={<EditTile />} />
+              <Route path="/tiles/:id" element={<InnerTileList />} />
               <Route path="/addOption" exact element={<AddOption />} />
               <Route path="/editOption/:id" element={<EditOption />} />
               <Route path="/trading" exact element={<Trading />} />
