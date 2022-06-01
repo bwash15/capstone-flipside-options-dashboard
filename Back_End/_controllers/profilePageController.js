@@ -2,6 +2,9 @@ const ProfileInfo = require('../_model/User');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
+const crypto = require('crypto');
+const { resolve } = require('path');
+const nodemailer = require('nodemailer');
 const myEmitter = new Emitter();
 myEmitter.on('profileControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
@@ -61,14 +64,37 @@ const updateProfileInfo = async (req, res) => {
     res.json(result);
 }
 
-const sendEmail = (req,res) => {
+const sendEmail = async (req,res) => {
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then((result) => {
-          window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
-      }, (error) => {
-          console.log(error.text);
-      });
+    const email = req.body.email
+    console.log(email);
+    const transport = nodemailer.createTransport({
+        host: process.env.REACT_APP_MAIL_HOST || process.env.MAIL_HOST,
+        port: process.env.REACT_APP_MAIL_PORT || process.env.MAIL_PORT,
+        auth: {
+            user: process.env.REACT_APP_MAIL_USER || process.env.MAIL_USER,
+            pass: process.env.REACT_APP_MAIL_PASS || process.env.MAIL_PASS,
+        }
+    })
+
+    await transport.sendMail({
+        from: process.env.MAIL_FROM,
+        to: email,
+        subject: "Hello John",
+        html: `<div className="email" style="
+        border: 1px solid black;
+        padding: 20px;
+        font-family: sans-serif;
+        line-height: 2;
+        font-size: 20px;
+        ">
+        <h2> Hope you get this!</h2>
+        <p>${email}</p>
+        
+        </div>`
+    })
+    res.send({message: "done"});
   }
+
 
 module.exports = { updateProfileInfo, getProfile, sendEmail };

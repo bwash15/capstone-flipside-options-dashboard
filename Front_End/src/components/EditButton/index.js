@@ -186,13 +186,31 @@ const EditButton = (props) => {
         setPhoneNum(newPhoneNum);
     }
 
-    function HasPhone(){
-        if(!user.phone)
-            return "N/A";
-        else
-            return "";
-    }
+    const handleUpdatePassword = async () =>{
+        try {
+            const url = "/ProfilePage/email"
+            await axios.post(url, JSON.stringify({
+                "email": user.email,
+            }
+            ),
+                
+                {headers: {"Authorization" :`Bearer ${auth.accessToken}`}}
+                
+            );
+            console.log("After");
 
+
+        } catch (error) {
+            if (
+                error.response &&
+                error.response.status >= 400 &&
+                error.response.status <= 500
+            ) {
+                setEmailError(error.response.data.message);
+                console.log(error)
+            }
+        }
+    }
     return (
         <div>
             <Stack justifyContent={"right"} spacing={2} direction="row" margin={"10px"}>
@@ -237,7 +255,7 @@ const EditButton = (props) => {
                 </div>
                 {phoneError && <div className={styles.four_error}>{phoneError}</div>}
                 <div className={styles.password_label}>
-                    <Button>Update Password</Button>
+                    <Button onClick={handleUpdatePassword}>Update Password</Button>
                 </div>
             </div>
         </div>

@@ -9,8 +9,8 @@ router.route('/')
     .put(profileController.updateProfileInfo);
 
 
-router.route('/:email')
-    .post(profileController.getProfile)
+router.route('/email')
+    .post(profileController.sendEmail)
     .put(profileController.updateProfileInfo);
 
 module.exports = router;

@@ -9093,3 +9093,33 @@ DateTime:[20220531	17:44:51]	UUID:[45d81637-f36b-47ef-890b-7c1c0880eb8a]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[updateProfileInfo/ProfilePageController]
 	Message:[pepe@lefrog.com pepe profile information UPDATED successfully]
+
+DateTime:[20220531	22:03:19]	UUID:[34140378-1e24-4413-9140-3bb22513c3ae]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[cicisize@yahoo.com profile found]
+
+DateTime:[20220531	22:03:19]	UUID:[015f0588-53b7-4b8b-a41a-b6e9d44b8ea9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[cicisize@yahoo.com profile found]
+
+DateTime:[20220531	22:16:13]	UUID:[ee553881-3ed1-4b7c-b31a-14a1c8734239]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[cicisize@yahoo.com profile found]
+
+DateTime:[20220531	22:16:13]	UUID:[725c5fed-79e9-46f6-81cd-f07b9689deb9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[updateProfileInfo/ProfilePageController]
+	Message:[John@flipside.com Dustin profile information UPDATED successfully]
+
+DateTime:[20220531	22:17:09]	UUID:[59534db7-d605-4c4d-87f7-0fa86e5bd55c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220531	22:17:09]	UUID:[f96462cb-3cad-4304-b85d-e060709a8e7f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]

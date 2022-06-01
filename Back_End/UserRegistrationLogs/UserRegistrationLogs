@@ -243,3 +243,18 @@ DateTime:[20220531	17:44:09]	UUID:[bf9bf931-6ae1-45e7-8699-c4c8a8957da7]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
 	LOC:[registerController/handleNewUser]
 	Message:[pepe@lefrog.com : user registered successfully]
+
+DateTime:[20220531	22:03:07]	UUID:[c903d89d-fbbd-4667-8946-95aec7cea72a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[cicisize@yahoo.com : Attempting to Register]
+
+DateTime:[20220531	22:03:08]	UUID:[15ed21fc-8f59-4cf8-9c58-21fece852082]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[cicisize@yahoo.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220531	22:03:08]	UUID:[b0015bf1-4b70-47c0-bbe6-057d963facbc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[cicisize@yahoo.com : user registered successfully]
