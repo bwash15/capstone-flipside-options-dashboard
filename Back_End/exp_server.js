@@ -98,8 +98,8 @@ app.use(verifyJWT);
 
 app.use('/users', require('./_routes/api/users'));
 app.use('/userTiles', require('./_routes/_userTiles'));
+app.use('/tiles', require('./_routes/_tiles'));
 app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
-
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));
 app.use('/optionDetails', require('./_routes/api/optionDetails'));

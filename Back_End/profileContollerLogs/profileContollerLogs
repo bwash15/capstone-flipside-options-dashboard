@@ -9123,3 +9123,33 @@ DateTime:[20220531	22:17:09]	UUID:[f96462cb-3cad-4304-b85d-e060709a8e7f]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[phone@test.com profile found]
+
+DateTime:[20220531	22:27:57]	UUID:[f3ecc32b-9551-4177-8db8-4cf67316be06]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
+
+DateTime:[20220531	22:27:57]	UUID:[73eb2b8b-f4ee-490b-8157-4e99a22da130]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
+
+DateTime:[20220601	01:54:59]	UUID:[d84f3cba-16fe-47f9-83d3-2140c58c9517]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
+
+DateTime:[20220601	01:54:59]	UUID:[6616367a-0bce-4ed4-90e2-b79a142422b7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
+
+DateTime:[20220601	01:55:09]	UUID:[dd173797-23e2-42ad-9258-fa2456a6a95b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
+
+DateTime:[20220601	01:55:09]	UUID:[4cc6644f-b589-4ea7-af4b-4bf15a38fa6c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]

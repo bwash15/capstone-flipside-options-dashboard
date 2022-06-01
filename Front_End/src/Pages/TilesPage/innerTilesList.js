@@ -8,20 +8,28 @@ import {
 import axios from '../../api/axios'
 import useAuth from '../../hooks/useAuth';
 
-export const TileList = () => {
+export const InnerTileList = () => {
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
+  const tileUUID = window.location.href.split("/")[4];
 
   const getTiles = () => {
-    const url = '/userTiles';
-    axios.get(url, {headers: {Authorization :`Bearer ${auth.accessToken}`}})
+    const url = '/tiles';
+    axios.post(url, JSON.stringify({
+      "uuid": tileUUID,
+  }),{
+      headers: {Authorization :`Bearer ${auth.accessToken}`},
+  })
         .then((response) => {
-          setTiles(response.data);
+          console.log("response is " + JSON.stringify(response.data.tiles));
+          setTiles(response.data.tiles);
       })
   }
 
   useEffect(() => {
     getTiles();
+    console.log("the tiles array is set to " + JSON.stringify(tiles))
+    //console.log("the non stringy" + (tiles.tiles))
   }, []);
 
   const deleteTile = async (val) =>{
@@ -41,10 +49,10 @@ export const TileList = () => {
     {tiles.map((tile, index) => (
       <div key = {index}>      
         <ListGroupItem className="d-flex">
-          <strong>{tile.tileName}</strong>
-          <strong>{tile.tileType}</strong>
+          <strong>{tile.stockName}</strong>
+          <strong>{tile.stockPrice}</strong>
           <div className='ms-auto'>
-            <Link className="btn btn-warning mr-1" to={`/tiles/${tile.uuid}`}>Edit</Link>
+            <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
             <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>
           </div>
         </ListGroupItem> 
