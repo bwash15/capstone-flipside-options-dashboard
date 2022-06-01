@@ -34,7 +34,7 @@ import { AddOption } from "./Pages/TilesPage/addOption"
 import { EditOption } from "./Pages/TilesPage/OptionTile/EditOption"
 import Trading from "./Pages/TradingPage";
 import { AddTile } from "./Pages/TilesPage/addTile";
-import  { BasicOptionCard }  from "./Pages/TilesPage";
+import  { BasicOptionCard }  from "./Pages/TilesPage/optionPage";
 import { InnerTileList } from "./Pages/TilesPage/innerTilesList";
 function App() {
   const { width } = useWindowSize();

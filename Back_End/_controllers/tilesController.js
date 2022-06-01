@@ -8,6 +8,7 @@ const updateTileInfo = async (req, res) => {
     const tileUUID = req.body.tileUUID;
     const expDate = req.body.expDate;
 
+    console.log("stock name is " + stockName)
     // Update existing tile with new array information
     const result = await UserTile.updateOne(
         {uuid: tileUUID},

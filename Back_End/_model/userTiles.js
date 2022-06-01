@@ -7,11 +7,11 @@ const subSchema = new Schema({
         required: false
     },
     stockPrice: {
-        type: Number,
+        type: String,
         required: false
     },
     premium: {
-        type: Number,
+        type: String,
         required: false
     },
     expDate: {

@@ -26,15 +26,16 @@ export const AddOption = () => {
         console.log("trying to submit")
         e.preventDefault();
          //push to database
-         const url = "/tiles/add";
+         const url = "/addingOption";
         await axios.post(url, JSON.stringify({
-            "uuid": uuid,
+            "optionUUID":uuid,
             "stockName" :stockName,
             "stockPrice": stockPrice,
             "premium": premium,
             "expDate": expDate
         }),
         {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
+        console.log("should have submitted to " + url);
         navigate('/tiles', {replace: true});
     }
     const changeUUID = () => {
