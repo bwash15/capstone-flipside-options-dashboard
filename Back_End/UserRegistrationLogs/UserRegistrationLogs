@@ -68,3 +68,18 @@ DateTime:[20220526	10:40:44]	UUID:[0cac884b-d353-4a0b-afc9-f31b4edecb02]
 	PATH:[D:\FullSail\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
 	LOC:[registerController/handleNewUser]
 	Message:[33@33.com : user registered successfully]
+
+DateTime:[20220530	21:28:34]	UUID:[ad1bad04-80ce-492a-bfd0-03ea661d30e0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[jay@jay.com : Attempting to Register]
+
+DateTime:[20220530	21:28:34]	UUID:[2dd1a7ab-b962-435a-ba34-c8fbe2cce28e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[jay@jay.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220530	21:28:34]	UUID:[31093354-5a32-44b9-818b-5b7e65058285]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[jay@jay.com : user registered successfully]

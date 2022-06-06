@@ -76,8 +76,6 @@ app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
 
-
-
 //************************************************/
 //      JWT
 // Everything below this line will use the JWT
@@ -86,27 +84,23 @@ app.use('/auth', require('./_routes/_auth'));
 // access after expiration
 app.use('/refresh', require('./_routes/_refresh'));
 app.use('/logout', require('./_routes/_logout'));
+app.use(verifyJWT);
 //************************************************ */
 /** Web-level Middleware **/
-app.use('/profilePage', require('./_routes/webapi/_ProfilePage.js'));
-
-
+app.use('/userTiles', require('./_routes/_userTiles'));
+app.use('/profilePage', require('./_routes/webapi/_profilePage.js'));
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
 // Does not needs a Static file because we will just be serving data from the database
 
 app.use('/users', require('./_routes/api/users'));
-app.use('/userTiles', require('./_routes/_userTiles'));
-app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
-
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));
 app.use('/optionDetails', require('./_routes/api/optionDetails'));
 app.use('/optionGreeks', require('./_routes/api/optionGreeks'));
 app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
 app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
-app.use(verifyJWT);
 //app.use('/historicalDataModels', require('./_routes/api/users'));
 
 /**************************************************/
