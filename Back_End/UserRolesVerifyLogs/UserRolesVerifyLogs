@@ -51017,3 +51017,43 @@ DateTime:[20220606	14:09:17]	UUID:[8934da14-78aa-4a29-9be6-f5892d88e749]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
 	LOC:[_middleware/verifyRoles]
 	Message:[ User has a role is verified]
+
+DateTime:[20220606	14:39:47]	UUID:[e6c20b06-9daf-4ff5-ad2e-5b513dabe179]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220606	14:39:47]	UUID:[9a855f38-4acf-4573-9951-9046383d1d8d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220606	14:39:47]	UUID:[b7509053-4648-47fc-afba-a80c0e4b01fa]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]
+
+DateTime:[20220606	14:39:47]	UUID:[f68b2582-ed23-4a14-b86b-11388c4bb995]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220606	14:39:47]	UUID:[6848f214-3c13-419c-9a2b-ec8af4bbb8f7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220606	14:39:47]	UUID:[f2b6db31-2f7b-413b-b7ff-34a09335779f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User has a role is verified]
+
+DateTime:[20220606	14:39:47]	UUID:[d5beac50-f4b5-475f-a0de-f15a1682dabe]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User Role is verified, User is authorized to access requested page]
+
+DateTime:[20220606	14:39:47]	UUID:[2859bd01-106b-493c-a155-d4b995465d66]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[Verifying user is authorized to access the page requested]

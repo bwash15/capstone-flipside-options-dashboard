@@ -31,9 +31,10 @@ const verifyJWT = (req, res, next) => {
     };
     const token = authHeader.split(' ')[1];
     myEmitter.emit(`jwtVerification`, `Bearer Header Found, Token taken from header in browser for verification`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
+    const env = process.env.ACCESS_TOKEN_SECRET || process.env.REACT_APP_ACCESS_TOKEN_SECRET;
     jwt.verify(
         token,
-        process.env.ACCESS_TOKEN_SECRET,
+        env,
         (err, decoded) => {
             if (err) {
                 // invalid token
