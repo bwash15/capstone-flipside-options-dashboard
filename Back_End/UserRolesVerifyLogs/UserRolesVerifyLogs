@@ -810,6 +810,7 @@ DateTime:[20220530	20:55:51]	UUID:[723fd832-f03c-4d19-952e-8fc8b6679968]
 	Message:[ User Role is verified, User is authorized to access requested page]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 DateTime:[20220530	21:45:05]	UUID:[6b74b7da-1066-40f5-80ae-ab957071ed8b]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
 	LOC:[_middleware/verifyRoles]
@@ -50065,3 +50066,74 @@ DateTime:[20220601	15:22:42]	UUID:[2a52d52a-d57f-48d1-9fe3-8bfe9417a4d9]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
 	LOC:[_middleware/verifyRoles]
 	Message:[ User Role is verified, User is authorized to access requested page]
+=======
+DateTime:[20220530	21:18:21]	UUID:[0780ff41-a048-451a-89ed-dc5b649dd409]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:18:21]	UUID:[46f2b4fa-2ec5-44ba-8c01-fc394a7cfb51]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+
+DateTime:[20220530	21:18:21]	UUID:[58760819-70bc-45c3-bbb3-168d9d23ec29]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:18:21]	UUID:[46d73ff9-0c9b-45ed-80e8-097524ee87fd]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+
+DateTime:[20220530	21:27:17]	UUID:[368123c3-1442-4148-be64-d6aed1d1ce60]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:27:17]	UUID:[3a4cc453-4dd6-4d5e-b703-8fbf2c3c4b44]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+
+DateTime:[20220530	21:27:17]	UUID:[6af2d511-ed6b-4164-b970-fd4695fb1795]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:27:17]	UUID:[2ecc1c6d-4420-4e5d-8988-ca914732fc8d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+
+DateTime:[20220530	21:27:35]	UUID:[3c2ebd00-35f9-4ef1-b068-c5c5a7df7924]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:27:35]	UUID:[f75d89ed-d49b-416f-b859-fa8bcaeef4bf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+
+DateTime:[20220530	21:29:08]	UUID:[3baa0c7f-d408-4609-8dad-93c5577980fa]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:29:08]	UUID:[ae32067c-0023-444a-9276-e25688934852]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+
+DateTime:[20220530	21:29:08]	UUID:[998b811d-669d-401c-8a6e-df3fedb243b4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ Verifying user trying to gain access to page has a USER_ROLE]
+
+DateTime:[20220530	21:29:08]	UUID:[0a57d70a-aebf-4aa7-af30-b69a93d20cbe]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRolesVerifyLogs]
+	LOC:[_middleware/verifyRoles]
+	Message:[ User role not Verified, User Access Denied - Unauthorized]
+>>>>>>> 5ee70c9d589e03abcabb060defb69cee8c5d8639

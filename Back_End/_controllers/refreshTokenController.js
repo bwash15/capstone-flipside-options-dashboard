@@ -20,9 +20,7 @@ const handleRefreshToken = async (req, res) => {
 
     // Defining the Refresh Token 
     const refreshToken = cookies.jwt;
-
-    ////res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });
-    
+    //res.clearCookie('jwt', { httpOnly: true, sameSite: 'None', secure: true, maxAge: 24 * 60 * 60 * 1000 });  ******************************
     // Because we use the same name for the variable above this line > we only need the refreshToken
     // call not the (refreshToken: refreshToken)
     // if a user has defined a JWT refreshToken it will be defined in account
@@ -53,7 +51,7 @@ const handleRefreshToken = async (req, res) => {
                 }
             },
                 process.env.ACCESS_TOKEN_SECRET,
-                { expiresIn: '15m' }
+                { expiresIn: '1m' }
             );
 
 

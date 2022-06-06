@@ -4,8 +4,7 @@ import './index.css';
 import App from './App';
 import { AuthProvider } from './context/AuthProvider'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NavBar from './components/Navbar';
-import {UserProvider} from './context/customer copy'
+import { UserProvider } from './context/customer copy'
 
 
 const rootElement = document.getElementById('root');
@@ -16,10 +15,9 @@ root.render(
     <Router>
       <AuthProvider>
         <UserProvider>
-        <NavBar />
-        <Routes>
-          <Route path="/*" element={<App />} />
-        </Routes>
+          <Routes>
+            <Route path="/*" element={<App />} />
+          </Routes>
         </UserProvider>
       </AuthProvider>
     </Router>

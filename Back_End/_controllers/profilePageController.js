@@ -22,6 +22,23 @@ const getProfile = async (req, res) => {
     res.json(user);
 }
 
+const createProfile = async (req, res) => {
+    if (!req?.body?.firstname || !req?.body?.lastname || !req?.body?.email) {
+        myEmitter.emit(`userControllerActivity`, `All Fields Are Required, Profile Creation failed`, 'serverActivityLogs', 'createUser/userController');
+        return res.status(400).json({ 'message': ' All Fields Are Required' });
+    }
+    try {
+        const result = await User.create({
+            firstname: req.body.firstname,
+            lastname: req.body.lastname,
+            email: req.body.email
+        });
+        res.status(201).json(result);
+    } catch (err) {
+        console.error(err);
+    }
+}
+
 
 
 const updateProfileInfo = async (req, res) => {

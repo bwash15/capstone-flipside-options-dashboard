@@ -76,8 +76,6 @@ app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
 
-
-
 //************************************************/
 //      JWT
 // Everything below this line will use the JWT
@@ -89,8 +87,8 @@ app.use('/logout', require('./_routes/_logout'));
 app.use(verifyJWT);
 //************************************************ */
 /** Web-level Middleware **/
-
-
+app.use('/userTiles', require('./_routes/_userTiles'));
+app.use('/profilePage', require('./_routes/webapi/_profilePage.js'));
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
