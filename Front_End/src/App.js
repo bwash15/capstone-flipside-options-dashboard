@@ -68,7 +68,6 @@ function App() {
               <Route path="landingpage" element={<LandingPage />} />
 
               <Route path="addTile" exact element={<AddTile />} />
-              <Route path="editTile/:id" element={<EditTile />} />
               <Route path="addOption" exact element={<AddOption />} />
               <Route path="editOption/:id" element={<EditOption />} />
               <Route path="trading" exact element={<Trading />} />
