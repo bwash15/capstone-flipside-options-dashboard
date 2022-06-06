@@ -9153,3 +9153,13 @@ DateTime:[20220601	01:55:09]	UUID:[4cc6644f-b589-4ea7-af4b-4bf15a38fa6c]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[joe@gg.com profile found]
+
+DateTime:[20220606	10:22:39]	UUID:[ec4a1e73-3ea9-4645-8118-4e1136efd3c6]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220606	10:22:39]	UUID:[74fa83f5-83ad-4714-bbd3-5a13a6e702cf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]

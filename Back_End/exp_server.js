@@ -88,7 +88,7 @@ app.use(verifyJWT);
 //************************************************ */
 /** Web-level Middleware **/
 app.use('/userTiles', require('./_routes/_userTiles'));
-app.use('/profilePage', require('./_routes/webapi/_profilePage.js'));
+app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file

@@ -5,9 +5,8 @@ const ROLES_LIST = require('../../_config/roles_list');
 const verifyRoles = require('../../_middleware/verifyRoles');
 
 router.route('/')
-    .get(verifyRoles(ROLES_LIST, ROLES_LIST), profileController.getProfile)
-    .put(verifyRoles(ROLES_LIST, ROLES_LIST), profileController.updateProfileInfo)
-    .post(verifyRoles(ROLES_LIST, ROLES_LIST), profileController.createProfile);
+    .post(profileController.getProfile)
+    .put(profileController.updateProfileInfo);
 
 
 router.route('/email')

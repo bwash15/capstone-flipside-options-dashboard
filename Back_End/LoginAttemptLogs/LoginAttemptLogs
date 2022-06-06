@@ -8572,3 +8572,123 @@ DateTime:[20220530	21:28:55]	UUID:[3e28c279-2d8e-47ae-8074-a13460c7b8f8]
 >>>>>>> 5ee70c9d589e03abcabb060defb69cee8c5d8639
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220606	10:12:26]	UUID:[c7b685b9-b71c-48dc-bcbf-95b2f751e740]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[44@44.com Attempting to sign-in]
+
+DateTime:[20220606	10:12:26]	UUID:[566e6fd2-fc01-434d-bd4d-bbe172451121]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 44@44.com ]
+
+DateTime:[20220606	10:12:26]	UUID:[fc45218b-af65-408e-9ad4-a1568ed65b2b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[44@44.com logged in successfully]
+
+DateTime:[20220606	10:12:26]	UUID:[7449cbaa-3fcc-4fbd-8e5e-3cac58092b79]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220606	10:16:35]	UUID:[d0bde082-3f51-4d6b-ba7b-b11d727d2d5f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220606	10:16:35]	UUID:[02a497ac-e9dd-4bbd-8625-def653598594]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220606	10:16:35]	UUID:[7f65ece0-3bb8-4c56-b2a2-c0d979de6a34]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220606	10:16:35]	UUID:[9348c6e2-e1c6-4bf9-8b67-ba824163cac4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220606	10:17:34]	UUID:[89aad144-9311-4f33-b63d-b5cd666d8f8f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220606	10:17:34]	UUID:[3abf4268-d81e-4eed-a3d4-c4754cd26a6a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220606	10:17:35]	UUID:[5381c8d2-d079-4eb2-a4bc-972d3848ee0a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220606	10:17:35]	UUID:[2e08beba-3611-47d7-a7a5-2a886b89c7d7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220606	10:19:10]	UUID:[f167e6e5-f940-473f-8d62-76fce916f98d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220606	10:19:10]	UUID:[c986d04a-429f-4053-94fd-85f78c5cec0a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220606	10:19:10]	UUID:[979a4784-01f8-446a-937f-eaa3556c9627]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220606	10:19:10]	UUID:[3ccc32f8-cd4d-4a3e-bbd1-8a180923c534]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220606	10:21:33]	UUID:[8f1d1edf-f76e-41cd-998a-8d60610c8d8d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220606	10:21:33]	UUID:[51df89d0-02f9-43a5-b92a-cbc41881a2dd]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220606	10:21:33]	UUID:[25591608-d154-4d45-8bf1-77dad55b7505]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220606	10:21:33]	UUID:[08ebef50-785a-4c6c-bd4a-bc20fecbcbcc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220606	10:22:39]	UUID:[91033066-1601-47b2-87cd-b7985c1c718d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220606	10:22:39]	UUID:[4c6e3d95-0a95-4572-8e31-115799b18b4f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220606	10:22:39]	UUID:[f8296d69-5071-4a7e-9029-b436565a10c8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220606	10:22:39]	UUID:[f6e93a36-23d5-45f9-a92a-e8182cf423ae]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]

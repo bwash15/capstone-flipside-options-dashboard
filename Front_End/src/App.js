@@ -26,6 +26,7 @@ import UnAuthorizedAccess from "./UnAuthorized";
 import LandingPage from "./Pages/LandingPage"
 import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
+import ResetPassword from "./Pages/ResetPasswordPage";
 
 
 
@@ -46,6 +47,7 @@ function App() {
       <Routes>
         {/** Layout and PersistLogin both make use of the Outlet component **/}
         {/** Pulic Routes **/}
+        <Route path="reset" element={<ResetPassword />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<RegisterUser />} />
         <Route path="unauthorized" element={<UnAuthorizedAccess />} />
@@ -56,17 +58,23 @@ function App() {
           {/** User Only Access **/}
           {/** PersistLogin works with the RefreshToken to Persist the User Login **/}
           <Route element={<PersistLogin />}>
-            <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
+
+          <Route element={<RequireAuth allowedRoles={[2001]} />}>
               <Route path="linkpage" element={<LinkPage />} />
-              <Route path="profilePage" element={<ProfilePage />} />
-              <Route path="userTiles" exact element={<BasicCard />} />
+              <Route path="/tiles" exact element={<BasicCard />} />
+              <Route path="/tiles/:id" element={<BasicOptionCard />} />
             </Route>
 
             {/** Admin, Editor, and User Routes **/}
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="/" element={<Home />} />
+              <Route path="linkpage" element={<LinkPage />} />
               <Route path="landingpage" element={<LandingPage />} />
-
+              <Route path="profilePage" element={<ProfilePage />} />
+              <Route path="userTiles" exact element={<BasicCard />} />
+              <Route path="linkpage" element={<LinkPage />} />
+              <Route path="/tiles" exact element={<BasicCard />} />
+              <Route path="/tiles/:id" element={<BasicOptionCard />} />
               <Route path="addTile" exact element={<AddTile />} />
               <Route path="addOption" exact element={<AddOption />} />
               <Route path="editOption/:id" element={<EditOption />} />

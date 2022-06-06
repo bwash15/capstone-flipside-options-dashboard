@@ -114,4 +114,4 @@ const sendEmail = async (req,res) => {
   }
 
 
-module.exports = { updateProfileInfo, getProfile, sendEmail };
+module.exports = { updateProfileInfo, getProfile, sendEmail, createProfile };
