@@ -47,7 +47,7 @@ function App() {
       <Routes>
         {/** Layout and PersistLogin both make use of the Outlet component **/}
         {/** Pulic Routes **/}
-        <Route path="reset" element={<ResetPassword />} />
+        <Route path="reset/:resetToken" element={<ResetPassword />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<RegisterUser />} />
         <Route path="unauthorized" element={<UnAuthorizedAccess />} />

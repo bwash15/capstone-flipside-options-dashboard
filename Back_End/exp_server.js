@@ -75,6 +75,7 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
+app.use('/reset', require('./_routes/_resetPassword'));
 
 //************************************************/
 //      JWT

@@ -36,6 +36,17 @@ html, body{
 	text-align: center;
 }
 
+.update_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px;
+	font-size: 14px;
+	background-color: limegreen;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
 img{
 	
 	width: 50%;

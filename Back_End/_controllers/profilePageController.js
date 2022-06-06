@@ -6,6 +6,8 @@ const crypto = require('crypto');
 const { resolve } = require('path');
 const nodemailer = require('nodemailer');
 const myEmitter = new Emitter();
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 myEmitter.on('profileControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const getProfile = async (req, res) => {
@@ -83,8 +85,17 @@ const updateProfileInfo = async (req, res) => {
 
 const sendEmail = async (req,res) => {
 
+
     const email = req.body.email
     console.log(email);
+    const resetToken = jwt.sign(
+        { "email": email },
+        process.env.REFRESH_TOKEN_SECRET,
+        // Set this so there is not an INDEFINITE refresh token capability
+        { expiresIn: '15m' }
+    );
+
+
     const transport = nodemailer.createTransport({
         host: process.env.REACT_APP_MAIL_HOST || process.env.MAIL_HOST,
         port: process.env.REACT_APP_MAIL_PORT || process.env.MAIL_PORT,
@@ -97,7 +108,7 @@ const sendEmail = async (req,res) => {
     await transport.sendMail({
         from: process.env.MAIL_FROM,
         to: email,
-        subject: "Hello John",
+        subject: "Reset Password",
         html: `<div className="email" style="
         border: 1px solid black;
         padding: 20px;
@@ -106,12 +117,41 @@ const sendEmail = async (req,res) => {
         font-size: 20px;
         ">
         <h2> Hope you get this!</h2>
-        <p>${email}</p>
+        <p>http://localhost:3000/reset/${resetToken}</p>
+        <Link to="http://localhost:3000/reset/${resetToken}">Reset Password</Link>
+        <p>https://flipside-test-729io.ondigitalocean.app/reset/${resetToken}</p>
         
         </div>`
     })
     res.send({message: "done"});
+}
+
+const updatePassword = async (req,res) => {
+    console.log("=====Made It To Back======");
+    function parseJwt(token) {
+        if (!token) { return; }
+        const base64Url = token.split('.')[1];
+        const base64 = base64Url.replace('-', '+').replace('_', '/');
+        return JSON.parse(window.atob(base64));
+    }
+
+    const hashedPwd = await bcrypt.hash(req.body.password, 10);
+    const token = parseJwt(req.body.resetToken);
+    console.log(token);
+    const email = token.email;
+
+    console.log(email);
+    console.log(hashedPwd);
+
+    const profile = await ProfileInfo.findOne({ email: email }).exec();
+
+    if (!profile) {
+        myEmitter.emit(`profileControllerActivity`, `${req.body.email} not found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
+        return res.status(400).json({ "message": `User Email ${req.body.email} Not Found` });
+    }
+
+    res.send({message: "done"});
   }
 
 
-module.exports = { updateProfileInfo, getProfile, sendEmail, createProfile };
+module.exports = { updateProfileInfo, getProfile, sendEmail, createProfile, updatePassword };
