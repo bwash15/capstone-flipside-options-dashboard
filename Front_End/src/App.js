@@ -59,12 +59,6 @@ function App() {
           {/** PersistLogin works with the RefreshToken to Persist the User Login **/}
           <Route element={<PersistLogin />}>
 
-          <Route element={<RequireAuth allowedRoles={[2001]} />}>
-              <Route path="linkpage" element={<LinkPage />} />
-              <Route path="/tiles" exact element={<BasicCard />} />
-              <Route path="/tiles/:id" element={<BasicOptionCard />} />
-            </Route>
-
             {/** Admin, Editor, and User Routes **/}
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="/" element={<Home />} />

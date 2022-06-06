@@ -9163,3 +9163,13 @@ DateTime:[20220606	10:22:39]	UUID:[74fa83f5-83ad-4714-bbd3-5a13a6e702cf]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[phone@test.com profile found]
+
+DateTime:[20220606	10:30:30]	UUID:[62980998-4b74-41bb-9b45-8c5ffe901d06]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220606	10:30:30]	UUID:[5aea69f2-ec3f-4d01-8529-351091f03a1f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]

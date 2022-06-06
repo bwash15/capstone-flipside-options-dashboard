@@ -58711,3 +58711,138 @@ DateTime:[20220606	10:22:39]	UUID:[791ad167-724b-40fc-b346-fba1b51b659f]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[JWT_TokenVerificationLog.txt]
 	Message:[ Token Verified : for undefined at 10:22:39 ]
+
+DateTime:[20220606	10:26:15]	UUID:[efd3e809-1b93-40de-906a-524f4d6816cc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:15]	UUID:[278d2c0d-1682-407a-a64b-8ac643e8920a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:15]	UUID:[b0fc4f30-3615-443a-af8d-53dd467547d4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:15 ]
+
+DateTime:[20220606	10:26:15]	UUID:[f4e3a729-cd59-42db-9ce4-49751e045f21]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:15]	UUID:[f4ddf3ba-0a7b-47e2-9cab-a815faf17076]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:15]	UUID:[ee7501a5-7cda-4274-ac62-4c35a74bf70d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:15 ]
+
+DateTime:[20220606	10:26:19]	UUID:[e4b56096-21bd-472f-8972-1bb15c70e961]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:19]	UUID:[33486fb8-4f43-403a-8418-c9d99b4ae9ca]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:19]	UUID:[976980fc-d2b0-4705-81e9-511267719aa7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:19 ]
+
+DateTime:[20220606	10:26:20]	UUID:[1d05b36f-e1ef-4a3a-aa46-6bc538074879]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:20]	UUID:[89bacd9b-aad0-4c80-ad43-b6c5479a9747]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:20]	UUID:[c205dec8-535e-476f-ab7b-370b92e6504c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:20 ]
+
+DateTime:[20220606	10:26:26]	UUID:[f1db2af4-9635-460c-b5a6-580765f98a40]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:26]	UUID:[e162ec47-491c-4b35-8228-d626238866a7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:26]	UUID:[ef5f7a94-85f0-4790-b039-9d2fd1fdb4dd]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:26 ]
+
+DateTime:[20220606	10:26:26]	UUID:[789363ef-845f-471d-91b7-d4e0be71f8c2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:26]	UUID:[02aee012-c3c6-416a-aaf8-feb3d2180249]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:26]	UUID:[85d30565-0951-435a-adca-45c0fb657ad8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:26 ]
+
+DateTime:[20220606	10:26:27]	UUID:[015b2f53-9784-40c5-b775-f9c349a0c674]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:26:27]	UUID:[03241d44-a272-4052-9882-63e933f84b5e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:26:27]	UUID:[0c150034-c847-41cd-b767-b8df42d88d08]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:26:27 ]
+
+DateTime:[20220606	10:30:29]	UUID:[9362b360-d83e-403f-81fe-d5c5475a5175]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:30:29]	UUID:[e4c909c0-5a74-480a-a58b-5ef5ee9f4e03]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:30:29 ]
+
+DateTime:[20220606	10:30:29]	UUID:[66f8c022-c6dc-409e-9415-efb05b332118]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:30:29]	UUID:[2f32f50e-a7b5-42c6-ae04-2f55fedac9ae]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220606	10:30:29]	UUID:[1f93bd12-a338-450e-9c9e-cb4786690e62]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220606	10:30:29]	UUID:[e9fd43e8-4388-4813-aadb-14c9fbfb62e0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 10:30:29 ]
