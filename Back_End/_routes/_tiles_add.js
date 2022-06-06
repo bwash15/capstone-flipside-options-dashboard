@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const TilesController = require('../_controllers/TilesController');
+const TilesController = require('../_controllers/tilesController');
 const ROLES_LIST = require('../_config/roles_list');
 const verifyRoles = require('../_middleware/verifyRoles');
 
