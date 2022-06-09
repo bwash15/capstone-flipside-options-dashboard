@@ -98,7 +98,7 @@ app.use('/profilePage', require('./_routes/webapi/_profilePage.js'));
 app.use('/users', require('./_routes/api/users'));
 app.use('/userTiles', require('./_routes/_userTiles'));
 app.use('/tiles', require('./_routes/_tiles'));
-app.use('/addingOption', require('./_routes/_tiles_add'));
+//app.use('/addingOption', require('./_routes/_tiles_add'));
 app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));

@@ -22,20 +22,20 @@ export const AddOption = () => {
     const [expDate, setExpDate] = useState('');
     const [uuid, setUuid] = useState('');
     const navigate = useNavigate();
+
+    const tileUUID = window.location.href.split("/")[4];
     const onSubmit = async (e) => {
-        console.log("trying to submit")
         e.preventDefault();
          //push to database
-         const url = "/addingOption";
-        await axios.post(url, JSON.stringify({
+         const url = "/tiles/addingOption";
+       await axios.post(url, JSON.stringify({
             "optionUUID":uuid,
+            "tileUUID": tileUUID,
             "stockName" :stockName,
             "stockPrice": stockPrice,
-            "premium": premium,
             "expDate": expDate
         }),
         {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
-        console.log("should have submitted to " + url);
         navigate('/tiles', {replace: true});
     }
     const changeUUID = () => {
@@ -61,8 +61,6 @@ export const AddOption = () => {
             <Input type = "text" value = {stockName} onChange = {onStockNameChange} placeholder ="Stock Ticker"></Input>
             <Label>Price</Label>
             <Input type = "text" value = {stockPrice} onChange = {onStockPriceChange} placeholder ="Stock Price"></Input>
-            <Label>Premium</Label>
-            <Input type = "text" value = {premium} onChange = {onPremiumChange} placeholder ="Stock Premium"></Input>
             <Label>Expiration</Label>
             <Input type = "text" value = {expDate} onChange = {onExpDateChange} placeholder ="Exp Date"></Input>
         </FormGroup>

@@ -51,7 +51,12 @@ export const InnerTileList = () => {
       <div key = {index}>      
         <ListGroupItem className="d-flex">
           <strong>{tile.stockName}</strong>
+          <strong>-</strong>
           <strong>{tile.stockPrice}</strong>
+          <strong>-</strong>
+          <strong>{tile.premium}</strong>
+          <strong>-</strong>
+          <strong>{tile.expDate}</strong>
           <div className='ms-auto'>
             <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
             <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>

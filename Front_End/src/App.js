@@ -32,7 +32,7 @@ import ResetPassword from "./Pages/ResetPasswordPage";
 
 import BasicCard from "./Pages/TilesPage";
 import { AddOption } from "./Pages/TilesPage/addOption"
-import { EditOption } from "./Pages/TilesPage/OptionTile/EditOption"
+import { EditOption } from "./Pages/TilesPage/EditOption"
 import Trading from "./Pages/TradingPage";
 import { AddTile } from "./Pages/TilesPage/addTile";
 import  { BasicOptionCard }  from "./Pages/TilesPage/optionPage";
@@ -68,9 +68,10 @@ function App() {
               <Route path="userTiles" exact element={<BasicCard />} />
               <Route path="linkpage" element={<LinkPage />} />
               <Route path="/tiles" exact element={<BasicCard />} />
+              {/* <Route path="/tiles/add" exact element={<AddOption/>} /> */}
               <Route path="/tiles/:id" element={<BasicOptionCard />} />
+              <Route path="/tiles/:id/add" element={<AddOption />} />
               <Route path="addTile" exact element={<AddTile />} />
-              <Route path="addOption" exact element={<AddOption />} />
               <Route path="editOption/:id" element={<EditOption />} />
               <Route path="trading" exact element={<Trading />} />
             </Route>

@@ -10,22 +10,7 @@ const handleUserTilesPost = async (req, res) => {
         "uuid": uuid,
         "tileName": name,
         "tileType": type,
-        "tiles": [
-            {
-                "stockName": "TSLA",
-                "stockPrice": "500",
-                "premium": "5.50",
-                "expDate": Date.now(),
-                "uuid": "aasdfasdf"
-            },
-            {
-                "stockName": "AAPL",
-                "stockPrice": "400",
-                "premium": "2.20",
-                "expDate": Date.now(),
-                "uuid": "xcxc"
-            }
-        ]
+        "tiles": []
     });
     res.json(result);
 }

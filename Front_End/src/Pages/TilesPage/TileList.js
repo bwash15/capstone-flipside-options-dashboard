@@ -42,6 +42,7 @@ export const TileList = () => {
       <div key = {index}>      
         <ListGroupItem className="d-flex">
           <strong>{tile.tileName}</strong>
+          <strong>-</strong>
           <strong>{tile.tileType}</strong>
           <div className='ms-auto'>
             <Link className="btn btn-warning mr-1" to={`/tiles/${tile.uuid}`}>Edit</Link>
