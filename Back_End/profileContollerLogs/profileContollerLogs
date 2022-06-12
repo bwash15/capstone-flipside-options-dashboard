@@ -9293,3 +9293,38 @@ DateTime:[20220612	15:00:03]	UUID:[e22aac28-b2cb-4baf-b396-7c3afe93a7d7]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:02:17]	UUID:[c39a53f5-812e-4573-9922-94ea6d68cd9c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:02:17]	UUID:[622e594e-8f60-4dea-baf5-d73f4d07fff5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:04:16]	UUID:[60334cd6-992a-409b-a189-b56caf0f5106]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:04:22]	UUID:[366da9d8-9f1d-4649-a8d3-2a332a84a091]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:04:24]	UUID:[a0b31272-b5f2-45ef-92b5-ad7da11222bc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:04:44]	UUID:[1f859fd5-ee92-4fee-b0a6-79232a072cd2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	16:04:58]	UUID:[6de85258-2fff-4b4b-b608-513e98de135b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
