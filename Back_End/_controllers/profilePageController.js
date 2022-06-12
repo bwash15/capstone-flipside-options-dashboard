@@ -11,8 +11,14 @@ const jwt = require('jsonwebtoken');
 myEmitter.on('profileControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const getProfile = async (req, res) => {
-    console.log(req.body.email);    
+    console.log("===GETPROFILE====");
     if (!req?.body?.email) return res.status(400).json({ 'message': `User Email Required ` })
+    newtoken = jwt.decode(req.body.email);
+    console.log(newtoken);
+    if(!req?.body?.email != newtoken.UserInfo.email){
+        req.body.email = newtoken.UserInfo.email
+    }
+   
     // Checks the userID
     // using body here because it is going to pull it directly from the URL
     const user = await ProfileInfo.findOne({ email: req.body.email }).exec();

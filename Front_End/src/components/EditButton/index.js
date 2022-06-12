@@ -43,7 +43,8 @@ const EditButton = (props) => {
         try {
             console.log("START");
             const res = await axios.post(URL, JSON.stringify({
-                "email": props.value
+                "email": auth.accessToken,
+                withCredentials: true
             }
             ),
                 {headers: {"Authorization" :`Bearer ${auth.accessToken}`}}
