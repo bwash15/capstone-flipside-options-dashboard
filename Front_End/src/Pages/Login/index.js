@@ -41,11 +41,11 @@ const Login = () => {
 
         } catch (error) {
             if (
-                error.loginResponse &&
-                error.loginResponse.status >= 400 &&
-                error.loginResponse.status <= 500
+                error.response &&
+				error.response.status >= 400 &&
+				error.response.status <= 500
             ) {
-                setError(error.loginResponse.data.message);
+                setError(error.response.data.message);
             }
         }
     }

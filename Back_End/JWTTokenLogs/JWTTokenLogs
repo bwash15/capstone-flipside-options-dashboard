@@ -66241,3 +66241,228 @@ DateTime:[20220608	23:21:36]	UUID:[99a92c2c-3935-480b-afbd-023a3f633c6f]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[JWT_TokenVerificationLog.txt]
 	Message:[ Token Verified : for undefined at 23:21:36 ]
+
+DateTime:[20220612	13:55:45]	UUID:[75cdcdfc-db3e-4a5a-8467-166e607a8e69]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	13:55:45]	UUID:[86758f85-3140-4b49-b14b-1123bae51357]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	13:57:32]	UUID:[e76e4737-4204-4944-9840-c45e51afc18e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	13:57:32]	UUID:[c17f67e9-8ae4-4ddd-a985-14d95c95601b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220612	13:57:32]	UUID:[0bbbc59c-a72c-438f-8cab-3d29d6b55634]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220612	13:57:32]	UUID:[23976661-f3fd-46a8-967c-8a49ce1dad55]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220612	13:57:32]	UUID:[643f0ac3-4e71-46a2-b750-591276695fe7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220612	13:57:32]	UUID:[ccf75f2d-4cfb-448b-8b26-f95739a4a5e9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220612	13:57:32]	UUID:[eb807aea-0f39-4e71-a209-31069930344f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	13:57:32]	UUID:[7eabb474-ce9e-48f9-b1a2-872d93acbffb]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220612	13:57:32]	UUID:[65f47457-db1b-4f91-b0bb-339ca1814d04]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220612	13:57:32]	UUID:[205c39cf-1b5e-4244-8180-80412d47e812]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220612	13:57:32]	UUID:[56497fc4-50a1-4a34-ad4b-57d5333d287f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220612	13:57:32]	UUID:[5a88cf60-89b0-4a26-b70b-d2ea73798d39]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220612	13:57:41]	UUID:[86387c3c-840e-4236-8a25-2449453e573f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220612	13:57:41]	UUID:[d9beb982-2dcd-402e-bf95-c5ec5ffdc188]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220612	13:57:41]	UUID:[8e40b857-c2d4-4899-8992-6165fccc7fd4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 13:57:41 ]
+
+DateTime:[20220612	13:57:41]	UUID:[991091de-344d-4bf9-8243-79ba38176ada]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220612	13:57:41]	UUID:[8199493d-24fe-4c88-afc9-51f2597621ef]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220612	13:57:41]	UUID:[d43aa30f-3599-4adb-80a5-a872e7060dcd]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 13:57:41 ]
+
+DateTime:[20220612	13:57:44]	UUID:[3f61110b-4a60-4323-8783-6e40e2daa05e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	13:57:44]	UUID:[1f4560e1-184f-4cb7-87fd-d35d2a6d4057]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220612	13:57:44]	UUID:[2a80ba58-657e-45d0-9205-07f3e35a0222]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220612	13:57:44]	UUID:[0414fe4e-abd3-42a8-8a89-3015f813660c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220612	13:57:44]	UUID:[50c1f54b-04f3-4984-bf11-79a26f9aa145]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220612	13:57:44]	UUID:[05fe75a3-85f8-4b99-bab3-68211cd231fb]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220612	13:57:44]	UUID:[30a9e215-e97a-4219-ac21-076feb7672b2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	13:57:44]	UUID:[0a4b22e7-660e-4105-98c5-2fe8bf77c24b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Verifying User has Refresh Access Token in account]
+
+DateTime:[20220612	13:57:44]	UUID:[d6a89877-4b10-45f0-b73d-99623e989e50]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[JWT found in Cookie]
+
+DateTime:[20220612	13:57:44]	UUID:[6032ec41-4b69-4544-8289-b5409de6037e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[RefreshToken was found]
+
+DateTime:[20220612	13:57:44]	UUID:[b5ac14fb-f0e0-4793-962c-ce09f82f3671]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[User role was Found and Verified, Access Granted ]
+
+DateTime:[20220612	13:57:44]	UUID:[9edffe4f-928f-4d95-b1ff-819b565317f9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Refreshed Access Token Successfully]
+
+DateTime:[20220612	14:09:36]	UUID:[e28d74bf-6637-4ee3-80cd-9fbb2eb4bb12]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	14:09:36]	UUID:[11399d89-2f32-44c8-852e-93b57afb51ba]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	14:39:49]	UUID:[0bd7744c-d915-45a0-aa77-e653903e33db]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	14:39:49]	UUID:[7d293854-780a-4df2-9697-918ceffff372]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	15:00:03]	UUID:[031f1eed-1554-410d-9192-c45f01348ff5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220612	15:00:03]	UUID:[81569256-b462-4ca4-ad21-c5df06300783]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220612	15:00:03]	UUID:[9781df68-150b-44a7-8b1c-2f633b532ff4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 15:0:3 ]
+
+DateTime:[20220612	15:00:03]	UUID:[113f2189-57be-419b-a92d-b7ff7155cd79]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220612	15:00:03]	UUID:[1f758f2b-5e24-45a8-8b21-d9a68e12c99f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220612	15:00:03]	UUID:[89b070e7-a7b8-416f-a4fa-8e1e2a132c70]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 15:0:3 ]
+
+DateTime:[20220612	15:00:06]	UUID:[fc82a6c8-d901-4eb7-a659-d4789d05342d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Verifying JWT for access to the page]
+
+DateTime:[20220612	15:00:06]	UUID:[1cb462a6-e60d-4e67-bb26-c2e2590921e8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[Bearer Header Found, Token taken from header in browser for verification]
+
+DateTime:[20220612	15:00:06]	UUID:[cf0163ce-81a3-4c0d-90d4-1bca2691f572]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[JWT_TokenVerificationLog.txt]
+	Message:[ Token Verified : for undefined at 15:0:6 ]

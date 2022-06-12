@@ -9222,3 +9222,468 @@ DateTime:[20220608	23:17:25]	UUID:[e6579cc3-8321-4857-a871-20b096b023ce]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220612	13:55:57]	UUID:[1e73debc-f369-4cc2-b23a-7acd4e3d6848]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	13:55:57]	UUID:[f9f0bc59-bac5-4e0e-bb51-6dd7fecf0ac6]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	13:55:58]	UUID:[2df95cf4-43a8-4740-84ec-d1432edaf25c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	13:56:07]	UUID:[f1641be5-0523-4309-b1b1-064ce3596e1a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	13:56:07]	UUID:[e34c86cf-e8fa-48ec-94ca-8babba8f9a22]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	13:56:07]	UUID:[afb62ea0-c344-444d-bffb-63c91039c5bf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	13:57:10]	UUID:[17ce9d06-4561-4bd9-b372-a8800c28ca14]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	13:57:10]	UUID:[61284537-d442-4ceb-9789-f84b6212890a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	13:57:10]	UUID:[a18e9f9b-62b2-4960-9177-4ab06eda7be9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220612	13:57:10]	UUID:[13b544e4-2190-403f-8a8d-61cddfb70fd8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220612	13:57:39]	UUID:[9945d537-fb0f-4ee9-abbf-b987d069cc09]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	13:57:39]	UUID:[0e76ac40-ff05-44f4-9878-87bdba8b2120]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	13:57:39]	UUID:[d87730b6-dcd4-49a2-8afd-b418819c5832]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220612	13:57:39]	UUID:[de92deac-29a2-4a2b-ae96-280daca20090]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220612	14:03:00]	UUID:[37ac2340-1cb9-45ae-87d1-e911f89166bb]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:03:00]	UUID:[1665bcb8-e271-45b7-bd4e-6cd10a1703cb]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:03:22]	UUID:[9be401e2-b584-4d54-8091-79d998344588]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:03:22]	UUID:[db6e99a3-1945-4b04-9925-0dacbf920179]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:03:49]	UUID:[25f9dc40-8776-43dd-9547-6f3e6917a0ee]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:03:49]	UUID:[c3b1041b-909c-4d8a-a126-226b12df2d35]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:04:45]	UUID:[71556d18-54ca-4406-9140-1e98b8e547cc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:04:45]	UUID:[6b69a78c-30dd-4ef0-bee5-56b9c7a20f12]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:04:45]	UUID:[2c39d5c4-3224-4239-9a07-a0ebb1b4c3aa]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:04:48]	UUID:[0d2ab95a-a5fc-4098-b1a4-633612d6ea06]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:04:48]	UUID:[905e02da-ad94-4c66-9c4b-48d5b7cfbf0a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:04:48]	UUID:[8d8f8435-f1f3-41d5-b585-a16aa2bfc459]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:06:00]	UUID:[90f5e67d-758a-44c9-a1d4-d5a2eb560926]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:06:00]	UUID:[e33137df-2de1-4c52-b3d0-82cd605a4700]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:06:00]	UUID:[5e86c184-976a-4352-91fb-9e1b5fa2bdc8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:06:16]	UUID:[e60c945e-2d56-423e-b3fd-c79fecfeba77]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:06:16]	UUID:[92eebf73-4883-4e1b-85ca-be7688879116]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:06:16]	UUID:[bd995e94-d2cf-462e-8840-afe1e0a2d4c5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:06:38]	UUID:[0d15e3ee-e234-498e-b3c3-bf8d92452461]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:06:38]	UUID:[949206f0-c1aa-4339-bd33-2449e4e4d3ef]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:06:38]	UUID:[388c8550-8406-48a1-804d-b60c1d948b12]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:06:46]	UUID:[984dec9d-f596-44c5-9e43-205c70e0ec0a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:06:46]	UUID:[6d4ff6ba-5c1b-4855-8dc0-563c21b428ce]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:06:46]	UUID:[8f626ee4-8ee6-489c-a89e-5036e80d3ca7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:08:19]	UUID:[8ce08daf-f096-45ab-b0c9-468d0c6a0a43]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:08:19]	UUID:[5454423e-e779-4599-b72f-7c854b777fc5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:08:20]	UUID:[d0d1118f-df7f-48b9-9c39-1af9e29c0ee7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:08:23]	UUID:[b827cf76-5ac1-4b75-8fb4-5fac1d6e10c2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:08:23]	UUID:[502e6982-7b3f-456e-bac2-27efa23bfc53]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:08:23]	UUID:[ee732eda-484e-4975-aa73-35e9ec7d6ae5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:08:24]	UUID:[18d8b2c8-639f-4095-9908-99f150cc0b4f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:08:24]	UUID:[8b558e5d-d329-4bcf-98cc-c0053a72b6cc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:08:24]	UUID:[f7c17153-205f-485e-b9a2-465be0f6040f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:08:25]	UUID:[7f7954ab-ab79-4d0a-8bf5-56e30a927824]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:08:25]	UUID:[73204669-01e4-42d0-b97b-5c4467f044a0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:08:25]	UUID:[164fb643-a25d-4a7b-ba15-d1c00471877c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:09:18]	UUID:[933239a9-8068-4883-83b7-4bb8fa3af5e9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:09:18]	UUID:[24122727-cfb0-427d-b814-51e3ecfe5b16]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:09:18]	UUID:[18f263fb-e2e9-4f2d-8542-a55c58cf5935]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:09:20]	UUID:[d12f8c9e-adb1-42ad-b796-067431f0d0b2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:09:20]	UUID:[dcdc2138-7c4d-4496-81fa-7c46a1ab2eb4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:09:20]	UUID:[0863080f-6c99-49b5-82b4-b1876e381773]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:09:49]	UUID:[4eb8874f-3dd4-40b5-89ad-38eb4e75494d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:09:49]	UUID:[23e12d69-f5e5-4413-98d6-c5f4f0f050b8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:09:50]	UUID:[4bcf704f-43a6-4b32-b7a8-be67c0c22cf0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:10:22]	UUID:[a38017f6-043b-4332-88bd-d425c46e8549]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:10:22]	UUID:[c604fc32-7137-4e41-ae99-b23e09f49273]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:12:28]	UUID:[a8151147-9f19-4018-a7b9-529e60b5e328]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:12:28]	UUID:[b2b18065-054f-449d-9ca6-a2b94ca9e79f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:12:28]	UUID:[1dc777b6-4672-460f-b8a8-fc7e65d0aeb9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:12:31]	UUID:[6e34e52d-0f72-4f54-9d49-40f78a56d3a7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:12:31]	UUID:[4df4c061-f9fa-437e-9010-b789af0022ec]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:12:31]	UUID:[f418684a-a085-4e2a-b68e-079321be88b4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:13:02]	UUID:[d68ce3ff-7274-49a3-bbeb-4d2ea26d651d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:13:02]	UUID:[ed211048-8812-47a7-a7a9-edb9aabedcbf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:13:02]	UUID:[9d5876ed-5ecf-4846-b1a5-9b58586b16c5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:13:04]	UUID:[eadc0caa-7321-4a52-8676-364a6f630466]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:13:04]	UUID:[55fe2f4c-b627-435f-a36a-45c23873e840]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:13:04]	UUID:[2317c7f4-dcbb-408c-aa2d-748fc4dbcb34]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:13:34]	UUID:[bcc7f045-80b1-4574-a212-fd516c409479]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:13:34]	UUID:[50b64749-c47a-47b3-99fb-5dd2a6455df7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:13:34]	UUID:[ac8fbcb7-b989-452b-9331-c05801fbb239]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:13:35]	UUID:[29c37dba-39fa-4be7-9f63-6b40eea04d68]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:13:35]	UUID:[7801d76a-3745-4f06-a214-6b21f9e9dbf1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:13:35]	UUID:[32585041-a298-4d6a-b415-7d1e1c21e6d3]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:14:50]	UUID:[9d9893d7-2330-474a-82ae-fcbe57627775]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:14:50]	UUID:[a43da1ea-1ed2-4413-b9e6-57afb61a68e9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:14:51]	UUID:[186eee1c-86c5-4b24-87df-05a1c42d4c72]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	14:16:03]	UUID:[884f5935-e1fb-4109-9ab3-63f5ff303e99]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	14:16:03]	UUID:[1d5be67e-c7f1-46e1-81dd-008687dc4364]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	14:16:03]	UUID:[44a2e806-cfb7-44f7-ab89-d92d40de7c64]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in failed]
+
+DateTime:[20220612	15:00:01]	UUID:[fbfd0d87-2868-4b61-85af-c8ec0b92f379]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	15:00:01]	UUID:[37731981-c2a0-4602-a6d8-f896b43e6453]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	15:00:01]	UUID:[e0b2b3e8-53dc-4757-b8dd-637e4ab7f63d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220612	15:00:01]	UUID:[52deffa2-4a5e-4b6d-aea2-6d0969f66faf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220612	15:00:45]	UUID:[c86fbae1-f8d7-4e5c-9835-99034c6d62f6]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220612	15:00:45]	UUID:[2f98b269-6223-4610-9ee1-41fabaa6cf7b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220612	15:00:45]	UUID:[d622afc6-4c74-404b-b51d-55cc4e6a1a4e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220612	15:00:45]	UUID:[2c12ba1e-13ed-4a3c-a028-9aa031db1fe6]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]

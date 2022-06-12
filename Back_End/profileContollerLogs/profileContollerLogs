@@ -9273,3 +9273,23 @@ DateTime:[20220606	14:40:01]	UUID:[8ed2fba4-f469-4404-bbf4-20373f5a6101]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[phone@test.com profile found]
+
+DateTime:[20220612	13:57:41]	UUID:[9a096095-1d44-4177-902e-abdbe7791f28]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	13:57:41]	UUID:[50ac00bd-9c27-4f90-af2f-e4cd9c6fcd04]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	15:00:03]	UUID:[40db6a84-fc54-44bc-a2f0-74e03775f057]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220612	15:00:03]	UUID:[e22aac28-b2cb-4baf-b396-7c3afe93a7d7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
