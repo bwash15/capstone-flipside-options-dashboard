@@ -66466,3 +66466,13 @@ DateTime:[20220612	15:00:06]	UUID:[cf0163ce-81a3-4c0d-90d4-1bca2691f572]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
 	LOC:[JWT_TokenVerificationLog.txt]
 	Message:[ Token Verified : for undefined at 15:0:6 ]
+
+DateTime:[20220612	15:31:59]	UUID:[e040fa0a-9190-44bd-9341-12bf62e30059]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]
+
+DateTime:[20220612	15:31:59]	UUID:[bdd7cd50-d2f1-446c-b00e-f993b92d4eee]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\JWTTokenLogs]
+	LOC:[refreshController/handleRefreshToken]
+	Message:[Attempting to Refresh Access Token]

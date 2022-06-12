@@ -41100,3 +41100,13 @@ DateTime:[20220612	15:00:45]	UUID:[89a59fa8-b29c-44d5-8d7d-e38540a4ebb8]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
 	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220612	15:31:59]	UUID:[f38a1e5f-137a-44bb-994f-73654d3ab42c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220612	15:31:59]	UUID:[5eacd2c0-06e3-41e0-8f5f-a098c95d47af]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]

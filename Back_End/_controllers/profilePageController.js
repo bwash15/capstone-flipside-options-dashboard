@@ -84,46 +84,52 @@ const updateProfileInfo = async (req, res) => {
 }
 
 const sendEmail = async (req,res) => {
+    try{
+
+        const email = req.body.email
+        console.log(email);
+        const resetToken = jwt.sign(
+            { "email": email },
+            process.env.REFRESH_TOKEN_SECRET,
+            // Set this so there is not an INDEFINITE refresh token capability
+            { expiresIn: '15m' }
+        );
 
 
-    const email = req.body.email
-    console.log(email);
-    const resetToken = jwt.sign(
-        { "email": email },
-        process.env.REFRESH_TOKEN_SECRET,
-        // Set this so there is not an INDEFINITE refresh token capability
-        { expiresIn: '15m' }
-    );
+        const transport = nodemailer.createTransport({
+            host: process.env.MAIL_HOST,
+            port: process.env.MAIL_PORT,
+            auth: {
+                user: process.env.MAIL_USER,
+                pass: process.env.MAIL_PASS,
+            }
+        })
 
-
-    const transport = nodemailer.createTransport({
-        host: process.env.REACT_APP_MAIL_HOST || process.env.MAIL_HOST,
-        port: process.env.REACT_APP_MAIL_PORT || process.env.MAIL_PORT,
-        auth: {
-            user: process.env.REACT_APP_MAIL_USER || process.env.MAIL_USER,
-            pass: process.env.REACT_APP_MAIL_PASS || process.env.MAIL_PASS,
-        }
-    })
-
-    await transport.sendMail({
-        from: process.env.MAIL_FROM,
-        to: email,
-        subject: "Reset Password",
-        html: `<div className="email" style="
-        border: 1px solid black;
-        padding: 20px;
-        font-family: sans-serif;
-        line-height: 2;
-        font-size: 20px;
-        ">
-        <h2> Hope you get this!</h2>
-        <p>http://localhost:3000/reset/${resetToken}</p>
-        <Link to="http://localhost:3000/reset/${resetToken}">Reset Password</Link>
-        <p>https://flipside-test-729io.ondigitalocean.app/reset/${resetToken}</p>
-        
-        </div>`
-    })
-    res.send({message: "done"});
+        await transport.sendMail({
+            from: process.env.MAIL_FROM,
+            to: email,
+            subject: "Reset Password",
+            html: `<div className="email" style="
+            border: 1px solid black;
+            padding: 20px;
+            font-family: sans-serif;
+            line-height: 2;
+            font-size: 20px;
+            ">
+            <h2> Hope you get this!</h2>
+            <p>http://localhost:3000/reset/${resetToken}</p>
+            <Link to="http://localhost:3000/reset/${resetToken}">Reset Password</Link>
+            <p>https://flipside-test-729io.ondigitalocean.app/reset/${resetToken}</p>
+            
+            </div>`
+        })
+        res.send({message: "done"});
+    }
+    catch(error)
+    {
+        console.log(error);
+        res.send(error);
+    }
 }
 
 const updatePassword = async (req,res) => {
