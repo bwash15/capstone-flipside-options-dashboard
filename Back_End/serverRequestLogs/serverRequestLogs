@@ -24691,3 +24691,13 @@ DateTime:[20220530	21:29:08]	UUID:[4e7915ef-f9b0-4d05-93e8-cd3f3d55c701]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
 	Message:[GET	http://localhost:3000	/userTiles	{}]
+
+DateTime:[20220606	09:05:45]	UUID:[98e6c938-0bda-4a21-b12f-2ce4c65a5eb4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220606	09:05:45]	UUID:[7cc28d9c-e002-435a-876b-c9fb8846fbc0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
