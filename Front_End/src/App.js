@@ -31,12 +31,12 @@ import ResetPassword from "./Pages/ResetPasswordPage";
 
 
 import BasicCard from "./Pages/TilesPage";
-import { AddOption } from "./Pages/TilesPage/addOption"
-import { EditOption } from "./Pages/TilesPage/EditOption"
+import { AddOption } from "./Pages/TilesPage/Options/Tile/Item/addOption"
 import Trading from "./Pages/TradingPage";
-import { AddTile } from "./Pages/TilesPage/addTile";
-import  { BasicOptionCard }  from "./Pages/TilesPage/optionPage";
-import { InnerTileList } from "./Pages/TilesPage/innerTilesList";
+import { AddOptionsTile} from "./Pages/TilesPage/Options/Tile/addOptionsTile";
+import  BasicOptionCard   from "./Pages/TilesPage/Options/Tile/Item/optionPage";
+import { InnerTileList } from "./Pages/TilesPage/Options/Tile/Item/innerTilesList";
+import { AddNewsTile } from "./Pages/TilesPage/News/Tile/addNewsTile";
 function App() {
   const { width } = useWindowSize();
 
@@ -69,10 +69,10 @@ function App() {
               <Route path="linkpage" element={<LinkPage />} />
               <Route path="/tiles" exact element={<BasicCard />} />
               {/* <Route path="/tiles/add" exact element={<AddOption/>} /> */}
-              <Route path="/tiles/:id" element={<BasicOptionCard />} />
-              <Route path="/tiles/:id/add" element={<AddOption />} />
-              <Route path="addTile" exact element={<AddTile />} />
-              <Route path="editOption/:id" element={<EditOption />} />
+              <Route path="/optionTiles/:id" element={<BasicOptionCard />} />
+              <Route path="/optionTiles/:id/add" element={<AddOption />} />
+              <Route path="/add-news-tile" element={<AddNewsTile />} />
+              <Route path="/add-options-tile" exact element={<AddOptionsTile />} />
               <Route path="trading" exact element={<Trading />} />
             </Route>
 
