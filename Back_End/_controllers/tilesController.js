@@ -1,4 +1,7 @@
 const UserTile = require('../_model/userTiles');
+
+
+
 const fetchOption = require("isomorphic-fetch");
 const updateTileInfo = async (req, res) => {
 
@@ -11,7 +14,7 @@ const updateTileInfo = async (req, res) => {
 
     //GET API INFO FROM POLYGON
     const option_type = 'C'                             //C for call P for put
-    const option_expire_date = '220610'                 // YearMonthDay
+    const option_expire_date = '220617'                 // YearMonthDay
     const option_ticker = stockName;                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
     const option_strike_price = '00' + parseInt(stockPrice) * 1000;             //8 digit number, divide by 1000 -> this will be 1$
     const options_ticker_link = `O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`;
