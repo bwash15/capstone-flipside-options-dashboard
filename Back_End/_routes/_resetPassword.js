@@ -4,4 +4,6 @@ const resetPasswordController = require('../_controllers//resetPasswordControlle
 
 router.post('/', resetPasswordController.updatePassword);
 
+router.post('/email', resetPasswordController.checkForEmail);
+
 module.exports = router;

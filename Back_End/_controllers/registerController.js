@@ -1,4 +1,5 @@
 const User = require('../_model/User');
+const pwdHist = require('../_model/passwordHistory');
 const bcrypt = require('bcrypt');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
@@ -56,6 +57,10 @@ const handleNewUser = async (req, res) => {
             "phonenumber": "N/A"
         });
 
+        // Create and Store Password for Reset History
+        const pwdH = await createPasswordHistory(req);
+        console.log(pwdH);
+
         console.log(result);
 
         myEmitter.emit(`userRegistration`, `${email} : user registered successfully`, 'UserRegistrationLogs', 'registerController/handleNewUser');
@@ -64,6 +69,43 @@ const handleNewUser = async (req, res) => {
     } catch (err) {
         myEmitter.emit(`userRegistration`, `${email} : user registration Failed`, 'UserRegistrationLogs', 'registerController/handleNewUser');
         res.status(500).json({ 'message': err.message });
+    }
+}
+
+const createPasswordHistory = async (req) => {
+    const {email, password } = req.body;
+    const duplicate = await pwdHist.findOne({ email: email }).exec();
+    if (duplicate) {
+        myEmitter.emit(`userRegistration`, `${email} : Duplicate found, Register Conflict`, 'UserRegistrationLogs', 'registerController/handleNewUser');
+        return "dupe" // 409 stands for Conflict
+    };
+    try {
+        // Encrypting the password > adds the hash and the salt to the password
+        const hashedPwd = await bcrypt.hash(password, 10);
+        const createdDate = new Date();
+        const year = createdDate.getFullYear();
+        const month = createdDate.getMonth();
+        const day = createdDate.getDate();
+        const expiredDate = new Date(year + 1, month, day);
+        console.log(createdDate);
+        console.log(expiredDate);
+
+        // Create and Store the new tile
+        const result = await pwdHist.create({
+            "email": email,
+            "lastUpdated": createdDate,
+            "pastPasswords": [{
+                "password": hashedPwd,
+                "dateCreated": createdDate,
+                "expDate": expiredDate
+            }]
+        });
+
+        console.log(result);
+        return { 'success': `New user password history created!` };
+
+    } catch (err) {
+        throw new Error(err);
     }
 }
 

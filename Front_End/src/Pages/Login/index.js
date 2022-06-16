@@ -100,6 +100,7 @@ const Login = () => {
                                 checked={persist}
                             />
                             <label htmlFor='persist'>Trust this device</label>
+                            <Link style={{display: "flex", margin: "10px 0px 10px 0px"}} to="/reset/email">Forgot Password?</Link>
                         </div>
                     </form>
                 </div>

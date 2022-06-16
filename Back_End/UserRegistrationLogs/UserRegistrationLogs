@@ -273,3 +273,113 @@ DateTime:[20220531	22:27:10]	UUID:[f00878c9-ca23-413c-aef2-69bc2874ed5b]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
 	LOC:[registerController/handleNewUser]
 	Message:[joe@gg.com : user registered successfully]
+
+DateTime:[20220614	13:04:17]	UUID:[6ac3bb93-e216-40c6-887c-fbef404cdcc2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:04:17]	UUID:[cb812658-2cb6-4c69-8ae2-656282fc969a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220614	13:04:17]	UUID:[5eec023c-212c-4705-9b3b-b32e7de56ddb]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : user registration Failed]
+
+DateTime:[20220614	13:11:07]	UUID:[588c33b7-370c-4a47-a759-629d55830a58]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:11:07]	UUID:[c6cf32bd-e7ad-47f6-baf6-4a7d323fcb76]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Duplicate found, Register Conflict]
+
+DateTime:[20220614	13:11:14]	UUID:[b8193443-0813-4a82-b527-0d8537941554]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:11:14]	UUID:[26b8b5a8-9eec-407a-a68a-df4c60ec3abf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Duplicate found, Register Conflict]
+
+DateTime:[20220614	13:12:35]	UUID:[76c4d9e2-888f-4a5e-b255-7e3f96cc5ea9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:12:36]	UUID:[4e5e4fbf-7800-4f98-983a-6ddb0f02317c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220614	13:12:36]	UUID:[61e3f8c6-6278-43ce-bccb-8d28e194184c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : user registration Failed]
+
+DateTime:[20220614	13:13:51]	UUID:[83baa7bc-b9bf-4171-8a5d-d70f5ec995c0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:13:51]	UUID:[bd269426-36db-45f8-883b-2e2d79c30f90]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220614	13:13:51]	UUID:[8480689c-84ee-4131-bc42-c22c98b69b8f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : user registration Failed]
+
+DateTime:[20220614	13:15:33]	UUID:[db1830d7-a27a-4e70-9893-25f924a9d701]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:15:33]	UUID:[492135eb-aa70-445c-9e17-241abe575af9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220614	13:15:34]	UUID:[9204d70e-71f8-4721-8bd0-54a2ec83f7d1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : user registered successfully]
+
+DateTime:[20220614	13:53:20]	UUID:[5bcafaf6-c929-48cd-855c-532ae0999fc0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:53:20]	UUID:[0f9d2961-22f3-430b-9bd0-af971efc9cc6]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220614	13:53:20]	UUID:[255b4527-a19d-4606-9816-ab8378e4cddf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : user registered successfully]
+
+DateTime:[20220614	13:54:50]	UUID:[0bccfb39-fd92-411a-ae65-faf5c9599449]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Attempting to Register]
+
+DateTime:[20220614	13:54:51]	UUID:[2e21aa46-70d0-41ab-bc7d-b273bf286800]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220614	13:54:51]	UUID:[ac6f4f0e-c11c-4dd5-a6c5-e5408da42291]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[history@test.com : user registered successfully]
