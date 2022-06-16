@@ -13,7 +13,7 @@ const updateTileInfo = async (req, res) => {
     const news_link = data['results'][0]['article_url'];
     const image_url = data['results'][0]['image_url'];
     const description = data['results'][0]['description'];
-    
+    const title = data['results'][0]['title'];
     const result = await UserTile.updateOne(
         {uuid: tileUUID},
         {$push: 
@@ -23,7 +23,8 @@ const updateTileInfo = async (req, res) => {
                     "stockName": stockName,
                     "news_link": news_link,
                     "image_url": image_url,
-                    "description": description
+                    "description": description,
+                    "title": title
                 }
             }
         }

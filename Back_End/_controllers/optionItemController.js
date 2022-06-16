@@ -28,9 +28,6 @@ const updateTileInfo = async (req, res) => {
     const response = await fetchOption(snapshot_link);
     const data = await response.json();
     const query = data['results']['day']['close'];
-    console.log("\n\n\nQUERY is " + JSON.stringify(query));
-    console.log("\n\n\nQUERY is " + (query));
-
     
     const result = await UserTile.updateOne(
         {uuid: tileUUID},

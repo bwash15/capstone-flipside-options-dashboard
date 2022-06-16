@@ -47942,3 +47942,1143 @@ DateTime:[20220616	03:32:55]	UUID:[332a3055-2f19-49ad-9a06-aab0465377de]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
 	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:15]	UUID:[cb8969d4-c2f8-4a0f-9502-a73cf9db1572]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:15]	UUID:[8a01e95a-854a-4108-9790-12015a464886]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:24]	UUID:[3033736f-4424-4c63-b70d-abf8a8e931bc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:24]	UUID:[fa8a5b76-75ef-4651-9f24-b29dcdb1277f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:32]	UUID:[04674ab9-cda1-47e4-b8f2-214a77f8d6da]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:32]	UUID:[61d9d055-7b58-4e66-acb2-d2d564e9e7bf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:46]	UUID:[38beb065-444a-4827-9e88-f48ca4f93e6a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:46]	UUID:[f2e6e960-ed0a-46fa-9fea-ea5c58d46865]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:52]	UUID:[c09fea8c-ebdc-4905-93bd-7c38c8705b9c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:35:52]	UUID:[edac59b0-1d93-4240-be3b-680c630a162a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:09]	UUID:[78739396-7de0-4ab5-8b7c-f26e06e1c800]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:09]	UUID:[e8790c47-10fa-48ae-b44a-1d642af1dbd6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:20]	UUID:[20235a30-05b4-4002-9c1e-1891302af4c7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:20]	UUID:[5ef44ac2-8760-49f2-ab6b-ed2aab4af426]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:31]	UUID:[9658a4bf-dfb4-49d1-8059-2fece99584fe]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:31]	UUID:[e4c54e66-2449-4cda-a944-48958976c65e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:51]	UUID:[2df59c17-7b2c-4fe9-a099-416b448556de]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:51]	UUID:[e42420a0-bbad-4351-b75a-1cbf7709255b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:58]	UUID:[af3c50fe-4b1e-4fd9-93bc-1f15b60e5a3a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:58]	UUID:[acd522c0-a133-4207-ae35-55f372d3604a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:36:59]	UUID:[948e9094-fe40-43a3-ad2e-044612a73c9d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:37:16]	UUID:[36c59bfe-2cff-4a35-af4b-c1f2c3d8136d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:37:16]	UUID:[14e200ff-1589-4c57-bd4a-bd01da4eb8dd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:38:13]	UUID:[ce1f84f9-faa7-4994-beeb-61dbfb559daf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:38:13]	UUID:[189592a3-adc0-45d8-8fdf-3e4c45655ca8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:38:13]	UUID:[2d2aa064-2b92-4301-9dae-a3c2348035c1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:38:13]	UUID:[56877ec1-10c9-4b65-833a-4ee3f682ba7f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:38:13]	UUID:[130c4185-176d-423a-9ad6-e80aaafa5c5e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:38:13]	UUID:[a1919c8e-3a3c-4fc0-9eb5-51593de0a00c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:38:14]	UUID:[02992520-13bd-4175-a168-4c18cb96377f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:38:14]	UUID:[f6a0dc86-29fa-47db-86a4-499aee511a3f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:38:15]	UUID:[70660a2e-bbce-4422-904d-c5605e647b6c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:38:15]	UUID:[905f7f0c-e822-403f-a56e-83bbe85bc822]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:38:15]	UUID:[63237170-53bd-40e2-889c-d99aa4502cd0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:38:15]	UUID:[44502514-ad13-4b4b-9443-da61fae93b91]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:39:59]	UUID:[593717ff-d721-47eb-9a46-68af82f00949]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:39:59]	UUID:[01bb390f-85eb-4373-93ce-a5328782f091]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[DELETE	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:39:59]	UUID:[0157551d-d69f-48bd-8b8d-f90d678e1483]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:40:03]	UUID:[e2a693e1-cf7f-4fd3-a140-94382e9c1acf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220616	03:40:03]	UUID:[2ebe6e7e-e0a6-4b0a-b145-bcbdd88d5fe6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220616	03:40:03]	UUID:[941f6ee8-5dab-494b-8783-fc47150531e8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220616	03:40:03]	UUID:[1586791b-6082-4891-8fab-36e66b3253e0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220616	03:40:06]	UUID:[6cf3c18a-30ef-44cc-85a6-6084ea181318]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220616	03:40:06]	UUID:[e4a8e527-169c-4996-a0a0-47049ffea316]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220616	03:40:07]	UUID:[bca76579-ede4-472a-83ee-e450fc9372cf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:40:07]	UUID:[856cd8f7-d2da-4fba-9731-157a2e9b0eb4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:40:07]	UUID:[250892f9-55fb-4188-9a4c-03ddf7e4e653]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:40:07]	UUID:[3e10e869-b1bd-42c6-8192-83f14cf6a755]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:40:07]	UUID:[b78076da-1b18-4799-8d64-b63dd5093cee]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:40:07]	UUID:[0536e335-c4e3-438e-89b2-a9121c23ff75]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:40:08]	UUID:[fb95b3fb-20b3-4cf7-8032-88a32541d7a4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:40:08]	UUID:[55a25514-5088-4e1e-80cd-e5062e63f269]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:40:08]	UUID:[d5fc9cbb-cd62-4096-a67a-8eaf9458e94b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:40:08]	UUID:[54370ab3-47d9-4c7b-be3d-48ca6be6d84e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:40:08]	UUID:[a269adbc-467f-4875-b50b-f37a2634f108]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:40:08]	UUID:[4ee77a22-17d6-4706-8b26-6587df97d6cb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:40:09]	UUID:[9fd68150-a5e1-4830-8837-6330df51eeca]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[DELETE	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:40:09]	UUID:[2325d145-660b-4b7f-9f72-9f6d869c631f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:21]	UUID:[ecd957fe-c856-4601-9183-55adcf47b129]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:21]	UUID:[02322237-1ac3-4b80-9c1e-b65204e15a5b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:29]	UUID:[72312dc3-83c4-431c-8b62-0c88abe3a758]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:29]	UUID:[5aed2abe-3bcd-4d5b-a967-42a4017d6471]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[DELETE	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:29]	UUID:[0bfb03a0-5693-436a-80c0-8f8144523882]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[e1752a35-a42f-4f06-bb7f-5318a81e035a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[caa41794-fd6e-4593-b6a1-adb06a74706a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[e734b423-eeb8-4274-92d7-b11e0f76daaf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[4816f2d7-e9bf-40aa-a5d3-c852cd4dd0e2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[15445784-cdd2-41c0-b06e-393b8ec9a50b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[e5ba780d-f747-402c-b03c-44a7cafecf8d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[75bb517f-1c86-4370-8539-d0eb27538a62]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[4456790a-044c-4752-95c9-680415c03f7a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[678b937d-f20e-49ec-b921-4e085f319ea2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:41:32]	UUID:[5bd3d302-3c6f-428b-bf71-5543ed303f60]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:41:34]	UUID:[1f664d17-b182-478d-bb3b-aefa4ca84948]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:34]	UUID:[dddf7694-834e-431b-8d58-b43dafbe16d0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:52]	UUID:[4142fef0-026e-4029-93c0-984a29993f97]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:41:52]	UUID:[d5253cd1-4f57-40d6-a94c-1d1b728046e3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:34]	UUID:[fc580d9f-00b6-4f6b-900e-60dc4bce2fc7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:34]	UUID:[cb4c437b-7ebc-4c02-8cc9-c78f78bb48f3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[DELETE	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:34]	UUID:[971731b0-628e-4431-a1ac-cf1f846a42ae]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[bad916b3-4178-4d5f-b663-d0ee32c886b5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[49dd15f5-ac56-4b4a-955c-1a4d3dff7b90]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[4ed4dc76-d785-41f6-8e43-5476955f0984]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[12188d02-a037-4dd0-ae2a-0d2752c5edf7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[246a4d7e-4214-4d68-9e2b-2b767d9c7e35]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[cf630743-5f18-4a66-89a3-4d0805d22fac]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[5058a8a1-9192-42d8-a5a9-b7115874656d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:35]	UUID:[97acba42-eb34-4161-a1b7-6bbdaff2a7d8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:39]	UUID:[7de18a6c-14ac-423e-b028-4232ba7845d1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:39]	UUID:[ebaf8241-70c7-4e49-918c-5c1a4a60cc53]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:40]	UUID:[da8000f2-f01a-45c8-b34c-6fc60e88a09d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:40]	UUID:[d7403e05-44e1-4156-a417-475db073c229]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:40]	UUID:[41295c98-c279-4ebe-9d07-78ab64c3c7c1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:40]	UUID:[ae0f3a9d-04f3-4b66-900e-01a897b73e9f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:41]	UUID:[d6b305fd-d3f1-4a1a-b44a-65550f01e8ae]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:41]	UUID:[6c03ea6a-3521-4905-82e1-f4fe5d4ce9bc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:41]	UUID:[cb99abba-158c-49ab-9ae3-892af9349d56]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[d150a0eb-a1f0-416d-8593-b86b70904d5b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[32edea08-a533-4e9d-ba6a-d20b911718cd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[5133a620-3107-4ef7-8e32-0177651f3828]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[436f5f27-e7bf-416b-a2b5-bf78ed5a1d53]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[56bb1102-8eaa-4f6e-85aa-77be94cfe8fe]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[215576d2-1de6-464c-836b-db3d8a4b1e19]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[d447df62-1307-49bf-addc-30aac13bc0ff]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:42:44]	UUID:[4e1388a4-ad5e-4b79-8ab4-5740157f3cbd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:42:45]	UUID:[5ab17dd4-5594-4b97-b431-1448bfbbcb7c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:42:45]	UUID:[a2d46074-7e6b-42c8-8ab1-b324a7a1f2f6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:43:36]	UUID:[4cecbff5-2862-4e1b-9deb-45c35310eed1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:43:36]	UUID:[f6ead5ac-2daa-4134-a509-d6041166aed3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[96747b22-d675-42bb-a858-ec50795dc887]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[5db45b03-6073-4b2e-acc8-c4ecf88050da]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[b4c0d64e-91e1-4218-a58e-56d300e75391]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[04f33209-9dcb-45eb-b623-5b8bae227c8a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[cc9b94ac-1cdd-4534-99df-d85d065cf5a3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[d19348e3-b46e-4459-95ea-a02f9c4c27cf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[79516630-a685-45c8-979c-1e2fba29d7d3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:43:49]	UUID:[da3d4a25-397c-485d-805f-65939f2463f0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:43:50]	UUID:[c8f65094-9f16-498b-8ffd-428136fe4427]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:43:50]	UUID:[24641afb-e1ac-44cb-9d47-70e340e54c37]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:43:52]	UUID:[24848c36-62db-43d3-a574-7e265cdb17eb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:43:52]	UUID:[3f5f9c36-3a49-47a6-af99-0e4db5e816ac]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:43:52]	UUID:[3a91501a-81df-4a47-8e84-1e77472b796e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:43:52]	UUID:[7c748a7d-93f7-46e2-8b95-6b4065c6becc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[ce13d0e2-1297-4659-9f6a-1deee1df9000]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[fcf044e4-9b2e-426a-a487-dc1c4f991908]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[188851c7-ebcb-4270-8d39-ad8bbe4129c0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[fb8ae954-9d06-4d28-9a99-6607bead3cea]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[4d800345-7384-4036-bb0f-0a238004fec2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[922161ba-ff1e-44b6-aee0-4951b9a4a9d6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[e2bae262-257c-462a-b532-8cd9d566084f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[aa5a5cc9-f314-42b6-b944-e519d0a3d728]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[0dd9b08f-a38b-47b8-8fc2-fb9b95d93af5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:05]	UUID:[340723e8-1def-48fe-9b4d-5d99407f638b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:06]	UUID:[edff0aaa-bde3-4528-8f5b-45325f3db645]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:06]	UUID:[9e9f1df9-8fed-4291-9821-5c46a1ee0d27]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:06]	UUID:[8c206859-943f-4bf6-b9f1-4017cca16cd7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:06]	UUID:[afe51bc0-0419-4748-a60a-5303b88b646e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:18]	UUID:[58fef5ca-df75-450a-82ac-44baabc1aea9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:44:18]	UUID:[2a63959b-dbf6-4c20-97ea-d5a11c1e7748]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles/addingNews	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[6669e283-393a-4a53-9234-1d616fb04d24]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[dfdb9a53-5781-4b48-b25d-38c9d98294c5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[fd2a4f4f-4a61-4781-adab-476d23cc746b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[9d778b27-b673-4b7e-ab85-af188a6961ce]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[f9ff15f5-133d-4754-b016-c1599f84a928]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[a04b8e46-5064-491e-85f2-19ba6c024281]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[ff7aec9d-fd08-47c8-b5f9-b347d9769ced]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:19]	UUID:[eb7ee4d5-4f31-4481-8952-e04694e02510]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:20]	UUID:[733cb80b-27f9-4b74-8fce-272844a4660b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:20]	UUID:[7af639bd-7145-4daa-9aac-ad2d54e1fe3e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:20]	UUID:[e60006f7-7eba-46f7-a738-3eaac5a5cb02]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:20]	UUID:[755ba6ad-45f0-4644-a5b3-ca1d27eff777]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:24]	UUID:[15dfea8d-9997-4691-ad0d-7b88696175d7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[DELETE	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:24]	UUID:[5a2444b2-0f68-41a4-bb8a-e33efa934978]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[84020acd-e8ad-4c7f-9efd-bb59e9c73a77]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[50295f0b-391b-4ebd-8021-24b89b22ebeb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[db79a2e8-98a2-4c8d-9ca7-90f8a9f7542a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[f78ee951-2c1f-4bc6-bf8d-14cca01c343d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[7beb5943-725a-4710-becc-e9dbfc73a85f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[52d1e43e-cb86-4b57-ba0e-0a0c7195ccb8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[43a81a27-769b-4392-af09-1d0168de3c0e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:44:30]	UUID:[8531be91-6867-48d3-8dc6-235a837b7419]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:44:47]	UUID:[6a6b1905-81b9-4ec6-b807-9a48e350d1cc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:47]	UUID:[d0911aba-3d05-4dce-8e42-048c1b0acd31]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:47]	UUID:[635cdac8-dbbf-4e08-8e1c-ba13b12efaaa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:44:47]	UUID:[4d2f3326-0c64-43cc-bdff-e463318a96dc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[7cab7900-04f8-4f0c-887d-5bc1815bf6fa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[cf97e667-f62d-43f2-b1a0-3564d74b0806]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[877c3a73-3610-4cf9-9ce8-f8530cac675d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[d021d267-de94-4887-b259-859e9e97b700]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[90780f2c-f46e-443b-b75a-7f307d11b8ec]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[3cfed67a-8c39-43ab-8946-a58776d51786]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[dc5932ec-5d2d-407f-8f75-dfded6b9c226]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:29]	UUID:[3f963743-b784-4f8e-aaaf-bc29e49d2104]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:30]	UUID:[9397f0d5-8e9e-4b96-896d-f64b84953187]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:30]	UUID:[d49e7005-f60a-46b7-8806-0f7c5ca5a65d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:30]	UUID:[194705e4-675d-463d-a03b-5be4bd0af61c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:30]	UUID:[b75aa68d-2a29-4ecd-875e-be119ed81b4d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:35]	UUID:[05a8ff97-a003-45d8-a72a-db7ddd7454e4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles/addingOption	{}]
+
+DateTime:[20220616	03:45:35]	UUID:[4a3d841a-b44f-4157-935c-c43083870441]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles/addingOption	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[80865165-e1a8-4e94-84c2-31e9021ab913]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[c801ee26-41f6-4aa1-b8b2-82def4dc408b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[6e4f2bfd-4afd-41ea-8637-81d52a7481c4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[d8fbac42-f96c-494f-814d-4e15cacdbdd9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[8430b35c-f248-4fbb-8ef8-41b46a8fabfc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[ef8d72a2-9ee2-4144-a9b9-a48966346119]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[bbae73f5-960d-42ad-a561-735d4e6bdbb0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:45:43]	UUID:[bebb6cc0-5b1e-419b-8712-364dab67c60c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:45:48]	UUID:[23a9b306-5611-48dc-8cf9-55a0e405eb49]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:48]	UUID:[dd4efdc1-40d6-41e7-a144-c96a3cb5d027]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:48]	UUID:[51b8a866-e4a9-4418-8992-d23eca778e15]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:45:48]	UUID:[c78b0e39-38c3-44bd-a824-33fa905c31ad]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:29]	UUID:[58ca5136-8a82-4b2f-ad5d-7cd15ef26da3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:29]	UUID:[c598ae4a-6051-49b2-a816-6c5701a67448]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[DELETE	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:29]	UUID:[43f95eaa-1b07-4a42-88f6-e29b3e1b5232]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:37]	UUID:[1a9e98e4-3145-4129-8169-374264a484f6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles/addingOption	{}]
+
+DateTime:[20220616	03:46:37]	UUID:[742940e2-462d-42c3-824d-b88474da42f6]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles/addingOption	{}]
+
+DateTime:[20220616	03:46:37]	UUID:[e5078ed9-93cf-44a0-a802-6d744760ae8c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:37]	UUID:[d7a01a20-894e-4f8f-a148-8475157faf58]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:37]	UUID:[5be0d413-e131-479e-8cdf-7b613de074ba]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:37]	UUID:[4e7b9940-b233-477a-a15d-577360d58931]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/optionTiles	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[3a9945c2-4aea-48f0-b915-39f85cb4c071]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[de9ca8a7-0c7d-41c1-8210-0a4fb6d078d2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[59a47731-2e1b-4fd8-83f7-bc3cd8c5c61e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[39d26eec-e5a4-4efb-8937-7c6498665747]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[14645e66-50f7-4590-92c2-6a920d5cf564]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[01a0f4d8-b0e4-468e-9344-5eec038051bc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[e4e186cc-91a4-4590-8358-fbc1710492bc]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:46:40]	UUID:[bb43090f-e7f1-4915-bde7-ae2f7058ae2e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:46:53]	UUID:[d8cda921-5e32-42ff-b46e-cbd51ed951aa]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:46:53]	UUID:[e8018fee-d7a7-42a0-918c-fb71a8ea9889]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:46:53]	UUID:[89cf749d-aa8e-4dc1-aaa6-47de6705e707]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:46:53]	UUID:[7a1edeab-1656-4a38-84e1-ed70e2dc344e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/newsTiles	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[c830bd66-2294-49ce-a4c9-9ca82bbbecf9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[c309b458-bdc3-4204-925d-8428031dd5c3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[688beaee-328a-4dd0-8fab-9203b27d427d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[a782daf1-253b-4269-bf73-853cfa66839d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[e3c7914a-a9b3-49a0-bcae-e49677cc5531]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[5500f8bf-24ad-4d2a-a2fc-8aa991405c75]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[108a93f5-18b2-499d-9e7e-59aab508b19a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:00]	UUID:[96ac92a8-7fb5-450f-9139-ddd98f49f02e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[664bf123-936c-4220-bc41-825bf894a8bd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[b6cc7abd-3d94-4aa6-9bdb-6f60b96b7bf2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[547cceb7-bc14-4e8c-8cfa-db2348e8e3bd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[2da9538b-d1f3-41e5-bbbb-f1d5ad473a5c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[2f2571d2-ebb1-46ca-894e-5890f1c92172]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[4db7464c-befa-471d-b951-dc256e17a2c1]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[1b47a658-45ff-4d50-8065-6ca28ea459db]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/options	{}]
+
+DateTime:[20220616	03:47:20]	UUID:[8dcbf395-9d21-4632-9c0b-e7535209f9f4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/userTiles/news	{}]

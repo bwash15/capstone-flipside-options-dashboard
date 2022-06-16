@@ -18,6 +18,10 @@ const subSchema = new Schema({
         type: String,
         required: false
     },
+    title: {
+        type: String,
+        required: false
+    },
     uuid : {
         type: String,
         required: false

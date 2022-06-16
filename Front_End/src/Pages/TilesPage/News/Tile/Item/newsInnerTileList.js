@@ -36,7 +36,7 @@ export const NewsInnerTileList = () => {
   {headers: {"Authorization" :`Bearer ${auth.accessToken}`},
     data: JSON.stringify({
       "tileUUID": tileUUID,
-      "optionUUID": val,
+      "newsUUID": val,
     })
   });
   //refreshes the page with the new information
@@ -48,11 +48,13 @@ export const NewsInnerTileList = () => {
     {tiles.map((tile, index) => (
       <div key = {index}>      
         <ListGroupItem className="d-flex">
-          <strong>{tile.stockName}</strong>
-          <strong>-</strong>
-          <strong>{tile.image_url}</strong>
+          <div>
+            <div><strong>{tile.stockName}</strong></div>
+            <div><img src={tile.image_url} alt={tile.image_url}></img></div>
+            <div><p>{tile.title}</p></div>
+          </div>
+          
           <div className='ms-auto'>
-            <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
             <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>
           </div>
         </ListGroupItem> 

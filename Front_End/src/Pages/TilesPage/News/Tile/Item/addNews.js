@@ -30,7 +30,7 @@ export const AddNews = () => {
             "stockName" :stockName,
         }),
         {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
-        navigate('/tiles', {replace: true});
+        navigate(`/newsTiles/${tileUUID}`, {replace: true});
     }
     const changeUUID = () => {
         setUuid(uuidv4());

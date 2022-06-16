@@ -34,7 +34,7 @@ export const AddOption = () => {
             "expDate": expDate
         }),
         {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
-        navigate('/tiles', {replace: true});
+        navigate(`/optionTiles/${tileUUID}`, {replace: true});
     }
     const changeUUID = () => {
         setUuid(uuidv4());
