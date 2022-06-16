@@ -19,7 +19,7 @@ const handleLogin = async (req, res) => {
     const foundUser = await User.findOne({ email: email }).exec();
     if (!foundUser) {
         myEmitter.emit(`userLoginActivity`, `${email} is Unauthorized `, 'LoginAttemptLogs', ' authController/handleLogin');
-        return res.sendStatus(401) //Unauthoized
+        return res.status(401).send({"message": "Invalid Email or Password!"}); //Unauthoized
     };
     // evaluate password
     const match = await bcrypt.compare(password, foundUser.password);
@@ -71,7 +71,7 @@ const handleLogin = async (req, res) => {
     } else {
         myEmitter.emit(`userLoginActivity`, `${foundUser.email} logged in failed`, 'LoginAttemptLogs', 'authController/handleLogin');
 
-        res.sendStatus(401);
+        return res.status(401).send({"message": "Invalid Email or Password!"});
     }
 }
 module.exports = { handleLogin };
