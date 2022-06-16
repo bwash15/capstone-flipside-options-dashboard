@@ -5,7 +5,8 @@ import {
     FormGroup,
     Label,
     Input,
-    Button
+    Button,
+    ButtonGroup
 } from 'reactstrap'
 import {Link, useNavigate} from 'react-router-dom'
 import { v4 as uuidv4 } from "uuid";
@@ -19,7 +20,9 @@ export const AddOption = () => {
     const [stockPrice, setStockPrice] = useState('');
     const [expDate, setExpDate] = useState('');
     const [uuid, setUuid] = useState('');
+
     const navigate = useNavigate();
+
 
     const tileUUID = window.location.href.split("/")[4];
     const onSubmit = async (e) => {
@@ -45,8 +48,8 @@ export const AddOption = () => {
     const onStockPriceChange = (e) => {
         setStockPrice(e.target.value)
     }
-    const onExpDateChange = (e) => {
-        setExpDate(e.target.value)
+    const onRadioButtonClick =(radio) =>{
+        setExpDate(radio);
     }
   return (
       <div style={{maxWidth: "30rem", margin: "4rem auto"}}>
@@ -56,9 +59,15 @@ export const AddOption = () => {
             <Input type = "text" value = {stockName} onChange = {onStockNameChange} placeholder ="Stock Ticker"></Input>
             <Label>Price</Label>
             <Input type = "text" value = {stockPrice} onChange = {onStockPriceChange} placeholder ="Stock Price"></Input>
-            <Label>Expiration</Label>
-            <Input type = "text" value = {expDate} onChange = {onExpDateChange} placeholder ="Exp Date"></Input>
         </FormGroup>
+        <div>
+        <ButtonGroup size="lg">
+            <Button color="primary" onClick={() => onRadioButtonClick('220617')}>6/17/2022</Button>
+            <Button color="primary" onClick={() => onRadioButtonClick('220624')}>6/24/2022</Button>
+            <Button color="primary" onClick={() => onRadioButtonClick('220701')}>7/01/2022</Button>
+        </ButtonGroup>
+        </div>
+        <br></br>
         <Button type = "submit" onClick={changeUUID}>Submit</Button>
         <Link to = "/tiles" className='btn btn-danger ml-2'>Cancel</Link>
     </Form>
@@ -66,3 +75,27 @@ export const AddOption = () => {
 
   )
 }
+
+/*
+<FormGroup tag="fieldset">
+        <legend>Expiration</legend>
+            <FormGroup check>
+                <Label check>
+                    <Input type="radio" name="radio1" /> {' '}
+                    6/17/2022
+                </Label>
+            </FormGroup>
+            <FormGroup check>
+                <Label check>
+                    <Input type="radio" name="radio1" /> {' '}
+                    6/24/2022
+                </Label>
+            </FormGroup>
+            <FormGroup check>
+                <Label check>
+                    <Input type="radio" name="radio1" /> {' '}
+                    7/01/2022
+                </Label>
+            </FormGroup>
+        </FormGroup>
+*/

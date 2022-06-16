@@ -10697,3 +10697,198 @@ DateTime:[20220616	03:40:07]	UUID:[5e38b5a4-374b-4693-bc64-00e4f087ed2f]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220616	03:55:19]	UUID:[9d57df81-7168-49a6-9d8f-b03915824cfd]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	03:55:19]	UUID:[6a6f4f89-46f7-4636-8b21-96209f0afee9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	03:55:19]	UUID:[34bfb5d7-03d6-453a-aab1-37f9b041728a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in failed]
+
+DateTime:[20220616	03:55:22]	UUID:[ade93f9c-bdba-413a-8417-f43648c05619]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	03:55:22]	UUID:[9259c5ee-5dd8-42cb-9c47-9daf8b554cd5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	03:55:22]	UUID:[a31c1a2c-c8ed-433e-92a4-7720cc43d6ef]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	03:55:22]	UUID:[422a08fd-338f-45ab-8341-272980022ef2]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:06:55]	UUID:[1dae6ac1-5060-4fbf-8398-8752cf13fa4a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:06:55]	UUID:[4d5f0c8e-9e47-4f9f-a34f-0eb7421565a5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:06:55]	UUID:[c687cd73-2215-43a2-9d25-05f04740da97]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:06:55]	UUID:[72da02a8-73a1-49ea-9fdb-6b09faff16b5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:07:07]	UUID:[377c9fa8-9de2-4db8-addb-2d2b3c001e03]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:07:07]	UUID:[1e1895a6-759b-474e-ac45-1d03d2e3a3c9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:07:08]	UUID:[957b0764-928d-4bb4-8539-0f4c43efad63]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:07:08]	UUID:[73cae5a8-43d9-4d19-82d3-e6d757bfb9de]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:09:54]	UUID:[0308e7f2-27a7-4de4-851d-81c92516fb7f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:09:54]	UUID:[7665f227-c0dd-41c8-b529-713bf71e31e0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:09:55]	UUID:[579802ee-0faa-42c2-97d5-0c781332716f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:09:55]	UUID:[5d5a9a03-3ac1-4308-be86-4965e9ba1df3]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:10:01]	UUID:[f5e64312-f377-43df-9cc7-98b6ae5cb60b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:10:01]	UUID:[08b68a2e-0c77-4e77-8dce-1c269b78d7bb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:10:01]	UUID:[498375d7-66cf-44ee-812e-157e60c9533f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:10:01]	UUID:[bd83e42e-7512-4611-891d-aa6981631cdf]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:10:34]	UUID:[c979d8eb-46a4-4cf1-aed1-7781079bba8b]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:10:34]	UUID:[eb6a88b0-2db7-4d03-b44d-8888d37db2f9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:10:35]	UUID:[72bd4875-fa7e-4787-b7c4-493123c5cbb4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:10:35]	UUID:[699e9114-95b7-422d-9f39-fc88f859f6c5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:14:06]	UUID:[34195cec-e145-47ee-9074-1bff3b5ca3b9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:14:06]	UUID:[f995630c-b434-47f1-944b-74ed6480e5bb]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:14:06]	UUID:[cc1963c5-96f7-4934-adf4-469e74d77481]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:14:06]	UUID:[b8899e4c-0786-4100-95aa-a1a7c013cfe7]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:19:26]	UUID:[c70be74e-8c25-415d-941a-a4967ba00d0d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:19:26]	UUID:[74dcf052-294b-434f-96b6-ed6d11c055be]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:19:26]	UUID:[346ac6c3-ecff-4a56-afd9-eff02fe048ff]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:19:26]	UUID:[9199cbd9-9619-4dc2-8ab6-0cae89d4198f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220616	04:36:31]	UUID:[c17c11a9-93be-4a2e-b8fa-b414c9811672]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220616	04:36:31]	UUID:[604e6d9e-f640-463a-8d0c-7677f4058873]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220616	04:36:31]	UUID:[f21fc90d-54fc-4037-a924-2429c9945aff]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220616	04:36:31]	UUID:[e986d48e-a96f-4a87-8356-9bff8532d6f8]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]

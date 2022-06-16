@@ -15,7 +15,7 @@ const subSchema = new Schema({
         required: false
     },
     expDate: {
-        type: Date,
+        type: String,
         required: false
     },
     uuid: {

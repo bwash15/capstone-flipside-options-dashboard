@@ -9,19 +9,32 @@ const updateTileInfo = async (req, res) => {
     const stockPrice = req.body.stockPrice;
     const optionUUID = req.body.optionUUID;
     const tileUUID = req.body.tileUUID;
-    //const expDate = req.body.expDate;
+    const expDate = req.body.expDate;
 
     //GET API INFO FROM POLYGON
     const option_type = 'C'                             //C for call P for put
-    const option_expire_date = '220617'                 // YearMonthDay
+    const option_expire_date = expDate                // YearMonthDay
     const option_ticker = stockName;                       //nasdaq name for the company -> this comapny is called exela but the nasdaq name is XELA
-    const option_strike_price = '00' + parseInt(stockPrice) * 1000;             //8 digit number, divide by 1000 -> this will be 1$
+    let option_strike_price = '0'
+     //8 digit number, divide by 1000 -> this will be 1$
+    if(stockPrice.length == 1){
+        option_strike_price = '0000' + parseInt(stockPrice) * 1000;  
+    } else if(stockPrice.length == 2){
+        option_strike_price = '000' + parseInt(stockPrice) * 1000;  
+    } else if(stockPrice.length == 3){
+        option_strike_price = '00' + parseInt(stockPrice) * 1000
+    } else if(stockPrice.length == 4){
+        option_strike_price = '0' + parseInt(stockPrice) * 1000
+    }
+    console.log("stock price is " + option_strike_price)
+              
     const snapshot_link = `https://api.polygon.io/v3/snapshot/options/${option_ticker}/O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}?apiKey=${process.env.API_KEY}`
-
+    console.log("snapshot link is " + snapshot_link)
     const response = await fetchOption(snapshot_link);
     const data = await response.json();
     const query = data['results']['day']['close'];
 
+    console.log(query)
     const result = await UserTile.updateOne(
         {uuid: tileUUID},
         {$push: 
