@@ -37,6 +37,8 @@ import { AddOptionsTile} from "./Pages/TilesPage/Options/Tile/addOptionsTile";
 import  BasicOptionCard   from "./Pages/TilesPage/Options/Tile/Item/optionPage";
 import { InnerTileList } from "./Pages/TilesPage/Options/Tile/Item/innerTilesList";
 import { AddNewsTile } from "./Pages/TilesPage/News/Tile/addNewsTile";
+import BasicNewsCard from "./Pages/TilesPage/News/Tile/Item/newsPage";
+import { AddNews } from "./Pages/TilesPage/News/Tile/Item/addNews";
 function App() {
   const { width } = useWindowSize();
 
@@ -65,12 +67,14 @@ function App() {
               <Route path="linkpage" element={<LinkPage />} />
               <Route path="landingpage" element={<LandingPage />} />
               <Route path="profilePage" element={<ProfilePage />} />
-              <Route path="userTiles" exact element={<BasicCard />} />
+              {/* <Route path="userTiles" exact element={<BasicCard />} /> */}
               <Route path="linkpage" element={<LinkPage />} />
               <Route path="/tiles" exact element={<BasicCard />} />
               {/* <Route path="/tiles/add" exact element={<AddOption/>} /> */}
               <Route path="/optionTiles/:id" element={<BasicOptionCard />} />
               <Route path="/optionTiles/:id/add" element={<AddOption />} />
+              <Route path="/newsTiles/:id" element={<BasicNewsCard />} />
+              <Route path="/newsTiles/:id/add" element={<AddNews />} />
               <Route path="/add-news-tile" element={<AddNewsTile />} />
               <Route path="/add-options-tile" exact element={<AddOptionsTile />} />
               <Route path="trading" exact element={<Trading />} />

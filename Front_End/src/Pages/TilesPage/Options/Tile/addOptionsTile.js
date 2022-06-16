@@ -22,6 +22,7 @@ export const AddOptionsTile = () => {
         e.preventDefault();
          //push to database
          const url = "/userTiles/options";
+         console.log("going to " + url);
         await axios.post(url, JSON.stringify({
             "uuid": uuid,
             "tileName" :tileName,

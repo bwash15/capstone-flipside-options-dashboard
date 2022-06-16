@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const newsItemController = require('../_controllers/news/newsItemController');
+const newsItemController = require('../_controllers/newsItemController');
 const ROLES_LIST = require('../_config/roles_list');
 const verifyRoles = require('../_middleware/verifyRoles');
 

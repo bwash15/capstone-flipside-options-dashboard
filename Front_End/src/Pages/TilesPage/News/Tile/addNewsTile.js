@@ -21,7 +21,7 @@ export const AddNewsTile = () => {
     const onSubmit = async (e) => {
         e.preventDefault();
          //push to database
-         const url = "/userTile/news";
+         const url = "/userTiles/news";
         await axios.post(url, JSON.stringify({
             "uuid": uuid,
             "tileName" :tileName,
@@ -39,7 +39,7 @@ export const AddNewsTile = () => {
       <div style={{maxWidth: "30rem", margin: "4rem auto"}}>
     <Form onSubmit={onSubmit}>
         <FormGroup>
-            <Label>Option Tile Name</Label>
+            <Label>News Tile Name</Label>
             <Input type = "text" value = {tileName} onChange = {onNameChange} placeholder ="Tile Name"></Input>
         </FormGroup>
         <Button type = "submit" onClick={changeUUID}>Submit</Button>

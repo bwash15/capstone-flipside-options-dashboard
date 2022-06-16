@@ -17,7 +17,7 @@ export const OptionsListHeading = () => {
     <Navbar color="dark" dark>
         <Container className='d-flex'>
             <NavbarBrand>
-                Options/News List
+                Options
             </NavbarBrand>
             <Nav className = "ms-auto">
                 <NavItem>

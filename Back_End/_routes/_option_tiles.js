@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const optionItemController = require('../_controllers/options/optionItemController');
+const optionItemController = require('../_controllers/optionItemController');
 const ROLES_LIST = require('../_config/roles_list');
 const verifyRoles = require('../_middleware/verifyRoles');
 

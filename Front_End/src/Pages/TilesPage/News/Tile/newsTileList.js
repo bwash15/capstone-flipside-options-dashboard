@@ -11,23 +11,17 @@ import useAuth from '../../../../hooks/useAuth';
 export const NewsTileList = () => {
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
-  const tileUUID = window.location.href.split("/")[4];
 
   const getTiles = () => {
     const url = '/userTiles/news';
-    axios.post(url, JSON.stringify({
-      "uuid": tileUUID,
-  }),{
-      headers: {Authorization :`Bearer ${auth.accessToken}`},
-  })
+    axios.get(url, {headers: {Authorization :`Bearer ${auth.accessToken}`}})
         .then((response) => {
-          setTiles(response.data.tiles);
+          setTiles(response.data);
       })
   }
 
   useEffect(() => {
     getTiles();
-    //console.log("the non stringy" + (tiles.tiles))
   }, []);
 
   const deleteTile = async (val) =>{
@@ -35,8 +29,7 @@ export const NewsTileList = () => {
     await axios.delete(url,
   {headers: {"Authorization" :`Bearer ${auth.accessToken}`},
     data: JSON.stringify({
-      "tileUUID": tileUUID,
-      "newsUUID": val,
+      "uuid": val,
     })
   });
   //refreshes the page with the new information
@@ -48,11 +41,9 @@ export const NewsTileList = () => {
     {tiles.map((tile, index) => (
       <div key = {index}>      
         <ListGroupItem className="d-flex">
-          <strong>{tile.stockName}</strong>
-          <strong>-</strong>
-          <strong>{tile.image_url}</strong>
+          <strong>{tile.tileName}</strong>
           <div className='ms-auto'>
-            <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
+            <Link className="btn btn-warning mr-1" to={`/newsTiles/${tile.uuid}`}>Edit</Link>
             <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>
           </div>
         </ListGroupItem> 

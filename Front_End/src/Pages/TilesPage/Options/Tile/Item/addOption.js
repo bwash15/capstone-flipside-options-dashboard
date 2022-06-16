@@ -52,7 +52,7 @@ export const AddOption = () => {
       <div style={{maxWidth: "30rem", margin: "4rem auto"}}>
     <Form onSubmit={onSubmit}>
         <FormGroup>
-            <Label>Name</Label>
+            <Label>Stock Name</Label>
             <Input type = "text" value = {stockName} onChange = {onStockNameChange} placeholder ="Stock Ticker"></Input>
             <Label>Price</Label>
             <Input type = "text" value = {stockPrice} onChange = {onStockPriceChange} placeholder ="Stock Price"></Input>
