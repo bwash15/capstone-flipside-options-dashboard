@@ -1,13 +1,22 @@
 import * as React from 'react';
-import {Heading} from './Heading';
-import {TileList} from './TileList'
+import {OptionsHeading} from './Options/Tile/optionsHeading';
+import { NewsHeading } from './News/Tile/newsHeading';
+import { NewsTileList } from './News/Tile/newsTileList';
+import {TileList} from './Options/Tile/TileList'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function BasicCard() {
   return (
-    <div style = {{maxWidth:"30rem", margin: "4rem auto"}}>
-      <Heading />
-      <TileList/>
+    <div>
+      <div style = {{maxWidth:"30rem", margin: "4rem auto"}}>
+        <OptionsHeading />
+        <TileList/>
+      </div>
+      <div style = {{maxWidth:"30rem", margin: "4rem auto"}}>
+        <NewsHeading />
+        <NewsTileList/>
+      </div>
     </div>
+
   );
   }
