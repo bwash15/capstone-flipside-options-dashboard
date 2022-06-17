@@ -14,7 +14,9 @@ const allowedOrigins = [
     'https://flipside-test-729io.ondigitalocean.app/',
     'https://flipside-test-back-9n4ed.ondigitalocean.app/',
     'https://flipside-test-back-9n4ed.ondigitalocean.app',
-    'https://flipside-test-729io.ondigitalocean.app'
+    'https://flipside-test-729io.ondigitalocean.app',
+    'https://flipside-test-729io.ondigitalocean.app/login',
+    'https://flipside-test-729io.ondigitalocean.app/profilePage/email',
 ];
 
 module.exports = allowedOrigins;

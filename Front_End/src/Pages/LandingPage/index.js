@@ -72,7 +72,7 @@ function Home() {
     };
 
     const navProfile = () => {
-        navigate("/profile")
+        navigate("/profilePage")
     }
     // useEffect(() => {
     //     setValue(fetchData());

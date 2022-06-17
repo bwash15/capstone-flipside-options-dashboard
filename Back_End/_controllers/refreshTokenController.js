@@ -29,11 +29,11 @@ const handleRefreshToken = async (req, res) => {
     // if no refreshtoken if found, user gets forbidden message
     if (!foundUser) return res.sendStatus(403); // Forbidden
     myEmitter.emit(`refreshTokenActivity`, `RefreshToken was found`, 'JWTTokenLogs', 'refreshController/handleRefreshToken');
-
+    const env = process.env.REFRESH_TOKEN_SECRET || process.env.REACT_APP_REFRESH_TOKEN_SECRET;
     // Evaluate JWT    
     jwt.verify(
         refreshToken,
-        process.env.REFRESH_TOKEN_SECRET,
+        env,
         (err, decoded) => {
             if (err || foundUser.email !== decoded.email) {
                 myEmitter.emit(`refreshTokenActivity`, `Error verifying Token or User email not found`, 'JWTTokenLogs', 'refreshController/handleRefreshToken');

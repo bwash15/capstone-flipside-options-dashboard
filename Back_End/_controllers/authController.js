@@ -19,7 +19,7 @@ const handleLogin = async (req, res) => {
     const foundUser = await User.findOne({ email: email }).exec();
     if (!foundUser) {
         myEmitter.emit(`userLoginActivity`, `${email} is Unauthorized `, 'LoginAttemptLogs', ' authController/handleLogin');
-        return res.sendStatus(401) //Unauthoized
+        return res.status(401).send({"message": "Invalid Email or Password!"}); //Unauthoized
     };
     // evaluate password
     const match = await bcrypt.compare(password, foundUser.password);
@@ -30,6 +30,7 @@ const handleLogin = async (req, res) => {
 
         // Create the JWTs - Access and Refresh 
         myEmitter.emit(`userLoginActivity`, `Creating JWT...`, 'LoginAttemptLogs', 'authController/handleLogin');
+        const authenv = process.env.ACCESS_TOKEN_SECRET || process.env.REACT_APP_ACCESS_TOKEN_SECRET;
         const accessToken = jwt.sign(
             {
                 // Object to check for User Authentication and Authorization 
@@ -39,14 +40,16 @@ const handleLogin = async (req, res) => {
                     "roles": roles
                 }
             },
-            process.env.ACCESS_TOKEN_SECRET,
+            authenv,
             { expiresIn: '15m' }
         );
+
+        const env = process.env.REFRESH_TOKEN_SECRET || process.env.REACT_APP_REFRESH_TOKEN_SECRET;
         // No need to set roles in the refresh token, 
         // Refresh Token is only there to verify you can get a NEW ACCESS TOKEN
         const refreshToken = jwt.sign(
             { "email": foundUser.email },
-            process.env.REFRESH_TOKEN_SECRET,
+            env,
             // Set this so there is not an INDEFINITE refresh token capability
             { expiresIn: '15m' }
         );
@@ -68,7 +71,7 @@ const handleLogin = async (req, res) => {
     } else {
         myEmitter.emit(`userLoginActivity`, `${foundUser.email} logged in failed`, 'LoginAttemptLogs', 'authController/handleLogin');
 
-        res.sendStatus(401);
+        return res.status(401).send({"message": "Invalid Email or Password!"});
     }
 }
 module.exports = { handleLogin };

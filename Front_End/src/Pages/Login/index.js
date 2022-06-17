@@ -41,11 +41,11 @@ const Login = () => {
 
         } catch (error) {
             if (
-                error.loginResponse &&
-                error.loginResponse.status >= 400 &&
-                error.loginResponse.status <= 500
+                error.response &&
+				error.response.status >= 400 &&
+				error.response.status <= 500
             ) {
-                setError(error.loginResponse.data.message);
+                setError(error.response.data.message);
             }
         }
     }
@@ -100,6 +100,7 @@ const Login = () => {
                                 checked={persist}
                             />
                             <label htmlFor='persist'>Trust this device</label>
+                            <Link style={{display: "flex", margin: "10px 0px 10px 0px"}} to="/reset/email">Forgot Password?</Link>
                         </div>
                     </form>
                 </div>

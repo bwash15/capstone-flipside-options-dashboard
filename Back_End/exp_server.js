@@ -75,6 +75,7 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./_routes/root'));
 app.use('/register', require('./_routes/_register'));
 app.use('/auth', require('./_routes/_auth'));
+app.use('/reset', require('./_routes/_resetPassword'));
 
 //************************************************/
 //      JWT
@@ -95,6 +96,12 @@ app.use('/profilePage', require('./_routes/webapi/_profilePage.js'));
 // Does not needs a Static file because we will just be serving data from the database
 
 app.use('/users', require('./_routes/api/users'));
+
+app.use('/userTiles', require('./_routes/_userTiles'));
+app.use('/optionTiles', require('./_routes/_option_tiles'));
+app.use('/newsTiles', require('./_routes/_news_tiles'));
+
+app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
 app.use('/optionDays', require('./_routes/api/optionDays'));
 app.use('/optionDetails', require('./_routes/api/optionDetails'));

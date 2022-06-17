@@ -26,15 +26,20 @@ import UnAuthorizedAccess from "./UnAuthorized";
 import LandingPage from "./Pages/LandingPage"
 import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
+import ResetPassword from "./Pages/ResetPasswordPage";
+import EnterEmail from './Pages/EnterEmailPage'
 
 
 
 import BasicCard from "./Pages/TilesPage";
-import { AddOption } from "./Pages/TilesPage/OptionTile/AddOption"
-import { EditOption } from "./Pages/TilesPage/OptionTile/EditOption"
+import { AddOption } from "./Pages/TilesPage/Options/Tile/Item/addOption"
 import Trading from "./Pages/TradingPage";
-import { AddTile } from "./Pages/TilesPage/addTile";
-import { EditTile } from "./Pages/TilesPage/editTile";
+import { AddOptionsTile} from "./Pages/TilesPage/Options/Tile/addOptionsTile";
+import  BasicOptionCard   from "./Pages/TilesPage/Options/Tile/Item/optionPage";
+import { InnerTileList } from "./Pages/TilesPage/Options/Tile/Item/innerTilesList";
+import { AddNewsTile } from "./Pages/TilesPage/News/Tile/addNewsTile";
+import BasicNewsCard from "./Pages/TilesPage/News/Tile/Item/newsPage";
+import { AddNews } from "./Pages/TilesPage/News/Tile/Item/addNews";
 function App() {
   const { width } = useWindowSize();
 
@@ -45,6 +50,8 @@ function App() {
       <Routes>
         {/** Layout and PersistLogin both make use of the Outlet component **/}
         {/** Pulic Routes **/}
+        <Route path="reset/email" element={<EnterEmail />} />
+        <Route path="reset/:resetToken" element={<ResetPassword />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<RegisterUser />} />
         <Route path="unauthorized" element={<UnAuthorizedAccess />} />
@@ -55,21 +62,23 @@ function App() {
           {/** User Only Access **/}
           {/** PersistLogin works with the RefreshToken to Persist the User Login **/}
           <Route element={<PersistLogin />}>
-            <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
-              <Route path="linkpage" element={<LinkPage />} />
-              <Route path="profilePage" element={<ProfilePage />} />
-              <Route path="userTiles" exact element={<BasicCard />} />
-            </Route>
 
             {/** Admin, Editor, and User Routes **/}
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
               <Route path="/" element={<Home />} />
+              <Route path="linkpage" element={<LinkPage />} />
               <Route path="landingpage" element={<LandingPage />} />
-
-              <Route path="addTile" exact element={<AddTile />} />
-              <Route path="editTile/:id" element={<EditTile />} />
-              <Route path="addOption" exact element={<AddOption />} />
-              <Route path="editOption/:id" element={<EditOption />} />
+              <Route path="profilePage" element={<ProfilePage />} />
+              {/* <Route path="userTiles" exact element={<BasicCard />} /> */}
+              <Route path="linkpage" element={<LinkPage />} />
+              <Route path="/tiles" exact element={<BasicCard />} />
+              {/* <Route path="/tiles/add" exact element={<AddOption/>} /> */}
+              <Route path="/optionTiles/:id" element={<BasicOptionCard />} />
+              <Route path="/optionTiles/:id/add" element={<AddOption />} />
+              <Route path="/newsTiles/:id" element={<BasicNewsCard />} />
+              <Route path="/newsTiles/:id/add" element={<AddNews />} />
+              <Route path="/add-news-tile" element={<AddNewsTile />} />
+              <Route path="/add-options-tile" exact element={<AddOptionsTile />} />
               <Route path="trading" exact element={<Trading />} />
             </Route>
 

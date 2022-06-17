@@ -2,12 +2,23 @@ const ProfileInfo = require('../_model/User');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
+const crypto = require('crypto');
+const { resolve } = require('path');
+const nodemailer = require('nodemailer');
 const myEmitter = new Emitter();
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 myEmitter.on('profileControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const getProfile = async (req, res) => {
-    console.log(req.body.email);    
+    console.log("===GETPROFILE====");
     if (!req?.body?.email) return res.status(400).json({ 'message': `User Email Required ` })
+    newtoken = jwt.decode(req.body.email);
+    console.log(newtoken);
+    if(!req?.body?.email != newtoken.UserInfo.email){
+        req.body.email = newtoken.UserInfo.email
+    }
+   
     // Checks the userID
     // using body here because it is going to pull it directly from the URL
     const user = await ProfileInfo.findOne({ email: req.body.email }).exec();
@@ -65,15 +76,94 @@ const updateProfileInfo = async (req, res) => {
         myEmitter.emit(`profileControllerActivity`, `No ProfileInfo found: ${user.email} `, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
         return res.status(204).json({ "message": `ProfileInfo for ${req.body.email} not found` });
     }
+    console.log(`=====${req.body.phonenumber}======`);
     myEmitter.emit(`profileControllerActivity`, `${user.email} profile found`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     // If there are any entries from the user update the properties of the user to the entry
     if (req.body?.firstname && req.body?.firstname != user.firstname) user.firstname = req.body.firstname;
     if (req.body?.lastname && req.body?.lastname != user.lastname) user.lastname = req.body.lastname;
     if (req.body?.email && req.body?.email != user.email) user.email = req.body.email;
+    if (req.body?.phonenumber && req.body?.phonenumber != user.phonenumber) user.phonenumber = req.body.phonenumber;
 
-    myEmitter.emit(`profileControllerActivity`, `${user.email} ${user.firstName} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
+    myEmitter.emit(`profileControllerActivity`, `${user.email} ${user.firstname} profile information UPDATED successfully`, 'profileContollerLogs', 'updateProfileInfo/ProfilePageController');
     const result = await user.save()
     res.json(result);
 }
 
-module.exports = { updateProfileInfo, getProfile, createProfile };
+const sendEmail = async (req,res) => {
+    try{
+
+        const email = req.body.email
+        console.log(email);
+        const resetToken = jwt.sign(
+            { "email": email },
+            process.env.REFRESH_TOKEN_SECRET,
+            // Set this so there is not an INDEFINITE refresh token capability
+            { expiresIn: '15m' }
+        );
+
+
+        const transport = nodemailer.createTransport({
+            host: process.env.MAIL_HOST,
+            port: process.env.MAIL_PORT,
+            auth: {
+                user: process.env.MAIL_USER,
+                pass: process.env.MAIL_PASS,
+            }
+        })
+
+        await transport.sendMail({
+            from: process.env.MAIL_FROM,
+            to: email,
+            subject: "Reset Password",
+            html: `<div className="email" style="
+            border: 1px solid black;
+            padding: 20px;
+            font-family: sans-serif;
+            line-height: 2;
+            font-size: 20px;
+            ">
+            <h2> Hope you get this!</h2>
+            <p>http://localhost:3000/reset/${resetToken}</p>
+            <Link to="http://localhost:3000/reset/${resetToken}">Reset Password</Link>
+            <p>https://flipside-test-729io.ondigitalocean.app/reset/${resetToken}</p>
+            
+            </div>`
+        })
+        res.send({message: "done"});
+    }
+    catch(error)
+    {
+        console.log(error);
+        res.send(error);
+    }
+}
+
+const updatePassword = async (req,res) => {
+    console.log("=====Made It To Back======");
+    function parseJwt(token) {
+        if (!token) { return; }
+        const base64Url = token.split('.')[1];
+        const base64 = base64Url.replace('-', '+').replace('_', '/');
+        return JSON.parse(window.atob(base64));
+    }
+
+    const hashedPwd = await bcrypt.hash(req.body.password, 10);
+    const token = parseJwt(req.body.resetToken);
+    console.log(token);
+    const email = token.email;
+
+    console.log(email);
+    console.log(hashedPwd);
+
+    const profile = await ProfileInfo.findOne({ email: email }).exec();
+
+    if (!profile) {
+        myEmitter.emit(`profileControllerActivity`, `${req.body.email} not found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
+        return res.status(400).json({ "message": `User Email ${req.body.email} Not Found` });
+    }
+
+    res.send({message: "done"});
+  }
+
+
+module.exports = { updateProfileInfo, getProfile, sendEmail, createProfile, updatePassword };

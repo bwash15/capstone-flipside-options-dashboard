@@ -12,35 +12,37 @@ const verifyJWT = (req, res, next) => {
     myEmitter.emit(`jwtVerification`, ` Verifying JWT for access to the page`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
     const date = new Date();
     const tokenStamp = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-    const authHeader = JSON.stringify(req.headers.authorization).replaceAll("\"","");
     
-    // const subs = authHeader.substring(0, 10);
-    console.log("-----AUTH HEADERs-----")
-    console.log(`reqs-----${authHeader}-----`);
-    console.log(`stringfy-----${JSON.stringify(authHeader)}-----`);
     
-    if (!authHeader?.startsWith('Bearer ')) {
-
-        console.log({authHeader});
+    //seperating the auth Header basead on delete or post/get. 
+    //Delete needs to capture the data in the req.data.
+    
+    let authHeader;
+    try{
+      authHeader = JSON.stringify(req.headers.authorization).replaceAll('"',"");
+    } catch(e){
+        authHeader = JSON.stringify(req.data);
         console.log(authHeader)
+    }
+
+    if (!authHeader?.startsWith('Bearer ')) {
         myEmitter.emit(`jwtVerification`, ` No Bearer Header, No JWT Token Found`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
         return res.sendStatus(705)
     };
     const token = authHeader.split(' ')[1];
     myEmitter.emit(`jwtVerification`, `Bearer Header Found, Token taken from header in browser for verification`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
+    const env = process.env.ACCESS_TOKEN_SECRET || process.env.REACT_APP_ACCESS_TOKEN_SECRET;
     jwt.verify(
         token,
-        process.env.ACCESS_TOKEN_SECRET,
+        env,
         (err, decoded) => {
             if (err) {
-
                 // invalid token
                 console.log(tokenStamp);
                 console.log(`Token Not Verified ${tokenStamp}, Error:\n ${err}`);
                 myEmitter.emit(`jwtVerification`, ` Error verifying token ${tokenStamp}, ${err}`, 'JWTTokenLogs', 'JWT_TokenVerificationLog.txt');
                 return res.sendStatus(403)
             } else {
-
                 // valid token                
                 req.user = decoded.UserInfo.username;
                 req.roles = decoded.UserInfo.roles;
