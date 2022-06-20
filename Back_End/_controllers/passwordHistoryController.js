@@ -6,6 +6,7 @@ const myEmitter = new Emitter();
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const pwdHist = require('../_model/passwordHistory');
+const nodeCron = require("node-cron");
 myEmitter.on('userRegistration', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 
@@ -113,7 +114,25 @@ const addPasswordHistory = async (req, res, next) => {
     }
 }
 
+const checkLastUpdated = async (req, res, next) => {
+    const TIME_CHECK = 15*60*1000;
+    const currentTime = Date.now();
+    const email = jwt.decode(req.body.resetToken.resetToken).email;
+   
+    const user = await pwdHist.findOne({ email: email}).exec();
+    console.log('=====Made it to Check Updated=====');
+    const timeUpdated = user.lastUpdated;
+    if((currentTime -timeUpdated) < TIME_CHECK)
+    {
+        return res.status(403).send({message: "Not able to update password at this time Please Try again later!"})
+    }
+    else {
+        next();
+    }
+}
+
 const checkHistoryCount = async (req, res, next) => {
+    
     const password = req.body.password;
     const email = jwt.decode(req.body.resetToken.resetToken).email;
    
@@ -134,37 +153,48 @@ const checkHistoryCount = async (req, res, next) => {
     };
     if(info.length >= 3)
     {
-        await cleanUp(email);
-    }
-    next();
-}
-
-const cleanUp = async (email) =>{
-    const user = await pwdHist.findOne({ email: email}).exec();
-    var info = []
-    for (const date of user.pastPasswords) {
-        info.push(date.dateCreated)
-    }  
-    console.log(info);
-    var order = info.sort(function (a, b){
-        return Date.parse(a) > Date.parse(b);
-    })
-    console.log(order);
-    console.log(order[0]);
-
-    const result = await pwdHist.updateOne(
-        {
-            email: email
-        },
-        {
-            $pull: {
-                pastPasswords: {
-                    dateCreated: order[0]
+        console.log(req.body);
+        var info = []
+        for (const date of user.pastPasswords) {
+            info.push(date.dateCreated)
+        }  
+        console.log(info);
+        var order = info.sort(function (a, b){
+            return Date.parse(a) > Date.parse(b);
+        })
+        console.log(order);
+        console.log(order[0]);
+        try{
+            const result = await pwdHist.updateOne(
+                {
+                    email: email
+                },
+                {
+                    $pull: {
+                        pastPasswords: {
+                            dateCreated: order[0]
+                        }
+                    }
                 }
-            }
+                );
+                next();
         }
-        );
+        catch(err)
+        {
+            return res.status(409).send({ 'message': 'Error Resetting Password Please Contact Support!' });
+        }
+    }
+    else{
+        next();
+    }
 }
 
+const job = nodeCron.schedule("0 5  10 * *", function jobYouNeedToExecute() {
+    // Do whatever you want in here. Send email, Make  database backup or download data.
+    console.log("=====SCHEDULE MAINTENANCE=====");
+  });
 
-module.exports = {createPasswordHistory, addPasswordHistory, checkHistoryCount };
+
+
+
+module.exports = {createPasswordHistory, addPasswordHistory, checkHistoryCount, checkLastUpdated};

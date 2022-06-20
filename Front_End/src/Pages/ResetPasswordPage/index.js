@@ -29,6 +29,7 @@ const ResetPassword = () => {
     };
 
     const resetPassword = async ()=>{
+        setError("");
         if(!PWD_REGEX.test(values.password))
         {
             setError("Password does not meet Criteria!");

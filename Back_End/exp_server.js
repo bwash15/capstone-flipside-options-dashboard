@@ -11,6 +11,8 @@ const cookieParser = require('cookie-parser');
 const mongoose = require('mongoose');
 const credentials = require('./_middleware/credentials');
 const connectDB = require('./_config/db_conn');
+const maintenance = require('./_controllers/serverMaintenanceController')
+const nodeCron = require("node-cron");
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
@@ -37,6 +39,26 @@ connectDB();
 app.use(logger);
 //*********************************************** */
 // myEmitter.emit(`AccessNewPageLogs`, `New Page Access`,'serverActivityLogs','newPageAccessLog.txt');
+nodeCron.schedule("42 10 * * *", function () {
+    // Do whatever you want in here. Send email, Make  database backup or download data.
+    var today = new Date();
+    time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+    console.log('42');
+    console.log("=====SCHEDULED MAINTENANCE=====");
+});
+nodeCron.schedule("* * * * *", function () {
+    // Do whatever you want in here. Send email, Make  database backup or download data.
+    console.log("=====SCHEDULED MAINTENANCE=====");
+    maintenance.findOldPwd();
+});
+nodeCron.schedule("44 10 * * *", function () {
+    // Do whatever you want in here. Send email, Make  database backup or download data.
+    var today = new Date();
+    time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
+    console.log('44');
+    console.log("=====SCHEDULED MAINTENANCE=====");
+});
+
 
 myEmitter.on('serverError', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));

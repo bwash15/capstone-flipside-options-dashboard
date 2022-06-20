@@ -10967,3 +10967,23 @@ DateTime:[20220619	23:30:08]	UUID:[e7c809ff-c6b7-4948-bfd6-2456dfc5ef93]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220620	09:30:27]	UUID:[300f005f-9ab4-4570-8e22-be0d1ca89bd2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[asd@102.com Attempting to sign-in]
+
+DateTime:[20220620	09:30:27]	UUID:[599f6654-770f-4864-a068-4e82f97e3cfa]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate asd@102.com ]
+
+DateTime:[20220620	09:30:27]	UUID:[45d63d40-2ab9-40f4-83a0-3da72f90760e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[asd@102.com logged in successfully]
+
+DateTime:[20220620	09:30:27]	UUID:[4ab18fb4-4b7c-4bd0-ac7d-f29b2e12b20c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]

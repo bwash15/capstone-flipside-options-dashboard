@@ -52688,3 +52688,273 @@ DateTime:[20220619	23:30:10]	UUID:[a9bcba99-70d0-493d-af19-160e39558d16]
 =======
 >>>>>>> 3bde1f1842e6be0096980f0a51384971df1c6108
 >>>>>>> cfae81ed5b3ede24ec0c15fd97acb978abb74ff9
+
+DateTime:[20220619	23:33:36]	UUID:[fa278994-2a0c-4b3d-942e-c0c21f5ad99c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220619	23:33:36]	UUID:[f7f40725-0c7f-4551-974c-9e70b402934d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220619	23:34:05]	UUID:[311bbc4a-084f-4ec0-981c-d6eb82486f6e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220619	23:34:05]	UUID:[217b3ed4-7475-4a23-9868-dfae948f9f9d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220619	23:34:19]	UUID:[4fedffcd-55c1-4b11-9150-62cb3967a688]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220619	23:34:19]	UUID:[5252fbcf-db5b-4aa4-bb7a-12421e5c815d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:30:15]	UUID:[0f76f7ae-ac49-4891-893c-d0c5ee486b56]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220620	09:30:15]	UUID:[8e756f3a-2613-4733-a6d3-80ea13345a40]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220620	09:30:15]	UUID:[0ce58cc1-a3a0-40c2-865d-ce30e59e8e66]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220620	09:30:15]	UUID:[e2a40bbe-63a2-4c5f-beff-3c84379ebf94]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220620	09:30:27]	UUID:[6d5194ee-6fdf-4c3f-a1ac-aa0cee2f04c4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/auth	{}]
+
+DateTime:[20220620	09:30:27]	UUID:[9958cd5f-47bc-4ebf-8b3c-981efa867e70]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/auth	{}]
+
+DateTime:[20220620	09:30:30]	UUID:[a6564a80-6f29-499a-a615-807eea6f83ac]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220620	09:30:30]	UUID:[7e18b267-0212-4be6-90e1-84c3629c818b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220620	09:30:30]	UUID:[3730ae85-09df-4755-92a8-87a7db0ca648]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220620	09:30:30]	UUID:[804c2a55-102b-402a-be32-a67cbedc57b2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/ProfilePage	{}]
+
+DateTime:[20220620	09:30:42]	UUID:[99a6e1a7-b620-4494-a694-843125ba9510]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	09:30:42]	UUID:[860790cd-5ddc-4751-9fd0-5a1ea3baddc1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	09:31:09]	UUID:[b5d1d77d-7e5c-43bf-85ba-d8d19e14ccf8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:31:09]	UUID:[1da20e13-772d-4095-ab73-1e83689f7553]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:32:05]	UUID:[43bb279b-c194-40ed-a91d-771a26523c0a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:32:05]	UUID:[f9e8e27c-490d-4163-b191-457419f91c76]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:32:36]	UUID:[1f09817d-4fc7-4266-96e3-cf428ab14783]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:32:36]	UUID:[ebd9cbf6-2332-411c-883e-16362a839188]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:37:37]	UUID:[08db1b49-5842-4b77-8807-9fbcb7a7adcf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:37:37]	UUID:[651338da-cbd2-4bf6-8084-36ce143be634]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:37:54]	UUID:[adafcbf8-8198-4d11-8007-72c3b60e12b9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:37:54]	UUID:[05e302a0-a4dc-4fd8-b92e-700ef7e841ce]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:40:36]	UUID:[519e4ea8-677b-4049-898b-e734b4c187ab]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:40:36]	UUID:[3242ce55-f6a2-4890-95ff-883acce8a959]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:40:52]	UUID:[fc735a96-08bb-4b78-a3e9-e62bc38c7993]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:40:52]	UUID:[3f1f4e95-222f-4f54-b3cc-9c6a0fb99be3]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:41:15]	UUID:[a1057318-ad19-434b-a95b-6f84d5e53264]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:41:15]	UUID:[4dd0d330-fefa-49e7-b891-1a04443d0460]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:41:31]	UUID:[d13a3748-c559-4c55-840a-067afd993344]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:41:31]	UUID:[ae64a36c-8d76-4ae2-9c1f-74741acc29ca]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:51:32]	UUID:[5e158fb9-a027-4ead-8fe3-eab17b374e92]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	09:51:32]	UUID:[62e8477f-56a7-42c1-92e7-87f10cc98895]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	09:51:54]	UUID:[afa2b2f1-db0b-4667-a0f1-2525a95bbc49]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:51:54]	UUID:[15d8eab8-8e91-44df-b7b1-c54b7a903007]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:52:29]	UUID:[ff04bec9-2e28-444e-958b-01cfe078146d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	09:52:29]	UUID:[02ef39e2-0642-4eb9-8b89-ecffd835e081]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	10:02:44]	UUID:[3722c01e-54f2-41ba-b027-02e1c4296486]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	10:02:44]	UUID:[5d17eeb2-de5e-404a-b69c-818cd3ad325a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	10:03:30]	UUID:[02901f9f-64cd-42a3-a592-9173aad1f15e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	10:03:30]	UUID:[86b4c478-45c7-4645-8e07-3741c4c5bdf4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	10:03:46]	UUID:[6860370b-dc35-4e1d-9cc9-ba4eb452121b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	10:03:46]	UUID:[a6f89953-896e-415c-b106-e99a9d6facc5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	11:40:26]	UUID:[6cb2eb06-7962-434f-9b5e-434bb2a2ed03]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	11:40:26]	UUID:[d402e457-8fef-4ef5-bf06-5ba90bec74d4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset/email	{}]
+
+DateTime:[20220620	11:40:58]	UUID:[3721eaaf-4940-4cf2-8b27-a35bde5818af]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	11:40:58]	UUID:[50333b75-58dd-4221-85c0-781f408ec10a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	11:41:18]	UUID:[61978c30-db47-4ca7-b90e-d805b466b974]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[OPTIONS	http://localhost:3000	/reset	{}]
+
+DateTime:[20220620	11:41:18]	UUID:[165f87ff-3139-4799-b886-fe154f537604]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[POST	http://localhost:3000	/reset	{}]
