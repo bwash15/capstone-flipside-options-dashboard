@@ -1,5 +1,4 @@
 .login_container {
-	width: 100%;
 	min-height: 100vh;
 	background-color: #f5f5f5;
 	display: flex;
@@ -10,7 +9,7 @@
 
 
 .login_form_container {
-	width: 900px;
+	margin: 10px;
 	height: fit-content;
 	display: flex;
 	border-radius: 10px;
@@ -30,29 +29,23 @@
 }
 
 .form_container {
+	margin: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.form_container h1 {
-	font-size: 40px;
-	margin-top: 0;
-}
-
 .input {
 	outline: none;
 	border: none;
-	width: 370px;
 	padding: 15px;
 	border-radius: 10px;
 	background-color: #edf5f3;
-	margin: 5px 0;
+	margin: 5px;
 	font-size: 14px;
 }
 
 .error_msg {
-	width: 370px;
 	padding: 15px;
 	margin: 5px;
 	font-size: 14px;
@@ -65,6 +58,7 @@
 
 
 .right {
+	width: 100%;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
@@ -78,27 +72,33 @@
 .right h1 {
 	margin-top: 0;
 	color: white;
-	font-size: 40px;
 	align-self: center;
 }
 
-.white_btn,
-.green_btn {
+.white_btn {
+	width: 100px;
 	border: none;
 	outline: none;
 	padding: 12px 0;
 	background-color: white;
 	border-radius: 20px;
-	width: 180px;
 	font-weight: bold;
 	font-size: 14px;
 	cursor: pointer;
 }
 
 .green_btn {
+	margin: 5px;
+	width: 100px;
 	background-color: #0075c5;
 	color: white;
-	margin: 10px;
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
 }
 
 img{
