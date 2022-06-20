@@ -46,17 +46,10 @@ nodeCron.schedule("42 10 * * *", function () {
     console.log('42');
     console.log("=====SCHEDULED MAINTENANCE=====");
 });
-nodeCron.schedule("* * * * *", function () {
+nodeCron.schedule("00 * * * *", function () {
     // Do whatever you want in here. Send email, Make  database backup or download data.
     console.log("=====SCHEDULED MAINTENANCE=====");
     maintenance.findOldPwd();
-});
-nodeCron.schedule("44 10 * * *", function () {
-    // Do whatever you want in here. Send email, Make  database backup or download data.
-    var today = new Date();
-    time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
-    console.log('44');
-    console.log("=====SCHEDULED MAINTENANCE=====");
 });
 
 
