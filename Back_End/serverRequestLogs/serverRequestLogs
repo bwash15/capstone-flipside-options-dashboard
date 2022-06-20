@@ -50677,10 +50677,24 @@ DateTime:[20220614	13:54:51]	UUID:[78e65b39-3c03-4aa7-a22e-3cbe4d90a1a2]
 DateTime:[20220614	13:54:51]	UUID:[11946ed7-e9f2-4ea8-9c51-1526128caa2f]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
+<<<<<<< HEAD
+	Message:[GET	http://localhost:3000	/userTiles	{}]
+
+DateTime:[20220606	09:05:45]	UUID:[98e6c938-0bda-4a21-b12f-2ce4c65a5eb4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+
+DateTime:[20220606	09:05:45]	UUID:[7cc28d9c-e002-435a-876b-c9fb8846fbc0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
+	LOC:[exp_serverRequestLogs]
+	Message:[GET	http://localhost:3000	/refresh	{}]
+=======
 	Message:[GET	http://localhost:3000	/refresh	{}]
 =======
 	Message:[POST	http://localhost:3000	/newsTiles	{}]
 >>>>>>> cd042068ee446f7c5f6d8d841ab5b04e0277895d
+<<<<<<< HEAD
 
 DateTime:[20220619	16:06:10]	UUID:[110fbca4-ca6b-492e-8d9a-4aea2415ff38]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
@@ -52671,3 +52685,6 @@ DateTime:[20220619	23:30:10]	UUID:[a9bcba99-70d0-493d-af19-160e39558d16]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverRequestLogs]
 	LOC:[exp_serverRequestLogs]
 	Message:[POST	http://localhost:3000	/ProfilePage	{}]
+=======
+>>>>>>> 3bde1f1842e6be0096980f0a51384971df1c6108
+>>>>>>> cfae81ed5b3ede24ec0c15fd97acb978abb74ff9
