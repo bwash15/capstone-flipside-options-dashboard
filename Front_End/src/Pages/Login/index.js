@@ -5,6 +5,7 @@ import axios from '../../api/axios';
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import styles from "./styles.module.css";
 import mstyles from "./mstyles.module.css";
+import {isMobile} from 'react-device-detect';
 
 
 const LOGIN_URL = '/auth';
@@ -63,7 +64,7 @@ const Login = () => {
     const [style,setStyle] = useState(styles);
       useEffect(() =>{
         const handleResize = () =>{
-            if(window.innerWidth < 767)
+            if(window.innerWidth < 767 || isMobile)
                 setStyle(mstyles);
             else
                 setStyle(styles);

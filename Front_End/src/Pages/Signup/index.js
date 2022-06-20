@@ -3,6 +3,7 @@ import axios from "../../api/axios";
 import { Link, Navigate } from "react-router-dom";
 import styles from "./styles.module.css";
 import mstyles from "./mstyles.module.css";
+import {isMobile} from 'react-device-detect';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
@@ -111,7 +112,7 @@ const Signup = () => {
     const [style,setStyle] = useState(styles);
       useEffect(() =>{
         const handleResize = () =>{
-            if(window.innerWidth < 767)
+            if(window.innerWidth < 767 || isMobile)
                 setStyle(mstyles);
             else
                 setStyle(styles);
