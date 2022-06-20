@@ -89,81 +89,8 @@ const updateProfileInfo = async (req, res) => {
     res.json(result);
 }
 
-const sendEmail = async (req,res) => {
-    try{
-
-        const email = req.body.email
-        console.log(email);
-        const resetToken = jwt.sign(
-            { "email": email },
-            process.env.REFRESH_TOKEN_SECRET,
-            // Set this so there is not an INDEFINITE refresh token capability
-            { expiresIn: '15m' }
-        );
 
 
-        const transport = nodemailer.createTransport({
-            host: process.env.MAIL_HOST,
-            port: process.env.MAIL_PORT,
-            auth: {
-                user: process.env.MAIL_USER,
-                pass: process.env.MAIL_PASS,
-            }
-        })
-
-        await transport.sendMail({
-            from: process.env.MAIL_FROM,
-            to: email,
-            subject: "Reset Password",
-            html: `<div className="email" style="
-            border: 1px solid black;
-            padding: 20px;
-            font-family: sans-serif;
-            line-height: 2;
-            font-size: 20px;
-            ">
-            <h2> Hope you get this!</h2>
-            <p>http://localhost:3000/reset/${resetToken}</p>
-            <Link to="http://localhost:3000/reset/${resetToken}">Reset Password</Link>
-            <p>https://flipside-test-729io.ondigitalocean.app/reset/${resetToken}</p>
-            
-            </div>`
-        })
-        res.send({message: "done"});
-    }
-    catch(error)
-    {
-        console.log(error);
-        res.send(error);
-    }
-}
-
-const updatePassword = async (req,res) => {
-    console.log("=====Made It To Back======");
-    function parseJwt(token) {
-        if (!token) { return; }
-        const base64Url = token.split('.')[1];
-        const base64 = base64Url.replace('-', '+').replace('_', '/');
-        return JSON.parse(window.atob(base64));
-    }
-
-    const hashedPwd = await bcrypt.hash(req.body.password, 10);
-    const token = parseJwt(req.body.resetToken);
-    console.log(token);
-    const email = token.email;
-
-    console.log(email);
-    console.log(hashedPwd);
-
-    const profile = await ProfileInfo.findOne({ email: email }).exec();
-
-    if (!profile) {
-        myEmitter.emit(`profileControllerActivity`, `${req.body.email} not found`, 'profileContollerLogs', 'getProfile/ProfilePageController');
-        return res.status(400).json({ "message": `User Email ${req.body.email} Not Found` });
-    }
-
-    res.send({message: "done"});
-  }
 
 
-module.exports = { updateProfileInfo, getProfile, sendEmail, createProfile, updatePassword };
+module.exports = { updateProfileInfo, getProfile, createProfile};

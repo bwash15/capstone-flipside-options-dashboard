@@ -383,3 +383,553 @@ DateTime:[20220614	13:54:51]	UUID:[ac6f4f0e-c11c-4dd5-a6c5-e5408da42291]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
 	LOC:[registerController/handleNewUser]
 	Message:[history@test.com : user registered successfully]
+
+DateTime:[20220619	18:44:42]	UUID:[84849965-653d-4b5c-ac6f-17910693a13c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[undefined : failed to store password]
+
+DateTime:[20220619	18:45:44]	UUID:[f9c784c5-51b1-432d-a96c-a6e500d4cbce]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[undefined : user Password saved]
+
+DateTime:[20220619	19:01:18]	UUID:[fd1ff4ae-a9a6-4149-a03f-7964ce83a339]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:02:38]	UUID:[60e39c21-1ff9-45a2-9be5-d8a6fde2768f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:03:30]	UUID:[4f3187f8-30e8-4ba2-b2f5-d52e6ba6947e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:04:07]	UUID:[f6d02785-9800-45ab-8d1a-8f85f86b8636]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:04:56]	UUID:[4566f59d-37a2-4c0c-915c-e4438f00ce2f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:05:46]	UUID:[2ebdc6cb-8bd0-48fb-8636-da4708847ed9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:08:32]	UUID:[e6c70273-7017-4f90-88a7-99b845fe6476]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Register Conflict]
+
+DateTime:[20220619	19:11:12]	UUID:[977a5dc4-faa9-4e65-8ae5-a79913e3f9a8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	19:11:25]	UUID:[3962c22b-fda4-4155-a5ae-0822e588b2c7]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	19:11:38]	UUID:[2a687663-78d2-464e-8bd7-5d8765152f7b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	19:16:50]	UUID:[95cc3d53-a2de-4b47-a780-55785989d904]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	19:17:04]	UUID:[40de52ef-c98b-4e56-9fcb-3bae36d84b27]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	19:19:33]	UUID:[c5ba1c86-cd9b-4545-b730-b0c8bc61903c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	19:21:31]	UUID:[7ad06522-26fc-437d-a9ff-bb0d475dfba8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	19:22:45]	UUID:[56c10253-d5fe-4767-b723-bcded5a8c10b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:24:51]	UUID:[4d992ea2-34c9-4161-a676-44db36e6663e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:26:05]	UUID:[7d29d8a0-9cd3-4b6e-b55b-ff415de85331]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:27:51]	UUID:[374e4861-1fce-4038-ab32-10639501e0fe]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:50:55]	UUID:[b150d3a9-90e1-4999-b49b-110ec1b6f42c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:51:49]	UUID:[4d6c1a9c-b3d4-4281-93c2-56c8d1eb858b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:53:01]	UUID:[72a34bf8-9cf5-4438-87ba-864a2ccda773]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	19:54:10]	UUID:[91943f14-96c7-4e34-9d68-0858f3291857]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:05:38]	UUID:[d70c36a9-5a5b-407c-b7d3-68400630f56d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:07:25]	UUID:[610b6dc4-b57b-412f-8b45-f0f59396263b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:29:15]	UUID:[ba25f9cd-7f39-4d6d-8331-2fa99bb4ca4a]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:33:19]	UUID:[e067c871-e7ba-4d93-8f2f-09179cbf7bdf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:41:54]	UUID:[e9b3053b-7b83-40b1-85fc-ddc961af80aa]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:43:48]	UUID:[6e538afd-e59b-4475-a48f-3b3340a978aa]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:53:22]	UUID:[2ef45e4a-773d-4106-9cb8-0f1af0f656a4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:54:02]	UUID:[3b55c80d-60c6-4116-a966-b997cea65689]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:54:56]	UUID:[c85153a4-39d0-4ab7-bfb6-0b9a70c419d2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:55:15]	UUID:[5b20277f-78b4-4b5f-9495-95be8111ac26]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:56:15]	UUID:[abda807c-cb43-4ee5-ad27-ff7f3195e323]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	20:59:50]	UUID:[1b23762a-a4c8-4fe9-b845-688fe9b3be17]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:01:03]	UUID:[f88c4613-9293-4e95-9066-fa295642fcf9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:02:58]	UUID:[a2166e77-ba25-4ac7-b89a-f2fa3ccc8283]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:03:17]	UUID:[1427dcfd-84ef-4ac8-aead-727b019d5983]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:03:33]	UUID:[f425199d-e18e-4981-9982-49bac28e608b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:03:35]	UUID:[11975a59-01e1-48b2-a96f-4d1383f56e36]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:04:20]	UUID:[4c71d24d-92c4-4960-af9f-dd3aa52a1ced]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:05:02]	UUID:[af8fc603-eb24-42cf-b6fe-fd1a749029cf]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:06:01]	UUID:[a419c521-741f-4cbf-b6e0-ee1727d5aba2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:07:23]	UUID:[c71d64ab-0a12-4603-a3fb-b2906914dc20]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:07:48]	UUID:[50f0d260-67ed-4093-a895-8f922f9cd245]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:08:58]	UUID:[7f561716-3fe1-4090-b065-8b2c6c4b4afe]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:10:38]	UUID:[71318327-8fe0-473b-a121-80d7975baa30]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	21:15:10]	UUID:[28aee390-3a47-491f-b715-8e22b2d4a600]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:15:30]	UUID:[a032c5d2-8bc8-4f8f-a057-a6f3a120acd1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:15:56]	UUID:[587c2d3f-fe4c-4425-8fde-41e9dad0b6da]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:16:59]	UUID:[cbd7bbde-7990-4173-a7b0-3e050cf6e392]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:26:47]	UUID:[6cc6871b-2928-4513-b840-3a5998e8e397]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:31:57]	UUID:[eff9fb4c-ff1c-4df6-b1d4-d76ab42b8f34]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:33:00]	UUID:[694d9ead-058a-4a87-a3d0-dafdf12aadfb]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:34:59]	UUID:[c2436c8f-5466-4c48-bfef-071acd354b31]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:35:28]	UUID:[b78034a8-bca5-4da7-9d7b-cbe950c01d7c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:37:37]	UUID:[672ab72d-bff1-43af-ad8f-5e8b038e702d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:38:45]	UUID:[a7817d37-26de-484d-937e-38541f25366e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:39:56]	UUID:[bcf67592-88e7-4538-89cf-5bc28b7c7d1d]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:43:24]	UUID:[df2f543b-43e2-45fb-b184-4dd373125dd6]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:44:15]	UUID:[a1596d06-2c63-4320-88f4-26d1b1915dbc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:44:51]	UUID:[7882c58a-04ef-4144-afa1-8b4c98b4e0ba]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:46:30]	UUID:[ce43e163-d7e9-4901-aa7d-38c3dbe9d98c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:47:19]	UUID:[31298a1e-da62-459d-ab7f-9146d2dd9531]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:48:33]	UUID:[2f6acb84-c582-4fef-9c98-e7c04bbebed8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	21:57:14]	UUID:[6deb0c66-251c-41d7-a800-6d5eb46107b0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:05:08]	UUID:[0de9080f-0ffd-468f-859d-8cc42b03a7ba]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:05:22]	UUID:[49086600-383f-4926-96a2-92522c4df8cc]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:12:35]	UUID:[ed51c60d-507f-41cc-89be-bb1d0ded7ec9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:13:28]	UUID:[9ffae244-c7f0-4796-bf16-69eebc81f6c1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:13:49]	UUID:[a138ce53-3bf4-44f1-9150-b097c638c70c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:21:27]	UUID:[fd88de77-d2b3-44cb-9ac5-333cadcc63e4]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:22:52]	UUID:[f78e4a09-af56-4f35-b17b-bc5515e25c66]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:35:22]	UUID:[80e6d2cb-e6bd-4054-828a-18383400f137]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:37:06]	UUID:[1cb23aa3-d26a-48a1-b6f7-b3cc7253e8b2]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:41:00]	UUID:[1bcbc0ae-d939-4073-b797-8e1f7ebc8804]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:43:05]	UUID:[9abb9bf2-8203-411b-bf41-7712047e2402]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:43:53]	UUID:[cda77cc6-5e3b-4be3-a23b-fd2d8ffcb813]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:44:31]	UUID:[c30bf99d-9e6f-49a4-b6c9-0be4a4929185]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:44:47]	UUID:[ad1c1338-67b9-4151-b9c8-0d2fbd8843ca]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	22:45:03]	UUID:[5aa126ca-1adf-4c95-a347-dde49685d1f1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220619	22:59:43]	UUID:[b7a1d355-d9b7-45f0-9696-f1ee6e377406]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:00:50]	UUID:[354759d9-c934-421c-8b9e-164586915a95]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:00:54]	UUID:[2849c7fb-7efd-4a94-b46f-dd380acaa18c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:01:05]	UUID:[db0c02cb-5688-45f3-a9b2-32d52f09e5f5]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:01:50]	UUID:[611e060a-865e-40d5-8e64-b931ac3e537b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:02:09]	UUID:[f674eba5-5e07-4d2d-9a32-f87cb3b3bbc8]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:03:28]	UUID:[05d497e4-9b23-47af-a408-f3b23ddc117f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:04:44]	UUID:[b3953727-2809-41ef-a792-f61a7ff5c2a1]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:04:59]	UUID:[05d5c0b3-6c00-44d2-aafa-14c6108a6714]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:08:01]	UUID:[e77dbd45-b369-44dc-8002-b8f78187b69e]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:08:36]	UUID:[b20f5868-8cb8-4c1d-9b1f-f1a68eeabc07]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:09:05]	UUID:[4ecead29-c599-49c8-b1e9-f4c9bf3b521b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:11:29]	UUID:[da280342-440f-4c75-b7d5-9d4ca96db9a9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:11:41]	UUID:[5947db19-2885-4012-9a5c-3d6eaf3ecf2c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:12:16]	UUID:[9339b8c1-fde1-47b7-b283-892865e7740f]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:12:32]	UUID:[8560ea41-0ab1-4d80-8c80-ccadda27ca2c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:14:12]	UUID:[dbb54bd5-01e7-4a1f-bf60-2171bef99037]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:14:24]	UUID:[a97a5cfe-f27e-43c1-bbfa-69535614f13c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:14:36]	UUID:[6b1a9fe8-2794-4a5d-afba-5874c61f2605]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:17:09]	UUID:[15c40bb5-5b1b-4997-aa0d-17d296766bff]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:17:20]	UUID:[40618d26-c650-4bdb-9c46-834a773c1840]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:18:21]	UUID:[7019de92-ec1f-4689-8d4a-1fae0dd20c44]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:18:32]	UUID:[ca5b21d9-ba53-4a3a-abd1-083b4e1234c9]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:18:44]	UUID:[ac368927-0ed4-45e7-aa32-1730e9d6d9fe]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:20:01]	UUID:[ac8d698a-5a8c-40ee-bc41-c2b2cedfdb5b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:21:37]	UUID:[1604bb10-a873-43ba-824d-1400baf32273]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : failed to store password]
+
+DateTime:[20220619	23:29:33]	UUID:[b872bdd8-3445-4b07-8d8c-4d5ba5b8a63b]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : Duplicate found, Password Conflict]
+
+DateTime:[20220619	23:29:44]	UUID:[be87d408-ef47-44c6-bd0e-22c7f1120e7c]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[asd@102.com : user Password saved]

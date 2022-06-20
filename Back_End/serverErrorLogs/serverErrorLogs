@@ -436,3 +436,18 @@ DateTime:[20220530	22:10:28]	UUID:[b25e8ce8-0f03-4612-888d-3c75cc45cc15]
 	LOC:[errLog.txt]
 	Message:[TypeError : Cannot read properties of undefined (reading 'replaceAll')]
 >>>>>>> 5681de5bfebc3fb1b5146559cf55263c226d6580
+
+DateTime:[20220619	23:18:44]	UUID:[bc2f151c-1a5f-4b87-adcb-cb488b2c4674]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[Error : Cannot set headers after they are sent to the client]
+
+DateTime:[20220619	23:20:02]	UUID:[8f27a454-14ac-4fcf-901d-e6fa88d64b26]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[Error : Cannot set headers after they are sent to the client]
+
+DateTime:[20220619	23:21:37]	UUID:[100d6871-130b-4ffd-bb9a-f6c3f7c9fbe0]
+	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[Error : Cannot set headers after they are sent to the client]
