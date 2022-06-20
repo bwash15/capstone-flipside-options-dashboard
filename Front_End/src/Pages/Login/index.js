@@ -63,15 +63,12 @@ const Login = () => {
     
     const [style,setStyle] = useState(styles);
       useEffect(() =>{
-        const handleResize = () =>{
             if(window.innerWidth < 767 || isMobile)
                 setStyle(mstyles);
             else
                 setStyle(styles);
-        }
-        window.addEventListener('resize', handleResize)
-        return () => window.removeEventListener("resize", handleResize);
-      },[]);
+        
+      },[isMobile, window.innerWidth]);
 
     return (
 
