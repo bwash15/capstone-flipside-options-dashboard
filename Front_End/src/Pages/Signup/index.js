@@ -110,16 +110,13 @@ const Signup = () => {
     };
 
     const [style,setStyle] = useState(styles);
-      useEffect(() =>{
-        const handleResize = () =>{
-            if(window.innerWidth < 767 || isMobile)
-                setStyle(mstyles);
-            else
-                setStyle(styles);
-        }
-        window.addEventListener('resize', handleResize)
-        return () => window.removeEventListener("resize", handleResize);
-      },[]);
+    useEffect(() =>{
+          if(window.innerWidth < 767 || isMobile)
+              setStyle(mstyles);
+          else
+              setStyle(styles);
+      
+    },[isMobile, window.innerWidth]);
 
     return (
         <>
