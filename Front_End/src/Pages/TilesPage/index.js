@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {OptionsHeading} from './Options/Tile/optionsHeading';
 import { NewsHeading } from './News/Tile/newsHeading';
-import { NewsTileList } from './News/Tile/newsTileList';
+import { NewsTileList } from './News/Tile/Item/newsInnerTileList';
 import {TileList} from './Options/Tile/TileList'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
