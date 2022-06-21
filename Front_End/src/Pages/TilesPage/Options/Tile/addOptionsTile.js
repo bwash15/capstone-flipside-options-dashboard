@@ -11,10 +11,11 @@ import {Link, useNavigate} from 'react-router-dom'
 import { v4 as uuidv4 } from "uuid";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import useAuth from '../../../../hooks/useAuth';
-
+import useUser from '../../../../hooks/useUser';
 
 export const AddOptionsTile = () => {
     const {auth} = useAuth();
+    const {user} = useUser();
     const [tileName, setName] = useState('');
     const [uuid, setUuid] = useState('');
     const navigate = useNavigate();
@@ -25,7 +26,8 @@ export const AddOptionsTile = () => {
          console.log("going to " + url);
         await axios.post(url, JSON.stringify({
             "uuid": uuid,
-            "tileName" :tileName,
+            "tileName": tileName,
+            "userID" : user
         }),
         {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
         navigate('/tiles', {replace: true});

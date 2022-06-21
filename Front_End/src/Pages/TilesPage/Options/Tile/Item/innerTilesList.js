@@ -11,7 +11,8 @@ import useAuth from '../../../../../hooks/useAuth';
 export const InnerTileList = () => {
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
-  const tileUUID = window.location.href.split("/")[4];
+  const tileUUID = window.location.href.split("/")[5];
+
 
   const getTiles = () => {
     const url = '/optionTiles';
@@ -21,6 +22,7 @@ export const InnerTileList = () => {
       headers: {Authorization :`Bearer ${auth.accessToken}`},
   })
         .then((response) => {
+          console.log("tiles are " + JSON.stringify(response.data.tiles));
           setTiles(response.data.tiles);
       })
   }

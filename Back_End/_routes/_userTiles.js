@@ -7,12 +7,13 @@ const verifyRoles = require('../_middleware/verifyRoles');
 
 
 router.route('/options').post(verifyRoles(ROLES_LIST), optionTilesController.handleUserTilesPost)
-                        .get(verifyRoles(ROLES_LIST), optionTilesController.handleUserTilesGet)
                         .delete(verifyRoles(ROLES_LIST), optionTilesController.handleUserTilesDelete);
+router.route('/options/get').post(verifyRoles(ROLES_LIST), optionTilesController.handleUserTilesGet)
 
 router.route('/news').post(verifyRoles(ROLES_LIST), newsController.handleNewsTilePost)
                      .get(verifyRoles(ROLES_LIST), newsController.handleNewsTileGet)
                      .delete(verifyRoles(ROLES_LIST), newsController.handleNewsTileDelete);
+// router.route('/news/get').post(verifyRoles(ROLES_LIST), optionTilesController.handleUserTilesGet)
 module.exports = router;
 
 

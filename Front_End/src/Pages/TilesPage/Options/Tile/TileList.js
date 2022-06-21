@@ -7,14 +7,18 @@ import {
 } from 'reactstrap'
 import axios from '../../../../api/axios'
 import useAuth from '../../../../hooks/useAuth';
+import useUser from '../../../../hooks/useUser';
 
 export const TileList = () => {
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
-
+  const {user} = useUser();
   const getTiles = () => {
-    const url = '/userTiles/options';
-    axios.get(url, {headers: {Authorization :`Bearer ${auth.accessToken}`}})
+    const url = '/userTiles/options/get';
+    axios.post(url, JSON.stringify({
+      "userID" : user
+  }),
+  {headers: {Authorization :`Bearer ${auth.accessToken}`}})
         .then((response) => {
           setTiles(response.data);
       })
@@ -43,7 +47,7 @@ export const TileList = () => {
         <ListGroupItem className="d-flex">
           <strong>{tile.tileName}</strong>
           <div className='ms-auto'>
-            <Link className="btn btn-warning mr-1" to={`/optionTiles/${tile.uuid}`}>Edit</Link>
+            <Link className="btn btn-warning mr-1" to={`/optionTiles/${tile.tileName}/${tile.uuid}`}>Edit</Link>
             <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>
           </div>
         </ListGroupItem> 

@@ -9800,3 +9800,13 @@ DateTime:[20220620	13:46:17]	UUID:[3466a0dc-78ee-46ae-a724-bd8ae60f2190]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[asd@102.com profile found]
+
+DateTime:[20220620	20:32:11]	UUID:[ff508488-257e-4a5e-872b-417c02b5fe4d]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
+
+DateTime:[20220620	20:32:11]	UUID:[6e59e4af-6990-44e8-8316-943b11fa5e79]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]

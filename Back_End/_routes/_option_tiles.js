@@ -8,6 +8,7 @@ const verifyRoles = require('../_middleware/verifyRoles');
 router.route('/addingOption').post(verifyRoles(ROLES_LIST), optionItemController.updateTileInfo);
 router.route('/').post(verifyRoles(ROLES_LIST), optionItemController.tileGet)
                  .delete(verifyRoles(ROLES_LIST), optionItemController.tileDelete);
+router.route('/home').post(verifyRoles(ROLES_LIST), optionItemController.tileGetHome)                 
 
 module.exports = router;
 

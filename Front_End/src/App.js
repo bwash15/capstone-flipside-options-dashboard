@@ -73,8 +73,8 @@ function App() {
               <Route path="linkpage" element={<LinkPage />} />
               <Route path="/tiles" exact element={<BasicCard />} />
               {/* <Route path="/tiles/add" exact element={<AddOption/>} /> */}
-              <Route path="/optionTiles/:id" element={<BasicOptionCard />} />
-              <Route path="/optionTiles/:id/add" element={<AddOption />} />
+              <Route path="/optionTiles/:id/:id" element={<BasicOptionCard />} />
+              <Route path="/optionTiles/:id/:id/add" element={<AddOption />} />
               <Route path="/newsTiles/:id" element={<BasicNewsCard />} />
               <Route path="/newsTiles/:id/add" element={<AddNews />} />
               <Route path="/add-news-tile" element={<AddNewsTile />} />

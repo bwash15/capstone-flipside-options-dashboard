@@ -18,6 +18,10 @@ const subSchema = new Schema({
         type: String,
         required: false
     },
+    innerTileName: {
+        type: String,
+        required: false
+    },
     uuid: {
         type: String,
         required: true
@@ -34,6 +38,10 @@ const OptionTilesSchema = new Schema({
         required: true
     },
     tileType: {
+        type: String,
+        required: true
+    },
+    userID: {
         type: String,
         required: true
     },

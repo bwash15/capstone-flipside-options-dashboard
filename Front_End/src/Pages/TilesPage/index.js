@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {OptionsHeading} from './Options/Tile/optionsHeading';
 import { NewsHeading } from './News/Tile/newsHeading';
-import { NewsTileList } from './News/Tile/Item/newsInnerTileList';
+import { NewsTileList } from './News/Tile/newsTileList';
 import {TileList} from './Options/Tile/TileList'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -13,7 +13,7 @@ export default function BasicCard() {
         <TileList/>
       </div>
       <div style = {{maxWidth:"30rem", margin: "4rem auto"}}>
-        <NewsHeading />
+        <NewsHeading/>
         <NewsTileList/>
       </div>
     </div>

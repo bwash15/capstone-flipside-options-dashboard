@@ -21,6 +21,8 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPwd] = useState('');
     const [error, setError] = useState("");
+    const [userID, setUserID] = useState("");
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -36,6 +38,7 @@ const Login = () => {
             const accessToken = loginResponse?.data?.accessToken;
             const roles = loginResponse?.data?.roles;
             setAuth({ email, password, roles, accessToken });
+            setUserID();
             setUser(email);
             setEmail('');
             setPwd('');

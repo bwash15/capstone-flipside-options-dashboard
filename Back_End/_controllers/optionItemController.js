@@ -4,6 +4,7 @@ const fetchOption = require("isomorphic-fetch");
 
 const updateTileInfo = async (req, res) => {
 
+    const innerTileName = req.body.innerTileName;
 
     const stockName = req.body.stockName;
     const stockPrice = req.body.stockPrice;
@@ -44,6 +45,7 @@ const updateTileInfo = async (req, res) => {
                     "stockPrice": stockPrice,
                     "premium": query,
                     "uuid": optionUUID,
+                    "innerTileName": innerTileName,
                     "expDate": option_expire_date
                 }
             }
@@ -55,6 +57,20 @@ const tileGet = async (req, res) => {
     //Finds all tiles in the collection -> going to be changed to finding all tiles based on user id
     const tileUUID = req.body.uuid;
     const result = await UserTile.findOne({uuid: tileUUID});
+    res.json(result);
+}
+
+const tileGetHome = async (req, res) => {
+    //Finds all tiles in the collection -> going to be changed to finding all tiles based on user id
+    const innerTileName = req.body.innerTileName;
+    console.log("inner tile name is " + innerTileName)
+    const userID = req.body.userID;
+    const result = await UserTile.findOne(
+        {
+        tileName: innerTileName, 
+        userID: userID
+        }
+    );
     res.json(result);
 }
 
@@ -77,4 +93,4 @@ const tileDelete = async (req, res) => {
     res.json(result);
 }
 
-module.exports = {updateTileInfo, tileGet, tileDelete};
+module.exports = {updateTileInfo, tileGet, tileDelete, tileGetHome};

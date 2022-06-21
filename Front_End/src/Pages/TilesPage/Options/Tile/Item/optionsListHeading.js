@@ -10,8 +10,9 @@ import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 export const OptionsListHeading = () => {
 
-    const tileUUID = window.location.href.split("/")[4];
-    const urlOptions = "/optionTiles/" + tileUUID + "/add";
+    const tileUUID = window.location.href.split("/")[5];
+    const tileName = window.location.href.split("/")[4];
+    const urlOptions = "/optionTiles/"+ tileName + '/' + tileUUID + "/add/";
     const backUrl = "/tiles/"
   return (
     <Navbar color="dark" dark>

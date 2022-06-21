@@ -24,7 +24,9 @@ export const AddOption = () => {
     const navigate = useNavigate();
 
 
-    const tileUUID = window.location.href.split("/")[4];
+    const tileUUID = window.location.href.split("/")[5];
+    const innerTileName = window.location.href.split("/")[4];
+
     const onSubmit = async (e) => {
         e.preventDefault();
          //push to database
@@ -33,11 +35,12 @@ export const AddOption = () => {
             "optionUUID":uuid,
             "tileUUID": tileUUID,
             "stockName" :stockName,
+            "innerTileName": innerTileName,
             "stockPrice": stockPrice,
             "expDate": expDate
         }),
         {headers: {"Authorization" :`Bearer ${auth.accessToken}`}});
-        navigate(`/optionTiles/${tileUUID}`, {replace: true});
+        navigate(`/tiles/`, {replace: true});
     }
     const changeUUID = () => {
         setUuid(uuidv4());
