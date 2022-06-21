@@ -8,7 +8,7 @@ myEmitter.on('userRegistration', (msg, path, filename) => logServerEvents(msg, p
 
 
 
-const handleNewUser = async (req, res) => {
+const handleNewUser = async (req, res, next) => {
     const { firstname, lastname, email, password } = req.body;
     // If we dont have each piece above in the request > Sends a 400 status 'Bad Request'
     if (!firstname || !lastname || !email || !password) {
@@ -56,15 +56,16 @@ const handleNewUser = async (req, res) => {
             "phonenumber": "N/A"
         });
 
-        console.log(result);
+        
 
         myEmitter.emit(`userRegistration`, `${email} : user registered successfully`, 'UserRegistrationLogs', 'registerController/handleNewUser');
         res.status(201).json({ 'success': `New user account created!` });
 
     } catch (err) {
         myEmitter.emit(`userRegistration`, `${email} : user registration Failed`, 'UserRegistrationLogs', 'registerController/handleNewUser');
-        res.status(500).json({ 'message': err.message });
+        res.status(500).send({ 'message': err.message });
     }
+    next();
 }
 
 module.exports = { handleNewUser };

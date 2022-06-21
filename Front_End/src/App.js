@@ -27,6 +27,7 @@ import LandingPage from "./Pages/LandingPage"
 import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
 import ResetPassword from "./Pages/ResetPasswordPage";
+import EnterEmail from './Pages/EnterEmailPage'
 
 
 
@@ -49,6 +50,7 @@ function App() {
       <Routes>
         {/** Layout and PersistLogin both make use of the Outlet component **/}
         {/** Pulic Routes **/}
+        <Route path="reset/email" element={<EnterEmail />} />
         <Route path="reset/:resetToken" element={<ResetPassword />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<RegisterUser />} />

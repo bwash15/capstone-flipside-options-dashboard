@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const profileController = require('../../_controllers/profilePageController');
+const resetPasswordController = require('../../_controllers/resetPasswordController');
 
 router.route('/')
     .post(profileController.getProfile)
@@ -8,9 +9,7 @@ router.route('/')
 
 
 router.route('/email')
-    .post(profileController.sendEmail)
+    .post(resetPasswordController.sendEmail)
     .put(profileController.updateProfileInfo);
 
-router.route('/updatePassword')
-    .put(profileController.updatePassword);
 module.exports = router;

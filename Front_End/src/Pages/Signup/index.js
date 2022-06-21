@@ -2,6 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import axios from "../../api/axios";
 import { Link, Navigate } from "react-router-dom";
 import styles from "./styles.module.css";
+import mstyles from "./mstyles.module.css";
+import {isMobile} from 'react-device-detect';
 
 const NAME_REGEX = /^[A-z][A-z]{0,23}$/;
 const EMAIL_REGEX = /\S+@\S+\.\S+/;
@@ -107,6 +109,15 @@ const Signup = () => {
         }
     };
 
+    const [style,setStyle] = useState(styles);
+    useEffect(() =>{
+          if(window.innerWidth < 767 || isMobile)
+              setStyle(mstyles);
+          else
+              setStyle(styles);
+      
+    },[isMobile, window.innerWidth]);
+
     return (
         <>
             {success ? (
@@ -117,18 +128,18 @@ const Signup = () => {
                 </section>
             ) : (
 
-                <div className={styles.signup_container}>
-                    <div className={styles.signup_form_container}>
-                        <div className={styles.left}>
+                <div className={style.signup_container}>
+                    <div className={style.signup_form_container}>
+                        <div className={style.left}>
                             <h1>Welcome Back</h1>
                             <Link to="/login">
-                                <button type="button" className={styles.white_btn}>
+                                <button type="button" className={style.white_btn}>
                                     Sign in
                                 </button>
                             </Link>
                         </div>
-                        <div className={styles.right}>
-                            <form className={styles.form_container} onSubmit={handleSubmit}>
+                        <div className={style.right}>
+                            <form className={style.form_container} onSubmit={handleSubmit}>
                                 <h1>Create Account</h1>
                                 <label htmlFor="firstname"></label>
                                 <input
@@ -187,8 +198,8 @@ const Signup = () => {
                                     required
                                     className={setClassName(matchPwd, validMatch)}
                                 />
-                                {error && <div className={styles.error_msg}>{error}</div>}
-                                <button type="submit" className={styles.green_btn}>
+                                {error && <div className={style.error_msg}>{error}</div>}
+                                <button type="submit" className={style.green_btn}>
                                     Sign Up
                                 </button>
                             </form>

@@ -191,7 +191,7 @@ const EditButton = (props) => {
         try {
             console.log("====AUTH TOKEN=====");
             console.log(auth.accessToken);
-            const url = "/profilePage/email"
+            const url = "/reset/email"
             await axios.post(url, JSON.stringify({
                 "email": user.email,
             }
