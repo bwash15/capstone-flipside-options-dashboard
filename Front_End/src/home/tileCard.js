@@ -3,8 +3,22 @@ import { useState, useEffect } from 'react';
 import useAuth from '../hooks/useAuth';
 import useUser from '../hooks/useUser';
 import axios from '../api/axios';
+import PropTypes from 'prop-types';
+import Avatar from '@mui/material/Avatar';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
+import ListItemText from '@mui/material/ListItemText';
+import DialogTitle from '@mui/material/DialogTitle';
+import Dialog from '@mui/material/Dialog';
+import PersonIcon from '@mui/icons-material/Person';
+import AddIcon from '@mui/icons-material/Add';
+import Typography from '@mui/material/Typography';
+import { blue } from '@mui/material/colors';
 import { Card, CardBody, CardTitle, CardText, Row, Col, Button, Form } from 'reactstrap';
 import { set } from 'mongoose';
+
+
 export const TileCard = () => {
     const[tiles, setTiles] = useState([]);
     const[optionNames, setOptionNames] = useState([]);
@@ -54,6 +68,8 @@ export const TileCard = () => {
         setSelection(event.target.value)
         setInnerTileName(event.target.value)
     }
+
+
     return (
         <div>
             <Button type = "submit"  onClick={showTile}>Add Option Tile</Button>

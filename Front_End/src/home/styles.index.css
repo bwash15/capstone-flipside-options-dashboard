@@ -1,3 +1,10 @@
-.card{
-    background-color: red;
+.home{
+    display: flex;
+    justify-content: center
 }
+.sideBar{
+    width: auto;   
+}
+.card{
+    width: 250px;
+}   
