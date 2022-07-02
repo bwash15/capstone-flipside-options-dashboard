@@ -29,7 +29,7 @@ import Home from "./home"
 import ResetPassword from "./Pages/ResetPasswordPage";
 import EnterEmail from './Pages/EnterEmailPage'
 import AnalyzeData from './Analyze_data/AnalyzeData';
-import UserNotes from "./Pages/Notes/UserNotes";
+import UserNotes from "./Pages/posts";
 
 
 import BasicCard from "./Pages/TilesPage";
