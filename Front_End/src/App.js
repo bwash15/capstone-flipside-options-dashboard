@@ -28,7 +28,7 @@ import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
 import ResetPassword from "./Pages/ResetPasswordPage";
 import EnterEmail from './Pages/EnterEmailPage'
-import AnalyzeData from './Analyze_data/AnalyzeData';
+import AnalyzeData from './Pages/AnalysisPage';
 import UserNotes from "./Pages/Notes/UserNotes";
 
 
