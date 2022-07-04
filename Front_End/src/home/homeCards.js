@@ -138,7 +138,8 @@ export default function SimpleDialogDemo() {
     setSelectedValue(value);
   };
 
-  const handleSaveButton = async () => {
+  const handleSaveButton = async (e) => {
+    e.preventDefault();
     let joined = savedTiles.concat(selectedValue);
     console.log("joined array is " + joined);
     setSavedTiles(joined);
@@ -148,12 +149,13 @@ export default function SimpleDialogDemo() {
   const isMounted = useRef(false);
 
   useEffect(() => {
-    if (isMounted.current) {
-        console.log("called save")
-        saveHomeTiles();
-      } else {
-        isMounted.current = true;
-      }
+    // if (isMounted.current) {
+    //     console.log("called save")
+    //     saveHomeTiles();
+    //   } else {
+    //     isMounted.current = true;
+    //   }
+    saveHomeTiles();
   }, [savedTiles])
 
   useEffect(() => {

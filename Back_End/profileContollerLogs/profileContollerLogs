@@ -9815,3 +9815,8 @@ DateTime:[20220628	01:49:53]	UUID:[aaa6a007-fa4d-4708-a327-9f074984734e]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[joe@gg.com profile found]
+
+DateTime:[20220701	11:30:38]	UUID:[22241638-f795-4fdc-9a0f-a23286a66ec5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\FlipSide Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[joe@gg.com profile found]
