@@ -81,6 +81,7 @@ export default function SimpleDialogDemo() {
     const[tiles, setTiles] = useState([]);
     const[savedTiles, setSavedTiles] = useState([])
     const[savedTilesFromApi, setSavedTilesFromApi] = useState([])
+    
     const getTiles = () => {
         const url = '/optionTiles/home';
         axios.post(url, JSON.stringify({
@@ -94,7 +95,8 @@ export default function SimpleDialogDemo() {
           })
       }
 
-      const saveHomeTiles = () => {
+      const saveHomeTiles = (e) => {
+        e.preventDefault();
         const url = '/homeTiles/post';
         console.log("entered save tiles and tile names is " + JSON.stringify(savedTiles))
         axios.post(url, JSON.stringify({
@@ -123,9 +125,6 @@ export default function SimpleDialogDemo() {
             console.log("got tiles " + JSON.stringify(response.data));
           })
       }
-
-
-
   const [open, setOpen] = React.useState(false);
   const [selectedValue, setSelectedValue] = React.useState();
 
@@ -155,12 +154,12 @@ export default function SimpleDialogDemo() {
     //   } else {
     //     isMounted.current = true;
     //   }
-    saveHomeTiles();
+   saveHomeTiles();
   }, [savedTiles])
 
   useEffect(() => {
     getTiles();
-    getHomeTiles();
+    //getHomeTiles();
   }, [open]);
 
   return (

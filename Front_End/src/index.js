@@ -2,6 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
+
 import { AuthProvider } from './context/AuthProvider'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { UserProvider } from './context/customer copy'
@@ -11,7 +12,6 @@ const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
-
     <Router>
       <AuthProvider>
         <UserProvider>
@@ -21,7 +21,6 @@ root.render(
         </UserProvider>
       </AuthProvider>
     </Router>
-
 );
 
 
