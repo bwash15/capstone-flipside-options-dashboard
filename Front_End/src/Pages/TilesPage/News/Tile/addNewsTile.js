@@ -11,10 +11,13 @@ import {Link, useNavigate} from 'react-router-dom'
 import { v4 as uuidv4 } from "uuid";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import useAuth from '../../../../hooks/useAuth';
+import useUser from '../../../../hooks/useUser';
 
 
 export const AddNewsTile = () => {
     const {auth} = useAuth();
+    const {user} = useUser();
+
     const [tileName, setName] = useState('');
     const [uuid, setUuid] = useState('');
     const navigate = useNavigate();
@@ -23,6 +26,7 @@ export const AddNewsTile = () => {
          //push to database
          const url = "/userTiles/news";
         await axios.post(url, JSON.stringify({
+            "userID": user,
             "uuid": uuid,
             "tileName" :tileName,
         }),

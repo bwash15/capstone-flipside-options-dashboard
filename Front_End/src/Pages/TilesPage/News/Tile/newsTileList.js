@@ -7,14 +7,18 @@ import {
 } from 'reactstrap'
 import axios from '../../../../api/axios'
 import useAuth from '../../../../hooks/useAuth';
+import useUser from '../../../../hooks/useUser';
 
 export const NewsTileList = () => {
   const[tiles, setTiles] = useState([]);
   const {auth} = useAuth();
+  const {user} = useUser();
 
   const getTiles = () => {
-    const url = '/userTiles/news';
-    axios.get(url, {headers: {Authorization :`Bearer ${auth.accessToken}`}})
+    const url = '/userTiles/news/get';
+    axios.post(url,  JSON.stringify({
+      "userID" : user
+  }),{headers: {Authorization :`Bearer ${auth.accessToken}`}})
         .then((response) => {
           setTiles(response.data);
       })

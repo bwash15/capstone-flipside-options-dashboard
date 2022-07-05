@@ -11,6 +11,9 @@
     justify-content: center;
 }
 
+.relative-images{
+    
+}
 .container-row{
     display: flex;
     flex-direction: row;

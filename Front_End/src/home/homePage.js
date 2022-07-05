@@ -30,19 +30,22 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faAngleLeft} from '@fortawesome/free-solid-svg-icons'
+import {faAngleRight} from '@fortawesome/free-solid-svg-icons'
 
 
 export const HomePage = () => {
   
     const {auth} = useAuth();
     const {user} = useUser();
-    const [tiles, setTiles] = useState([]);
+    const [optionTiles, setOptionTiles] = useState([]);
+    const [newsTiles, setNewsTiles] = useState([]);
 
     const [dense, setDense] = React.useState(false);
     const [secondary, setSecondary] = React.useState(false);
 
-  const getTiles = () => {
+  const getOptionTiles = () => {
     const url = '/userTiles/options/get';
     axios.post(url, JSON.stringify({
       "userID": user,
@@ -50,32 +53,51 @@ export const HomePage = () => {
       headers: {Authorization :`Bearer ${auth.accessToken}`},
   })
         .then((response) => {
-          setTiles(response.data);
-          console.log('response is ' + JSON.stringify(response.data))
+          setOptionTiles(response.data);
       })
   }
-  
-  const Demo = styled('div')(({ theme }) => ({
-    backgroundColor: theme.palette.background.paper,
-  }));
-  
+
+  const getNewsTiles = () => {
+    const url = '/userTiles/news/get';
+    axios.post(url,JSON.stringify({
+        "userID": user,
+    }), 
+        {
+            headers: {Authorization :`Bearer ${auth.accessToken}`}
+        })
+        .then((response) => {
+          setNewsTiles(response.data);
+      })
+  }
+
+  const slideLeft = () => {
+    var slider = document.getElementById('slider');
+    slider.scrollLeft = slider.scrollLeft - 500;
+  }
+
+  const slideRight = () => {
+    var slider = document.getElementById('slider');
+    slider.scrollLeft = slider.scrollLeft + 500;
+  }
 
   useEffect(() => {
-    getTiles();
+    getOptionTiles();
+    getNewsTiles();
   }, []);
 
     return (
-    <Box sx={{ flexGrow: 1, maxWidth: 752 }}>
+    <div>
+        <div className='home'>
+        <Box sx={{ flexGrow: 1, maxWidth: 752 }}>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
           {/* <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
             Options
           </Typography> */}
-          <Demo>
             <List dense={dense}>
                 <ListItem>
                      <div>
-                {tiles.map((tile, index) => (
+                {optionTiles.map((tile, index) => (
                 <div key = {index}>
                     <br></br>
                     <h2>{tile.tileName}</h2>
@@ -111,36 +133,30 @@ export const HomePage = () => {
             </div>  
                 </ListItem>
             </List>
-          </Demo>
+          
         </Grid>
       </Grid>
     </Box>
+        </div>
+
+    <div >
+    {newsTiles.map((element, index) => (
+        <div key={index}>
+            <h2>{element.tileName}</h2>
+            <div className='relative flex items-center'>
+            <FontAwesomeIcon size='2x' className='opacity-50 cursor-pointer hover:opacity-100' icon={faAngleLeft} onClick={slideLeft}/>
+                <div id='slider' class='w-fit h-full overflow-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide flex flex-row' >
+                    {element.tiles.map((item) => (
+                        <div>
+                            <img className='h-[120px] w-[220px] inline-block p-1 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.image_url} alt={item.stockName}/>
+                        </div>
+                    ))}
+                </div>
+                <FontAwesomeIcon size='2x' className='opacity-50 cursor-pointer hover:opacity-100' icon={faAngleRight} onClick={slideRight}/>
+            </div>
+        </div>
+    ))}
+    </div>
+    </div>
   );
-
-
-
-    // <div>
-    //     {tiles.map((tile, index) => (
-    //     <div key = {index}>
-    //         {tile.tileName}
-    //         {tile.tiles.map((details) => {
-    //             return(
-    //                 <div className='container'>
-    //                     <div className ='container-row'>
-    //                         <div className = 'tile'>
-    //                             <p>{details.stockName}</p>     
-    //                         </div>
-    //                         <div className = "tile-data">
-    //                             <p className='tile-price'>{details.stockPrice}</p>
-    //                             <p className='tile-premium'>{details.premium}</p>
-    //                             <p className='tile-expDate'>{details.expDate}</p>
-    //                         </div>
-    //                     </div>
-    //                 </div>
-    //             )
-    //         })}
-    //     </div>    
-    //     ))}
-    // </div>
-  
 }

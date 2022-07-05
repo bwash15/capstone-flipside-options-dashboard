@@ -29,6 +29,7 @@ const subSchema = new Schema({
 });
 
 const NewsTilesSchema = new Schema({
+
     uuid: {
         type: String,
         required: true
@@ -38,6 +39,10 @@ const NewsTilesSchema = new Schema({
         required: true
     },
     tileType: {
+        type: String,
+        required: true
+    },
+    userID: {
         type: String,
         required: true
     },
