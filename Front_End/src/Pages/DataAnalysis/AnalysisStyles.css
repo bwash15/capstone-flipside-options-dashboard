@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+
 body {
-    min-height: 100vh;
-    font-family: 'Open Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: flex;
-    background-color: #efefef;
-    overflow-y: auto;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background-color: #efefef;
+  overflow-y: auto;
 }
   
 #root {
-flex-grow: 1;
-display: flex;
-justify-content: center;
-align-items: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App {
@@ -21,7 +35,6 @@ align-items: center;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   background-color: lightgray;
   border: 1px solid #333;
@@ -67,11 +80,12 @@ li {
   width: 100%;
   overflow-y: auto;
   padding-top: 52px;
+  font-size: small;
 }
 
 td {
   border: 1px solid #000;
-  padding: 0.25rem;
+  padding: 0.25rem; 
 }
 
 .newPostForm {
@@ -102,8 +116,8 @@ td {
 
 .newPostForm button {
   margin-top: 1rem;
-  height: 48px;
-  min-width: 48px;
+  height: 40px;
+  min-width: 40px;
   border-radius: 10px;
   padding: 0.5rem;
   font-size: 1rem;
@@ -115,8 +129,8 @@ td {
   background-color: #333;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+
+  align-items: center;
 }
 
 .searchForm {
@@ -144,6 +158,7 @@ td {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  
 }
 
 .Nav li {
@@ -158,6 +173,8 @@ td {
 .Nav li a {
   color: #fff;
   text-decoration: none;
+  border-bottom: 1px solid #efefef;
+  padding: 15px;
 }
 
 .Nav li:hover, 
@@ -182,4 +199,96 @@ td {
 .Missing h2, .PostPage h2, 
 .Missing p, .PostPage p {
   margin-bottom: 1rem;
+}
+
+.Home .post a {
+  text-decoration: none;
+}
+
+.Home .post a, 
+.Home .post a:visited {
+  color: #000;
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.postDate {
+  font-size: 0.65rem;
+  margin-top: 0.25rem;
+}
+
+.postBody {
+  margin: 1rem 0;
+}
+
+
+.PostPage button {
+  height: 40px;
+  min-width: 40px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.statusMsg {
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 16px;
+  }
+
+  .Header h1 {
+    font-size: 2rem;
+  }
+
+  .Nav {    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Nav ul {
+    text-align: center;
+  }
+
+  .Nav li:hover, 
+  .Nav li:focus, 
+  .Nav li:hover a, 
+  .Nav li:focus a  {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .searchForm {
+    width: 100%;
+    padding: .5rem 0;
+  }
+ 
+  .searchForm input[type="text"] {
+    margin-left: 0.5rem;
+  }
+
+  .newPostForm textarea {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  /* .Header svg {
+    font-size: 3rem;
+  } */
+
 }

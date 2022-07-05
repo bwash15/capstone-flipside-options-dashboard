@@ -11,6 +11,11 @@ const AnalysisForm = ({ reqType, setReqType }) => {
                     setReqType={setReqType}
                 />
                 <FilterButton
+                    buttonText="posts"
+                    reqType={reqType}
+                    setReqType={setReqType}
+                />
+                <FilterButton
                     buttonText="snapShot"
                     reqType={reqType}
                     setReqType={setReqType}
@@ -37,11 +42,6 @@ const AnalysisForm = ({ reqType, setReqType }) => {
                 />
                 <FilterButton
                     buttonText="underlying_asset"
-                    reqType={reqType}
-                    setReqType={setReqType}
-                />
-                <FilterButton
-                    buttonText="posts"
                     reqType={reqType}
                     setReqType={setReqType}
                 />
