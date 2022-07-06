@@ -1,6 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-router-dom'
 import { Nav, NavLink, Bars, NavMenu, NavButton, NavButtonLink } from './NavBarElements'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faUpRightAndDownLeftFromCenter} from '@fortawesome/free-solid-svg-icons'
+import "./styles.css"
 const NavBar = () => {
 
     const logout = () => {
@@ -13,7 +17,7 @@ const NavBar = () => {
         <>
             <Nav>
                 <NavLink to="/">
-                    <img style={{ height: '60px', width: '120px' }} src="Images/FlipSideLogo.png" alt="Logo" />
+                <FontAwesomeIcon icon={faUpRightAndDownLeftFromCenter} size="3x" color="#fff"/>
                 </NavLink>
 
                 <Bars />

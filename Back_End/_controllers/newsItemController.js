@@ -10,25 +10,30 @@ const updateTileInfo = async (req, res) => {
 
     const response = await fetchOption(api_link);
     const data = await response.json();
-    const news_link = data['results'][0]['article_url'];
-    const image_url = data['results'][0]['image_url'];
-    const description = data['results'][0]['description'];
-    const title = data['results'][0]['title'];
-    const result = await UserTile.updateOne(
-        {uuid: tileUUID},
-        {$push: 
-            {tiles:
-                {
-                    "uuid": newsUUID,
-                    "stockName": stockName,
-                    "news_link": news_link,
-                    "image_url": image_url,
-                    "description": description,
-                    "title": title
+    const all_news = data['results']
+    let result;
+    for(const element of all_news) {
+        const news_link = element['article_url'];
+        const image_url = element['image_url'];
+        const description = element['description'];
+        const title = element['title'];
+
+        result = await UserTile.updateOne(
+                {uuid: tileUUID},
+                {$push: 
+                    {tiles:
+                        {
+                            "uuid": newsUUID,
+                            "stockName": stockName,
+                            "news_link": news_link,
+                            "image_url": image_url,
+                            "description": description,
+                            "title": title
+                        }
+                    }
                 }
-            }
-        }
-    );
+            );
+    }
     res.json(result);
 }
 const tileGet = async (req, res) => {

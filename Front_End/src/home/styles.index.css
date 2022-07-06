@@ -1,10 +1,83 @@
 .home{
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 .sideBar{
     width: auto;   
 }
-.card{
-    width: 250px;
-}   
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.relative-images{
+    
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: start;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+}
+
+.tile{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.tile h1{
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+.tile img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.tile-symbol{
+    text-transform: uppercase;
+}
+
+.tile-data{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tile-price{
+    width: 110px;
+}
+
+.tile-premium{
+    width: 155px;
+}
+
+.tile-expDate{
+    width: 155px;
+}
+
+.tile-name{
+    width: 155px;
+}
+
+.red{
+   color: #f00606;
+}
+
+.green{
+    color: #11d811;
+}
+
+.percent{
+    width: 100%;
+}

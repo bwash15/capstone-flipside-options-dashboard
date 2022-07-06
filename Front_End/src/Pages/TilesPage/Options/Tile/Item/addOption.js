@@ -65,9 +65,9 @@ export const AddOption = () => {
         </FormGroup>
         <div>
         <ButtonGroup size="lg">
-            <Button color="primary" onClick={() => onRadioButtonClick('220617')}>6/17/2022</Button>
-            <Button color="primary" onClick={() => onRadioButtonClick('220624')}>6/24/2022</Button>
-            <Button color="primary" onClick={() => onRadioButtonClick('220701')}>7/01/2022</Button>
+            <Button color="primary" onClick={() => onRadioButtonClick('220708')}>7/08/2022</Button>
+            <Button color="primary" onClick={() => onRadioButtonClick('220715')}>7/15/2022</Button>
+            <Button color="primary" onClick={() => onRadioButtonClick('220722')}>7/22/2022</Button>
         </ButtonGroup>
         </div>
         <br></br>
@@ -78,27 +78,3 @@ export const AddOption = () => {
 
   )
 }
-
-/*
-<FormGroup tag="fieldset">
-        <legend>Expiration</legend>
-            <FormGroup check>
-                <Label check>
-                    <Input type="radio" name="radio1" /> {' '}
-                    6/17/2022
-                </Label>
-            </FormGroup>
-            <FormGroup check>
-                <Label check>
-                    <Input type="radio" name="radio1" /> {' '}
-                    6/24/2022
-                </Label>
-            </FormGroup>
-            <FormGroup check>
-                <Label check>
-                    <Input type="radio" name="radio1" /> {' '}
-                    7/01/2022
-                </Label>
-            </FormGroup>
-        </FormGroup>
-*/
