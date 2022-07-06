@@ -4,7 +4,7 @@ const SnapShotCard = ({ snapShot }) => {
     return (
         <>
             <article className='post'>
-                <Link to={`/snapShots/${snapShot.request_id}`} >
+                <Link to={`/snapShots/snapShot/${snapShot.request_id.toString()}`} >
                     <h2>Ticker: {snapShot.results.details.ticker}</h2>
                 </Link>
                 <p className='postDate'>Last Updated: {snapShot.results.day.last_updated}</p>

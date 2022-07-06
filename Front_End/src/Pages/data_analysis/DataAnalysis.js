@@ -12,12 +12,13 @@ import NewUsersCard from './cardComponents/NewUsersCard';
 import SnapShotCardHome from './cardComponents/snapShotCards/SnapShotCardHome';
 import NewSnapShotCard from './cardComponents/snapShotCards/NewSnapShotCard';
 import PostedSnapShotCard from './cardComponents/snapShotCards/PostedSnapShotCard';
+import EditPosts from './cardComponents/EditPosts';
 import MissingPage from './MissingPage';
 import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
 import postsApi from './api/posts';
-import snapShotApi from './api/snapShot';
-import filtersApi from './api/filters';
+import usersApi from './api/users';
+import snapShotApi from './api/snapShot'
 
 import './AnalysisStyles.css';
 
@@ -77,11 +78,54 @@ const DataAnalysis = () => {
 
     // USERS
     const [email, setEmail] = useState([]);
-    const [name, setName] = useState([]);
+    const [firstName, setFirstName] = useState([]);
+    const [lastName, setLastName] = useState([]);
+    const [selectedOptions, setSelectedOptions] = useState([]);
     const [users, setUsers] = useState([{
-        email: email,
-        name: name
-    }]);
+        firstName: "John",
+        lastName: "Smith",
+        email: "jSmith@gmail.com",
+        password: "0123456789",
+        rt: "",
+        roles: {
+            "User": 2001,
+            "Admin": 5150,
+            "Editor": 1981
+        },
+        selectedOptions: [{
+            request_id_1: "d9ff18dac69f55c218f69e4753706acd"
+        },
+        {
+            request_id_2: "123d9ff18dac69f55c218f69e4753706acd"
+        },
+        {
+            request_id_3: "123d9ff18dac69f55c218f69e4753706acd"
+        }
+        ]
+    }, {
+        firstName: "Billy",
+        lastName: "Jones",
+        email: "bJones@gmail.com",
+        password: "0123456789",
+        rt: "",
+        roles: {
+            "User": 2001,
+            "Admin": 5150,
+            "Editor": 1981
+        },
+        selectedOptions: [{
+            request_id_1: "d9ff18dac69f55c218f69e4753706acd"
+        },
+        {
+            request_id_2: "123d9ff18dac69f55c218f69e4753706acd"
+        },
+        {
+            request_id_3: "123d9ff18dac69f55c218f69e4753706acd"
+        }
+        ]
+    }
+
+    ]);
 
     // SNAPSHOT
     const [options, setOptions] = useState([]);
@@ -101,7 +145,7 @@ const DataAnalysis = () => {
     const [changePercent, setChangePercent] = useState([]);
     const [close, setClose] = useState([]);
     const [high, setHigh] = useState([]);
-    const [lastUpdated, setLastUpdated] = useState([]);
+    const [daylastUpdated, setDayLastUpdated] = useState([]);
     const [low, setLow] = useState([]);
     const [open, setOpen] = useState([]);
     const [previousClose, setPreviousClose] = useState([]);
@@ -115,7 +159,7 @@ const DataAnalysis = () => {
     const [expirationDate, setExpirationDate] = useState([]);
     const [sharesPerContract, setSharesPerContract] = useState([]);
     const [strikePrice, setStrikePrice] = useState([]);
-    const [ticker, setTicker] = useState([]);
+    const [detailsTicker, setDetailsTicker] = useState([]);
     // Greeks
     const [greeksArray, setGreeksArray] = useState([]);
     const [greeks, setGreeks] = useState([]);
@@ -129,6 +173,7 @@ const DataAnalysis = () => {
     const [ask, setAsk] = useState([]);
     const [askSize, setAskSize] = useState([]);
     const [bid, setBid] = useState([]);
+    const [LQlastUpdated, setLQLastUpdated] = useState([]);
     const [bidSize, setBidSize] = useState([]);
     const [midpoint, setMidpoint] = useState([]);
     const [timeFrame, setTimeFrame] = useState([]);
@@ -136,11 +181,13 @@ const DataAnalysis = () => {
     const [underlyingAssetArray, setUnderlyingAssetArray] = useState([]);
     const [underlyingAsset, setUnderlyingAsset] = useState([]);
     const [changeToBreakEven, setChangeToBreakEven] = useState([]);
+    const [ULlastUpdated, setULLastUpdated] = useState([]);
     const [price, setPrice] = useState([]);
+    const [ULTicker, setULTicker] = useState([]);
     const [status, setStatus] = useState([]);
 
     // filters 
-    const [filters, setFilters] = useState([]);
+    const [userFilters, setUserFilters] = useState([]);
     const [filterObj, setFilteredObj] = useState([]);
     const [option_ticker, setOptionTicker] = useState("TSLA");
     const [option_type, setOption_type] = useState("C");
@@ -150,14 +197,77 @@ const DataAnalysis = () => {
     const [option_timespan, setOption_timespan] = useState("day");
     const [option_from, setOption_from] = useState("20220620");
     const [option_to, setOption_To] = useState("20220623");
+    //----------------------------------------------------------------------------------
+    // Edit Properties
+
+    // Posts
+    const [editPostTitle, setEditPostTitle] = useState('');
+    const [editPostBody, setEditPostBody] = useState('');
+
+    // Users
+    const [editEmail, setEditEmail] = useState([]);
+    const [editFirstName, setEditFirstName] = useState([]);
+    const [editLastName, setEditLastName] = useState([]);
+    const [editSelectedOptions, setEditSelectedOptions] = useState([]);
+
+    // SnapShot
+    const [editRequest_id, setEditRequestId] = useState([]);
+    const [editBreakEvenPrice, setEditBreakEvenPrice] = useState([]);
+    const [editImpliedVolatility, setEditimpliedVolatility] = useState([]);
+    const [editOpenInterest, setEditOpenInterest] = useState([]);
+    const [editStatus, setEditStatus] = useState([]);
+
+    // Edit Day Properties
+    const [editDay, setEditDay] = useState([]);
+    const [editChange, setEditChange] = useState([]);
+    const [editchangePercent, setEditChangePercent] = useState([]);
+    const [editClose, setEditClose] = useState([]);
+    const [editHigh, setEditHigh] = useState([]);
+    const [editDayLastUpdated, setEditDayLastUpdated] = useState([]);
+    const [editLow, setEditLow] = useState([]);
+    const [editOpen, setEditOpen] = useState([]);
+    const [editPreviousClose, seteditPreviousClose] = useState([]);
+    const [editVolume, setEditVolume] = useState([]);
+    const [editVwap, setEditVwap] = useState([]);
+
+    // Edit Details Properties
+    const [editDetails, setEditDetails] = useState([]);
+    const [editContractType, setEditContractType] = useState([]);
+    const [editExerciseStyle, setEditExerciseStyle] = useState([]);
+    const [editExpirationDate, setEditExpirationDate] = useState([]);
+    const [editSharesPerContract, setEditSharesPerContract] = useState([]);
+    const [editStrikePrice, setEditStrikePrice] = useState([]);
+    const [editDetailsTicker, setEditDetailsTicker] = useState([]);
+
+    // Edit Greeks Properties
+    const [editGreeks, setEditGreeks] = useState([]);
+    const [editDelta, setEditDelta] = useState([]);
+    const [editGamma, setEditGamma] = useState([]);
+    const [editTheta, setEditTheta] = useState([]);
+    const [editVega, setEditVega] = useState([]);
+
+    // Edit Last Quote Properties
+    const [editLastQuote, setEditLastQuote] = useState([]);
+    const [editAsk, setEditAsk] = useState([]);
+    const [editAskSize, setEditAskSize] = useState([]);
+    const [editBid, setEditBid] = useState([]);
+    const [editBidSize, setEditBidSize] = useState([]);
+    const [editLQlastUpdated, setEditLQlastUpdated] = useState([]);
+    const [editMidpoint, setEditMidpoint] = useState([]);
+    const [editLQTimeFrame, setEditLQTimeFrame] = useState([]);
+
+    // Edit Underlying Asset Properties
+    const [editUnderlyingAsset, setEditUnderlyingAsset] = useState([]);
+    const [editChangeToBreakEven, setEditChangeToBreakEven] = useState([]);
+    const [editULlastUpdated, setEditULlastUpdated] = useState([]);
+    const [editPrice, setEditPrice] = useState([]);
+    const [editULTicker, setEditULTicker] = useState([]);
+    const [editULTimeFrame, setEditULTimeFrame] = useState([]);
 
 
     useEffect(() => {
 
         // -----  GET calls  ------------
-        // 3500 - Posts
-        // 3600 - snapShots
-        // 3700 - filters
         const fetchData = async () => {
             try {
                 // Data is in the response.data
@@ -167,9 +277,6 @@ const DataAnalysis = () => {
                 const SnapShotResponse = await snapShotApi.get('/snapShot');
                 if (SnapShotResponse && SnapShotResponse.data) setSnapShots(SnapShotResponse.data);
                 sessionStorage.setItem("snapShots", JSON.stringify(SnapShotResponse.data));
-                const FiltersResponse = await filtersApi.get('/filters');
-                if (FiltersResponse && FiltersResponse.data) setFilters(FiltersResponse.data);
-                sessionStorage.setItem("filters", JSON.stringify(FiltersResponse.data));
 
             } catch (err) {
                 if (err.response) {
@@ -229,61 +336,42 @@ const DataAnalysis = () => {
         setItems(itemsList);
         navigate('/');
     }
-    const handlePostsDelete = (id) => {
-
-
-
-        const itemsList = posts.filter(item => item.id !== id);
-        setPosts(itemsList);
-        navigate('/');
+    const handlePostsDelete = async (id) => {
+        try {
+            await postsApi.delete(`/posts/${id}`);
+            const postList = posts.filter(post => post.id !== id);
+            setPosts(postList);
+            navigate('/');
+        } catch (err) {
+            console.log(err.message);
+        }
     }
-    const handleUsersDelete = (id) => {
-        const usersList = users.filter(user => user.id !== id);
-        setUsers(usersList);
-        navigate('/');
+    const handleUsersDelete = async (id) => {
+        try {
+            await usersApi.delete(`/users/${id}`);
+            const userList = users.filter(user => user.id !== id);
+            setUsers(userList);
+            navigate('/');
+        } catch (err) {
+            console.log(err.message);
+        }
     }
-    const handleSnapShotDelete = (id) => {
-        const snapShotList = snapShots.filter(snapShot => snapShot.request_id !== id);
-        setSnapShots(snapShotList);
-        navigate('/');
+    const handleSnapShotDelete = async (id) => {
+        try {
+            await snapShotApi.delete(`/snapShot/${id}`);
+            const snapShotList = snapShots.filter(snapShot => snapShot.request_id !== id);
+            setSnapShots(snapShotList);
+
+            navigate('/');
+        } catch (err) {
+            console.log(err.message);
+        }
     }
 
     //------------------------------------------------------------------------------------
     // Handle Submits
 
-    // const handleItemsSubmit = async (e) => {
-    //     e.preventDefault();
-    //     const id = options.length ? options[options.length - 1].id + 1 : 1;
-    //     const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
 
-    //     const newItem = {
-    //         id,
-    //         dateTime,
-    //         break_even_price: breakEvenPrice,
-    //         implied_volatility: impliedVolatility,
-    //         open_interest: openInterest
-    //     };
-
-    //     try {
-    //         // const response = await singlePropsapi.post('/singleProps', newSinglePropertyInfo);
-    //         const allSingleProps = [...singleProps, newItem];
-    //         setItems(allSingleProps);
-    //         setBreakEvenPrice('');
-    //         setimpliedVolatility('');
-    //         setOpenInterest('');
-    //         navigate('/');
-
-    //     } catch (err) {
-    //         if (err.response) {
-    //             console.log(err.response.data);
-    //             console.log(err.response.status);
-    //             console.log(err.response.headers);
-
-    //         } else {
-    //             console.log(`Error: ${err.message}`);
-    //         }
-    //     }
-    // }
     const handlePostsSubmit = async (e) => {
         e.preventDefault();
         const id = posts.length ? posts[posts.length - 1].id + 1 : 1;
@@ -322,15 +410,23 @@ const DataAnalysis = () => {
             id,
             dateTime,
             email: email,
-            name: name
+            firstName: firstName,
+            lastName: lastName,
+            selectedOptions: [{
+                request_id_1: selectedOptions[0],
+                request_id_2: selectedOptions[1],
+                request_id_3: selectedOptions[2],
+            }]
         };
 
         try {
             // const response = await usersapi.post('/users', newSinglePropertyInfo);
             const allUsers = [...users, newUser];
             setUsers(allUsers);
-            setName('');
+            setFirstName('');
+            setLastName('');
             setEmail('');
+            setSelectedOptions([]);
             navigate('/');
 
         } catch (err) {
@@ -358,7 +454,7 @@ const DataAnalysis = () => {
                     change_percent: changePercent,
                     close: close,
                     high: high,
-                    last_updated: lastUpdated,
+                    last_updated: daylastUpdated,
                     low: low,
                     open: open,
                     previous_close: previousClose,
@@ -371,7 +467,7 @@ const DataAnalysis = () => {
                     expiration_date: expirationDate,
                     shares_per_contract: sharesPerContract,
                     strike_price: strikePrice,
-                    ticker: ticker
+                    ticker: detailsTicker
                 },
                 greeks: {
                     delta: delta,
@@ -385,16 +481,16 @@ const DataAnalysis = () => {
                     askSize: askSize,
                     bid: bid,
                     bidSize: bidSize,
-                    last_updated: lastUpdated,
+                    last_updated: LQlastUpdated,
                     midpoint: midpoint,
                     timeFrame: timeFrame
                 },
                 open_interest: openInterest,
                 underlying_asset: {
                     change_to_break_even: changeToBreakEven,
-                    last_updated: lastUpdated,
+                    last_updated: ULlastUpdated,
                     price: price,
-                    ticker: ticker,
+                    ticker: ULTicker,
                     timeFrame: timeFrame
                 }
             },
@@ -414,7 +510,7 @@ const DataAnalysis = () => {
             setChangePercent('');
             setClose('');
             setHigh('');
-            setLastUpdated('');
+            setDayLastUpdated('');
             setLow('');
             setOpen('');
             setPreviousClose('');
@@ -426,7 +522,7 @@ const DataAnalysis = () => {
             setExpirationDate('');
             setSharesPerContract('');
             setStrikePrice('');
-            setTicker('');
+            setDetailsTicker('');
             setGreeks('');
             setDelta('');
             setGamma('');
@@ -437,12 +533,13 @@ const DataAnalysis = () => {
             setAskSize('');
             setBid('');
             setBidSize('');
+            setEditLQlastUpdated('');
             setMidpoint('');
             setTimeFrame('');
             setUnderlyingAsset('');
             setChangeToBreakEven('');
             setPrice('');
-            setTicker('');
+            setULTicker('');
 
             navigate('/');
 
@@ -458,8 +555,162 @@ const DataAnalysis = () => {
         }
     }
 
+    //-------------------------------------------------------------------------------
+    // Handle Edits
+
+    const handleUsersEdit = async (id) => {
+        try {
+            const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
+
+            const updatedUser = {
+                dateTime,
+                email: editEmail,
+                firstName: editFirstName,
+                lastName: editLastName,
+                selectedOptions: [{
+                    request_id_1: editSelectedOptions[0],
+                    request_id_2: editSelectedOptions[1],
+                    request_id_3: editSelectedOptions[2]
+                }]
+            };
+        } catch (err) {
+            if (err.response) {
+                console.log(err.response.data);
+                console.log(err.response.status);
+                console.log(err.response.headers);
+
+            } else {
+                console.log(`Error: ${err.message}`);
+            }
+        }
+    }
+    const handlePostsEdit = async (id) => {
+        const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
+        const updatedPost = {
+            id,
+            Title: editPostTitle,
+            dateTime,
+            body: editPostBody
+        };
+        try {
+
+        } catch (err) {
+            if (err.response) {
+                console.log(err.response.data);
+                console.log(err.response.status);
+                console.log(err.response.headers);
+
+            } else {
+                console.log(`Error: ${err.message}`);
+            }
+        }
+    }
+    const handleSnapShotEdit = async (id) => {
+        const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
+
+        const updatedSnapShot = {
+            request_id: editRequest_id,
+            results: {
+                break_even_price: editBreakEvenPrice,
+                day: {
+                    change: editChange,
+                    change_percent: editchangePercent,
+                    close: editClose,
+                    high: editHigh,
+                    last_updated: editDayLastUpdated,
+                    low: editLow,
+                    open: editOpen,
+                    previous_close: editPreviousClose,
+                    volume: editVolume,
+                    vwap: editVwap
+                },
+                details: {
+                    contract_type: editContractType,
+                    exercise_style: editExerciseStyle,
+                    expiration_date: editExpirationDate,
+                    shares_per_contract: editSharesPerContract,
+                    strike_price: editStrikePrice,
+                    ticker: editDetailsTicker
+                },
+                greeks: {
+                    delta: editDelta,
+                    gamma: editGamma,
+                    theta: editTheta,
+                    vega: editVega
+                },
+                implied_volatility: editImpliedVolatility,
+                last_quote: {
+                    ask: editAsk,
+                    askSize: editAskSize,
+                    bid: editBid,
+                    bidSize: editBidSize,
+                    last_updated: editLQlastUpdated,
+                    midpoint: editMidpoint,
+                    timeFrame: editLQTimeFrame
+                },
+                open_interest: editOpenInterest,
+                underlying_asset: {
+                    change_to_break_even: editChangeToBreakEven,
+                    last_updated: editULlastUpdated,
+                    price: editPrice,
+                    ticker: editULTicker,
+                    timeFrame: editULTimeFrame
+                }
+            },
+            status: editStatus
+        };
+        try {
+            const editSnapShotResponse = await snapShotApi.put(`/snapShots/${id}`, updatedSnapShot);
+            setSnapShots(snapShots.map(snapShot => snapShot.request_id === id ? { ...editSnapShotResponse.data } : snapShot));
+            // Set Edits back to empty String
+            setEditRequestId('');
+            setEditBreakEvenPrice('');
+            setEditDay('');
+            setEditChange('');
+            setEditChangePercent('');
+            setEditClose('');
+            setEditHigh('');
+            setEditDayLastUpdated('');
+            setEditLow('');
+            setEditOpen('');
+            seteditPreviousClose('');
+            setEditVolume('');
+            setEditVwap('');
+            setEditDetails('');
+            setEditContractType('');
+            setEditExerciseStyle('');
+            setEditExpirationDate('');
+            setEditSharesPerContract('');
+            setEditStrikePrice('');
+            setEditDetailsTicker('');
+            setEditGreeks('');
+            setEditDelta('');
+            setEditGamma('');
+            setEditTheta('');
+            setEditVega('');
+            setEditimpliedVolatility('');
+            setEditLastQuote('');
+            setEditAsk('');
+            setEditAskSize('');
+            setEditBid('');
+            setEditBidSize('');
+            setEditMidpoint('');
+            setEditLQTimeFrame('');
+            setEditOpenInterest('');
+            setEditUnderlyingAsset('');
+            setEditChangeToBreakEven('');
+            setEditPrice('');
+            setEditULTicker('');
+            setEditULTimeFrame('');
+            setEditStatus('');
+            navigate('/');
+        } catch (err) {
+            console.log(`Error: ${err.message}`);
+        }
+    }
 
 
+    //-------------------------------------------------------------------------------
     return (
         <Routes>
             <Route path="/" element={
@@ -477,6 +728,14 @@ const DataAnalysis = () => {
                         setPostTitle={setPostTitle}
                         postBody={postBody}
                         setPostBody={setPostBody}
+                    />} />
+                    <Route path="edit/:id" element={<EditPosts
+                        posts={posts}
+                        handlePostsEdit={handlePostsSubmit}
+                        editPostTitle={editPostTitle}
+                        editPostBody={editPostBody}
+                        setEditPostTitle={setEditPostTitle}
+                        setEditPostBody={setEditPostBody}
                     />} />
 
                     <Route path=":id" element={<PostedCard
@@ -505,14 +764,19 @@ const DataAnalysis = () => {
                             handleUsersSubmit={handleUsersSubmit}
                             email={email}
                             setEmail={setEmail}
-                            name={name}
-                            setName={setName}
+                            firstName={firstName}
+                            lastName={lastName}
+                            setFirstName={setFirstName}
+                            setLastName={setLastName}
+                            selectedOptions={selectedOptions}
+                            setSelectedOptions={setSelectedOptions}
+
+                        />} />
+                        <Route path=":id" element={<PostedUsersCard
+                            users={users}
+                            handleUsersDelete={handleUsersDelete}
                         />} />
                     </Route>
-                    <Route path=":id" element={<PostedUsersCard
-                        users={users}
-                        handleUsersDelete={handleUsersDelete}
-                    />} />
                 </Route>
 
                 {/** -------------------------------------------------------------- **/}
@@ -534,12 +798,12 @@ const DataAnalysis = () => {
                             setUnderlyingAsset={setUnderlyingAsset}
 
                         />} />
+                        <Route path=":request_id" element={
+                            <PostedSnapShotCard
+                                snapShots={snapShots}
+                                handleSnapShotDelete={handleSnapShotDelete}
+                            />} />
                     </Route>
-                    <Route path=":request_id" element={
-                        <PostedSnapShotCard
-                            snapShots={snapShots}
-                            handleSnapShotDelete={handleSnapShotDelete}
-                        />} />
                 </Route>
                 {/** -------------------------------------------------------------------- */}
                 <Route path="/analysislist">

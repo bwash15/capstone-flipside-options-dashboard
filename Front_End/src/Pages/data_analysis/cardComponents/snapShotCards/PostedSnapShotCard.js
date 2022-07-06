@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 
 const PostedSnapShotCard = ({ snapShots, handleSnapShotDelete }) => {
     const { id } = useParams();
-    const snapShot = snapShots.find(snapShot => (snapShot.request_id).toString() === id);
+    const snapShot = snapShots.find(snapShot => (snapShot.request_id) === id);
 
     return (
         <main className='postPage'>
