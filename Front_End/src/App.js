@@ -28,8 +28,8 @@ import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
 import ResetPassword from "./Pages/ResetPasswordPage";
 import EnterEmail from './Pages/EnterEmailPage'
-import AnalyzeData from './Analyze_data/AnalyzeData';
-import UserNotes from "./Pages/posts";
+import AnalyzeData from './Pages/DataAnalysis';
+import UserNotes from "./Pages/Notes/UserNotes";
 
 
 import BasicCard from "./Pages/TilesPage";
@@ -41,7 +41,6 @@ import { InnerTileList } from "./Pages/TilesPage/Options/Tile/Item/innerTilesLis
 import { AddNewsTile } from "./Pages/TilesPage/News/Tile/addNewsTile";
 import BasicNewsCard from "./Pages/TilesPage/News/Tile/Item/newsPage";
 import { AddNews } from "./Pages/TilesPage/News/Tile/Item/addNews";
-
 function App() {
   const { width } = useWindowSize();
 
@@ -67,11 +66,7 @@ function App() {
 
             {/** Admin, Editor, and User Routes **/}
             <Route element={<RequireAuth allowedRoles={[5150, 1984, 2001]} />}>
-              
-              
               <Route path="/" element={<Home />} />
-
-
               <Route path="linkpage" element={<LinkPage />} />
               <Route path="landingpage" element={<LandingPage />} />
               <Route path="profilePage" element={<ProfilePage />} />
