@@ -9,7 +9,7 @@ import Header from './Header';
 // import NewQuote from './QuoteBoard/NewQuote';  // New Quote posted brief summary
 // import Quote from './QuoteBoard/Quote';  // Oasis see full page details
 // import About from './Lounge/About';
-import Missing from './MissingPage';  // 404 Error > missing page
+import Missing from './Pages/MissingPage';  // 404 Error > missing page
 
 // User Defined Hooks and components
 import RequireAuth from './RequireAuth';
@@ -21,16 +21,14 @@ import LinkPage from "./Pages/LinkToPage"
 import RegisterUser from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Admin from "./Pages/Admin";
-import Lounge from "./Lounge/Lounge";
-import UnAuthorizedAccess from "./UnAuthorized";
+
+import UnAuthorizedAccess from "./Pages/UnAuthorized";
 import LandingPage from "./Pages/LandingPage"
 import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
 import ResetPassword from "./Pages/ResetPasswordPage";
 import EnterEmail from './Pages/EnterEmailPage'
-import AnalyzeData from './Pages/DataAnalysis';
-import UserNotes from "./Pages/Notes/UserNotes";
-
+import AnalyzeData from './Pages/data_analysis/DataAnalysis';
 
 import BasicCard from "./Pages/TilesPage";
 import { AddOption } from "./Pages/TilesPage/Options/Tile/Item/addOption"
@@ -81,13 +79,12 @@ function App() {
               <Route path="/add-news-tile" element={<AddNewsTile />} />
               <Route path="/add-options-tile" exact element={<AddOptionsTile />} />
               <Route path="trading" exact element={<Trading />} />
-              <Route path="analyze_data" element={<AnalyzeData />} />
-              <Route path="notes" element={<UserNotes />} />
+              <Route path="analytics" element={<AnalyzeData />} />
             </Route>
 
             {/** Editor and User Access **/}
             <Route element={<RequireAuth allowedRoles={[2001, 1984]} />}>
-              <Route path="lounge" element={<Lounge />} />
+
             </Route>
 
             {/** Editor Only Access **/}
