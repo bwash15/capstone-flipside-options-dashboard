@@ -16,11 +16,17 @@ import EditPosts from './cardComponents/EditPosts';
 import MissingPage from './MissingPage';
 import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
-import postsApi from './api/posts';
-import usersApi from './api/users';
-import snapShotApi from './api/snapShot'
-
+import EditSnapShot from './cardComponents/snapShotCards/EditSnapShot';
+import { fetchData } from '../utils/loadData';
 import './AnalysisStyles.css';
+
+
+
+import postsApi from './api/posts';
+import snapShotApi from './api/snapShots';
+import usersApi from './api/users';
+
+
 
 
 
@@ -29,6 +35,8 @@ const DataAnalysis = () => {
     const navigate = useNavigate();
     // This path will be updated dynamically for each data type
     const JSON_URL = 'https://jsonplaceholder.typicode.com/';
+    const IMG_URL = 'http://www.fillmurray.com/400/500';
+    const [imgSrc, setImgSrc] = useState("");
 
     const [clock, setClock] = useState('No Time Shown');
     const [lastClockUpdate, setLastClockUpdate] = useState('No Time Shown');
@@ -38,6 +46,8 @@ const DataAnalysis = () => {
     const [reqType, setReqType] = useState('posts');                               // Hardcoded Default <<
     const [search, setSearch] = useState('');
     const [searchResults, setSearchResults] = useState([]);
+    const [searchSnaps, setSearchSnaps] = useState('');
+    const [searchSnapResults, setSearchSnapResults] = useState([]);
     const [isLoading, setIsLoading] = useState([]);
     const [error, setError] = useState('');
 
@@ -129,18 +139,21 @@ const DataAnalysis = () => {
 
     // SNAPSHOT
     const [options, setOptions] = useState([]);
-    const [snapShots, setSnapShots] = useState([]);
+
+
     const [snapShotArray, setSnapShotArray] = useState([]);
-    const [request_id, setRequestId] = useState([]);
+    const [request_id, setRequestId] = useState('d9ff18dac69f55c218f69e4753706acd');
     // non-nested properties
-    const [singleProps, setSingleProps] = useState([]);
     const [breakEvenPrice, setBreakEvenPrice] = useState([]);
     const [impliedVolatility, setimpliedVolatility] = useState([]);
     const [openInterest, setOpenInterest] = useState([]);
+    const [singleProps, setSingleProps] = useState([{
+        break_even_price: breakEvenPrice,
+        implied_volatility: impliedVolatility,
+        open_interest: openInterest
+    }]);
 
     // Day Properties
-    const [dayArray, setDayArray] = useState([]);
-    const [day, setDay] = useState([]);
     const [change, setChange] = useState([]);
     const [changePercent, setChangePercent] = useState([]);
     const [close, setClose] = useState([]);
@@ -151,40 +164,100 @@ const DataAnalysis = () => {
     const [previousClose, setPreviousClose] = useState([]);
     const [volume, setVolume] = useState([]);
     const [vwap, setVwap] = useState([]);
+    const [dayArray, setDayArray] = useState([]);
+    const [day, setDay] = useState([{
+        change: change,
+        change_percent: changePercent,
+        close: close,
+        high: high,
+        last_updated: daylastUpdated,
+        low: low,
+        open: open,
+        previous_close: previousClose,
+        volume: volume,
+        vwap: vwap
+    }]);
     // Details Properties
-    const [detailsArray, setDetailsArray] = useState([]);
-    const [details, setDetails] = useState([]);
     const [contractType, setContractType] = useState([]);
     const [exerciseStyle, setExerciseStyle] = useState([]);
     const [expirationDate, setExpirationDate] = useState([]);
     const [sharesPerContract, setSharesPerContract] = useState([]);
     const [strikePrice, setStrikePrice] = useState([]);
     const [detailsTicker, setDetailsTicker] = useState([]);
+    const [detailsArray, setDetailsArray] = useState([]);
+    const [details, setDetails] = useState([{
+        contract_type: contractType,
+        exercise_style: exerciseStyle,
+        expiration_date: expirationDate,
+        shares_per_contract: sharesPerContract,
+        strike_price: strikePrice,
+        ticker: detailsTicker
+    }]);
     // Greeks
-    const [greeksArray, setGreeksArray] = useState([]);
-    const [greeks, setGreeks] = useState([]);
     const [delta, setDelta] = useState([]);
     const [gamma, setGamma] = useState([]);
     const [theta, setTheta] = useState([]);
     const [vega, setVega] = useState([]);
+    const [greeksArray, setGreeksArray] = useState([]);
+    const [greeks, setGreeks] = useState([{
+        delta: delta,
+        gamma: gamma,
+        theta: theta,
+        vega: vega
+    }]);
     // Last Quote
-    const [lastQuoteArray, setLastQuoteArray] = useState([]);
-    const [lastQuote, setLastQuote] = useState([]);
     const [ask, setAsk] = useState([]);
     const [askSize, setAskSize] = useState([]);
     const [bid, setBid] = useState([]);
-    const [LQlastUpdated, setLQLastUpdated] = useState([]);
     const [bidSize, setBidSize] = useState([]);
+    const [LQlastUpdated, setLQLastUpdated] = useState([]);
     const [midpoint, setMidpoint] = useState([]);
-    const [timeFrame, setTimeFrame] = useState([]);
+    const [LQtimeFrame, setLQTimeFrame] = useState([]);
+    const [lastQuoteArray, setLastQuoteArray] = useState([]);
+    const [lastQuote, setLastQuote] = useState([{
+        ask: ask,
+        ask_size: askSize,
+        bid: bid,
+        bid_size: bidSize,
+        last_updated: LQlastUpdated,
+        midpoint: midpoint,
+        timeFrame: LQtimeFrame
+    }]);
     // Underlying Asset
-    const [underlyingAssetArray, setUnderlyingAssetArray] = useState([]);
-    const [underlyingAsset, setUnderlyingAsset] = useState([]);
     const [changeToBreakEven, setChangeToBreakEven] = useState([]);
     const [ULlastUpdated, setULLastUpdated] = useState([]);
     const [price, setPrice] = useState([]);
     const [ULTicker, setULTicker] = useState([]);
+    const [ULtimeFrame, setULTimeFrame] = useState([]);
+    const [underlyingAssetArray, setUnderlyingAssetArray] = useState([]);
+    const [underlyingAsset, setUnderlyingAsset] = useState([{
+        change_to_break_even: changeToBreakEven,
+        last_updated: ULlastUpdated,
+        price: price,
+        ticker: ULTicker,
+        timeFrame: ULtimeFrame
+    }]);
+
     const [status, setStatus] = useState([]);
+    const [ssLastCreated, setSSlastCreated] = useState([]);
+    const [ssLastEdited, setSSlastEdited] = useState([]);
+
+    const [snapShots, setSnapShots] = useState([{
+        request_id: request_id,
+        results: {
+            break_even_price: breakEvenPrice,
+            day: day,
+            details: details,
+            greeks: greeks,
+            implied_volatility: impliedVolatility,
+            last_quote: lastQuote,
+            open_interest: openInterest,
+            underlying_asset: underlyingAsset
+        },
+        status: status,
+        ssLastCreated: ssLastCreated,
+        ssLastEdited: ssLastEdited
+    }]);
 
     // filters 
     const [userFilters, setUserFilters] = useState([]);
@@ -213,20 +286,22 @@ const DataAnalysis = () => {
     // SnapShot
     const [editRequest_id, setEditRequestId] = useState([]);
     const [editBreakEvenPrice, setEditBreakEvenPrice] = useState([]);
-    const [editImpliedVolatility, setEditimpliedVolatility] = useState([]);
+    const [editImpliedVolatility, setEditImpliedVolatility] = useState([]);
     const [editOpenInterest, setEditOpenInterest] = useState([]);
     const [editStatus, setEditStatus] = useState([]);
+    const [editssLastCreated, setEditSSlastCreated] = useState([]);
+    const [editssLastEdited, setEditSSlastEdited] = useState([]);
 
     // Edit Day Properties
     const [editDay, setEditDay] = useState([]);
     const [editChange, setEditChange] = useState([]);
-    const [editchangePercent, setEditChangePercent] = useState([]);
+    const [editChangePercent, setEditChangePercent] = useState([]);
     const [editClose, setEditClose] = useState([]);
     const [editHigh, setEditHigh] = useState([]);
     const [editDayLastUpdated, setEditDayLastUpdated] = useState([]);
     const [editLow, setEditLow] = useState([]);
     const [editOpen, setEditOpen] = useState([]);
-    const [editPreviousClose, seteditPreviousClose] = useState([]);
+    const [editPreviousClose, setEditPreviousClose] = useState([]);
     const [editVolume, setEditVolume] = useState([]);
     const [editVwap, setEditVwap] = useState([]);
 
@@ -268,35 +343,16 @@ const DataAnalysis = () => {
     useEffect(() => {
 
         // -----  GET calls  ------------
-        const fetchData = async () => {
-            try {
-                // Data is in the response.data
-                const postResponse = await postsApi.get('/posts');
-                if (postResponse && postResponse.data) setPosts(postResponse.data);
-                sessionStorage.setItem("posts", JSON.stringify(postResponse.data));
-                const SnapShotResponse = await snapShotApi.get('/snapShot');
-                if (SnapShotResponse && SnapShotResponse.data) setSnapShots(SnapShotResponse.data);
-                sessionStorage.setItem("snapShots", JSON.stringify(SnapShotResponse.data));
 
-            } catch (err) {
-                if (err.response) {
-                    console.log(err.response.data);
-                    console.log(err.response.status);
-                    console.log(err.response.headers);
-                } else {
-                    console.log(`Error: ${err.message}`);
-                }
-            }
-        }
-        fetchData();
+        fetchData({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset });
 
     }, [])
 
 
-    //-------------  Loading From User Selected Aggregates Link from API  ---------------
+    //-------------  Loading From User Selected buttons Link from API  ---------------
     // Everytime the dependency changes
     useEffect(() => {
-        const fetchDBData = async () => {
+        const fetchTableandListData = async () => {
             try {
                 const fetchResponse = await fetch(`${JSON_URL}${reqType}`);
                 if (!fetchResponse.ok) throw Error('Did not recieve expected data from Fetch')
@@ -312,7 +368,7 @@ const DataAnalysis = () => {
             }
         }
         setTimeout(() => {
-            fetchDBData();
+            fetchTableandListData();
         }, 2000)
 
     }, [reqType])
@@ -328,6 +384,14 @@ const DataAnalysis = () => {
 
         setSearchResults(filteredResults.reverse());
     }, [posts, search])
+
+    // useEffect(() => {
+    //     const filteredResults = snapShots.filter(snapShot =>
+    //         ((snapShot.request_id).toLowerCase()).includes(search.toLowerCase())
+    //         || ((snapShot.results.details.ticker).toLowerCase()).includes(search.toLowerCase()));
+
+    //     setSearchResults(filteredResults.reverse());
+    // }, [snapShots, search, setSearchResults])
     //------------------------------------------------------------------------------------
     // Delete
 
@@ -445,56 +509,80 @@ const DataAnalysis = () => {
         const id = options.length ? options[options.length - 1].id + 1 : 1;
         const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
 
+        const newDayData = {
+            day: {
+                change: change,
+                change_percent: changePercent,
+                close: close,
+                high: high,
+                last_updated: daylastUpdated,
+                low: low,
+                open: open,
+                previous_close: previousClose,
+                volume: volume,
+                vwap: vwap
+            }
+        }
+
+        const newDetailsData = {
+            details: {
+                contract_type: contractType,
+                exercise_style: exerciseStyle,
+                expiration_date: expirationDate,
+                shares_per_contract: sharesPerContract,
+                strike_price: strikePrice,
+                ticker: detailsTicker
+            }
+        }
+
+        const newGreeksData = {
+            greeks: {
+                delta: delta,
+                gamma: gamma,
+                theta: theta,
+                vega: vega
+            }
+        }
+
+        const newLastQuoteData = {
+            last_quote: {
+                ask: ask,
+                askSize: askSize,
+                bid: bid,
+                bidSize: bidSize,
+                last_updated: LQlastUpdated,
+                midpoint: midpoint,
+                timeFrame: LQtimeFrame
+            }
+        }
+
+        const newUnderlyingAssetData = {
+            underlying_asset: {
+                change_to_break_even: changeToBreakEven,
+                last_updated: ULlastUpdated,
+                price: price,
+                ticker: ULTicker,
+                timeFrame: ULtimeFrame
+            }
+        }
+
         const newSnapShot = {
             request_id: request_id,
             results: {
                 break_even_price: breakEvenPrice,
-                day: {
-                    change: change,
-                    change_percent: changePercent,
-                    close: close,
-                    high: high,
-                    last_updated: daylastUpdated,
-                    low: low,
-                    open: open,
-                    previous_close: previousClose,
-                    volume: volume,
-                    vwap: vwap
-                },
-                details: {
-                    contract_type: contractType,
-                    exercise_style: exerciseStyle,
-                    expiration_date: expirationDate,
-                    shares_per_contract: sharesPerContract,
-                    strike_price: strikePrice,
-                    ticker: detailsTicker
-                },
-                greeks: {
-                    delta: delta,
-                    gamma: gamma,
-                    theta: theta,
-                    vega: vega
-                },
+                day: newDayData,
+                details: newDetailsData,
+                greeks: newGreeksData,
                 implied_volatility: impliedVolatility,
-                last_quote: {
-                    ask: ask,
-                    askSize: askSize,
-                    bid: bid,
-                    bidSize: bidSize,
-                    last_updated: LQlastUpdated,
-                    midpoint: midpoint,
-                    timeFrame: timeFrame
-                },
+                last_quote: newLastQuoteData,
                 open_interest: openInterest,
-                underlying_asset: {
-                    change_to_break_even: changeToBreakEven,
-                    last_updated: ULlastUpdated,
-                    price: price,
-                    ticker: ULTicker,
-                    timeFrame: timeFrame
-                }
+                underlying_asset: newUnderlyingAssetData
+
             },
-            status: status
+            status: status,
+            id: id,
+            ssLastCreated: dateTime,
+            ssLastEdited: dateTime
         };
         try {
             // const response = await snapShotapi.post('/snapShot', newSnapShot);
@@ -523,24 +611,29 @@ const DataAnalysis = () => {
             setSharesPerContract('');
             setStrikePrice('');
             setDetailsTicker('');
+            setimpliedVolatility('');
             setGreeks('');
             setDelta('');
             setGamma('');
             setTheta('');
             setVega('');
+            setOpenInterest('');
             setLastQuote('');
             setAsk('');
             setAskSize('');
             setBid('');
             setBidSize('');
-            setEditLQlastUpdated('');
+            setLQLastUpdated('');
             setMidpoint('');
-            setTimeFrame('');
+            setLQTimeFrame('');
             setUnderlyingAsset('');
             setChangeToBreakEven('');
+            setULLastUpdated('');
             setPrice('');
             setULTicker('');
-
+            setSSlastCreated('');
+            setSSlastEdited('');
+            setULTimeFrame('');
             navigate('/');
 
         } catch (err) {
@@ -593,6 +686,10 @@ const DataAnalysis = () => {
             body: editPostBody
         };
         try {
+            const editPostsResponse = await postsApi.put(`/posts/${id}`, updatedPost);
+            setPosts(posts.map(post => post.id === id ? { ...editPostsResponse.data } : post));
+            setEditPostTitle('');
+            setEditPostBody('');
 
         } catch (err) {
             if (err.response) {
@@ -614,7 +711,7 @@ const DataAnalysis = () => {
                 break_even_price: editBreakEvenPrice,
                 day: {
                     change: editChange,
-                    change_percent: editchangePercent,
+                    change_percent: editChangePercent,
                     close: editClose,
                     high: editHigh,
                     last_updated: editDayLastUpdated,
@@ -657,7 +754,9 @@ const DataAnalysis = () => {
                     timeFrame: editULTimeFrame
                 }
             },
-            status: editStatus
+            status: editStatus,
+            ssLastEdited: editssLastEdited
+
         };
         try {
             const editSnapShotResponse = await snapShotApi.put(`/snapShots/${id}`, updatedSnapShot);
@@ -673,7 +772,7 @@ const DataAnalysis = () => {
             setEditDayLastUpdated('');
             setEditLow('');
             setEditOpen('');
-            seteditPreviousClose('');
+            setEditPreviousClose('');
             setEditVolume('');
             setEditVwap('');
             setEditDetails('');
@@ -688,7 +787,7 @@ const DataAnalysis = () => {
             setEditGamma('');
             setEditTheta('');
             setEditVega('');
-            setEditimpliedVolatility('');
+            setEditImpliedVolatility('');
             setEditLastQuote('');
             setEditAsk('');
             setEditAskSize('');
@@ -699,15 +798,19 @@ const DataAnalysis = () => {
             setEditOpenInterest('');
             setEditUnderlyingAsset('');
             setEditChangeToBreakEven('');
+            setEditULlastUpdated('');
             setEditPrice('');
             setEditULTicker('');
             setEditULTimeFrame('');
             setEditStatus('');
+            setEditSSlastEdited('');
             navigate('/');
         } catch (err) {
             console.log(`Error: ${err.message}`);
         }
     }
+
+
 
 
     //-------------------------------------------------------------------------------
@@ -720,7 +823,12 @@ const DataAnalysis = () => {
                     reqType={reqType}
                     setReqType={setReqType}
                 />}>
-                <Route index element={<CardHome posts={searchResults} />} />
+                <Route index element={<CardHome
+                    imgSrc={imgSrc}
+                    setImgSrc={setImgSrc}
+                    posts={searchResults}
+
+                />} />
                 <Route path="post">
                     <Route index element={<NewCard
                         handlePostsSubmit={handlePostsSubmit}
@@ -731,7 +839,7 @@ const DataAnalysis = () => {
                     />} />
                     <Route path="edit/:id" element={<EditPosts
                         posts={posts}
-                        handlePostsEdit={handlePostsSubmit}
+                        handlePostsEdit={handlePostsEdit}
                         editPostTitle={editPostTitle}
                         editPostBody={editPostBody}
                         setEditPostTitle={setEditPostTitle}
@@ -785,6 +893,8 @@ const DataAnalysis = () => {
                     <Route path="snapShot">
                         <Route index element={<NewSnapShotCard
                             handleSnapShotSubmit={handleSnapShotSubmit}
+                            snapShots={snapShots}
+
                             request_id={request_id}
                             day={day}
                             setDay={setDay}
@@ -796,6 +906,87 @@ const DataAnalysis = () => {
                             setLastQuote={setLastQuote}
                             underlying_asset={underlyingAsset}
                             setUnderlyingAsset={setUnderlyingAsset}
+
+                        />} />
+                        <Route path="edit/:request_id" element={<EditSnapShot
+                            snapShots={snapShots}
+                            handleSnapShotEdit={handleSnapShotEdit}
+                            editRequest_id={editRequest_id}
+                            setEditRequestId={setEditRequestId}
+                            editBreakEvenPrice={editBreakEvenPrice}
+                            setEditBreakEvenPrice={setEditBreakEvenPrice}
+                            editImpliedVolatility={editImpliedVolatility}
+                            setEditimpliedVolatility={setEditImpliedVolatility}
+                            editOpenInterest={editOpenInterest}
+                            setEditOpenInterest={setEditOpenInterest}
+                            editChange={editChange}
+                            setEditChange={setEditChange}
+                            editChangePercent={editChangePercent}
+                            setEditChangePercent={setEditChangePercent}
+                            editClose={editClose}
+                            setEditClose={setEditClose}
+                            editHigh={editHigh}
+                            setEditHigh={setEditHigh}
+                            editDayLastUpdated={editDayLastUpdated}
+                            setEditDayLastUpdated={setEditDayLastUpdated}
+                            editLow={editLow}
+                            setEditLow={setEditLow}
+                            editOpen={editOpen}
+                            setEditOpen={setEditOpen}
+                            editPreviousClose={editPreviousClose}
+                            setEditPreviousClose={setEditPreviousClose}
+                            editVolume={editVolume}
+                            setEditVolume={setEditVolume}
+                            editVwap={editVwap}
+                            setEditVwap={setEditVwap}
+                            editContractType={editContractType}
+                            setEditContractType={setEditContractType}
+                            editExerciseStyle={editExerciseStyle}
+                            setEditExerciseStyle={setEditExerciseStyle}
+                            editExpirationDate={editExpirationDate}
+                            setEditExpirationDate={setEditExpirationDate}
+                            editSharesPerContract={editSharesPerContract}
+                            setEditSharesPerContract={setEditSharesPerContract}
+                            editStrikePrice={editStrikePrice}
+                            setEditStrikePrice={setEditStrikePrice}
+                            editDetailsTicker={editDetailsTicker}
+                            setEditDetailsTicker={setEditDetailsTicker}
+                            editDelta={editDelta}
+                            setEditDelta={setEditDelta}
+                            editGamma={editGamma}
+                            setEditGamma={setEditGamma}
+                            editTheta={editTheta}
+                            setEditheta={setEditTheta}
+                            editVega={editVega}
+                            setEditVega={setEditVega}
+                            editAsk={editAsk}
+                            setEditAsk={setEditAsk}
+                            editAskSize={editAskSize}
+                            setEditAskSize={setEditAskSize}
+                            editBid={editBid}
+                            setEditBid={setEditBid}
+                            editBidSize={editBidSize}
+                            setEditBidSize={setEditBidSize}
+                            editLQlastUpdated={editLQlastUpdated}
+                            setEditLQlastUpdated={setEditLQlastUpdated}
+                            editMidpoint={editMidpoint}
+                            setEditMidpoint={setEditMidpoint}
+                            editLQTimeFrame={editLQTimeFrame}
+                            setEditLQTimeFrame={setEditLQTimeFrame}
+                            editChangeToBreakEven={editChangeToBreakEven}
+                            setEditChangeToBreakEven={setEditChangeToBreakEven}
+                            editULlastUpdated={editULlastUpdated}
+                            setEditULlastUpdated={setEditULlastUpdated}
+                            editPrice={editPrice}
+                            setEditPrice={setEditPrice}
+                            editULTicker={editULTicker}
+                            setEditULTicker={setEditULTicker}
+                            editULTimeFrame={editULTimeFrame}
+                            setEditULTimeFrame={setEditULTimeFrame}
+                            editStatus={editStatus}
+                            setEditStatus={setEditStatus}
+                            editssLastEdited={editssLastEdited}
+                            setEditSSlastEdited={setEditSSlastEdited}
 
                         />} />
                         <Route path=":request_id" element={

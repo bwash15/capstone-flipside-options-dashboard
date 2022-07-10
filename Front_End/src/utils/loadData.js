@@ -1,4 +1,4 @@
-import postsApi from '../data_analysis/api/posts';
+import postsApi from '../api/posts';
 import snapShotApi from '../data_analysis/api/snapShots';
 import usersApi from '../data_analysis/api/users';
 import dayAxios from '../data_analysis/api/day';
@@ -59,7 +59,6 @@ const pullSetGreeks = async ({ setGreeks }) => {
 }
 
 const pullSetLastQuotes = async ({ setLastQuote }) => {
-
     const LastQuoteResponse = await lastQuoteApi.get('/last_quote');
     if (LastQuoteResponse && LastQuoteResponse.data) setLastQuote(LastQuoteResponse.data);
     sessionStorage.setItem("last_quote", JSON.stringify(LastQuoteResponse.data));
