@@ -28,8 +28,8 @@ const NavBar = () => {
                     <NavLink to='/tiles' activestyle="true">
                         Tiles
                     </NavLink>
-                    <NavLink to='/trading' activestyle="true">
-                        Trading
+                    <NavLink to='/analytics' activestyle="true">
+                        Analytics
                     </NavLink>
                     <NavLink to='/profilePage' activestyle="true">
                         Profile
