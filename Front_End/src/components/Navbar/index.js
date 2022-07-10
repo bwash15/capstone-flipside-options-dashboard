@@ -34,8 +34,8 @@ const NavBar = () => {
                     <NavLink to='/profilePage' activestyle="true">
                         Profile
                     </NavLink>
-                    <NavLink to='/analyze_data' activestyle="true">
-                        Analyze Data
+                    <NavLink to='/analytics' activestyle="true">
+                        Analytics
                     </NavLink>
                 </NavMenu>
                 <NavButton onClick={logout} style={{ cursor: "pointer" }}>
