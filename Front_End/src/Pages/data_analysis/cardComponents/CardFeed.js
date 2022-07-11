@@ -3,8 +3,8 @@ import Card from "./Card";
 const CardFeed = ({ posts }) => {
     return (
         <>
-            {posts.map(item => (
-                <Card key={item.id} item={item} />
+            {posts.map(post => (
+                <Card key={post.id} post={post} />
             ))}
         </>
     )
