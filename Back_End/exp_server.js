@@ -52,6 +52,12 @@ nodeCron.schedule("00 * * * *", function () {
     maintenance.findOldPwd();
 });
 
+nodeCron.schedule("* * * * *", function () {
+    // Do whatever you want in here. Send email, Make  database backup or download data.
+    console.log("=====Update Top Ten=====");
+    //maintenance.GetOptions();
+});
+
 
 myEmitter.on('serverError', (msg, path, filename) => logServerEvents(msg, path, filename));
 myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));

@@ -4,6 +4,9 @@ const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 const pwdHist = require('../_model/passwordHistory');
+const fetchOption = require("isomorphic-fetch");
+const TopTenSchema = require('../_model/topTenSchema');
+const { array } = require('joi');
 myEmitter.on('userRegistration', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const deleteOldPwd = async (data) => {
@@ -60,4 +63,92 @@ const findOldPwd = async () => {
     
 }
 
-module.exports = {findOldPwd, deleteOldPwd};
+const GetTopTen = async () => {
+
+}
+
+const GetOptions = async (req, res) => {
+              
+    const snapshot_link = `https://api.polygon.io/v3/reference/options/contracts?expired=false&limit=100&sort=underlying_ticker&apiKey=${process.env.API_KEY}`;
+    console.log(snapshot_link);
+    const response = await fetchOption(snapshot_link);
+    const data = await response.json();
+    var optionsList = data.results;
+    console.log('=====Options=====');
+    console.log(optionsList.length);
+    
+
+
+
+    const addOption = async (option)=>{
+
+
+        const exists = await TopTenSchema.findOne({option});
+        if(!exists){
+            const result = await TopTenSchema.create({
+                "underlying_ticker": option.underlying_ticker,
+                "cfi": option.cfi,
+                "contract_type": option.contract_type,
+                "exercise_style": option.exercise_style,
+                "expiration_date": option.expiration_date,
+                "primary_exchange": option.primary_exchange,
+                "shares_per_contract": option.shares_per_contract,
+                "strike_price": option.strike_price,
+                "ticker": option.ticker,
+            });
+            console.log(result);
+        }
+    }
+    optionsList.forEach(option => addOption(option));
+    if(data.next_url)
+    {
+        console.log('====NEXT PAGE====')
+        // Uncomment line below to pull all api 
+        //GetNextOptions(data.next_url)
+    }
+
+}
+
+const GetNextOptions = async (url) => {
+    const key = `&apiKey=${process.env.API_KEY}`;          
+    const snapshot_link = url+key;
+    console.log(snapshot_link);
+    const response = await fetchOption(snapshot_link);
+    const data = await response.json();
+    console.log(data);
+    var optionsList = data.results;
+    console.log('=====Options=====');
+    console.log(optionsList.length);
+    
+
+
+
+    const addOption = async (option)=>{
+
+
+        const exists = await TopTenSchema.findOne({option});
+        if(!exists){
+            const result = await TopTenSchema.create({
+                "underlying_ticker": option.underlying_ticker,
+                "cfi": option.cfi,
+                "contract_type": option.contract_type,
+                "exercise_style": option.exercise_style,
+                "expiration_date": option.expiration_date,
+                "primary_exchange": option.primary_exchange,
+                "shares_per_contract": option.shares_per_contract,
+                "strike_price": option.strike_price,
+                "ticker": option.ticker,
+            });
+            console.log(result);
+        }
+    }
+    optionsList.forEach(option => addOption(option));
+    if(data.next_url)
+    {
+        console.log('====NEXT PAGE====')
+        GetNextOptions(data.next_url)
+    }
+
+}
+
+module.exports = {findOldPwd, deleteOldPwd, GetOptions};
