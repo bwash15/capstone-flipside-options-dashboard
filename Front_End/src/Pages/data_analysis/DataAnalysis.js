@@ -344,7 +344,7 @@ const DataAnalysis = () => {
 
         // -----  GET calls  ------------
 
-        FetchData({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setSnapShotArray, setOptions });
+        FetchData({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setSnapShotArray, setOptions, options });
 
     }, [])
 
