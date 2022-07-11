@@ -17,7 +17,7 @@ import MissingPage from './MissingPage';
 import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
 import EditSnapShot from './cardComponents/snapShotCards/EditSnapShot';
-import { fetchData } from '../utils/loadData';
+import { FetchData } from '../utils/loadData';
 import './AnalysisStyles.css';
 
 
@@ -344,7 +344,7 @@ const DataAnalysis = () => {
 
         // -----  GET calls  ------------
 
-        fetchData({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset });
+        FetchData({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setSnapShotArray, setOptions });
 
     }, [])
 

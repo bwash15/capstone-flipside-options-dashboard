@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import postsApi from '../api/posts';
 import snapShotApi from '../data_analysis/api/snapShots';
 import usersApi from '../data_analysis/api/users';
@@ -9,7 +10,11 @@ import underlyingAssetApi from '../data_analysis/api/underlying_asset';
 
 
 
-const fetchData = async ({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset }) => {
+const FetchData = async ({ setOptions, setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setSnapShotArray }) => {
+
+    const optionsAPI = 'https://api.polygon.io/v3/snapshot/options/AAPL/O:AAPL230616C00150000?apiKey=MNExhabeDDgHYLqKlxDoT79JUdvT_OaI'
+    const [optArray, setOptionsArray] = useState([]);
+
     try {
         // Data is in the response.data
         pullSetPosts({ setPosts });
@@ -18,6 +23,7 @@ const fetchData = async ({ setPosts, setSnapShots, setDay, setDetails, setGreeks
         pullSetGreeks({ setGreeks });
         pullSetLastQuotes({ setLastQuote });
         pullSetUnderlyingAssets({ setUnderlyingAsset });
+        handleAPIpull({ optionsAPI, optArray, setSnapShotArray, setOptions })
 
         const SnapShotResponse = await snapShotApi.get('/snapShots');
         if (SnapShotResponse && SnapShotResponse.data) setSnapShots(SnapShotResponse.data);
@@ -33,6 +39,34 @@ const fetchData = async ({ setPosts, setSnapShots, setDay, setDetails, setGreeks
         }
     }
 }
+
+const handleAPIpull = async ({ optionsAPI, optArray, setSnapShotArray, setOptions
+}) => {
+    let newOptionsArray = []
+
+    const response = await fetch(optionsAPI);
+    const JsonOptionsData = await response.json();
+    let optionKeys = Object.keys(JsonOptionsData.results);
+    // setOptionsArray([...optArray, JsonOptionsData])
+
+    optArray[0] = JsonOptionsData.request_id;
+    optArray[1] = JsonOptionsData.results.break_even_price;
+    optArray[2] = JsonOptionsData.results.day;
+    optArray[3] = JsonOptionsData.results.details;
+    optArray[4] = JsonOptionsData.results.greeks;
+    optArray[5] = JsonOptionsData.results.implied_volatility;
+    optArray[6] = JsonOptionsData.results.last_quote;
+    optArray[7] = JsonOptionsData.results.open_interest;
+    optArray[8] = JsonOptionsData.results.underlying_asset;
+    newOptionsArray = [...optArray, JsonOptionsData];
+    sessionStorage.setItem("newOptionsArray", JSON.stringify(newOptionsArray));
+    sessionStorage.setItem("snapShotAPIpull", JSON.stringify(JsonOptionsData));
+    sessionStorage.setItem("option_keys", JSON.stringify(optionKeys));
+    sessionStorage.setItem("option_data", JSON.stringify(JsonOptionsData.data));
+    setOptions(newOptionsArray);
+    setSnapShotArray(optArray);
+}
+
 
 const pullSetPosts = async ({ setPosts }) => {
     const postResponse = await postsApi.get('/posts');
@@ -69,4 +103,4 @@ const pullSetUnderlyingAssets = async ({ setUnderlyingAsset }) => {
     sessionStorage.setItem("underlying_asset", JSON.stringify(UnderlyingAssetResponse.data));
 }
 
-export { fetchData };
+export { FetchData };
