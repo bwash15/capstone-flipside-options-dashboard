@@ -1,7 +1,7 @@
 import fetch from "isomorphic-unfetch";
-import postsApi from '../data_analysis/api/posts';
-import snapShotApi from '../data_analysis/api/snapShots';
-import usersApi from '../data_analysis/api/users';
+import postsApi from '../Pages/data_analysis/api/posts';
+import snapShotApi from '../Pages/data_analysis/api/snapShots';
+import usersApi from '../Pages/data_analysis/api/users';
 
 function client(endpoint, { body, ...customConfig } = {}) {
     const headers = { "content-type": "application/json" };

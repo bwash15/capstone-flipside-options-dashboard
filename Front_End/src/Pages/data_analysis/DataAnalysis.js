@@ -17,7 +17,7 @@ import MissingPage from './MissingPage';
 import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
 import EditSnapShot from './cardComponents/snapShotCards/EditSnapShot';
-import { FetchData } from '../utils/loadData';
+import {FetchData} from '../../utils/loadData'
 import './AnalysisStyles.css';
 
 

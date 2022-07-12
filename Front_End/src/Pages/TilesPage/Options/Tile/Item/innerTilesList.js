@@ -58,7 +58,6 @@ export const InnerTileList = () => {
           <strong>-</strong>
           <strong>{tile.expDate}</strong>
           <div className='ms-auto'>
-            <Link className="btn btn-warning mr-1" to={`/editTile/${tile.uuid}`}>Edit</Link>
             <Button color="danger" onClick={() => deleteTile(tile.uuid)}>Delete</Button>
           </div>
         </ListGroupItem> 

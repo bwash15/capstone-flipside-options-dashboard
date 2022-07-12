@@ -52,7 +52,7 @@ color: #fff;
 export const NavMenu = styled.div`
     display: flex; 
     align: center;
-    margin-right: -24px;
+    margin-right: 50px;
 
     @media screen and (max-width: 768px){
         display: none;

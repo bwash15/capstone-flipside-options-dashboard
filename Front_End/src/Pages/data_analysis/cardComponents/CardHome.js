@@ -1,5 +1,5 @@
 import CardFeed from "./CardFeed";
-import { client } from '../../utils/clients';
+import { client } from '../../../utils/clients';
 
 const CardHome = ({ posts, imgSrc, setImgSrc }) => {
     const fetchNewImage = async () => {

@@ -1,11 +1,11 @@
-import postsApi from '../data_analysis/api/posts';
-import snapShotApi from '../data_analysis/api/snapShots';
-import usersApi from '../data_analysis/api/users';
-import dayAxios from '../data_analysis/api/day';
-import detailsApi from '../data_analysis/api/details';
-import greeksApi from '../data_analysis/api/greeks';
-import lastQuoteApi from '../data_analysis/api/last_quote';
-import underlyingAssetApi from '../data_analysis/api/underlying_asset';
+import postsApi from '../Pages/data_analysis/api/posts';
+import snapShotApi from '../Pages/data_analysis/api/snapShots';
+import usersApi from '../Pages/data_analysis/api/users';
+import dayAxios from '../Pages/data_analysis/api/day';
+import detailsApi from '../Pages/data_analysis/api/details';
+import greeksApi from '../Pages/data_analysis/api/greeks';
+import lastQuoteApi from '../Pages/data_analysis/api/last_quote';
+import underlyingAssetApi from '../Pages/data_analysis/api/underlying_asset';
 
 
 

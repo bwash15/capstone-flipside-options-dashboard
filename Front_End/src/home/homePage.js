@@ -34,6 +34,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAngleLeft} from '@fortawesome/free-solid-svg-icons'
 import {faAngleRight} from '@fortawesome/free-solid-svg-icons'
 
+import { NewsPopUp } from "../components/PopUp/newsPopUp"
 
 export const HomePage = () => {
   
@@ -41,7 +42,9 @@ export const HomePage = () => {
     const {user} = useUser();
     const [optionTiles, setOptionTiles] = useState([]);
     const [newsTiles, setNewsTiles] = useState([]);
+    const [newsObject, setNewsObject] = useState({});
 
+    const [buttonPopUp, setButtonPopup] = useState(false);
     const [dense, setDense] = React.useState(false);
     const [secondary, setSecondary] = React.useState(false);
 
@@ -80,6 +83,13 @@ export const HomePage = () => {
     slider.scrollLeft = slider.scrollLeft + 500;
   }
 
+  const NewsOverlay = () => {
+
+  }
+  const handlePopUp = () =>{
+    setButtonPopup(!buttonPopUp);
+  }
+
   useEffect(() => {
     getOptionTiles();
     getNewsTiles();
@@ -88,6 +98,18 @@ export const HomePage = () => {
     return (
     <div>
         <div className='home'>
+        <NewsPopUp trigger={buttonPopUp} setTrigger = {setButtonPopup}>
+          <h>{newsObject.stockName}</h>
+          <br></br>
+          <br></br>
+          <br></br>
+          <p>{newsObject.description}</p>
+          <img src={newsObject.image_url}></img>
+          <br />
+          <br />
+          <a href = {newsObject.news_link}>To Article</a>
+        </NewsPopUp>
+
         <Box sx={{ flexGrow: 1, maxWidth: 752 }}>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
@@ -102,7 +124,7 @@ export const HomePage = () => {
                     <br></br>
                     <h2>{tile.tileName}</h2>
                     <TableContainer component={Paper}>
-                        <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+                        <Table sx={{ minWidth: 200 }} size="small" aria-label="a dense table">
                             <TableHead>
                             <TableRow>
                                 <TableCell>Stock</TableCell>
@@ -144,11 +166,11 @@ export const HomePage = () => {
         <div key={index}>
             <h2>{element.tileName}</h2>
             <div className='relative flex items-center'>
-            <FontAwesomeIcon size='2x' className='opacity-50 cursor-pointer hover:opacity-100' icon={faAngleLeft} onClick={slideLeft}/>
+            <FontAwesomeIcon  size='2x' className='opacity-50 cursor-pointer hover:opacity-100' icon={faAngleLeft} onClick={slideLeft}/>
                 <div id='slider' class='w-fit h-full overflow-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide flex flex-row' >
                     {element.tiles.map((item) => (
                         <div>
-                            <img className='h-[120px] w-[220px] inline-block p-1 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.image_url} alt={item.stockName}/>
+                            <img onClick={() => {handlePopUp(); setNewsObject(item)}} className='h-[120px] w-[220px] inline-block p-1 cursor-pointer hover:scale-105 ease-in-out duration-300' src={item.image_url} alt={item.stockName}/>
                         </div>
                     ))}
                 </div>

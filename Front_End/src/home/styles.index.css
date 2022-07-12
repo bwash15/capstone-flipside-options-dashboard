@@ -1,11 +1,21 @@
+.Content{
+    /* background-color: red; */
+    
+}
 .home{
     display: flex;
     justify-content: center;
 }
 .sideBar{
+    position: fixed;
+    right: 100px;
     width: auto;   
 }
-
+.dailyMoversText{
+    margin: auto;
+    width: 45%;
+    padding: 10px;
+}
 .container{
     display:flex;
     justify-content: center;
@@ -21,7 +31,7 @@
     justify-items: start;
     height: 80px;
     border-bottom: 1px solid #d7d7d7;
-    width: 900px;
+    width: 1000px;
 }
 
 .tile{
