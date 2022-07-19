@@ -10,7 +10,7 @@ const AnalysisLayout = ({ search, setSearch, reqType, setReqType }) => {
 
 
     return (
-        <div className='App'>
+        <div className='AdApp'>
             <AnalysisHeader
                 title={title}
                 search={search}
