@@ -28,6 +28,8 @@ const myEmitter = new Emitter();
 const PORT = process.env.PORT || 3600;
 //*********************************************** */
 //     CONNECT TO MONGO_DB
+//     FORMAT FOR URI TO MONGODB:
+// mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
 connectDB();
 //*********************************************** */
 //     Logging Middleware
