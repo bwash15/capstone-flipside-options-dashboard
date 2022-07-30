@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const OptionsAPIpull = require('../_model/OptionsAPIpull');
+const SnapShotAPIpull = require('../_model/SnapShotAPIpull');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
@@ -16,9 +16,170 @@ const getAllOptionAPIpulls = (req, res) => {
 }
 
 const createNewOptionAPIpull = (req, res) => {
-  const newOptionAPIpull = {
+
+  if (!req?.body?.request_id) {
+    myEmitter.emit(`apiActivity`, ` Request ID not found: ${req.body.request_id} `, 'serverAPILogs', 'APIpulldata.txt');
+  }
+  //------------------------------------------------------------------
+  if (!req?.body?.results.break_even_price) {
+    myEmitter.emit(`apiActivity`, ` break_even_price not found: [${req.body.results.break_even_price}] `, 'serverAPILogs', 'APIpulldata.txt');
+  };
+  //------------------------------------------------------------------
+  //                                                             DAY
+  if (!req?.body?.results.day.change) {
+    myEmitter.emit(`apiActivity`, ` Day change not found: [${req.body.results.day.change}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //-----------------------------------------------------------------
+  if (!req?.body?.results.day.change_percent) {
+    myEmitter.emit(`apiActivity`, ` Day Change Percent not found: [${req.body.results.day.change_percent}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.close) {
+    myEmitter.emit(`apiActivity`, ` Day close not found: [${req.body.results.day.close}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.high) {
+    myEmitter.emit(`apiActivity`, ` Day high not found: [${req.body.results.day.high}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.last_Updated) {
+    myEmitter.emit(`apiActivity`, ` last_Updated not found: [${req.body.results.day.last_Updated}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.low) {
+    myEmitter.emit(`apiActivity`, ` Day low not found: [${req.body.results.day.low}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.open) {
+    myEmitter.emit(`apiActivity`, ` Day open not found: [${req.body.results.day.open}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.previous_close) {
+    myEmitter.emit(`apiActivity`, ` Day previous close not found: [${req.body.results.day.previous_close}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.volume) {
+    myEmitter.emit(`apiActivity`, ` Day volume not found: [${req.body.results.day.volume}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.day.vwap) {
+    myEmitter.emit(`apiActivity`, ` Day vwap not found: [${req.body.results.day.vwap}] `, 'serverAPILogs', 'APIpullDayData.txt');
+  };
+  //------------------------------------------------------------------
+  //                                                          DETAILS
+  if (!req?.body?.results.details.contract_type) {
+    myEmitter.emit(`apiActivity`, ` Contract type not found: [${req.body.results.details.contract_type}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
+  };
+  //------------------------------------------------------------------
+  //                                                         
+  if (!req?.body?.results.details.exercise_style) {
+    myEmitter.emit(`apiActivity`, ` Exercise style not found: [${req.body.results.details.exercise_style}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.details.expiration_date) {
+    myEmitter.emit(`apiActivity`, ` Expiration Date not found: [${req.body.results.details.expiration_date}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.details.shares_per_contract) {
+    myEmitter.emit(`apiActivity`, ` Shares_per_contract not found: [${req.body.results.details.shares_per_contract}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.details.strike_price) {
+    myEmitter.emit(`apiActivity`, ` Strike Price not found: [${req.body.results.details.strike_price}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.details.ticker) {
+    myEmitter.emit(`apiActivity`, ` Ticker not found: [${req.body.results.details.ticker}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
+  };
+  //------------------------------------------------------------------
+  //                                                            Greeks
+  if (!req?.body?.results.greeks.delta) {
+    myEmitter.emit(`apiActivity`, ` Greeks - Delta not found: [${req.body.results.greeks.delta}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.greeks.gamma) {
+    myEmitter.emit(`apiActivity`, ` Greeks - Gamma not found: [${req.body.results.greeks.gamma}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.greeks.theta) {
+    myEmitter.emit(`apiActivity`, ` Greeks - Theta not found: [${req.body.results.greeks.theta}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.greeks.vega) {
+    myEmitter.emit(`apiActivity`, ` Greeks - Vega not found: [${req.body.results.greeks.vega}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
+  };
+  //                                                mal014Implied Volatility
+  //------------------------------------------------------------------
+  if (!req?.body?.results.implied_volatility) {
+    myEmitter.emit(`apiActivity`, ` Implied_volatility not found: [${req.body.results.implied_volatility}] `, 'serverAPILogs', 'APIpullimpliedvolatilityData.txt');
+  };
+  //------------------------------------------------------------------
+  //                                                        Last_Quote
+  if (!req?.body?.results.last_quote.ask) {
+    myEmitter.emit(`apiActivity`, ` Last quote - Ask not found: [${req.body.results.last_quote.ask}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.last_quote.ask_size) {
+    myEmitter.emit(`apiActivity`, ` Last quote - Ask_size not found: [${req.body.results.last_quote.ask_size}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.last_quote.bid) {
+    myEmitter.emit(`apiActivity`, ` Last quote - Bid not found: [${req.body.results.last_quote.bid}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.last_quote.bid_size) {
+    myEmitter.emit(`apiActivity`, ` Last quote - Bid_size not found: [${req.body.results.last_quote.bid_size}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.last_quote.last_updated) {
+    myEmitter.emit(`apiActivity`, ` Last quote - Last_updated not found: [${req.body.results.last_quote.last_updated}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.last_quote.midPoint) {
+    myEmitter.emit(`apiActivity`, ` Last quote - MidPoint not found: [${req.body.results.last_quote.midPoint}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.last_quote.timeframe) {
+    myEmitter.emit(`apiActivity`, ` Last quote - Time Frame not found: [${req.body.results.last_quote.timeframe}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
+  };
+  //                                                    Open Interest
+  //------------------------------------------------------------------
+  if (!req?.body?.results.open_interest) {
+    myEmitter.emit(`apiActivity`, ` Open Interest not found: [${req.body.results.open_interest}] `, 'serverAPILogs', 'APIpullOpenInterestData.txt');
+  };
+  //------------------------------------------------------------------
+  //                                                  Underlying Asset
+  if (!req?.body?.results.underlying_assetschema.change_to_break_even) {
+    myEmitter.emit(`apiActivity`, ` Underlying Asset - Change_to_break_even not found: [${req.body.results.underlying_assetschema.change_to_break_even}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.underlying_assetschema.last_updated) {
+    myEmitter.emit(`apiActivity`, ` Underlying Asset - Last_updated not found: [${req.body.results.underlying_assetschema.last_updated}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.underlying_assetschema.price) {
+    myEmitter.emit(`apiActivity`, ` Underlying Asset - Price not found: [${req.body.results.underlying_assetschema.price}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.underlying_assetschema.ticker) {
+    myEmitter.emit(`apiActivity`, ` Underlying Asset - Ticker not found: [${req.body.results.underlying_assetschema.ticker}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.results.underlying_assetschema.timeframe) {
+    myEmitter.emit(`apiActivity`, ` Underlying Asset - Time Frame not found: [${req.body.results.underlying_assetschema.timeframe}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
+  };
+  //------------------------------------------------------------------
+  if (!req?.body?.status) {
+    myEmitter.emit(`apiActivity`, ` Status not found: [${req.body.status}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
+  }
+  //------------------------------------------------------------------
+  if (!req?.body?.status) {
+    return res.status(400).json({ 'message': ' Did not pull in all API Option Pull fields' });
+  }
+
+  const newOptionAPIpull = await SnapShotAPIpull.create({
     request_id: req.body.request_id,
-    results: [{
+    results: {
       break_even_price: req.body.results.break_even_price,
       day: {
         change: req.body.results.day.change,
@@ -64,244 +225,9 @@ const createNewOptionAPIpull = (req, res) => {
         ticker: req.body.results.underlying_assetschema.ticker,
         timeframe: req.body.results.underlying_assetschema.timeframe
       }
-    }],
+    },
     status: req.body.status
-  }
-
-  if (!newOptionAPIpull.request_id) {
-    myEmitter.emit(`apiActivity`, ` Request ID not found: ${req.body.request_id} `, 'serverAPILogs', 'APIpulldata.txt');
-  }
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.break_even_price) {
-    myEmitter.emit(`apiActivity`, ` break_even_price : [${newOptionAPIpull.results.break_even_price}]  `, 'serverAPILogs', 'APIpulldata.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` break_even_price not found: [${req.body.results.break_even_price}] `, 'serverAPILogs', 'APIpulldata.txt');
-  };
-  //------------------------------------------------------------------
-  //                                                             DAY
-  if (newOptionAPIpull.results.day.change) {
-    myEmitter.emit(`apiActivity`, ` Day change : [${newOptionAPIpull.results.day.change}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day change not found: [${req.body.results.day.change}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.change_percent) {
-    myEmitter.emit(`apiActivity`, ` Day Change Percent : [${newOptionAPIpull.results.day.change_percent}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day Change Percent not found: [${req.body.results.day.change_percent}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.close) {
-    myEmitter.emit(`apiActivity`, ` Day close : [${newOptionAPIpull.results.day.close}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day close not found: [${req.body.results.day.close}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.high) {
-    myEmitter.emit(`apiActivity`, ` Day high : [${newOptionAPIpull.results.day.high}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day high not found: [${req.body.results.day.high}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.last_Updated) {
-    myEmitter.emit(`apiActivity`, ` last_Updated : [${newOptionAPIpull.results.day.last_Updated}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` last_Updated not found: [${req.body.results.day.last_Updated}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.low) {
-    myEmitter.emit(`apiActivity`, ` Day low : [${newOptionAPIpull.results.day.low}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day low not found: [${req.body.results.day.low}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.open) {
-    myEmitter.emit(`apiActivity`, ` Day open : [${newOptionAPIpull.results.day.open}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day open not found: [${req.body.results.day.open}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.previous_close) {
-    myEmitter.emit(`apiActivity`, ` Previous Close : [${newOptionAPIpull.results.day.previous_close}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day previous close not found: [${req.body.results.day.previous_close}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.volume) {
-    myEmitter.emit(`apiActivity`, ` Day volume : [${newOptionAPIpull.results.day.volume}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day volume not found: [${req.body.results.day.volume}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.day.vwap) {
-    myEmitter.emit(`apiActivity`, ` Day vwap : [${newOptionAPIpull.results.day.vwap}]  `, 'serverAPILogs', 'APIpullDayData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Day vwap not found: [${req.body.results.day.vwap}] `, 'serverAPILogs', 'APIpullDayData.txt');
-  };
-  //------------------------------------------------------------------
-  //                                                          DETAILS
-  if (newOptionAPIpull.results.details.contract_type) {
-    myEmitter.emit(`apiActivity`, ` Contract type : [${newOptionAPIpull.results.details.contract_type}]  `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Contract type not found: [${req.body.results.details.contract_type}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  };
-  //------------------------------------------------------------------
-  //                                                         
-  if (newOptionAPIpull.results.details.exercise_style) {
-    myEmitter.emit(`apiActivity`, ` Exercise style : [${newOptionAPIpull.results.details.exercise_style}]  `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Exercise style not found: [${req.body.results.details.exercise_style}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.details.expiration_date) {
-    myEmitter.emit(`apiActivity`, ` Expiration Date : [${newOptionAPIpull.results.details.expiration_date}]  `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Expiration Date not found: [${req.body.results.details.expiration_date}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.details.shares_per_contract) {
-    myEmitter.emit(`apiActivity`, ` Shares_per_contract : [${newOptionAPIpull.results.details.shares_per_contract}]  `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Shares_per_contract not found: [${req.body.results.details.shares_per_contract}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.details.strike_price) {
-    myEmitter.emit(`apiActivity`, ` Strike Price : [${newOptionAPIpull.results.details.strike_price}]  `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Strike Price not found: [${req.body.results.details.strike_price}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.details.ticker) {
-    myEmitter.emit(`apiActivity`, ` Ticker : [${newOptionAPIpull.results.details.ticker}]  `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Ticker not found: [${req.body.results.details.ticker}] `, 'serverAPILogs', 'APIpullDetailsData.txt');
-  };
-  //------------------------------------------------------------------
-  //                                                            Greeks
-  if (newOptionAPIpull.results.greeks.delta) {
-    myEmitter.emit(`apiActivity`, ` Greeks - Delta : [${newOptionAPIpull.results.greeks.delta}]  `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Greeks - Delta not found: [${req.body.results.greeks.delta}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.greeks.gamma) {
-    myEmitter.emit(`apiActivity`, ` Greeks - Gamma : [${newOptionAPIpull.results.greeks.gamma}]  `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Greeks - Gamma not found: [${req.body.results.greeks.gamma}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.greeks.theta) {
-    myEmitter.emit(`apiActivity`, ` Greeks - Theta : [${newOptionAPIpull.results.greeks.theta}]  `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Greeks - Theta not found: [${req.body.results.greeks.theta}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.greeks.vega) {
-    myEmitter.emit(`apiActivity`, ` Greeks - Vega : [${newOptionAPIpull.greeks.vega}]  `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Greeks - Vega not found: [${req.body.results.greeks.vega}] `, 'serverAPILogs', 'APIpullGreeksData.txt');
-  };
-  //                                                mal014Implied Volatility
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.implied_volatility) {
-    myEmitter.emit(`apiActivity`, ` Implied_volatility : [${newOptionAPIpull.implied_volatility}]  `, 'serverAPILogs', 'APIpullimpliedvolatilityData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Implied_volatility not found: [${req.body.results.implied_volatility}] `, 'serverAPILogs', 'APIpullimpliedvolatilityData.txt');
-  };
-  //------------------------------------------------------------------
-  //                                                        Last_Quote
-  if (newOptionAPIpull.results.last_quote.ask) {
-    myEmitter.emit(`apiActivity`, ` Last quote - Ask : [${newOptionAPIpull.results.last_quote.ask}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - Ask not found: [${req.body.results.last_quote.ask}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.last_quote.ask_size) {
-    myEmitter.emit(`apiActivity`, ` Last quote - Ask_size : [${newOptionAPIpull.results.last_quote.ask_size}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - Ask_size not found: [${req.body.results.last_quote.ask_size}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.last_quote.bid) {
-    myEmitter.emit(`apiActivity`, ` Last quote - Bid : [${newOptionAPIpull.results.last_quote.bid}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - Bid not found: [${req.body.results.last_quote.bid}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.last_quote.bid_size) {
-    myEmitter.emit(`apiActivity`, ` Last quote - Bid_size : [${newOptionAPIpull.results.last_quote.bid_size}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - Bid_size not found: [${req.body.results.last_quote.bid_size}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.last_quote.last_updated) {
-    myEmitter.emit(`apiActivity`, ` Last quote - Last_updated : [${newOptionAPIpull.results.last_quote.last_updated}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - Last_updated not found: [${req.body.results.last_quote.last_updated}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.last_quote.midPoint) {
-    myEmitter.emit(`apiActivity`, ` Last quote - MidPoint : [${newOptionAPIpull.results.last_quote.midPoint}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - MidPoint not found: [${req.body.results.last_quote.midPoint}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.last_quote.timeframe) {
-    myEmitter.emit(`apiActivity`, ` Last quote - Time Frame : [${newOptionAPIpull.results.last_quote.timeframe}]  `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Last quote - Time Frame not found: [${req.body.results.last_quote.timeframe}] `, 'serverAPILogs', 'APIpullLastQuoteData.txt');
-  };
-  //                                                    Open Interest
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.open_interest) {
-    myEmitter.emit(`apiActivity`, ` Open Interest : [${newOptionAPIpull.results.open_interest}]  `, 'serverAPILogs', 'APIpullOpenInterestData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Open Interest not found: [${req.body.results.open_interest}] `, 'serverAPILogs', 'APIpullOpenInterestData.txt');
-  };
-  //------------------------------------------------------------------
-  //                                                  Underlying Asset
-  if (newOptionAPIpull.results.underlying_assetschema.change_to_break_even) {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Change_to_break_even : [${newOptionAPIpull.results.underlying_assetschema.change_to_break_even}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Change_to_break_even not found: [${req.body.results.underlying_assetschema.change_to_break_even}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.underlying_assetschema.last_updated) {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Last_updated : [${newOptionAPIpull.results.underlying_assetschema.last_updated}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Last_updated not found: [${req.body.results.underlying_assetschema.last_updated}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.underlying_assetschema.price) {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Price : [${newOptionAPIpull.results.underlying_assetschema.price}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Price not found: [${req.body.results.underlying_assetschema.price}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.underlying_assetschema.ticker) {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Ticker : [${newOptionAPIpull.results.underlying_assetschema.ticker}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Ticker not found: [${req.body.results.underlying_assetschema.ticker}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.results.underlying_assetschema.timeframe) {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Time Frame : [${newOptionAPIpull.results.underlying_assetschema.timeframe}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Underlying Asset - Time Frame not found: [${req.body.results.underlying_assetschema.timeframe}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  };
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.status) {
-    myEmitter.emit(`apiActivity`, ` Status : [${newOptionAPIpull.status}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  } else {
-    myEmitter.emit(`apiActivity`, ` Status not found: [${req.body.status}] `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-  }
-  //------------------------------------------------------------------
-  if (newOptionAPIpull.status) {
-    return res.status(400).json({ 'message': ' Did not pull in all API Option Pull fields' });
-  }
-  myEmitter.emit(`apiActivity`, ` API_Pull : [${newOptionAPIpull}]  `, 'serverAPILogs', 'APIpullUnderlyingAssetData.txt');
-
-  data.setOptionAPIpull([...data.optionAPIpull, newOptionAPIpull]);
+  });
   res.status(201).json(data.optionAPIpull);
 
 }
