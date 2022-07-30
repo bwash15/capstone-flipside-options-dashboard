@@ -153,6 +153,15 @@ const SetSnapShotLink = ({ req, res, snapshot_baseUrl, snapshot_link }) => {
 
   res.status(201).json.stringify(snapshot_link)
 }
+const SetAggregateLink = ({ req, res, aggregate_baseUrl, aggregate_link }) => {
+  if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link || !req?.body?.multiplier || !req?.body?.timespan || !req?.body?.option_from || !req?.body?.option_to) {
+    return res.status(400).json({ 'Message': ' Not all Aggregate filters are filled in' });
+  }
+
+  aggregate_link = aggregate_baseUrl + `${res.body.option_ticker}/O:${res.body.option_ticker}${res.body.option_expire_date}${res.body.option_type}${res.body.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
+
+  res.status(201).json.stringify(snapshot_link)
+}
 
 const SetoptionType = ({ type }) => {
   if (type == 'Call') {
@@ -184,6 +193,7 @@ module.exports = {
   HandleSnapShotPull,
   HandleAggregatePull,
   SetSnapShotLink,
+  SetAggregateLink,
   SetoptionType,
   SetStrike,
   SellingCallStratWeeklyReturn,

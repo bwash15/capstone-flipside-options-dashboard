@@ -10,7 +10,7 @@ const AnalysisLayout = ({ popoverOpen, setPopoverOpen, snapShotBaseUrl, setSnapS
 
 
     return (
-        <div className='App'>
+        <div className='adApp'>
             <AnalysisHeader
                 title={title}
                 search={search}

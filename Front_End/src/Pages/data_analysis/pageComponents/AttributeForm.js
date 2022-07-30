@@ -8,7 +8,7 @@ const AttributeForm = ({
 
     return (
 
-        <header ref={ref}>
+        <header ref={ref}  >
             <Button id="Popover" color="primary">
                 Attribute Filters
             </Button> <br></br>

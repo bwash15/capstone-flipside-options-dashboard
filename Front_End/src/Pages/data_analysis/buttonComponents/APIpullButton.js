@@ -7,7 +7,7 @@ const APIpullButton = ({ buttonText, reqType, setReqType }) => {
 
     return (
         <button
-            className={buttonText === reqType ? "selected" : null}
+            className={buttonText === reqType ? "selected" : "notSelected"}
             type="button"
             onClick={() => setReqType(buttonText)}
         >
