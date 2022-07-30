@@ -28,6 +28,8 @@ const myEmitter = new Emitter();
 const PORT = process.env.PORT || 3600;
 //*********************************************** */
 //     CONNECT TO MONGO_DB
+//     FORMAT FOR URI TO MONGODB:
+// mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
 connectDB();
 //*********************************************** */
 //     Logging Middleware
@@ -50,6 +52,12 @@ nodeCron.schedule("00 * * * *", function () {
     // Do whatever you want in here. Send email, Make  database backup or download data.
     console.log("=====SCHEDULED MAINTENANCE=====");
     maintenance.findOldPwd();
+});
+
+nodeCron.schedule("* * * * *", function () {
+    // Do whatever you want in here. Send email, Make  database backup or download data.
+    console.log("=====Update Top Ten=====");
+    //maintenance.GetOptions();
 });
 
 
@@ -116,14 +124,14 @@ app.use('/userTiles', require('./_routes/_userTiles'));
 app.use('/optionTiles', require('./_routes/_option_tiles'));
 app.use('/newsTiles', require('./_routes/_news_tiles'));
 app.use('/homeTiles', require('./_routes/_user_home_tiles'));
-
 app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
-app.use('/optionsAPIpull', require('./_routes/api/optionsAPIpull'));
-app.use('/optionDays', require('./_routes/api/optionDays'));
-app.use('/optionDetails', require('./_routes/api/optionDetails'));
-app.use('/optionGreeks', require('./_routes/api/optionGreeks'));
-app.use('/optionLastQuote', require('./_routes/api/optionLastQuote'));
-app.use('/underlyingAsset', require('./_routes/api/underlyingAsset'));
+
+app.use('/api_pull', require('./_routes/api/APIpull'));
+app.use('/day', require('./_routes/api/day'));
+app.use('/details', require('./_routes/api/details'));
+app.use('/greeks', require('./_routes/api/greeks'));
+app.use('/last_quote', require('./_routes/api/last_quote'));
+app.use('/underlying_asset', require('./_routes/api/underlying_asset'));
 //app.use('/historicalDataModels', require('./_routes/api/users'));
 
 /**************************************************/

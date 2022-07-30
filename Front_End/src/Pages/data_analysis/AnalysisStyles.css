@@ -88,15 +88,41 @@ td {
   padding: 0.25rem; 
 }
 
+.attributeGridForForm {
+  display: grid;
+  flex-grow: 2;
+  height: fit-content;
+}
 .newPostForm {
   display: flex;
   flex-direction: column;
   height: fit-content;
 }
+.attributeForm {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+}
 
 .newPostForm label {
-  margin-top: 1rem;
+  margin-top: 0.5rem;  
+  text-align: center;
 }
+.attributeForm label {
+  margin-top: 1rem;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+.newPostForm label label {
+  margin-top: 1rem;  
+}
+.attributeForm label label {
+  margin-top: 1rem;
+  border-bottom: 1px solid #000;
+}
+
 
 .newPostForm input[type='text'], 
 .newPostForm textarea {

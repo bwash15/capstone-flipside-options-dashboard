@@ -9970,3 +9970,8 @@ DateTime:[20220704	22:15:11]	UUID:[8399cb70-3847-436b-ae7a-c9efcb39635f]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[joe@gg.com profile found]
+
+DateTime:[20220719	21:20:37]	UUID:[28eced81-9fcd-4e1f-8aa6-5c3abc4e90ab]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[444@abc.com profile found]

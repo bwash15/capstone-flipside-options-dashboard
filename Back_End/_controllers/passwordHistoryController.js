@@ -11,7 +11,7 @@ myEmitter.on('userRegistration', (msg, path, filename) => logServerEvents(msg, p
 
 
 const createPasswordHistory = async (req, res) => {
-    const {email, password } = req.body;
+    const { email, password } = req.body;
     const duplicate = await pwdHist.findOne({ email: email }).exec();
     if (duplicate) {
         myEmitter.emit(`userRegistration`, `${email} : Duplicate found, Register Conflict`, 'UserRegistrationLogs', 'registerController/handleNewUser');
@@ -52,8 +52,8 @@ const createPasswordHistory = async (req, res) => {
 const addPasswordHistory = async (req, res, next) => {
     const password = req.body.password;
     const email = jwt.decode(req.body.resetToken.resetToken).email;
-   
-    const user = await pwdHist.findOne({ email: email}).exec();
+
+    const user = await pwdHist.findOne({ email: email }).exec();
     console.log('=====Made it to Password History=====');
     var info = []
     for (const pwd of user.pastPasswords) {
@@ -63,18 +63,17 @@ const addPasswordHistory = async (req, res, next) => {
     console.log(info);
     const isFound = info.includes(true);
     console.log(isFound);
-    
+
     if (isFound) {
         myEmitter.emit(`userRegistration`, `${email} : Duplicate found, Password Conflict`, 'UserRegistrationLogs', 'registerController/handleNewUser');
         return res.status(403).send({ 'message': 'Previous Passwords not allowed!' });
     };
-    if(info.length >= 3)
-    {
+    if (info.length >= 3) {
         await cleanUp(email);
     }
-    
+
     try {
-       
+
         // Encrypting the password > adds the hash and the salt to the password
         const hashedPwd = await bcrypt.hash(password, 10);
         const createdDate = new Date();
@@ -83,14 +82,15 @@ const addPasswordHistory = async (req, res, next) => {
         const day = createdDate.getDate();
         const expiredDate = new Date(year + 1, month, day);
 
-        
+
 
         const result = await pwdHist.findOneAndUpdate(
             {
                 email: email
             },
-            {$addToSet: 
-                
+            {
+                $addToSet:
+
                 {
                     pastPasswords: {
                         "password": hashedPwd,
@@ -115,16 +115,15 @@ const addPasswordHistory = async (req, res, next) => {
 }
 
 const checkLastUpdated = async (req, res, next) => {
-    const TIME_CHECK = 15*60*1000;
+    const TIME_CHECK = 15 * 60 * 1000;
     const currentTime = Date.now();
     const email = jwt.decode(req.body.resetToken.resetToken).email;
-   
-    const user = await pwdHist.findOne({ email: email}).exec();
+
+    const user = await pwdHist.findOne({ email: email }).exec();
     console.log('=====Made it to Check Updated=====');
     const timeUpdated = user.lastUpdated;
-    if((currentTime -timeUpdated) < TIME_CHECK)
-    {
-        return res.status(403).send({message: "Not able to update password at this time Please Try again later!"})
+    if ((currentTime - timeUpdated) < TIME_CHECK) {
+        return res.status(403).send({ message: "Not able to update password at this time Please Try again later!" })
     }
     else {
         next();
@@ -132,11 +131,11 @@ const checkLastUpdated = async (req, res, next) => {
 }
 
 const checkHistoryCount = async (req, res, next) => {
-    
+
     const password = req.body.password;
     const email = jwt.decode(req.body.resetToken.resetToken).email;
-   
-    const user = await pwdHist.findOne({ email: email}).exec();
+
+    const user = await pwdHist.findOne({ email: email }).exec();
     console.log('=====Made it to Password History=====');
     var info = []
     for (const pwd of user.pastPasswords) {
@@ -146,25 +145,24 @@ const checkHistoryCount = async (req, res, next) => {
     console.log(info);
     const isFound = info.includes(true);
     console.log(isFound);
-    
+
     if (isFound) {
         myEmitter.emit(`userRegistration`, `${email} : Duplicate found, Password Conflict`, 'UserRegistrationLogs', 'registerController/handleNewUser');
         return res.status(403).send({ 'message': 'Previous Passwords not allowed!' });
     };
-    if(info.length >= 3)
-    {
+    if (info.length >= 3) {
         console.log(req.body);
         var info = []
         for (const date of user.pastPasswords) {
             info.push(date.dateCreated)
-        }  
+        }
         console.log(info);
-        var order = info.sort(function (a, b){
+        var order = info.sort(function (a, b) {
             return Date.parse(a) > Date.parse(b);
         })
         console.log(order);
         console.log(order[0]);
-        try{
+        try {
             const result = await pwdHist.updateOne(
                 {
                     email: email
@@ -176,15 +174,14 @@ const checkHistoryCount = async (req, res, next) => {
                         }
                     }
                 }
-                );
-                next();
+            );
+            next();
         }
-        catch(err)
-        {
+        catch (err) {
             return res.status(409).send({ 'message': 'Error Resetting Password Please Contact Support!' });
         }
     }
-    else{
+    else {
         next();
     }
 }
@@ -192,9 +189,9 @@ const checkHistoryCount = async (req, res, next) => {
 const job = nodeCron.schedule("0 5  10 * *", function jobYouNeedToExecute() {
     // Do whatever you want in here. Send email, Make  database backup or download data.
     console.log("=====SCHEDULE MAINTENANCE=====");
-  });
+});
 
 
 
 
-module.exports = {createPasswordHistory, addPasswordHistory, checkHistoryCount, checkLastUpdated};
+module.exports = { createPasswordHistory, addPasswordHistory, checkHistoryCount, checkLastUpdated };

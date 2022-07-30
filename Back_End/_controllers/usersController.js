@@ -37,7 +37,7 @@ const createNewUser = async (req, res) => {
         });
         res.status(201).json(result);
     } catch (err) {
-        console.error(err);
+        console.error(err.message);
     }
 }
 

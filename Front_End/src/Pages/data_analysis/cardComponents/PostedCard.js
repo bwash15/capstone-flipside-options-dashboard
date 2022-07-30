@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 
-const PostedCard = ({ posts, handlePostsDelete }) => {
+const PostedCard = ({ posts, HandlePostsDelete }) => {
     const { id } = useParams();
     const post = posts.find(post => (post.id).toString() === id);
 
@@ -13,7 +13,7 @@ const PostedCard = ({ posts, handlePostsDelete }) => {
                         <p className='postDate'>{post.datetime}</p>
                         <p className='postBody'>{post.body}</p>
                         <Link to={`/post/edit/${post.id}`}><button className='editButton'>Edit Post</button></Link>
-                        <button className="deleteButton" onClick={() => handlePostsDelete(post.id)}>
+                        <button className="deleteButton" onClick={() => HandlePostsDelete(post.id)}>
                             Delete
                         </button>
                     </>

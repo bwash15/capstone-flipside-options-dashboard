@@ -988,3 +988,18 @@ DateTime:[20220620	11:41:19]	UUID:[f7a76b2d-f63a-4c85-a74e-c6a203d09b05]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
 	LOC:[registerController/handleNewUser]
 	Message:[asd@102.com : user Password saved]
+
+DateTime:[20220719	21:14:06]	UUID:[e7957a67-5b81-4519-9de5-dafdb58b4968]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[444@abc.com : Attempting to Register]
+
+DateTime:[20220719	21:14:06]	UUID:[8abc611d-3482-4d27-8fc2-57a5abad1730]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[444@abc.com : Account Verified, Creating NewUser Profile]
+
+DateTime:[20220719	21:14:06]	UUID:[a99615e5-e194-42c9-88e3-6a4b7214cd50]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\UserRegistrationLogs]
+	LOC:[registerController/handleNewUser]
+	Message:[444@abc.com : user registered successfully]

@@ -1,31 +1,30 @@
 import { useState, useRef } from 'react';
-
 import { Button, Popover, PopoverBody } from "reactstrap";
 import FilterButton from '../buttonComponents/FilterButton';
 
 const AnalysisForm = ({ reqType, setReqType }) => {
-    const [popoverOpen, setPopoverOpen] = useState(false);
-    const ref = useRef(null);
+    const [datapopoverOpen, setDataPopoverOpen] = useState(false);
+    const dataref = useRef(null);
+
     return (
 
-        <header ref={ref}>
+        <header ref={dataref}>
 
-            <Button id="Popover" color="primary">
+            <Button id="dataPopover" color="primary">
                 Data Filters
             </Button> <br></br>
             <Popover
                 placement="left"
-                isOpen={popoverOpen}
-                target="Popover"
-                toggle={() => { setPopoverOpen(!popoverOpen) }}
-                container={ref}
+                isOpen={datapopoverOpen}
+                target="dataPopover"
+                toggle={() => { setDataPopoverOpen(!datapopoverOpen) }}
+                container={dataref}
             >
                 <PopoverBody>
-
-                    <form className="newPostForm" onSubmit={(e) => e.preventDefault()}>
+                    <form className="attributeForm" onSubmit={(e) => e.preventDefault()}>
                         <>
                             <FilterButton
-                                buttonText="Users"
+                                buttonText={"Users"}
                                 reqType={reqType}
                                 setReqType={setReqType}
                             />
@@ -69,11 +68,6 @@ const AnalysisForm = ({ reqType, setReqType }) => {
                 </PopoverBody>
             </Popover>
         </header>
-
-
-
-
-
     )
 }
 
