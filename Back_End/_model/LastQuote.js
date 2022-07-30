@@ -33,7 +33,11 @@ const last_quoteSchema = new Schema({
         required: false,
         default: 0.00
     },
-    timeframe: String
+    timeframe: {
+        type: String,
+        required: false,
+        default: ""
+    }
 });
 
 

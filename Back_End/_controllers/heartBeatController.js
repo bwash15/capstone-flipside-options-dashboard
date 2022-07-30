@@ -1,4 +1,4 @@
-const snapShotSchema = require('../schema/SnapShotSchema');
+const snapShots = require('../schema/SnapShotSchema');
 const day = require('../schema/day');
 const details = require('../schema/details');
 const greeks = require('../schema/greeks');

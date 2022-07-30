@@ -11,7 +11,7 @@ const oSS_schema = new Schema({
             change_percent: Number,
             close: Number,
             high: Number,
-            lastUpdated: String,
+            last_updated: String,
             low: Number,
             open: Number,
             previous_close: Number,

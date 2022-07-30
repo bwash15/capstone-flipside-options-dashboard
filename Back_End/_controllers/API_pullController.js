@@ -76,11 +76,13 @@ const HandleAPIpull = async (req, res) => {
     SetStrike(snapShot_result.option_strike_price);
 
 
-    const aggregate_link = `https://api.polygon.io/v2/aggs/ticker/${aggregate_result.options_ticker_link}/range/${aggregate_result.multiplier}/${aggregate_result.timespan}/${aggregate_result.from}/${aggregate_result.to}?apiKey=${process.env.REACT_APP_API_KEY}`;
+    const aggregate_baseUrl = `https://api.polygon.io/v2/aggs/ticker/`;
+    const aggregate_link = `${aggregate_baseUrl}`;
 
-    const snapshot_link = `https://api.polygon.io/v3/snapshot/options/${snapShot_result.option_ticker}/O:${snapShot_result.option_ticker}${snapShot_result.option_expire_date}${snapShot_result.option_type}${snapShot_result.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
+    const snapshot_baseUrl = `https://api.polygon.io/v3/snapshot/options/`;
+    const snapshot_link = `${snapshot_baseUrl}`;
 
-
+    SetSnapShotLink(snapshot_baseUrl, snapshot_link);
     HandleSnapShotPull(snapshot_link);
 
   } catch (err) {
@@ -142,12 +144,14 @@ const HandleAggregatePull = async ({ aggregate_link }) => {
     });
 }
 
-const SetSnapShotLink = ({ req, res }) => {
+const SetSnapShotLink = ({ req, res, snapshot_baseUrl, snapshot_link }) => {
   if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link) {
     return res.status(400).json({ 'Message': ' Not all SnapShot filters are filled in' });
   }
 
-  const snapshot_link = `https://api.polygon.io/v3/snapshot/options/${res.body.option_ticker}/O:${res.body.option_ticker}${res.body.option_expire_date}${res.body.option_type}${res.body.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
+  snapshot_link = snapshot_baseUrl + `${res.body.option_ticker}/O:${res.body.option_ticker}${res.body.option_expire_date}${res.body.option_type}${res.body.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
+
+  res.status(201).json.stringify(snapshot_link)
 }
 
 const SetoptionType = ({ type }) => {
@@ -179,6 +183,7 @@ module.exports = {
   HandleAPIpull,
   HandleSnapShotPull,
   HandleAggregatePull,
+  SetSnapShotLink,
   SetoptionType,
   SetStrike,
   SellingCallStratWeeklyReturn,

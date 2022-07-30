@@ -1,4 +1,4 @@
-import filtersApi from '../data_analysis/api/filters';
+import filtersApi from '../../data_analysis/api/filters';
 import { useNavigate } from 'react-router-dom';
 
 const HandleGetFilters = async ({ setFilters }) => {
