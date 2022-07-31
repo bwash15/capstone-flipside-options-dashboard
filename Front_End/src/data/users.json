@@ -1,0 +1,98 @@
+{
+    "users": [{
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "jSmith@gmail.com",
+            "password": "0123456789",
+            "rt": "",
+            "roles": {
+                "User": 2001,
+                "Admin": 5150,
+                "Editor": 1981
+            },
+            "favoriteTiles": [{
+                    "request_id": "d9ff18dac69f55c218f69e4753706acd"
+                },
+                {
+                    "request_id": "123d9ff18dac69f55c218f69e4753706acd"
+                }
+            ]
+        },
+        {
+            "firstName": "Dustin",
+            "lastName": "Doe",
+            "email": "dDoe@gmail.com",
+            "password": "9876543210",
+            "rt": "",
+            "roles": {
+                "User": 2001,
+                "Admin": 5150,
+                "Editor": 1981
+            },
+            "favoriteTiles": [{
+                    "request_id": "d9ff18dac69f55c218f69e4753706acd"
+                },
+                {
+                    "request_id": "123d9ff18dac69f55c218f69e4753706acd"
+                }
+            ]
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "password": "",
+            "rt": "",
+            "roles": {
+                "User": 2001,
+                "Admin": 5150,
+                "Editor": 1981
+            },
+            "favoriteTiles": [{
+                    "request_id": "d9ff18dac69f55c218f69e4753706acd"
+                },
+                {
+                    "request_id": "123d9ff18dac69f55c218f69e4753706acd"
+                }
+            ]
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "password": "",
+            "rt": "",
+            "roles": {
+                "User": 2001,
+                "Admin": 5150,
+                "Editor": 1981
+            },
+            "favoriteTiles": [{
+                    "request_id": "d9ff18dac69f55c218f69e4753706acd"
+                },
+                {
+                    "request_id": "123d9ff18dac69f55c218f69e4753706acd"
+                }
+            ]
+        },
+        {
+            "firstName": "",
+            "lastName": "",
+            "email": "",
+            "password": "",
+            "rt": "",
+            "roles": {
+                "User": 2001,
+                "Admin": 5150,
+                "Editor": 1981
+            },
+            "favoriteTiles": [{
+                    "request_id": "d9ff18dac69f55c218f69e4753706acd"
+                },
+                {
+                    "request_id": "123d9ff18dac69f55c218f69e4753706acd"
+                }
+            ]
+        }
+    ]
+}

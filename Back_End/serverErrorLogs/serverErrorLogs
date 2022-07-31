@@ -451,3 +451,28 @@ DateTime:[20220619	23:21:37]	UUID:[100d6871-130b-4ffd-bb9a-f6c3f7c9fbe0]
 	PATH:[D:\School\Project and Portfolio 5\Test Branch\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
 	LOC:[errLog.txt]
 	Message:[Error : Cannot set headers after they are sent to the client]
+
+DateTime:[20220731	12:23:57]	UUID:[ebfa2274-72d6-4ee4-bb0b-d2fb71dfc6bf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'includes')]
+
+DateTime:[20220731	12:24:00]	UUID:[3bd9ae45-d46b-4482-bc40-6917a35aa0e2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : Cannot read properties of undefined (reading 'includes')]
+
+DateTime:[20220731	13:23:49]	UUID:[a08e7eaf-7458-4d48-b428-52f3ac8f8129]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedOrigins.indexOf is not a function]
+
+DateTime:[20220731	13:24:21]	UUID:[1d3fa758-c418-46db-bb52-92b01a3fd1a4]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedOrigins.indexOf is not a function]
+
+DateTime:[20220731	13:25:31]	UUID:[21b83974-4614-423b-b5cc-8258ed294f04]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\serverErrorLogs]
+	LOC:[errLog.txt]
+	Message:[TypeError : allowedOrigins.indexOf is not a function]

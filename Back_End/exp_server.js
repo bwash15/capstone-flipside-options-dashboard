@@ -17,12 +17,11 @@ const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 
-//*********************************************** */
-//    Schemas
-// var Greek = require('./greeksSchema');
-// //var defGreeks = require('./greeksSchema');
-// // var SnapShotSchema = require('./snapShotSchema');
-// var OptionSnapShot = require('./oSS_schema');
+myEmitter.on('serverError', (msg, path, filename) => logServerEvents(msg, path, filename));
+myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));
+myEmitter.on('404pageFoundLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
+
+
 //*********************************************** */
 //     PORT
 const PORT = process.env.PORT || 3600;
@@ -61,9 +60,6 @@ nodeCron.schedule("* * * * *", function () {
 });
 
 
-myEmitter.on('serverError', (msg, path, filename) => logServerEvents(msg, path, filename));
-myEmitter.on('errorLog', (msg, path, filename) => logServerEvents(msg, path, filename));
-myEmitter.on('404pageFoundLogs', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 //*********************************************** */
 // Handle options-credentials-check - before CORS!
@@ -126,13 +122,14 @@ app.use('/newsTiles', require('./_routes/_news_tiles'));
 app.use('/homeTiles', require('./_routes/_user_home_tiles'));
 app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 
-app.use('/api_pull', require('./_routes/api/APIpull'));
+app.use('/api_pull', require('./_routes/api/api_pull'));
 app.use('/day', require('./_routes/api/day'));
 app.use('/details', require('./_routes/api/details'));
 app.use('/greeks', require('./_routes/api/greeks'));
+app.use('/filters', require('./_routes/api/filters'));
 app.use('/last_quote', require('./_routes/api/last_quote'));
 app.use('/underlying_asset', require('./_routes/api/underlying_asset'));
-//app.use('/historicalDataModels', require('./_routes/api/users'));
+
 
 /**************************************************/
 /**

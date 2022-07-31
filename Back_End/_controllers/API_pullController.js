@@ -1,7 +1,7 @@
-const Filters = require('../_model/Filter');
+const Filters = require('../_model/Filters');
 const { logServerEvents } = require('../_middleware/logServerEvents');
 const EventEmitter = require('events');
-const Filter = require('../_model/Filter');
+
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 const fetchOption = require("isomorphic-fetch");
@@ -9,7 +9,7 @@ const { isReadable } = require('stream');
 myEmitter.on('api_pullControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 
-const getFilters = (req, res) => {
+const getFilters = async (req, res) => {
   const filters = await Filters.find();
   if (!filters) {
     myEmitter.emit(`filterControllerActivity`, `filter Data search returned no results: ${filters}`, 'apiActivityLogs', 'getFilters/API_pullController');
@@ -85,6 +85,9 @@ const HandleAPIpull = async (req, res) => {
     SetSnapShotLink(snapshot_baseUrl, snapshot_link);
     HandleSnapShotPull(snapshot_link);
 
+    SetAggregateLink(aggregate_baseUrl, aggregate_link);
+    HandleAggregatePull(aggregate_link);
+
   } catch (err) {
     if (err.response) {
       console.log(err.response.data);
@@ -157,10 +160,9 @@ const SetAggregateLink = ({ req, res, aggregate_baseUrl, aggregate_link }) => {
   if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link || !req?.body?.multiplier || !req?.body?.timespan || !req?.body?.option_from || !req?.body?.option_to) {
     return res.status(400).json({ 'Message': ' Not all Aggregate filters are filled in' });
   }
+  aggregate_link = aggregate_baseUrl + `${res.body.option_ticker}/O:${res.body.option_ticker}/range/${res.body.multiplier}/${res.body.timespan}/${res.body.option_from}/${res.body.option_to}?apiKey=${process.env.REACT_APP_API_KEY}`;
 
-  aggregate_link = aggregate_baseUrl + `${res.body.option_ticker}/O:${res.body.option_ticker}${res.body.option_expire_date}${res.body.option_type}${res.body.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
-
-  res.status(201).json.stringify(snapshot_link)
+  res.status(201).json.stringify(aggregate_link)
 }
 
 const SetoptionType = ({ type }) => {

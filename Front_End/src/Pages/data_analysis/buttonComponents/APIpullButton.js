@@ -2,9 +2,6 @@ import React from 'react'
 
 const APIpullButton = ({ buttonText, reqType, setReqType }) => {
 
-
-
-
     return (
         <button
             className={buttonText === reqType ? "selected" : "notSelected"}

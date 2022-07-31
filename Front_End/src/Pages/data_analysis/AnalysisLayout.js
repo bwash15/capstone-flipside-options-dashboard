@@ -5,7 +5,7 @@ import AnalysisNav from './AnalysisNav';
 
 import { Outlet } from 'react-router-dom';
 
-const AnalysisLayout = ({ popoverOpen, setPopoverOpen, snapShotBaseUrl, setSnapShotLink, search, setSearch, reqType, setReqType, option_ticker, option_type, option_expire_date, option_strike_price, option_ticker_link, option_multiplier, option_timespan, option_from, option_to, setOptionTicker, setOption_type, setOption_expire_date, setOption_strike_price, setOptionTickerLink, setOption_multiplier, setOption_timespan, setOption_from, setOption_To, handleClearFormFilters, handleFilterSubmit }) => {
+const AnalysisLayout = ({ _handleFilterEdit, popoverOpen, setPopoverOpen, snapShotBaseUrl, setSnapShotLink, search, setSearch, reqType, setReqType, option_ticker, option_type, option_expire_date, option_strike_price, option_ticker_link, option_multiplier, option_timespan, option_from, option_to, setOptionTicker, setOption_type, setOption_expire_date, setOption_strike_price, setOptionTickerLink, setOption_multiplier, setOption_timespan, setOption_from, setOption_To, handleClearFormFilters, handleFilterSubmit }) => {
     const [title, setTitle] = useState("Analyze your data");
 
 
@@ -23,6 +23,7 @@ const AnalysisLayout = ({ popoverOpen, setPopoverOpen, snapShotBaseUrl, setSnapS
                 setPopoverOpen={setPopoverOpen}
                 handleFilterSubmit={handleFilterSubmit}
                 handleClearFormFilters={handleClearFormFilters}
+                _handleFilterEdit={_handleFilterEdit}
                 setSnapShotLink={setSnapShotLink}
                 snapShotBaseUrl={snapShotBaseUrl}
                 option_type={option_type}

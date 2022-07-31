@@ -1,23 +1,22 @@
-import postsApi from '../data_analysis/api/posts';
-import snapShotApi from '../data_analysis/api/snapShots';
-import aggregateApi from '../data_analysis/api/aggregate';
-import dataHeadApi from '../data_analysis/api/dataHead';
+import { postsApi } from '../data_analysis/api/analysis_axios';
+import { snapShotsApi } from '../data_analysis/api/analysis_axios';
+import { aggregatesApi } from '../data_analysis/api/analysis_axios';
+import { dayApi } from '../data_analysis/api/analysis_axios';
+import { detailsApi } from '../data_analysis/api/analysis_axios';
+import { greeksApi } from '../data_analysis/api/analysis_axios';
+import { last_quoteApi } from '../data_analysis/api/analysis_axios';
+import { underlying_assetApi } from '../data_analysis/api/analysis_axios';
+import { filtersApi } from '../data_analysis/api/analysis_axios';
+
 import usersApi from '../data_analysis/api/users';
-import dayAxios from '../data_analysis/api/day';
-import detailsApi from '../data_analysis/api/details';
-import greeksApi from '../data_analysis/api/greeks';
-import lastQuoteApi from '../data_analysis/api/last_quote';
-import underlyingAssetApi from '../data_analysis/api/underlying_asset';
-import filtersApi from '../data_analysis/api/filters';
+
 
 /** Initial App Load **/
 
-const FetchData = async ({ setDataHead, setAggregates, setFilters, snapShotLink, options, setOptions, setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset }) => {
+const FetchData = async ({ setAggregates, setFilters, snapShotLink, options, setOptions, setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset }) => {
     try {
-        // Data is in the response.data
-        pullSetDataHead({ setDataHead })
+        // Data is in the response.data        
         pullSetPosts({ setPosts });
-        pullSetDataHead({ setDataHead });
         pullSetFilters({ setFilters });
         pullSetAggregates({ setAggregates });
         pullSetDay({ setDay });
@@ -39,14 +38,6 @@ const FetchData = async ({ setDataHead, setAggregates, setFilters, snapShotLink,
     }
 }
 
-
-
-const pullSetDataHead = async ({ setDataHead }) => {
-    const DataHeadResponse = await dataHeadApi.get('/dataHead');
-    if (DataHeadResponse && DataHeadResponse.data) setDataHead(DataHeadResponse.data);
-    sessionStorage.setItem("dataHeads", JSON.stringify(DataHeadResponse.data));
-}
-
 const pullSetPosts = async ({ setPosts }) => {
     const postResponse = await postsApi.get('/posts');
     if (postResponse && postResponse.data) setPosts(postResponse.data);
@@ -54,19 +45,19 @@ const pullSetPosts = async ({ setPosts }) => {
 }
 
 const pullSetSnapShots = async ({ setSnapShots }) => {
-    const SnapShotResponse = await snapShotApi.get('/snapShot');
+    const SnapShotResponse = await snapShotsApi.get('/snapShot');
     if (SnapShotResponse && SnapShotResponse.data) setSnapShots(SnapShotResponse.data);
     sessionStorage.setItem("snapShots", JSON.stringify(SnapShotResponse.data));
 }
 
 const pullSetAggregates = async ({ setAggregates }) => {
-    const aggregateResponse = await aggregateApi.get('/aggregate');
+    const aggregateResponse = await aggregatesApi.get('/aggregate');
     if (aggregateResponse && aggregateResponse.data) setAggregates(aggregateResponse.data);
     sessionStorage.setItem("aggreagates", JSON.stringify(aggregateResponse.data));
 }
 
 const pullSetDay = async ({ setDay }) => {
-    const DayResponse = await dayAxios.get('/day');
+    const DayResponse = await dayApi.get('/day');
     if (DayResponse && DayResponse.data) setDay(DayResponse.data);
     sessionStorage.setItem("day", JSON.stringify(DayResponse.data));
 }
@@ -84,13 +75,13 @@ const pullSetGreeks = async ({ setGreeks }) => {
 }
 
 const pullSetLastQuotes = async ({ setLastQuote }) => {
-    const LastQuoteResponse = await lastQuoteApi.get('/last_quote');
+    const LastQuoteResponse = await last_quoteApi.get('/last_quote');
     if (LastQuoteResponse && LastQuoteResponse.data) setLastQuote(LastQuoteResponse.data);
     sessionStorage.setItem("last_quote", JSON.stringify(LastQuoteResponse.data));
 }
 
 const pullSetUnderlyingAssets = async ({ setUnderlyingAsset }) => {
-    const UnderlyingAssetResponse = await underlyingAssetApi.get('/underlying_asset');
+    const UnderlyingAssetResponse = await underlying_assetApi.get('/underlying_asset');
     if (UnderlyingAssetResponse && UnderlyingAssetResponse.data) setUnderlyingAsset(UnderlyingAssetResponse.data);
     sessionStorage.setItem("underlying_asset", JSON.stringify(UnderlyingAssetResponse.data));
 }

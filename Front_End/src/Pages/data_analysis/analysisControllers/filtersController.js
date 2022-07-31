@@ -1,9 +1,9 @@
-import filtersApi from '../../data_analysis/api/filters';
+import filtersApi from '../../data_analysis/api/analysis_axios';
 import { useNavigate } from 'react-router-dom';
 
 const HandleGetFilters = async ({ setFilters }) => {
     try {
-        const filtersResponse = await filtersApi.get('/filters');
+        const filtersResponse = await filtersApi.get('/analysis_axios/filtersApi');
         if (filtersResponse && filtersResponse.data) setFilters(filtersResponse.data);
     } catch (err) {
         if (err.response) {
@@ -66,7 +66,7 @@ const HandleFilterEdit = async ({ id, editOption_type, editOption_expire_date, e
         editOption_to: editOption_to,
     };
     try {
-        const editFiltersResponse = await filtersApi.put(`/filters/${id}`, updatedFilters);
+        const editFiltersResponse = await filtersApi.put(`/filtersApi/${id}`, updatedFilters);
         setFilters(filters.map(filter => filter.option_ticker_link === id ? { ...editFiltersResponse.data } : filter));
         setEditOption_type('');
         setEditOption_expire_date('');

@@ -98,18 +98,18 @@ td {
 }
 
 .newPostForm label {
-  margin-top: 0.5rem;  
+  margin-top: 0.25rem;  
   text-align: center;
 }
 .attributeForm label {
-  margin-top: 1rem;
+  margin-top: 0.25rem;
   text-align: center;
 }
 .newPostForm label label {
-  margin-top: 1rem;  
+  margin-top: 0.25rem;  
 }
 .attributeForm label label {
-  margin-top: 1rem;
+  margin-top: 0.25rem;
 }
 
 
@@ -117,7 +117,7 @@ td {
 .newPostForm textarea {
   font-family: 'Open Sans', sans-serif;
   width: 100%;
-  min-height: 40px;
+  min-height: 38px;
   font-size: 1rem;
   padding: 0.25rem;
   border-radius: 0.25rem;

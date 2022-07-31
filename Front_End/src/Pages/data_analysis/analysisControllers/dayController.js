@@ -1,4 +1,4 @@
-import dayApi from '../../data_analysis/api/day';
+import { dayApi } from '../../data_analysis/api/analysis_axios';
 import { useNavigate } from 'react-router-dom';
 
 

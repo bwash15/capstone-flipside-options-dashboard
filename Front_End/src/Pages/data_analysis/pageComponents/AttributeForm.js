@@ -1,8 +1,10 @@
 import { useRef } from 'react';
+import { HandleFilterEdit } from '../analysisControllers/filtersController';
+import { filtersApi } from '../api/analysis_axios';
 import { Button, Popover, PopoverBody } from "reactstrap";
 
-const AttributeForm = ({
-    snapShotBaseUrl, setSnapShotLink, option_ticker, option_type, option_expire_date, option_strike_price, option_multiplier, option_timespan, option_ticker_link, option_from, option_to, setOptionTicker, setOptionTickerLink, setOption_type, setOption_expire_date, setOption_strike_price, setOption_multiplier, setOption_timespan, setOption_from, setOption_To, handleFilterSubmit, handleClearFormFilters, popoverOpen, setPopoverOpen }) => {
+const AttributeForm = ({ _handleFilterEdit,
+    snapShotBaseUrl, setSnapShotLink, option_ticker, option_type, option_expire_date, option_strike_price, option_multiplier, option_timespan, option_ticker_link, option_from, option_to, setOptionTicker, setOptionTickerLink, setOption_type, setOption_expire_date, setOption_strike_price, setOption_multiplier, setOption_timespan, setOption_from, setOption_To, handleClearFormFilters, popoverOpen, setPopoverOpen }) => {
 
     const ref = useRef(null);
 
@@ -32,7 +34,7 @@ const AttributeForm = ({
                         <button
                             className='apiPullbutton'
                             type="submit"
-                            onClick={(e) => { handleFilterSubmit(e) }}>Update Snapshot Filters</button>
+                            onClick={(e) => { _handleFilterEdit(e) }}>Update Aggregate Filters</button>
                         <br />
                         <button className='apiPullbutton' onClick={handleClearFormFilters}>Clear Filters</button>
                         <label htmlFor="option_ticker_link">Ticker Link:

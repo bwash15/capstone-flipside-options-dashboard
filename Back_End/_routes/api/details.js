@@ -15,7 +15,7 @@ router.route('/')
 
 /************************************************ */
 //  ROUTING DIRECTLY FROM THE URL
-router.route('/:details_id')
+router.route('/:id')
     .get(optionDetailsController.getOptionDetail);
 
 module.exports = router;

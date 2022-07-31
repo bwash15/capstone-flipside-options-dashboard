@@ -1,10 +1,10 @@
-import detailsApi from '../../data_analysis/api/details';
+import { detailsApi } from '../../data_analysis/api/analysis_axios';
 import { useNavigate } from 'react-router-dom';
-import details from '../../data_analysis/api/details';
+
 
 const HandleGetDetails = async ({ setDetails }) => {
     try {
-        const DetailsResponse = await detailsApi.get('/details');
+        const DetailsResponse = await detailsApi.get('/analysis_axios');
         if (DetailsResponse && DetailsResponse.data) setDetails(DetailsResponse.data);
     } catch (err) {
         if (err.response) {
@@ -88,7 +88,7 @@ const HandleDetailsDelete = async (id, setDetails) => {
     try {
         const navigate = useNavigate()
         await detailsApi.delete(`/details/${id}`);
-        const detailsList = details.filter(_details => _details.id !== id);
+        const detailsList = detailsApi.filter(_details => _details.id !== id);
         setDetails(detailsList);
         navigate('/');
     } catch (err) {

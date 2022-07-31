@@ -4,43 +4,43 @@ const { Schema } = mongoose;
 const daySchema = new Schema({
     change: {
         Number,
-        default: {}
+        default: 0.0
     },
     change_percent: {
         Number,
-        default: {}
+        default: 0.0
     },
     close: {
         Number,
-        default: {}
+        default: 0.0
     },
     high: {
         Number,
-        default: {}
+        default: 0.0
     },
     lastUpdated: {
         String,
-        default: {}
+        default: ""
     },
     low: {
         Number,
-        default: {}
+        default: 0.0
     },
     open: {
         Date,
-        default: {}
+        default: ""
     },
     previous_close: {
         Number,
-        default: {}
+        default: 0.0
     },
     volume: {
         Number,
-        default: {}
+        default: 0.0
     },
     vwap: {
         Number,
-        default: {}
+        default: 0.0
     }
 });
 

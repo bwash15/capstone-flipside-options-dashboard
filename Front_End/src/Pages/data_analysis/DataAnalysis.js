@@ -25,21 +25,7 @@ import { HandleSnapShotDelete, HandleSnapShotSubmit, HandleSnapShotEdit } from '
 import { HandleFilterEdit, HandleFiltersSubmit, HandleFiltersDelete } from './analysisControllers/filtersController';
 import './AnalysisStyles.css';
 
-
-
-import postsApi from './api/posts';
-import snapShotApi from './api/snapShots';
 import usersApi from './api/users';
-import aggregateApi from './api/aggregate';
-import dataHeadApi from './api/dataHead';
-import dayApi from './api/day';
-import detailsApi from './api/details';
-import greeksApi from './api/greeks';
-import last_quoteApi from './api/last_quote';
-import underlying_assetApi from './api/underlying_asset';
-import filtersApi from './api/filters';
-import singlePropsApi from './api/singleProps';
-
 
 
 
@@ -50,8 +36,6 @@ const DataAnalysis = () => {
     // This path will be updated dynamically for each data type
     const JSON_URL = 'https://jsonplaceholder.typicode.com/';
     const IMG_URL = 'http://www.fillmurray.com/400/500';
-
-
 
     const [imgSrc, setImgSrc] = useState("");
 
@@ -68,36 +52,6 @@ const DataAnalysis = () => {
     const [searchSnapResults, setSearchSnapResults] = useState([]);
     const [isLoading, setIsLoading] = useState([]);
     const [error, setError] = useState('');
-
-    const [dataHead, setDatahead] = useState([
-        {
-            id: 1,
-            timeCreated: "2022-06-27",
-            timeLastEdited: "",
-            creatorEmail: "jimSmith@gmail.com",
-            selected: false,
-            type: {
-                items: true,
-                users: false,
-                posts: false,
-                snapShots: false
-            }
-        },
-        {
-            id: 2,
-            timeCreated: "2022-07-04",
-            timeLastEdited: "",
-            creatorEmail: "bill.smith@abc.com",
-            selected: false,
-            type: {
-                items: true,
-                users: false,
-                posts: false,
-                snapShots: false
-            }
-        }
-    ])
-
     const [items, setItems] = useState([]);
 
     // Individual States    
@@ -404,7 +358,7 @@ const DataAnalysis = () => {
 
     useEffect(() => {
         // -----  GET calls  -------------
-        FetchData({ setDatahead, setAggregates, setPosts, setSnapShots, setFilters, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options, snapShotLink });
+        FetchData({ setAggregates, setPosts, setSnapShots, setFilters, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options, snapShotLink });
     }, [])
 
     //-------------  Loading From User Selected buttons Link from API  ---------------
@@ -468,14 +422,14 @@ const DataAnalysis = () => {
     //------------------------------------------------------------------------------------
     // Handle Submits
 
-    const handleFilterSubmit = async (e) => {
+    const _handleFilterSubmit = async (e) => {
         e.preventDefault();
         HandleFiltersSubmit(snapShotBaseUrl, filters, setFilters, setOptionTickerLink, setSnapShotLink, option_type, option_expire_date, option_ticker, option_strike_price, option_multiplier, option_timespan, option_from, option_to, option_ticker_link)
         navigate('/');
     }
 
     //---------------------------------------------------------------------------------
-    const handleFilterEdit = async (e, id) => {
+    const _handleFilterEdit = async (e, id) => {
         e.preventDefault();
         HandleFilterEdit(id, editOption_type, editOption_expire_date, editOption_ticker, editOption_strike_price, editOption_multiplier, editOption_timespan, editOption_from, editOption_to, setEditOption_type, setEditOption_expire_date, setEditOptionTicker, setEditOption_strike_price, setEditOption_multiplier, setEditOption_timespan, setEditOption_from, setEditOption_to, setFilters, filters, setEditOptionTickerLink)
         navigate('/');
@@ -592,8 +546,11 @@ const DataAnalysis = () => {
                     setPopoverOpen={setPopoverOpen}
                     setSnapShotLink={setSnapShotLink}
                     snapShotBaseUrl={snapShotBaseUrl}
-                    handleFilterSubmit={handleFilterSubmit}
+                    _handleFilterSubmit={_handleFilterSubmit}
                     handleClearFormFilters={handleClearFormFilters}
+                    _handleFilterEdit={_handleFilterEdit}
+                    editFilters={editFilters}
+                    setEditFilters={setEditFilters}
                     option_type={option_type}
                     setOption_type={setOption_type}
                     option_expire_date={option_expire_date}

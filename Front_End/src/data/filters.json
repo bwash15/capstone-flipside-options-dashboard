@@ -1,0 +1,12 @@
+{
+    "filters": [{
+        "option_type": "C",
+        "option_expire_date": "20220810",
+        "option_ticker": "AAPL",
+        "option_strike_price": "0028000",
+        "option_multiplier": "2",
+        "option_timespan": "day",
+        "option_from": "20220710",
+        "option_to": "20220720"
+    }]
+}
