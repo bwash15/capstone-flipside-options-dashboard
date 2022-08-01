@@ -4,16 +4,16 @@
  **/
 
 import axios from 'axios';
-const BASE_URL = process.env.REACT_APP_API || 'http://localhost:3600';
+const BASE_URL = process.env.REACT_APP_API || 'http://localhost:';
 
 export default axios.create({
-    baseURL: BASE_URL,
+    baseURL: BASE_URL + '3600',
     headers: { 'Content-Type': 'application/json' },
     withCredentials: true
 });
 
 export const axiosPrivate = axios.create({
-    baseURL: BASE_URL,
+    baseURL: BASE_URL + '3600',
     headers: { 'Content-Type': 'application/json' },
     withCredentials: true
 });

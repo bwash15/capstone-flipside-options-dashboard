@@ -18,14 +18,14 @@ import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
 import EditSnapShot from './cardComponents/snapShotCards/EditSnapShot';
 import { FetchData } from '../../utils/loadData'
+import { PostAllDataToDB } from '../utils/postData';
+import { FetchTableandListData } from './analysisControllers/tableDataController';
+import { HandlePostsDelete, HandlePostsEdit, HandlePostSubmit, HandleGetPosts } from './analysisControllers/postsController';
+import { HandleSnapShotDelete, HandleSnapShotSubmit, HandleSnapShotEdit } from './analysisControllers/snapShotController';
+import { HandleFilterEdit, HandleFiltersSubmit, HandleFiltersDelete } from './analysisControllers/filtersController';
 import './AnalysisStyles.css';
 
-
-
-import postsApi from './api/posts';
-import snapShotApi from './api/snapShots';
 import usersApi from './api/users';
-
 
 
 
@@ -36,6 +36,7 @@ const DataAnalysis = () => {
     // This path will be updated dynamically for each data type
     const JSON_URL = 'https://jsonplaceholder.typicode.com/';
     const IMG_URL = 'http://www.fillmurray.com/400/500';
+
     const [imgSrc, setImgSrc] = useState("");
 
     const [clock, setClock] = useState('No Time Shown');
@@ -46,38 +47,11 @@ const DataAnalysis = () => {
     const [reqType, setReqType] = useState('posts');                               // Hardcoded Default <<
     const [search, setSearch] = useState('');
     const [searchResults, setSearchResults] = useState([]);
+    const [popoverOpen, setPopoverOpen] = useState(false);
     const [searchSnaps, setSearchSnaps] = useState('');
     const [searchSnapResults, setSearchSnapResults] = useState([]);
     const [isLoading, setIsLoading] = useState([]);
     const [error, setError] = useState('');
-
-    const [dataHead, setDatahead] = useState([
-        {
-            id: 1,
-            datetime: "2022-07-04",
-            userEmail: "joe.smith@abc.com",
-            selected: false,
-            type: {
-                items: true,
-                users: false,
-                posts: false,
-                snapShots: false
-            }
-        },
-        {
-            id: 2,
-            datetime: "2022-07-04",
-            userEmail: "bill.smith@abc.com",
-            selected: false,
-            type: {
-                items: true,
-                users: false,
-                posts: false,
-                snapShots: false
-            }
-        }
-    ])
-
     const [items, setItems] = useState([]);
 
     // Individual States    
@@ -137,15 +111,17 @@ const DataAnalysis = () => {
 
     ]);
 
+    // AGGREGATES
+    const [aggregates, setAggregates] = useState([]);
+
     // SNAPSHOT
     const [options, setOptions] = useState([]);
-
 
     const [snapShotArray, setSnapShotArray] = useState([]);
     const [request_id, setRequestId] = useState('d9ff18dac69f55c218f69e4753706acd');
     // non-nested properties
     const [breakEvenPrice, setBreakEvenPrice] = useState([]);
-    const [impliedVolatility, setimpliedVolatility] = useState([]);
+    const [impliedVolatility, setImpliedVolatility] = useState([]);
     const [openInterest, setOpenInterest] = useState([]);
     const [singleProps, setSingleProps] = useState([{
         break_even_price: breakEvenPrice,
@@ -210,22 +186,22 @@ const DataAnalysis = () => {
     const [askSize, setAskSize] = useState([]);
     const [bid, setBid] = useState([]);
     const [bidSize, setBidSize] = useState([]);
-    const [LQlastUpdated, setLQLastUpdated] = useState([]);
+    const [LQlast_updated, setLQlast_updated] = useState([]);
     const [midpoint, setMidpoint] = useState([]);
-    const [LQtimeFrame, setLQTimeFrame] = useState([]);
+    const [LQtimeFrame, setLQtimeFrame] = useState([]);
     const [lastQuoteArray, setLastQuoteArray] = useState([]);
     const [lastQuote, setLastQuote] = useState([{
         ask: ask,
         ask_size: askSize,
         bid: bid,
         bid_size: bidSize,
-        last_updated: LQlastUpdated,
+        last_updated: LQlast_updated,
         midpoint: midpoint,
         timeFrame: LQtimeFrame
     }]);
     // Underlying Asset
     const [changeToBreakEven, setChangeToBreakEven] = useState([]);
-    const [ULlastUpdated, setULLastUpdated] = useState([]);
+    const [ULlastUpdated, setULlastUpdated] = useState([]);
     const [price, setPrice] = useState([]);
     const [ULTicker, setULTicker] = useState([]);
     const [ULtimeFrame, setULTimeFrame] = useState([]);
@@ -255,21 +231,61 @@ const DataAnalysis = () => {
             underlying_asset: underlyingAsset
         },
         status: status,
-        ssLastCreated: ssLastCreated,
-        ssLastEdited: ssLastEdited
     }]);
 
     // filters 
-    const [userFilters, setUserFilters] = useState([]);
-    const [filterObj, setFilteredObj] = useState([]);
-    const [option_ticker, setOptionTicker] = useState("TSLA");
     const [option_type, setOption_type] = useState("C");
     const [option_expire_date, setOption_expire_date] = useState("20220614");
-    const [option_strike_price, setOption_strike_price] = useState(12.89);
+    const [option_ticker, setOptionTicker] = useState("TSLA");
+    const [option_strike_price, setOption_strike_price] = useState(150000);
+    const [option_ticker_link, setOptionTickerLink] = useState(`O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`);
     const [option_multiplier, setOption_multiplier] = useState(2);
     const [option_timespan, setOption_timespan] = useState("day");
     const [option_from, setOption_from] = useState("20220620");
     const [option_to, setOption_To] = useState("20220623");
+
+    const [apiKey, setApiKey] = useState(process.env.api_key);
+    const [editOption_type, setEditOption_type] = useState("");
+    const [editOption_expire_date, setEditOption_expire_date] = useState("");
+    const [editOption_ticker, setEditOptionTicker] = useState("");
+    const [editOption_strike_price, setEditOption_strike_price] = useState();
+    const [editOption_ticker_link, setEditOptionTickerLink] = useState(`O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`);
+    const [editOption_multiplier, setEditOption_multiplier] = useState(0);
+    const [editOption_timespan, setEditOption_timespan] = useState("");
+    const [editOption_from, setEditOption_from] = useState("");
+    const [editOption_to, setEditOption_to] = useState("");
+
+    const [editApiKey, setEditApiKey] = useState(process.env.api_key);
+    const [filters, setFilters] = useState([{
+        option_type: option_type,
+        option_expire_date: option_expire_date,
+        option_ticker: option_ticker,
+        option_strike_price: option_strike_price,
+        option_ticker_link: option_ticker_link,
+        option_multiplier: option_multiplier,
+        option_timespan: option_timespan,
+        option_from: option_from,
+        option_to: option_to
+    }]);
+    const [editFilters, setEditFilters] = useState([{
+        editOption_type: editOption_type,
+        editOption_expire_date: editOption_expire_date,
+        editOption_ticker: editOption_ticker,
+        editOption_strike_price: editOption_strike_price,
+        editOption_ticker_link: editOption_ticker_link,
+        editOption_multiplier: editOption_multiplier,
+        editOption_timespan: editOption_timespan,
+        editOption_from: editOption_from,
+        editOption_to: editOption_to
+    }]);
+
+    const [snapShotBaseUrl, setApiBaseUrl] = useState('https://api.polygon.io/v3/snapshot/options/');
+    const [apiAggBaseUrl, setApiAggBaseUrl] = useState('https://api.polygon.io/v2/aggs/ticker/');
+    const [apiTickersBaseUrl, setApiTickersBaseUrl] = useState('https://api.polygon.io/v3/reference/tickers');
+
+    const [apiLink, setApiLink] = useState(`${apiAggBaseUrl}${option_ticker_link}/range/${option_multiplier}/${option_timespan}/${option_from}/${option_to}?apiKey=${apiKey}`);
+    const [snapShotLink, setSnapShotLink] = useState(`${snapShotBaseUrl}${option_ticker}/${option_ticker_link}${option_expire_date}${option_type}${option_strike_price}?apiKey=${apiKey}`);
+
     //----------------------------------------------------------------------------------
     // Edit Properties
 
@@ -327,50 +343,30 @@ const DataAnalysis = () => {
     const [editAskSize, setEditAskSize] = useState([]);
     const [editBid, setEditBid] = useState([]);
     const [editBidSize, setEditBidSize] = useState([]);
-    const [editLQlastUpdated, setEditLQlastUpdated] = useState([]);
+    const [editLQlast_updated, setEditLQlast_updated] = useState([]);
     const [editMidpoint, setEditMidpoint] = useState([]);
-    const [editLQTimeFrame, setEditLQTimeFrame] = useState([]);
+    const [editLQtimeFrame, setEditLQtimeFrame] = useState([]);
 
     // Edit Underlying Asset Properties
     const [editUnderlyingAsset, setEditUnderlyingAsset] = useState([]);
     const [editChangeToBreakEven, setEditChangeToBreakEven] = useState([]);
     const [editULlastUpdated, setEditULlastUpdated] = useState([]);
     const [editPrice, setEditPrice] = useState([]);
-    const [editULTicker, setEditULTicker] = useState([]);
-    const [editULTimeFrame, setEditULTimeFrame] = useState([]);
+    const [editULticker, setEditULticker] = useState([]);
+    const [editULtimeFrame, setEditULtimeFrame] = useState([]);
 
 
     useEffect(() => {
-
-        // -----  GET calls  ------------
-
-        FetchData({ setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setSnapShotArray, setOptions, options });
-
+        // -----  GET calls  -------------
+        FetchData({ setAggregates, setPosts, setSnapShots, setFilters, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options, snapShotLink });
     }, [])
-
 
     //-------------  Loading From User Selected buttons Link from API  ---------------
     // Everytime the dependency changes
     useEffect(() => {
-        const fetchTableandListData = async () => {
-            try {
-                const fetchResponse = await fetch(`${JSON_URL}${reqType}`);
-                if (!fetchResponse.ok) throw Error('Did not recieve expected data from Fetch')
-                const listItems = await fetchResponse.json();
-                console.log(listItems);
-                setItems(listItems);
-                sessionStorage.setItem(`UserReq: ${reqType}`, JSON.stringify(listItems));
-                setError(null);
-            } catch (err) {
-                setError(err.message);
-            } finally {
-                setIsLoading(false);
-            }
-        }
         setTimeout(() => {
-            fetchTableandListData();
+            FetchTableandListData({ JSON_URL, reqType, setItems, setError, setIsLoading });
         }, 2000)
-
     }, [reqType])
 
     //------------------------------------------------------------------------------------
@@ -395,21 +391,22 @@ const DataAnalysis = () => {
     //------------------------------------------------------------------------------------
     // Delete
 
-    const handleItemsDelete = (id) => {
-        const itemsList = items.filter(item => item.id !== id);
-        setItems(itemsList);
-        navigate('/');
+
+
+    const handleClearFormFilters = async (e) => {
+        e.preventDefault();
+
+        setOption_type('');
+        setOption_expire_date('');
+        setOptionTicker('');
+        setOption_strike_price('');
+        setOption_multiplier('');
+        setOption_timespan('');
+        setOption_from('');
+        setOption_To('');
     }
-    const handlePostsDelete = async (id) => {
-        try {
-            await postsApi.delete(`/posts/${id}`);
-            const postList = posts.filter(post => post.id !== id);
-            setPosts(postList);
-            navigate('/');
-        } catch (err) {
-            console.log(err.message);
-        }
-    }
+
+
     const handleUsersDelete = async (id) => {
         try {
             await usersApi.delete(`/users/${id}`);
@@ -420,51 +417,25 @@ const DataAnalysis = () => {
             console.log(err.message);
         }
     }
-    const handleSnapShotDelete = async (id) => {
-        try {
-            await snapShotApi.delete(`/snapShot/${id}`);
-            const snapShotList = snapShots.filter(snapShot => snapShot.request_id !== id);
-            setSnapShots(snapShotList);
 
-            navigate('/');
-        } catch (err) {
-            console.log(err.message);
-        }
-    }
 
     //------------------------------------------------------------------------------------
     // Handle Submits
 
-
-    const handlePostsSubmit = async (e) => {
+    const _handleFilterSubmit = async (e) => {
         e.preventDefault();
-        const id = posts.length ? posts[posts.length - 1].id + 1 : 1;
-        const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
-        const newPost = {
-            id,
-            title: postTitle,
-            dateTime,
-            body: postBody
-        };
-
-        try {
-            const response = await postsApi.post('/posts', newPost);
-            const allPosts = [...posts, response.data];
-            setPosts(allPosts);
-            setPostBody('');
-            setPostTitle('');
-            navigate('/');
-
-        } catch (err) {
-            if (err.response) {
-                console.log(err.response.data);
-                console.log(err.response.status);
-                console.log(err.response.headers);
-            } else {
-                console.log(`Error: ${err.message}`);
-            }
-        }
+        HandleFiltersSubmit(snapShotBaseUrl, filters, setFilters, setOptionTickerLink, setSnapShotLink, option_type, option_expire_date, option_ticker, option_strike_price, option_multiplier, option_timespan, option_from, option_to, option_ticker_link)
+        navigate('/');
     }
+
+    //---------------------------------------------------------------------------------
+    const _handleFilterEdit = async (e, id) => {
+        e.preventDefault();
+        HandleFilterEdit(id, editOption_type, editOption_expire_date, editOption_ticker, editOption_strike_price, editOption_multiplier, editOption_timespan, editOption_from, editOption_to, setEditOption_type, setEditOption_expire_date, setEditOptionTicker, setEditOption_strike_price, setEditOption_multiplier, setEditOption_timespan, setEditOption_from, setEditOption_to, setFilters, filters, setEditOptionTickerLink)
+        navigate('/');
+    }
+
+    //----------------------------------------------------------------------------------
     const handleUsersSubmit = async (e) => {
         e.preventDefault();
         const id = options.length ? options[options.length - 1].id + 1 : 1;
@@ -473,9 +444,9 @@ const DataAnalysis = () => {
         const newUser = {
             id,
             dateTime,
-            email: email,
             firstName: firstName,
             lastName: lastName,
+            email: email,
             selectedOptions: [{
                 request_id_1: selectedOptions[0],
                 request_id_2: selectedOptions[1],
@@ -504,150 +475,12 @@ const DataAnalysis = () => {
             }
         }
     }
+
+
     const handleSnapShotSubmit = async (e) => {
         e.preventDefault();
-        const id = options.length ? options[options.length - 1].id + 1 : 1;
-        const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
-
-        const newDayData = {
-            day: {
-                change: change,
-                change_percent: changePercent,
-                close: close,
-                high: high,
-                last_updated: daylastUpdated,
-                low: low,
-                open: open,
-                previous_close: previousClose,
-                volume: volume,
-                vwap: vwap
-            }
-        }
-
-        const newDetailsData = {
-            details: {
-                contract_type: contractType,
-                exercise_style: exerciseStyle,
-                expiration_date: expirationDate,
-                shares_per_contract: sharesPerContract,
-                strike_price: strikePrice,
-                ticker: detailsTicker
-            }
-        }
-
-        const newGreeksData = {
-            greeks: {
-                delta: delta,
-                gamma: gamma,
-                theta: theta,
-                vega: vega
-            }
-        }
-
-        const newLastQuoteData = {
-            last_quote: {
-                ask: ask,
-                askSize: askSize,
-                bid: bid,
-                bidSize: bidSize,
-                last_updated: LQlastUpdated,
-                midpoint: midpoint,
-                timeFrame: LQtimeFrame
-            }
-        }
-
-        const newUnderlyingAssetData = {
-            underlying_asset: {
-                change_to_break_even: changeToBreakEven,
-                last_updated: ULlastUpdated,
-                price: price,
-                ticker: ULTicker,
-                timeFrame: ULtimeFrame
-            }
-        }
-
-        const newSnapShot = {
-            request_id: request_id,
-            results: {
-                break_even_price: breakEvenPrice,
-                day: newDayData,
-                details: newDetailsData,
-                greeks: newGreeksData,
-                implied_volatility: impliedVolatility,
-                last_quote: newLastQuoteData,
-                open_interest: openInterest,
-                underlying_asset: newUnderlyingAssetData
-
-            },
-            status: status,
-            id: id,
-            ssLastCreated: dateTime,
-            ssLastEdited: dateTime
-        };
-        try {
-            // const response = await snapShotapi.post('/snapShot', newSnapShot);
-            const allSnapShots = [...snapShots, newSnapShot];
-            setSnapShots(allSnapShots);
-            setSnapShotArray(allSnapShots);
-
-            // Resetting State on the Form
-            setRequestId('');
-            setBreakEvenPrice('');
-            setDay('');
-            setChange('');
-            setChangePercent('');
-            setClose('');
-            setHigh('');
-            setDayLastUpdated('');
-            setLow('');
-            setOpen('');
-            setPreviousClose('');
-            setVolume('');
-            setVwap('');
-            setDetails('');
-            setContractType('');
-            setExerciseStyle('');
-            setExpirationDate('');
-            setSharesPerContract('');
-            setStrikePrice('');
-            setDetailsTicker('');
-            setimpliedVolatility('');
-            setGreeks('');
-            setDelta('');
-            setGamma('');
-            setTheta('');
-            setVega('');
-            setOpenInterest('');
-            setLastQuote('');
-            setAsk('');
-            setAskSize('');
-            setBid('');
-            setBidSize('');
-            setLQLastUpdated('');
-            setMidpoint('');
-            setLQTimeFrame('');
-            setUnderlyingAsset('');
-            setChangeToBreakEven('');
-            setULLastUpdated('');
-            setPrice('');
-            setULTicker('');
-            setSSlastCreated('');
-            setSSlastEdited('');
-            setULTimeFrame('');
-            navigate('/');
-
-        } catch (err) {
-            if (err.response) {
-                console.log(err.response.data);
-                console.log(err.response.status);
-                console.log(err.response.headers);
-
-            } else {
-                console.log(`Error: ${err.message}`);
-            }
-        }
+        HandleSnapShotSubmit({ snapShots, setSnapShots, setSnapShotArray, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, request_id, setRequestId, breakEvenPrice, setBreakEvenPrice, impliedVolatility, setImpliedVolatility, openInterest, setOpenInterest, change, setChange, changePercent, setChangePercent, close, setClose, high, setHigh, daylastUpdated, setDayLastUpdated, low, setLow, open, setOpen, previousClose, setPreviousClose, volume, setVolume, vwap, setVwap, contractType, setContractType, exerciseStyle, setExerciseStyle, expirationDate, setExpirationDate, sharesPerContract, setSharesPerContract, strikePrice, setStrikePrice, detailsTicker, setDetailsTicker, delta, setDelta, gamma, setGamma, theta, setTheta, vega, setVega, ask, setAsk, bid, setBid, askSize, setAskSize, bidSize, setBidSize, LQlast_updated, setLQlast_updated, midpoint, setMidpoint, LQtimeFrame, setLQtimeFrame, changeToBreakEven, setChangeToBreakEven, ULlastUpdated, setULlastUpdated, price, setPrice, ULTicker, setULTicker, ULtimeFrame, setULTimeFrame, status });
     }
-
     //-------------------------------------------------------------------------------
     // Handle Edits
 
@@ -677,140 +510,27 @@ const DataAnalysis = () => {
             }
         }
     }
-    const handlePostsEdit = async (id) => {
-        const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
-        const updatedPost = {
-            id,
-            Title: editPostTitle,
-            dateTime,
-            body: editPostBody
-        };
-        try {
-            const editPostsResponse = await postsApi.put(`/posts/${id}`, updatedPost);
-            setPosts(posts.map(post => post.id === id ? { ...editPostsResponse.data } : post));
-            setEditPostTitle('');
-            setEditPostBody('');
 
-        } catch (err) {
-            if (err.response) {
-                console.log(err.response.data);
-                console.log(err.response.status);
-                console.log(err.response.headers);
-
-            } else {
-                console.log(`Error: ${err.message}`);
-            }
-        }
-    }
-    const handleSnapShotEdit = async (id) => {
-        const dateTime = format(new Date(), 'MMMM dd, yyyy pp');
-
-        const updatedSnapShot = {
-            request_id: editRequest_id,
-            results: {
-                break_even_price: editBreakEvenPrice,
-                day: {
-                    change: editChange,
-                    change_percent: editChangePercent,
-                    close: editClose,
-                    high: editHigh,
-                    last_updated: editDayLastUpdated,
-                    low: editLow,
-                    open: editOpen,
-                    previous_close: editPreviousClose,
-                    volume: editVolume,
-                    vwap: editVwap
-                },
-                details: {
-                    contract_type: editContractType,
-                    exercise_style: editExerciseStyle,
-                    expiration_date: editExpirationDate,
-                    shares_per_contract: editSharesPerContract,
-                    strike_price: editStrikePrice,
-                    ticker: editDetailsTicker
-                },
-                greeks: {
-                    delta: editDelta,
-                    gamma: editGamma,
-                    theta: editTheta,
-                    vega: editVega
-                },
-                implied_volatility: editImpliedVolatility,
-                last_quote: {
-                    ask: editAsk,
-                    askSize: editAskSize,
-                    bid: editBid,
-                    bidSize: editBidSize,
-                    last_updated: editLQlastUpdated,
-                    midpoint: editMidpoint,
-                    timeFrame: editLQTimeFrame
-                },
-                open_interest: editOpenInterest,
-                underlying_asset: {
-                    change_to_break_even: editChangeToBreakEven,
-                    last_updated: editULlastUpdated,
-                    price: editPrice,
-                    ticker: editULTicker,
-                    timeFrame: editULTimeFrame
-                }
-            },
-            status: editStatus,
-            ssLastEdited: editssLastEdited
-
-        };
-        try {
-            const editSnapShotResponse = await snapShotApi.put(`/snapShots/${id}`, updatedSnapShot);
-            setSnapShots(snapShots.map(snapShot => snapShot.request_id === id ? { ...editSnapShotResponse.data } : snapShot));
-            // Set Edits back to empty String
-            setEditRequestId('');
-            setEditBreakEvenPrice('');
-            setEditDay('');
-            setEditChange('');
-            setEditChangePercent('');
-            setEditClose('');
-            setEditHigh('');
-            setEditDayLastUpdated('');
-            setEditLow('');
-            setEditOpen('');
-            setEditPreviousClose('');
-            setEditVolume('');
-            setEditVwap('');
-            setEditDetails('');
-            setEditContractType('');
-            setEditExerciseStyle('');
-            setEditExpirationDate('');
-            setEditSharesPerContract('');
-            setEditStrikePrice('');
-            setEditDetailsTicker('');
-            setEditGreeks('');
-            setEditDelta('');
-            setEditGamma('');
-            setEditTheta('');
-            setEditVega('');
-            setEditImpliedVolatility('');
-            setEditLastQuote('');
-            setEditAsk('');
-            setEditAskSize('');
-            setEditBid('');
-            setEditBidSize('');
-            setEditMidpoint('');
-            setEditLQTimeFrame('');
-            setEditOpenInterest('');
-            setEditUnderlyingAsset('');
-            setEditChangeToBreakEven('');
-            setEditULlastUpdated('');
-            setEditPrice('');
-            setEditULTicker('');
-            setEditULTimeFrame('');
-            setEditStatus('');
-            setEditSSlastEdited('');
-            navigate('/');
-        } catch (err) {
-            console.log(`Error: ${err.message}`);
-        }
+    const handlePostsEdit = async (e, id) => {
+        e.preventDefault();
+        HandlePostsEdit(id, posts, editPostTitle, editPostBody, setPosts, setEditPostBody, setEditPostTitle);
+        navigate('/');
     }
 
 
+    const handleSnapShotEdit = async (e, id) => {
+        e.preventDefault();
+        HandleSnapShotEdit(id,
+            snapShots, setSnapShots, setSnapShotArray, setEditDay, setEditDetails, setEditGreeks, setEditLastQuote, setEditUnderlyingAsset,
+            editRequest_id, setEditRequestId, editBreakEvenPrice, setEditBreakEvenPrice, editImpliedVolatility, setEditImpliedVolatility, editOpenInterest, setEditOpenInterest, editChange, setEditChange, editChangePercent, setEditChangePercent, editClose, setEditClose, editHigh, setEditHigh, editDayLastUpdated, setEditDayLastUpdated, editLow, setEditLow, editOpen, setEditOpen, editPreviousClose, setEditPreviousClose, editVolume, setEditVolume, editVwap, setEditVwap, editContractType, setEditContractType, editExerciseStyle, setEditExerciseStyle, editExpirationDate, setEditExpirationDate, editSharesPerContract, setEditSharesPerContract, editStrikePrice, setEditStrikePrice, editDetailsTicker, setEditDetailsTicker, editDelta, setEditDelta, editGamma, setEditGamma, editTheta, setEditTheta, editVega, setEditVega, editAsk, setEditAsk, editBid, setEditBid, editAskSize, setEditAskSize, editBidSize, setEditBidSize, editLQlast_updated, setEditLQlast_updated, editMidpoint, setEditMidpoint, editLQtimeFrame, setEditLQtimeFrame, editChangeToBreakEven, setEditChangeToBreakEven, editULlastUpdated, setEditULlastUpdated, editPrice, setEditPrice, editULticker, setEditULticker, editULtimeFrame, setEditULtimeFrame, editStatus, setEditStatus);
+
+    }
+
+    const HandlePostsSubmit = (e) => {
+        e.preventDefault();
+        HandlePostSubmit(posts, postTitle, postBody, setPosts, setPostBody, setPostTitle);
+        navigate('/');
+    }
 
 
     //-------------------------------------------------------------------------------
@@ -822,6 +542,33 @@ const DataAnalysis = () => {
                     setSearch={setSearch}
                     reqType={reqType}
                     setReqType={setReqType}
+                    popoverOpen={popoverOpen}
+                    setPopoverOpen={setPopoverOpen}
+                    setSnapShotLink={setSnapShotLink}
+                    snapShotBaseUrl={snapShotBaseUrl}
+                    _handleFilterSubmit={_handleFilterSubmit}
+                    handleClearFormFilters={handleClearFormFilters}
+                    _handleFilterEdit={_handleFilterEdit}
+                    editFilters={editFilters}
+                    setEditFilters={setEditFilters}
+                    option_type={option_type}
+                    setOption_type={setOption_type}
+                    option_expire_date={option_expire_date}
+                    setOption_expire_date={setOption_expire_date}
+                    option_ticker={option_ticker}
+                    setOptionTicker={setOptionTicker}
+                    option_strike_price={option_strike_price}
+                    setOption_strike_price={setOption_strike_price}
+                    option_ticker_link={option_ticker_link}
+                    setOptionTickerLink={setOptionTickerLink}
+                    option_multiplier={option_multiplier}
+                    setOption_multiplier={setOption_multiplier}
+                    option_timespan={option_timespan}
+                    setOption_timespan={setOption_timespan}
+                    option_from={option_from}
+                    setOption_from={setOption_from}
+                    option_to={option_to}
+                    setOption_To={setOption_To}
                 />}>
                 <Route index element={<CardHome
                     imgSrc={imgSrc}
@@ -831,7 +578,7 @@ const DataAnalysis = () => {
                 />} />
                 <Route path="post">
                     <Route index element={<NewCard
-                        handlePostsSubmit={handlePostsSubmit}
+                        HandlePostsSubmit={HandlePostsSubmit}
                         postTitle={postTitle}
                         setPostTitle={setPostTitle}
                         postBody={postBody}
@@ -848,7 +595,7 @@ const DataAnalysis = () => {
 
                     <Route path=":id" element={<PostedCard
                         posts={posts}
-                        handlePostsDelete={handlePostsDelete}
+                        HandlePostsDelete={HandlePostsDelete}
                     />} />
                 </Route>
 
@@ -967,22 +714,22 @@ const DataAnalysis = () => {
                             setEditBid={setEditBid}
                             editBidSize={editBidSize}
                             setEditBidSize={setEditBidSize}
-                            editLQlastUpdated={editLQlastUpdated}
-                            setEditLQlastUpdated={setEditLQlastUpdated}
+                            editLQlastUpdated={editLQlast_updated}
+                            setEditLQlastUpdated={setEditLQlast_updated}
                             editMidpoint={editMidpoint}
                             setEditMidpoint={setEditMidpoint}
-                            editLQTimeFrame={editLQTimeFrame}
-                            setEditLQTimeFrame={setEditLQTimeFrame}
+                            editLQTimeFrame={editLQtimeFrame}
+                            setEditLQTimeFrame={setEditLQtimeFrame}
                             editChangeToBreakEven={editChangeToBreakEven}
                             setEditChangeToBreakEven={setEditChangeToBreakEven}
                             editULlastUpdated={editULlastUpdated}
                             setEditULlastUpdated={setEditULlastUpdated}
                             editPrice={editPrice}
                             setEditPrice={setEditPrice}
-                            editULTicker={editULTicker}
-                            setEditULTicker={setEditULTicker}
-                            editULTimeFrame={editULTimeFrame}
-                            setEditULTimeFrame={setEditULTimeFrame}
+                            editULticker={editULticker}
+                            setEditULticker={setEditULticker}
+                            editULtimeFrame={editULtimeFrame}
+                            setEditULtimeFrame={setEditULtimeFrame}
                             editStatus={editStatus}
                             setEditStatus={setEditStatus}
                             editssLastEdited={editssLastEdited}
@@ -992,7 +739,7 @@ const DataAnalysis = () => {
                         <Route path=":request_id" element={
                             <PostedSnapShotCard
                                 snapShots={snapShots}
-                                handleSnapShotDelete={handleSnapShotDelete}
+                                HandleSnapShotDelete={HandleSnapShotDelete}
                             />} />
                     </Route>
                 </Route>

@@ -1,0 +1,14 @@
+{
+    "UserFilters": [{
+        "option_ticker": "TSLA",
+        "option_type": "C",
+        "option_expire_date": "2022-07-15",
+        "option_strike_price": "20.99",
+        "option_multiplier": "1",
+        "option_timespan": "day",
+        "option_from": "2022-07-01",
+        "option_to": "2022-07-10",
+        "id": "d9ff18dac69f55c218f69e4753706acd",
+        "dateTime": ""
+    }]
+}

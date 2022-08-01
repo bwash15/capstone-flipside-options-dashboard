@@ -1,81 +1,97 @@
-const express = require('express');
-const router = express.Router();
+const Day = require('../_model/Day');
+const { logServerEvents } = require('../_middleware/logServerEvents');
+const EventEmitter = require('events');
+class Emitter extends EventEmitter { };
+const myEmitter = new Emitter();
+myEmitter.on('dayControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
-const data = {
-    optionDays: require('../_model/optionDays.json'),
-    setOptionDays: function (data) {this.optionDays = data}    
+
+const getAllOptionDays = async (req, res) => {
+    // Checking if Day Data Exists
+    const days = await Day.find();
+    if (!days) {
+        myEmitter.emit(`dayControllerActivity`, `Day Data search returned no results: ${days}`, 'apiActivityLogs', 'getDay/dayController');
+        return res.status(204).json({ 'Message': 'No Day Data found ' })
+    };
+    myEmitter.emit(`dayControllerActivity`, `Day Data search successful: ${JSON.stringify(days)}`, 'apiActivityLogs', 'getDay/dayController');
+    res.json(days);
 }
 
-const getAllOptionDays = (req,res) => {
-    res.json(data.optionDays);
-}
-
-const createNewOptionDays = (req,res) => {
-    const newOptionDay = {
-        day_id: data.optionDays[data.optionDays.length - 1].day_id + 1 || 1,
-        change: req.body.change, 
-        change_percent: req.body.change_percent,
-        close: req.body.close, 
-        high: req.body.high, 
-        last_Updated: req.body.last_Updated,
-        low: req.body.low, 
-        open: req.body.open, 
-        previous_close: req.body.previous_close,
-        volume: req.body.volume, 
-        vwap: req.body.vwap   
+const createNewOptionDays = async (req, res) => {
+    if (!req?.body?.change || !req?.body?.change_percent || !req?.body?.close || !req?.body?.high || !req?.body?.last_Updated || !req?.body?.low || !req?.body?.open || !req?.body?.previous_close || !req?.body?.volume || !req?.body?.vwap) {
+        return res.status(400).json({ 'Message': ' Did not pull in all Day Data fields' });
     }
-    if (!newOptionDay.change || !newOptionDay.change_percent || !newOptionDay.close || !newOptionDay.high || !newOptionDay.last_Updated || !newOptionDay.low || !newOptionDay.open || !newOptionDay.previous_close || !newOptionDay.volume || !newOptionDay.vwap) {
-        return res.status(400).json({ 'message': ' Did not pull in all Option Days fields'});
+    try {
+        const result = await Day.create({
+            change: req.body.change,
+            change_percent: req.body.change_percent,
+            close: req.body.close,
+            high: req.body.high,
+            last_Updated: req.body.last_Updated,
+            low: req.body.low,
+            open: req.body.open,
+            previous_close: req.body.previous_close,
+            volume: req.body.volume,
+            vwap: req.body.vwap
+        });
+        // Sending a status 201 for success
+        res.status(201).json(result);
+    } catch (err) {
+        myEmitter.emit(`dayControllerActivity`, ` New Day Data Creation Failed: ${JSON.stringify(result)}`, 'apiActivityLogs', 'createNewDay/dayController');
+        console.error(err);
     }
-    data.setOptionDays([...data.optionDays, newOptionDay]);
-    res.status(201).json(data.optionDays);
 }
 
-const updateOptionDays = (req,res) => {
+const updateOptionDays = async (req, res) => {
+    // Checks if there exists an otpionDaysID
+    if (!req?.body?.id) {
+        return res.status(400).json({ 'message': 'Day Id parameter required, No Day Id Found - UpdateOptionDays' });
+    }
+    // Compares the Mongo auto generated _id to the ID that was passed in 
+    const DayData = await Day.findOne({ _id: req.body.id }).exec();
+    if (!DayData) {
+        // request may have been made properly -> it just doesn't exist
+        return res.status(204).json({ "Message": `Day Data ID ${req.body.id} not found - UpdateOptionDays` });
+    }
+    if (req.body?.change) DayData.change = req.body.change;
+    if (req.body?.change_percent) DayData.change_percent = req.body.change_percent;
+    if (req.body?.close) DayData.close = req.body.close;
+    if (req.body?.high) DayData.high = req.body.high;
+    if (req.body?.last_Updated) DayData.last_Updated = req.body.last_Updated;
+    if (req.body?.low) DayData.low = req.body.low;
+    if (req.body?.open) DayData.open = req.body.open;
+    if (req.body?.previous_close) DayData.previous_close = req.body.previous_close;
+    if (req.body?.volume) DayData.volume = req.body.volume;
+    if (req.body?.vwap) DayData.vwap = req.body.vwap;
+
+    // Save to DB
+    const result = await DayData.save();
+    // Send data in response
+    res.status(201).json(result);
+}
+
+const deleteOptionDays = async (req, res) => {
     // Checks the otpionDaysID
-    const optionDay = data.optionDays.find(opd => opd.day_id === parseInt(req.body.day_id));
-    if(!optionDay) {
-        return res.status(400).json({ "message": `optionDayID ${req.body.day_id} not found`});
+    // Checks if there exists an otpionDaysID
+    if (!req?.body?.id) {
+        return res.status(400).json({ 'Message': 'No Day Id Found' });
     }
-    if (req.body.change) optionDay.change = req.body.change;
-    if (req.body.change_percent) optionDay.change_percent = req.body.change_percent;
-    if (req.body.close) optionDay.close = req.body.close;
-    if (req.body.high) optionDay.high = req.body.high;
-    if (req.body.last_Updated) optionDay.last_Updated = req.body.last_Updated;
-    if (req.body.low) optionDay.low = req.body.low;
-    if (req.body.open) optionDay.open = req.body.open;
-    if (req.body.previous_close) optionDay.previous_close = req.body.previous_close;
-    if (req.body.volume) optionDay.volume = req.body.volume;
-    if (req.body.vwap) optionDay.vwap = req.body.vwap;
-
-    // filters the array and removes the existing user record from the array
-    const filteredArray = data.optionDays.filter(opd => opd.day_id !== parseInt(req.body.day_id));
-    const unsortedArray = [...filteredArray, optionDay];
-    // we need the array in chronologically ordered
-    // if the day_ID of a is greater than b, but we need a zero if they are EVEN as well so we add
-    // the chained ternary statement
-    data.setoptionDays(unsortedArray.sort((a, b) => a.day_id > b.day_id ? 1 : a.day_id < b.day_id ? -1 : 0));
-    res.json(data.optionDays);  
+    const DayData = await Day.findOne({ _id: req.body.id }).exec();
+    if (!DayData) {
+        return res.status(204).json({ "Message": `Day Data ID ${req.body.id} not found` })
+    }
+    const result = await DayData.deleteOne({ _id: req.body.id });
+    res.json(result);
 }
 
-const deleteOptionDays = (req,res) => {
+const getOptionDay = async (req, res) => {
     // Checks the otpionDaysID
-    const optionDay = data.optionDays.find(opd => opd.day_id === parseInt(req.body.day_id));
-    if(!optionDay) {
-        return res.status(400).json({ "message": `optionDaysID ${req.body.day_id} not found`});
+    if (!req?.params?.id) return res.status(400).json({ 'Message': 'No Day Id Found in URL' })
+    const DayData = await Day.findOne({ _id: req.params.id }).exec();
+    if (!DayData) {
+        return res.status(204).json({ "Message": `Day Data ID ${req.params.id} not found` });
     }
-    const filteredArray = data.optionDays.filter(opd => opd.day_id !== parseInt(req.body.day_id));
-    data.setOptionDays = [...filteredArray];
-    res.json(data.optionDays);
-}
-
-const getOptionDay = (req, res) => {
-    // Checks the otpionDaysID
-    const optionDay = data.optionDays.find(opd => opd.day_id === parseInt(req.params.day_id));
-    if(!optionDay) {
-        return res.status(400).json({ "message": `optionDaysID ${req.params.day_id} not found`});
-    }
-    res.json(optionDay);
+    res.json(DayData);
 }
 
 module.exports = {

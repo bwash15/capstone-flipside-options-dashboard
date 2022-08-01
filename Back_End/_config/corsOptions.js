@@ -6,7 +6,7 @@ const myEmitter = new Emitter();
 myEmitter.on('cors_errors', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 const corsOptions = {
-    origin: (origin, callback) => {                  // remove after dev
+    origin: (origin, callback) => {                  // remove [|| !origin] after dev
         if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
             callback(null, true);
         } else {

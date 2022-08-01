@@ -1,0 +1,68 @@
+{
+  "datahead": [{
+      "id": 1,
+      "timeCreated": "2022-06-27",
+      "timeLastEdited": "",
+      "creatorEmail": "jimSmith@gmail.com",
+      "selected": false,
+      "type": {
+        "items": true,
+        "users": false,
+        "posts": false,
+        "snapShots": false
+      }
+    },
+    {
+      "id": 2,
+      "timeCreated": "2022-06-27",
+      "timeLastEdited": "",
+      "creatorEmail": "jimSmith@gmail.com",
+      "selected": false,
+      "type": {
+        "items": false,
+        "users": true,
+        "posts": false,
+        "snapShots": false
+      }
+    },
+    {
+      "id": 3,
+      "timeCreated": "2022-06-27",
+      "timeLastEdited": "",
+      "creatorEmail": "jimSmith@gmail.com",
+      "selected": false,
+      "type": {
+        "items": false,
+        "users": false,
+        "posts": true,
+        "snapShots": false
+      }
+    },
+    {
+      "id": 4,
+      "timeCreated": "2022-06-27",
+      "timeLastEdited": "",
+      "creatorEmail": "jimSmith@gmail.com",
+      "selected": false,
+      "type": {
+        "items": true,
+        "users": false,
+        "posts": false,
+        "snapShots": true
+      }
+    },
+    {
+      "id": 5,
+      "timeCreated": "2022-06-27",
+      "timeLastEdited": "",
+      "creatorEmail": "jimSmith@gmail.com",
+      "selected": false,
+      "type": {
+        "items": true,
+        "users": false,
+        "posts": false,
+        "snapShots": false
+      }
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import snapShot from '../../api/snapShots';
 
 const EditSnapShot = ({
     snapShots, handleSnapShotEdit, editRequest_id, setEditRequest_id, editBreakEvenPrice, setEditBreakEvenPrice, editImpliedVolatility, setEditImpliedVolatility, editOpenInterest, setEditOpenInterest, editChange, setEditChange,
-    editChangePercent, setEditChangePercent, editClose, setEditClose, editHigh, setEditHigh, editDayLastUpdated, setEditDayLastUpdated, editLow, setEditLow, editOpen, setEditOpen, editPreviousclose, setEditPreviousClose, editVolume, setEditVolume, editVwap, setEditVwap, editContractType, setEditContractType, editExerciseStyle, setEditExerciseStyle, editExpirationDate, setEditExpirationDate, editSharesPerContract, setEditSharesPerContract, editStrikePrice, setEditStrikePrice, editDetailsTicker, setEditDetailsTicker, editDelta, setEditDelta, editGamma, setEditGamma, editTheta, setEditTheta, editVega, setEditVega, editAsk, setEditAsk, editAskSize, setEditAskSize, editBid, setEditBid, editBidSize, setEditBidSize, editLQlastUpdated, setEditLQlastUpdated, editMidpoint, setEditMidpoint, editLQTimeFrame, setEditLQTimeFrame, editChangeToBreakeven, setEditChangeToBreakEven, editULlastUpdated, setEditULlastUpdated, editPrice, setEditPrice, editULTicker, setEditULTicker, editULTimeFrame, setEditULTimeFrame, editStatus, setEditStatus,
+    editChangePercent, setEditChangePercent, editClose, setEditClose, editHigh, setEditHigh, editDayLastUpdated, setEditDayLastUpdated, editLow, setEditLow, editOpen, setEditOpen, editPreviousclose, setEditPreviousClose, editVolume, setEditVolume, editVwap, setEditVwap, editContractType, setEditContractType, editExerciseStyle, setEditExerciseStyle, editExpirationDate, setEditExpirationDate, editSharesPerContract, setEditSharesPerContract, editStrikePrice, setEditStrikePrice, editDetailsTicker, setEditDetailsTicker, editDelta, setEditDelta, editGamma, setEditGamma, editTheta, setEditTheta, editVega, setEditVega, editAsk, setEditAsk, editAskSize, setEditAskSize, editBid, setEditBid, editBidSize, setEditBidSize, editLQlast_updated, setEditLQlast_updated, editMidpoint, setEditMidpoint, editLQTimeFrame, setEditLQTimeFrame, editChangeToBreakeven, setEditChangeToBreakEven, editULlast_updated, setEditULlast_updated, editPrice, setEditPrice, editULTicker, setEditULTicker, editULTimeFrame, setEditULTimeFrame, editStatus, setEditStatus,
     editssLastEdited, setEditSSlastEdited
 
 }) => {
@@ -41,11 +41,11 @@ const EditSnapShot = ({
             setEditAskSize(snapShot.results.last_quote.ask_size);
             setEditBid(snapShot.results.last_quote.bid);
             setEditBidSize(snapShot.results.last_quote.bid_size);
-            setEditLQlastUpdated(snapShot.results.last_quote.last_updated);
+            setEditLQlast_updated(snapShot.results.last_quote.last_updated);
             setEditMidpoint(snapShot.results.last_quote.midpoint);
             setEditLQTimeFrame(snapShot.results.last_quote.timeFrame);
             setEditChangeToBreakEven(snapShot.results.underlying_asset.change_to_break_even);
-            setEditULlastUpdated(snapShot.results.underlying_asset.last_updated);
+            setEditULlast_updated(snapShot.results.underlying_asset.last_updated);
             setEditPrice(snapShot.results.underlying_asset.price);
             setEditULTicker(snapShot.results.underlying_asset.ticker);
             setEditULTimeFrame(snapShot.results.underlying_asset.timeFame);
@@ -53,7 +53,7 @@ const EditSnapShot = ({
             setEditSSlastEdited(snapShot.ssLastEdited);
 
         }
-    }, [snapShot, setEditRequest_id, setEditBreakEvenPrice, setEditImpliedVolatility, setEditOpenInterest, setEditChange, setEditChangePercent, setEditClose, setEditHigh, setEditDayLastUpdated, setEditLow, setEditOpen, setEditPreviousClose, setEditVolume, setEditVwap, setEditContractType, setEditExerciseStyle, setEditExpirationDate, setEditSharesPerContract, setEditStrikePrice, setEditDetailsTicker, setEditDelta, setEditGamma, setEditTheta, setEditVega, setEditAsk, setEditAskSize, setEditBid, setEditBidSize, setEditLQlastUpdated, setEditMidpoint, setEditLQTimeFrame, setEditChangeToBreakEven, setEditULlastUpdated, setEditPrice, setEditULTicker, setEditULTimeFrame, setEditStatus, setEditSSlastEdited])
+    }, [snapShot, setEditRequest_id, setEditBreakEvenPrice, setEditImpliedVolatility, setEditOpenInterest, setEditChange, setEditChangePercent, setEditClose, setEditHigh, setEditDayLastUpdated, setEditLow, setEditOpen, setEditPreviousClose, setEditVolume, setEditVwap, setEditContractType, setEditExerciseStyle, setEditExpirationDate, setEditSharesPerContract, setEditStrikePrice, setEditDetailsTicker, setEditDelta, setEditGamma, setEditTheta, setEditVega, setEditAsk, setEditAskSize, setEditBid, setEditBidSize, setEditLQlast_updated, setEditMidpoint, setEditLQTimeFrame, setEditChangeToBreakEven, setEditULlast_updated, setEditPrice, setEditULTicker, setEditULTimeFrame, setEditStatus, setEditSSlastEdited])
 
     return (
 
@@ -300,8 +300,8 @@ const EditSnapShot = ({
                             id="lastQuoteLastUpdated"
                             type="text"
                             required
-                            value={editLQlastUpdated}
-                            onChange={(e) => setEditLQlastUpdated(e.target.value)}
+                            value={editLQlast_updated}
+                            onChange={(e) => setEditLQlast_updated(e.target.value)}
                         />
                         <label htmlFor='lastQuoteMidpoint'>Last Quote Midpoint:</label>
                         <input
@@ -332,8 +332,8 @@ const EditSnapShot = ({
                             id="ULlastUpdated"
                             type="text"
                             required
-                            value={editULlastUpdated}
-                            onChange={(e) => setEditULlastUpdated(e.target.value)}
+                            value={editULlast_updated}
+                            onChange={(e) => setEditULlast_updated(e.target.value)}
                         />
                         <label htmlFor='ULPrice'>Underlying Asset Price:</label>
                         <input

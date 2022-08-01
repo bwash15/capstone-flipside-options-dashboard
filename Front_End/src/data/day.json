@@ -1,0 +1,14 @@
+{
+    "day": [{
+        "change": 0.0,
+        "change_percent": 0.25,
+        "close": 20.00,
+        "high": 21.54,
+        "last_Updated": "20220623",
+        "low": 18.65,
+        "open": 20.45,
+        "previous_close": 17.89,
+        "volume": 37,
+        "vwap": 21.6854
+    }]
+}

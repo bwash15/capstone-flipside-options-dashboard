@@ -1,0 +1,10 @@
+{
+    "details": [{
+        "contract_type": "call",
+        "exercise_style": "american",
+        "expiration_date": "2023-06-16",
+        "shares_per_contract": 100,
+        "strike_price": 150,
+        "ticker": "O:AAPL230616C00150000"
+    }]
+}

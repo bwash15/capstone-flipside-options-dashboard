@@ -1,4 +1,6 @@
-const snapShotSchema = require('../schema/SnapShotSchema');
+const fetchOption = require("isomorphic-fetch");
+const ApiPullController = require("../_controllers/API_pullController")
+const snapShots = require('../schema/SnapShotSchema');
 const day = require('../schema/day');
 const details = require('../schema/details');
 const greeks = require('../schema/greeks');
@@ -9,6 +11,15 @@ const logServerEvents = require('../logServerEvents')
 
 
 const handleHeartbeat = async (req, res) => {
+
+
+
+
+
+
+
+
+
 
     // pulling out the separate fields from the body of the request
     const {
@@ -36,7 +47,7 @@ const handleHeartbeat = async (req, res) => {
     if (!underlying_asset) return res.status(400).json({ 'message': 'No Underlying Interest found' });
 
     // checks for duplicate request_ids
-    const duplicate = await snapShotSchema.findOne({ request_id: snapShotSchema }).exec();
+    const duplicate = await snapShotSchema.findOne({ _id: req.body.re }).exec();
     // throw 409 if a duplicate is found
     if (duplicate) return res.sendStatus(409); // 409 stands for Conflict
 

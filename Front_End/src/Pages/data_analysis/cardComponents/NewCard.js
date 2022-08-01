@@ -1,10 +1,10 @@
 import React from 'react'
 
-const NewCard = ({ handlePostsSubmit, postTitle, setPostTitle, postBody, setPostBody, }) => {
+const NewCard = ({ HandlePostsSubmit, postTitle, setPostTitle, postBody, setPostBody, }) => {
     return (
         <main className='NewPost'>
             <h2>Take A Note...</h2>
-            <form className='newPostForm' onSubmit={handlePostsSubmit}>
+            <form className='newPostForm' onSubmit={HandlePostsSubmit}>
                 <label htmlFor='postTitle'>Title:</label>
                 <input
                     id="postTitle"

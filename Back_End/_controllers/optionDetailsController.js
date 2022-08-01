@@ -1,75 +1,88 @@
-const express = require('express');
-const router = express.Router();
+const Details = require('../_model/Details');
+const { logServerEvents } = require('../_middleware/logServerEvents');
+const EventEmitter = require('events');
+class Emitter extends EventEmitter { };
+const myEmitter = new Emitter();
+myEmitter.on('detailsControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
-const data = {
-    optionDetails: require('../_model/optionDetails.json'),
-    setOptionDetails: function (data) {this.optionDetails = data}
+const getAllOptionDetails = async (req, res) => {
+    // Checking if Details Data Exists
+    const details = await Details.find();
+    if (!details) {
+        myEmitter.emit(`detailsControllerActivity`, `Details Data search returned no results: ${details}`, 'apiActivityLogs', 'getDetails/detailsController');
+        return res.status(204).json({ 'Message': 'No Details Data found ' })
+    };
+    myEmitter.emit(`detailsControllerActivity`, `details Data search successful: ${JSON.stringify(details)}`, 'apiActivityLogs', 'getDetails/detailsController');
+    res.json(details);
 }
 
-const getAllOptionDetails = (req,res) => {
-    res.json(data.optionDetails);
-}
-
-const createNewOptionDetails = (req,res) => {
-    const newOptionDetails = {
-        details_id: data.optionDetails[data.optionDetails.length - 1].details_id + 1 || 1,
-        contract_type: req.body.contract_type,
-        exercise_style: req.body.exercise_style,
-        expiration_date: req.body.expiration_date,
-        shares_per_contract: req.body.shares_per_contract,
-        strike_price: req.body.strike_price,
-        ticker: req.body.ticker
+const createNewOptionDetails = async (req, res) => {
+    if (!req?.body?.contract_type || !req?.body?.exercise_style || !req?.body?.expiration_date || !req?.body?.shares_per_contract || !req?.body?.strike_price || !req?.body?.ticker) {
+        return res.status(400).json({ 'Message': ' Did not pull in all Details Data fields' });
     }
-
-    if (!newOptionDetails.contract_type || !newOptionDetails.exercise_style || !newOptionDetails.expiration_date || !newOptionDetails.shares_per_contract || !newOptionDetails.strike_price || !newOptionDetails.ticker){
-        return res.status(400).json({ 'message': ' Did not pull in all Options Details fields'});
+    try {
+        const result = await Details.create({
+            contract_type: req.body.contract_type,
+            exercise_style: req.body.exercise_style,
+            expiration_date: req.body.expiration_date,
+            shares_per_contract: req.body.shares_per_contract,
+            strike_price: req.body.strike_price,
+            ticker: req.body.ticker
+        })
+        // Sending a status 201 for success
+        res.status(201).json(result);
+    } catch (err) {
+        myEmitter.emit(`detailsControllerActivity`, ` New Details Data Creation Failed: ${JSON.stringify(day)}`, 'apiActivityLogs', 'getDetails/detailsController');
+        console.error(err);
     }
-
-    data.setOptionDetails([...data.optionDetails, newOptionDetails]);
-    res.status(201).json(data.optionDetails);
 }
 
-const updateOptionDetails = (req,res) => {
-    // Checks the otpionDaysID
-    const optionDetails = data.optionDetails.find(opd => opd.optionDetails === parseInt(req.body.optionDetails.details_id));
-    if(!optionDetails) {
-        return res.status(400).json({ "message": `optionDetailsID ${req.body.optionDetails.details_id} Not Found`});
+const updateOptionDetails = async (req, res) => {
+    // Checks if there exists an Details ID
+    if (!req?.body?.id) {
+        return res.status(400).json({ 'message': 'Details Id parameter required, No Day Id Found' });
     }
-    if (req.body.contract_type) optionDetails.contract_type = req.body.contract_type;
-    if (req.body.exercise_style) optionDetails.exercise_style = req.body.exercise_style;
-    if (req.body.expiration_date) optionDetails.expiration_date = req.body.expiration_date;
-    if (req.body.shares_per_contract) optionDetails.shares_per_contract = req.body.shares_per_contract;
-    if (req.body.strike_price) optionDetails.strike_price = req.body.strike_price;
-    if (req.body.ticker) optionDetails.ticker = req.body.ticker;
+    // Compares the auto generated _id to the ID that was passed in 
+    const DetailsData = await Details.findOne({ _id: req.body.id }).exec();
+    if (!DetailsData) {
+        // request may have been made properly -> it just doesn't exist
+        return res.status(204).json({ "Message": `Details Data ID ${req.body.id} not found` });
+    }
+    if (req.body?.contract_type) DetailsData.contract_type = req.body.contract_type;
+    if (req.body?.exercise_style) DetailsData.exercise_style = req.body.exercise_style;
+    if (req.body?.expiration_date) DetailsData.expiration_date = req.body.expiration_date;
+    if (req.body?.shares_per_contract) DetailsData.shares_per_contract = req.body.shares_per_contract;
+    if (req.body?.strike_price) DetailsData.strike_price = req.body.strike_price;
+    if (req.body?.ticker) DetailsData.ticker = req.body.ticker;
 
-    const filteredArray = data.optionDetails.filter(opd => opd.details_id !== parseInt(req.body.details_id));
-    const unsortedArray = [...filteredArray, optionDetails];
-        // we need the array in chronologically ordered
-    // if the details_id of a is greater than b, but we need a zero if they are EVEN as well so we add
-    // the chained ternary statement
-    data.setoptionDetails(unsortedArray.sort((a, b) => a.details_id > b.details_id ? 1 : a.details_id < b.details_id ? -1 : 0));
-    res.json(data.optionDetails);
+    // Save to DB
+    const result = await DetailsData.save();
+    // Send data in response
+    res.status(201).json(result);
 }
 
-const deleteOptionDetails = (req,res) => {
-        // Checks the otpionDaysID
-        const optionDetails = data.optionDetails.find(opd => opd.details_id === parseInt(req.body.details_id));
-        if(!optionDetails) {
-            return res.status(400).json({ "message": `optionDetailsID ${req.body.details_id} Not Found`});
-        }
-        const filteredArray = data.optionDetails.filter(opd => opd.details_id !== parseInt(req.body.details_id));
-        data.setOptionDetails = [...filteredArray];
-        res.json(data.optionDetails);
+const deleteOptionDetail = async (req, res) => {
+    // Checks the Details ID
+    if (!req?.body?.id) {
+        return res.status(400).json({ 'Message': 'No Details Id Found' });
+    }
+    const DetailsData = await Details.findOne({ _id: req.body.id }).exec();
+    if (!DetailsData) {
+        return res.status(204).json({ "Message": `Details Data ID ${req.body.id} not found` })
+    }
+    const result = await DetailsData.deleteOne({ _id: req.body.id })
+    res.json(result);
 }
 
 
-const getOptionDetails = (req, res) => {
-        // Checks the otpionDaysID
-        const optionDetails = data.optionDetails.find(opd => opd.details_id === parseInt(req.body.details_id));
-        if(!optionDetails) {
-            return res.status(400).json({ "message": `optionDetailsID ${req.body.details_id} Not Found`});
-        }
-        res.json(optionDetails);
+const getOptionDetail = async (req, res) => {
+    // Checks the Details ID
+    if (!req?.params?.id) return res.status(400).json({ 'Message': 'No Details Id Found in URL' })
+    const DetailsData = await Details.findOne({ _id: req.params.id }).exec();
+    if (!DetailsData) {
+        return res.status(204).json({ "Message": `Details Data ID ${req.params.day_id} not found` });
+    }
+    res.json(DetailsData);
 }
 
 
@@ -77,7 +90,7 @@ module.exports = {
     getAllOptionDetails,
     createNewOptionDetails,
     updateOptionDetails,
-    deleteOptionDetails,
-    getOptionDetails
+    deleteOptionDetail,
+    getOptionDetail
 }
 
