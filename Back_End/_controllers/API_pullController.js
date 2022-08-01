@@ -5,7 +5,9 @@ const EventEmitter = require('events');
 class Emitter extends EventEmitter { };
 const myEmitter = new Emitter();
 const fetchOption = require("isomorphic-fetch");
-const { isReadable } = require('stream');
+
+
+
 myEmitter.on('api_pullControllerActivity', (msg, path, filename) => logServerEvents(msg, path, filename));
 
 
@@ -46,14 +48,15 @@ const updateFilters = async (req, res) => {
 
 
 //  Use setInterval() to set the heartbeat for the API pull
-const HandleAPIpull = async (req, res) => {
+const HandleAPIpull = async (req, res, next) => {
   if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link || !req?.body?.multiplier || !req?.body?.timespan || !req?.body?.option_from || !req?.body?.option_to) {
     console.log('Not all filters are filled in')
     return res.status(400).json({ 'Message': ' Not all filters are filled in' });
   }
+  /** Define the parameters for the request URL **/
 
   try {
-    const aggregate_result = await Filter.create({
+    const aggregate_result = await Filters.create({
       option_type: req.body.optionType,                             //C for call P for put
       option_expire_date: req.body.option_expire_date,                 // YearMonthDay
       option_ticker: req.body.option_ticker,          //nasdaq name for the company -> exela but the nasdaq name is XELA
@@ -64,7 +67,7 @@ const HandleAPIpull = async (req, res) => {
       from: req.body.option_from,                          //start of the timeframe to look at
       to: req.body.option_to
     })
-    const snapShot_result = await Filter.create({
+    const snapShot_result = await Filters.create({
       option_type: req.body.option_type,                             //C for call P for put
       option_expire_date: req.body.option_expire_date,                 // YearMonthDay
       option_ticker: req.body.option_ticker,          //nasdaq name for the company -> exela > nasdaq name is XELA
@@ -87,6 +90,7 @@ const HandleAPIpull = async (req, res) => {
 
     SetAggregateLink(aggregate_baseUrl, aggregate_link);
     HandleAggregatePull(aggregate_link);
+    next();
 
   } catch (err) {
     if (err.response) {
@@ -146,6 +150,7 @@ const HandleAggregatePull = async ({ aggregate_link }) => {
       console.log('Error message: ', error);
     });
 }
+
 
 const SetSnapShotLink = ({ req, res, snapshot_baseUrl, snapshot_link }) => {
   if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link) {

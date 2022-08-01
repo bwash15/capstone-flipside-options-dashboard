@@ -2,7 +2,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const aggregateSchema = new Schema({
-    adjusted: true,
+    adjusted: {
+        type: Boolean,
+        default: true
+    },
     count: {
         Number,
         default: 0.0
@@ -11,7 +14,10 @@ const aggregateSchema = new Schema({
         Number,
         default: 0.0
     },
-    request_id: " ",
+    request_id: {
+        type: String,
+        default: ""
+    },
     results: [{
         c: {
             Number,

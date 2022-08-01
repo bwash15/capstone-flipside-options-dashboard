@@ -227,7 +227,7 @@ const CreateNewSnapShotAPIpull = async (req, res) => {
           timeframe: req.body.results.last_quote.timeframe
         },
         open_interest: req.body.results.open_interest,
-        underlying_assetschema: {
+        underlying_asset: {
           change_to_break_even: req.body.results.underlying_assetschema.change_to_break_even,
           last_updated: req.body.results.underlying_assetschema.last_updated,
           price: req.body.results.underlying_assetschema.price,
@@ -237,7 +237,8 @@ const CreateNewSnapShotAPIpull = async (req, res) => {
       },
       status: req.body.status
     });
-    res.status(201).json(newSnapShotAPIpull);
+    const result = await newSnapShotAPIpull.save();
+    res.status(201).json(result);
   } catch (err) {
     myEmitter.emit(`snapShotControllerActivity`, ` New SnapShot Data Creation Failed: ${newSnapShotAPIpull}`, 'apiActivityLogs', 'createNewsnapShot/snapShotController');
     console.error(err);

@@ -3,10 +3,12 @@ const { Schema } = mongoose;
 
 
 const oSS_schema = new Schema({
-    request_id: String,
+    request_id: {
+        type: String
+    },
     results: {
         break_even_price: Number,
-        daySchema: [{
+        day: [{
             change: Number,
             change_percent: Number,
             close: Number,
@@ -18,7 +20,7 @@ const oSS_schema = new Schema({
             volume: Number,
             vwap: Number
         }],
-        detailsSchema: [{
+        details: [{
             contractType: String,
             exercise_style: String,
             expiration_date: Number,
@@ -26,7 +28,7 @@ const oSS_schema = new Schema({
             strike_rice: Number,
             ticker: String
         }],
-        greeksSchema: [{
+        greeks: [{
             delta: Number,
             gamma: Number,
             theta: Number,
@@ -44,7 +46,7 @@ const oSS_schema = new Schema({
             timeframe: String
         }],
         open_interest: Number,
-        underlying_assetschema: [{
+        underlying_asset: [{
             change_to_break_even: Number,
             last_updated: Number,
             price: Number,
@@ -55,11 +57,6 @@ const oSS_schema = new Schema({
     status: String
 });
 
-var subAPIpullSchema = new mongoose.Schema({
-    child: {
-        type: oSS_schema,
-        default: () => ({})
-    }
-});
-module.exports = mongoose.model('subOptionsAPIpulldoc', subAPIpullSchema);
+
+
 module.exports = mongoose.model('OptionsAPIpull', oSS_schema);
