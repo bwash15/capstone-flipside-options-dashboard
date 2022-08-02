@@ -69,7 +69,7 @@ const GetTopTen = async () => {
 
 const GetOptions = async (req, res) => {
               
-    const snapshot_link = `https://api.polygon.io/v3/reference/options/contracts?expired=false&limit=100&sort=underlying_ticker&apiKey=${process.env.API_KEY}`;
+    const snapshot_link = `https://api.polygon.io/v3/reference/options/contracts?expired=false&limit=10&sort=underlying_ticker&apiKey=${process.env.API_KEY}`;
     console.log(snapshot_link);
     const response = await fetchOption(snapshot_link);
     const data = await response.json();
@@ -104,7 +104,7 @@ const GetOptions = async (req, res) => {
     {
         console.log('====NEXT PAGE====')
         // Uncomment line below to pull all api 
-        //GetNextOptions(data.next_url)
+        GetNextOptions(data.next_url)
     }
 
 }
