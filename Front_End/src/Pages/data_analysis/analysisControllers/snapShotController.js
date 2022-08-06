@@ -1,4 +1,4 @@
-import snapShotApi from '../../data_analysis/api/snapShots';
+import snapShotApi from '../api/snapShots';
 import { useNavigate } from 'react-router-dom';
 
 

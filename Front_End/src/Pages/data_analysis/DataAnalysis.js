@@ -17,8 +17,8 @@ import MissingPage from './MissingPage';
 import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
 import EditSnapShot from './cardComponents/snapShotCards/EditSnapShot';
-import { FetchData } from '../../utils/loadData'
-import { PostAllDataToDB } from '../utils/postData';
+import { loadAppData } from './utils/loadData'
+import { PostAllDataToDB } from './utils/postData';
 import { FetchTableandListData } from './analysisControllers/tableDataController';
 import { HandlePostsDelete, HandlePostsEdit, HandlePostSubmit, HandleGetPosts } from './analysisControllers/postsController';
 import { HandleSnapShotDelete, HandleSnapShotSubmit, HandleSnapShotEdit } from './analysisControllers/snapShotController';
@@ -44,6 +44,7 @@ const DataAnalysis = () => {
     const [seconds, setSeconds] = useState(0);
     const clockId = useRef();
     const totalAppRunTime = useRef(0);
+
     const [reqType, setReqType] = useState('posts');                               // Hardcoded Default <<
     const [search, setSearch] = useState('');
     const [searchResults, setSearchResults] = useState([]);
@@ -215,9 +216,6 @@ const DataAnalysis = () => {
     }]);
 
     const [status, setStatus] = useState([]);
-    const [ssLastCreated, setSSlastCreated] = useState([]);
-    const [ssLastEdited, setSSlastEdited] = useState([]);
-
     const [snapShots, setSnapShots] = useState([{
         request_id: request_id,
         results: {
@@ -244,18 +242,31 @@ const DataAnalysis = () => {
     const [option_from, setOption_from] = useState("20220620");
     const [option_to, setOption_To] = useState("20220623");
 
+    // snap filters
+    const [snap_option_type, setSnapOptionType] = useState('');
+    const [snap_option_expire_date, setSnapOptionExpireDate] = useState('');
+    const [snap_option_ticker, setSnapOptionTicker] = useState('');
+    const [snap_option_strike_price, setSnapOptionStrikePrice] = useState('');
+    const [snap_option_ticker_link, setSnapOptionTickerLink] = useState(`O:${snap_option_ticker}${snap_option_expire_date}${snap_option_type}${snap_option_strike_price}`);
+
+    const [edit_snap_option_type, setEditSnapOptionType] = useState('');
+    const [edit_snap_option_expire_date, setEditSnapOptionExpireDate] = useState('');
+    const [edit_snap_option_ticker, setEditSnapOptionTicker] = useState('');
+    const [edit_snap_option_strike_price, setEditSnapOptionStrikePrice] = useState('');
+    const [edit_snap_option_ticker_link, setEditSnapOptionTickerLink] = useState(`O:${edit_snap_option_ticker}${edit_snap_option_expire_date}${edit_snap_option_type}${edit_snap_option_strike_price}`);
+
     const [apiKey, setApiKey] = useState(process.env.api_key);
     const [editOption_type, setEditOption_type] = useState("");
     const [editOption_expire_date, setEditOption_expire_date] = useState("");
     const [editOption_ticker, setEditOptionTicker] = useState("");
     const [editOption_strike_price, setEditOption_strike_price] = useState();
-    const [editOption_ticker_link, setEditOptionTickerLink] = useState(`O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`);
+    const [editOption_ticker_link, setEditOptionTickerLink] = useState(`O:${editOption_ticker}${editOption_expire_date}${editOption_type}${editOption_strike_price}`);
     const [editOption_multiplier, setEditOption_multiplier] = useState(0);
     const [editOption_timespan, setEditOption_timespan] = useState("");
     const [editOption_from, setEditOption_from] = useState("");
     const [editOption_to, setEditOption_to] = useState("");
 
-    const [editApiKey, setEditApiKey] = useState(process.env.api_key);
+    const [editApiKey, setEditApiKey] = useState(process.env.REACT_APP_API_KEY);
     const [filters, setFilters] = useState([{
         option_type: option_type,
         option_expire_date: option_expire_date,
@@ -277,6 +288,20 @@ const DataAnalysis = () => {
         editOption_timespan: editOption_timespan,
         editOption_from: editOption_from,
         editOption_to: editOption_to
+    }]);
+    const [snapFilters, setSnapFilters] = useState([{
+        option_type: snap_option_type,
+        option_expire_date: snap_option_expire_date,
+        option_ticker: snap_option_ticker,
+        option_strike_price: snap_option_strike_price,
+        option_ticker_link: `O:${snap_option_ticker}${snap_option_expire_date}${snap_option_type}${snap_option_strike_price}`,
+    }]);
+    const [editSnapFilters, setEditSnapFilters] = useState([{
+        edit_snap_option_type: editOption_type,
+        edit_snap_option_expire_date: editOption_expire_date,
+        edit_snap_option_ticker: editOption_ticker,
+        edit_snap_option_strike_price: editOption_strike_price,
+        edit_snap_option_ticker_link: `O:${editOption_ticker}${editOption_expire_date}${editOption_type}${editOption_strike_price}`,
     }]);
 
     const [snapShotBaseUrl, setApiBaseUrl] = useState('https://api.polygon.io/v3/snapshot/options/');
@@ -358,7 +383,7 @@ const DataAnalysis = () => {
 
     useEffect(() => {
         // -----  GET calls  -------------
-        FetchData({ setAggregates, setPosts, setSnapShots, setFilters, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options, snapShotLink });
+        loadAppData({ setAggregates, setPosts, setSnapShots, setFilters, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options, snapShotLink });
     }, [])
 
     //-------------  Loading From User Selected buttons Link from API  ---------------
@@ -526,7 +551,7 @@ const DataAnalysis = () => {
 
     }
 
-    const HandlePostsSubmit = (e) => {
+    const handlePostsSubmit = (e) => {
         e.preventDefault();
         HandlePostSubmit(posts, postTitle, postBody, setPosts, setPostBody, setPostTitle);
         navigate('/');
@@ -578,7 +603,7 @@ const DataAnalysis = () => {
                 />} />
                 <Route path="post">
                     <Route index element={<NewCard
-                        HandlePostsSubmit={HandlePostsSubmit}
+                        handlePostsSubmit={handlePostsSubmit}
                         postTitle={postTitle}
                         setPostTitle={setPostTitle}
                         postBody={postBody}

@@ -1,11 +1,13 @@
-import { dayApi } from '../../data_analysis/api/analysis_axios';
+import dayApi from '../api/day';
 import { useNavigate } from 'react-router-dom';
+import { json } from 'express';
 
 
 const HandleGetDays = async ({ setDay }) => {
     try {
-        const DayResponse = await dayApi.get('/day');
+        const DayResponse = await dayApi.get('day');
         if (DayResponse && DayResponse.data) setDay(DayResponse.data);
+        return DayResponse;
     } catch (err) {
         if (err.response) {
             console.log(err.response.data);

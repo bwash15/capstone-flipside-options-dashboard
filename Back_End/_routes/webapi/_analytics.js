@@ -6,7 +6,7 @@ const ROLES_LIST = require('../../_config/roles_list');
 const verifyRoles = require('../../_middleware/verifyRoles');
 
 router.route('/')
-    .get(loadAnalytics.getFilters)
+
 // for the POST tranactions you have the PARAMS  
 // that come in with the request and you can access them 
 // with the   

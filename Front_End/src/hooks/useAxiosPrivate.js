@@ -19,9 +19,6 @@ const useAxiosPrivate = () => {
                 return config;
             }, (error) => Promise.reject(error)
         );
-
-
-
         // response interceptor 
         const responseIntercept = axiosPrivate.interceptors.response.use(
             response => response,
@@ -37,20 +34,13 @@ const useAxiosPrivate = () => {
                 return Promise.reject(error);
             }
         );
-
-
-
-
         return () => {
             // Removes the interceptors so they don't accumulate
             axiosPrivate.interceptors.request.eject(requestIntercept);
             axiosPrivate.interceptors.response.eject(responseIntercept);
         }
     }, [auth, refresh])
-
-
     return axiosPrivate;
-
 }
 export default useAxiosPrivate;
 

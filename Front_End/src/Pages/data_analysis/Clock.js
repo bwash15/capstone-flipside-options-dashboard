@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 const Clock = ({ clock, setClock, setSeconds, seconds, lastClockUpdate, setLastClockUpdate, clockId, totalAppRunTime }) => {
 
     useEffect(() => {
-        AppClock()
+        startClock();
     }, [])
 
     const AppClock = () => {
@@ -16,6 +16,7 @@ const Clock = ({ clock, setClock, setSeconds, seconds, lastClockUpdate, setLastC
         s = CheckTime(s);
         let time = h + ":" + m + ":" + s;
         setClock(time);
+
     }
 
     const CheckTime = (i) => {
@@ -38,12 +39,13 @@ const Clock = ({ clock, setClock, setSeconds, seconds, lastClockUpdate, setLastC
         clockId.current = setInterval(() => {
             totalAppRunTime.current++;
             setSeconds(prev => prev + 1);
-            setLastClockUpdate(clock)
             AppClock();
+            setLastClockUpdate(clock);
         }, 1000)
     }
 
     const stopClock = () => {
+        recordLastUpdateTime();
         clearInterval(clockId.current);
         clockId.current = 0;
 
@@ -61,7 +63,7 @@ const Clock = ({ clock, setClock, setSeconds, seconds, lastClockUpdate, setLastC
     return (
         <section>
             <p>App Clock: {clock}</p>
-            <p>Last Clock Update: {lastClockUpdate}</p>
+            <p>Last Clock Update: {handleLastClockUpdate}</p>
             <p>Total App Run Time: {totalAppRunTime.current}</p>
             <p>Current App Run Time(seconds): {seconds}</p>
             <p>Number of Clock Updates: {clockId.current}</p>

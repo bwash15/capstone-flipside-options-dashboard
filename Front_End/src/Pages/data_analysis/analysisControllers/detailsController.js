@@ -1,10 +1,10 @@
-import { detailsApi } from '../../data_analysis/api/analysis_axios';
+import detailsApi from '../../data_analysis/api/details';
 import { useNavigate } from 'react-router-dom';
 
 
 const HandleGetDetails = async ({ setDetails }) => {
     try {
-        const DetailsResponse = await detailsApi.get('/analysis_axios');
+        const DetailsResponse = await detailsApi.get('/details');
         if (DetailsResponse && DetailsResponse.data) setDetails(DetailsResponse.data);
     } catch (err) {
         if (err.response) {

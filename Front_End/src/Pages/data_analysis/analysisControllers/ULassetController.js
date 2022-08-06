@@ -1,4 +1,4 @@
-import underlyingAssetApi from '../../data_analysis/api/underlying_asset';
+import underlyingAssetApi from '../api/underlying_asset';
 import { useNavigate } from 'react-router-dom';
 
 const HandleGetUnderlyingAsset = async ({ setUnderlyingAsset }) => {

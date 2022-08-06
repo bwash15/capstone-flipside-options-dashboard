@@ -48,7 +48,7 @@ const updateFilters = async (req, res) => {
 
 
 //  Use setInterval() to set the heartbeat for the API pull
-const HandleAPIpull = async (req, res, next) => {
+const HandleAggregateAPIpull = async (req, res, next) => {
   if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link || !req?.body?.multiplier || !req?.body?.timespan || !req?.body?.option_from || !req?.body?.option_to) {
     console.log('Not all filters are filled in')
     return res.status(400).json({ 'Message': ' Not all filters are filled in' });
@@ -67,6 +67,36 @@ const HandleAPIpull = async (req, res, next) => {
       from: req.body.option_from,                          //start of the timeframe to look at
       to: req.body.option_to
     })
+
+    SetoptionType(snapShot_result.option_type);
+    SetStrike(snapShot_result.option_strike_price);
+
+    const aggregate_baseUrl = `https://api.polygon.io/v2/aggs/ticker/`;
+    const aggregate_link = `${aggregate_baseUrl}`;
+
+    SetAggregateLink(aggregate_baseUrl, aggregate_link);
+    HandleAggregatePull(aggregate_link);
+    next();
+
+  } catch (err) {
+    if (err.response) {
+      console.log(err.response.data);
+      console.log(err.response.status);
+      console.log(err.response.headers);
+    } else {
+      console.log(`Error: ${err.message}`);
+    }
+  }
+}
+
+const HandleSnapAPIpull = async (req, res, next) => {
+  if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price) {
+    console.log('Not all filters are filled in')
+    return res.status(400).json({ 'Message': ' Not all filters are filled in' });
+  }
+  /** Define the parameters for the request URL **/
+
+  try {
     const snapShot_result = await Filters.create({
       option_type: req.body.option_type,                             //C for call P for put
       option_expire_date: req.body.option_expire_date,                 // YearMonthDay
@@ -78,18 +108,11 @@ const HandleAPIpull = async (req, res, next) => {
     SetoptionType(snapShot_result.option_type);
     SetStrike(snapShot_result.option_strike_price);
 
-
-    const aggregate_baseUrl = `https://api.polygon.io/v2/aggs/ticker/`;
-    const aggregate_link = `${aggregate_baseUrl}`;
-
     const snapshot_baseUrl = `https://api.polygon.io/v3/snapshot/options/`;
     const snapshot_link = `${snapshot_baseUrl}`;
 
     SetSnapShotLink(snapshot_baseUrl, snapshot_link);
     HandleSnapShotPull(snapshot_link);
-
-    SetAggregateLink(aggregate_baseUrl, aggregate_link);
-    HandleAggregatePull(aggregate_link);
     next();
 
   } catch (err) {
@@ -109,7 +132,8 @@ const HandleSnapShotPull = async ({ snapshot_link }) => {
     // Added from here to right above console.log(error)
     method: 'POST',
     headers: {
-      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "timeout": 5000
     },
     credentials: 'include',
     body: 'foo=bar&lorem=ipsum'
@@ -196,7 +220,8 @@ const SellingCallStratWeeklyReturn = (current_premium, current_strike) => {
 }
 
 module.exports = {
-  HandleAPIpull,
+  HandleAggregateAPIpull,
+  HandleSnapAPIpull,
   HandleSnapShotPull,
   HandleAggregatePull,
   SetSnapShotLink,

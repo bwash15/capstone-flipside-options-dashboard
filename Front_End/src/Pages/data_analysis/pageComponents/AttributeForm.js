@@ -1,6 +1,4 @@
 import { useRef } from 'react';
-import { HandleFilterEdit } from '../analysisControllers/filtersController';
-import { filtersApi } from '../api/analysis_axios';
 import { Button, Popover, PopoverBody } from "reactstrap";
 
 const AttributeForm = ({ _handleFilterEdit,

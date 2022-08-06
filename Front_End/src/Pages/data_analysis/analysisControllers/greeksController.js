@@ -1,4 +1,4 @@
-import greeksApi from '../../data_analysis/api/greeks';
+import greeksApi from '../api/greeks';
 import { useNavigate } from 'react-router-dom';
 
 const HandleGetGreeks = async ({ setGreeks }) => {

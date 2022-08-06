@@ -109,7 +109,7 @@ app.use(verifyJWT);
 /** Web-level Middleware **/
 app.use('/userTiles', require('./_routes/_userTiles'));
 app.use('/profilePage', require('./_routes/webapi/_profilePage.js'));
-// app.use('/analytics', require('./_routes/webapi/_analytics'));
+app.use('/analytics', require('./_routes/webapi/_analytics'));
 /************************************************* */
 //      ROUTER-LEVEL MIDDLEWARE
 // Routes to the subdir Route -> then to the index -> then inside subdir to the test file
@@ -124,6 +124,7 @@ app.use('/homeTiles', require('./_routes/_user_home_tiles'));
 app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 
 app.use('/api_pull', require('./_routes/api/api_pull'));
+app.use('/snapShots', require('./_routes/api/snapShots'));
 app.use('/day', require('./_routes/api/day'));
 app.use('/details', require('./_routes/api/details'));
 app.use('/greeks', require('./_routes/api/greeks'));

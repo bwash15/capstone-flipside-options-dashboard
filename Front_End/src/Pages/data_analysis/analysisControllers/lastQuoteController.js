@@ -1,4 +1,4 @@
-import last_quoteApi from '../../data_analysis/api/last_quote';
+import last_quoteApi from '../api/last_quote';
 import { useNavigate } from 'react-router-dom';
 
 const HandleGetLastQuote = async ({ setLastQuote }) => {

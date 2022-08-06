@@ -31,66 +31,66 @@ export const dayApi = axios.create({
     responseType: 'json',
     withCredentials: true
 });
-export const detailsApi = axios.create({
-    baseURL: BASE_URL + '4200',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const greeksApi = axios.create({
-    baseURL: BASE_URL + '4300',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const last_quoteApi = axios.create({
-    baseURL: BASE_URL + '4400',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const underlying_assetApi = axios.create({
-    baseURL: BASE_URL + '4500',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const snapShotsApi = axios.create({
-    baseURL: BASE_URL + '3100',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const aggregatesApi = axios.create({
-    baseURL: BASE_URL + '3200',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const postsApi = axios.create({
-    baseURL: BASE_URL + '3300',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const usersApi = axios.create({
-    baseURL: BASE_URL + '5000',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const userReqApi = axios.create({
-    baseURL: BASE_URL + '5100',
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
+// export const detailsApi = axios.create({
+//     baseURL: BASE_URL + '4200',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const greeksApi = axios.create({
+//     baseURL: BASE_URL + '4300',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const last_quoteApi = axios.create({
+//     baseURL: BASE_URL + '4400',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const underlying_assetApi = axios.create({
+//     baseURL: BASE_URL + '4500',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const snapShotsApi = axios.create({
+//     baseURL: BASE_URL + '3100',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const aggregatesApi = axios.create({
+//     baseURL: BASE_URL + '3200',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const postsApi = axios.create({
+//     baseURL: BASE_URL + '3300',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const usersApi = axios.create({
+//     baseURL: BASE_URL + '5000',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });
+// export const userReqApi = axios.create({
+//     baseURL: BASE_URL + '5100',
+//     headers: { 'Content-Type': 'application/json' },
+//     timeout: 1000,
+//     responseType: 'json',
+//     withCredentials: true
+// });

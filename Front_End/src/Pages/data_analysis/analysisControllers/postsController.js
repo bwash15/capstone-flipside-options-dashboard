@@ -1,4 +1,4 @@
-import postsApi from '../../data_analysis/api/posts';
+import postsApi from '../api/posts';
 import { useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
 

@@ -1,4 +1,4 @@
-import tableData from '../../data_analysis/api/table';
+import tableData from '../api/table';
 import { useNavigate } from 'react-router-dom';
 
 

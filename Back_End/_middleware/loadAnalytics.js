@@ -1,6 +1,4 @@
-const SnapShots = require('../_model/snapShotAPIpull');
-const Aggregates = require('../_model/AggregateAPIpull');
-const Filters = require('../_model/Filters');
+
 const Day = require('../_controllers/optionDaysController');
 const Details = require('../_controllers/optionDetailsController');
 const Greeks = require('../_controllers/optionGreeksController');
@@ -28,7 +26,7 @@ const getFilters = async (req, res) => {
 }
 
 
-const UpdateAggregates = async (req, res) => {
+const UpdateAggregatesFilters = async (req, res) => {
     if (!req?.body?.id) {
         return res.status(400).json({ 'message': 'Aggregates Id required, No Filter _Id Found - UpdateAggregates' });
     }
@@ -51,7 +49,7 @@ const UpdateAggregates = async (req, res) => {
     res.status(201).json(result);
 }
 
-const UpdateSnapShots = async (req, res) => {
+const UpdateSnapShotsFilters = async (req, res) => {
     if (!req?.body?.id) {
         return res.status(400).json({ 'message': 'Filter Id required, No Filter _Id Found - UpdateFilters' });
     }
@@ -76,8 +74,8 @@ const UpdateSnapShots = async (req, res) => {
 //  Use setInterval() to set the heartbeat for the API pull
 const HandleAPIpull = async (req, res, next) => {
     if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link || !req?.body?.multiplier || !req?.body?.timespan || !req?.body?.option_from || !req?.body?.option_to) {
-        console.log('Not all filters are filled in')
-        return res.status(400).json({ 'Message': ' Not all filters are filled in' });
+        console.log('Not all aggregate filters are filled in')
+        return res.status(400).json({ 'Message': ' Not all aggregate filters are filled in' });
     }
     /** Define the parameters for the request URL **/
 
@@ -87,19 +85,13 @@ const HandleAPIpull = async (req, res, next) => {
             option_expire_date: req.body.option_expire_date,                 // YearMonthDay
             option_ticker: req.body.option_ticker,          //nasdaq name for the company -> exela but the nasdaq name is XELA
             option_strike_price: req.body.option_strike_price,      //8 digit number, divide by 1000 -> this will be 1$
-            options_ticker_link: req.body.options_ticker_link,
+            options_ticker_link: `/O:${req.body.option_ticker}${req.body.option_expire_date}${req.body.option_type}${req.body.option_strike_price}`,
             multiplier: req.body.multiplier,                // minutes per minute, hours per hour, days per day, weeks per week ->o
             timespan: req.body.timespan,                            // minute, hour, day, week, month
             from: req.body.option_from,                          //start of the timeframe to look at
             to: req.body.option_to
         })
-        const snapShot_result = await Filters.create({
-            option_type: req.body.option_type,                             //C for call P for put
-            option_expire_date: req.body.option_expire_date,                 // YearMonthDay
-            option_ticker: req.body.option_ticker,          //nasdaq name for the company -> exela > nasdaq name is XELA
-            option_strike_price: req.body.option_strike_price,             //8 digit number, divide by 1000 -> this will be 1$
-            options_ticker_link: req.body.options_ticker_link
-        })
+
 
         SetoptionType(snapShot_result.option_type);
         SetStrike(snapShot_result.option_strike_price);
@@ -111,10 +103,10 @@ const HandleAPIpull = async (req, res, next) => {
         const snapshot_baseUrl = `https://api.polygon.io/v3/snapshot/options/`;
         const snapshot_link = `${snapshot_baseUrl}`;
 
-        SetSnapShotLink(snapshot_baseUrl, snapshot_link);
+        SetSnapShotLink(snapshot_link);
         HandleSnapShotPull(snapshot_link);
 
-        SetAggregateLink(aggregate_baseUrl, aggregate_link);
+        SetAggregateLink(aggregate_link);
         HandleAggregatePull(aggregate_link);
         next();
 
@@ -194,20 +186,33 @@ const HandleAggregatePull = async ({ aggregate_link }) => {
         });
 }
 
-const SetSnapShotLink = ({ req, res, snapshot_baseUrl, snapshot_link }) => {
-    if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link) {
+const SetDayOnHeartBeat = async (res, req) => {
+
+}
+
+const SetSnapShotLink = async ({ req, res, snapshot_link }) => {
+    if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price) {
         return res.status(400).json({ 'Message': ' Not all SnapShot filters are filled in' });
     }
+    const NewSnapShotLink = await snapshot_link + `${req.body.option_ticker}/O:${req.body.option_ticker}${req.body.option_expire_date}${req.body.option_type}${req.body.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
 
-    snapshot_link = snapshot_baseUrl + `${res.body.option_ticker}/O:${res.body.option_ticker}${res.body.option_expire_date}${res.body.option_type}${res.body.option_strike_price}?apiKey=${process.env.REACT_APP_API_KEY}`;
-
-    res.status(201).json.stringify(snapshot_link)
+    const aggregate_result = await Filters.create({
+        option_type: req.body.optionType,                             //C for call P for put
+        option_expire_date: req.body.option_expire_date,                 // YearMonthDay
+        option_ticker: req.body.option_ticker,          //nasdaq name for the company -> exela but the nasdaq name is XELA
+        option_strike_price: req.body.option_strike_price,      //8 digit number, divide by 1000 -> this will be 1$
+        options_ticker_link: `/O:${req.body.option_ticker}${req.body.option_expire_date}${req.body.option_type}${req.body.option_strike_price}`,
+    })
+    // Save to DB
+    const result = await aggregate_result.save();
+    res.status(201).json.stringify(result);
 }
-const SetAggregateLink = ({ req, res, aggregate_baseUrl, aggregate_link }) => {
+
+const SetAggregateLink = async ({ req, res, aggregate_link }) => {
     if (!req?.body?.option_type || !req?.body?.option_expire_date || !req?.body?.option_ticker || !req?.body?.option_strike_price || !req?.body?.options_ticker_link || !req?.body?.multiplier || !req?.body?.timespan || !req?.body?.option_from || !req?.body?.option_to) {
         return res.status(400).json({ 'Message': ' Not all Aggregate filters are filled in' });
     }
-    aggregate_link = aggregate_baseUrl + `${res.body.option_ticker}/O:${res.body.option_ticker}/range/${res.body.multiplier}/${res.body.timespan}/${res.body.option_from}/${res.body.option_to}?apiKey=${process.env.REACT_APP_API_KEY}`;
+    await aggregate_link + `${res.body.option_ticker}/O:${res.body.option_ticker}/range/${res.body.multiplier}/${res.body.timespan}/${res.body.option_from}/${res.body.option_to}?apiKey=${process.env.REACT_APP_API_KEY}`;
 
     res.status(201).json.stringify(aggregate_link)
 }
@@ -247,6 +252,6 @@ module.exports = {
     SetStrike,
     SellingCallStratWeeklyReturn,
     getFilters,
-    UpdateAggregates,
-    UpdateSnapShots
+    UpdateAggregatesFilters,
+    UpdateSnapShotsFilters
 };

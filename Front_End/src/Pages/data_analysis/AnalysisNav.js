@@ -10,13 +10,12 @@ const AnalysisNav = ({ _handleFilterEdit, popoverOpen, setPopoverOpen, snapShotB
 
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="post">New Note</Link></li>
-                <li><Link to="snapShots">SnapShots</Link></li>
-                <li><Link to="analysislist">Data List</Link></li>
-                <li><Link to="analysistable">Data Table</Link></li>
-                <li><Link to="appclock">App Clock</Link></li>
-            </ul>
-            <br />
+                <li><Link to="/post">New Note</Link></li>
+                <li><Link to="/snapShots">SnapShots</Link></li>
+                <li><Link to="/analysislist">Data List</Link></li>
+                <li><Link to="/analysistable">Data Table</Link></li>
+                <li><Link to="/appclock">App Clock</Link></li>
+            </ul>            <br />
             <AnalysisForm
                 reqType={reqType}
                 setReqType={setReqType}
