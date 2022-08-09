@@ -1,4 +1,15 @@
 import { useState, useEffect, useRef } from 'react';
+
+import { AggFiltersContext } from './analysisContext/aggFiltersContext/AggFiltersProvider';
+import { DayContext } from "./analysisContext/dayContext/DayProvider";
+import { DetailsContext } from './analysisContext/detailsContext/DetailsProvider';
+import { GreeksContext } from './analysisContext/greeksContext/GreeksProvider';
+import { LastQuoteContext } from './analysisContext/lastQuoteContext/LastQuoteProvider';
+import { underlyingAssetContext } from './analysisContext/underlyingAssetContext/underlyingAssetProvider';
+import { useDayData } from './analysisHooks/useAnalysisProviders/useDayProvider';
+import { useDetailsData } from './analysisHooks/useAnalysisProviders/useDetailsProvider';
+
+
 import { Route, Routes, BrowserRouter as Router, useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
 import Clock from './Clock';
@@ -17,7 +28,7 @@ import MissingPage from './MissingPage';
 import AnalysisList from './pageComponents/AnalysisList';
 import AnalysisTable from './pageComponents/AnalysisTable';
 import EditSnapShot from './cardComponents/snapShotCards/EditSnapShot';
-import { loadAppData } from './utils/loadData'
+import { LoadAppData } from './utils/loadData'
 import { PostAllDataToDB } from './utils/postData';
 import { FetchTableandListData } from './analysisControllers/tableDataController';
 import { HandlePostsDelete, HandlePostsEdit, HandlePostSubmit, HandleGetPosts } from './analysisControllers/postsController';
@@ -33,6 +44,8 @@ import usersApi from './api/users';
 const DataAnalysis = () => {
 
     const navigate = useNavigate();
+    const { day, setDay } = useDayData();
+    // Destructuring Contexts
     // This path will be updated dynamically for each data type
     const JSON_URL = 'https://jsonplaceholder.typicode.com/';
     const IMG_URL = 'http://www.fillmurray.com/400/500';
@@ -130,30 +143,6 @@ const DataAnalysis = () => {
         open_interest: openInterest
     }]);
 
-    // Day Properties
-    const [change, setChange] = useState([]);
-    const [changePercent, setChangePercent] = useState([]);
-    const [close, setClose] = useState([]);
-    const [high, setHigh] = useState([]);
-    const [daylastUpdated, setDayLastUpdated] = useState([]);
-    const [low, setLow] = useState([]);
-    const [open, setOpen] = useState([]);
-    const [previousClose, setPreviousClose] = useState([]);
-    const [volume, setVolume] = useState([]);
-    const [vwap, setVwap] = useState([]);
-    const [dayArray, setDayArray] = useState([]);
-    const [day, setDay] = useState([{
-        change: change,
-        change_percent: changePercent,
-        close: close,
-        high: high,
-        last_updated: daylastUpdated,
-        low: low,
-        open: open,
-        previous_close: previousClose,
-        volume: volume,
-        vwap: vwap
-    }]);
     // Details Properties
     const [contractType, setContractType] = useState([]);
     const [exerciseStyle, setExerciseStyle] = useState([]);
@@ -232,15 +221,15 @@ const DataAnalysis = () => {
     }]);
 
     // filters 
-    const [option_type, setOption_type] = useState("C");
-    const [option_expire_date, setOption_expire_date] = useState("20220614");
-    const [option_ticker, setOptionTicker] = useState("TSLA");
-    const [option_strike_price, setOption_strike_price] = useState(150000);
-    const [option_ticker_link, setOptionTickerLink] = useState(`O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`);
-    const [option_multiplier, setOption_multiplier] = useState(2);
-    const [option_timespan, setOption_timespan] = useState("day");
-    const [option_from, setOption_from] = useState("20220620");
-    const [option_to, setOption_To] = useState("20220623");
+    // const [option_type, setOption_type] = useState("C");
+    // const [option_expire_date, setOption_expire_date] = useState("20220614");
+    // const [option_ticker, setOptionTicker] = useState("TSLA");
+    // const [option_strike_price, setOption_strike_price] = useState(150000);
+    // const [option_ticker_link, setOptionTickerLink] = useState(`O:${option_ticker}${option_expire_date}${option_type}${option_strike_price}`);
+    // const [option_multiplier, setOption_multiplier] = useState(2);
+    // const [option_timespan, setOption_timespan] = useState("day");
+    // const [option_from, setOption_from] = useState("20220620");
+    // const [option_to, setOption_To] = useState("20220623");
 
     // snap filters
     const [snap_option_type, setSnapOptionType] = useState('');
@@ -255,7 +244,7 @@ const DataAnalysis = () => {
     const [edit_snap_option_strike_price, setEditSnapOptionStrikePrice] = useState('');
     const [edit_snap_option_ticker_link, setEditSnapOptionTickerLink] = useState(`O:${edit_snap_option_ticker}${edit_snap_option_expire_date}${edit_snap_option_type}${edit_snap_option_strike_price}`);
 
-    const [apiKey, setApiKey] = useState(process.env.api_key);
+
     const [editOption_type, setEditOption_type] = useState("");
     const [editOption_expire_date, setEditOption_expire_date] = useState("");
     const [editOption_ticker, setEditOptionTicker] = useState("");
@@ -267,17 +256,7 @@ const DataAnalysis = () => {
     const [editOption_to, setEditOption_to] = useState("");
 
     const [editApiKey, setEditApiKey] = useState(process.env.REACT_APP_API_KEY);
-    const [filters, setFilters] = useState([{
-        option_type: option_type,
-        option_expire_date: option_expire_date,
-        option_ticker: option_ticker,
-        option_strike_price: option_strike_price,
-        option_ticker_link: option_ticker_link,
-        option_multiplier: option_multiplier,
-        option_timespan: option_timespan,
-        option_from: option_from,
-        option_to: option_to
-    }]);
+
     const [editFilters, setEditFilters] = useState([{
         editOption_type: editOption_type,
         editOption_expire_date: editOption_expire_date,
@@ -304,12 +283,6 @@ const DataAnalysis = () => {
         edit_snap_option_ticker_link: `O:${editOption_ticker}${editOption_expire_date}${editOption_type}${editOption_strike_price}`,
     }]);
 
-    const [snapShotBaseUrl, setApiBaseUrl] = useState('https://api.polygon.io/v3/snapshot/options/');
-    const [apiAggBaseUrl, setApiAggBaseUrl] = useState('https://api.polygon.io/v2/aggs/ticker/');
-    const [apiTickersBaseUrl, setApiTickersBaseUrl] = useState('https://api.polygon.io/v3/reference/tickers');
-
-    const [apiLink, setApiLink] = useState(`${apiAggBaseUrl}${option_ticker_link}/range/${option_multiplier}/${option_timespan}/${option_from}/${option_to}?apiKey=${apiKey}`);
-    const [snapShotLink, setSnapShotLink] = useState(`${snapShotBaseUrl}${option_ticker}/${option_ticker_link}${option_expire_date}${option_type}${option_strike_price}?apiKey=${apiKey}`);
 
     //----------------------------------------------------------------------------------
     // Edit Properties
@@ -383,7 +356,7 @@ const DataAnalysis = () => {
 
     useEffect(() => {
         // -----  GET calls  -------------
-        loadAppData({ setAggregates, setPosts, setSnapShots, setFilters, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options, snapShotLink });
+        LoadAppData({ setAggregates, setPosts, setSnapShots, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, setOptions, options });
     }, [])
 
     //-------------  Loading From User Selected buttons Link from API  ---------------
@@ -418,18 +391,7 @@ const DataAnalysis = () => {
 
 
 
-    const handleClearFormFilters = async (e) => {
-        e.preventDefault();
 
-        setOption_type('');
-        setOption_expire_date('');
-        setOptionTicker('');
-        setOption_strike_price('');
-        setOption_multiplier('');
-        setOption_timespan('');
-        setOption_from('');
-        setOption_To('');
-    }
 
 
     const handleUsersDelete = async (id) => {
@@ -447,18 +409,8 @@ const DataAnalysis = () => {
     //------------------------------------------------------------------------------------
     // Handle Submits
 
-    const _handleFilterSubmit = async (e) => {
-        e.preventDefault();
-        HandleFiltersSubmit(snapShotBaseUrl, filters, setFilters, setOptionTickerLink, setSnapShotLink, option_type, option_expire_date, option_ticker, option_strike_price, option_multiplier, option_timespan, option_from, option_to, option_ticker_link)
-        navigate('/');
-    }
 
     //---------------------------------------------------------------------------------
-    const _handleFilterEdit = async (e, id) => {
-        e.preventDefault();
-        HandleFilterEdit(id, editOption_type, editOption_expire_date, editOption_ticker, editOption_strike_price, editOption_multiplier, editOption_timespan, editOption_from, editOption_to, setEditOption_type, setEditOption_expire_date, setEditOptionTicker, setEditOption_strike_price, setEditOption_multiplier, setEditOption_timespan, setEditOption_from, setEditOption_to, setFilters, filters, setEditOptionTickerLink)
-        navigate('/');
-    }
 
     //----------------------------------------------------------------------------------
     const handleUsersSubmit = async (e) => {
@@ -504,7 +456,7 @@ const DataAnalysis = () => {
 
     const handleSnapShotSubmit = async (e) => {
         e.preventDefault();
-        HandleSnapShotSubmit({ snapShots, setSnapShots, setSnapShotArray, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, request_id, setRequestId, breakEvenPrice, setBreakEvenPrice, impliedVolatility, setImpliedVolatility, openInterest, setOpenInterest, change, setChange, changePercent, setChangePercent, close, setClose, high, setHigh, daylastUpdated, setDayLastUpdated, low, setLow, open, setOpen, previousClose, setPreviousClose, volume, setVolume, vwap, setVwap, contractType, setContractType, exerciseStyle, setExerciseStyle, expirationDate, setExpirationDate, sharesPerContract, setSharesPerContract, strikePrice, setStrikePrice, detailsTicker, setDetailsTicker, delta, setDelta, gamma, setGamma, theta, setTheta, vega, setVega, ask, setAsk, bid, setBid, askSize, setAskSize, bidSize, setBidSize, LQlast_updated, setLQlast_updated, midpoint, setMidpoint, LQtimeFrame, setLQtimeFrame, changeToBreakEven, setChangeToBreakEven, ULlastUpdated, setULlastUpdated, price, setPrice, ULTicker, setULTicker, ULtimeFrame, setULTimeFrame, status });
+        HandleSnapShotSubmit({ snapShots, setSnapShots, setSnapShotArray, setDetails, setGreeks, setLastQuote, setUnderlyingAsset, request_id, setRequestId, breakEvenPrice, setBreakEvenPrice, impliedVolatility, setImpliedVolatility, openInterest, setOpenInterest, contractType, setContractType, exerciseStyle, setExerciseStyle, expirationDate, setExpirationDate, sharesPerContract, setSharesPerContract, strikePrice, setStrikePrice, detailsTicker, setDetailsTicker, delta, setDelta, gamma, setGamma, theta, setTheta, vega, setVega, ask, setAsk, bid, setBid, askSize, setAskSize, bidSize, setBidSize, LQlast_updated, setLQlast_updated, midpoint, setMidpoint, LQtimeFrame, setLQtimeFrame, changeToBreakEven, setChangeToBreakEven, ULlastUpdated, setULlastUpdated, price, setPrice, ULTicker, setULTicker, ULtimeFrame, setULTimeFrame, status });
     }
     //-------------------------------------------------------------------------------
     // Handle Edits
@@ -561,40 +513,16 @@ const DataAnalysis = () => {
     //-------------------------------------------------------------------------------
     return (
         <Routes>
-            <Route path="/" element={
-                <AnalysisLayout
-                    search={search}
-                    setSearch={setSearch}
-                    reqType={reqType}
-                    setReqType={setReqType}
-                    popoverOpen={popoverOpen}
-                    setPopoverOpen={setPopoverOpen}
-                    setSnapShotLink={setSnapShotLink}
-                    snapShotBaseUrl={snapShotBaseUrl}
-                    _handleFilterSubmit={_handleFilterSubmit}
-                    handleClearFormFilters={handleClearFormFilters}
-                    _handleFilterEdit={_handleFilterEdit}
-                    editFilters={editFilters}
-                    setEditFilters={setEditFilters}
-                    option_type={option_type}
-                    setOption_type={setOption_type}
-                    option_expire_date={option_expire_date}
-                    setOption_expire_date={setOption_expire_date}
-                    option_ticker={option_ticker}
-                    setOptionTicker={setOptionTicker}
-                    option_strike_price={option_strike_price}
-                    setOption_strike_price={setOption_strike_price}
-                    option_ticker_link={option_ticker_link}
-                    setOptionTickerLink={setOptionTickerLink}
-                    option_multiplier={option_multiplier}
-                    setOption_multiplier={setOption_multiplier}
-                    option_timespan={option_timespan}
-                    setOption_timespan={setOption_timespan}
-                    option_from={option_from}
-                    setOption_from={setOption_from}
-                    option_to={option_to}
-                    setOption_To={setOption_To}
-                />}>
+            <Route path="/" element={<AnalysisLayout
+                search={search}
+                setSearch={setSearch}
+                reqType={reqType}
+                setReqType={setReqType}
+                popoverOpen={popoverOpen}
+                setPopoverOpen={setPopoverOpen}
+                editFilters={editFilters}
+                setEditFilters={setEditFilters}
+            />} >
                 <Route index element={<CardHome
                     imgSrc={imgSrc}
                     setImgSrc={setImgSrc}
@@ -660,16 +588,17 @@ const DataAnalysis = () => {
                 </Route>
 
                 {/** -------------------------------------------------------------- **/}
+
+
+
+
                 <Route path="snapShots">
                     <Route index element={<SnapShotCardHome snapShots={snapShots} />} />
                     <Route path="snapShot">
                         <Route index element={<NewSnapShotCard
                             handleSnapShotSubmit={handleSnapShotSubmit}
                             snapShots={snapShots}
-
                             request_id={request_id}
-                            day={day}
-                            setDay={setDay}
                             details={details}
                             setDetails={setDetails}
                             greeks={greeks}
@@ -678,7 +607,6 @@ const DataAnalysis = () => {
                             setLastQuote={setLastQuote}
                             underlying_asset={underlyingAsset}
                             setUnderlyingAsset={setUnderlyingAsset}
-
                         />} />
                         <Route path="edit/:request_id" element={<EditSnapShot
                             snapShots={snapShots}
@@ -768,6 +696,7 @@ const DataAnalysis = () => {
                             />} />
                     </Route>
                 </Route>
+
                 {/** -------------------------------------------------------------------- */}
                 <Route path="/analysislist">
                     <Route index element={<AnalysisList
@@ -789,7 +718,6 @@ const DataAnalysis = () => {
                 <Route path="*" element={<MissingPage />} />
             </Route>
         </Routes >
-
     )
 }
 

@@ -1,5 +1,5 @@
 {
-    "day": [{
+    "day": {
         "change": 0.0,
         "change_percent": 0.25,
         "close": 20.00,
@@ -10,5 +10,5 @@
         "previous_close": 17.89,
         "volume": 37,
         "vwap": 21.6854
-    }]
+    }
 }

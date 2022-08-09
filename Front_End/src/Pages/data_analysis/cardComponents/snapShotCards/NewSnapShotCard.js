@@ -1,12 +1,13 @@
 import { useParams } from 'react';
+import { useDayData } from '../../analysisHooks/useAnalysisProviders/useDayProvider';
 
 /** Need to finish Defining the formatting of this form **/
 /** handleSubmit, request_id, setRequestId, options, snapshots, setSnapShots, day, setDay, details, setDetails, greeks, setGreeks, last_quote, setLastQuote, underlying_asset, setUnderlyingAsset **/
 
 const NewSnapShotCard = ({
-    handleSnapShotSubmit, request_id, setRequestId, day, setDay, details, setDetails, greeks, setGreeks, last_quote, setLastQuote, underlying_asset, setUnderlyingAsset, snapShots
+    handleSnapShotSubmit, request_id, setRequestId, details, setDetails, greeks, setGreeks, last_quote, setLastQuote, underlying_asset, setUnderlyingAsset, snapShots
 }) => {
-
+    const { day, setDay } = useDayData();
     // Search and SearchResults
     // Create one for each of the Dataobjects we will be searching through
     const { id } = useParams();

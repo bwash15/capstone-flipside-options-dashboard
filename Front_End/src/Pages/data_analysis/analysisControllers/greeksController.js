@@ -74,7 +74,7 @@ const HandleGreeksEdit = async ({ id, greeks, setGreeks, editDelta, setEditDelta
     }
 }
 
-const HandleGreeksDelete = async ({ setGreeks, id }) => {
+const HandleGreeksDelete = async ({ id, setGreeks }) => {
     const navigate = useNavigate()
     try {
         await greeksApi.delete(`/greeks/${id}`);

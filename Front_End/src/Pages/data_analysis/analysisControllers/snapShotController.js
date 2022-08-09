@@ -100,8 +100,10 @@ const HandleSnapShotSubmit = async ({ snapShots, setSnapShots, setSnapShotArray,
         setLastQuote(newLastQuoteData);
         setUnderlyingAsset(newUnderlyingAssetData)
 
-        // Resetting State on the Form
-        setRequestId('');
+        const result =
+
+            // Resetting State on the Form
+            setRequestId('');
         setBreakEvenPrice('');
         setDay('');
         setChange('');

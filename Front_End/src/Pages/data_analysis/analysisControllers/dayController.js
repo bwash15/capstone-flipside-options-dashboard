@@ -1,7 +1,5 @@
 import dayApi from '../api/day';
 import { useNavigate } from 'react-router-dom';
-import { json } from 'express';
-
 
 const HandleGetDays = async ({ setDay }) => {
     try {

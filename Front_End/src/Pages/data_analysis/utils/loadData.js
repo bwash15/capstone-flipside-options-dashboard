@@ -1,4 +1,6 @@
 import dayApi from '../api/day';
+import { useDayData } from '../analysisHooks/useAnalysisProviders/useDayProvider';
+import { useAggFiltersData } from '../analysisHooks/useAnalysisProviders/useAggFiltersProvider';
 import detailsApi from '../../data_analysis/api/details';
 import filtersApi from '../api/filters';
 import greeksApi from '../api/greeks';
@@ -8,7 +10,9 @@ import underlyingAssetApi from '../api/underlying_asset';
 import snapShotApi from '../api/snapShots';
 /** Initial App Load **/
 
-const loadAppData = async ({ setFilters, snapShotLink, options, setOptions, setPosts, setSnapShots, setDay, setDetails, setGreeks, setLastQuote, setUnderlyingAsset }) => {
+const LoadAppData = async ({ snapShotLink, options, setOptions, setPosts, setSnapShots, setDetails, setGreeks, setLastQuote, setUnderlyingAsset }) => {
+    const { setDay } = useDayData();
+    const { setFilters } = useAggFiltersData();
     try {
         // Data is in the response.data        
         pullSetPosts({ setPosts });
@@ -145,4 +149,4 @@ const handleAPIpull = async ({ setOptions, snapShotLink, options }) => {
     sessionStorage.setItem("option_keys", JSON.stringify(optionKeys));
 
 }
-export { loadAppData, handleAPIpull };
+export { LoadAppData, handleAPIpull };

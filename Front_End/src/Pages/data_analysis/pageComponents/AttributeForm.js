@@ -1,8 +1,11 @@
 import { useRef } from 'react';
 import { Button, Popover, PopoverBody } from "reactstrap";
+import { useAggFiltersData } from '../analysisHooks/useAnalysisProviders/useAggFiltersProvider';
 
-const AttributeForm = ({ _handleFilterEdit,
-    snapShotBaseUrl, setSnapShotLink, option_ticker, option_type, option_expire_date, option_strike_price, option_multiplier, option_timespan, option_ticker_link, option_from, option_to, setOptionTicker, setOptionTickerLink, setOption_type, setOption_expire_date, setOption_strike_price, setOption_multiplier, setOption_timespan, setOption_from, setOption_To, handleClearFormFilters, popoverOpen, setPopoverOpen }) => {
+const AttributeForm = ({ popoverOpen, setPopoverOpen }) => {
+
+    const { _handleFilterEdit,
+        snapShotBaseUrl, setSnapShotLink, option_ticker, option_type, option_expire_date, option_strike_price, option_multiplier, option_timespan, option_ticker_link, option_from, option_to, setOptionTicker, setOptionTickerLink, setOption_type, setOption_expire_date, setOption_strike_price, setOption_multiplier, setOption_timespan, setOption_from, setOption_To, handleClearFormFilters } = useAggFiltersData();
 
     const ref = useRef(null);
 
@@ -32,16 +35,19 @@ const AttributeForm = ({ _handleFilterEdit,
                         <button
                             className='apiPullbutton'
                             type="submit"
-                            onClick={(e) => { _handleFilterEdit(e) }}>Update Aggregate Filters</button>
+                            onClick={(e, id) => { _handleFilterEdit(e, id) }}>Update Aggregate Filters</button>
                         <br />
                         <button className='apiPullbutton' onClick={handleClearFormFilters}>Clear Filters</button>
+                        <button className='apiPullbutton' onClick={setSnapShotLink}>Clear Filters</button>
                         <label htmlFor="option_ticker_link">Ticker Link:
                             <input
                                 type="text"
                                 id="option_ticker_link"
                                 name="option_ticker_link"
                                 value={`O:${option_ticker}/${option_expire_date}/${option_type}/${option_strike_price}`}
-                                onChange={(e) => { setOptionTickerLink(e.target.value) }}
+                                onChange={(e) => {
+                                    setOptionTickerLink(e.target.value)
+                                }}
                             />
                         </label>
                         <label htmlFor="option_ticker">Ticker:

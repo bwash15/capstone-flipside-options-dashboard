@@ -4,28 +4,29 @@
  **/
 
 import axios from 'axios';
-const BASE_URL = process.env.REACT_APP_API || 'http://localhost:';
+const BASE_URL = process.env.REACT_APP_API || 'https://62ed81fca785760e676bf815.mockapi.io/:';
+const APP_BASE_URL = process.env.REACT_APP_API || 'https://localhost:';
 
 export default axios.create({
-    baseURL: BASE_URL + '3600',
+    baseURL: APP_BASE_URL + '3600',
     headers: { 'Content-Type': 'application/json' },
     withCredentials: true
 });
 
 export const axiosPrivate = axios.create({
-    baseURL: BASE_URL + '3600',
+    baseURL: APP_BASE_URL + '3600',
     headers: { 'Content-Type': 'application/json' },
     withCredentials: true
 });
 export const filtersApi = axios.create({
-    baseURL: BASE_URL + '4000',
+    baseURL: BASE_URL,
     headers: { 'Content-Type': 'application/json' },
     timeout: 1000,
     responseType: 'json',
     withCredentials: true
 });
 export const dayApi = axios.create({
-    baseURL: BASE_URL + '4100',
+    baseURL: BASE_URL,
     headers: { 'Content-Type': 'application/json' },
     timeout: 1000,
     responseType: 'json',

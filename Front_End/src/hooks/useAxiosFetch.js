@@ -13,10 +13,10 @@ const useAxiosFetch = (dataUrl) => {
         let isMounted = true;
         const source = axios.CancelToken.source();
 
-        const fetchData = async (url) => {
+        const fetchData = async (dataUrl) => {
             setIsLoading(true);
             try {
-                const response = await axios.get(url, {
+                const response = await axios.get(dataUrl, {
                     cancelToken: source.token
                 });
                 if (isMounted) {
