@@ -13,6 +13,7 @@ import { useDetailsData } from './analysisHooks/useAnalysisProviders/useDetailsP
 import { Route, Routes, BrowserRouter as Router, useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
 import Clock from './Clock';
+import { DayData } from './pageComponents/dayData/DayData';
 import AnalysisLayout from './AnalysisLayout';
 import CardHome from './cardComponents/CardHome';
 import NewCard from './cardComponents/NewCard';
@@ -524,12 +525,9 @@ const DataAnalysis = () => {
                 setEditFilters={setEditFilters}
             />} >
                 <Route index element={<CardHome
-                    imgSrc={imgSrc}
-                    setImgSrc={setImgSrc}
                     posts={searchResults}
-
                 />} />
-                <Route path="post">
+                <Route path="/analytics/post">
                     <Route index element={<NewCard
                         handlePostsSubmit={handlePostsSubmit}
                         postTitle={postTitle}
@@ -552,7 +550,7 @@ const DataAnalysis = () => {
                     />} />
                 </Route>
 
-                <Route path="/appclock">
+                <Route path="/analytics/appclock">
                     <Route index element={<Clock
                         clock={clock}
                         setClock={setClock}
@@ -565,7 +563,7 @@ const DataAnalysis = () => {
                     />} />
                 </Route>
                 {/**-------------------------------------------------------------------- */}
-                <Route path="users">
+                <Route path="/analytics/users">
                     <Route index element={<UsersCardHome users={users} />} />
                     <Route path="user">
                         <Route index element={<NewUsersCard
@@ -588,11 +586,27 @@ const DataAnalysis = () => {
                 </Route>
 
                 {/** -------------------------------------------------------------- **/}
+                <Route path="/analytics/day">
+                    <Route index element={<DayData
+                    />} />
+                    <Route path="edit/:id" element={<EditPosts
+                        posts={posts}
+                        handlePostsEdit={handlePostsEdit}
+                        editPostTitle={editPostTitle}
+                        editPostBody={editPostBody}
+                        setEditPostTitle={setEditPostTitle}
+                        setEditPostBody={setEditPostBody}
+                    />} />
+
+                    <Route path=":id" element={<PostedCard
+                        posts={posts}
+                        HandlePostsDelete={HandlePostsDelete}
+                    />} />
+                </Route>
 
 
 
-
-                <Route path="snapShots">
+                <Route path="/analytics/snapShots">
                     <Route index element={<SnapShotCardHome snapShots={snapShots} />} />
                     <Route path="snapShot">
                         <Route index element={<NewSnapShotCard
@@ -698,7 +712,7 @@ const DataAnalysis = () => {
                 </Route>
 
                 {/** -------------------------------------------------------------------- */}
-                <Route path="/analysislist">
+                <Route path="/analytics/analysislist">
                     <Route index element={<AnalysisList
                         posts={posts}
                         users={users}
@@ -706,7 +720,7 @@ const DataAnalysis = () => {
 
                     />} />
                 </Route>
-                <Route path="/analysistable">
+                <Route path="/analytics/analysistable">
                     <Route index element={<AnalysisTable
                         items={items}
                         setItems={setItems}

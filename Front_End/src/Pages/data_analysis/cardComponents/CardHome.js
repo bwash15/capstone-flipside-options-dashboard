@@ -1,11 +1,8 @@
 import CardFeed from "./CardFeed";
-import { Client } from '../utils/clients';
+import { FetchDataFromDB } from '../utils/clients';
 
-const CardHome = ({ posts, imgSrc, setImgSrc }) => {
-    const fetchNewImage = async () => {
-        const path = await Client("images").then((data) => data.src);
-        setImgSrc(path);
-    };
+const CardHome = ({ posts }) => {
+
 
     return (
         <main className="Home">
@@ -16,10 +13,7 @@ const CardHome = ({ posts, imgSrc, setImgSrc }) => {
             ) : (
                 <p style={{ marginTop: "2rem" }}>
                     <h1>No Posts to display..</h1>
-                    <button onClick={fetchNewImage}>Get new image</button>
-                    <div style={{ margin: 1 }}>
-                        <img src={imgSrc} height="400" width="400" />
-                    </div>
+                    <button >Get new image</button>
                 </p>
             )}
         </main>

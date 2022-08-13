@@ -7,12 +7,12 @@ const AnalysisNav = ({ popoverOpen, setPopoverOpen, reqType, setReqType, }) => {
     return (
         <nav className='Nav'>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/post">New Note</Link></li>
-                <li><Link to="/snapShots">SnapShots</Link></li>
-                <li><Link to="/analysislist">Data List</Link></li>
-                <li><Link to="/analysistable">Data Table</Link></li>
-                <li><Link to="/appclock">App Clock</Link></li>
+                <li><Link to="/analytics">Home</Link></li>
+                <li><Link to="/analytics/post">New Note</Link></li>
+                <li><Link to="/analytics/snapShots">SnapShots</Link></li>
+                <li><Link to="/analytics/analysislist">Data List</Link></li>
+                <li><Link to="/analytics/analysistable">Data Table</Link></li>
+                <li><Link to="/analytics/appclock">App Clock</Link></li>
             </ul><br />
             <AnalysisForm
                 reqType={reqType}

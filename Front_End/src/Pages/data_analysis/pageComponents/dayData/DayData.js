@@ -18,6 +18,7 @@ const DayData = () => {
     return (
         <div>
             <Form>
+                <Button type='submit' onClick={HandleGetDays}>Get Saved Day Data</Button>
                 <Form.Field>
                     <label>Day Change</label>
                     <input name="change" placeholder='Day Change' onChange={(e) => { setChange(e.target.value) }} />

@@ -1,7 +1,5 @@
 import fetch from "isomorphic-unfetch";
 import postsApi from '../api/posts';
-import snapShotsApi from '../api/snapShots';
-import usersApi from '../api/users';
 
 const Client = async (endpoint, { body, ...customConfig }) => {
     const headers = { "content-type": "application/json" };
@@ -25,15 +23,12 @@ const Client = async (endpoint, { body, ...customConfig }) => {
         });
 }
 
-const FetchDataFromDB = async ({ setPosts, setSnapShots }) => {
+const FetchDataFromDB = async ({ setPosts }) => {
     try {
         // Data is in the response.data
         const postResponse = await postsApi.get('/posts');
         if (postResponse && postResponse.data) setPosts(postResponse.data);
         sessionStorage.setItem("posts", JSON.stringify(postResponse.data));
-        const SnapShotResponse = await snapShotsApi.get('/snapShot');
-        if (SnapShotResponse && SnapShotResponse.data) setSnapShots(SnapShotResponse.data);
-        sessionStorage.setItem("snapShots", JSON.stringify(SnapShotResponse.data));
 
     } catch (err) {
         if (err.response) {
