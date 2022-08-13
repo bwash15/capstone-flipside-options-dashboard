@@ -1,19 +1,23 @@
 .Content{
     /* background-color: red; */
-    
+    margin-left: 500px;
+    margin-top: -15%;
 }
 .home{
-    display: flex;
-    justify-content: center;
+}
+.newsSlider{
+
 }
 .sideBar{
-    position: fixed;
-    right: 100px;
-    width: auto;   
+    width: 500px;
+    justify-content: right;
+    margin-left: 60%;
+    margin-bottom: -17%;
 }
 .dailyMoversText{
     margin: auto;
-    width: 45%;
+    text-align: center;
+    width: auto;
     padding: 10px;
 }
 .container{

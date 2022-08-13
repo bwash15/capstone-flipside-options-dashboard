@@ -11,8 +11,6 @@ const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 //const REGISTER_URL = './signup'
 
 const Signup = () => {
-
-
     const userRef = useRef();
     const [success, setSuccess] = useState(false);
     const [firstname, setFirstName] = useState('');
