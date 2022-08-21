@@ -1,5 +1,5 @@
 
-const HomeTile = require('../_model/UserHomeTiles');
+const HomeTile = require('../_model/userHomeTiles');
 const handleUserTilesPost = async (req, res) => {
     const names = req.body.tileNames;
     const userID = req.body.userID;

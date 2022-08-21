@@ -10036,6 +10036,7 @@ DateTime:[20220808	21:54:18]	UUID:[378dc704-1ccd-4cbb-acdd-452458c7a87a]
 	LOC:[getProfile/ProfilePageController]
 	Message:[joe@gg.com profile found]
 
+<<<<<<< HEAD
 DateTime:[20220815	22:16:32]	UUID:[72033c2a-7e48-4783-8adf-c3804993edc7]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
@@ -10045,3 +10046,9 @@ DateTime:[20220815	22:16:34]	UUID:[924c826c-2d8c-4749-85e9-5331c0526b44]
 	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[joe@gg.com profile found]
+=======
+DateTime:[20220815	09:58:12]	UUID:[b6e22b07-f1ba-4b90-bc1d-4d52f97205de]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+>>>>>>> 4f830a6b78a79138350367e1d9a5f6a82117be59
