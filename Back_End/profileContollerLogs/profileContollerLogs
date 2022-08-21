@@ -10040,3 +10040,13 @@ DateTime:[20220815	09:58:12]	UUID:[b6e22b07-f1ba-4b90-bc1d-4d52f97205de]
 	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
 	LOC:[getProfile/ProfilePageController]
 	Message:[phone@test.com profile found]
+
+DateTime:[20220816	09:36:25]	UUID:[00fe12cd-6b23-46ad-b830-3c0487775478]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]
+
+DateTime:[20220821	14:00:03]	UUID:[4f73f23b-c88b-4e5f-bd16-6fc3bc625947]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\profileContollerLogs]
+	LOC:[getProfile/ProfilePageController]
+	Message:[phone@test.com profile found]

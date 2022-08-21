@@ -15244,3 +15244,43 @@ DateTime:[20220815	09:57:56]	UUID:[7c1d3dfa-1949-4b87-8a89-f9f602e1a1a5]
 	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220816	09:36:23]	UUID:[fd2e008b-f68d-4cdd-84c6-f74b077045b8]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220816	09:36:23]	UUID:[70609c91-a42a-4cf0-87f7-95ebdcd05cef]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220816	09:36:23]	UUID:[4e2207d4-93c0-4fd6-8810-f9c455caf31f]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220816	09:36:23]	UUID:[0c5d1446-fb18-46f4-a5c8-491398a83b08]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220821	13:59:53]	UUID:[a0c7737b-fa80-4ab2-ad51-badfb1224fba]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220821	13:59:53]	UUID:[52727d25-92bf-4b07-a5cc-b7a9e9d85e60]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220821	13:59:54]	UUID:[9a53e791-e8e9-4189-a5fb-31d0c64bbf56]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220821	13:59:54]	UUID:[db33387e-3b68-4fa0-9ce7-d49e9046dc4a]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
