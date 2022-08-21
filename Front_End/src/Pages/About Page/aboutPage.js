@@ -1,17 +1,13 @@
 import React from 'react'
+import { Accordian } from './Accordian'
 import "./styles.css"
 
 export const AboutPage = () => {
   return (
         <div>
+            
             <h1>How To Guide</h1>
-            <div class="flex-container">
-                <div>Select Tiles</div>
-                <div>Add A Custom List</div>
-                <div>Search Stock Ticker</div>
-                <div>Choose Price Range and Date</div>  
-            </div>
-
+            <Accordian />
             <h1><em>FlipSide</em> Provides an excellent source of information for stock Options </h1>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The goal of the this site is to provide users with the potential to track and stay updated on Stock Options.
             <br/>
