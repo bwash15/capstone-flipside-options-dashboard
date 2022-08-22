@@ -56,36 +56,6 @@ export default function ControlledAccordions() {
                     </Typography>
                     </AccordionDetails>
                 </Accordion>
-                <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-                    <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel3bh-content"
-                    id="panel3bh-header"
-                    >
-                    <Typography sx={{ width: '33%', flexShrink: 0, fontSize: 18 }}>
-                        Advanced Settings
-                    </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                    <Typography>
-                        Don't know what will go here yet.
-                    </Typography>
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                    <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel4bh-content"
-                    id="panel4bh-header"
-                    >
-                    <Typography sx={{ width: '33%', flexShrink: 0, fontSize: 18 }}>Possible Use</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                    <Typography>
-                        Might not use just a holder.
-                    </Typography>
-                    </AccordionDetails>
-                </Accordion>
             </div>
         </div>
         </html>

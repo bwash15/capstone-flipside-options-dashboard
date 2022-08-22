@@ -16174,3 +16174,168 @@ DateTime:[20220822	08:36:59]	UUID:[6878ddd5-bdc7-4f6d-8b84-164301fd9405]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+<<<<<<< HEAD
+DateTime:[20220815	22:14:13]	UUID:[6d4c6d08-159c-426a-a718-a7a35e9516c5]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220815	22:14:13]	UUID:[bbf49dd0-8157-48ea-88b2-6a8edc521dda]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220815	22:14:14]	UUID:[852e70b9-1b97-42ae-9bcc-9a6a8db42157]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220815	22:14:14]	UUID:[fc2fd1e0-fb38-4c9c-82e3-bae9a3151912]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220815	22:29:46]	UUID:[481a6c46-a25a-431f-b8be-e0242f3e9f7a]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220815	22:29:46]	UUID:[3b647e60-99a4-4665-9abc-0b88422922b9]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220815	22:29:46]	UUID:[a0499f20-ad80-4dc0-b157-b3ee5ce5552f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220815	22:29:46]	UUID:[3530a34a-7134-4e50-8165-d9899895150e]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220815	22:52:51]	UUID:[955dc878-2775-41a2-bb2b-985a7e3eb7c0]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220815	22:52:51]	UUID:[30434fb2-e152-4457-8391-074247f681e4]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220815	22:52:52]	UUID:[5dd50068-4a8a-4a1f-a74e-ce052c658eff]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in failed]
+
+DateTime:[20220815	22:52:54]	UUID:[ebadba61-4222-46d5-9620-1ce9d3c18174]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220815	22:52:54]	UUID:[e7009b7e-0c70-46c3-9554-7fd85be15c03]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220815	22:52:54]	UUID:[169ecad8-008c-4bf4-b706-7b9e40c3ba0f]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in failed]
+
+DateTime:[20220815	22:53:08]	UUID:[361adf49-02da-46da-8b0f-07e368ec4b6c]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com Attempting to sign-in]
+
+DateTime:[20220815	22:53:08]	UUID:[68ce90e8-4c0b-48eb-aaa5-af07a2f8ec20]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate joe@gg.com ]
+
+DateTime:[20220815	22:53:08]	UUID:[aee5963e-dba8-4b4d-877f-d999621fb649]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[joe@gg.com logged in successfully]
+
+DateTime:[20220815	22:53:08]	UUID:[e2e34b73-221c-4382-8c12-de8c80148dba]
+	PATH:[C:\Users\Beati\OneDrive\Documents\School\Final Project\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+=======
+DateTime:[20220815	09:55:26]	UUID:[1ae90828-7fb6-431b-875f-95b4d2cb8f4e]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220815	09:55:26]	UUID:[ebd55796-b5de-4c6c-92e3-8ec74366e189]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220815	09:55:26]	UUID:[69a4f14e-63af-4ef9-a1a3-447df5ba7898]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[ authController/handleLogin]
+	Message:[phone@test.com is Unauthorized ]
+
+DateTime:[20220815	09:57:56]	UUID:[ec7f3a62-d554-4b01-ba8b-f3ac7127445a]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220815	09:57:56]	UUID:[d95acfad-9598-4c23-845e-c21257b596b4]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220815	09:57:56]	UUID:[bdd227dc-6719-4b0f-b041-aac5c9630804]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220815	09:57:56]	UUID:[7c1d3dfa-1949-4b87-8a89-f9f602e1a1a5]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+>>>>>>> 4f830a6b78a79138350367e1d9a5f6a82117be59
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220816	09:36:23]	UUID:[fd2e008b-f68d-4cdd-84c6-f74b077045b8]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220816	09:36:23]	UUID:[70609c91-a42a-4cf0-87f7-95ebdcd05cef]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220816	09:36:23]	UUID:[4e2207d4-93c0-4fd6-8810-f9c455caf31f]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220816	09:36:23]	UUID:[0c5d1446-fb18-46f4-a5c8-491398a83b08]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220821	13:59:53]	UUID:[a0c7737b-fa80-4ab2-ad51-badfb1224fba]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com Attempting to sign-in]
+
+DateTime:[20220821	13:59:53]	UUID:[52727d25-92bf-4b07-a5cc-b7a9e9d85e60]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate phone@test.com ]
+
+DateTime:[20220821	13:59:54]	UUID:[9a53e791-e8e9-4189-a5fb-31d0c64bbf56]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[phone@test.com logged in successfully]
+
+DateTime:[20220821	13:59:54]	UUID:[db33387e-3b68-4fa0-9ce7-d49e9046dc4a]
+	PATH:[D:\School\Final Class\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
