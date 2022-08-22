@@ -16014,3 +16014,163 @@ DateTime:[20220808	22:20:15]	UUID:[c29c8263-9f96-405d-b8d3-2e28d4c0d166]
 	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
 	LOC:[authController/handleLogin]
 	Message:[Creating JWT...]
+
+DateTime:[20220813	01:24:07]	UUID:[6bb3cebb-88ce-49f8-a50f-424a29f73b84]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:24:07]	UUID:[cb90aab2-73db-4f55-b1c3-69d920bbf82a]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:24:08]	UUID:[0b3f1541-5e1c-4ce2-8371-04cb4beb854c]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:24:08]	UUID:[23c5f792-01fb-42da-8033-c5abda30bf15]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220813	01:25:23]	UUID:[a8f8aaba-e290-41d8-afaa-933e7c42ec82]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:25:23]	UUID:[0b58ac1e-b858-4aac-a119-cd9e9556f9f3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:25:23]	UUID:[b25ac60a-f37f-4daf-ab03-598ce66e8ae8]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:25:23]	UUID:[e396609d-a4b2-4b5c-b41a-8c0eef0648c0]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220813	01:30:46]	UUID:[77940e53-ff06-4a5a-bf0d-716b7de05c2e]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:30:46]	UUID:[af035554-bd1d-499e-bc76-764dea9d1555]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:30:46]	UUID:[c41ab2fe-fdd3-4b0f-8467-e51439636a20]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:30:46]	UUID:[e1ac6222-755b-456d-8a0f-ed7e4745b992]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220813	01:39:34]	UUID:[e9413405-0ff1-4359-93db-3895b1a8e20f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:39:34]	UUID:[49d8dce7-52a3-4fab-9918-09fefe4fbc40]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:39:34]	UUID:[f22bb3f5-7827-40d6-8159-5d4747686575]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:39:34]	UUID:[78690b1d-facb-49e7-b037-2d312527b099]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220813	01:41:29]	UUID:[caea9bbd-bba7-4a4b-bb79-be5d2f5b218d]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:41:29]	UUID:[9572826d-ce6c-4f43-b998-ea509bcbf82f]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:41:29]	UUID:[e6575357-a442-4116-8f45-eb6b5009f0b2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:41:29]	UUID:[c1388caa-9380-4a8c-a206-ec9b80f7d408]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220813	01:48:47]	UUID:[2e40dd35-68ad-4d44-902e-40b0b0193061]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:48:47]	UUID:[99cfd66c-660d-4afd-961a-9cf9ffa70cec]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:48:48]	UUID:[f2b28202-9745-4642-8528-a9b8f3e423bf]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:48:48]	UUID:[c836ffd8-fe60-400a-9c2e-86c447daf0e5]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220813	01:51:06]	UUID:[948513e4-325a-4a69-8189-9e3b727ce4a2]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220813	01:51:06]	UUID:[5d703b87-c447-4b96-9085-a23eb47026b6]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220813	01:51:06]	UUID:[87e99174-75b0-4f20-94ec-89925812e4f3]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220813	01:51:06]	UUID:[a1d529bf-8455-4b0e-a9b2-2fd606c495ab]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]
+
+DateTime:[20220822	08:36:59]	UUID:[c9ee7002-074b-49fc-8291-c1fe5f7f7f28]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com Attempting to sign-in]
+
+DateTime:[20220822	08:36:59]	UUID:[04d5082a-cbd2-4514-94a3-03b3e88ef087]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Attempting to locate 444@abc.com ]
+
+DateTime:[20220822	08:36:59]	UUID:[db9f7835-9568-4dc5-a157-f69f6c68a6c7]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[444@abc.com logged in successfully]
+
+DateTime:[20220822	08:36:59]	UUID:[6878ddd5-bdc7-4f6d-8b84-164301fd9405]
+	PATH:[C:\Users\Brand\OneDrive\Desktop\react_repo\flipSide_1.1\2204-CSBS-Options-Dashboard\Back_End\LoginAttemptLogs]
+	LOC:[authController/handleLogin]
+	Message:[Creating JWT...]

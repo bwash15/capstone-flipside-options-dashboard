@@ -1,0 +1,312 @@
+.App {
+  font-size: calc(10px + 1vmin);
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  
+  background-color: #6288d3b1;
+  height: auto;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.snapBody {
+  color: rgb(0, 0, 0);
+  background-color: #6288d3d4;
+  height: 100%;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.postBody {
+  font-size: 0.75rem;
+  margin: 0.25rem 0;
+}
+
+
+.dayDataForm {
+  color: rgb(0, 0, 0);
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(252, 250, 250);
+  padding: 1px 0.85rem;
+}
+
+.dayDataForm h4 {
+  border-bottom: 1px solid rgb(252, 250, 250);
+  box-shadow: 0.25rem whitesmoke;
+}
+
+.dayDataGrid {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  padding: 1rem;
+
+}
+.dayDataGrid button{
+  color: white;  
+  background-color: dodgerblue;
+  height: 40px;
+  min-width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.detailsDataForm {
+  color: rgb(0, 0, 0);
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(252, 250, 250);
+  padding: 1px 0.85rem;
+}
+
+.detailsDataForm h4 {
+  border-bottom: 1px solid rgb(252, 250, 250);
+  box-shadow: 0.25rem whitesmoke;
+}
+.detailsDataGrid {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+.detailsDataGrid button{
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 1rem;
+  height: 40px;
+  min-width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+.greeksDataForm {
+  color: rgb(0, 0, 0);
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(252, 250, 250);
+  padding: 1px 0.85rem;
+}
+
+.greeksDataForm h4 {
+  border-bottom: 1px solid rgb(252, 250, 250);
+  box-shadow: 0.25rem whitesmoke;
+}
+.greeksDataGrid {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+.greeksDataGrid button{
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 1rem;
+  height: 40px;
+  min-width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.lastQuoteDataGrid {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+
+.lastQuoteDataForm {
+  color: white;
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(252, 250, 250);
+  padding: 1px 0.85rem;
+}
+.lastQuoteDataGrid button{
+  background-color: dodgerblue;
+  color: white;  
+  height: 40px;
+  min-width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.ULADataGrid {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+.ULADataForm {
+  color: white;
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(252, 250, 250);
+  padding: 1px 0.85rem;
+
+}
+.ULADataGrid button{
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 0.5rem;
+  height: 40px;
+  min-width: 100%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.aggFiltersArea {
+  color: white;
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+
+}
+
+.aggFiltersDataForm {
+  color: white;
+  background-color: #6288d300;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aggFiltersDataForm button {
+  background-color: dodgerblue;
+  margin: 1rem;
+  height: fit-content;
+  min-width: 40px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid #000;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.aggFiltersDataForm label {
+  border-bottom: 1px solid rgb(241, 234, 234);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newAggFiltersForm {
+  display: flex;
+  flex-direction: column; 
+  height: auto;
+}
+
+.newAggFiltersForm button {
+  background-color: dodgerblue;
+  margin: 1rem;
+  height: fit-content;
+  min-width: 40px;
+  border-radius: 7px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: rgb(2, 2, 2);
+  cursor: pointer;
+}
+
+.newAggFiltersForm label {
+  display: flex;
+  margin-top: 0.10rem;  
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.newAggFiltersForm input[type='text'], 
+.newAggFiltersForm textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: fit-content;
+  min-height: 38px;
+  font-size: 0.75rem;
+  padding: 0.10rem;
+  border-radius: 0.25rem;
+  border: 1px solid #000;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+.newAggFiltersForm textarea {
+  height: 100%;
+  border: 1px solid #000;
+}
+
+
+
+.SnapViewPage article {
+  display: flex;
+  flex-direction: row;
+
+}
+.SnapViewPage p, .NewSnapPage p {
+  margin-top: 0.25rem;
+}
+.SnapViewPage h5 {
+  margin: -0.10rem 0;
+}
+
+
+.SnapViewPage button, .NewSnapPage button, .AggFiltersForm button {
+  height: 40px;
+  min-width: 40px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+  color: rgb(2, 2, 2);
+  cursor: pointer;
+}
+

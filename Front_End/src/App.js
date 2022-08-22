@@ -28,7 +28,7 @@ import ProfilePage from "./Pages/ProfilePage"
 import Home from "./home"
 import ResetPassword from "./Pages/ResetPasswordPage";
 import EnterEmail from './Pages/EnterEmailPage'
-import AnalyzeData from './Pages/data_analysis/DataAnalysis';
+import AnalyzeData from './Pages/DataAnalysis/DataAnalysis';
 
 import BasicCard from "./Pages/TilesPage";
 import { AddOption } from "./Pages/TilesPage/Options/Tile/Item/addOption"

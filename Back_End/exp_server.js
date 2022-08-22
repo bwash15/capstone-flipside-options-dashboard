@@ -124,13 +124,13 @@ app.use('/homeTiles', require('./_routes/_user_home_tiles'));
 app.use('/ProfilePage', require('./_routes/webapi/_profilePage.js'));
 
 app.use('/api_pull', require('./_routes/api/api_pull'));
-app.use('/snapShots', require('./_routes/api/snapShots'));
-app.use('/day', require('./_routes/api/day'));
-app.use('/details', require('./_routes/api/details'));
-app.use('/greeks', require('./_routes/api/greeks'));
-app.use('/filters', require('./_routes/api/filters'));
-app.use('/last_quote', require('./_routes/api/last_quote'));
-app.use('/underlying_asset', require('./_routes/api/underlying_asset'));
+app.use('/analytics/snapShots', require('./_routes/api/snapShots'));
+app.use('/analytics/day', require('./_routes/api/day'));
+app.use('/analytics/details', require('./_routes/api/details'));
+app.use('/analytics/greeks', require('./_routes/api/greeks'));
+app.use('/analytics/filters', require('./_routes/api/filters'));
+app.use('/analytics/last_quote', require('./_routes/api/last_quote'));
+app.use('/analytics/underlying_asset', require('./_routes/api/underlying_asset'));
 
 
 /**************************************************/
