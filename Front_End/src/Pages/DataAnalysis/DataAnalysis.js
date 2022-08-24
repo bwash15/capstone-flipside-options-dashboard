@@ -1,14 +1,8 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
-import DayData from './dataComponents/snapshots/dayData/DayData';
-import DetailsData from './dataComponents/snapshots/detailsData/DetailsData';
-import GreeksData from './dataComponents/snapshots/greeksData/GreeksData';
-import LastQuoteData from './dataComponents/snapshots/lastQuoteData/LastQuoteData';
-import ULAData from './dataComponents/snapshots/UlaData/UnderlyingAssetData';
-import SnapShotData from './dataComponents/snapshots/snapShotData/SnapShotData';
-import { pullSetSnapShot } from './utils/loadData'
+import { useEffect, useState } from 'react';
+import { snapShotsApi } from './api/analysis_axios';
 import SnapShotDisplay from './pageComponents/api_pull_table/snapShotDisplay';
-import FiltersSelect from './dataComponents/filters/aggFiltersSelect';
+import FiltersSelect from './dataComponents/filters/filtersSelect';
 
 
 function DataAnalysis() {
@@ -20,17 +14,19 @@ function DataAnalysis() {
 
   const [userReqFilters, setUserReqFilters] = useState([]);
 
-  const [snapShotLink, setSnapShotLink] = useState('https://api.polygon.io/v3/snapshot/options/AAPL/O:AAPL230616C00150000?apiKey=MNExhabeDDgHYLqKlxDoT79JUdvT_OaI');
+  const [snapShotLink, setSnapShotLink] = useState('');
   const [aggregates_link, setAggregatesLink] = useState('');
   const [ticker_link, setTickerLink] = useState('');
   const [news_link, setNewsLink] = useState('');
 
 
   const [url_links, setURLlinks] = useState([
-    snapShotLink,
-    aggregates_link,
-    ticker_link,
-    news_link
+    {
+      snapShotLink: snapShotLink,
+      aggregates_link: aggregates_link,
+      ticker_link: ticker_link,
+      news_link: news_link
+    }
   ])
 
 
@@ -46,13 +42,13 @@ function DataAnalysis() {
     option_to: '2022-07-23',
   });
 
-  const [snapFilters, setSnapFilters] = useState([{
-    option_type: '',
-    option_expire_date: '',
-    option_ticker: '',
-    option_strike_price: '',
+  const [snapFilters, setSnapFilters] = useState({
+    option_type: 'C',
+    option_expire_date: '20221015',
+    option_ticker: 'AAPL',
+    option_strike_price: '12.15',
     option_ticker_link: ``,
-  }]);
+  });
 
   // Array to work with previously shown data and show differences between time periods
   const [snapShotArray, setSnapShotArray] = useState([]);
@@ -115,6 +111,33 @@ function DataAnalysis() {
     status: 'OK'
   });
 
+
+
+  // useEffect(() => {
+  //   async function loadAppData() {
+  //     const response = await fetch(snapShotLink);
+  //     const data = await response.json();
+  //     const jsonData = JSON.stringify(data);
+  //     console.log(`Response Data: ${jsonData}}`);
+  //     sessionStorage.setItem("_snapShots", JSON.stringify(data));
+  //     console.log(`Results Data: ${JSON.stringify(data.results)}`);
+  //     console.log(`Day Data: ${JSON.stringify(data.results.day)}`);
+  //     console.log(`Details Data: ${JSON.stringify(data.results.details)}`);
+  //     console.log(`Greeks Data: ${JSON.stringify(data.results.greeks)}`);
+  //     console.log(`LQ Data: ${JSON.stringify(data.results.last_quote)}`);
+  //     console.log(`ULA Data: ${JSON.stringify(data.results.underlying_asset)}`);
+  //     setSnapShot(data);
+  //     console.log(`SnapShot Data:  ${JSON.stringify(snapShot)}`);
+  //   }
+  //   loadAppData()
+  //   // {
+  //   //   setInterval(() => {
+  //   //     loadAppData()
+  //   //   }, 90000)
+  //   // }
+  // }, [])
+
+
   const [singleProps, setSingleProps] = useState({
     break_even_price: snapShot.results.break_even_price,
     implied_volatility: snapShot.results.implied_volatility,
@@ -163,12 +186,23 @@ function DataAnalysis() {
     timeframe: snapShot.results.underlying_asset.timeframe
   });
 
+  const InitialAppDataLoad = async (url) => {
 
+    // const [data, setData] = useState(null);
+    // const [loading, setLoading] = useState(false);
+    // const [error, setError] = useState(null);
 
+    // setLoading(true);
+    // snapShotsApi.get(url).then((response) => {
 
-  const _pullDataFromAPI = (e) => {
-    e.preventDefault();
-    pullSetSnapShot(setSnapShot);
+    //   setData(response.data.json());
+    //   console.log(response.data);
+    // }).catch((err) => {
+    //   setError(err);
+    //   console.log(error);
+    // }).finally(() => {
+    //   setLoading(false);
+    // })
   }
 
 
@@ -176,22 +210,15 @@ function DataAnalysis() {
   return (
     <>
       <div className="App">
-        <header className='header'>
-          <FiltersSelect
-            aggFilters={aggFilters}
-            setAggFilters={setAggFilters}
-            url_links={url_links}
-            setURLlinks={setURLlinks}
-            setAggregatesLink={setAggregatesLink}
-            setSnapShotLink={setSnapShotLink}
-          />
-        </header>
+
         <section className='snapBody'>
           <SnapShotDisplay
             snapShot={snapShot}
             setSnapShot={setSnapShot}
             snapShotLink={snapShotLink}
             setSnapShotArray={setSnapShotArray}
+            singleProps={singleProps}
+            setSingleProps={setSingleProps}
             day={day}
             setDay={setDay}
             dayDataArray={dayDataArray}
@@ -214,6 +241,20 @@ function DataAnalysis() {
             setULDataArray={setULDataArray}
           />
         </section>
+        <header className='header'>
+          <FiltersSelect
+            snapShotLink={snapShotLink}
+            aggregates_link={aggregates_link}
+            aggFilters={aggFilters}
+            setAggFilters={setAggFilters}
+            url_links={url_links}
+            setURLlinks={setURLlinks}
+            setAggregatesLink={setAggregatesLink}
+            setSnapShotLink={setSnapShotLink}
+            snapFilters={snapFilters}
+            setSnapFilters={setSnapFilters}
+          />
+        </header>
       </div>
     </>
   );

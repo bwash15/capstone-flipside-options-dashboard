@@ -5,8 +5,7 @@
   justify-content: center;
   align-items: center;
 }
-.header {
-  
+.header {  
   background-color: #6288d3b1;
   height: auto;
   width: 800px;
@@ -17,7 +16,7 @@
 }
 .snapBody {
   color: rgb(0, 0, 0);
-  background-color: #6288d3d4;
+  background-color: #6288d322;
   height: 100%;
   width: 800px;
   display: flex;
@@ -152,7 +151,7 @@
 }
 
 .lastQuoteDataForm {
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: #6288d300;
   height: fit-content;
   display: flex;
@@ -161,6 +160,10 @@
   flex-direction: column;
   border: 1px solid rgb(252, 250, 250);
   padding: 1px 0.85rem;
+}
+.lastQuoteDataForm h4 {
+  border-bottom: 1px solid rgb(252, 250, 250);
+  box-shadow: 0.25rem whitesmoke;
 }
 .lastQuoteDataGrid button{
   background-color: dodgerblue;
@@ -179,18 +182,23 @@
   flex-direction: row;
   font-size: 0.75rem;
   padding: 1rem;
+
 }
 .ULADataForm {
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: #6288d300;
   height: fit-content;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border: 1px solid rgb(252, 250, 250);
   padding: 1px 0.85rem;
-
+}
+.ULADataForm h4 {
+  border-bottom: 1px solid rgb(252, 250, 250);
+  box-shadow: 0.25rem whitesmoke;
 }
 .ULADataGrid button{
   background-color: dodgerblue;
@@ -209,6 +217,15 @@
   color: white;
   background-color: #6288d300;
   height: fit-content;
+  display: flex;
+
+}
+.aggFiltersArea p {
+  color: white;
+  background-color: #6288d300;
+  height: fit-content;
+  border-bottom: 1px solid rgb(241, 234, 234);
+  font-size: 1rem;
   display: flex;
 
 }
@@ -243,6 +260,7 @@
 .newAggFiltersForm {
   display: flex;
   flex-direction: column; 
+  justify-content: flex-end;
   height: auto;
 }
 

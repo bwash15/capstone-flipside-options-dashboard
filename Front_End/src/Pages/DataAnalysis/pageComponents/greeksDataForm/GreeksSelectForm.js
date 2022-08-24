@@ -5,10 +5,10 @@ const GreeksSelectForm = ({ title, delta, setDelta, gamma, setGamma, theta, setT
         <article>
             <form className='greeksDataForm'>
                 <h4>{title}</h4>
-                <p className='postBody'>{'Delta - [ ' + delta + ' ]'}</p>
-                <p className='postBody'>{'Gamma - [ ' + gamma + ' ]'}</p>
-                <p className='postBody'>{'Theta - [ ' + theta + ' ]'}</p>
-                <p className='postBody'>{'Vega - [ ' + vega + ' ]'}</p>
+                <p className='postBody'>{'Delta [ ' + delta + ' ]'}</p>
+                <p className='postBody'>{'Gamma [ ' + gamma + ' ]'}</p>
+                <p className='postBody'>{'Theta [ ' + theta + ' ]'}</p>
+                <p className='postBody'>{'Vega [ ' + vega + ' ]'}</p>
             </form>
         </article>
     )

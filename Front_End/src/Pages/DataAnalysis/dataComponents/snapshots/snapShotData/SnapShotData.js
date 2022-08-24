@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { HandleGetSnapShots, HandleSnapShotSubmit, HandleSnapShotEdit, HandleSnapShotDelete } from "../../../analysisControllers/snapShotController";
-import FiltersSelect from '../../filters/aggFiltersSelect';
+import FiltersSelect from '../../filters/filtersSelect';
 import axios from 'axios';
 
 export default function SnapShotData({ snapShot }) {

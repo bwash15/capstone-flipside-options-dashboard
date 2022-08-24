@@ -33,7 +33,7 @@ const HandleLastQuoteSubmit = async ({ lastQuoteArray, setLastQuoteArray, setLas
         const response = await last_quoteApi.post('/last_quote', newLastQuote);
         const allLastQuote = [...lastQuoteArray, response.data];
         setLastQuoteArray(allLastQuote);
-        setLastQuote(response.data);
+
         setAsk('');
         setAskSize('');
         setBid('');

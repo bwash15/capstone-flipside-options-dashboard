@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import DetailsSelectForm from '../../../pageComponents/detailsDataForm/DetailsSelectForm';
-
+import HoldDetailsDataDisplay from '../../../pageComponents/detailsDataForm/HoldDetailsDataDisplay';
 import { HandleDetailsSubmit, HandleDetailsEdit, HandleDetailsDelete, HandleGetDetails } from "../../../analysisControllers/detailsController";
 
-export default function DetailsData({ details, setDetails, detailsDataArray, setDetailsDataArray }) {
+export default function DetailsData({ snapShot, details, setDetails, detailsDataArray, setDetailsDataArray }) {
 
     const [contract_type, setContractType] = useState('');
     const [exercise_style, setExerciseStyle] = useState('');
@@ -12,15 +12,19 @@ export default function DetailsData({ details, setDetails, detailsDataArray, set
     const [strike_price, setStrikePrice] = useState(0.0);
     const [ticker, setDetailsTicker] = useState('');
 
+    const [hold_1, setHold1] = useState({});
+    const [hold_2, setHold2] = useState({});
+    const [hold_3, setHold3] = useState({});
+
     useEffect(() => {
-        setContractType(details.contract_type);
-        setExerciseStyle(details.exercise_style);
-        setExpirationDate(details.expiration_date);
-        setSharesPerContract(details.shares_per_contract);
-        setStrikePrice(details.strike_price);
-        setDetailsTicker(details.ticker);
+        setContractType(snapShot.results.details.contract_type);
+        setExerciseStyle(snapShot.results.details.exercise_style);
+        setExpirationDate(snapShot.results.details.expiration_date);
+        setSharesPerContract(snapShot.results.details.shares_per_contract);
+        setStrikePrice(snapShot.results.details.strike_rice);
+        setDetailsTicker(snapShot.results.details.ticker);
         console.log(`${contract_type}\n${exercise_style}\n${expiration_date}\n${shares_per_contract}\n${strike_price}\n${ticker}`);
-    }, [details])
+    }, [snapShot])
 
     const _handleDetailsHold = async (e) => {
         e.preventDefault();
@@ -49,7 +53,7 @@ export default function DetailsData({ details, setDetails, detailsDataArray, set
                 />
                 <button type='submit' onClick={_handleDetailsHold}>Compare Data</button>
             </section>
-            <DetailsSelectForm
+            <HoldDetailsDataDisplay
                 title={"Hold 1"}
                 _handleDetailsHold={_handleDetailsHold}
                 contract_type={contract_type}
@@ -65,7 +69,7 @@ export default function DetailsData({ details, setDetails, detailsDataArray, set
                 ticker={ticker}
                 setTicker={setDetailsTicker}
             />
-            <DetailsSelectForm
+            <HoldDetailsDataDisplay
                 title={"Hold 2"}
                 _handleDetailsHold={_handleDetailsHold}
                 contract_type={contract_type}
@@ -81,7 +85,7 @@ export default function DetailsData({ details, setDetails, detailsDataArray, set
                 ticker={ticker}
                 setTicker={setDetailsTicker}
             />
-            <DetailsSelectForm
+            <HoldDetailsDataDisplay
                 title={"Hold 3"}
                 _handleDetailsHold={_handleDetailsHold}
                 contract_type={contract_type}

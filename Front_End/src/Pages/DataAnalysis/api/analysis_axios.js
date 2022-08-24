@@ -6,9 +6,24 @@
 
 import axios from 'axios';
 const BASE_URL = 'http://localhost:';
+const API_SNAP_BASE_URL = 'https://api.polygon.io/v3/snapshot/options/';
 
 export const filtersApi = axios.create({
     baseURL: BASE_URL,
+    headers: { 'Content-Type': 'application/json' },
+    timeout: 1000,
+    responseType: 'json',
+    withCredentials: true
+});
+export const snapShotsApi = axios.create({
+    baseURL: API_SNAP_BASE_URL,
+    headers: { 'Content-Type': 'application/json' },
+    timeout: 1000,
+    responseType: 'json',
+    withCredentials: true
+});
+export const aggregatesApi = axios.create({
+    baseURL: BASE_URL + '3200',
     headers: { 'Content-Type': 'application/json' },
     timeout: 1000,
     responseType: 'json',
@@ -44,20 +59,6 @@ export const last_quoteApi = axios.create({
 });
 export const underlying_assetApi = axios.create({
     baseURL: BASE_URL,
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const snapShotsApi = axios.create({
-    baseURL: BASE_URL,
-    headers: { 'Content-Type': 'application/json' },
-    timeout: 1000,
-    responseType: 'json',
-    withCredentials: true
-});
-export const aggregatesApi = axios.create({
-    baseURL: BASE_URL + '3200',
     headers: { 'Content-Type': 'application/json' },
     timeout: 1000,
     responseType: 'json',

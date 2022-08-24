@@ -10,14 +10,12 @@ import { useEffect, useState } from 'react';
 import { snapShotsApi } from '../api/analysis_axios';
 /** Initial App Load **/
 
-const LoadAppData = ({ url_links }) => {
+const LoadAppData = () => {
 
-    const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
+
     try {
         // Data is in the response.data        
-        handleAPIpull();
+        HandleAPIpull();
 
     } catch (err) {
         if (err.response) {
@@ -28,56 +26,79 @@ const LoadAppData = ({ url_links }) => {
             console.log(`Error: ${err.message}`);
         }
     }
-    const handleAPIpull = async () => {
-        console.log("Setting Loading to true...")
-        setLoading(true);
-        console.log(`Pulling Data from ${url_links[0]}`)
-        await snapShotsApi.get(url_links[0])
-            .then((res) => {
-                setData(res.data);
-                // JSON DATA is the SnapShot returned from the API
-                const jsonData = res.data.json();
-                console.log(jsonData);
+}
+const HandleAPIpull = async ({ snapShotLink, setSnapShot }) => {
 
-                // JSON DATA.results is the SnapShot data about the requested option returned from the API
-                // RequestID, Results, Status
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
+    console.log("Setting Loading to true...")
+    setLoading(true);
+    console.log(`Pulling Data from ${snapShotLink}`)
+    await axios.get(snapShotLink)
+        .then((res) => {
+            // JSON DATA is the SnapShot returned from the API
+            const jsonData = res.data.json();
+            console.log(jsonData.request_id);
+            console.log(jsonData.results);
+            console.log(jsonData.status);
+            setSnapShot(jsonData);
+            sessionStorage.setItem("snapShots", JSON.stringify(jsonData));
+            // JSON DATA.results is the SnapShot data about the requested option returned from the API
+            // RequestID, Results, Status
 
-                let optionResultsKeys = Object.keys(jsonData.results);
+            let optionResultsKeys = Object.keys(jsonData.results);
 
-                // let optionKeys = Object.keys(JsonOptionsData);
-                // setSnapShot(JsonOptionsData);
-                // setSnapShotArray([...snapShotArray, JsonOptionsData]);
-            }).catch((err) => {
-                setError(err);
-                console.log(error);
-            }).finally(() => {
-                setLoading(false);
-            });
-    }
+            // let optionKeys = Object.keys(JsonOptionsData);
+            // setSnapShot(JsonOptionsData);
+            // setSnapShotArray([...snapShotArray, JsonOptionsData]);
+        }).catch((err) => {
+            setError(err);
+            console.log(error);
+        }).finally(() => {
+            setLoading(false);
+        });
 }
 
 
-// function useInitialAppDataLoad(url) {
+//   async function loadAppData() {
+//     const response = await fetch(snapShotLink);
+//     const data = await response.json();
+//     const jsonData = JSON.stringify(data);
+//     console.log(`Response Data: ${jsonData}}`);
+//     sessionStorage.setItem("_snapShots", JSON.stringify(data));
+//     console.log(`Results Data: ${JSON.stringify(data.results)}`);
+//     console.log(`Day Data: ${JSON.stringify(data.results.day)}`);
+//     console.log(`Details Data: ${JSON.stringify(data.results.details)}`);
+//     console.log(`Greeks Data: ${JSON.stringify(data.results.greeks)}`);
+//     console.log(`LQ Data: ${JSON.stringify(data.results.last_quote)}`);
+//     console.log(`ULA Data: ${JSON.stringify(data.results.underlying_asset)}`);
+//     setSnapShot(data);
+//     console.log(`SnapShot Data:  ${JSON.stringify(snapShot)}`);
+//   }
 
-//     const [data, setData] = useState(null);
-//     const [loading, setLoading] = useState(false);
-//     const [error, setError] = useState(null);
 
-//     useEffect(() => {
-//         setLoading(true);
-//         axios.get(url).then((response) => {
-//             setData(response.data);
-//             console.log(response.data);
-//         }).catch((err) => {
-//             setError(err);
-//             console.log(error);
-//         }).finally(() => {
-//             setLoading(false);
-//         })
-//     }, [url]);
 
-//     return { data, loading, error }
-// }
+const InitialAppDataLoad = async (url) => {
+
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
+
+    setLoading(true);
+    axios.get(url).then((response) => {
+
+        setData(response.data.json());
+        console.log(response.data);
+    }).catch((err) => {
+        setError(err);
+        console.log(error);
+    }).finally(() => {
+        setLoading(false);
+    })
+
+
+    return { data, loading, error }
+}
 
 const Client = async (endpoint, { body, ...customConfig }) => {
     const headers = { "content-type": "application/json" };
@@ -103,12 +124,12 @@ const Client = async (endpoint, { body, ...customConfig }) => {
 
 
 
-const pullSetSnapShot = async ({ setSnapShot }) => {
-    const SnapShotResponse = await snapShotsApi.get('/snapShot');
+const pullSetSnapShot = async ({ snapShotLink, setSnapShot }) => {
+    const SnapShotResponse = await axios.get(snapShotLink);
     if (SnapShotResponse && SnapShotResponse.data) setSnapShot(SnapShotResponse.data);
     sessionStorage.setItem("snapShots", JSON.stringify(SnapShotResponse.data));
 }
-export { LoadAppData, pullSetSnapShot };
+export { LoadAppData, pullSetSnapShot, HandleAPIpull };
 
 // const pullSetPosts = async ({ setPosts }) => {
 //     const postResponse = await postsApi.get('/posts');

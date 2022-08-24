@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HandleGetLastQuote, HandleLastQuoteSubmit, HandleLastQuoteEdit, HandleLastQuoteDelete } from "../../../analysisControllers/lastQuoteController";
 import LQSelectForm from '../../../pageComponents/LQDataForm/LQSelectForm';
+import HoldLQDataDisplay from '../../../pageComponents/LQDataForm/HoldLQDataDisplay';
 
 export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray, setLastQuoteArray }) {
     const navigate = useNavigate()
@@ -13,6 +14,10 @@ export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray
     const [last_updated, setLQlast_updated] = useState([]);
     const [midpoint, setMidpoint] = useState([]);
     const [timeframe, setLQtimeFrame] = useState([]);
+
+    const [hold_1, setHold1] = useState({});
+    const [hold_2, setHold2] = useState({});
+    const [hold_3, setHold3] = useState({});
 
     useEffect(() => {
         setAsk(last_quote.ask);
@@ -60,7 +65,7 @@ export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray
                 />
                 <button type='submit' onClick={_handleLastQuotehold}>Compare Data</button>
             </section>
-            <LQSelectForm
+            <HoldLQDataDisplay
                 _handleLastQuotehold={_handleLastQuotehold}
                 title={"Hold 1"}
                 ask={ask}
@@ -78,7 +83,7 @@ export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray
                 timeframe={timeframe}
                 setLQtimeFrame={setLQlast_updated}
             />
-            <LQSelectForm
+            <HoldLQDataDisplay
                 _handleLastQuotehold={_handleLastQuotehold}
                 title={"Hold 2"}
                 ask={ask}
@@ -96,7 +101,7 @@ export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray
                 timeframe={timeframe}
                 setLQtimeFrame={setLQlast_updated}
             />
-            <LQSelectForm
+            <HoldLQDataDisplay
                 _handleLastQuotehold={_handleLastQuotehold}
                 title={"Hold 3"}
                 ask={ask}

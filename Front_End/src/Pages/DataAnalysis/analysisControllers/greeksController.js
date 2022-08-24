@@ -31,7 +31,6 @@ const HandleGreeksSubmit = async ({ setGreeks, greeksArray, setGreeksArray, delt
         const response = await greeksApi.post('/greeks', newGreeks);
         const allGreeks = [...greeksArray, response.data];
         setGreeksArray(allGreeks);
-        setGreeks(response.data);
         setDelta('');
         setGamma('');
         setTheta('');

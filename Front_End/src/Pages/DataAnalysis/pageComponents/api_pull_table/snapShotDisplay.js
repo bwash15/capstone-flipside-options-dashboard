@@ -17,20 +17,20 @@ const SnapShotDisplay = ({ snapShot, snapShotLink, setSnapShotArray, snapShotArr
 
     const [resultsKeys, setResultsKeys] = useState(null);
 
-    useEffect(() => {
+    // useEffect(() => {
 
 
-        //handleAPIpull();
+    //     //handleAPIpull();
 
 
 
 
-        // sessionStorage.setItem("snapShotAPIpull", JSON.stringify(JsonOptionsData));
-        // sessionStorage.setItem("newSnapShotArray", JSON.stringify(snapShotArray));
-        // sessionStorage.setItem("SnapShot_results_keys", JSON.stringify(optionResultsKeys));
-        // sessionStorage.setItem("SnapShot_keys", JSON.stringify(optionKeys));
-        // sessionStorage.setItem("day", JSON.stringify(JsonOptionsData));
-    }, [snapShotLink]);
+    //     // sessionStorage.setItem("snapShotAPIpull", JSON.stringify(JsonOptionsData));
+    //     // sessionStorage.setItem("newSnapShotArray", JSON.stringify(snapShotArray));
+    //     // sessionStorage.setItem("SnapShot_results_keys", JSON.stringify(optionResultsKeys));
+    //     // sessionStorage.setItem("SnapShot_keys", JSON.stringify(optionKeys));
+    //     // sessionStorage.setItem("day", JSON.stringify(JsonOptionsData));
+    // }, [snapShotLink]);
 
     const pullSnapShot = async () => {
         const response = await snapShotsApi.get('')
@@ -76,12 +76,14 @@ const SnapShotDisplay = ({ snapShot, snapShotLink, setSnapShotArray, snapShotArr
                                 <DayData
                                     day={day}
                                     setDay={setDay}
+                                    snapShot={snapShot}
                                     dayDataArray={dayDataArray}
                                     setDayDataArray={setDayDataArray}
                                 />
                             </Tab.Pane>
                             <Tab.Pane eventKey="details">
                                 <DetailsData
+                                    snapShot={snapShot}
                                     details={details}
                                     setDetails={setDetails}
                                     detailsDataArray={detailsDataArray}

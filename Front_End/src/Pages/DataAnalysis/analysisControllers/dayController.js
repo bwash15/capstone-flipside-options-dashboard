@@ -19,7 +19,7 @@ const HandleGetDays = async ({ setDay }) => {
     }
 }
 
-const HandleDaySubmit = async ({ dayDataArray, setDayDataArray, setDay, change, setChange, changePercent, setChangePercent, close, setClose, high, setHigh, dayLastUpdated, setDayLastUpdated, low, setLow, open, setOpen, previousClose, setPreviousClose, volume, setVolume, vwap, setVwap }) => {
+const HandleDaySubmit = async ({ dayDataArray, setDayDataArray, change, setChange, changePercent, setChangePercent, close, setClose, high, setHigh, dayLastUpdated, setDayLastUpdated, low, setLow, open, setOpen, previousClose, setPreviousClose, volume, setVolume, vwap, setVwap }) => {
 
     const newDay = {
         change: change,
@@ -38,7 +38,6 @@ const HandleDaySubmit = async ({ dayDataArray, setDayDataArray, setDay, change, 
         const response = await dayApi.post('day', newDay);
         const allDay = [...dayDataArray, response.data];
         setDayDataArray(allDay);
-        setDay(response.data);
         setChange('');
         setPreviousClose('');
         setChangePercent('');

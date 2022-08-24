@@ -18,7 +18,7 @@ const HandleGetDetails = async ({ setDetails }) => {
     }
 }
 
-const HandleDetailsSubmit = async ({ details, setDetails, setDetailsDataArray, contract_type, exercise_style, expiration_date, shares_per_contract, strike_price, ticker, setContractType, setExerciseStyle, setExpirationDate, setSharesPerContract, setStrikePrice, setDetailsTicker }) => {
+const HandleDetailsSubmit = async ({ snapShot, details, setDetails, setDetailsDataArray, contract_type, exercise_style, expiration_date, shares_per_contract, strike_price, ticker, setContractType, setExerciseStyle, setExpirationDate, setSharesPerContract, setStrikePrice, setDetailsTicker }) => {
 
 
     const newDetails = {
@@ -34,7 +34,7 @@ const HandleDetailsSubmit = async ({ details, setDetails, setDetailsDataArray, c
         const response = await detailsApi.post('/details', newDetails);
         const allDetails = [...details, response.data];
         setDetailsDataArray(allDetails);
-        setDetails(response.data);
+
         setContractType('');
         setExerciseStyle('');
         setExpirationDate('');

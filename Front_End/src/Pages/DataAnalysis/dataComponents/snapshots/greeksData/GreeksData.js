@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GreeksSelectForm from '../../../pageComponents/greeksDataForm/GreeksSelectForm';
+import HoldGreeksDataDisplay from '../../../pageComponents/greeksDataForm/HoldGreeksDataDisplay';
 import { HandleGreeksSubmit } from '../../../analysisControllers/greeksController';
 
 
@@ -10,6 +11,10 @@ export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksAr
     const [gamma, setGamma] = useState([]);
     const [theta, setTheta] = useState([]);
     const [vega, setVega] = useState([]);
+
+    const [hold_1, setHold1] = useState({});
+    const [hold_2, setHold2] = useState({});
+    const [hold_3, setHold3] = useState({});
 
 
     useEffect(() => {
@@ -43,7 +48,7 @@ export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksAr
                 />
                 <button type='submit' onClick={_handleGreeksHold}>Compare Data</button>
             </section>
-            <GreeksSelectForm
+            <HoldGreeksDataDisplay
                 title={"Hold 1"}
                 _handleGreeksHold={_handleGreeksHold}
                 delta={delta}
@@ -55,7 +60,7 @@ export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksAr
                 vega={vega}
                 setVega={setVega}
             />
-            <GreeksSelectForm
+            <HoldGreeksDataDisplay
                 title={"Hold 2"}
                 _handleGreeksHold={_handleGreeksHold}
                 delta={delta}
@@ -67,7 +72,7 @@ export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksAr
                 vega={vega}
                 setVega={setVega}
             />
-            <GreeksSelectForm
+            <HoldGreeksDataDisplay
                 title={"Hold 3"}
                 _handleGreeksHold={_handleGreeksHold}
                 delta={delta}

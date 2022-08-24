@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import DaySelectForm from '../../../pageComponents/dayDataForm/DaySelectForm';
+import HoldDayDataDisplay from '../../../pageComponents/dayDataForm/HoldDayDataDisplay';
 import { HandleDaySubmit } from '../../../analysisControllers/dayController';
 import axios from 'axios';
 
-export default function DayData({ day, setDay, dayDataArray, setDayDataArray }) {
+export default function DayData({ snapShot, day, setDay, dayDataArray, setDayDataArray }) {
 
     const [change, setChange] = useState(0);
     const [change_percent, setChangePercent] = useState(0);
@@ -16,23 +17,37 @@ export default function DayData({ day, setDay, dayDataArray, setDayDataArray }) 
     const [volume, setVolume] = useState(0);
     const [vwap, setVwap] = useState(0);
 
+
+
+    const [hold_1, setHold1] = useState({});
+    const [hold_2, setHold2] = useState({});
+    const [hold_3, setHold3] = useState({});
+
+
     useEffect(() => {
-        setChange(day.change);
-        setChangePercent(day.change_percent);
-        setClose(day.close);
-        setHigh(day.high);
-        setLast_updated(day.last_updated);
-        setLow(day.low);
-        setOpen(day.open);
-        setPreviousClose(day.previous_close);
-        setVolume(day.volume);
-        setVwap(day.vwap);
+        setChange(snapShot.results.day.change);
+        setChangePercent(snapShot.results.day.change_percent);
+        setClose(snapShot.results.day.close);
+        setHigh(snapShot.results.day.high);
+        setLast_updated(snapShot.results.day.last_updated);
+        setLow(snapShot.results.day.low);
+        setOpen(snapShot.results.day.open);
+        setPreviousClose(snapShot.results.day.previous_close);
+        setVolume(snapShot.results.day.volume);
+        setVwap(snapShot.results.day.vwap);
+
         console.log(`${change}\n${change_percent}\n${close}\n${high}\n${last_updated}\n${low}\n${open}\n${previous_close}\n${volume}\n${vwap}`);
-    }, [day])
+    }, [snapShot])
 
     const _handleDayHold = async (e) => {
         e.preventDefault();
-        await HandleDaySubmit({ dayDataArray, setDayDataArray, setDay, change, setChange, change_percent, setChangePercent, close, setClose, high, setHigh, last_updated, setLast_updated, low, setLow, open, setOpen, previous_close, setPreviousClose, volume, setVolume, vwap, setVwap })
+        const allDay = [...dayDataArray, day];
+        setDayDataArray(allDay);
+
+    }
+    const _handleDaySaveToDB = async (e) => {
+        e.preventDefault();
+        await HandleDaySubmit({ dayDataArray, setDayDataArray, change, setChange, change_percent, setChangePercent, close, setClose, high, setHigh, last_updated, setLast_updated, low, setLow, open, setOpen, previous_close, setPreviousClose, volume, setVolume, vwap, setVwap })
 
     }
 
@@ -78,8 +93,9 @@ export default function DayData({ day, setDay, dayDataArray, setDayDataArray }) 
                 />
                 <button type='submit' onClick={_handleDayHold}>Compare Data</button>
             </section>
-            <DaySelectForm
+            <HoldDayDataDisplay
                 title={"Hold 1"}
+                dayDataArray={dayDataArray}
                 _handleDayHold={_handleDayHold}
                 change={change}
                 setChange={setChange}
@@ -102,7 +118,7 @@ export default function DayData({ day, setDay, dayDataArray, setDayDataArray }) 
                 vwap={vwap}
                 setVwap={setVwap}
             />
-            <DaySelectForm
+            <HoldDayDataDisplay
                 title={"Hold 2"}
                 _handleDayHold={_handleDayHold}
                 change={change}
@@ -126,7 +142,7 @@ export default function DayData({ day, setDay, dayDataArray, setDayDataArray }) 
                 vwap={vwap}
                 setVwap={setVwap}
             />
-            <DaySelectForm
+            <HoldDayDataDisplay
                 title={"Hold 3"}
                 _handleDayHold={_handleDayHold}
                 change={change}
@@ -154,4 +170,6 @@ export default function DayData({ day, setDay, dayDataArray, setDayDataArray }) 
         </article>
     )
 }
+
+
 

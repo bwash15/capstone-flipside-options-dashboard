@@ -5,12 +5,12 @@ const DetailsSelectForm = ({ title, contract_type, exercise_style, expiration_da
         <article>
             <form className='detailsDataForm' >
                 <h4>{title}</h4>
-                <p className='postBody'>{'Ctrt Type - [ ' + contract_type + ' ]'}</p>
-                <p className='postBody'>{'Exsz Styl - [ ' + exercise_style + ' ]'}</p>
-                <p className='postBody'>{'Exp Date - [ ' + expiration_date + ' ]'}</p>
-                <p className='postBody'>{'Shrs Per - [ ' + shares_per_contract + ' ]'}</p>
-                <p className='postBody'>{'Strk Prc - [ ' + strike_price + ' ]'}</p>
-                <p className='postBody'>{'Ticker - [ ' + ticker + ' ]'}</p>
+                <p className='postBody'>{'Ctrt Type [ ' + contract_type + ' ]'}</p>
+                <p className='postBody'>{'Exsz Styl [ ' + exercise_style + ' ]'}</p>
+                <p className='postBody'>{'Exp Date [ ' + expiration_date + ' ]'}</p>
+                <p className='postBody'>{'Shrs Per [ ' + shares_per_contract + ' ]'}</p>
+                <p className='postBody'>{'Strk Prc [ ' + strike_price + ' ]'}</p>
+                <p className='postBody'>{'Ticker [ ' + ticker + ' ]'}</p>
 
             </form>
         </article>

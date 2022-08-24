@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HandleGetUnderlyingAsset, HandleUnderlyingAssetSubmit, HandleUnderlyingAssetEdit, HandleUnderlyingAssetDelete } from '../../../analysisControllers/ULassetController';
 import ULASelectForm from '../../../pageComponents/ULADataform/ULASelectForm';
+import HoldULADataDisplay from '../../../pageComponents/ULADataform/HoldULADataDisplay';
 
 
 export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataArray, setULDataArray }) {
@@ -11,6 +12,10 @@ export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataAr
     const [price, setPrice] = useState(0);
     const [ticker, setULTicker] = useState('');
     const [timeframe, setULTimeFrame] = useState('');
+
+    const [hold_1, setHold1] = useState({});
+    const [hold_2, setHold2] = useState({});
+    const [hold_3, setHold3] = useState({});
 
     useEffect(() => {
         setChangeToBreakEven(underlying_asset.change_to_break_even);
@@ -47,7 +52,7 @@ export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataAr
                 />
                 <button type='submit' onClick={_handleULAHold}>Compare Data</button>
             </section>
-            <ULASelectForm
+            <HoldULADataDisplay
                 title={"Hold 1"}
                 change_to_break_even={change_to_break_even}
                 last_updated={last_updated}
@@ -55,7 +60,7 @@ export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataAr
                 ticker={ticker}
                 timeframe={timeframe}
             />
-            <ULASelectForm
+            <HoldULADataDisplay
                 title={"Hold 2"}
                 change_to_break_even={change_to_break_even}
                 last_updated={last_updated}
@@ -63,7 +68,7 @@ export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataAr
                 ticker={ticker}
                 timeframe={timeframe}
             />
-            <ULASelectForm
+            <HoldULADataDisplay
                 title={"Hold 3"}
                 change_to_break_even={change_to_break_even}
                 last_updated={last_updated}

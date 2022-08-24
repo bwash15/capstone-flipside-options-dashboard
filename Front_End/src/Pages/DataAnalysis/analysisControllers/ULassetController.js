@@ -30,7 +30,6 @@ const HandleUnderlyingAssetSubmit = async ({ setUnderlyingAsset, ULDataArray, se
     try {
         const response = await underlying_assetApi.post('/underlying_asset', newUnderlyingAsset);
         const allUnderlyingAsset = [...ULDataArray, response.data];
-        setUnderlyingAsset(response.data);
         setULDataArray(allUnderlyingAsset);
         setChangeToBreakEven('');
         setULlastUpdated('');
