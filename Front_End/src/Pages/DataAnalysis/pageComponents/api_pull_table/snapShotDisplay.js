@@ -92,6 +92,7 @@ const SnapShotDisplay = ({ snapShot, snapShotLink, setSnapShotArray, snapShotArr
                             </Tab.Pane>
                             <Tab.Pane eventKey="greeks">
                                 <GreeksData
+                                    snapShot={snapShot}
                                     greeks={greeks}
                                     setGreeks={setGreeks}
                                     greeksArray={greeksArray}
@@ -100,6 +101,7 @@ const SnapShotDisplay = ({ snapShot, snapShotLink, setSnapShotArray, snapShotArr
                             </Tab.Pane>
                             <Tab.Pane eventKey="last_quote">
                                 <LastQuoteData
+                                    snapShot={snapShot}
                                     last_quote={last_quote}
                                     setLastQuote={setLastQuote}
                                     lastQuoteArray={lastQuoteArray}
@@ -108,6 +110,7 @@ const SnapShotDisplay = ({ snapShot, snapShotLink, setSnapShotArray, snapShotArr
                             </Tab.Pane>
                             <Tab.Pane eventKey="underlying_asset">
                                 <UlaData
+                                    snapShot={snapShot}
                                     underlying_asset={underlying_asset}
                                     setUnderlyingAsset={setUnderlyingAsset}
                                     ULDataArray={ULDataArray}

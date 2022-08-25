@@ -4,7 +4,7 @@ import HoldGreeksDataDisplay from '../../../pageComponents/greeksDataForm/HoldGr
 import { HandleGreeksSubmit } from '../../../analysisControllers/greeksController';
 
 
-export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksArray }) {
+export default function GreeksData({ snapShot, greeks, setGreeks, greeksArray, setGreeksArray }) {
 
     const [title, setTitle] = useState("")
     const [delta, setDelta] = useState([]);
@@ -18,12 +18,12 @@ export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksAr
 
 
     useEffect(() => {
-        setDelta(greeks.delta);
-        setGamma(greeks.gamma);
-        setTheta(greeks.theta);
-        setVega(greeks.vega);
+        setDelta(snapShot.results.greeks.delta);
+        setGamma(snapShot.results.greeks.gamma);
+        setTheta(snapShot.results.greeks.theta);
+        setVega(snapShot.results.greeks.vega);
         console.log(`${delta}\n${gamma}\n${theta}\n${vega}`);
-    }, [greeks])
+    }, [snapShot])
 
     const _handleGreeksHold = async (e) => {
         e.preventDefault();
@@ -34,19 +34,25 @@ export default function GreeksData({ greeks, setGreeks, greeksArray, setGreeksAr
     return (
         <article className='greeksDataGrid'>
             <section>
-                <GreeksSelectForm
-                    title={"Greeks"}
-                    _handleGreeksHold={_handleGreeksHold}
-                    delta={delta}
-                    setDelta={setDelta}
-                    gamma={gamma}
-                    setGamma={setGamma}
-                    theta={theta}
-                    setTheta={setTheta}
-                    vega={vega}
-                    setVega={setVega}
-                />
-                <button type='submit' onClick={_handleGreeksHold}>Compare Data</button>
+                {greeks.length ? (
+                    <GreeksSelectForm
+                        title={"Greeks"}
+                        _handleGreeksHold={_handleGreeksHold}
+                        delta={delta}
+                        setDelta={setDelta}
+                        gamma={gamma}
+                        setGamma={setGamma}
+                        theta={theta}
+                        setTheta={setTheta}
+                        vega={vega}
+                        setVega={setVega}
+                    />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>
+                        No Day Data to display
+                    </p>
+                )}
+                <button type='submit' onClick={_handleGreeksHold}>Hold Data</button>
             </section>
             <HoldGreeksDataDisplay
                 title={"Hold 1"}

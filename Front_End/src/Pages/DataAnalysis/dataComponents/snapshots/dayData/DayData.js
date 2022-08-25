@@ -43,7 +43,7 @@ export default function DayData({ snapShot, day, setDay, dayDataArray, setDayDat
         e.preventDefault();
         const allDay = [...dayDataArray, day];
         setDayDataArray(allDay);
-
+        console.log(JSON.stringify(allDay))
     }
     const _handleDaySaveToDB = async (e) => {
         e.preventDefault();
@@ -67,31 +67,38 @@ export default function DayData({ snapShot, day, setDay, dayDataArray, setDayDat
     return (
         <article className='dayDataGrid'>
             <section>
-                <DaySelectForm
-                    title={"Day"}
-                    _handleDayHold={_handleDayHold}
-                    change={change}
-                    setChange={setChange}
-                    change_percent={change_percent}
-                    setChangePercent={setChangePercent}
-                    close={close}
-                    setClose={setClose}
-                    high={high}
-                    setHigh={high}
-                    last_updated={last_updated}
-                    setLast_updated={setLast_updated}
-                    low={low}
-                    setLow={setLow}
-                    open={open}
-                    setOpen={setOpen}
-                    previous_close={previous_close}
-                    setPreviousClose={setPreviousClose}
-                    volume={volume}
-                    setVolume={setVolume}
-                    vwap={vwap}
-                    setVwap={setVwap}
-                />
-                <button type='submit' onClick={_handleDayHold}>Compare Data</button>
+                {day.length ? (
+                    <DaySelectForm
+                        title={"Day"}
+                        _handleDayHold={_handleDayHold}
+                        change={change}
+                        setChange={setChange}
+                        change_percent={change_percent}
+                        setChangePercent={setChangePercent}
+                        close={close}
+                        setClose={setClose}
+                        high={high}
+                        setHigh={high}
+                        last_updated={last_updated}
+                        setLast_updated={setLast_updated}
+                        low={low}
+                        setLow={setLow}
+                        open={open}
+                        setOpen={setOpen}
+                        previous_close={previous_close}
+                        setPreviousClose={setPreviousClose}
+                        volume={volume}
+                        setVolume={setVolume}
+                        vwap={vwap}
+                        setVwap={setVwap}
+                    />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>
+                        No Day Data to display
+                    </p>
+                )}
+
+                <button type='submit' onClick={_handleDayHold}>Hold Data</button>
             </section>
             <HoldDayDataDisplay
                 title={"Hold 1"}

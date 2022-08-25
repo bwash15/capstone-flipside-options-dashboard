@@ -113,29 +113,31 @@ function DataAnalysis() {
 
 
 
-  // useEffect(() => {
-  //   async function loadAppData() {
-  //     const response = await fetch(snapShotLink);
-  //     const data = await response.json();
-  //     const jsonData = JSON.stringify(data);
-  //     console.log(`Response Data: ${jsonData}}`);
-  //     sessionStorage.setItem("_snapShots", JSON.stringify(data));
-  //     console.log(`Results Data: ${JSON.stringify(data.results)}`);
-  //     console.log(`Day Data: ${JSON.stringify(data.results.day)}`);
-  //     console.log(`Details Data: ${JSON.stringify(data.results.details)}`);
-  //     console.log(`Greeks Data: ${JSON.stringify(data.results.greeks)}`);
-  //     console.log(`LQ Data: ${JSON.stringify(data.results.last_quote)}`);
-  //     console.log(`ULA Data: ${JSON.stringify(data.results.underlying_asset)}`);
-  //     setSnapShot(data);
-  //     console.log(`SnapShot Data:  ${JSON.stringify(snapShot)}`);
-  //   }
-  //   loadAppData()
-  //   // {
-  //   //   setInterval(() => {
-  //   //     loadAppData()
-  //   //   }, 90000)
-  //   // }
-  // }, [])
+  useEffect(() => {
+    console.log("Running Analysis LoadAppData...")
+    async function loadAppData() {
+      const response = await fetch(snapShotLink);
+      const data = await response.json();
+      const jsonData = JSON.stringify(data);
+      console.log(`Response Data: ${jsonData}}`);
+      sessionStorage.setItem("_snapShots", JSON.stringify(data));
+      console.log(`Results Data: ${JSON.stringify(data.results)}`);
+      console.log(`Request_ID: ${JSON.stringify(data.request_id)}`);
+      console.log(`Day Data: ${JSON.stringify(data.results.day)}`);
+      console.log(`Details Data: ${JSON.stringify(data.results.details)}`);
+      console.log(`Greeks Data: ${JSON.stringify(data.results.greeks)}`);
+      console.log(`LQ Data: ${JSON.stringify(data.results.last_quote)}`);
+      console.log(`ULA Data: ${JSON.stringify(data.results.underlying_asset)}`);
+      setSnapShot(data);
+    }
+    loadAppData()
+    // {
+    //   setInterval(() => {
+    //     loadAppData()
+    //   }, 90000)
+    // }
+  }, [])
+  console.log(`SnapShot Data:  ${snapShot}`);
 
 
   const [singleProps, setSingleProps] = useState({

@@ -5,7 +5,7 @@ import ULASelectForm from '../../../pageComponents/ULADataform/ULASelectForm';
 import HoldULADataDisplay from '../../../pageComponents/ULADataform/HoldULADataDisplay';
 
 
-export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataArray, setULDataArray }) {
+export default function UlaData({ snapShot, underlying_asset, setUnderlyingAsset, ULDataArray, setULDataArray }) {
     const navigate = useNavigate()
     const [change_to_break_even, setChangeToBreakEven] = useState(0);
     const [last_updated, setULlastUpdated] = useState('');
@@ -18,13 +18,13 @@ export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataAr
     const [hold_3, setHold3] = useState({});
 
     useEffect(() => {
-        setChangeToBreakEven(underlying_asset.change_to_break_even);
-        setULlastUpdated(underlying_asset.last_updated);
-        setPrice(underlying_asset.price);
-        setULTicker(underlying_asset.ticker);
-        setULTimeFrame(underlying_asset.timeframe);
+        setChangeToBreakEven(snapShot.results.underlying_asset.change_to_break_even);
+        setULlastUpdated(snapShot.results.underlying_asset.last_updated);
+        setPrice(snapShot.results.underlying_asset.price);
+        setULTicker(snapShot.results.underlying_asset.ticker);
+        setULTimeFrame(snapShot.results.underlying_asset.timeframe);
         console.log(`${change_to_break_even}\n${last_updated}\n${price}\n${ticker}\n${timeframe}`);
-    }, [underlying_asset])
+    }, [snapShot])
 
 
 
@@ -42,15 +42,21 @@ export default function UlaData({ underlying_asset, setUnderlyingAsset, ULDataAr
     return (
         <article className='ULADataGrid'>
             <section>
-                <ULASelectForm
-                    title={"ULA Data"}
-                    change_to_break_even={change_to_break_even}
-                    last_updated={last_updated}
-                    price={price}
-                    ticker={ticker}
-                    timeframe={timeframe}
-                />
-                <button type='submit' onClick={_handleULAHold}>Compare Data</button>
+                {underlying_asset.length ? (
+                    <ULASelectForm
+                        title={"ULA Data"}
+                        change_to_break_even={change_to_break_even}
+                        last_updated={last_updated}
+                        price={price}
+                        ticker={ticker}
+                        timeframe={timeframe}
+                    />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>
+                        No Day Data to display
+                    </p>
+                )}
+                <button type='submit' onClick={_handleULAHold}>Hold Data</button>
             </section>
             <HoldULADataDisplay
                 title={"Hold 1"}

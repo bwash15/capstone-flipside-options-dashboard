@@ -4,7 +4,7 @@ import { HandleGetLastQuote, HandleLastQuoteSubmit, HandleLastQuoteEdit, HandleL
 import LQSelectForm from '../../../pageComponents/LQDataForm/LQSelectForm';
 import HoldLQDataDisplay from '../../../pageComponents/LQDataForm/HoldLQDataDisplay';
 
-export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray, setLastQuoteArray }) {
+export default function LastQuoteData({ snapShot, last_quote, setLastQuote, lastQuoteArray, setLastQuoteArray }) {
     const navigate = useNavigate()
 
     const [ask, setAsk] = useState([]);
@@ -20,15 +20,15 @@ export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray
     const [hold_3, setHold3] = useState({});
 
     useEffect(() => {
-        setAsk(last_quote.ask);
-        setAskSize(last_quote.ask_size);
-        setBid(last_quote.bid);
-        setBidSize(last_quote.bid_size);
-        setLQlast_updated(last_quote.last_updated);
-        setMidpoint(last_quote.midpoint);
-        setLQtimeFrame(last_quote.timeframe);
+        setAsk(snapShot.results.last_quote.ask);
+        setAskSize(snapShot.results.last_quote.ask_size);
+        setBid(snapShot.results.last_quote.bid);
+        setBidSize(snapShot.results.last_quote.bid_size);
+        setLQlast_updated(snapShot.results.last_quote.last_updated);
+        setMidpoint(snapShot.results.last_quote.midpoint);
+        setLQtimeFrame(snapShot.results.last_quote.timeframe);
         console.log(`${ask}\n${ask_size}\n${bid}\n${bid_size}\n${last_updated}\n${midpoint}\n${timeframe}`);
-    }, [last_quote])
+    }, [snapShot])
 
 
     const _handleGetLastQuote = async (e) => {
@@ -45,25 +45,31 @@ export default function LastQuoteData({ last_quote, setLastQuote, lastQuoteArray
     return (
         <article className='lastQuoteDataGrid'>
             <section>
-                <LQSelectForm
-                    _handleLastQuotehold={_handleLastQuotehold}
-                    title={"LQ Data"}
-                    ask={ask}
-                    setAsk={setAsk}
-                    ask_size={ask_size}
-                    setAskSize={setAskSize}
-                    bid={bid}
-                    setBid={setBid}
-                    bid_size={bid_size}
-                    setBidSize={setBidSize}
-                    last_updated={last_updated}
-                    setLQlast_updated={setLQlast_updated}
-                    midpoint={midpoint}
-                    setMidpoint={setMidpoint}
-                    timeframe={timeframe}
-                    setLQtimeFrame={setLQlast_updated}
-                />
-                <button type='submit' onClick={_handleLastQuotehold}>Compare Data</button>
+                {last_quote.length ? (
+                    <LQSelectForm
+                        _handleLastQuotehold={_handleLastQuotehold}
+                        title={"LQ Data"}
+                        ask={ask}
+                        setAsk={setAsk}
+                        ask_size={ask_size}
+                        setAskSize={setAskSize}
+                        bid={bid}
+                        setBid={setBid}
+                        bid_size={bid_size}
+                        setBidSize={setBidSize}
+                        last_updated={last_updated}
+                        setLQlast_updated={setLQlast_updated}
+                        midpoint={midpoint}
+                        setMidpoint={setMidpoint}
+                        timeframe={timeframe}
+                        setLQtimeFrame={setLQlast_updated}
+                    />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>
+                        No Day Data to display
+                    </p>
+                )}
+                <button type='submit' onClick={_handleLastQuotehold}>Hold Data</button>
             </section>
             <HoldLQDataDisplay
                 _handleLastQuotehold={_handleLastQuotehold}

@@ -35,23 +35,29 @@ export default function DetailsData({ snapShot, details, setDetails, detailsData
     return (
         <article className='detailsDataGrid'>
             <section>
-                <DetailsSelectForm
-                    title={"Details"}
-                    _handleDetailsHold={_handleDetailsHold}
-                    contract_type={contract_type}
-                    setContractType={setContractType}
-                    exercise_style={exercise_style}
-                    setExerciseStyle={setExerciseStyle}
-                    expiration_date={expiration_date}
-                    setExpirationDate={setExpirationDate}
-                    shares_per_contract={shares_per_contract}
-                    setSharesPerContract={setSharesPerContract}
-                    strike_price={strike_price}
-                    setStrikePrice={setStrikePrice}
-                    ticker={ticker}
-                    setTicker={setDetailsTicker}
-                />
-                <button type='submit' onClick={_handleDetailsHold}>Compare Data</button>
+                {details.length ? (
+                    <DetailsSelectForm
+                        title={"Details"}
+                        _handleDetailsHold={_handleDetailsHold}
+                        contract_type={contract_type}
+                        setContractType={setContractType}
+                        exercise_style={exercise_style}
+                        setExerciseStyle={setExerciseStyle}
+                        expiration_date={expiration_date}
+                        setExpirationDate={setExpirationDate}
+                        shares_per_contract={shares_per_contract}
+                        setSharesPerContract={setSharesPerContract}
+                        strike_price={strike_price}
+                        setStrikePrice={setStrikePrice}
+                        ticker={ticker}
+                        setTicker={setDetailsTicker}
+                    />
+                ) : (
+                    <p style={{ marginTop: "2rem" }}>
+                        No Details Data to display
+                    </p>
+                )}
+                <button type='submit' onClick={_handleDetailsHold}>Hold Data</button>
             </section>
             <HoldDetailsDataDisplay
                 title={"Hold 1"}
